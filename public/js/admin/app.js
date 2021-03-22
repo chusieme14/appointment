@@ -80639,7 +80639,7 @@ module.exports = function(module) {
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _src_router_index__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./src/router/index */ "./resources/js/admin/src/router/index.js");
-/* harmony import */ var _src_plugin_vuetify__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./src/plugin/vuetify */ "./resources/js/admin/src/plugin/vuetify/index.js");
+/* harmony import */ var _src_plugin_vuetify_index__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./src/plugin/vuetify/index */ "./resources/js/admin/src/plugin/vuetify/index.js");
 __webpack_require__(/*! ../bootstrap */ "./resources/js/bootstrap.js");
 
 window.Vue = __webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.common.js");
@@ -80649,7 +80649,7 @@ Vue.component('main-app', __webpack_require__(/*! @admin/layout/App.vue */ "./re
 var app = new Vue({
   el: '#app',
   router: _src_router_index__WEBPACK_IMPORTED_MODULE_0__["default"],
-  vuetify: _src_plugin_vuetify__WEBPACK_IMPORTED_MODULE_1__["default"]
+  vuetify: _src_plugin_vuetify_index__WEBPACK_IMPORTED_MODULE_1__["default"]
 });
 
 /***/ }),
