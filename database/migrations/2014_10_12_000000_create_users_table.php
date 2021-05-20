@@ -17,9 +17,10 @@ class CreateUsersTable extends Migration
             $table->id();
             $table->string('lastname');
             $table->string('firstname');
-            $table->boolean('isstudent');
-            $table->string('student_number')->nullable();
-            $table->string('course');
+            $table->unsignedBigInteger('department_id');
+            // $table->boolean('isstudent');
+            // $table->string('student_number')->nullable();
+            // $table->string('course');
             $table->string('email')->unique();
             $table->timestamp('email_verified_at')->nullable();
             $table->string('username');

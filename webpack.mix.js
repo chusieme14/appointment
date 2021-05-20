@@ -5,7 +5,7 @@ mix.webpackConfig({
        extensions: ['.js', '.vue', '.ts'],
        alias: {
           '@admin': path.resolve(__dirname, 'resources/js/admin/src'),
-          '@user': path.resolve(__dirname, 'resources/js/user/src')
+          '@front': path.resolve(__dirname, 'resources/js/front/src')
        }
     }
  });
@@ -26,5 +26,7 @@ mix
 
 // mix.js('resources/js/app.js', 'public/js')
 //     .postCss('resources/css/app.css', 'public/css', [
-//         //
-//     ]);
+   //         //
+   //     ]);
+mix
+.js('resources/js/front/app.js', 'js/front')

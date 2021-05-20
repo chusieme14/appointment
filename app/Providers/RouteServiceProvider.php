@@ -38,6 +38,15 @@ class RouteServiceProvider extends ServiceProvider
         $this->configureRateLimiting();
 
         $this->routes(function () {
+            Route::prefix('admin')
+            ->middleware('web')
+            ->namespace($this->namespace)
+            ->group(base_path('routes/web_admin.php'));
+
+            Route::prefix('user')
+            ->namespace($this->namespace)
+            ->group(base_path('routes/front.php'));
+
             Route::prefix('api')
                 ->middleware('api')
                 ->namespace($this->namespace)
@@ -48,7 +57,6 @@ class RouteServiceProvider extends ServiceProvider
                 ->group(base_path('routes/web.php'));
         });
     }
-
     /**
      * Configure the rate limiters for the application.
      *

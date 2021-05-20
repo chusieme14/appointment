@@ -12,8 +12,14 @@ const router = new Router({
 
     routes: [
         {
-            path:'/',
-            component: () => import('@admin/pages/dashboard/index.vue')
+            path:'/admin/dashboard',
+            component: () => import('@admin/pages/dashboard/index.vue'),
+            name:'dashboard'
+        },
+        {
+            path:'/admin/appointment',
+            component: () => import('@admin/pages/appointment/index.vue'),
+            name:'appointment'
         }
     ]
 })
