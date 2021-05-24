@@ -12,14 +12,25 @@ const router = new Router({
 
     routes: [
         {
-            path:'/admin/dashboard',
-            component: () => import('@admin/pages/dashboard/index.vue'),
-            name:'dashboard'
+            path:'/',
+            component: () => import('@admin/layout/App.vue'),
+            children:[
+                {
+                    path:'admin/dashboard',
+                    component: () => import('@admin/pages/dashboard/index.vue'),
+                    name:'dashboard'
+                },
+                {
+                    path:'admin/appointment',
+                    component: () => import('@admin/pages/appointment/index.vue'),
+                    name:'appointment'
+                }
+            ]
         },
         {
-            path:'/admin/appointment',
-            component: () => import('@admin/pages/appointment/index.vue'),
-            name:'appointment'
+            path:'/admin/login',
+            component: () => import('@admin/layout/login.vue'),
+            name:'login'
         }
     ]
 })

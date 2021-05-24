@@ -28,7 +28,7 @@
 
                 <template v-slot:append>
                     <div class="pa-2">
-                        <v-btn block>
+                        <v-btn @click="logout" block>
                             Logout
                         </v-btn>
                     </div>
@@ -43,12 +43,10 @@
 <script>
 import MainHeader from './header'
 import Navbar from './navbar'
-import MainFooter from './footer'
 export default {
     components:{
         MainHeader,
-        Navbar,
-        MainFooter
+        Navbar
     },
     data(){
         return{
@@ -57,6 +55,13 @@ export default {
                 { title: 'Appointment', icon: 'mdi-account-box', name:'appointment' },
                 { title: 'Admin', icon: 'mdi-gavel' },
             ],
+        }
+    },
+    methods:{
+        logout(){
+            this.axios.get(`api/logout`).then(({data})=>{
+                this.$router.push({name:'login'})
+            })
         }
     },
     computed:{
