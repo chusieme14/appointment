@@ -31,6 +31,9 @@
                                                 color="success"
                                             ></v-text-field>
                                         </v-flex>
+                                        <v-flex class="class-text" md10>
+                                            <small v-if="iserror" class="errormessege">Invalid email or password</small>
+                                        </v-flex>
                                     </v-layout>
                                 </v-card-text>
                                 <v-card-actions>
@@ -50,21 +53,29 @@ export default {
     data(){
         return{
             credential:{},
-            isloading:false
+            isloading:false,
+            iserror:false
         }
     },
     methods:{
         login(){
             this.isloading=true
             let payload = this.credential
-            axios.post(`/api/login`,{...payload}).then(({data})=>{
-                if(!data.error_message){
-                    this.$router.push({name:'dashboard'})
-                }
-            })
-            .finally(()=>{
-                this.isloading = false
-            })
+            // axios.get('/sanctum/csrf-cookie').then(response => {
+                axios.post(`/admin/api/loginrequest`,{...payload}).then(({data})=>{
+                    if(!data.error_message){
+                        this.$router.push({name:'dashboard'})
+                    }else {
+                        this.iserror = true
+                        setTimeout(() => {
+                            this.iserror = false
+                        }, 5000);
+                    }
+                })
+                .finally(()=>{
+                    this.isloading = false
+                })
+            // })
         }
     }
 }
@@ -77,7 +88,10 @@ export default {
     // -moz-box-shadow: 0px 0px 9px 1px rgba(0,0,0,0.42);
     // padding: 55px;
 }
-.class-container{
-   
+.class-text{
+    margin-top: -30px;
+    .errormessege{
+        color: red;
+    }
 }
 </style>

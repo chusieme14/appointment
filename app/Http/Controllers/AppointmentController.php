@@ -21,4 +21,7 @@ class AppointmentController extends Controller
 
         Appointment::create($request->toArray());
     }
+    public function getAllAppointments($id){
+        return Appointment::with('department')->get();
+    }
 }

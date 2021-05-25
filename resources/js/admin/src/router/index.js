@@ -1,3 +1,4 @@
+import Axios from 'axios'
 import Vue from 'vue'
 import Router from 'vue-router'
 
@@ -14,6 +15,7 @@ const router = new Router({
         {
             path:'/',
             component: () => import('@admin/layout/App.vue'),
+            meta:{ requiresAuth:true },
             children:[
                 {
                     path:'admin/dashboard',
@@ -34,5 +36,24 @@ const router = new Router({
         }
     ]
 })
+router.beforeEach((to, from, next) => {
+    Axios.get(`/admin/api/checkuser`).then(({data})=>{
+        if (to.matched.some(record => record.meta.requiresAuth)) {
+          // this route requires auth, check if logged in
+          // if not, redirect to login page.
+          console.log(data,"jshdjshdjdh")
+          if (!data) {
+            next({
+              name: 'login',
+              query: { redirect: to.fullPath }
+            })
+          } else {
+            next()
+          }
+        } else {
+          next() // make sure to always call next()!
+        }
+    })
+  })
 
 export default router

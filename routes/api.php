@@ -14,7 +14,6 @@ use App\Http\Controllers\AuthController;
 | is assigned the "api" middleware group. Enjoy building your API!
 |
 */
-Route::post('/login',[AuthController::class,'login']);
 
 Route::group(['middleware'=>['auth:api']],function(){
     Route::get('/logout',[AuthController::class,'logout']);

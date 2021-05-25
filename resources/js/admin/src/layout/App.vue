@@ -59,7 +59,7 @@ export default {
     },
     methods:{
         logout(){
-            this.axios.get(`api/logout`).then(({data})=>{
+            axios.get(`api/logout`).then(({data})=>{
                 this.$router.push({name:'login'})
             })
         }

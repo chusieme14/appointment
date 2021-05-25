@@ -15,6 +15,10 @@ class DepartmentSeeder extends Seeder
     public function run()
     {
         Department::create([
+            'name'=>'MIT',
+            'short_name'=>'MIT'
+        ]);
+        Department::create([
             'name'=>'College of Engineering and Teachnology',
             'short_name'=>'CET'
         ]);
