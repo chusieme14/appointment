@@ -12,12 +12,12 @@
                     <v-flex class="class-form" xs12 md5>
                         <v-card
                             elevation="2"
-                            loading="false"
+                            :loading="issending"
                         >
                             <v-card-title>
                                 <v-avatar
                                     color="grey lighten-2"
-                                    size="60"
+                                    size="70"
                                 >
                                     <v-img
                                         max-height="150"
@@ -72,6 +72,7 @@
                                             v-validate="'required'" 
                                             name="mobile number"
                                             solo
+                                            type="number"
                                             color="success"
                                             dense
                                         ></v-text-field>
@@ -97,13 +98,13 @@
                                             name="appointment date"
                                             color="success"
                                             v-bind="attrs"
-                                            @blur="date = parseDate(dateFormatted)"
                                             v-on="on"
                                             ></v-text-field>
                                         </template>
                                         <v-date-picker
                                             v-model="form.appt_date"
                                             no-title
+                                            :min="currentDate"
                                             @input="menu1 = false"
                                         ></v-date-picker>
                                         </v-menu>
@@ -174,6 +175,7 @@ export default {
     data(){
         return{
             form:{},
+            issending:false,
             departments:[
                 {
                     id:0,
@@ -189,6 +191,7 @@ export default {
                 },
             ],
             menu1:false,
+            mindate:new Date().toString(),
         }
     },
     methods:{
@@ -198,21 +201,38 @@ export default {
             })
         },
         storeAppointment(){
+            this.form.status = 0
             this.$validator.validateAll().then( result =>{
                 if(result){
+                    this.issending = true 
                     let payload = this.form
                     console.log(payload,"sjdhsjdhsjdh")
                     axios.post('user/appointment/store',{...payload}).then(({data})=>{
-                    
+                        this.$toast.open({ message: "Details already send to your email", position: 'top-right', type: "success", duration: 5000})
+                        this.clear()
+                        this.issending = false
                     })
                 }
     
             })
+        },
+        clear(){
+            this.form = {}
         }
     },
     created(){
         this.getalldepartments()
     },
+    computed:{
+        currentDate(){
+            let d = new Date();
+            let ye = new Intl.DateTimeFormat('en', { year: 'numeric' }).format(d);
+            let mo = new Intl.DateTimeFormat('en', { month: '2-digit' }).format(d);
+            let da = new Intl.DateTimeFormat('en', { day: '2-digit' }).format(d);
+            console.log(mo)
+            return `${ye}-${mo}-${da}`;
+        }
+    }
 
 }
 </script>

@@ -4,10 +4,11 @@
           elevation="1"
         >
           <v-card-title>
-            Appointments
+            For Approval
           </v-card-title>
           <v-card-text>
-            <v-simple-table>
+            <v-simple-table
+            >
           <template v-slot:default>
             <thead>
               <tr>
@@ -87,6 +88,7 @@ export default {
       getAppointments(){
         this.isfetching = true
         axios.get(`/admin/appointment/${this.user.id}`).then(({data})=>{
+          console.log(data,"appointment")
           this.appointments = data
           this.isfetching = false
         })

@@ -64,7 +64,7 @@ export default {
             // axios.get('/sanctum/csrf-cookie').then(response => {
                 axios.post(`/admin/api/loginrequest`,{...payload}).then(({data})=>{
                     if(!data.error_message){
-                        this.$router.push({name:'dashboard'})
+                        this.$router.push({name:'waiting'})
                     }else {
                         this.iserror = true
                         setTimeout(() => {

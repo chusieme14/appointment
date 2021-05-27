@@ -18,13 +18,13 @@ const router = new Router({
             meta:{ requiresAuth:true },
             children:[
                 {
-                    path:'admin/dashboard',
-                    component: () => import('@admin/pages/dashboard/index.vue'),
-                    name:'dashboard'
+                    path:'admin/waiting',
+                    component: () => import('@admin/pages/appointment/index.vue'),
+                    name:'waiting'
                 },
                 {
                     path:'admin/appointment',
-                    component: () => import('@admin/pages/appointment/index.vue'),
+                    component: () => import('@admin/pages/dashboard/index.vue'),
                     name:'appointment'
                 }
             ]
@@ -41,7 +41,6 @@ router.beforeEach((to, from, next) => {
         if (to.matched.some(record => record.meta.requiresAuth)) {
           // this route requires auth, check if logged in
           // if not, redirect to login page.
-          console.log(data,"jshdjshdjdh")
           if (!data) {
             next({
               name: 'login',

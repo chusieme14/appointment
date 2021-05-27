@@ -20,7 +20,8 @@ class UserSeeder extends Seeder
             'department_id' => 1,
             'email' => 'super@admin.com',
             'username' => 'admin123',
-            'password' => bcrypt('123123123')
+            'password' => bcrypt('123123123'),
+            'role_id' => 1,
         ]);
     }
 }

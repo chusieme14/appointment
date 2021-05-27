@@ -7,7 +7,7 @@
                 permanent
             >
                 <v-list>
-                    <v-list-item
+                    <!-- <v-list-item
                         v-for="item in items"
                         :key="item.title"
                         link
@@ -20,10 +20,38 @@
                     <router-link class="mt-2" tag="v-list-item-content" :to="{ name: item.name }">
                         <p>{{ item.title }}</p>
                     </router-link>
-                    <!-- <v-list-item-content>
-                        <v-list-item-title>{{ item.title }}</v-list-item-title>
-                    </v-list-item-content> -->
+                    </v-list-item> -->
+                    <v-list-item>
+                         <v-list-item-icon>
+                        <v-icon>mdi-account-box</v-icon>
+                        </v-list-item-icon>
+
+                        <router-link class="mt-2" tag="v-list-item-content" :to="{ name: 'userlist' }">
+                            <p>Users</p>
+                        </router-link>
                     </v-list-item>
+                    <v-list-group
+                        :value="true"
+                        prepend-icon="mdi-account-box"
+                    >
+                        <template v-slot:activator>
+                        <v-list-item-title>Appointments</v-list-item-title>
+                        </template>
+
+                        <v-list-item
+                            v-for="(appt, index) in appointments" :key="index"
+                            link
+                            :class="getCurrentUrl == appt.name ? 'active' : ''"
+                        >
+                            <router-link class="pt2 class-sub-list" tag="v-list-item-content" :to="{ name: appt.name }">
+                                <p>{{ appt.title }}</p>
+                            </router-link>
+                            <!-- <v-list-item-title class="class-title" v-text="appt.title"></v-list-item-title> -->
+                            <v-list-item-icon>
+                            <v-icon v-text="appt.icon"></v-icon>
+                            </v-list-item-icon>
+                        </v-list-item>
+                    </v-list-group>
                 </v-list>
 
                 <template v-slot:append>
@@ -50,10 +78,9 @@ export default {
     },
     data(){
         return{
-            items: [
-                { title: 'Dashboard', icon: 'mdi-view-dashboard', name:'dashboard' },
-                { title: 'Appointment', icon: 'mdi-account-box', name:'appointment' },
-                { title: 'Admin', icon: 'mdi-gavel' },
+            appointments: [
+                { title: 'For approval', icon: 'mdi-view-dashboard', name:'waiting' },
+                { title: 'Approved', icon: 'mdi-account-box', name:'appointment' },
             ],
         }
     },
@@ -85,5 +112,22 @@ export default {
 .active {
 	color: #0470a8 !important;
     background-color: gray;
+}
+.class-title{
+    margin-left: 65px;
+}
+.v-list-item__content {
+    cursor: pointer;
+}
+.class-sub-list{
+    align-items: center;
+    align-self: center;
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1 1;
+    overflow: hidden;
+    padding: 2px 0 !important;
+    margin-top: 13px;
+    margin-left: 62px;
 }
 </style>
