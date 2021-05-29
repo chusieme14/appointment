@@ -2,19 +2,29 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\User;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Cookie;
+use Illuminate\Support\Facades\Hash;
 
 class AuthController extends Controller
 {
     public function login(Request $request){
         $data = $request->validate([
-            'email' => 'email|required',
+            'email' => 'required',
             'password' => 'required',
         ]);
         if(!auth()->attempt($data)){
-            return response(['error_message' => 'Incorrect credentials']);
+            $user = User::where('username',$data['email'])->first();
+            if(!$user){
+                return response(['error_message' => 'Incorrect credentials']);
+            }
+            $user->makeVisible(['password']);
+            if(!Hash::check($data['password'],$user->password)){
+                return response(['error_message' => 'Incorrect credentials']);
+            }
+            Auth::login($user);
         }
         $token = auth()->user()->createToken('ACCESS TOKEN')->accessToken;
 

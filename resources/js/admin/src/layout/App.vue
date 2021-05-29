@@ -21,7 +21,11 @@
                         <p>{{ item.title }}</p>
                     </router-link>
                     </v-list-item> -->
-                    <v-list-item>
+                    <v-list-item 
+                        v-if="isSuperAdmin"
+                        link
+                        :class="getCurrentUrl == 'userlist' ? 'active' : ''"
+                    >
                          <v-list-item-icon>
                         <v-icon>mdi-account-box</v-icon>
                         </v-list-item-icon>
@@ -82,6 +86,7 @@ export default {
                 { title: 'For approval', icon: 'mdi-view-dashboard', name:'waiting' },
                 { title: 'Approved', icon: 'mdi-account-box', name:'appointment' },
             ],
+            isSuperAdmin:false,
         }
     },
     methods:{
@@ -89,7 +94,17 @@ export default {
             axios.get(`api/logout`).then(({data})=>{
                 this.$router.push({name:'login'})
             })
-        }
+        },
+        getAuthuser(){
+            axios.get(`/auth/user`).then(({data})=>{
+                if(data.role_id == 1){
+                    this.isSuperAdmin = true
+                }
+            })
+      }
+    },
+    created(){
+        this.getAuthuser();
     },
     computed:{
         getCurrentUrl() {

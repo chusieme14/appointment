@@ -26,6 +26,11 @@ const router = new Router({
                     path:'admin/appointment',
                     component: () => import('@admin/pages/dashboard/index.vue'),
                     name:'appointment'
+                },
+                {
+                    path:'admin/userlist',
+                    component: () => import('@admin/pages/user/index.vue'),
+                    name:'userlist'
                 }
             ]
         },
