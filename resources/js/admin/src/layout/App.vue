@@ -29,7 +29,7 @@
                          <v-list-item-icon>
                         <v-icon>mdi-account-box</v-icon>
                         </v-list-item-icon>
-
+                         
                         <router-link class="mt-2" tag="v-list-item-content" :to="{ name: 'userlist' }">
                             <p>Users</p>
                         </router-link>
@@ -84,7 +84,7 @@ export default {
         return{
             appointments: [
                 { title: 'For approval', icon: 'mdi-view-dashboard', name:'waiting' },
-                { title: 'Approved', icon: 'mdi-account-box', name:'appointment' },
+                { title: 'Approved', icon: 'mdi-account-box', name:'approved' },
             ],
             isSuperAdmin:false,
         }

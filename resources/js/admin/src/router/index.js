@@ -23,9 +23,9 @@ const router = new Router({
                     name:'waiting'
                 },
                 {
-                    path:'admin/appointment',
-                    component: () => import('@admin/pages/dashboard/index.vue'),
-                    name:'appointment'
+                    path:'admin/approved',
+                    component: () => import('@admin/pages/appointment/approve.vue'),
+                    name:'approved'
                 },
                 {
                     path:'admin/userlist',
