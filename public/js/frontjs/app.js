@@ -89578,7 +89578,7 @@ var axios = __webpack_require__(/*! axios */ "./node_modules/axios/index.js");
 
 Vue.component('main-app', __webpack_require__(/*! @front/layout/App.vue */ "./resources/js/front/src/layout/App.vue")["default"]);
 var app = new Vue({
-  el: '#front-app',
+  el: '#front_app',
   // router,
   vuetify: _front_plugin_vuetify_index__WEBPACK_IMPORTED_MODULE_0__["default"],
   axios: axios,

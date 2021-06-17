@@ -14,7 +14,7 @@ const axios = require('axios');
 Vue.component('main-app', require('@front/layout/App.vue').default);
 
 const app = new Vue({
-    el:'#front-app',
+    el:'#front_app',
     // router,
     vuetify,
     axios,
