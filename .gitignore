@@ -1,7 +1,6 @@
 /node_modules
 /public/*
 /public/storage
-/public/js
 /dockerize/mysql/data
 /storage/*.key
 /vendor

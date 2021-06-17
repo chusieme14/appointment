@@ -201,6 +201,91 @@
 /************************************************************************/
 /******/ ({
 
+/***/ "./node_modules/@mdi/font/css/materialdesignicons.css":
+/*!************************************************************!*\
+  !*** ./node_modules/@mdi/font/css/materialdesignicons.css ***!
+  \************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+
+var content = __webpack_require__(/*! !../../../css-loader??ref--5-1!../../../postcss-loader/src??ref--5-2!./materialdesignicons.css */ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./node_modules/@mdi/font/css/materialdesignicons.css");
+
+if(typeof content === 'string') content = [[module.i, content, '']];
+
+var transform;
+var insertInto;
+
+
+
+var options = {"hmr":true}
+
+options.transform = transform
+options.insertInto = undefined;
+
+var update = __webpack_require__(/*! ../../../style-loader/lib/addStyles.js */ "./node_modules/style-loader/lib/addStyles.js")(content, options);
+
+if(content.locals) module.exports = content.locals;
+
+if(false) {}
+
+/***/ }),
+
+/***/ "./node_modules/@mdi/font/fonts/materialdesignicons-webfont.eot":
+/*!**********************************************************************!*\
+  !*** ./node_modules/@mdi/font/fonts/materialdesignicons-webfont.eot ***!
+  \**********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/fonts/vendor/@mdi/materialdesignicons-webfont.eot?2d0a0d8f5f173be15a67aa084db94fe6";
+
+/***/ }),
+
+/***/ "./node_modules/@mdi/font/fonts/materialdesignicons-webfont.eot?v=4.9.95":
+/*!*******************************************************************************!*\
+  !*** ./node_modules/@mdi/font/fonts/materialdesignicons-webfont.eot?v=4.9.95 ***!
+  \*******************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/fonts/vendor/@mdi/materialdesignicons-webfont.eot?2d0a0d8f5f173be15a67aa084db94fe6";
+
+/***/ }),
+
+/***/ "./node_modules/@mdi/font/fonts/materialdesignicons-webfont.ttf?v=4.9.95":
+/*!*******************************************************************************!*\
+  !*** ./node_modules/@mdi/font/fonts/materialdesignicons-webfont.ttf?v=4.9.95 ***!
+  \*******************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/fonts/vendor/@mdi/materialdesignicons-webfont.ttf?f51112347be6b44f9ef46151a971430d";
+
+/***/ }),
+
+/***/ "./node_modules/@mdi/font/fonts/materialdesignicons-webfont.woff2?v=4.9.95":
+/*!*********************************************************************************!*\
+  !*** ./node_modules/@mdi/font/fonts/materialdesignicons-webfont.woff2?v=4.9.95 ***!
+  \*********************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/fonts/vendor/@mdi/materialdesignicons-webfont.woff2?d0066537ab6a4c6f8285a5aeb3ba5f09";
+
+/***/ }),
+
+/***/ "./node_modules/@mdi/font/fonts/materialdesignicons-webfont.woff?v=4.9.95":
+/*!********************************************************************************!*\
+  !*** ./node_modules/@mdi/font/fonts/materialdesignicons-webfont.woff?v=4.9.95 ***!
+  \********************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/fonts/vendor/@mdi/materialdesignicons-webfont.woff?b4917be25082eb793b5363f2fdb5f282";
+
+/***/ }),
+
 /***/ "./node_modules/axios/index.js":
 /*!*************************************!*\
   !*** ./node_modules/axios/index.js ***!
@@ -2014,56 +2099,80 @@ module.exports = {
 
 /***/ }),
 
-/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/admin/src/layout/App.vue?vue&type=script&lang=js&":
-/*!********************************************************************************************************************************************************************!*\
-  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/admin/src/layout/App.vue?vue&type=script&lang=js& ***!
-  \********************************************************************************************************************************************************************/
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/admin/src/layout/Main.vue?vue&type=script&lang=js&":
+/*!*********************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/admin/src/layout/Main.vue?vue&type=script&lang=js& ***!
+  \*********************************************************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _header__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./header */ "./resources/js/admin/src/layout/header.vue");
-/* harmony import */ var _navbar__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./navbar */ "./resources/js/admin/src/layout/navbar.vue");
-/* harmony import */ var _footer__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./footer */ "./resources/js/admin/src/layout/footer.vue");
-//
-//
-//
-//
-//
-//
-//
-
-
-
-/* harmony default export */ __webpack_exports__["default"] = ({
-  components: {
-    MainHeader: _header__WEBPACK_IMPORTED_MODULE_0__["default"],
-    Navbar: _navbar__WEBPACK_IMPORTED_MODULE_1__["default"],
-    MainFooter: _footer__WEBPACK_IMPORTED_MODULE_2__["default"]
-  }
-});
-
-/***/ }),
-
-/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/admin/src/layout/navbar.vue?vue&type=script&lang=js&":
-/*!***********************************************************************************************************************************************************************!*\
-  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/admin/src/layout/navbar.vue?vue&type=script&lang=js& ***!
-  \***********************************************************************************************************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-//
-//
-//
 //
 //
 //
 //
 //
 /* harmony default export */ __webpack_exports__["default"] = ({});
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./node_modules/@mdi/font/css/materialdesignicons.css":
+/*!********************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader??ref--5-1!./node_modules/postcss-loader/src??ref--5-2!./node_modules/@mdi/font/css/materialdesignicons.css ***!
+  \********************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var escape = __webpack_require__(/*! ../../../css-loader/lib/url/escape.js */ "./node_modules/css-loader/lib/url/escape.js");
+exports = module.exports = __webpack_require__(/*! ../../../css-loader/lib/css-base.js */ "./node_modules/css-loader/lib/css-base.js")(false);
+// imports
+
+
+// module
+exports.push([module.i, "/* MaterialDesignIcons.com */\n@font-face {\n  font-family: \"Material Design Icons\";\n  src: url(" + escape(__webpack_require__(/*! ../fonts/materialdesignicons-webfont.eot?v=4.9.95 */ "./node_modules/@mdi/font/fonts/materialdesignicons-webfont.eot?v=4.9.95")) + ");\n  src: url(" + escape(__webpack_require__(/*! ../fonts/materialdesignicons-webfont.eot */ "./node_modules/@mdi/font/fonts/materialdesignicons-webfont.eot")) + "?#iefix&v=4.9.95) format(\"embedded-opentype\"), url(" + escape(__webpack_require__(/*! ../fonts/materialdesignicons-webfont.woff2?v=4.9.95 */ "./node_modules/@mdi/font/fonts/materialdesignicons-webfont.woff2?v=4.9.95")) + ") format(\"woff2\"), url(" + escape(__webpack_require__(/*! ../fonts/materialdesignicons-webfont.woff?v=4.9.95 */ "./node_modules/@mdi/font/fonts/materialdesignicons-webfont.woff?v=4.9.95")) + ") format(\"woff\"), url(" + escape(__webpack_require__(/*! ../fonts/materialdesignicons-webfont.ttf?v=4.9.95 */ "./node_modules/@mdi/font/fonts/materialdesignicons-webfont.ttf?v=4.9.95")) + ") format(\"truetype\");\n  font-weight: normal;\n  font-style: normal;\n}\n\n.mdi:before,\n.mdi-set {\n  display: inline-block;\n  font: normal normal normal 24px/1 \"Material Design Icons\";\n  font-size: inherit;\n  text-rendering: auto;\n  line-height: inherit;\n  -webkit-font-smoothing: antialiased;\n  -moz-osx-font-smoothing: grayscale;\n}\n\n.mdi-ab-testing::before {\n  content: \"\\F001C\";\n}\n\n.mdi-abjad-arabic::before {\n  content: \"\\F0353\";\n}\n\n.mdi-abjad-hebrew::before {\n  content: \"\\F0354\";\n}\n\n.mdi-abugida-devanagari::before {\n  content: \"\\F0355\";\n}\n\n.mdi-abugida-thai::before {\n  content: \"\\F0356\";\n}\n\n.mdi-access-point::before {\n  content: \"\\F002\";\n}\n\n.mdi-access-point-network::before {\n  content: \"\\F003\";\n}\n\n.mdi-access-point-network-off::before {\n  content: \"\\FBBD\";\n}\n\n.mdi-account::before {\n  content: \"\\F004\";\n}\n\n.mdi-account-alert::before {\n  content: \"\\F005\";\n}\n\n.mdi-account-alert-outline::before {\n  content: \"\\FB2C\";\n}\n\n.mdi-account-arrow-left::before {\n  content: \"\\FB2D\";\n}\n\n.mdi-account-arrow-left-outline::before {\n  content: \"\\FB2E\";\n}\n\n.mdi-account-arrow-right::before {\n  content: \"\\FB2F\";\n}\n\n.mdi-account-arrow-right-outline::before {\n  content: \"\\FB30\";\n}\n\n.mdi-account-badge::before {\n  content: \"\\FD83\";\n}\n\n.mdi-account-badge-alert::before {\n  content: \"\\FD84\";\n}\n\n.mdi-account-badge-alert-outline::before {\n  content: \"\\FD85\";\n}\n\n.mdi-account-badge-horizontal::before {\n  content: \"\\FDF0\";\n}\n\n.mdi-account-badge-horizontal-outline::before {\n  content: \"\\FDF1\";\n}\n\n.mdi-account-badge-outline::before {\n  content: \"\\FD86\";\n}\n\n.mdi-account-box::before {\n  content: \"\\F006\";\n}\n\n.mdi-account-box-multiple::before {\n  content: \"\\F933\";\n}\n\n.mdi-account-box-multiple-outline::before {\n  content: \"\\F002C\";\n}\n\n.mdi-account-box-outline::before {\n  content: \"\\F007\";\n}\n\n.mdi-account-cancel::before {\n  content: \"\\F030A\";\n}\n\n.mdi-account-cancel-outline::before {\n  content: \"\\F030B\";\n}\n\n.mdi-account-card-details::before {\n  content: \"\\F5D2\";\n}\n\n.mdi-account-card-details-outline::before {\n  content: \"\\FD87\";\n}\n\n.mdi-account-cash::before {\n  content: \"\\F00C2\";\n}\n\n.mdi-account-cash-outline::before {\n  content: \"\\F00C3\";\n}\n\n.mdi-account-check::before {\n  content: \"\\F008\";\n}\n\n.mdi-account-check-outline::before {\n  content: \"\\FBBE\";\n}\n\n.mdi-account-child::before {\n  content: \"\\FA88\";\n}\n\n.mdi-account-child-circle::before {\n  content: \"\\FA89\";\n}\n\n.mdi-account-child-outline::before {\n  content: \"\\F00F3\";\n}\n\n.mdi-account-circle::before {\n  content: \"\\F009\";\n}\n\n.mdi-account-circle-outline::before {\n  content: \"\\FB31\";\n}\n\n.mdi-account-clock::before {\n  content: \"\\FB32\";\n}\n\n.mdi-account-clock-outline::before {\n  content: \"\\FB33\";\n}\n\n.mdi-account-cog::before {\n  content: \"\\F039B\";\n}\n\n.mdi-account-cog-outline::before {\n  content: \"\\F039C\";\n}\n\n.mdi-account-convert::before {\n  content: \"\\F00A\";\n}\n\n.mdi-account-convert-outline::before {\n  content: \"\\F032C\";\n}\n\n.mdi-account-details::before {\n  content: \"\\F631\";\n}\n\n.mdi-account-details-outline::before {\n  content: \"\\F039D\";\n}\n\n.mdi-account-edit::before {\n  content: \"\\F6BB\";\n}\n\n.mdi-account-edit-outline::before {\n  content: \"\\F001D\";\n}\n\n.mdi-account-group::before {\n  content: \"\\F848\";\n}\n\n.mdi-account-group-outline::before {\n  content: \"\\FB34\";\n}\n\n.mdi-account-heart::before {\n  content: \"\\F898\";\n}\n\n.mdi-account-heart-outline::before {\n  content: \"\\FBBF\";\n}\n\n.mdi-account-key::before {\n  content: \"\\F00B\";\n}\n\n.mdi-account-key-outline::before {\n  content: \"\\FBC0\";\n}\n\n.mdi-account-lock::before {\n  content: \"\\F0189\";\n}\n\n.mdi-account-lock-outline::before {\n  content: \"\\F018A\";\n}\n\n.mdi-account-minus::before {\n  content: \"\\F00D\";\n}\n\n.mdi-account-minus-outline::before {\n  content: \"\\FAEB\";\n}\n\n.mdi-account-multiple::before {\n  content: \"\\F00E\";\n}\n\n.mdi-account-multiple-check::before {\n  content: \"\\F8C4\";\n}\n\n.mdi-account-multiple-check-outline::before {\n  content: \"\\F0229\";\n}\n\n.mdi-account-multiple-minus::before {\n  content: \"\\F5D3\";\n}\n\n.mdi-account-multiple-minus-outline::before {\n  content: \"\\FBC1\";\n}\n\n.mdi-account-multiple-outline::before {\n  content: \"\\F00F\";\n}\n\n.mdi-account-multiple-plus::before {\n  content: \"\\F010\";\n}\n\n.mdi-account-multiple-plus-outline::before {\n  content: \"\\F7FF\";\n}\n\n.mdi-account-multiple-remove::before {\n  content: \"\\F0235\";\n}\n\n.mdi-account-multiple-remove-outline::before {\n  content: \"\\F0236\";\n}\n\n.mdi-account-network::before {\n  content: \"\\F011\";\n}\n\n.mdi-account-network-outline::before {\n  content: \"\\FBC2\";\n}\n\n.mdi-account-off::before {\n  content: \"\\F012\";\n}\n\n.mdi-account-off-outline::before {\n  content: \"\\FBC3\";\n}\n\n.mdi-account-outline::before {\n  content: \"\\F013\";\n}\n\n.mdi-account-plus::before {\n  content: \"\\F014\";\n}\n\n.mdi-account-plus-outline::before {\n  content: \"\\F800\";\n}\n\n.mdi-account-question::before {\n  content: \"\\FB35\";\n}\n\n.mdi-account-question-outline::before {\n  content: \"\\FB36\";\n}\n\n.mdi-account-remove::before {\n  content: \"\\F015\";\n}\n\n.mdi-account-remove-outline::before {\n  content: \"\\FAEC\";\n}\n\n.mdi-account-search::before {\n  content: \"\\F016\";\n}\n\n.mdi-account-search-outline::before {\n  content: \"\\F934\";\n}\n\n.mdi-account-settings::before {\n  content: \"\\F630\";\n}\n\n.mdi-account-settings-outline::before {\n  content: \"\\F00F4\";\n}\n\n.mdi-account-star::before {\n  content: \"\\F017\";\n}\n\n.mdi-account-star-outline::before {\n  content: \"\\FBC4\";\n}\n\n.mdi-account-supervisor::before {\n  content: \"\\FA8A\";\n}\n\n.mdi-account-supervisor-circle::before {\n  content: \"\\FA8B\";\n}\n\n.mdi-account-supervisor-outline::before {\n  content: \"\\F0158\";\n}\n\n.mdi-account-switch::before {\n  content: \"\\F019\";\n}\n\n.mdi-account-tie::before {\n  content: \"\\FCBF\";\n}\n\n.mdi-account-tie-outline::before {\n  content: \"\\F00F5\";\n}\n\n.mdi-account-tie-voice::before {\n  content: \"\\F0333\";\n}\n\n.mdi-account-tie-voice-off::before {\n  content: \"\\F0335\";\n}\n\n.mdi-account-tie-voice-off-outline::before {\n  content: \"\\F0336\";\n}\n\n.mdi-account-tie-voice-outline::before {\n  content: \"\\F0334\";\n}\n\n.mdi-accusoft::before {\n  content: \"\\F849\";\n}\n\n.mdi-adjust::before {\n  content: \"\\F01A\";\n}\n\n.mdi-adobe::before {\n  content: \"\\F935\";\n}\n\n.mdi-adobe-acrobat::before {\n  content: \"\\FFBD\";\n}\n\n.mdi-air-conditioner::before {\n  content: \"\\F01B\";\n}\n\n.mdi-air-filter::before {\n  content: \"\\FD1F\";\n}\n\n.mdi-air-horn::before {\n  content: \"\\FD88\";\n}\n\n.mdi-air-humidifier::before {\n  content: \"\\F00C4\";\n}\n\n.mdi-air-purifier::before {\n  content: \"\\FD20\";\n}\n\n.mdi-airbag::before {\n  content: \"\\FBC5\";\n}\n\n.mdi-airballoon::before {\n  content: \"\\F01C\";\n}\n\n.mdi-airballoon-outline::before {\n  content: \"\\F002D\";\n}\n\n.mdi-airplane::before {\n  content: \"\\F01D\";\n}\n\n.mdi-airplane-landing::before {\n  content: \"\\F5D4\";\n}\n\n.mdi-airplane-off::before {\n  content: \"\\F01E\";\n}\n\n.mdi-airplane-takeoff::before {\n  content: \"\\F5D5\";\n}\n\n.mdi-airplay::before {\n  content: \"\\F01F\";\n}\n\n.mdi-airport::before {\n  content: \"\\F84A\";\n}\n\n.mdi-alarm::before {\n  content: \"\\F020\";\n}\n\n.mdi-alarm-bell::before {\n  content: \"\\F78D\";\n}\n\n.mdi-alarm-check::before {\n  content: \"\\F021\";\n}\n\n.mdi-alarm-light::before {\n  content: \"\\F78E\";\n}\n\n.mdi-alarm-light-outline::before {\n  content: \"\\FBC6\";\n}\n\n.mdi-alarm-multiple::before {\n  content: \"\\F022\";\n}\n\n.mdi-alarm-note::before {\n  content: \"\\FE8E\";\n}\n\n.mdi-alarm-note-off::before {\n  content: \"\\FE8F\";\n}\n\n.mdi-alarm-off::before {\n  content: \"\\F023\";\n}\n\n.mdi-alarm-plus::before {\n  content: \"\\F024\";\n}\n\n.mdi-alarm-snooze::before {\n  content: \"\\F68D\";\n}\n\n.mdi-album::before {\n  content: \"\\F025\";\n}\n\n.mdi-alert::before {\n  content: \"\\F026\";\n}\n\n.mdi-alert-box::before {\n  content: \"\\F027\";\n}\n\n.mdi-alert-box-outline::before {\n  content: \"\\FCC0\";\n}\n\n.mdi-alert-circle::before {\n  content: \"\\F028\";\n}\n\n.mdi-alert-circle-check::before {\n  content: \"\\F0218\";\n}\n\n.mdi-alert-circle-check-outline::before {\n  content: \"\\F0219\";\n}\n\n.mdi-alert-circle-outline::before {\n  content: \"\\F5D6\";\n}\n\n.mdi-alert-decagram::before {\n  content: \"\\F6BC\";\n}\n\n.mdi-alert-decagram-outline::before {\n  content: \"\\FCC1\";\n}\n\n.mdi-alert-octagon::before {\n  content: \"\\F029\";\n}\n\n.mdi-alert-octagon-outline::before {\n  content: \"\\FCC2\";\n}\n\n.mdi-alert-octagram::before {\n  content: \"\\F766\";\n}\n\n.mdi-alert-octagram-outline::before {\n  content: \"\\FCC3\";\n}\n\n.mdi-alert-outline::before {\n  content: \"\\F02A\";\n}\n\n.mdi-alert-rhombus::before {\n  content: \"\\F01F9\";\n}\n\n.mdi-alert-rhombus-outline::before {\n  content: \"\\F01FA\";\n}\n\n.mdi-alien::before {\n  content: \"\\F899\";\n}\n\n.mdi-alien-outline::before {\n  content: \"\\F00F6\";\n}\n\n.mdi-align-horizontal-center::before {\n  content: \"\\F01EE\";\n}\n\n.mdi-align-horizontal-left::before {\n  content: \"\\F01ED\";\n}\n\n.mdi-align-horizontal-right::before {\n  content: \"\\F01EF\";\n}\n\n.mdi-align-vertical-bottom::before {\n  content: \"\\F01F0\";\n}\n\n.mdi-align-vertical-center::before {\n  content: \"\\F01F1\";\n}\n\n.mdi-align-vertical-top::before {\n  content: \"\\F01F2\";\n}\n\n.mdi-all-inclusive::before {\n  content: \"\\F6BD\";\n}\n\n.mdi-allergy::before {\n  content: \"\\F0283\";\n}\n\n.mdi-alpha::before {\n  content: \"\\F02B\";\n}\n\n.mdi-alpha-a::before {\n  content: \"A\";\n}\n\n.mdi-alpha-a-box::before {\n  content: \"\\FAED\";\n}\n\n.mdi-alpha-a-box-outline::before {\n  content: \"\\FBC7\";\n}\n\n.mdi-alpha-a-circle::before {\n  content: \"\\FBC8\";\n}\n\n.mdi-alpha-a-circle-outline::before {\n  content: \"\\FBC9\";\n}\n\n.mdi-alpha-b::before {\n  content: \"B\";\n}\n\n.mdi-alpha-b-box::before {\n  content: \"\\FAEE\";\n}\n\n.mdi-alpha-b-box-outline::before {\n  content: \"\\FBCA\";\n}\n\n.mdi-alpha-b-circle::before {\n  content: \"\\FBCB\";\n}\n\n.mdi-alpha-b-circle-outline::before {\n  content: \"\\FBCC\";\n}\n\n.mdi-alpha-c::before {\n  content: \"C\";\n}\n\n.mdi-alpha-c-box::before {\n  content: \"\\FAEF\";\n}\n\n.mdi-alpha-c-box-outline::before {\n  content: \"\\FBCD\";\n}\n\n.mdi-alpha-c-circle::before {\n  content: \"\\FBCE\";\n}\n\n.mdi-alpha-c-circle-outline::before {\n  content: \"\\FBCF\";\n}\n\n.mdi-alpha-d::before {\n  content: \"D\";\n}\n\n.mdi-alpha-d-box::before {\n  content: \"\\FAF0\";\n}\n\n.mdi-alpha-d-box-outline::before {\n  content: \"\\FBD0\";\n}\n\n.mdi-alpha-d-circle::before {\n  content: \"\\FBD1\";\n}\n\n.mdi-alpha-d-circle-outline::before {\n  content: \"\\FBD2\";\n}\n\n.mdi-alpha-e::before {\n  content: \"E\";\n}\n\n.mdi-alpha-e-box::before {\n  content: \"\\FAF1\";\n}\n\n.mdi-alpha-e-box-outline::before {\n  content: \"\\FBD3\";\n}\n\n.mdi-alpha-e-circle::before {\n  content: \"\\FBD4\";\n}\n\n.mdi-alpha-e-circle-outline::before {\n  content: \"\\FBD5\";\n}\n\n.mdi-alpha-f::before {\n  content: \"F\";\n}\n\n.mdi-alpha-f-box::before {\n  content: \"\\FAF2\";\n}\n\n.mdi-alpha-f-box-outline::before {\n  content: \"\\FBD6\";\n}\n\n.mdi-alpha-f-circle::before {\n  content: \"\\FBD7\";\n}\n\n.mdi-alpha-f-circle-outline::before {\n  content: \"\\FBD8\";\n}\n\n.mdi-alpha-g::before {\n  content: \"G\";\n}\n\n.mdi-alpha-g-box::before {\n  content: \"\\FAF3\";\n}\n\n.mdi-alpha-g-box-outline::before {\n  content: \"\\FBD9\";\n}\n\n.mdi-alpha-g-circle::before {\n  content: \"\\FBDA\";\n}\n\n.mdi-alpha-g-circle-outline::before {\n  content: \"\\FBDB\";\n}\n\n.mdi-alpha-h::before {\n  content: \"H\";\n}\n\n.mdi-alpha-h-box::before {\n  content: \"\\FAF4\";\n}\n\n.mdi-alpha-h-box-outline::before {\n  content: \"\\FBDC\";\n}\n\n.mdi-alpha-h-circle::before {\n  content: \"\\FBDD\";\n}\n\n.mdi-alpha-h-circle-outline::before {\n  content: \"\\FBDE\";\n}\n\n.mdi-alpha-i::before {\n  content: \"I\";\n}\n\n.mdi-alpha-i-box::before {\n  content: \"\\FAF5\";\n}\n\n.mdi-alpha-i-box-outline::before {\n  content: \"\\FBDF\";\n}\n\n.mdi-alpha-i-circle::before {\n  content: \"\\FBE0\";\n}\n\n.mdi-alpha-i-circle-outline::before {\n  content: \"\\FBE1\";\n}\n\n.mdi-alpha-j::before {\n  content: \"J\";\n}\n\n.mdi-alpha-j-box::before {\n  content: \"\\FAF6\";\n}\n\n.mdi-alpha-j-box-outline::before {\n  content: \"\\FBE2\";\n}\n\n.mdi-alpha-j-circle::before {\n  content: \"\\FBE3\";\n}\n\n.mdi-alpha-j-circle-outline::before {\n  content: \"\\FBE4\";\n}\n\n.mdi-alpha-k::before {\n  content: \"K\";\n}\n\n.mdi-alpha-k-box::before {\n  content: \"\\FAF7\";\n}\n\n.mdi-alpha-k-box-outline::before {\n  content: \"\\FBE5\";\n}\n\n.mdi-alpha-k-circle::before {\n  content: \"\\FBE6\";\n}\n\n.mdi-alpha-k-circle-outline::before {\n  content: \"\\FBE7\";\n}\n\n.mdi-alpha-l::before {\n  content: \"L\";\n}\n\n.mdi-alpha-l-box::before {\n  content: \"\\FAF8\";\n}\n\n.mdi-alpha-l-box-outline::before {\n  content: \"\\FBE8\";\n}\n\n.mdi-alpha-l-circle::before {\n  content: \"\\FBE9\";\n}\n\n.mdi-alpha-l-circle-outline::before {\n  content: \"\\FBEA\";\n}\n\n.mdi-alpha-m::before {\n  content: \"M\";\n}\n\n.mdi-alpha-m-box::before {\n  content: \"\\FAF9\";\n}\n\n.mdi-alpha-m-box-outline::before {\n  content: \"\\FBEB\";\n}\n\n.mdi-alpha-m-circle::before {\n  content: \"\\FBEC\";\n}\n\n.mdi-alpha-m-circle-outline::before {\n  content: \"\\FBED\";\n}\n\n.mdi-alpha-n::before {\n  content: \"N\";\n}\n\n.mdi-alpha-n-box::before {\n  content: \"\\FAFA\";\n}\n\n.mdi-alpha-n-box-outline::before {\n  content: \"\\FBEE\";\n}\n\n.mdi-alpha-n-circle::before {\n  content: \"\\FBEF\";\n}\n\n.mdi-alpha-n-circle-outline::before {\n  content: \"\\FBF0\";\n}\n\n.mdi-alpha-o::before {\n  content: \"O\";\n}\n\n.mdi-alpha-o-box::before {\n  content: \"\\FAFB\";\n}\n\n.mdi-alpha-o-box-outline::before {\n  content: \"\\FBF1\";\n}\n\n.mdi-alpha-o-circle::before {\n  content: \"\\FBF2\";\n}\n\n.mdi-alpha-o-circle-outline::before {\n  content: \"\\FBF3\";\n}\n\n.mdi-alpha-p::before {\n  content: \"P\";\n}\n\n.mdi-alpha-p-box::before {\n  content: \"\\FAFC\";\n}\n\n.mdi-alpha-p-box-outline::before {\n  content: \"\\FBF4\";\n}\n\n.mdi-alpha-p-circle::before {\n  content: \"\\FBF5\";\n}\n\n.mdi-alpha-p-circle-outline::before {\n  content: \"\\FBF6\";\n}\n\n.mdi-alpha-q::before {\n  content: \"Q\";\n}\n\n.mdi-alpha-q-box::before {\n  content: \"\\FAFD\";\n}\n\n.mdi-alpha-q-box-outline::before {\n  content: \"\\FBF7\";\n}\n\n.mdi-alpha-q-circle::before {\n  content: \"\\FBF8\";\n}\n\n.mdi-alpha-q-circle-outline::before {\n  content: \"\\FBF9\";\n}\n\n.mdi-alpha-r::before {\n  content: \"R\";\n}\n\n.mdi-alpha-r-box::before {\n  content: \"\\FAFE\";\n}\n\n.mdi-alpha-r-box-outline::before {\n  content: \"\\FBFA\";\n}\n\n.mdi-alpha-r-circle::before {\n  content: \"\\FBFB\";\n}\n\n.mdi-alpha-r-circle-outline::before {\n  content: \"\\FBFC\";\n}\n\n.mdi-alpha-s::before {\n  content: \"S\";\n}\n\n.mdi-alpha-s-box::before {\n  content: \"\\FAFF\";\n}\n\n.mdi-alpha-s-box-outline::before {\n  content: \"\\FBFD\";\n}\n\n.mdi-alpha-s-circle::before {\n  content: \"\\FBFE\";\n}\n\n.mdi-alpha-s-circle-outline::before {\n  content: \"\\FBFF\";\n}\n\n.mdi-alpha-t::before {\n  content: \"T\";\n}\n\n.mdi-alpha-t-box::before {\n  content: \"\\FB00\";\n}\n\n.mdi-alpha-t-box-outline::before {\n  content: \"\\FC00\";\n}\n\n.mdi-alpha-t-circle::before {\n  content: \"\\FC01\";\n}\n\n.mdi-alpha-t-circle-outline::before {\n  content: \"\\FC02\";\n}\n\n.mdi-alpha-u::before {\n  content: \"U\";\n}\n\n.mdi-alpha-u-box::before {\n  content: \"\\FB01\";\n}\n\n.mdi-alpha-u-box-outline::before {\n  content: \"\\FC03\";\n}\n\n.mdi-alpha-u-circle::before {\n  content: \"\\FC04\";\n}\n\n.mdi-alpha-u-circle-outline::before {\n  content: \"\\FC05\";\n}\n\n.mdi-alpha-v::before {\n  content: \"V\";\n}\n\n.mdi-alpha-v-box::before {\n  content: \"\\FB02\";\n}\n\n.mdi-alpha-v-box-outline::before {\n  content: \"\\FC06\";\n}\n\n.mdi-alpha-v-circle::before {\n  content: \"\\FC07\";\n}\n\n.mdi-alpha-v-circle-outline::before {\n  content: \"\\FC08\";\n}\n\n.mdi-alpha-w::before {\n  content: \"W\";\n}\n\n.mdi-alpha-w-box::before {\n  content: \"\\FB03\";\n}\n\n.mdi-alpha-w-box-outline::before {\n  content: \"\\FC09\";\n}\n\n.mdi-alpha-w-circle::before {\n  content: \"\\FC0A\";\n}\n\n.mdi-alpha-w-circle-outline::before {\n  content: \"\\FC0B\";\n}\n\n.mdi-alpha-x::before {\n  content: \"X\";\n}\n\n.mdi-alpha-x-box::before {\n  content: \"\\FB04\";\n}\n\n.mdi-alpha-x-box-outline::before {\n  content: \"\\FC0C\";\n}\n\n.mdi-alpha-x-circle::before {\n  content: \"\\FC0D\";\n}\n\n.mdi-alpha-x-circle-outline::before {\n  content: \"\\FC0E\";\n}\n\n.mdi-alpha-y::before {\n  content: \"Y\";\n}\n\n.mdi-alpha-y-box::before {\n  content: \"\\FB05\";\n}\n\n.mdi-alpha-y-box-outline::before {\n  content: \"\\FC0F\";\n}\n\n.mdi-alpha-y-circle::before {\n  content: \"\\FC10\";\n}\n\n.mdi-alpha-y-circle-outline::before {\n  content: \"\\FC11\";\n}\n\n.mdi-alpha-z::before {\n  content: \"Z\";\n}\n\n.mdi-alpha-z-box::before {\n  content: \"\\FB06\";\n}\n\n.mdi-alpha-z-box-outline::before {\n  content: \"\\FC12\";\n}\n\n.mdi-alpha-z-circle::before {\n  content: \"\\FC13\";\n}\n\n.mdi-alpha-z-circle-outline::before {\n  content: \"\\FC14\";\n}\n\n.mdi-alphabet-aurebesh::before {\n  content: \"\\F0357\";\n}\n\n.mdi-alphabet-cyrillic::before {\n  content: \"\\F0358\";\n}\n\n.mdi-alphabet-greek::before {\n  content: \"\\F0359\";\n}\n\n.mdi-alphabet-latin::before {\n  content: \"\\F035A\";\n}\n\n.mdi-alphabet-piqad::before {\n  content: \"\\F035B\";\n}\n\n.mdi-alphabet-tengwar::before {\n  content: \"\\F0362\";\n}\n\n.mdi-alphabetical::before {\n  content: \"\\F02C\";\n}\n\n.mdi-alphabetical-off::before {\n  content: \"\\F002E\";\n}\n\n.mdi-alphabetical-variant::before {\n  content: \"\\F002F\";\n}\n\n.mdi-alphabetical-variant-off::before {\n  content: \"\\F0030\";\n}\n\n.mdi-altimeter::before {\n  content: \"\\F5D7\";\n}\n\n.mdi-amazon::before {\n  content: \"\\F02D\";\n}\n\n.mdi-amazon-alexa::before {\n  content: \"\\F8C5\";\n}\n\n.mdi-amazon-drive::before {\n  content: \"\\F02E\";\n}\n\n.mdi-ambulance::before {\n  content: \"\\F02F\";\n}\n\n.mdi-ammunition::before {\n  content: \"\\FCC4\";\n}\n\n.mdi-ampersand::before {\n  content: \"\\FA8C\";\n}\n\n.mdi-amplifier::before {\n  content: \"\\F030\";\n}\n\n.mdi-amplifier-off::before {\n  content: \"\\F01E0\";\n}\n\n.mdi-anchor::before {\n  content: \"\\F031\";\n}\n\n.mdi-android::before {\n  content: \"\\F032\";\n}\n\n.mdi-android-auto::before {\n  content: \"\\FA8D\";\n}\n\n.mdi-android-debug-bridge::before {\n  content: \"\\F033\";\n}\n\n.mdi-android-head::before {\n  content: \"\\F78F\";\n}\n\n.mdi-android-messages::before {\n  content: \"\\FD21\";\n}\n\n.mdi-android-studio::before {\n  content: \"\\F034\";\n}\n\n.mdi-angle-acute::before {\n  content: \"\\F936\";\n}\n\n.mdi-angle-obtuse::before {\n  content: \"\\F937\";\n}\n\n.mdi-angle-right::before {\n  content: \"\\F938\";\n}\n\n.mdi-angular::before {\n  content: \"\\F6B1\";\n}\n\n.mdi-angularjs::before {\n  content: \"\\F6BE\";\n}\n\n.mdi-animation::before {\n  content: \"\\F5D8\";\n}\n\n.mdi-animation-outline::before {\n  content: \"\\FA8E\";\n}\n\n.mdi-animation-play::before {\n  content: \"\\F939\";\n}\n\n.mdi-animation-play-outline::before {\n  content: \"\\FA8F\";\n}\n\n.mdi-ansible::before {\n  content: \"\\F00C5\";\n}\n\n.mdi-antenna::before {\n  content: \"\\F0144\";\n}\n\n.mdi-anvil::before {\n  content: \"\\F89A\";\n}\n\n.mdi-apache-kafka::before {\n  content: \"\\F0031\";\n}\n\n.mdi-api::before {\n  content: \"\\F00C6\";\n}\n\n.mdi-api-off::before {\n  content: \"\\F0282\";\n}\n\n.mdi-apple::before {\n  content: \"\\F035\";\n}\n\n.mdi-apple-finder::before {\n  content: \"\\F036\";\n}\n\n.mdi-apple-icloud::before {\n  content: \"\\F038\";\n}\n\n.mdi-apple-ios::before {\n  content: \"\\F037\";\n}\n\n.mdi-apple-keyboard-caps::before {\n  content: \"\\F632\";\n}\n\n.mdi-apple-keyboard-command::before {\n  content: \"\\F633\";\n}\n\n.mdi-apple-keyboard-control::before {\n  content: \"\\F634\";\n}\n\n.mdi-apple-keyboard-option::before {\n  content: \"\\F635\";\n}\n\n.mdi-apple-keyboard-shift::before {\n  content: \"\\F636\";\n}\n\n.mdi-apple-safari::before {\n  content: \"\\F039\";\n}\n\n.mdi-application::before {\n  content: \"\\F614\";\n}\n\n.mdi-application-export::before {\n  content: \"\\FD89\";\n}\n\n.mdi-application-import::before {\n  content: \"\\FD8A\";\n}\n\n.mdi-approximately-equal::before {\n  content: \"\\FFBE\";\n}\n\n.mdi-approximately-equal-box::before {\n  content: \"\\FFBF\";\n}\n\n.mdi-apps::before {\n  content: \"\\F03B\";\n}\n\n.mdi-apps-box::before {\n  content: \"\\FD22\";\n}\n\n.mdi-arch::before {\n  content: \"\\F8C6\";\n}\n\n.mdi-archive::before {\n  content: \"\\F03C\";\n}\n\n.mdi-archive-arrow-down::before {\n  content: \"\\F0284\";\n}\n\n.mdi-archive-arrow-down-outline::before {\n  content: \"\\F0285\";\n}\n\n.mdi-archive-arrow-up::before {\n  content: \"\\F0286\";\n}\n\n.mdi-archive-arrow-up-outline::before {\n  content: \"\\F0287\";\n}\n\n.mdi-archive-outline::before {\n  content: \"\\F0239\";\n}\n\n.mdi-arm-flex::before {\n  content: \"\\F008F\";\n}\n\n.mdi-arm-flex-outline::before {\n  content: \"\\F0090\";\n}\n\n.mdi-arrange-bring-forward::before {\n  content: \"\\F03D\";\n}\n\n.mdi-arrange-bring-to-front::before {\n  content: \"\\F03E\";\n}\n\n.mdi-arrange-send-backward::before {\n  content: \"\\F03F\";\n}\n\n.mdi-arrange-send-to-back::before {\n  content: \"\\F040\";\n}\n\n.mdi-arrow-all::before {\n  content: \"\\F041\";\n}\n\n.mdi-arrow-bottom-left::before {\n  content: \"\\F042\";\n}\n\n.mdi-arrow-bottom-left-bold-outline::before {\n  content: \"\\F9B6\";\n}\n\n.mdi-arrow-bottom-left-thick::before {\n  content: \"\\F9B7\";\n}\n\n.mdi-arrow-bottom-right::before {\n  content: \"\\F043\";\n}\n\n.mdi-arrow-bottom-right-bold-outline::before {\n  content: \"\\F9B8\";\n}\n\n.mdi-arrow-bottom-right-thick::before {\n  content: \"\\F9B9\";\n}\n\n.mdi-arrow-collapse::before {\n  content: \"\\F615\";\n}\n\n.mdi-arrow-collapse-all::before {\n  content: \"\\F044\";\n}\n\n.mdi-arrow-collapse-down::before {\n  content: \"\\F791\";\n}\n\n.mdi-arrow-collapse-horizontal::before {\n  content: \"\\F84B\";\n}\n\n.mdi-arrow-collapse-left::before {\n  content: \"\\F792\";\n}\n\n.mdi-arrow-collapse-right::before {\n  content: \"\\F793\";\n}\n\n.mdi-arrow-collapse-up::before {\n  content: \"\\F794\";\n}\n\n.mdi-arrow-collapse-vertical::before {\n  content: \"\\F84C\";\n}\n\n.mdi-arrow-decision::before {\n  content: \"\\F9BA\";\n}\n\n.mdi-arrow-decision-auto::before {\n  content: \"\\F9BB\";\n}\n\n.mdi-arrow-decision-auto-outline::before {\n  content: \"\\F9BC\";\n}\n\n.mdi-arrow-decision-outline::before {\n  content: \"\\F9BD\";\n}\n\n.mdi-arrow-down::before {\n  content: \"\\F045\";\n}\n\n.mdi-arrow-down-bold::before {\n  content: \"\\F72D\";\n}\n\n.mdi-arrow-down-bold-box::before {\n  content: \"\\F72E\";\n}\n\n.mdi-arrow-down-bold-box-outline::before {\n  content: \"\\F72F\";\n}\n\n.mdi-arrow-down-bold-circle::before {\n  content: \"\\F047\";\n}\n\n.mdi-arrow-down-bold-circle-outline::before {\n  content: \"\\F048\";\n}\n\n.mdi-arrow-down-bold-hexagon-outline::before {\n  content: \"\\F049\";\n}\n\n.mdi-arrow-down-bold-outline::before {\n  content: \"\\F9BE\";\n}\n\n.mdi-arrow-down-box::before {\n  content: \"\\F6BF\";\n}\n\n.mdi-arrow-down-circle::before {\n  content: \"\\FCB7\";\n}\n\n.mdi-arrow-down-circle-outline::before {\n  content: \"\\FCB8\";\n}\n\n.mdi-arrow-down-drop-circle::before {\n  content: \"\\F04A\";\n}\n\n.mdi-arrow-down-drop-circle-outline::before {\n  content: \"\\F04B\";\n}\n\n.mdi-arrow-down-thick::before {\n  content: \"\\F046\";\n}\n\n.mdi-arrow-expand::before {\n  content: \"\\F616\";\n}\n\n.mdi-arrow-expand-all::before {\n  content: \"\\F04C\";\n}\n\n.mdi-arrow-expand-down::before {\n  content: \"\\F795\";\n}\n\n.mdi-arrow-expand-horizontal::before {\n  content: \"\\F84D\";\n}\n\n.mdi-arrow-expand-left::before {\n  content: \"\\F796\";\n}\n\n.mdi-arrow-expand-right::before {\n  content: \"\\F797\";\n}\n\n.mdi-arrow-expand-up::before {\n  content: \"\\F798\";\n}\n\n.mdi-arrow-expand-vertical::before {\n  content: \"\\F84E\";\n}\n\n.mdi-arrow-horizontal-lock::before {\n  content: \"\\F0186\";\n}\n\n.mdi-arrow-left::before {\n  content: \"\\F04D\";\n}\n\n.mdi-arrow-left-bold::before {\n  content: \"\\F730\";\n}\n\n.mdi-arrow-left-bold-box::before {\n  content: \"\\F731\";\n}\n\n.mdi-arrow-left-bold-box-outline::before {\n  content: \"\\F732\";\n}\n\n.mdi-arrow-left-bold-circle::before {\n  content: \"\\F04F\";\n}\n\n.mdi-arrow-left-bold-circle-outline::before {\n  content: \"\\F050\";\n}\n\n.mdi-arrow-left-bold-hexagon-outline::before {\n  content: \"\\F051\";\n}\n\n.mdi-arrow-left-bold-outline::before {\n  content: \"\\F9BF\";\n}\n\n.mdi-arrow-left-box::before {\n  content: \"\\F6C0\";\n}\n\n.mdi-arrow-left-circle::before {\n  content: \"\\FCB9\";\n}\n\n.mdi-arrow-left-circle-outline::before {\n  content: \"\\FCBA\";\n}\n\n.mdi-arrow-left-drop-circle::before {\n  content: \"\\F052\";\n}\n\n.mdi-arrow-left-drop-circle-outline::before {\n  content: \"\\F053\";\n}\n\n.mdi-arrow-left-right::before {\n  content: \"\\FE90\";\n}\n\n.mdi-arrow-left-right-bold::before {\n  content: \"\\FE91\";\n}\n\n.mdi-arrow-left-right-bold-outline::before {\n  content: \"\\F9C0\";\n}\n\n.mdi-arrow-left-thick::before {\n  content: \"\\F04E\";\n}\n\n.mdi-arrow-right::before {\n  content: \"\\F054\";\n}\n\n.mdi-arrow-right-bold::before {\n  content: \"\\F733\";\n}\n\n.mdi-arrow-right-bold-box::before {\n  content: \"\\F734\";\n}\n\n.mdi-arrow-right-bold-box-outline::before {\n  content: \"\\F735\";\n}\n\n.mdi-arrow-right-bold-circle::before {\n  content: \"\\F056\";\n}\n\n.mdi-arrow-right-bold-circle-outline::before {\n  content: \"\\F057\";\n}\n\n.mdi-arrow-right-bold-hexagon-outline::before {\n  content: \"\\F058\";\n}\n\n.mdi-arrow-right-bold-outline::before {\n  content: \"\\F9C1\";\n}\n\n.mdi-arrow-right-box::before {\n  content: \"\\F6C1\";\n}\n\n.mdi-arrow-right-circle::before {\n  content: \"\\FCBB\";\n}\n\n.mdi-arrow-right-circle-outline::before {\n  content: \"\\FCBC\";\n}\n\n.mdi-arrow-right-drop-circle::before {\n  content: \"\\F059\";\n}\n\n.mdi-arrow-right-drop-circle-outline::before {\n  content: \"\\F05A\";\n}\n\n.mdi-arrow-right-thick::before {\n  content: \"\\F055\";\n}\n\n.mdi-arrow-split-horizontal::before {\n  content: \"\\F93A\";\n}\n\n.mdi-arrow-split-vertical::before {\n  content: \"\\F93B\";\n}\n\n.mdi-arrow-top-left::before {\n  content: \"\\F05B\";\n}\n\n.mdi-arrow-top-left-bold-outline::before {\n  content: \"\\F9C2\";\n}\n\n.mdi-arrow-top-left-bottom-right::before {\n  content: \"\\FE92\";\n}\n\n.mdi-arrow-top-left-bottom-right-bold::before {\n  content: \"\\FE93\";\n}\n\n.mdi-arrow-top-left-thick::before {\n  content: \"\\F9C3\";\n}\n\n.mdi-arrow-top-right::before {\n  content: \"\\F05C\";\n}\n\n.mdi-arrow-top-right-bold-outline::before {\n  content: \"\\F9C4\";\n}\n\n.mdi-arrow-top-right-bottom-left::before {\n  content: \"\\FE94\";\n}\n\n.mdi-arrow-top-right-bottom-left-bold::before {\n  content: \"\\FE95\";\n}\n\n.mdi-arrow-top-right-thick::before {\n  content: \"\\F9C5\";\n}\n\n.mdi-arrow-up::before {\n  content: \"\\F05D\";\n}\n\n.mdi-arrow-up-bold::before {\n  content: \"\\F736\";\n}\n\n.mdi-arrow-up-bold-box::before {\n  content: \"\\F737\";\n}\n\n.mdi-arrow-up-bold-box-outline::before {\n  content: \"\\F738\";\n}\n\n.mdi-arrow-up-bold-circle::before {\n  content: \"\\F05F\";\n}\n\n.mdi-arrow-up-bold-circle-outline::before {\n  content: \"\\F060\";\n}\n\n.mdi-arrow-up-bold-hexagon-outline::before {\n  content: \"\\F061\";\n}\n\n.mdi-arrow-up-bold-outline::before {\n  content: \"\\F9C6\";\n}\n\n.mdi-arrow-up-box::before {\n  content: \"\\F6C2\";\n}\n\n.mdi-arrow-up-circle::before {\n  content: \"\\FCBD\";\n}\n\n.mdi-arrow-up-circle-outline::before {\n  content: \"\\FCBE\";\n}\n\n.mdi-arrow-up-down::before {\n  content: \"\\FE96\";\n}\n\n.mdi-arrow-up-down-bold::before {\n  content: \"\\FE97\";\n}\n\n.mdi-arrow-up-down-bold-outline::before {\n  content: \"\\F9C7\";\n}\n\n.mdi-arrow-up-drop-circle::before {\n  content: \"\\F062\";\n}\n\n.mdi-arrow-up-drop-circle-outline::before {\n  content: \"\\F063\";\n}\n\n.mdi-arrow-up-thick::before {\n  content: \"\\F05E\";\n}\n\n.mdi-arrow-vertical-lock::before {\n  content: \"\\F0187\";\n}\n\n.mdi-artist::before {\n  content: \"\\F802\";\n}\n\n.mdi-artist-outline::before {\n  content: \"\\FCC5\";\n}\n\n.mdi-artstation::before {\n  content: \"\\FB37\";\n}\n\n.mdi-aspect-ratio::before {\n  content: \"\\FA23\";\n}\n\n.mdi-assistant::before {\n  content: \"\\F064\";\n}\n\n.mdi-asterisk::before {\n  content: \"\\F6C3\";\n}\n\n.mdi-at::before {\n  content: \"\\F065\";\n}\n\n.mdi-atlassian::before {\n  content: \"\\F803\";\n}\n\n.mdi-atm::before {\n  content: \"\\FD23\";\n}\n\n.mdi-atom::before {\n  content: \"\\F767\";\n}\n\n.mdi-atom-variant::before {\n  content: \"\\FE98\";\n}\n\n.mdi-attachment::before {\n  content: \"\\F066\";\n}\n\n.mdi-audio-video::before {\n  content: \"\\F93C\";\n}\n\n.mdi-audio-video-off::before {\n  content: \"\\F01E1\";\n}\n\n.mdi-audiobook::before {\n  content: \"\\F067\";\n}\n\n.mdi-augmented-reality::before {\n  content: \"\\F84F\";\n}\n\n.mdi-auto-download::before {\n  content: \"\\F03A9\";\n}\n\n.mdi-auto-fix::before {\n  content: \"\\F068\";\n}\n\n.mdi-auto-upload::before {\n  content: \"\\F069\";\n}\n\n.mdi-autorenew::before {\n  content: \"\\F06A\";\n}\n\n.mdi-av-timer::before {\n  content: \"\\F06B\";\n}\n\n.mdi-aws::before {\n  content: \"\\FDF2\";\n}\n\n.mdi-axe::before {\n  content: \"\\F8C7\";\n}\n\n.mdi-axis::before {\n  content: \"\\FD24\";\n}\n\n.mdi-axis-arrow::before {\n  content: \"\\FD25\";\n}\n\n.mdi-axis-arrow-lock::before {\n  content: \"\\FD26\";\n}\n\n.mdi-axis-lock::before {\n  content: \"\\FD27\";\n}\n\n.mdi-axis-x-arrow::before {\n  content: \"\\FD28\";\n}\n\n.mdi-axis-x-arrow-lock::before {\n  content: \"\\FD29\";\n}\n\n.mdi-axis-x-rotate-clockwise::before {\n  content: \"\\FD2A\";\n}\n\n.mdi-axis-x-rotate-counterclockwise::before {\n  content: \"\\FD2B\";\n}\n\n.mdi-axis-x-y-arrow-lock::before {\n  content: \"\\FD2C\";\n}\n\n.mdi-axis-y-arrow::before {\n  content: \"\\FD2D\";\n}\n\n.mdi-axis-y-arrow-lock::before {\n  content: \"\\FD2E\";\n}\n\n.mdi-axis-y-rotate-clockwise::before {\n  content: \"\\FD2F\";\n}\n\n.mdi-axis-y-rotate-counterclockwise::before {\n  content: \"\\FD30\";\n}\n\n.mdi-axis-z-arrow::before {\n  content: \"\\FD31\";\n}\n\n.mdi-axis-z-arrow-lock::before {\n  content: \"\\FD32\";\n}\n\n.mdi-axis-z-rotate-clockwise::before {\n  content: \"\\FD33\";\n}\n\n.mdi-axis-z-rotate-counterclockwise::before {\n  content: \"\\FD34\";\n}\n\n.mdi-azure::before {\n  content: \"\\F804\";\n}\n\n.mdi-azure-devops::before {\n  content: \"\\F0091\";\n}\n\n.mdi-babel::before {\n  content: \"\\FA24\";\n}\n\n.mdi-baby::before {\n  content: \"\\F06C\";\n}\n\n.mdi-baby-bottle::before {\n  content: \"\\FF56\";\n}\n\n.mdi-baby-bottle-outline::before {\n  content: \"\\FF57\";\n}\n\n.mdi-baby-carriage::before {\n  content: \"\\F68E\";\n}\n\n.mdi-baby-carriage-off::before {\n  content: \"\\FFC0\";\n}\n\n.mdi-baby-face::before {\n  content: \"\\FE99\";\n}\n\n.mdi-baby-face-outline::before {\n  content: \"\\FE9A\";\n}\n\n.mdi-backburger::before {\n  content: \"\\F06D\";\n}\n\n.mdi-backspace::before {\n  content: \"\\F06E\";\n}\n\n.mdi-backspace-outline::before {\n  content: \"\\FB38\";\n}\n\n.mdi-backspace-reverse::before {\n  content: \"\\FE9B\";\n}\n\n.mdi-backspace-reverse-outline::before {\n  content: \"\\FE9C\";\n}\n\n.mdi-backup-restore::before {\n  content: \"\\F06F\";\n}\n\n.mdi-bacteria::before {\n  content: \"\\FEF2\";\n}\n\n.mdi-bacteria-outline::before {\n  content: \"\\FEF3\";\n}\n\n.mdi-badminton::before {\n  content: \"\\F850\";\n}\n\n.mdi-bag-carry-on::before {\n  content: \"\\FF58\";\n}\n\n.mdi-bag-carry-on-check::before {\n  content: \"\\FD41\";\n}\n\n.mdi-bag-carry-on-off::before {\n  content: \"\\FF59\";\n}\n\n.mdi-bag-checked::before {\n  content: \"\\FF5A\";\n}\n\n.mdi-bag-personal::before {\n  content: \"\\FDF3\";\n}\n\n.mdi-bag-personal-off::before {\n  content: \"\\FDF4\";\n}\n\n.mdi-bag-personal-off-outline::before {\n  content: \"\\FDF5\";\n}\n\n.mdi-bag-personal-outline::before {\n  content: \"\\FDF6\";\n}\n\n.mdi-baguette::before {\n  content: \"\\FF5B\";\n}\n\n.mdi-balloon::before {\n  content: \"\\FA25\";\n}\n\n.mdi-ballot::before {\n  content: \"\\F9C8\";\n}\n\n.mdi-ballot-outline::before {\n  content: \"\\F9C9\";\n}\n\n.mdi-ballot-recount::before {\n  content: \"\\FC15\";\n}\n\n.mdi-ballot-recount-outline::before {\n  content: \"\\FC16\";\n}\n\n.mdi-bandage::before {\n  content: \"\\FD8B\";\n}\n\n.mdi-bandcamp::before {\n  content: \"\\F674\";\n}\n\n.mdi-bank::before {\n  content: \"\\F070\";\n}\n\n.mdi-bank-minus::before {\n  content: \"\\FD8C\";\n}\n\n.mdi-bank-outline::before {\n  content: \"\\FE9D\";\n}\n\n.mdi-bank-plus::before {\n  content: \"\\FD8D\";\n}\n\n.mdi-bank-remove::before {\n  content: \"\\FD8E\";\n}\n\n.mdi-bank-transfer::before {\n  content: \"\\FA26\";\n}\n\n.mdi-bank-transfer-in::before {\n  content: \"\\FA27\";\n}\n\n.mdi-bank-transfer-out::before {\n  content: \"\\FA28\";\n}\n\n.mdi-barcode::before {\n  content: \"\\F071\";\n}\n\n.mdi-barcode-off::before {\n  content: \"\\F0261\";\n}\n\n.mdi-barcode-scan::before {\n  content: \"\\F072\";\n}\n\n.mdi-barley::before {\n  content: \"\\F073\";\n}\n\n.mdi-barley-off::before {\n  content: \"\\FB39\";\n}\n\n.mdi-barn::before {\n  content: \"\\FB3A\";\n}\n\n.mdi-barrel::before {\n  content: \"\\F074\";\n}\n\n.mdi-baseball::before {\n  content: \"\\F851\";\n}\n\n.mdi-baseball-bat::before {\n  content: \"\\F852\";\n}\n\n.mdi-basecamp::before {\n  content: \"\\F075\";\n}\n\n.mdi-bash::before {\n  content: \"\\F01AE\";\n}\n\n.mdi-basket::before {\n  content: \"\\F076\";\n}\n\n.mdi-basket-fill::before {\n  content: \"\\F077\";\n}\n\n.mdi-basket-outline::before {\n  content: \"\\F01AC\";\n}\n\n.mdi-basket-unfill::before {\n  content: \"\\F078\";\n}\n\n.mdi-basketball::before {\n  content: \"\\F805\";\n}\n\n.mdi-basketball-hoop::before {\n  content: \"\\FC17\";\n}\n\n.mdi-basketball-hoop-outline::before {\n  content: \"\\FC18\";\n}\n\n.mdi-bat::before {\n  content: \"\\FB3B\";\n}\n\n.mdi-battery::before {\n  content: \"\\F079\";\n}\n\n.mdi-battery-10::before {\n  content: \"\\F07A\";\n}\n\n.mdi-battery-10-bluetooth::before {\n  content: \"\\F93D\";\n}\n\n.mdi-battery-20::before {\n  content: \"\\F07B\";\n}\n\n.mdi-battery-20-bluetooth::before {\n  content: \"\\F93E\";\n}\n\n.mdi-battery-30::before {\n  content: \"\\F07C\";\n}\n\n.mdi-battery-30-bluetooth::before {\n  content: \"\\F93F\";\n}\n\n.mdi-battery-40::before {\n  content: \"\\F07D\";\n}\n\n.mdi-battery-40-bluetooth::before {\n  content: \"\\F940\";\n}\n\n.mdi-battery-50::before {\n  content: \"\\F07E\";\n}\n\n.mdi-battery-50-bluetooth::before {\n  content: \"\\F941\";\n}\n\n.mdi-battery-60::before {\n  content: \"\\F07F\";\n}\n\n.mdi-battery-60-bluetooth::before {\n  content: \"\\F942\";\n}\n\n.mdi-battery-70::before {\n  content: \"\\F080\";\n}\n\n.mdi-battery-70-bluetooth::before {\n  content: \"\\F943\";\n}\n\n.mdi-battery-80::before {\n  content: \"\\F081\";\n}\n\n.mdi-battery-80-bluetooth::before {\n  content: \"\\F944\";\n}\n\n.mdi-battery-90::before {\n  content: \"\\F082\";\n}\n\n.mdi-battery-90-bluetooth::before {\n  content: \"\\F945\";\n}\n\n.mdi-battery-alert::before {\n  content: \"\\F083\";\n}\n\n.mdi-battery-alert-bluetooth::before {\n  content: \"\\F946\";\n}\n\n.mdi-battery-alert-variant::before {\n  content: \"\\F00F7\";\n}\n\n.mdi-battery-alert-variant-outline::before {\n  content: \"\\F00F8\";\n}\n\n.mdi-battery-bluetooth::before {\n  content: \"\\F947\";\n}\n\n.mdi-battery-bluetooth-variant::before {\n  content: \"\\F948\";\n}\n\n.mdi-battery-charging::before {\n  content: \"\\F084\";\n}\n\n.mdi-battery-charging-10::before {\n  content: \"\\F89B\";\n}\n\n.mdi-battery-charging-100::before {\n  content: \"\\F085\";\n}\n\n.mdi-battery-charging-20::before {\n  content: \"\\F086\";\n}\n\n.mdi-battery-charging-30::before {\n  content: \"\\F087\";\n}\n\n.mdi-battery-charging-40::before {\n  content: \"\\F088\";\n}\n\n.mdi-battery-charging-50::before {\n  content: \"\\F89C\";\n}\n\n.mdi-battery-charging-60::before {\n  content: \"\\F089\";\n}\n\n.mdi-battery-charging-70::before {\n  content: \"\\F89D\";\n}\n\n.mdi-battery-charging-80::before {\n  content: \"\\F08A\";\n}\n\n.mdi-battery-charging-90::before {\n  content: \"\\F08B\";\n}\n\n.mdi-battery-charging-high::before {\n  content: \"\\F02D1\";\n}\n\n.mdi-battery-charging-low::before {\n  content: \"\\F02CF\";\n}\n\n.mdi-battery-charging-medium::before {\n  content: \"\\F02D0\";\n}\n\n.mdi-battery-charging-outline::before {\n  content: \"\\F89E\";\n}\n\n.mdi-battery-charging-wireless::before {\n  content: \"\\F806\";\n}\n\n.mdi-battery-charging-wireless-10::before {\n  content: \"\\F807\";\n}\n\n.mdi-battery-charging-wireless-20::before {\n  content: \"\\F808\";\n}\n\n.mdi-battery-charging-wireless-30::before {\n  content: \"\\F809\";\n}\n\n.mdi-battery-charging-wireless-40::before {\n  content: \"\\F80A\";\n}\n\n.mdi-battery-charging-wireless-50::before {\n  content: \"\\F80B\";\n}\n\n.mdi-battery-charging-wireless-60::before {\n  content: \"\\F80C\";\n}\n\n.mdi-battery-charging-wireless-70::before {\n  content: \"\\F80D\";\n}\n\n.mdi-battery-charging-wireless-80::before {\n  content: \"\\F80E\";\n}\n\n.mdi-battery-charging-wireless-90::before {\n  content: \"\\F80F\";\n}\n\n.mdi-battery-charging-wireless-alert::before {\n  content: \"\\F810\";\n}\n\n.mdi-battery-charging-wireless-outline::before {\n  content: \"\\F811\";\n}\n\n.mdi-battery-heart::before {\n  content: \"\\F023A\";\n}\n\n.mdi-battery-heart-outline::before {\n  content: \"\\F023B\";\n}\n\n.mdi-battery-heart-variant::before {\n  content: \"\\F023C\";\n}\n\n.mdi-battery-high::before {\n  content: \"\\F02CE\";\n}\n\n.mdi-battery-low::before {\n  content: \"\\F02CC\";\n}\n\n.mdi-battery-medium::before {\n  content: \"\\F02CD\";\n}\n\n.mdi-battery-minus::before {\n  content: \"\\F08C\";\n}\n\n.mdi-battery-negative::before {\n  content: \"\\F08D\";\n}\n\n.mdi-battery-off::before {\n  content: \"\\F0288\";\n}\n\n.mdi-battery-off-outline::before {\n  content: \"\\F0289\";\n}\n\n.mdi-battery-outline::before {\n  content: \"\\F08E\";\n}\n\n.mdi-battery-plus::before {\n  content: \"\\F08F\";\n}\n\n.mdi-battery-positive::before {\n  content: \"\\F090\";\n}\n\n.mdi-battery-unknown::before {\n  content: \"\\F091\";\n}\n\n.mdi-battery-unknown-bluetooth::before {\n  content: \"\\F949\";\n}\n\n.mdi-battlenet::before {\n  content: \"\\FB3C\";\n}\n\n.mdi-beach::before {\n  content: \"\\F092\";\n}\n\n.mdi-beaker::before {\n  content: \"\\FCC6\";\n}\n\n.mdi-beaker-alert::before {\n  content: \"\\F0254\";\n}\n\n.mdi-beaker-alert-outline::before {\n  content: \"\\F0255\";\n}\n\n.mdi-beaker-check::before {\n  content: \"\\F0256\";\n}\n\n.mdi-beaker-check-outline::before {\n  content: \"\\F0257\";\n}\n\n.mdi-beaker-minus::before {\n  content: \"\\F0258\";\n}\n\n.mdi-beaker-minus-outline::before {\n  content: \"\\F0259\";\n}\n\n.mdi-beaker-outline::before {\n  content: \"\\F68F\";\n}\n\n.mdi-beaker-plus::before {\n  content: \"\\F025A\";\n}\n\n.mdi-beaker-plus-outline::before {\n  content: \"\\F025B\";\n}\n\n.mdi-beaker-question::before {\n  content: \"\\F025C\";\n}\n\n.mdi-beaker-question-outline::before {\n  content: \"\\F025D\";\n}\n\n.mdi-beaker-remove::before {\n  content: \"\\F025E\";\n}\n\n.mdi-beaker-remove-outline::before {\n  content: \"\\F025F\";\n}\n\n.mdi-beats::before {\n  content: \"\\F097\";\n}\n\n.mdi-bed-double::before {\n  content: \"\\F0092\";\n}\n\n.mdi-bed-double-outline::before {\n  content: \"\\F0093\";\n}\n\n.mdi-bed-empty::before {\n  content: \"\\F89F\";\n}\n\n.mdi-bed-king::before {\n  content: \"\\F0094\";\n}\n\n.mdi-bed-king-outline::before {\n  content: \"\\F0095\";\n}\n\n.mdi-bed-queen::before {\n  content: \"\\F0096\";\n}\n\n.mdi-bed-queen-outline::before {\n  content: \"\\F0097\";\n}\n\n.mdi-bed-single::before {\n  content: \"\\F0098\";\n}\n\n.mdi-bed-single-outline::before {\n  content: \"\\F0099\";\n}\n\n.mdi-bee::before {\n  content: \"\\FFC1\";\n}\n\n.mdi-bee-flower::before {\n  content: \"\\FFC2\";\n}\n\n.mdi-beehive-outline::before {\n  content: \"\\F00F9\";\n}\n\n.mdi-beer::before {\n  content: \"\\F098\";\n}\n\n.mdi-beer-outline::before {\n  content: \"\\F0337\";\n}\n\n.mdi-behance::before {\n  content: \"\\F099\";\n}\n\n.mdi-bell::before {\n  content: \"\\F09A\";\n}\n\n.mdi-bell-alert::before {\n  content: \"\\FD35\";\n}\n\n.mdi-bell-alert-outline::before {\n  content: \"\\FE9E\";\n}\n\n.mdi-bell-check::before {\n  content: \"\\F0210\";\n}\n\n.mdi-bell-check-outline::before {\n  content: \"\\F0211\";\n}\n\n.mdi-bell-circle::before {\n  content: \"\\FD36\";\n}\n\n.mdi-bell-circle-outline::before {\n  content: \"\\FD37\";\n}\n\n.mdi-bell-off::before {\n  content: \"\\F09B\";\n}\n\n.mdi-bell-off-outline::before {\n  content: \"\\FA90\";\n}\n\n.mdi-bell-outline::before {\n  content: \"\\F09C\";\n}\n\n.mdi-bell-plus::before {\n  content: \"\\F09D\";\n}\n\n.mdi-bell-plus-outline::before {\n  content: \"\\FA91\";\n}\n\n.mdi-bell-ring::before {\n  content: \"\\F09E\";\n}\n\n.mdi-bell-ring-outline::before {\n  content: \"\\F09F\";\n}\n\n.mdi-bell-sleep::before {\n  content: \"\\F0A0\";\n}\n\n.mdi-bell-sleep-outline::before {\n  content: \"\\FA92\";\n}\n\n.mdi-beta::before {\n  content: \"\\F0A1\";\n}\n\n.mdi-betamax::before {\n  content: \"\\F9CA\";\n}\n\n.mdi-biathlon::before {\n  content: \"\\FDF7\";\n}\n\n.mdi-bible::before {\n  content: \"\\F0A2\";\n}\n\n.mdi-bicycle::before {\n  content: \"\\F00C7\";\n}\n\n.mdi-bicycle-basket::before {\n  content: \"\\F0260\";\n}\n\n.mdi-bike::before {\n  content: \"\\F0A3\";\n}\n\n.mdi-bike-fast::before {\n  content: \"\\F014A\";\n}\n\n.mdi-billboard::before {\n  content: \"\\F0032\";\n}\n\n.mdi-billiards::before {\n  content: \"\\FB3D\";\n}\n\n.mdi-billiards-rack::before {\n  content: \"\\FB3E\";\n}\n\n.mdi-bing::before {\n  content: \"\\F0A4\";\n}\n\n.mdi-binoculars::before {\n  content: \"\\F0A5\";\n}\n\n.mdi-bio::before {\n  content: \"\\F0A6\";\n}\n\n.mdi-biohazard::before {\n  content: \"\\F0A7\";\n}\n\n.mdi-bitbucket::before {\n  content: \"\\F0A8\";\n}\n\n.mdi-bitcoin::before {\n  content: \"\\F812\";\n}\n\n.mdi-black-mesa::before {\n  content: \"\\F0A9\";\n}\n\n.mdi-blackberry::before {\n  content: \"\\F0AA\";\n}\n\n.mdi-blender::before {\n  content: \"\\FCC7\";\n}\n\n.mdi-blender-software::before {\n  content: \"\\F0AB\";\n}\n\n.mdi-blinds::before {\n  content: \"\\F0AC\";\n}\n\n.mdi-blinds-open::before {\n  content: \"\\F0033\";\n}\n\n.mdi-block-helper::before {\n  content: \"\\F0AD\";\n}\n\n.mdi-blogger::before {\n  content: \"\\F0AE\";\n}\n\n.mdi-blood-bag::before {\n  content: \"\\FCC8\";\n}\n\n.mdi-bluetooth::before {\n  content: \"\\F0AF\";\n}\n\n.mdi-bluetooth-audio::before {\n  content: \"\\F0B0\";\n}\n\n.mdi-bluetooth-connect::before {\n  content: \"\\F0B1\";\n}\n\n.mdi-bluetooth-off::before {\n  content: \"\\F0B2\";\n}\n\n.mdi-bluetooth-settings::before {\n  content: \"\\F0B3\";\n}\n\n.mdi-bluetooth-transfer::before {\n  content: \"\\F0B4\";\n}\n\n.mdi-blur::before {\n  content: \"\\F0B5\";\n}\n\n.mdi-blur-linear::before {\n  content: \"\\F0B6\";\n}\n\n.mdi-blur-off::before {\n  content: \"\\F0B7\";\n}\n\n.mdi-blur-radial::before {\n  content: \"\\F0B8\";\n}\n\n.mdi-bolnisi-cross::before {\n  content: \"\\FCC9\";\n}\n\n.mdi-bolt::before {\n  content: \"\\FD8F\";\n}\n\n.mdi-bomb::before {\n  content: \"\\F690\";\n}\n\n.mdi-bomb-off::before {\n  content: \"\\F6C4\";\n}\n\n.mdi-bone::before {\n  content: \"\\F0B9\";\n}\n\n.mdi-book::before {\n  content: \"\\F0BA\";\n}\n\n.mdi-book-information-variant::before {\n  content: \"\\F009A\";\n}\n\n.mdi-book-lock::before {\n  content: \"\\F799\";\n}\n\n.mdi-book-lock-open::before {\n  content: \"\\F79A\";\n}\n\n.mdi-book-minus::before {\n  content: \"\\F5D9\";\n}\n\n.mdi-book-minus-multiple::before {\n  content: \"\\FA93\";\n}\n\n.mdi-book-multiple::before {\n  content: \"\\F0BB\";\n}\n\n.mdi-book-open::before {\n  content: \"\\F0BD\";\n}\n\n.mdi-book-open-outline::before {\n  content: \"\\FB3F\";\n}\n\n.mdi-book-open-page-variant::before {\n  content: \"\\F5DA\";\n}\n\n.mdi-book-open-variant::before {\n  content: \"\\F0BE\";\n}\n\n.mdi-book-outline::before {\n  content: \"\\FB40\";\n}\n\n.mdi-book-play::before {\n  content: \"\\FE9F\";\n}\n\n.mdi-book-play-outline::before {\n  content: \"\\FEA0\";\n}\n\n.mdi-book-plus::before {\n  content: \"\\F5DB\";\n}\n\n.mdi-book-plus-multiple::before {\n  content: \"\\FA94\";\n}\n\n.mdi-book-remove::before {\n  content: \"\\FA96\";\n}\n\n.mdi-book-remove-multiple::before {\n  content: \"\\FA95\";\n}\n\n.mdi-book-search::before {\n  content: \"\\FEA1\";\n}\n\n.mdi-book-search-outline::before {\n  content: \"\\FEA2\";\n}\n\n.mdi-book-variant::before {\n  content: \"\\F0BF\";\n}\n\n.mdi-book-variant-multiple::before {\n  content: \"\\F0BC\";\n}\n\n.mdi-bookmark::before {\n  content: \"\\F0C0\";\n}\n\n.mdi-bookmark-check::before {\n  content: \"\\F0C1\";\n}\n\n.mdi-bookmark-check-outline::before {\n  content: \"\\F03A6\";\n}\n\n.mdi-bookmark-minus::before {\n  content: \"\\F9CB\";\n}\n\n.mdi-bookmark-minus-outline::before {\n  content: \"\\F9CC\";\n}\n\n.mdi-bookmark-multiple::before {\n  content: \"\\FDF8\";\n}\n\n.mdi-bookmark-multiple-outline::before {\n  content: \"\\FDF9\";\n}\n\n.mdi-bookmark-music::before {\n  content: \"\\F0C2\";\n}\n\n.mdi-bookmark-music-outline::before {\n  content: \"\\F03A4\";\n}\n\n.mdi-bookmark-off::before {\n  content: \"\\F9CD\";\n}\n\n.mdi-bookmark-off-outline::before {\n  content: \"\\F9CE\";\n}\n\n.mdi-bookmark-outline::before {\n  content: \"\\F0C3\";\n}\n\n.mdi-bookmark-plus::before {\n  content: \"\\F0C5\";\n}\n\n.mdi-bookmark-plus-outline::before {\n  content: \"\\F0C4\";\n}\n\n.mdi-bookmark-remove::before {\n  content: \"\\F0C6\";\n}\n\n.mdi-bookmark-remove-outline::before {\n  content: \"\\F03A5\";\n}\n\n.mdi-bookshelf::before {\n  content: \"\\F028A\";\n}\n\n.mdi-boom-gate::before {\n  content: \"\\FEA3\";\n}\n\n.mdi-boom-gate-alert::before {\n  content: \"\\FEA4\";\n}\n\n.mdi-boom-gate-alert-outline::before {\n  content: \"\\FEA5\";\n}\n\n.mdi-boom-gate-down::before {\n  content: \"\\FEA6\";\n}\n\n.mdi-boom-gate-down-outline::before {\n  content: \"\\FEA7\";\n}\n\n.mdi-boom-gate-outline::before {\n  content: \"\\FEA8\";\n}\n\n.mdi-boom-gate-up::before {\n  content: \"\\FEA9\";\n}\n\n.mdi-boom-gate-up-outline::before {\n  content: \"\\FEAA\";\n}\n\n.mdi-boombox::before {\n  content: \"\\F5DC\";\n}\n\n.mdi-boomerang::before {\n  content: \"\\F00FA\";\n}\n\n.mdi-bootstrap::before {\n  content: \"\\F6C5\";\n}\n\n.mdi-border-all::before {\n  content: \"\\F0C7\";\n}\n\n.mdi-border-all-variant::before {\n  content: \"\\F8A0\";\n}\n\n.mdi-border-bottom::before {\n  content: \"\\F0C8\";\n}\n\n.mdi-border-bottom-variant::before {\n  content: \"\\F8A1\";\n}\n\n.mdi-border-color::before {\n  content: \"\\F0C9\";\n}\n\n.mdi-border-horizontal::before {\n  content: \"\\F0CA\";\n}\n\n.mdi-border-inside::before {\n  content: \"\\F0CB\";\n}\n\n.mdi-border-left::before {\n  content: \"\\F0CC\";\n}\n\n.mdi-border-left-variant::before {\n  content: \"\\F8A2\";\n}\n\n.mdi-border-none::before {\n  content: \"\\F0CD\";\n}\n\n.mdi-border-none-variant::before {\n  content: \"\\F8A3\";\n}\n\n.mdi-border-outside::before {\n  content: \"\\F0CE\";\n}\n\n.mdi-border-right::before {\n  content: \"\\F0CF\";\n}\n\n.mdi-border-right-variant::before {\n  content: \"\\F8A4\";\n}\n\n.mdi-border-style::before {\n  content: \"\\F0D0\";\n}\n\n.mdi-border-top::before {\n  content: \"\\F0D1\";\n}\n\n.mdi-border-top-variant::before {\n  content: \"\\F8A5\";\n}\n\n.mdi-border-vertical::before {\n  content: \"\\F0D2\";\n}\n\n.mdi-bottle-soda::before {\n  content: \"\\F009B\";\n}\n\n.mdi-bottle-soda-classic::before {\n  content: \"\\F009C\";\n}\n\n.mdi-bottle-soda-classic-outline::before {\n  content: \"\\F038E\";\n}\n\n.mdi-bottle-soda-outline::before {\n  content: \"\\F009D\";\n}\n\n.mdi-bottle-tonic::before {\n  content: \"\\F0159\";\n}\n\n.mdi-bottle-tonic-outline::before {\n  content: \"\\F015A\";\n}\n\n.mdi-bottle-tonic-plus::before {\n  content: \"\\F015B\";\n}\n\n.mdi-bottle-tonic-plus-outline::before {\n  content: \"\\F015C\";\n}\n\n.mdi-bottle-tonic-skull::before {\n  content: \"\\F015D\";\n}\n\n.mdi-bottle-tonic-skull-outline::before {\n  content: \"\\F015E\";\n}\n\n.mdi-bottle-wine::before {\n  content: \"\\F853\";\n}\n\n.mdi-bottle-wine-outline::before {\n  content: \"\\F033B\";\n}\n\n.mdi-bow-tie::before {\n  content: \"\\F677\";\n}\n\n.mdi-bowl::before {\n  content: \"\\F617\";\n}\n\n.mdi-bowling::before {\n  content: \"\\F0D3\";\n}\n\n.mdi-box::before {\n  content: \"\\F0D4\";\n}\n\n.mdi-box-cutter::before {\n  content: \"\\F0D5\";\n}\n\n.mdi-box-shadow::before {\n  content: \"\\F637\";\n}\n\n.mdi-boxing-glove::before {\n  content: \"\\FB41\";\n}\n\n.mdi-braille::before {\n  content: \"\\F9CF\";\n}\n\n.mdi-brain::before {\n  content: \"\\F9D0\";\n}\n\n.mdi-bread-slice::before {\n  content: \"\\FCCA\";\n}\n\n.mdi-bread-slice-outline::before {\n  content: \"\\FCCB\";\n}\n\n.mdi-bridge::before {\n  content: \"\\F618\";\n}\n\n.mdi-briefcase::before {\n  content: \"\\F0D6\";\n}\n\n.mdi-briefcase-account::before {\n  content: \"\\FCCC\";\n}\n\n.mdi-briefcase-account-outline::before {\n  content: \"\\FCCD\";\n}\n\n.mdi-briefcase-check::before {\n  content: \"\\F0D7\";\n}\n\n.mdi-briefcase-check-outline::before {\n  content: \"\\F0349\";\n}\n\n.mdi-briefcase-clock::before {\n  content: \"\\F00FB\";\n}\n\n.mdi-briefcase-clock-outline::before {\n  content: \"\\F00FC\";\n}\n\n.mdi-briefcase-download::before {\n  content: \"\\F0D8\";\n}\n\n.mdi-briefcase-download-outline::before {\n  content: \"\\FC19\";\n}\n\n.mdi-briefcase-edit::before {\n  content: \"\\FA97\";\n}\n\n.mdi-briefcase-edit-outline::before {\n  content: \"\\FC1A\";\n}\n\n.mdi-briefcase-minus::before {\n  content: \"\\FA29\";\n}\n\n.mdi-briefcase-minus-outline::before {\n  content: \"\\FC1B\";\n}\n\n.mdi-briefcase-outline::before {\n  content: \"\\F813\";\n}\n\n.mdi-briefcase-plus::before {\n  content: \"\\FA2A\";\n}\n\n.mdi-briefcase-plus-outline::before {\n  content: \"\\FC1C\";\n}\n\n.mdi-briefcase-remove::before {\n  content: \"\\FA2B\";\n}\n\n.mdi-briefcase-remove-outline::before {\n  content: \"\\FC1D\";\n}\n\n.mdi-briefcase-search::before {\n  content: \"\\FA2C\";\n}\n\n.mdi-briefcase-search-outline::before {\n  content: \"\\FC1E\";\n}\n\n.mdi-briefcase-upload::before {\n  content: \"\\F0D9\";\n}\n\n.mdi-briefcase-upload-outline::before {\n  content: \"\\FC1F\";\n}\n\n.mdi-brightness-1::before {\n  content: \"\\F0DA\";\n}\n\n.mdi-brightness-2::before {\n  content: \"\\F0DB\";\n}\n\n.mdi-brightness-3::before {\n  content: \"\\F0DC\";\n}\n\n.mdi-brightness-4::before {\n  content: \"\\F0DD\";\n}\n\n.mdi-brightness-5::before {\n  content: \"\\F0DE\";\n}\n\n.mdi-brightness-6::before {\n  content: \"\\F0DF\";\n}\n\n.mdi-brightness-7::before {\n  content: \"\\F0E0\";\n}\n\n.mdi-brightness-auto::before {\n  content: \"\\F0E1\";\n}\n\n.mdi-brightness-percent::before {\n  content: \"\\FCCE\";\n}\n\n.mdi-broom::before {\n  content: \"\\F0E2\";\n}\n\n.mdi-brush::before {\n  content: \"\\F0E3\";\n}\n\n.mdi-buddhism::before {\n  content: \"\\F94A\";\n}\n\n.mdi-buffer::before {\n  content: \"\\F619\";\n}\n\n.mdi-bug::before {\n  content: \"\\F0E4\";\n}\n\n.mdi-bug-check::before {\n  content: \"\\FA2D\";\n}\n\n.mdi-bug-check-outline::before {\n  content: \"\\FA2E\";\n}\n\n.mdi-bug-outline::before {\n  content: \"\\FA2F\";\n}\n\n.mdi-bugle::before {\n  content: \"\\FD90\";\n}\n\n.mdi-bulldozer::before {\n  content: \"\\FB07\";\n}\n\n.mdi-bullet::before {\n  content: \"\\FCCF\";\n}\n\n.mdi-bulletin-board::before {\n  content: \"\\F0E5\";\n}\n\n.mdi-bullhorn::before {\n  content: \"\\F0E6\";\n}\n\n.mdi-bullhorn-outline::before {\n  content: \"\\FB08\";\n}\n\n.mdi-bullseye::before {\n  content: \"\\F5DD\";\n}\n\n.mdi-bullseye-arrow::before {\n  content: \"\\F8C8\";\n}\n\n.mdi-bulma::before {\n  content: \"\\F0312\";\n}\n\n.mdi-bunk-bed::before {\n  content: \"\\F032D\";\n}\n\n.mdi-bus::before {\n  content: \"\\F0E7\";\n}\n\n.mdi-bus-alert::before {\n  content: \"\\FA98\";\n}\n\n.mdi-bus-articulated-end::before {\n  content: \"\\F79B\";\n}\n\n.mdi-bus-articulated-front::before {\n  content: \"\\F79C\";\n}\n\n.mdi-bus-clock::before {\n  content: \"\\F8C9\";\n}\n\n.mdi-bus-double-decker::before {\n  content: \"\\F79D\";\n}\n\n.mdi-bus-marker::before {\n  content: \"\\F023D\";\n}\n\n.mdi-bus-multiple::before {\n  content: \"\\FF5C\";\n}\n\n.mdi-bus-school::before {\n  content: \"\\F79E\";\n}\n\n.mdi-bus-side::before {\n  content: \"\\F79F\";\n}\n\n.mdi-bus-stop::before {\n  content: \"\\F0034\";\n}\n\n.mdi-bus-stop-covered::before {\n  content: \"\\F0035\";\n}\n\n.mdi-bus-stop-uncovered::before {\n  content: \"\\F0036\";\n}\n\n.mdi-cached::before {\n  content: \"\\F0E8\";\n}\n\n.mdi-cactus::before {\n  content: \"\\FD91\";\n}\n\n.mdi-cake::before {\n  content: \"\\F0E9\";\n}\n\n.mdi-cake-layered::before {\n  content: \"\\F0EA\";\n}\n\n.mdi-cake-variant::before {\n  content: \"\\F0EB\";\n}\n\n.mdi-calculator::before {\n  content: \"\\F0EC\";\n}\n\n.mdi-calculator-variant::before {\n  content: \"\\FA99\";\n}\n\n.mdi-calendar::before {\n  content: \"\\F0ED\";\n}\n\n.mdi-calendar-account::before {\n  content: \"\\FEF4\";\n}\n\n.mdi-calendar-account-outline::before {\n  content: \"\\FEF5\";\n}\n\n.mdi-calendar-alert::before {\n  content: \"\\FA30\";\n}\n\n.mdi-calendar-arrow-left::before {\n  content: \"\\F015F\";\n}\n\n.mdi-calendar-arrow-right::before {\n  content: \"\\F0160\";\n}\n\n.mdi-calendar-blank::before {\n  content: \"\\F0EE\";\n}\n\n.mdi-calendar-blank-multiple::before {\n  content: \"\\F009E\";\n}\n\n.mdi-calendar-blank-outline::before {\n  content: \"\\FB42\";\n}\n\n.mdi-calendar-check::before {\n  content: \"\\F0EF\";\n}\n\n.mdi-calendar-check-outline::before {\n  content: \"\\FC20\";\n}\n\n.mdi-calendar-clock::before {\n  content: \"\\F0F0\";\n}\n\n.mdi-calendar-edit::before {\n  content: \"\\F8A6\";\n}\n\n.mdi-calendar-export::before {\n  content: \"\\FB09\";\n}\n\n.mdi-calendar-heart::before {\n  content: \"\\F9D1\";\n}\n\n.mdi-calendar-import::before {\n  content: \"\\FB0A\";\n}\n\n.mdi-calendar-minus::before {\n  content: \"\\FD38\";\n}\n\n.mdi-calendar-month::before {\n  content: \"\\FDFA\";\n}\n\n.mdi-calendar-month-outline::before {\n  content: \"\\FDFB\";\n}\n\n.mdi-calendar-multiple::before {\n  content: \"\\F0F1\";\n}\n\n.mdi-calendar-multiple-check::before {\n  content: \"\\F0F2\";\n}\n\n.mdi-calendar-multiselect::before {\n  content: \"\\FA31\";\n}\n\n.mdi-calendar-outline::before {\n  content: \"\\FB43\";\n}\n\n.mdi-calendar-plus::before {\n  content: \"\\F0F3\";\n}\n\n.mdi-calendar-question::before {\n  content: \"\\F691\";\n}\n\n.mdi-calendar-range::before {\n  content: \"\\F678\";\n}\n\n.mdi-calendar-range-outline::before {\n  content: \"\\FB44\";\n}\n\n.mdi-calendar-remove::before {\n  content: \"\\F0F4\";\n}\n\n.mdi-calendar-remove-outline::before {\n  content: \"\\FC21\";\n}\n\n.mdi-calendar-repeat::before {\n  content: \"\\FEAB\";\n}\n\n.mdi-calendar-repeat-outline::before {\n  content: \"\\FEAC\";\n}\n\n.mdi-calendar-search::before {\n  content: \"\\F94B\";\n}\n\n.mdi-calendar-star::before {\n  content: \"\\F9D2\";\n}\n\n.mdi-calendar-text::before {\n  content: \"\\F0F5\";\n}\n\n.mdi-calendar-text-outline::before {\n  content: \"\\FC22\";\n}\n\n.mdi-calendar-today::before {\n  content: \"\\F0F6\";\n}\n\n.mdi-calendar-week::before {\n  content: \"\\FA32\";\n}\n\n.mdi-calendar-week-begin::before {\n  content: \"\\FA33\";\n}\n\n.mdi-calendar-weekend::before {\n  content: \"\\FEF6\";\n}\n\n.mdi-calendar-weekend-outline::before {\n  content: \"\\FEF7\";\n}\n\n.mdi-call-made::before {\n  content: \"\\F0F7\";\n}\n\n.mdi-call-merge::before {\n  content: \"\\F0F8\";\n}\n\n.mdi-call-missed::before {\n  content: \"\\F0F9\";\n}\n\n.mdi-call-received::before {\n  content: \"\\F0FA\";\n}\n\n.mdi-call-split::before {\n  content: \"\\F0FB\";\n}\n\n.mdi-camcorder::before {\n  content: \"\\F0FC\";\n}\n\n.mdi-camcorder-box::before {\n  content: \"\\F0FD\";\n}\n\n.mdi-camcorder-box-off::before {\n  content: \"\\F0FE\";\n}\n\n.mdi-camcorder-off::before {\n  content: \"\\F0FF\";\n}\n\n.mdi-camera::before {\n  content: \"\\F100\";\n}\n\n.mdi-camera-account::before {\n  content: \"\\F8CA\";\n}\n\n.mdi-camera-burst::before {\n  content: \"\\F692\";\n}\n\n.mdi-camera-control::before {\n  content: \"\\FB45\";\n}\n\n.mdi-camera-enhance::before {\n  content: \"\\F101\";\n}\n\n.mdi-camera-enhance-outline::before {\n  content: \"\\FB46\";\n}\n\n.mdi-camera-front::before {\n  content: \"\\F102\";\n}\n\n.mdi-camera-front-variant::before {\n  content: \"\\F103\";\n}\n\n.mdi-camera-gopro::before {\n  content: \"\\F7A0\";\n}\n\n.mdi-camera-image::before {\n  content: \"\\F8CB\";\n}\n\n.mdi-camera-iris::before {\n  content: \"\\F104\";\n}\n\n.mdi-camera-metering-center::before {\n  content: \"\\F7A1\";\n}\n\n.mdi-camera-metering-matrix::before {\n  content: \"\\F7A2\";\n}\n\n.mdi-camera-metering-partial::before {\n  content: \"\\F7A3\";\n}\n\n.mdi-camera-metering-spot::before {\n  content: \"\\F7A4\";\n}\n\n.mdi-camera-off::before {\n  content: \"\\F5DF\";\n}\n\n.mdi-camera-outline::before {\n  content: \"\\FD39\";\n}\n\n.mdi-camera-party-mode::before {\n  content: \"\\F105\";\n}\n\n.mdi-camera-plus::before {\n  content: \"\\FEF8\";\n}\n\n.mdi-camera-plus-outline::before {\n  content: \"\\FEF9\";\n}\n\n.mdi-camera-rear::before {\n  content: \"\\F106\";\n}\n\n.mdi-camera-rear-variant::before {\n  content: \"\\F107\";\n}\n\n.mdi-camera-retake::before {\n  content: \"\\FDFC\";\n}\n\n.mdi-camera-retake-outline::before {\n  content: \"\\FDFD\";\n}\n\n.mdi-camera-switch::before {\n  content: \"\\F108\";\n}\n\n.mdi-camera-timer::before {\n  content: \"\\F109\";\n}\n\n.mdi-camera-wireless::before {\n  content: \"\\FD92\";\n}\n\n.mdi-camera-wireless-outline::before {\n  content: \"\\FD93\";\n}\n\n.mdi-campfire::before {\n  content: \"\\FEFA\";\n}\n\n.mdi-cancel::before {\n  content: \"\\F739\";\n}\n\n.mdi-candle::before {\n  content: \"\\F5E2\";\n}\n\n.mdi-candycane::before {\n  content: \"\\F10A\";\n}\n\n.mdi-cannabis::before {\n  content: \"\\F7A5\";\n}\n\n.mdi-caps-lock::before {\n  content: \"\\FA9A\";\n}\n\n.mdi-car::before {\n  content: \"\\F10B\";\n}\n\n.mdi-car-2-plus::before {\n  content: \"\\F0037\";\n}\n\n.mdi-car-3-plus::before {\n  content: \"\\F0038\";\n}\n\n.mdi-car-back::before {\n  content: \"\\FDFE\";\n}\n\n.mdi-car-battery::before {\n  content: \"\\F10C\";\n}\n\n.mdi-car-brake-abs::before {\n  content: \"\\FC23\";\n}\n\n.mdi-car-brake-alert::before {\n  content: \"\\FC24\";\n}\n\n.mdi-car-brake-hold::before {\n  content: \"\\FD3A\";\n}\n\n.mdi-car-brake-parking::before {\n  content: \"\\FD3B\";\n}\n\n.mdi-car-brake-retarder::before {\n  content: \"\\F0039\";\n}\n\n.mdi-car-child-seat::before {\n  content: \"\\FFC3\";\n}\n\n.mdi-car-clutch::before {\n  content: \"\\F003A\";\n}\n\n.mdi-car-connected::before {\n  content: \"\\F10D\";\n}\n\n.mdi-car-convertible::before {\n  content: \"\\F7A6\";\n}\n\n.mdi-car-coolant-level::before {\n  content: \"\\F003B\";\n}\n\n.mdi-car-cruise-control::before {\n  content: \"\\FD3C\";\n}\n\n.mdi-car-defrost-front::before {\n  content: \"\\FD3D\";\n}\n\n.mdi-car-defrost-rear::before {\n  content: \"\\FD3E\";\n}\n\n.mdi-car-door::before {\n  content: \"\\FB47\";\n}\n\n.mdi-car-door-lock::before {\n  content: \"\\F00C8\";\n}\n\n.mdi-car-electric::before {\n  content: \"\\FB48\";\n}\n\n.mdi-car-esp::before {\n  content: \"\\FC25\";\n}\n\n.mdi-car-estate::before {\n  content: \"\\F7A7\";\n}\n\n.mdi-car-hatchback::before {\n  content: \"\\F7A8\";\n}\n\n.mdi-car-info::before {\n  content: \"\\F01E9\";\n}\n\n.mdi-car-key::before {\n  content: \"\\FB49\";\n}\n\n.mdi-car-light-dimmed::before {\n  content: \"\\FC26\";\n}\n\n.mdi-car-light-fog::before {\n  content: \"\\FC27\";\n}\n\n.mdi-car-light-high::before {\n  content: \"\\FC28\";\n}\n\n.mdi-car-limousine::before {\n  content: \"\\F8CC\";\n}\n\n.mdi-car-multiple::before {\n  content: \"\\FB4A\";\n}\n\n.mdi-car-off::before {\n  content: \"\\FDFF\";\n}\n\n.mdi-car-parking-lights::before {\n  content: \"\\FD3F\";\n}\n\n.mdi-car-pickup::before {\n  content: \"\\F7A9\";\n}\n\n.mdi-car-seat::before {\n  content: \"\\FFC4\";\n}\n\n.mdi-car-seat-cooler::before {\n  content: \"\\FFC5\";\n}\n\n.mdi-car-seat-heater::before {\n  content: \"\\FFC6\";\n}\n\n.mdi-car-shift-pattern::before {\n  content: \"\\FF5D\";\n}\n\n.mdi-car-side::before {\n  content: \"\\F7AA\";\n}\n\n.mdi-car-sports::before {\n  content: \"\\F7AB\";\n}\n\n.mdi-car-tire-alert::before {\n  content: \"\\FC29\";\n}\n\n.mdi-car-traction-control::before {\n  content: \"\\FD40\";\n}\n\n.mdi-car-turbocharger::before {\n  content: \"\\F003C\";\n}\n\n.mdi-car-wash::before {\n  content: \"\\F10E\";\n}\n\n.mdi-car-windshield::before {\n  content: \"\\F003D\";\n}\n\n.mdi-car-windshield-outline::before {\n  content: \"\\F003E\";\n}\n\n.mdi-caravan::before {\n  content: \"\\F7AC\";\n}\n\n.mdi-card::before {\n  content: \"\\FB4B\";\n}\n\n.mdi-card-bulleted::before {\n  content: \"\\FB4C\";\n}\n\n.mdi-card-bulleted-off::before {\n  content: \"\\FB4D\";\n}\n\n.mdi-card-bulleted-off-outline::before {\n  content: \"\\FB4E\";\n}\n\n.mdi-card-bulleted-outline::before {\n  content: \"\\FB4F\";\n}\n\n.mdi-card-bulleted-settings::before {\n  content: \"\\FB50\";\n}\n\n.mdi-card-bulleted-settings-outline::before {\n  content: \"\\FB51\";\n}\n\n.mdi-card-outline::before {\n  content: \"\\FB52\";\n}\n\n.mdi-card-plus::before {\n  content: \"\\F022A\";\n}\n\n.mdi-card-plus-outline::before {\n  content: \"\\F022B\";\n}\n\n.mdi-card-search::before {\n  content: \"\\F009F\";\n}\n\n.mdi-card-search-outline::before {\n  content: \"\\F00A0\";\n}\n\n.mdi-card-text::before {\n  content: \"\\FB53\";\n}\n\n.mdi-card-text-outline::before {\n  content: \"\\FB54\";\n}\n\n.mdi-cards::before {\n  content: \"\\F638\";\n}\n\n.mdi-cards-club::before {\n  content: \"\\F8CD\";\n}\n\n.mdi-cards-diamond::before {\n  content: \"\\F8CE\";\n}\n\n.mdi-cards-diamond-outline::before {\n  content: \"\\F003F\";\n}\n\n.mdi-cards-heart::before {\n  content: \"\\F8CF\";\n}\n\n.mdi-cards-outline::before {\n  content: \"\\F639\";\n}\n\n.mdi-cards-playing-outline::before {\n  content: \"\\F63A\";\n}\n\n.mdi-cards-spade::before {\n  content: \"\\F8D0\";\n}\n\n.mdi-cards-variant::before {\n  content: \"\\F6C6\";\n}\n\n.mdi-carrot::before {\n  content: \"\\F10F\";\n}\n\n.mdi-cart::before {\n  content: \"\\F110\";\n}\n\n.mdi-cart-arrow-down::before {\n  content: \"\\FD42\";\n}\n\n.mdi-cart-arrow-right::before {\n  content: \"\\FC2A\";\n}\n\n.mdi-cart-arrow-up::before {\n  content: \"\\FD43\";\n}\n\n.mdi-cart-minus::before {\n  content: \"\\FD44\";\n}\n\n.mdi-cart-off::before {\n  content: \"\\F66B\";\n}\n\n.mdi-cart-outline::before {\n  content: \"\\F111\";\n}\n\n.mdi-cart-plus::before {\n  content: \"\\F112\";\n}\n\n.mdi-cart-remove::before {\n  content: \"\\FD45\";\n}\n\n.mdi-case-sensitive-alt::before {\n  content: \"\\F113\";\n}\n\n.mdi-cash::before {\n  content: \"\\F114\";\n}\n\n.mdi-cash-100::before {\n  content: \"\\F115\";\n}\n\n.mdi-cash-marker::before {\n  content: \"\\FD94\";\n}\n\n.mdi-cash-minus::before {\n  content: \"\\F028B\";\n}\n\n.mdi-cash-multiple::before {\n  content: \"\\F116\";\n}\n\n.mdi-cash-plus::before {\n  content: \"\\F028C\";\n}\n\n.mdi-cash-refund::before {\n  content: \"\\FA9B\";\n}\n\n.mdi-cash-register::before {\n  content: \"\\FCD0\";\n}\n\n.mdi-cash-remove::before {\n  content: \"\\F028D\";\n}\n\n.mdi-cash-usd::before {\n  content: \"\\F01A1\";\n}\n\n.mdi-cash-usd-outline::before {\n  content: \"\\F117\";\n}\n\n.mdi-cassette::before {\n  content: \"\\F9D3\";\n}\n\n.mdi-cast::before {\n  content: \"\\F118\";\n}\n\n.mdi-cast-audio::before {\n  content: \"\\F0040\";\n}\n\n.mdi-cast-connected::before {\n  content: \"\\F119\";\n}\n\n.mdi-cast-education::before {\n  content: \"\\FE6D\";\n}\n\n.mdi-cast-off::before {\n  content: \"\\F789\";\n}\n\n.mdi-castle::before {\n  content: \"\\F11A\";\n}\n\n.mdi-cat::before {\n  content: \"\\F11B\";\n}\n\n.mdi-cctv::before {\n  content: \"\\F7AD\";\n}\n\n.mdi-ceiling-light::before {\n  content: \"\\F768\";\n}\n\n.mdi-cellphone::before {\n  content: \"\\F11C\";\n}\n\n.mdi-cellphone-android::before {\n  content: \"\\F11D\";\n}\n\n.mdi-cellphone-arrow-down::before {\n  content: \"\\F9D4\";\n}\n\n.mdi-cellphone-basic::before {\n  content: \"\\F11E\";\n}\n\n.mdi-cellphone-dock::before {\n  content: \"\\F11F\";\n}\n\n.mdi-cellphone-erase::before {\n  content: \"\\F94C\";\n}\n\n.mdi-cellphone-information::before {\n  content: \"\\FF5E\";\n}\n\n.mdi-cellphone-iphone::before {\n  content: \"\\F120\";\n}\n\n.mdi-cellphone-key::before {\n  content: \"\\F94D\";\n}\n\n.mdi-cellphone-link::before {\n  content: \"\\F121\";\n}\n\n.mdi-cellphone-link-off::before {\n  content: \"\\F122\";\n}\n\n.mdi-cellphone-lock::before {\n  content: \"\\F94E\";\n}\n\n.mdi-cellphone-message::before {\n  content: \"\\F8D2\";\n}\n\n.mdi-cellphone-message-off::before {\n  content: \"\\F00FD\";\n}\n\n.mdi-cellphone-nfc::before {\n  content: \"\\FEAD\";\n}\n\n.mdi-cellphone-nfc-off::before {\n  content: \"\\F0303\";\n}\n\n.mdi-cellphone-off::before {\n  content: \"\\F94F\";\n}\n\n.mdi-cellphone-play::before {\n  content: \"\\F0041\";\n}\n\n.mdi-cellphone-screenshot::before {\n  content: \"\\FA34\";\n}\n\n.mdi-cellphone-settings::before {\n  content: \"\\F123\";\n}\n\n.mdi-cellphone-settings-variant::before {\n  content: \"\\F950\";\n}\n\n.mdi-cellphone-sound::before {\n  content: \"\\F951\";\n}\n\n.mdi-cellphone-text::before {\n  content: \"\\F8D1\";\n}\n\n.mdi-cellphone-wireless::before {\n  content: \"\\F814\";\n}\n\n.mdi-celtic-cross::before {\n  content: \"\\FCD1\";\n}\n\n.mdi-centos::before {\n  content: \"\\F0145\";\n}\n\n.mdi-certificate::before {\n  content: \"\\F124\";\n}\n\n.mdi-certificate-outline::before {\n  content: \"\\F01B3\";\n}\n\n.mdi-chair-rolling::before {\n  content: \"\\FFBA\";\n}\n\n.mdi-chair-school::before {\n  content: \"\\F125\";\n}\n\n.mdi-charity::before {\n  content: \"\\FC2B\";\n}\n\n.mdi-chart-arc::before {\n  content: \"\\F126\";\n}\n\n.mdi-chart-areaspline::before {\n  content: \"\\F127\";\n}\n\n.mdi-chart-areaspline-variant::before {\n  content: \"\\FEAE\";\n}\n\n.mdi-chart-bar::before {\n  content: \"\\F128\";\n}\n\n.mdi-chart-bar-stacked::before {\n  content: \"\\F769\";\n}\n\n.mdi-chart-bell-curve::before {\n  content: \"\\FC2C\";\n}\n\n.mdi-chart-bell-curve-cumulative::before {\n  content: \"\\FFC7\";\n}\n\n.mdi-chart-bubble::before {\n  content: \"\\F5E3\";\n}\n\n.mdi-chart-donut::before {\n  content: \"\\F7AE\";\n}\n\n.mdi-chart-donut-variant::before {\n  content: \"\\F7AF\";\n}\n\n.mdi-chart-gantt::before {\n  content: \"\\F66C\";\n}\n\n.mdi-chart-histogram::before {\n  content: \"\\F129\";\n}\n\n.mdi-chart-line::before {\n  content: \"\\F12A\";\n}\n\n.mdi-chart-line-stacked::before {\n  content: \"\\F76A\";\n}\n\n.mdi-chart-line-variant::before {\n  content: \"\\F7B0\";\n}\n\n.mdi-chart-multiline::before {\n  content: \"\\F8D3\";\n}\n\n.mdi-chart-multiple::before {\n  content: \"\\F023E\";\n}\n\n.mdi-chart-pie::before {\n  content: \"\\F12B\";\n}\n\n.mdi-chart-ppf::before {\n  content: \"\\F03AB\";\n}\n\n.mdi-chart-scatter-plot::before {\n  content: \"\\FEAF\";\n}\n\n.mdi-chart-scatter-plot-hexbin::before {\n  content: \"\\F66D\";\n}\n\n.mdi-chart-snakey::before {\n  content: \"\\F020A\";\n}\n\n.mdi-chart-snakey-variant::before {\n  content: \"\\F020B\";\n}\n\n.mdi-chart-timeline::before {\n  content: \"\\F66E\";\n}\n\n.mdi-chart-timeline-variant::before {\n  content: \"\\FEB0\";\n}\n\n.mdi-chart-tree::before {\n  content: \"\\FEB1\";\n}\n\n.mdi-chat::before {\n  content: \"\\FB55\";\n}\n\n.mdi-chat-alert::before {\n  content: \"\\FB56\";\n}\n\n.mdi-chat-alert-outline::before {\n  content: \"\\F02F4\";\n}\n\n.mdi-chat-outline::before {\n  content: \"\\FEFB\";\n}\n\n.mdi-chat-processing::before {\n  content: \"\\FB57\";\n}\n\n.mdi-chat-processing-outline::before {\n  content: \"\\F02F5\";\n}\n\n.mdi-chat-sleep::before {\n  content: \"\\F02FC\";\n}\n\n.mdi-chat-sleep-outline::before {\n  content: \"\\F02FD\";\n}\n\n.mdi-check::before {\n  content: \"\\F12C\";\n}\n\n.mdi-check-all::before {\n  content: \"\\F12D\";\n}\n\n.mdi-check-bold::before {\n  content: \"\\FE6E\";\n}\n\n.mdi-check-box-multiple-outline::before {\n  content: \"\\FC2D\";\n}\n\n.mdi-check-box-outline::before {\n  content: \"\\FC2E\";\n}\n\n.mdi-check-circle::before {\n  content: \"\\F5E0\";\n}\n\n.mdi-check-circle-outline::before {\n  content: \"\\F5E1\";\n}\n\n.mdi-check-decagram::before {\n  content: \"\\F790\";\n}\n\n.mdi-check-network::before {\n  content: \"\\FC2F\";\n}\n\n.mdi-check-network-outline::before {\n  content: \"\\FC30\";\n}\n\n.mdi-check-outline::before {\n  content: \"\\F854\";\n}\n\n.mdi-check-underline::before {\n  content: \"\\FE70\";\n}\n\n.mdi-check-underline-circle::before {\n  content: \"\\FE71\";\n}\n\n.mdi-check-underline-circle-outline::before {\n  content: \"\\FE72\";\n}\n\n.mdi-checkbook::before {\n  content: \"\\FA9C\";\n}\n\n.mdi-checkbox-blank::before {\n  content: \"\\F12E\";\n}\n\n.mdi-checkbox-blank-circle::before {\n  content: \"\\F12F\";\n}\n\n.mdi-checkbox-blank-circle-outline::before {\n  content: \"\\F130\";\n}\n\n.mdi-checkbox-blank-off::before {\n  content: \"\\F0317\";\n}\n\n.mdi-checkbox-blank-off-outline::before {\n  content: \"\\F0318\";\n}\n\n.mdi-checkbox-blank-outline::before {\n  content: \"\\F131\";\n}\n\n.mdi-checkbox-intermediate::before {\n  content: \"\\F855\";\n}\n\n.mdi-checkbox-marked::before {\n  content: \"\\F132\";\n}\n\n.mdi-checkbox-marked-circle::before {\n  content: \"\\F133\";\n}\n\n.mdi-checkbox-marked-circle-outline::before {\n  content: \"\\F134\";\n}\n\n.mdi-checkbox-marked-outline::before {\n  content: \"\\F135\";\n}\n\n.mdi-checkbox-multiple-blank::before {\n  content: \"\\F136\";\n}\n\n.mdi-checkbox-multiple-blank-circle::before {\n  content: \"\\F63B\";\n}\n\n.mdi-checkbox-multiple-blank-circle-outline::before {\n  content: \"\\F63C\";\n}\n\n.mdi-checkbox-multiple-blank-outline::before {\n  content: \"\\F137\";\n}\n\n.mdi-checkbox-multiple-marked::before {\n  content: \"\\F138\";\n}\n\n.mdi-checkbox-multiple-marked-circle::before {\n  content: \"\\F63D\";\n}\n\n.mdi-checkbox-multiple-marked-circle-outline::before {\n  content: \"\\F63E\";\n}\n\n.mdi-checkbox-multiple-marked-outline::before {\n  content: \"\\F139\";\n}\n\n.mdi-checkerboard::before {\n  content: \"\\F13A\";\n}\n\n.mdi-checkerboard-minus::before {\n  content: \"\\F022D\";\n}\n\n.mdi-checkerboard-plus::before {\n  content: \"\\F022C\";\n}\n\n.mdi-checkerboard-remove::before {\n  content: \"\\F022E\";\n}\n\n.mdi-cheese::before {\n  content: \"\\F02E4\";\n}\n\n.mdi-chef-hat::before {\n  content: \"\\FB58\";\n}\n\n.mdi-chemical-weapon::before {\n  content: \"\\F13B\";\n}\n\n.mdi-chess-bishop::before {\n  content: \"\\F85B\";\n}\n\n.mdi-chess-king::before {\n  content: \"\\F856\";\n}\n\n.mdi-chess-knight::before {\n  content: \"\\F857\";\n}\n\n.mdi-chess-pawn::before {\n  content: \"\\F858\";\n}\n\n.mdi-chess-queen::before {\n  content: \"\\F859\";\n}\n\n.mdi-chess-rook::before {\n  content: \"\\F85A\";\n}\n\n.mdi-chevron-double-down::before {\n  content: \"\\F13C\";\n}\n\n.mdi-chevron-double-left::before {\n  content: \"\\F13D\";\n}\n\n.mdi-chevron-double-right::before {\n  content: \"\\F13E\";\n}\n\n.mdi-chevron-double-up::before {\n  content: \"\\F13F\";\n}\n\n.mdi-chevron-down::before {\n  content: \"\\F140\";\n}\n\n.mdi-chevron-down-box::before {\n  content: \"\\F9D5\";\n}\n\n.mdi-chevron-down-box-outline::before {\n  content: \"\\F9D6\";\n}\n\n.mdi-chevron-down-circle::before {\n  content: \"\\FB0B\";\n}\n\n.mdi-chevron-down-circle-outline::before {\n  content: \"\\FB0C\";\n}\n\n.mdi-chevron-left::before {\n  content: \"\\F141\";\n}\n\n.mdi-chevron-left-box::before {\n  content: \"\\F9D7\";\n}\n\n.mdi-chevron-left-box-outline::before {\n  content: \"\\F9D8\";\n}\n\n.mdi-chevron-left-circle::before {\n  content: \"\\FB0D\";\n}\n\n.mdi-chevron-left-circle-outline::before {\n  content: \"\\FB0E\";\n}\n\n.mdi-chevron-right::before {\n  content: \"\\F142\";\n}\n\n.mdi-chevron-right-box::before {\n  content: \"\\F9D9\";\n}\n\n.mdi-chevron-right-box-outline::before {\n  content: \"\\F9DA\";\n}\n\n.mdi-chevron-right-circle::before {\n  content: \"\\FB0F\";\n}\n\n.mdi-chevron-right-circle-outline::before {\n  content: \"\\FB10\";\n}\n\n.mdi-chevron-triple-down::before {\n  content: \"\\FD95\";\n}\n\n.mdi-chevron-triple-left::before {\n  content: \"\\FD96\";\n}\n\n.mdi-chevron-triple-right::before {\n  content: \"\\FD97\";\n}\n\n.mdi-chevron-triple-up::before {\n  content: \"\\FD98\";\n}\n\n.mdi-chevron-up::before {\n  content: \"\\F143\";\n}\n\n.mdi-chevron-up-box::before {\n  content: \"\\F9DB\";\n}\n\n.mdi-chevron-up-box-outline::before {\n  content: \"\\F9DC\";\n}\n\n.mdi-chevron-up-circle::before {\n  content: \"\\FB11\";\n}\n\n.mdi-chevron-up-circle-outline::before {\n  content: \"\\FB12\";\n}\n\n.mdi-chili-hot::before {\n  content: \"\\F7B1\";\n}\n\n.mdi-chili-medium::before {\n  content: \"\\F7B2\";\n}\n\n.mdi-chili-mild::before {\n  content: \"\\F7B3\";\n}\n\n.mdi-chip::before {\n  content: \"\\F61A\";\n}\n\n.mdi-christianity::before {\n  content: \"\\F952\";\n}\n\n.mdi-christianity-outline::before {\n  content: \"\\FCD2\";\n}\n\n.mdi-church::before {\n  content: \"\\F144\";\n}\n\n.mdi-cigar::before {\n  content: \"\\F01B4\";\n}\n\n.mdi-circle::before {\n  content: \"\\F764\";\n}\n\n.mdi-circle-double::before {\n  content: \"\\FEB2\";\n}\n\n.mdi-circle-edit-outline::before {\n  content: \"\\F8D4\";\n}\n\n.mdi-circle-expand::before {\n  content: \"\\FEB3\";\n}\n\n.mdi-circle-medium::before {\n  content: \"\\F9DD\";\n}\n\n.mdi-circle-off-outline::before {\n  content: \"\\F00FE\";\n}\n\n.mdi-circle-outline::before {\n  content: \"\\F765\";\n}\n\n.mdi-circle-slice-1::before {\n  content: \"\\FA9D\";\n}\n\n.mdi-circle-slice-2::before {\n  content: \"\\FA9E\";\n}\n\n.mdi-circle-slice-3::before {\n  content: \"\\FA9F\";\n}\n\n.mdi-circle-slice-4::before {\n  content: \"\\FAA0\";\n}\n\n.mdi-circle-slice-5::before {\n  content: \"\\FAA1\";\n}\n\n.mdi-circle-slice-6::before {\n  content: \"\\FAA2\";\n}\n\n.mdi-circle-slice-7::before {\n  content: \"\\FAA3\";\n}\n\n.mdi-circle-slice-8::before {\n  content: \"\\FAA4\";\n}\n\n.mdi-circle-small::before {\n  content: \"\\F9DE\";\n}\n\n.mdi-circular-saw::before {\n  content: \"\\FE73\";\n}\n\n.mdi-cisco-webex::before {\n  content: \"\\F145\";\n}\n\n.mdi-city::before {\n  content: \"\\F146\";\n}\n\n.mdi-city-variant::before {\n  content: \"\\FA35\";\n}\n\n.mdi-city-variant-outline::before {\n  content: \"\\FA36\";\n}\n\n.mdi-clipboard::before {\n  content: \"\\F147\";\n}\n\n.mdi-clipboard-account::before {\n  content: \"\\F148\";\n}\n\n.mdi-clipboard-account-outline::before {\n  content: \"\\FC31\";\n}\n\n.mdi-clipboard-alert::before {\n  content: \"\\F149\";\n}\n\n.mdi-clipboard-alert-outline::before {\n  content: \"\\FCD3\";\n}\n\n.mdi-clipboard-arrow-down::before {\n  content: \"\\F14A\";\n}\n\n.mdi-clipboard-arrow-down-outline::before {\n  content: \"\\FC32\";\n}\n\n.mdi-clipboard-arrow-left::before {\n  content: \"\\F14B\";\n}\n\n.mdi-clipboard-arrow-left-outline::before {\n  content: \"\\FCD4\";\n}\n\n.mdi-clipboard-arrow-right::before {\n  content: \"\\FCD5\";\n}\n\n.mdi-clipboard-arrow-right-outline::before {\n  content: \"\\FCD6\";\n}\n\n.mdi-clipboard-arrow-up::before {\n  content: \"\\FC33\";\n}\n\n.mdi-clipboard-arrow-up-outline::before {\n  content: \"\\FC34\";\n}\n\n.mdi-clipboard-check::before {\n  content: \"\\F14C\";\n}\n\n.mdi-clipboard-check-multiple::before {\n  content: \"\\F028E\";\n}\n\n.mdi-clipboard-check-multiple-outline::before {\n  content: \"\\F028F\";\n}\n\n.mdi-clipboard-check-outline::before {\n  content: \"\\F8A7\";\n}\n\n.mdi-clipboard-file::before {\n  content: \"\\F0290\";\n}\n\n.mdi-clipboard-file-outline::before {\n  content: \"\\F0291\";\n}\n\n.mdi-clipboard-flow::before {\n  content: \"\\F6C7\";\n}\n\n.mdi-clipboard-flow-outline::before {\n  content: \"\\F0142\";\n}\n\n.mdi-clipboard-list::before {\n  content: \"\\F00FF\";\n}\n\n.mdi-clipboard-list-outline::before {\n  content: \"\\F0100\";\n}\n\n.mdi-clipboard-multiple::before {\n  content: \"\\F0292\";\n}\n\n.mdi-clipboard-multiple-outline::before {\n  content: \"\\F0293\";\n}\n\n.mdi-clipboard-outline::before {\n  content: \"\\F14D\";\n}\n\n.mdi-clipboard-play::before {\n  content: \"\\FC35\";\n}\n\n.mdi-clipboard-play-multiple::before {\n  content: \"\\F0294\";\n}\n\n.mdi-clipboard-play-multiple-outline::before {\n  content: \"\\F0295\";\n}\n\n.mdi-clipboard-play-outline::before {\n  content: \"\\FC36\";\n}\n\n.mdi-clipboard-plus::before {\n  content: \"\\F750\";\n}\n\n.mdi-clipboard-plus-outline::before {\n  content: \"\\F034A\";\n}\n\n.mdi-clipboard-pulse::before {\n  content: \"\\F85C\";\n}\n\n.mdi-clipboard-pulse-outline::before {\n  content: \"\\F85D\";\n}\n\n.mdi-clipboard-text::before {\n  content: \"\\F14E\";\n}\n\n.mdi-clipboard-text-multiple::before {\n  content: \"\\F0296\";\n}\n\n.mdi-clipboard-text-multiple-outline::before {\n  content: \"\\F0297\";\n}\n\n.mdi-clipboard-text-outline::before {\n  content: \"\\FA37\";\n}\n\n.mdi-clipboard-text-play::before {\n  content: \"\\FC37\";\n}\n\n.mdi-clipboard-text-play-outline::before {\n  content: \"\\FC38\";\n}\n\n.mdi-clippy::before {\n  content: \"\\F14F\";\n}\n\n.mdi-clock::before {\n  content: \"\\F953\";\n}\n\n.mdi-clock-alert::before {\n  content: \"\\F954\";\n}\n\n.mdi-clock-alert-outline::before {\n  content: \"\\F5CE\";\n}\n\n.mdi-clock-check::before {\n  content: \"\\FFC8\";\n}\n\n.mdi-clock-check-outline::before {\n  content: \"\\FFC9\";\n}\n\n.mdi-clock-digital::before {\n  content: \"\\FEB4\";\n}\n\n.mdi-clock-end::before {\n  content: \"\\F151\";\n}\n\n.mdi-clock-fast::before {\n  content: \"\\F152\";\n}\n\n.mdi-clock-in::before {\n  content: \"\\F153\";\n}\n\n.mdi-clock-out::before {\n  content: \"\\F154\";\n}\n\n.mdi-clock-outline::before {\n  content: \"\\F150\";\n}\n\n.mdi-clock-start::before {\n  content: \"\\F155\";\n}\n\n.mdi-close::before {\n  content: \"\\F156\";\n}\n\n.mdi-close-box::before {\n  content: \"\\F157\";\n}\n\n.mdi-close-box-multiple::before {\n  content: \"\\FC39\";\n}\n\n.mdi-close-box-multiple-outline::before {\n  content: \"\\FC3A\";\n}\n\n.mdi-close-box-outline::before {\n  content: \"\\F158\";\n}\n\n.mdi-close-circle::before {\n  content: \"\\F159\";\n}\n\n.mdi-close-circle-outline::before {\n  content: \"\\F15A\";\n}\n\n.mdi-close-network::before {\n  content: \"\\F15B\";\n}\n\n.mdi-close-network-outline::before {\n  content: \"\\FC3B\";\n}\n\n.mdi-close-octagon::before {\n  content: \"\\F15C\";\n}\n\n.mdi-close-octagon-outline::before {\n  content: \"\\F15D\";\n}\n\n.mdi-close-outline::before {\n  content: \"\\F6C8\";\n}\n\n.mdi-closed-caption::before {\n  content: \"\\F15E\";\n}\n\n.mdi-closed-caption-outline::before {\n  content: \"\\FD99\";\n}\n\n.mdi-cloud::before {\n  content: \"\\F15F\";\n}\n\n.mdi-cloud-alert::before {\n  content: \"\\F9DF\";\n}\n\n.mdi-cloud-braces::before {\n  content: \"\\F7B4\";\n}\n\n.mdi-cloud-check::before {\n  content: \"\\F160\";\n}\n\n.mdi-cloud-check-outline::before {\n  content: \"\\F02F7\";\n}\n\n.mdi-cloud-circle::before {\n  content: \"\\F161\";\n}\n\n.mdi-cloud-download::before {\n  content: \"\\F162\";\n}\n\n.mdi-cloud-download-outline::before {\n  content: \"\\FB59\";\n}\n\n.mdi-cloud-lock::before {\n  content: \"\\F021C\";\n}\n\n.mdi-cloud-lock-outline::before {\n  content: \"\\F021D\";\n}\n\n.mdi-cloud-off-outline::before {\n  content: \"\\F164\";\n}\n\n.mdi-cloud-outline::before {\n  content: \"\\F163\";\n}\n\n.mdi-cloud-print::before {\n  content: \"\\F165\";\n}\n\n.mdi-cloud-print-outline::before {\n  content: \"\\F166\";\n}\n\n.mdi-cloud-question::before {\n  content: \"\\FA38\";\n}\n\n.mdi-cloud-search::before {\n  content: \"\\F955\";\n}\n\n.mdi-cloud-search-outline::before {\n  content: \"\\F956\";\n}\n\n.mdi-cloud-sync::before {\n  content: \"\\F63F\";\n}\n\n.mdi-cloud-sync-outline::before {\n  content: \"\\F0301\";\n}\n\n.mdi-cloud-tags::before {\n  content: \"\\F7B5\";\n}\n\n.mdi-cloud-upload::before {\n  content: \"\\F167\";\n}\n\n.mdi-cloud-upload-outline::before {\n  content: \"\\FB5A\";\n}\n\n.mdi-clover::before {\n  content: \"\\F815\";\n}\n\n.mdi-coach-lamp::before {\n  content: \"\\F0042\";\n}\n\n.mdi-coat-rack::before {\n  content: \"\\F00C9\";\n}\n\n.mdi-code-array::before {\n  content: \"\\F168\";\n}\n\n.mdi-code-braces::before {\n  content: \"\\F169\";\n}\n\n.mdi-code-braces-box::before {\n  content: \"\\F0101\";\n}\n\n.mdi-code-brackets::before {\n  content: \"\\F16A\";\n}\n\n.mdi-code-equal::before {\n  content: \"\\F16B\";\n}\n\n.mdi-code-greater-than::before {\n  content: \"\\F16C\";\n}\n\n.mdi-code-greater-than-or-equal::before {\n  content: \"\\F16D\";\n}\n\n.mdi-code-less-than::before {\n  content: \"\\F16E\";\n}\n\n.mdi-code-less-than-or-equal::before {\n  content: \"\\F16F\";\n}\n\n.mdi-code-not-equal::before {\n  content: \"\\F170\";\n}\n\n.mdi-code-not-equal-variant::before {\n  content: \"\\F171\";\n}\n\n.mdi-code-parentheses::before {\n  content: \"\\F172\";\n}\n\n.mdi-code-parentheses-box::before {\n  content: \"\\F0102\";\n}\n\n.mdi-code-string::before {\n  content: \"\\F173\";\n}\n\n.mdi-code-tags::before {\n  content: \"\\F174\";\n}\n\n.mdi-code-tags-check::before {\n  content: \"\\F693\";\n}\n\n.mdi-codepen::before {\n  content: \"\\F175\";\n}\n\n.mdi-coffee::before {\n  content: \"\\F176\";\n}\n\n.mdi-coffee-maker::before {\n  content: \"\\F00CA\";\n}\n\n.mdi-coffee-off::before {\n  content: \"\\FFCA\";\n}\n\n.mdi-coffee-off-outline::before {\n  content: \"\\FFCB\";\n}\n\n.mdi-coffee-outline::before {\n  content: \"\\F6C9\";\n}\n\n.mdi-coffee-to-go::before {\n  content: \"\\F177\";\n}\n\n.mdi-coffee-to-go-outline::before {\n  content: \"\\F0339\";\n}\n\n.mdi-coffin::before {\n  content: \"\\FB5B\";\n}\n\n.mdi-cog-clockwise::before {\n  content: \"\\F0208\";\n}\n\n.mdi-cog-counterclockwise::before {\n  content: \"\\F0209\";\n}\n\n.mdi-cogs::before {\n  content: \"\\F8D5\";\n}\n\n.mdi-coin::before {\n  content: \"\\F0196\";\n}\n\n.mdi-coin-outline::before {\n  content: \"\\F178\";\n}\n\n.mdi-coins::before {\n  content: \"\\F694\";\n}\n\n.mdi-collage::before {\n  content: \"\\F640\";\n}\n\n.mdi-collapse-all::before {\n  content: \"\\FAA5\";\n}\n\n.mdi-collapse-all-outline::before {\n  content: \"\\FAA6\";\n}\n\n.mdi-color-helper::before {\n  content: \"\\F179\";\n}\n\n.mdi-comma::before {\n  content: \"\\FE74\";\n}\n\n.mdi-comma-box::before {\n  content: \"\\FE75\";\n}\n\n.mdi-comma-box-outline::before {\n  content: \"\\FE76\";\n}\n\n.mdi-comma-circle::before {\n  content: \"\\FE77\";\n}\n\n.mdi-comma-circle-outline::before {\n  content: \"\\FE78\";\n}\n\n.mdi-comment::before {\n  content: \"\\F17A\";\n}\n\n.mdi-comment-account::before {\n  content: \"\\F17B\";\n}\n\n.mdi-comment-account-outline::before {\n  content: \"\\F17C\";\n}\n\n.mdi-comment-alert::before {\n  content: \"\\F17D\";\n}\n\n.mdi-comment-alert-outline::before {\n  content: \"\\F17E\";\n}\n\n.mdi-comment-arrow-left::before {\n  content: \"\\F9E0\";\n}\n\n.mdi-comment-arrow-left-outline::before {\n  content: \"\\F9E1\";\n}\n\n.mdi-comment-arrow-right::before {\n  content: \"\\F9E2\";\n}\n\n.mdi-comment-arrow-right-outline::before {\n  content: \"\\F9E3\";\n}\n\n.mdi-comment-check::before {\n  content: \"\\F17F\";\n}\n\n.mdi-comment-check-outline::before {\n  content: \"\\F180\";\n}\n\n.mdi-comment-edit::before {\n  content: \"\\F01EA\";\n}\n\n.mdi-comment-edit-outline::before {\n  content: \"\\F02EF\";\n}\n\n.mdi-comment-eye::before {\n  content: \"\\FA39\";\n}\n\n.mdi-comment-eye-outline::before {\n  content: \"\\FA3A\";\n}\n\n.mdi-comment-multiple::before {\n  content: \"\\F85E\";\n}\n\n.mdi-comment-multiple-outline::before {\n  content: \"\\F181\";\n}\n\n.mdi-comment-outline::before {\n  content: \"\\F182\";\n}\n\n.mdi-comment-plus::before {\n  content: \"\\F9E4\";\n}\n\n.mdi-comment-plus-outline::before {\n  content: \"\\F183\";\n}\n\n.mdi-comment-processing::before {\n  content: \"\\F184\";\n}\n\n.mdi-comment-processing-outline::before {\n  content: \"\\F185\";\n}\n\n.mdi-comment-question::before {\n  content: \"\\F816\";\n}\n\n.mdi-comment-question-outline::before {\n  content: \"\\F186\";\n}\n\n.mdi-comment-quote::before {\n  content: \"\\F0043\";\n}\n\n.mdi-comment-quote-outline::before {\n  content: \"\\F0044\";\n}\n\n.mdi-comment-remove::before {\n  content: \"\\F5DE\";\n}\n\n.mdi-comment-remove-outline::before {\n  content: \"\\F187\";\n}\n\n.mdi-comment-search::before {\n  content: \"\\FA3B\";\n}\n\n.mdi-comment-search-outline::before {\n  content: \"\\FA3C\";\n}\n\n.mdi-comment-text::before {\n  content: \"\\F188\";\n}\n\n.mdi-comment-text-multiple::before {\n  content: \"\\F85F\";\n}\n\n.mdi-comment-text-multiple-outline::before {\n  content: \"\\F860\";\n}\n\n.mdi-comment-text-outline::before {\n  content: \"\\F189\";\n}\n\n.mdi-compare::before {\n  content: \"\\F18A\";\n}\n\n.mdi-compass::before {\n  content: \"\\F18B\";\n}\n\n.mdi-compass-off::before {\n  content: \"\\FB5C\";\n}\n\n.mdi-compass-off-outline::before {\n  content: \"\\FB5D\";\n}\n\n.mdi-compass-outline::before {\n  content: \"\\F18C\";\n}\n\n.mdi-compass-rose::before {\n  content: \"\\F03AD\";\n}\n\n.mdi-concourse-ci::before {\n  content: \"\\F00CB\";\n}\n\n.mdi-console::before {\n  content: \"\\F18D\";\n}\n\n.mdi-console-line::before {\n  content: \"\\F7B6\";\n}\n\n.mdi-console-network::before {\n  content: \"\\F8A8\";\n}\n\n.mdi-console-network-outline::before {\n  content: \"\\FC3C\";\n}\n\n.mdi-consolidate::before {\n  content: \"\\F0103\";\n}\n\n.mdi-contact-mail::before {\n  content: \"\\F18E\";\n}\n\n.mdi-contact-mail-outline::before {\n  content: \"\\FEB5\";\n}\n\n.mdi-contact-phone::before {\n  content: \"\\FEB6\";\n}\n\n.mdi-contact-phone-outline::before {\n  content: \"\\FEB7\";\n}\n\n.mdi-contactless-payment::before {\n  content: \"\\FD46\";\n}\n\n.mdi-contacts::before {\n  content: \"\\F6CA\";\n}\n\n.mdi-contain::before {\n  content: \"\\FA3D\";\n}\n\n.mdi-contain-end::before {\n  content: \"\\FA3E\";\n}\n\n.mdi-contain-start::before {\n  content: \"\\FA3F\";\n}\n\n.mdi-content-copy::before {\n  content: \"\\F18F\";\n}\n\n.mdi-content-cut::before {\n  content: \"\\F190\";\n}\n\n.mdi-content-duplicate::before {\n  content: \"\\F191\";\n}\n\n.mdi-content-paste::before {\n  content: \"\\F192\";\n}\n\n.mdi-content-save::before {\n  content: \"\\F193\";\n}\n\n.mdi-content-save-alert::before {\n  content: \"\\FF5F\";\n}\n\n.mdi-content-save-alert-outline::before {\n  content: \"\\FF60\";\n}\n\n.mdi-content-save-all::before {\n  content: \"\\F194\";\n}\n\n.mdi-content-save-all-outline::before {\n  content: \"\\FF61\";\n}\n\n.mdi-content-save-edit::before {\n  content: \"\\FCD7\";\n}\n\n.mdi-content-save-edit-outline::before {\n  content: \"\\FCD8\";\n}\n\n.mdi-content-save-move::before {\n  content: \"\\FE79\";\n}\n\n.mdi-content-save-move-outline::before {\n  content: \"\\FE7A\";\n}\n\n.mdi-content-save-outline::before {\n  content: \"\\F817\";\n}\n\n.mdi-content-save-settings::before {\n  content: \"\\F61B\";\n}\n\n.mdi-content-save-settings-outline::before {\n  content: \"\\FB13\";\n}\n\n.mdi-contrast::before {\n  content: \"\\F195\";\n}\n\n.mdi-contrast-box::before {\n  content: \"\\F196\";\n}\n\n.mdi-contrast-circle::before {\n  content: \"\\F197\";\n}\n\n.mdi-controller-classic::before {\n  content: \"\\FB5E\";\n}\n\n.mdi-controller-classic-outline::before {\n  content: \"\\FB5F\";\n}\n\n.mdi-cookie::before {\n  content: \"\\F198\";\n}\n\n.mdi-coolant-temperature::before {\n  content: \"\\F3C8\";\n}\n\n.mdi-copyright::before {\n  content: \"\\F5E6\";\n}\n\n.mdi-cordova::before {\n  content: \"\\F957\";\n}\n\n.mdi-corn::before {\n  content: \"\\F7B7\";\n}\n\n.mdi-counter::before {\n  content: \"\\F199\";\n}\n\n.mdi-cow::before {\n  content: \"\\F19A\";\n}\n\n.mdi-cowboy::before {\n  content: \"\\FEB8\";\n}\n\n.mdi-cpu-32-bit::before {\n  content: \"\\FEFC\";\n}\n\n.mdi-cpu-64-bit::before {\n  content: \"\\FEFD\";\n}\n\n.mdi-crane::before {\n  content: \"\\F861\";\n}\n\n.mdi-creation::before {\n  content: \"\\F1C9\";\n}\n\n.mdi-creative-commons::before {\n  content: \"\\FD47\";\n}\n\n.mdi-credit-card::before {\n  content: \"\\F0010\";\n}\n\n.mdi-credit-card-clock::before {\n  content: \"\\FEFE\";\n}\n\n.mdi-credit-card-clock-outline::before {\n  content: \"\\FFBC\";\n}\n\n.mdi-credit-card-marker::before {\n  content: \"\\F6A7\";\n}\n\n.mdi-credit-card-marker-outline::before {\n  content: \"\\FD9A\";\n}\n\n.mdi-credit-card-minus::before {\n  content: \"\\FFCC\";\n}\n\n.mdi-credit-card-minus-outline::before {\n  content: \"\\FFCD\";\n}\n\n.mdi-credit-card-multiple::before {\n  content: \"\\F0011\";\n}\n\n.mdi-credit-card-multiple-outline::before {\n  content: \"\\F19C\";\n}\n\n.mdi-credit-card-off::before {\n  content: \"\\F0012\";\n}\n\n.mdi-credit-card-off-outline::before {\n  content: \"\\F5E4\";\n}\n\n.mdi-credit-card-outline::before {\n  content: \"\\F19B\";\n}\n\n.mdi-credit-card-plus::before {\n  content: \"\\F0013\";\n}\n\n.mdi-credit-card-plus-outline::before {\n  content: \"\\F675\";\n}\n\n.mdi-credit-card-refund::before {\n  content: \"\\F0014\";\n}\n\n.mdi-credit-card-refund-outline::before {\n  content: \"\\FAA7\";\n}\n\n.mdi-credit-card-remove::before {\n  content: \"\\FFCE\";\n}\n\n.mdi-credit-card-remove-outline::before {\n  content: \"\\FFCF\";\n}\n\n.mdi-credit-card-scan::before {\n  content: \"\\F0015\";\n}\n\n.mdi-credit-card-scan-outline::before {\n  content: \"\\F19D\";\n}\n\n.mdi-credit-card-settings::before {\n  content: \"\\F0016\";\n}\n\n.mdi-credit-card-settings-outline::before {\n  content: \"\\F8D6\";\n}\n\n.mdi-credit-card-wireless::before {\n  content: \"\\F801\";\n}\n\n.mdi-credit-card-wireless-outline::before {\n  content: \"\\FD48\";\n}\n\n.mdi-cricket::before {\n  content: \"\\FD49\";\n}\n\n.mdi-crop::before {\n  content: \"\\F19E\";\n}\n\n.mdi-crop-free::before {\n  content: \"\\F19F\";\n}\n\n.mdi-crop-landscape::before {\n  content: \"\\F1A0\";\n}\n\n.mdi-crop-portrait::before {\n  content: \"\\F1A1\";\n}\n\n.mdi-crop-rotate::before {\n  content: \"\\F695\";\n}\n\n.mdi-crop-square::before {\n  content: \"\\F1A2\";\n}\n\n.mdi-crosshairs::before {\n  content: \"\\F1A3\";\n}\n\n.mdi-crosshairs-gps::before {\n  content: \"\\F1A4\";\n}\n\n.mdi-crosshairs-off::before {\n  content: \"\\FF62\";\n}\n\n.mdi-crosshairs-question::before {\n  content: \"\\F0161\";\n}\n\n.mdi-crown::before {\n  content: \"\\F1A5\";\n}\n\n.mdi-crown-outline::before {\n  content: \"\\F01FB\";\n}\n\n.mdi-cryengine::before {\n  content: \"\\F958\";\n}\n\n.mdi-crystal-ball::before {\n  content: \"\\FB14\";\n}\n\n.mdi-cube::before {\n  content: \"\\F1A6\";\n}\n\n.mdi-cube-outline::before {\n  content: \"\\F1A7\";\n}\n\n.mdi-cube-scan::before {\n  content: \"\\FB60\";\n}\n\n.mdi-cube-send::before {\n  content: \"\\F1A8\";\n}\n\n.mdi-cube-unfolded::before {\n  content: \"\\F1A9\";\n}\n\n.mdi-cup::before {\n  content: \"\\F1AA\";\n}\n\n.mdi-cup-off::before {\n  content: \"\\F5E5\";\n}\n\n.mdi-cup-off-outline::before {\n  content: \"\\F03A8\";\n}\n\n.mdi-cup-outline::before {\n  content: \"\\F033A\";\n}\n\n.mdi-cup-water::before {\n  content: \"\\F1AB\";\n}\n\n.mdi-cupboard::before {\n  content: \"\\FF63\";\n}\n\n.mdi-cupboard-outline::before {\n  content: \"\\FF64\";\n}\n\n.mdi-cupcake::before {\n  content: \"\\F959\";\n}\n\n.mdi-curling::before {\n  content: \"\\F862\";\n}\n\n.mdi-currency-bdt::before {\n  content: \"\\F863\";\n}\n\n.mdi-currency-brl::before {\n  content: \"\\FB61\";\n}\n\n.mdi-currency-btc::before {\n  content: \"\\F1AC\";\n}\n\n.mdi-currency-cny::before {\n  content: \"\\F7B9\";\n}\n\n.mdi-currency-eth::before {\n  content: \"\\F7BA\";\n}\n\n.mdi-currency-eur::before {\n  content: \"\\F1AD\";\n}\n\n.mdi-currency-eur-off::before {\n  content: \"\\F0340\";\n}\n\n.mdi-currency-gbp::before {\n  content: \"\\F1AE\";\n}\n\n.mdi-currency-ils::before {\n  content: \"\\FC3D\";\n}\n\n.mdi-currency-inr::before {\n  content: \"\\F1AF\";\n}\n\n.mdi-currency-jpy::before {\n  content: \"\\F7BB\";\n}\n\n.mdi-currency-krw::before {\n  content: \"\\F7BC\";\n}\n\n.mdi-currency-kzt::before {\n  content: \"\\F864\";\n}\n\n.mdi-currency-ngn::before {\n  content: \"\\F1B0\";\n}\n\n.mdi-currency-php::before {\n  content: \"\\F9E5\";\n}\n\n.mdi-currency-rial::before {\n  content: \"\\FEB9\";\n}\n\n.mdi-currency-rub::before {\n  content: \"\\F1B1\";\n}\n\n.mdi-currency-sign::before {\n  content: \"\\F7BD\";\n}\n\n.mdi-currency-try::before {\n  content: \"\\F1B2\";\n}\n\n.mdi-currency-twd::before {\n  content: \"\\F7BE\";\n}\n\n.mdi-currency-usd::before {\n  content: \"\\F1B3\";\n}\n\n.mdi-currency-usd-off::before {\n  content: \"\\F679\";\n}\n\n.mdi-current-ac::before {\n  content: \"\\F95A\";\n}\n\n.mdi-current-dc::before {\n  content: \"\\F95B\";\n}\n\n.mdi-cursor-default::before {\n  content: \"\\F1B4\";\n}\n\n.mdi-cursor-default-click::before {\n  content: \"\\FCD9\";\n}\n\n.mdi-cursor-default-click-outline::before {\n  content: \"\\FCDA\";\n}\n\n.mdi-cursor-default-gesture::before {\n  content: \"\\F0152\";\n}\n\n.mdi-cursor-default-gesture-outline::before {\n  content: \"\\F0153\";\n}\n\n.mdi-cursor-default-outline::before {\n  content: \"\\F1B5\";\n}\n\n.mdi-cursor-move::before {\n  content: \"\\F1B6\";\n}\n\n.mdi-cursor-pointer::before {\n  content: \"\\F1B7\";\n}\n\n.mdi-cursor-text::before {\n  content: \"\\F5E7\";\n}\n\n.mdi-database::before {\n  content: \"\\F1B8\";\n}\n\n.mdi-database-check::before {\n  content: \"\\FAA8\";\n}\n\n.mdi-database-edit::before {\n  content: \"\\FB62\";\n}\n\n.mdi-database-export::before {\n  content: \"\\F95D\";\n}\n\n.mdi-database-import::before {\n  content: \"\\F95C\";\n}\n\n.mdi-database-lock::before {\n  content: \"\\FAA9\";\n}\n\n.mdi-database-marker::before {\n  content: \"\\F0321\";\n}\n\n.mdi-database-minus::before {\n  content: \"\\F1B9\";\n}\n\n.mdi-database-plus::before {\n  content: \"\\F1BA\";\n}\n\n.mdi-database-refresh::before {\n  content: \"\\FCDB\";\n}\n\n.mdi-database-remove::before {\n  content: \"\\FCDC\";\n}\n\n.mdi-database-search::before {\n  content: \"\\F865\";\n}\n\n.mdi-database-settings::before {\n  content: \"\\FCDD\";\n}\n\n.mdi-death-star::before {\n  content: \"\\F8D7\";\n}\n\n.mdi-death-star-variant::before {\n  content: \"\\F8D8\";\n}\n\n.mdi-deathly-hallows::before {\n  content: \"\\FB63\";\n}\n\n.mdi-debian::before {\n  content: \"\\F8D9\";\n}\n\n.mdi-debug-step-into::before {\n  content: \"\\F1BB\";\n}\n\n.mdi-debug-step-out::before {\n  content: \"\\F1BC\";\n}\n\n.mdi-debug-step-over::before {\n  content: \"\\F1BD\";\n}\n\n.mdi-decagram::before {\n  content: \"\\F76B\";\n}\n\n.mdi-decagram-outline::before {\n  content: \"\\F76C\";\n}\n\n.mdi-decimal::before {\n  content: \"\\F00CC\";\n}\n\n.mdi-decimal-comma::before {\n  content: \"\\F00CD\";\n}\n\n.mdi-decimal-comma-decrease::before {\n  content: \"\\F00CE\";\n}\n\n.mdi-decimal-comma-increase::before {\n  content: \"\\F00CF\";\n}\n\n.mdi-decimal-decrease::before {\n  content: \"\\F1BE\";\n}\n\n.mdi-decimal-increase::before {\n  content: \"\\F1BF\";\n}\n\n.mdi-delete::before {\n  content: \"\\F1C0\";\n}\n\n.mdi-delete-alert::before {\n  content: \"\\F00D0\";\n}\n\n.mdi-delete-alert-outline::before {\n  content: \"\\F00D1\";\n}\n\n.mdi-delete-circle::before {\n  content: \"\\F682\";\n}\n\n.mdi-delete-circle-outline::before {\n  content: \"\\FB64\";\n}\n\n.mdi-delete-empty::before {\n  content: \"\\F6CB\";\n}\n\n.mdi-delete-empty-outline::before {\n  content: \"\\FEBA\";\n}\n\n.mdi-delete-forever::before {\n  content: \"\\F5E8\";\n}\n\n.mdi-delete-forever-outline::before {\n  content: \"\\FB65\";\n}\n\n.mdi-delete-off::before {\n  content: \"\\F00D2\";\n}\n\n.mdi-delete-off-outline::before {\n  content: \"\\F00D3\";\n}\n\n.mdi-delete-outline::before {\n  content: \"\\F9E6\";\n}\n\n.mdi-delete-restore::before {\n  content: \"\\F818\";\n}\n\n.mdi-delete-sweep::before {\n  content: \"\\F5E9\";\n}\n\n.mdi-delete-sweep-outline::before {\n  content: \"\\FC3E\";\n}\n\n.mdi-delete-variant::before {\n  content: \"\\F1C1\";\n}\n\n.mdi-delta::before {\n  content: \"\\F1C2\";\n}\n\n.mdi-desk::before {\n  content: \"\\F0264\";\n}\n\n.mdi-desk-lamp::before {\n  content: \"\\F95E\";\n}\n\n.mdi-deskphone::before {\n  content: \"\\F1C3\";\n}\n\n.mdi-desktop-classic::before {\n  content: \"\\F7BF\";\n}\n\n.mdi-desktop-mac::before {\n  content: \"\\F1C4\";\n}\n\n.mdi-desktop-mac-dashboard::before {\n  content: \"\\F9E7\";\n}\n\n.mdi-desktop-tower::before {\n  content: \"\\F1C5\";\n}\n\n.mdi-desktop-tower-monitor::before {\n  content: \"\\FAAA\";\n}\n\n.mdi-details::before {\n  content: \"\\F1C6\";\n}\n\n.mdi-dev-to::before {\n  content: \"\\FD4A\";\n}\n\n.mdi-developer-board::before {\n  content: \"\\F696\";\n}\n\n.mdi-deviantart::before {\n  content: \"\\F1C7\";\n}\n\n.mdi-devices::before {\n  content: \"\\FFD0\";\n}\n\n.mdi-diabetes::before {\n  content: \"\\F0151\";\n}\n\n.mdi-dialpad::before {\n  content: \"\\F61C\";\n}\n\n.mdi-diameter::before {\n  content: \"\\FC3F\";\n}\n\n.mdi-diameter-outline::before {\n  content: \"\\FC40\";\n}\n\n.mdi-diameter-variant::before {\n  content: \"\\FC41\";\n}\n\n.mdi-diamond::before {\n  content: \"\\FB66\";\n}\n\n.mdi-diamond-outline::before {\n  content: \"\\FB67\";\n}\n\n.mdi-diamond-stone::before {\n  content: \"\\F1C8\";\n}\n\n.mdi-dice-1::before {\n  content: \"\\F1CA\";\n}\n\n.mdi-dice-1-outline::before {\n  content: \"\\F0175\";\n}\n\n.mdi-dice-2::before {\n  content: \"\\F1CB\";\n}\n\n.mdi-dice-2-outline::before {\n  content: \"\\F0176\";\n}\n\n.mdi-dice-3::before {\n  content: \"\\F1CC\";\n}\n\n.mdi-dice-3-outline::before {\n  content: \"\\F0177\";\n}\n\n.mdi-dice-4::before {\n  content: \"\\F1CD\";\n}\n\n.mdi-dice-4-outline::before {\n  content: \"\\F0178\";\n}\n\n.mdi-dice-5::before {\n  content: \"\\F1CE\";\n}\n\n.mdi-dice-5-outline::before {\n  content: \"\\F0179\";\n}\n\n.mdi-dice-6::before {\n  content: \"\\F1CF\";\n}\n\n.mdi-dice-6-outline::before {\n  content: \"\\F017A\";\n}\n\n.mdi-dice-d10::before {\n  content: \"\\F017E\";\n}\n\n.mdi-dice-d10-outline::before {\n  content: \"\\F76E\";\n}\n\n.mdi-dice-d12::before {\n  content: \"\\F017F\";\n}\n\n.mdi-dice-d12-outline::before {\n  content: \"\\F866\";\n}\n\n.mdi-dice-d20::before {\n  content: \"\\F0180\";\n}\n\n.mdi-dice-d20-outline::before {\n  content: \"\\F5EA\";\n}\n\n.mdi-dice-d4::before {\n  content: \"\\F017B\";\n}\n\n.mdi-dice-d4-outline::before {\n  content: \"\\F5EB\";\n}\n\n.mdi-dice-d6::before {\n  content: \"\\F017C\";\n}\n\n.mdi-dice-d6-outline::before {\n  content: \"\\F5EC\";\n}\n\n.mdi-dice-d8::before {\n  content: \"\\F017D\";\n}\n\n.mdi-dice-d8-outline::before {\n  content: \"\\F5ED\";\n}\n\n.mdi-dice-multiple::before {\n  content: \"\\F76D\";\n}\n\n.mdi-dice-multiple-outline::before {\n  content: \"\\F0181\";\n}\n\n.mdi-dictionary::before {\n  content: \"\\F61D\";\n}\n\n.mdi-digital-ocean::before {\n  content: \"\\F0262\";\n}\n\n.mdi-dip-switch::before {\n  content: \"\\F7C0\";\n}\n\n.mdi-directions::before {\n  content: \"\\F1D0\";\n}\n\n.mdi-directions-fork::before {\n  content: \"\\F641\";\n}\n\n.mdi-disc::before {\n  content: \"\\F5EE\";\n}\n\n.mdi-disc-alert::before {\n  content: \"\\F1D1\";\n}\n\n.mdi-disc-player::before {\n  content: \"\\F95F\";\n}\n\n.mdi-discord::before {\n  content: \"\\F66F\";\n}\n\n.mdi-dishwasher::before {\n  content: \"\\FAAB\";\n}\n\n.mdi-dishwasher-alert::before {\n  content: \"\\F01E3\";\n}\n\n.mdi-dishwasher-off::before {\n  content: \"\\F01E4\";\n}\n\n.mdi-disqus::before {\n  content: \"\\F1D2\";\n}\n\n.mdi-disqus-outline::before {\n  content: \"\\F1D3\";\n}\n\n.mdi-distribute-horizontal-center::before {\n  content: \"\\F01F4\";\n}\n\n.mdi-distribute-horizontal-left::before {\n  content: \"\\F01F3\";\n}\n\n.mdi-distribute-horizontal-right::before {\n  content: \"\\F01F5\";\n}\n\n.mdi-distribute-vertical-bottom::before {\n  content: \"\\F01F6\";\n}\n\n.mdi-distribute-vertical-center::before {\n  content: \"\\F01F7\";\n}\n\n.mdi-distribute-vertical-top::before {\n  content: \"\\F01F8\";\n}\n\n.mdi-diving-flippers::before {\n  content: \"\\FD9B\";\n}\n\n.mdi-diving-helmet::before {\n  content: \"\\FD9C\";\n}\n\n.mdi-diving-scuba::before {\n  content: \"\\FD9D\";\n}\n\n.mdi-diving-scuba-flag::before {\n  content: \"\\FD9E\";\n}\n\n.mdi-diving-scuba-tank::before {\n  content: \"\\FD9F\";\n}\n\n.mdi-diving-scuba-tank-multiple::before {\n  content: \"\\FDA0\";\n}\n\n.mdi-diving-snorkel::before {\n  content: \"\\FDA1\";\n}\n\n.mdi-division::before {\n  content: \"\\F1D4\";\n}\n\n.mdi-division-box::before {\n  content: \"\\F1D5\";\n}\n\n.mdi-dlna::before {\n  content: \"\\FA40\";\n}\n\n.mdi-dna::before {\n  content: \"\\F683\";\n}\n\n.mdi-dns::before {\n  content: \"\\F1D6\";\n}\n\n.mdi-dns-outline::before {\n  content: \"\\FB68\";\n}\n\n.mdi-do-not-disturb::before {\n  content: \"\\F697\";\n}\n\n.mdi-do-not-disturb-off::before {\n  content: \"\\F698\";\n}\n\n.mdi-dock-bottom::before {\n  content: \"\\F00D4\";\n}\n\n.mdi-dock-left::before {\n  content: \"\\F00D5\";\n}\n\n.mdi-dock-right::before {\n  content: \"\\F00D6\";\n}\n\n.mdi-dock-window::before {\n  content: \"\\F00D7\";\n}\n\n.mdi-docker::before {\n  content: \"\\F867\";\n}\n\n.mdi-doctor::before {\n  content: \"\\FA41\";\n}\n\n.mdi-dog::before {\n  content: \"\\FA42\";\n}\n\n.mdi-dog-service::before {\n  content: \"\\FAAC\";\n}\n\n.mdi-dog-side::before {\n  content: \"\\FA43\";\n}\n\n.mdi-dolby::before {\n  content: \"\\F6B2\";\n}\n\n.mdi-dolly::before {\n  content: \"\\FEBB\";\n}\n\n.mdi-domain::before {\n  content: \"\\F1D7\";\n}\n\n.mdi-domain-off::before {\n  content: \"\\FD4B\";\n}\n\n.mdi-domain-plus::before {\n  content: \"\\F00D8\";\n}\n\n.mdi-domain-remove::before {\n  content: \"\\F00D9\";\n}\n\n.mdi-domino-mask::before {\n  content: \"\\F0045\";\n}\n\n.mdi-donkey::before {\n  content: \"\\F7C1\";\n}\n\n.mdi-door::before {\n  content: \"\\F819\";\n}\n\n.mdi-door-closed::before {\n  content: \"\\F81A\";\n}\n\n.mdi-door-closed-lock::before {\n  content: \"\\F00DA\";\n}\n\n.mdi-door-open::before {\n  content: \"\\F81B\";\n}\n\n.mdi-doorbell::before {\n  content: \"\\F0311\";\n}\n\n.mdi-doorbell-video::before {\n  content: \"\\F868\";\n}\n\n.mdi-dot-net::before {\n  content: \"\\FAAD\";\n}\n\n.mdi-dots-horizontal::before {\n  content: \"\\F1D8\";\n}\n\n.mdi-dots-horizontal-circle::before {\n  content: \"\\F7C2\";\n}\n\n.mdi-dots-horizontal-circle-outline::before {\n  content: \"\\FB69\";\n}\n\n.mdi-dots-vertical::before {\n  content: \"\\F1D9\";\n}\n\n.mdi-dots-vertical-circle::before {\n  content: \"\\F7C3\";\n}\n\n.mdi-dots-vertical-circle-outline::before {\n  content: \"\\FB6A\";\n}\n\n.mdi-douban::before {\n  content: \"\\F699\";\n}\n\n.mdi-download::before {\n  content: \"\\F1DA\";\n}\n\n.mdi-download-lock::before {\n  content: \"\\F034B\";\n}\n\n.mdi-download-lock-outline::before {\n  content: \"\\F034C\";\n}\n\n.mdi-download-multiple::before {\n  content: \"\\F9E8\";\n}\n\n.mdi-download-network::before {\n  content: \"\\F6F3\";\n}\n\n.mdi-download-network-outline::before {\n  content: \"\\FC42\";\n}\n\n.mdi-download-off::before {\n  content: \"\\F00DB\";\n}\n\n.mdi-download-off-outline::before {\n  content: \"\\F00DC\";\n}\n\n.mdi-download-outline::before {\n  content: \"\\FB6B\";\n}\n\n.mdi-drag::before {\n  content: \"\\F1DB\";\n}\n\n.mdi-drag-horizontal::before {\n  content: \"\\F1DC\";\n}\n\n.mdi-drag-horizontal-variant::before {\n  content: \"\\F031B\";\n}\n\n.mdi-drag-variant::before {\n  content: \"\\FB6C\";\n}\n\n.mdi-drag-vertical::before {\n  content: \"\\F1DD\";\n}\n\n.mdi-drag-vertical-variant::before {\n  content: \"\\F031C\";\n}\n\n.mdi-drama-masks::before {\n  content: \"\\FCDE\";\n}\n\n.mdi-draw::before {\n  content: \"\\FF66\";\n}\n\n.mdi-drawing::before {\n  content: \"\\F1DE\";\n}\n\n.mdi-drawing-box::before {\n  content: \"\\F1DF\";\n}\n\n.mdi-dresser::before {\n  content: \"\\FF67\";\n}\n\n.mdi-dresser-outline::before {\n  content: \"\\FF68\";\n}\n\n.mdi-dribbble::before {\n  content: \"\\F1E0\";\n}\n\n.mdi-dribbble-box::before {\n  content: \"\\F1E1\";\n}\n\n.mdi-drone::before {\n  content: \"\\F1E2\";\n}\n\n.mdi-dropbox::before {\n  content: \"\\F1E3\";\n}\n\n.mdi-drupal::before {\n  content: \"\\F1E4\";\n}\n\n.mdi-duck::before {\n  content: \"\\F1E5\";\n}\n\n.mdi-dumbbell::before {\n  content: \"\\F1E6\";\n}\n\n.mdi-dump-truck::before {\n  content: \"\\FC43\";\n}\n\n.mdi-ear-hearing::before {\n  content: \"\\F7C4\";\n}\n\n.mdi-ear-hearing-off::before {\n  content: \"\\FA44\";\n}\n\n.mdi-earth::before {\n  content: \"\\F1E7\";\n}\n\n.mdi-earth-arrow-right::before {\n  content: \"\\F033C\";\n}\n\n.mdi-earth-box::before {\n  content: \"\\F6CC\";\n}\n\n.mdi-earth-box-off::before {\n  content: \"\\F6CD\";\n}\n\n.mdi-earth-off::before {\n  content: \"\\F1E8\";\n}\n\n.mdi-edge::before {\n  content: \"\\F1E9\";\n}\n\n.mdi-edge-legacy::before {\n  content: \"\\F027B\";\n}\n\n.mdi-egg::before {\n  content: \"\\FAAE\";\n}\n\n.mdi-egg-easter::before {\n  content: \"\\FAAF\";\n}\n\n.mdi-eight-track::before {\n  content: \"\\F9E9\";\n}\n\n.mdi-eject::before {\n  content: \"\\F1EA\";\n}\n\n.mdi-eject-outline::before {\n  content: \"\\FB6D\";\n}\n\n.mdi-electric-switch::before {\n  content: \"\\FEBC\";\n}\n\n.mdi-electric-switch-closed::before {\n  content: \"\\F0104\";\n}\n\n.mdi-electron-framework::before {\n  content: \"\\F0046\";\n}\n\n.mdi-elephant::before {\n  content: \"\\F7C5\";\n}\n\n.mdi-elevation-decline::before {\n  content: \"\\F1EB\";\n}\n\n.mdi-elevation-rise::before {\n  content: \"\\F1EC\";\n}\n\n.mdi-elevator::before {\n  content: \"\\F1ED\";\n}\n\n.mdi-elevator-down::before {\n  content: \"\\F02ED\";\n}\n\n.mdi-elevator-passenger::before {\n  content: \"\\F03AC\";\n}\n\n.mdi-elevator-up::before {\n  content: \"\\F02EC\";\n}\n\n.mdi-ellipse::before {\n  content: \"\\FEBD\";\n}\n\n.mdi-ellipse-outline::before {\n  content: \"\\FEBE\";\n}\n\n.mdi-email::before {\n  content: \"\\F1EE\";\n}\n\n.mdi-email-alert::before {\n  content: \"\\F6CE\";\n}\n\n.mdi-email-alert-outline::before {\n  content: \"\\FD1E\";\n}\n\n.mdi-email-box::before {\n  content: \"\\FCDF\";\n}\n\n.mdi-email-check::before {\n  content: \"\\FAB0\";\n}\n\n.mdi-email-check-outline::before {\n  content: \"\\FAB1\";\n}\n\n.mdi-email-edit::before {\n  content: \"\\FF00\";\n}\n\n.mdi-email-edit-outline::before {\n  content: \"\\FF01\";\n}\n\n.mdi-email-lock::before {\n  content: \"\\F1F1\";\n}\n\n.mdi-email-mark-as-unread::before {\n  content: \"\\FB6E\";\n}\n\n.mdi-email-minus::before {\n  content: \"\\FF02\";\n}\n\n.mdi-email-minus-outline::before {\n  content: \"\\FF03\";\n}\n\n.mdi-email-multiple::before {\n  content: \"\\FF04\";\n}\n\n.mdi-email-multiple-outline::before {\n  content: \"\\FF05\";\n}\n\n.mdi-email-newsletter::before {\n  content: \"\\FFD1\";\n}\n\n.mdi-email-open::before {\n  content: \"\\F1EF\";\n}\n\n.mdi-email-open-multiple::before {\n  content: \"\\FF06\";\n}\n\n.mdi-email-open-multiple-outline::before {\n  content: \"\\FF07\";\n}\n\n.mdi-email-open-outline::before {\n  content: \"\\F5EF\";\n}\n\n.mdi-email-outline::before {\n  content: \"\\F1F0\";\n}\n\n.mdi-email-plus::before {\n  content: \"\\F9EA\";\n}\n\n.mdi-email-plus-outline::before {\n  content: \"\\F9EB\";\n}\n\n.mdi-email-receive::before {\n  content: \"\\F0105\";\n}\n\n.mdi-email-receive-outline::before {\n  content: \"\\F0106\";\n}\n\n.mdi-email-search::before {\n  content: \"\\F960\";\n}\n\n.mdi-email-search-outline::before {\n  content: \"\\F961\";\n}\n\n.mdi-email-send::before {\n  content: \"\\F0107\";\n}\n\n.mdi-email-send-outline::before {\n  content: \"\\F0108\";\n}\n\n.mdi-email-sync::before {\n  content: \"\\F02F2\";\n}\n\n.mdi-email-sync-outline::before {\n  content: \"\\F02F3\";\n}\n\n.mdi-email-variant::before {\n  content: \"\\F5F0\";\n}\n\n.mdi-ember::before {\n  content: \"\\FB15\";\n}\n\n.mdi-emby::before {\n  content: \"\\F6B3\";\n}\n\n.mdi-emoticon::before {\n  content: \"\\FC44\";\n}\n\n.mdi-emoticon-angry::before {\n  content: \"\\FC45\";\n}\n\n.mdi-emoticon-angry-outline::before {\n  content: \"\\FC46\";\n}\n\n.mdi-emoticon-confused::before {\n  content: \"\\F0109\";\n}\n\n.mdi-emoticon-confused-outline::before {\n  content: \"\\F010A\";\n}\n\n.mdi-emoticon-cool::before {\n  content: \"\\FC47\";\n}\n\n.mdi-emoticon-cool-outline::before {\n  content: \"\\F1F3\";\n}\n\n.mdi-emoticon-cry::before {\n  content: \"\\FC48\";\n}\n\n.mdi-emoticon-cry-outline::before {\n  content: \"\\FC49\";\n}\n\n.mdi-emoticon-dead::before {\n  content: \"\\FC4A\";\n}\n\n.mdi-emoticon-dead-outline::before {\n  content: \"\\F69A\";\n}\n\n.mdi-emoticon-devil::before {\n  content: \"\\FC4B\";\n}\n\n.mdi-emoticon-devil-outline::before {\n  content: \"\\F1F4\";\n}\n\n.mdi-emoticon-excited::before {\n  content: \"\\FC4C\";\n}\n\n.mdi-emoticon-excited-outline::before {\n  content: \"\\F69B\";\n}\n\n.mdi-emoticon-frown::before {\n  content: \"\\FF69\";\n}\n\n.mdi-emoticon-frown-outline::before {\n  content: \"\\FF6A\";\n}\n\n.mdi-emoticon-happy::before {\n  content: \"\\FC4D\";\n}\n\n.mdi-emoticon-happy-outline::before {\n  content: \"\\F1F5\";\n}\n\n.mdi-emoticon-kiss::before {\n  content: \"\\FC4E\";\n}\n\n.mdi-emoticon-kiss-outline::before {\n  content: \"\\FC4F\";\n}\n\n.mdi-emoticon-lol::before {\n  content: \"\\F023F\";\n}\n\n.mdi-emoticon-lol-outline::before {\n  content: \"\\F0240\";\n}\n\n.mdi-emoticon-neutral::before {\n  content: \"\\FC50\";\n}\n\n.mdi-emoticon-neutral-outline::before {\n  content: \"\\F1F6\";\n}\n\n.mdi-emoticon-outline::before {\n  content: \"\\F1F2\";\n}\n\n.mdi-emoticon-poop::before {\n  content: \"\\F1F7\";\n}\n\n.mdi-emoticon-poop-outline::before {\n  content: \"\\FC51\";\n}\n\n.mdi-emoticon-sad::before {\n  content: \"\\FC52\";\n}\n\n.mdi-emoticon-sad-outline::before {\n  content: \"\\F1F8\";\n}\n\n.mdi-emoticon-tongue::before {\n  content: \"\\F1F9\";\n}\n\n.mdi-emoticon-tongue-outline::before {\n  content: \"\\FC53\";\n}\n\n.mdi-emoticon-wink::before {\n  content: \"\\FC54\";\n}\n\n.mdi-emoticon-wink-outline::before {\n  content: \"\\FC55\";\n}\n\n.mdi-engine::before {\n  content: \"\\F1FA\";\n}\n\n.mdi-engine-off::before {\n  content: \"\\FA45\";\n}\n\n.mdi-engine-off-outline::before {\n  content: \"\\FA46\";\n}\n\n.mdi-engine-outline::before {\n  content: \"\\F1FB\";\n}\n\n.mdi-epsilon::before {\n  content: \"\\F010B\";\n}\n\n.mdi-equal::before {\n  content: \"\\F1FC\";\n}\n\n.mdi-equal-box::before {\n  content: \"\\F1FD\";\n}\n\n.mdi-equalizer::before {\n  content: \"\\FEBF\";\n}\n\n.mdi-equalizer-outline::before {\n  content: \"\\FEC0\";\n}\n\n.mdi-eraser::before {\n  content: \"\\F1FE\";\n}\n\n.mdi-eraser-variant::before {\n  content: \"\\F642\";\n}\n\n.mdi-escalator::before {\n  content: \"\\F1FF\";\n}\n\n.mdi-escalator-down::before {\n  content: \"\\F02EB\";\n}\n\n.mdi-escalator-up::before {\n  content: \"\\F02EA\";\n}\n\n.mdi-eslint::before {\n  content: \"\\FC56\";\n}\n\n.mdi-et::before {\n  content: \"\\FAB2\";\n}\n\n.mdi-ethereum::before {\n  content: \"\\F869\";\n}\n\n.mdi-ethernet::before {\n  content: \"\\F200\";\n}\n\n.mdi-ethernet-cable::before {\n  content: \"\\F201\";\n}\n\n.mdi-ethernet-cable-off::before {\n  content: \"\\F202\";\n}\n\n.mdi-etsy::before {\n  content: \"\\F203\";\n}\n\n.mdi-ev-station::before {\n  content: \"\\F5F1\";\n}\n\n.mdi-eventbrite::before {\n  content: \"\\F7C6\";\n}\n\n.mdi-evernote::before {\n  content: \"\\F204\";\n}\n\n.mdi-excavator::before {\n  content: \"\\F0047\";\n}\n\n.mdi-exclamation::before {\n  content: \"\\F205\";\n}\n\n.mdi-exclamation-thick::before {\n  content: \"\\F0263\";\n}\n\n.mdi-exit-run::before {\n  content: \"\\FA47\";\n}\n\n.mdi-exit-to-app::before {\n  content: \"\\F206\";\n}\n\n.mdi-expand-all::before {\n  content: \"\\FAB3\";\n}\n\n.mdi-expand-all-outline::before {\n  content: \"\\FAB4\";\n}\n\n.mdi-expansion-card::before {\n  content: \"\\F8AD\";\n}\n\n.mdi-expansion-card-variant::before {\n  content: \"\\FFD2\";\n}\n\n.mdi-exponent::before {\n  content: \"\\F962\";\n}\n\n.mdi-exponent-box::before {\n  content: \"\\F963\";\n}\n\n.mdi-export::before {\n  content: \"\\F207\";\n}\n\n.mdi-export-variant::before {\n  content: \"\\FB6F\";\n}\n\n.mdi-eye::before {\n  content: \"\\F208\";\n}\n\n.mdi-eye-check::before {\n  content: \"\\FCE0\";\n}\n\n.mdi-eye-check-outline::before {\n  content: \"\\FCE1\";\n}\n\n.mdi-eye-circle::before {\n  content: \"\\FB70\";\n}\n\n.mdi-eye-circle-outline::before {\n  content: \"\\FB71\";\n}\n\n.mdi-eye-minus::before {\n  content: \"\\F0048\";\n}\n\n.mdi-eye-minus-outline::before {\n  content: \"\\F0049\";\n}\n\n.mdi-eye-off::before {\n  content: \"\\F209\";\n}\n\n.mdi-eye-off-outline::before {\n  content: \"\\F6D0\";\n}\n\n.mdi-eye-outline::before {\n  content: \"\\F6CF\";\n}\n\n.mdi-eye-plus::before {\n  content: \"\\F86A\";\n}\n\n.mdi-eye-plus-outline::before {\n  content: \"\\F86B\";\n}\n\n.mdi-eye-settings::before {\n  content: \"\\F86C\";\n}\n\n.mdi-eye-settings-outline::before {\n  content: \"\\F86D\";\n}\n\n.mdi-eyedropper::before {\n  content: \"\\F20A\";\n}\n\n.mdi-eyedropper-variant::before {\n  content: \"\\F20B\";\n}\n\n.mdi-face::before {\n  content: \"\\F643\";\n}\n\n.mdi-face-agent::before {\n  content: \"\\FD4C\";\n}\n\n.mdi-face-outline::before {\n  content: \"\\FB72\";\n}\n\n.mdi-face-profile::before {\n  content: \"\\F644\";\n}\n\n.mdi-face-profile-woman::before {\n  content: \"\\F00A1\";\n}\n\n.mdi-face-recognition::before {\n  content: \"\\FC57\";\n}\n\n.mdi-face-woman::before {\n  content: \"\\F00A2\";\n}\n\n.mdi-face-woman-outline::before {\n  content: \"\\F00A3\";\n}\n\n.mdi-facebook::before {\n  content: \"\\F20C\";\n}\n\n.mdi-facebook-box::before {\n  content: \"\\F20D\";\n}\n\n.mdi-facebook-messenger::before {\n  content: \"\\F20E\";\n}\n\n.mdi-facebook-workplace::before {\n  content: \"\\FB16\";\n}\n\n.mdi-factory::before {\n  content: \"\\F20F\";\n}\n\n.mdi-fan::before {\n  content: \"\\F210\";\n}\n\n.mdi-fan-off::before {\n  content: \"\\F81C\";\n}\n\n.mdi-fast-forward::before {\n  content: \"\\F211\";\n}\n\n.mdi-fast-forward-10::before {\n  content: \"\\FD4D\";\n}\n\n.mdi-fast-forward-30::before {\n  content: \"\\FCE2\";\n}\n\n.mdi-fast-forward-5::before {\n  content: \"\\F0223\";\n}\n\n.mdi-fast-forward-outline::before {\n  content: \"\\F6D1\";\n}\n\n.mdi-fax::before {\n  content: \"\\F212\";\n}\n\n.mdi-feather::before {\n  content: \"\\F6D2\";\n}\n\n.mdi-feature-search::before {\n  content: \"\\FA48\";\n}\n\n.mdi-feature-search-outline::before {\n  content: \"\\FA49\";\n}\n\n.mdi-fedora::before {\n  content: \"\\F8DA\";\n}\n\n.mdi-ferris-wheel::before {\n  content: \"\\FEC1\";\n}\n\n.mdi-ferry::before {\n  content: \"\\F213\";\n}\n\n.mdi-file::before {\n  content: \"\\F214\";\n}\n\n.mdi-file-account::before {\n  content: \"\\F73A\";\n}\n\n.mdi-file-account-outline::before {\n  content: \"\\F004A\";\n}\n\n.mdi-file-alert::before {\n  content: \"\\FA4A\";\n}\n\n.mdi-file-alert-outline::before {\n  content: \"\\FA4B\";\n}\n\n.mdi-file-cabinet::before {\n  content: \"\\FAB5\";\n}\n\n.mdi-file-cad::before {\n  content: \"\\FF08\";\n}\n\n.mdi-file-cad-box::before {\n  content: \"\\FF09\";\n}\n\n.mdi-file-cancel::before {\n  content: \"\\FDA2\";\n}\n\n.mdi-file-cancel-outline::before {\n  content: \"\\FDA3\";\n}\n\n.mdi-file-certificate::before {\n  content: \"\\F01B1\";\n}\n\n.mdi-file-certificate-outline::before {\n  content: \"\\F01B2\";\n}\n\n.mdi-file-chart::before {\n  content: \"\\F215\";\n}\n\n.mdi-file-chart-outline::before {\n  content: \"\\F004B\";\n}\n\n.mdi-file-check::before {\n  content: \"\\F216\";\n}\n\n.mdi-file-check-outline::before {\n  content: \"\\FE7B\";\n}\n\n.mdi-file-clock::before {\n  content: \"\\F030C\";\n}\n\n.mdi-file-clock-outline::before {\n  content: \"\\F030D\";\n}\n\n.mdi-file-cloud::before {\n  content: \"\\F217\";\n}\n\n.mdi-file-cloud-outline::before {\n  content: \"\\F004C\";\n}\n\n.mdi-file-code::before {\n  content: \"\\F22E\";\n}\n\n.mdi-file-code-outline::before {\n  content: \"\\F004D\";\n}\n\n.mdi-file-compare::before {\n  content: \"\\F8A9\";\n}\n\n.mdi-file-delimited::before {\n  content: \"\\F218\";\n}\n\n.mdi-file-delimited-outline::before {\n  content: \"\\FEC2\";\n}\n\n.mdi-file-document::before {\n  content: \"\\F219\";\n}\n\n.mdi-file-document-box::before {\n  content: \"\\F21A\";\n}\n\n.mdi-file-document-box-check::before {\n  content: \"\\FEC3\";\n}\n\n.mdi-file-document-box-check-outline::before {\n  content: \"\\FEC4\";\n}\n\n.mdi-file-document-box-minus::before {\n  content: \"\\FEC5\";\n}\n\n.mdi-file-document-box-minus-outline::before {\n  content: \"\\FEC6\";\n}\n\n.mdi-file-document-box-multiple::before {\n  content: \"\\FAB6\";\n}\n\n.mdi-file-document-box-multiple-outline::before {\n  content: \"\\FAB7\";\n}\n\n.mdi-file-document-box-outline::before {\n  content: \"\\F9EC\";\n}\n\n.mdi-file-document-box-plus::before {\n  content: \"\\FEC7\";\n}\n\n.mdi-file-document-box-plus-outline::before {\n  content: \"\\FEC8\";\n}\n\n.mdi-file-document-box-remove::before {\n  content: \"\\FEC9\";\n}\n\n.mdi-file-document-box-remove-outline::before {\n  content: \"\\FECA\";\n}\n\n.mdi-file-document-box-search::before {\n  content: \"\\FECB\";\n}\n\n.mdi-file-document-box-search-outline::before {\n  content: \"\\FECC\";\n}\n\n.mdi-file-document-edit::before {\n  content: \"\\FDA4\";\n}\n\n.mdi-file-document-edit-outline::before {\n  content: \"\\FDA5\";\n}\n\n.mdi-file-document-outline::before {\n  content: \"\\F9ED\";\n}\n\n.mdi-file-download::before {\n  content: \"\\F964\";\n}\n\n.mdi-file-download-outline::before {\n  content: \"\\F965\";\n}\n\n.mdi-file-edit::before {\n  content: \"\\F0212\";\n}\n\n.mdi-file-edit-outline::before {\n  content: \"\\F0213\";\n}\n\n.mdi-file-excel::before {\n  content: \"\\F21B\";\n}\n\n.mdi-file-excel-box::before {\n  content: \"\\F21C\";\n}\n\n.mdi-file-excel-box-outline::before {\n  content: \"\\F004E\";\n}\n\n.mdi-file-excel-outline::before {\n  content: \"\\F004F\";\n}\n\n.mdi-file-export::before {\n  content: \"\\F21D\";\n}\n\n.mdi-file-export-outline::before {\n  content: \"\\F0050\";\n}\n\n.mdi-file-eye::before {\n  content: \"\\FDA6\";\n}\n\n.mdi-file-eye-outline::before {\n  content: \"\\FDA7\";\n}\n\n.mdi-file-find::before {\n  content: \"\\F21E\";\n}\n\n.mdi-file-find-outline::before {\n  content: \"\\FB73\";\n}\n\n.mdi-file-hidden::before {\n  content: \"\\F613\";\n}\n\n.mdi-file-image::before {\n  content: \"\\F21F\";\n}\n\n.mdi-file-image-outline::before {\n  content: \"\\FECD\";\n}\n\n.mdi-file-import::before {\n  content: \"\\F220\";\n}\n\n.mdi-file-import-outline::before {\n  content: \"\\F0051\";\n}\n\n.mdi-file-key::before {\n  content: \"\\F01AF\";\n}\n\n.mdi-file-key-outline::before {\n  content: \"\\F01B0\";\n}\n\n.mdi-file-link::before {\n  content: \"\\F01A2\";\n}\n\n.mdi-file-link-outline::before {\n  content: \"\\F01A3\";\n}\n\n.mdi-file-lock::before {\n  content: \"\\F221\";\n}\n\n.mdi-file-lock-outline::before {\n  content: \"\\F0052\";\n}\n\n.mdi-file-move::before {\n  content: \"\\FAB8\";\n}\n\n.mdi-file-move-outline::before {\n  content: \"\\F0053\";\n}\n\n.mdi-file-multiple::before {\n  content: \"\\F222\";\n}\n\n.mdi-file-multiple-outline::before {\n  content: \"\\F0054\";\n}\n\n.mdi-file-music::before {\n  content: \"\\F223\";\n}\n\n.mdi-file-music-outline::before {\n  content: \"\\FE7C\";\n}\n\n.mdi-file-outline::before {\n  content: \"\\F224\";\n}\n\n.mdi-file-pdf::before {\n  content: \"\\F225\";\n}\n\n.mdi-file-pdf-box::before {\n  content: \"\\F226\";\n}\n\n.mdi-file-pdf-box-outline::before {\n  content: \"\\FFD3\";\n}\n\n.mdi-file-pdf-outline::before {\n  content: \"\\FE7D\";\n}\n\n.mdi-file-percent::before {\n  content: \"\\F81D\";\n}\n\n.mdi-file-percent-outline::before {\n  content: \"\\F0055\";\n}\n\n.mdi-file-phone::before {\n  content: \"\\F01A4\";\n}\n\n.mdi-file-phone-outline::before {\n  content: \"\\F01A5\";\n}\n\n.mdi-file-plus::before {\n  content: \"\\F751\";\n}\n\n.mdi-file-plus-outline::before {\n  content: \"\\FF0A\";\n}\n\n.mdi-file-powerpoint::before {\n  content: \"\\F227\";\n}\n\n.mdi-file-powerpoint-box::before {\n  content: \"\\F228\";\n}\n\n.mdi-file-powerpoint-box-outline::before {\n  content: \"\\F0056\";\n}\n\n.mdi-file-powerpoint-outline::before {\n  content: \"\\F0057\";\n}\n\n.mdi-file-presentation-box::before {\n  content: \"\\F229\";\n}\n\n.mdi-file-question::before {\n  content: \"\\F86E\";\n}\n\n.mdi-file-question-outline::before {\n  content: \"\\F0058\";\n}\n\n.mdi-file-remove::before {\n  content: \"\\FB74\";\n}\n\n.mdi-file-remove-outline::before {\n  content: \"\\F0059\";\n}\n\n.mdi-file-replace::before {\n  content: \"\\FB17\";\n}\n\n.mdi-file-replace-outline::before {\n  content: \"\\FB18\";\n}\n\n.mdi-file-restore::before {\n  content: \"\\F670\";\n}\n\n.mdi-file-restore-outline::before {\n  content: \"\\F005A\";\n}\n\n.mdi-file-search::before {\n  content: \"\\FC58\";\n}\n\n.mdi-file-search-outline::before {\n  content: \"\\FC59\";\n}\n\n.mdi-file-send::before {\n  content: \"\\F22A\";\n}\n\n.mdi-file-send-outline::before {\n  content: \"\\F005B\";\n}\n\n.mdi-file-settings::before {\n  content: \"\\F00A4\";\n}\n\n.mdi-file-settings-outline::before {\n  content: \"\\F00A5\";\n}\n\n.mdi-file-settings-variant::before {\n  content: \"\\F00A6\";\n}\n\n.mdi-file-settings-variant-outline::before {\n  content: \"\\F00A7\";\n}\n\n.mdi-file-star::before {\n  content: \"\\F005C\";\n}\n\n.mdi-file-star-outline::before {\n  content: \"\\F005D\";\n}\n\n.mdi-file-swap::before {\n  content: \"\\FFD4\";\n}\n\n.mdi-file-swap-outline::before {\n  content: \"\\FFD5\";\n}\n\n.mdi-file-sync::before {\n  content: \"\\F0241\";\n}\n\n.mdi-file-sync-outline::before {\n  content: \"\\F0242\";\n}\n\n.mdi-file-table::before {\n  content: \"\\FC5A\";\n}\n\n.mdi-file-table-box::before {\n  content: \"\\F010C\";\n}\n\n.mdi-file-table-box-multiple::before {\n  content: \"\\F010D\";\n}\n\n.mdi-file-table-box-multiple-outline::before {\n  content: \"\\F010E\";\n}\n\n.mdi-file-table-box-outline::before {\n  content: \"\\F010F\";\n}\n\n.mdi-file-table-outline::before {\n  content: \"\\FC5B\";\n}\n\n.mdi-file-tree::before {\n  content: \"\\F645\";\n}\n\n.mdi-file-undo::before {\n  content: \"\\F8DB\";\n}\n\n.mdi-file-undo-outline::before {\n  content: \"\\F005E\";\n}\n\n.mdi-file-upload::before {\n  content: \"\\FA4C\";\n}\n\n.mdi-file-upload-outline::before {\n  content: \"\\FA4D\";\n}\n\n.mdi-file-video::before {\n  content: \"\\F22B\";\n}\n\n.mdi-file-video-outline::before {\n  content: \"\\FE10\";\n}\n\n.mdi-file-word::before {\n  content: \"\\F22C\";\n}\n\n.mdi-file-word-box::before {\n  content: \"\\F22D\";\n}\n\n.mdi-file-word-box-outline::before {\n  content: \"\\F005F\";\n}\n\n.mdi-file-word-outline::before {\n  content: \"\\F0060\";\n}\n\n.mdi-film::before {\n  content: \"\\F22F\";\n}\n\n.mdi-filmstrip::before {\n  content: \"\\F230\";\n}\n\n.mdi-filmstrip-off::before {\n  content: \"\\F231\";\n}\n\n.mdi-filter::before {\n  content: \"\\F232\";\n}\n\n.mdi-filter-menu::before {\n  content: \"\\F0110\";\n}\n\n.mdi-filter-menu-outline::before {\n  content: \"\\F0111\";\n}\n\n.mdi-filter-minus::before {\n  content: \"\\FF0B\";\n}\n\n.mdi-filter-minus-outline::before {\n  content: \"\\FF0C\";\n}\n\n.mdi-filter-outline::before {\n  content: \"\\F233\";\n}\n\n.mdi-filter-plus::before {\n  content: \"\\FF0D\";\n}\n\n.mdi-filter-plus-outline::before {\n  content: \"\\FF0E\";\n}\n\n.mdi-filter-remove::before {\n  content: \"\\F234\";\n}\n\n.mdi-filter-remove-outline::before {\n  content: \"\\F235\";\n}\n\n.mdi-filter-variant::before {\n  content: \"\\F236\";\n}\n\n.mdi-filter-variant-minus::before {\n  content: \"\\F013D\";\n}\n\n.mdi-filter-variant-plus::before {\n  content: \"\\F013E\";\n}\n\n.mdi-filter-variant-remove::before {\n  content: \"\\F0061\";\n}\n\n.mdi-finance::before {\n  content: \"\\F81E\";\n}\n\n.mdi-find-replace::before {\n  content: \"\\F6D3\";\n}\n\n.mdi-fingerprint::before {\n  content: \"\\F237\";\n}\n\n.mdi-fingerprint-off::before {\n  content: \"\\FECE\";\n}\n\n.mdi-fire::before {\n  content: \"\\F238\";\n}\n\n.mdi-fire-extinguisher::before {\n  content: \"\\FF0F\";\n}\n\n.mdi-fire-hydrant::before {\n  content: \"\\F0162\";\n}\n\n.mdi-fire-hydrant-alert::before {\n  content: \"\\F0163\";\n}\n\n.mdi-fire-hydrant-off::before {\n  content: \"\\F0164\";\n}\n\n.mdi-fire-truck::before {\n  content: \"\\F8AA\";\n}\n\n.mdi-firebase::before {\n  content: \"\\F966\";\n}\n\n.mdi-firefox::before {\n  content: \"\\F239\";\n}\n\n.mdi-fireplace::before {\n  content: \"\\FE11\";\n}\n\n.mdi-fireplace-off::before {\n  content: \"\\FE12\";\n}\n\n.mdi-firework::before {\n  content: \"\\FE13\";\n}\n\n.mdi-fish::before {\n  content: \"\\F23A\";\n}\n\n.mdi-fishbowl::before {\n  content: \"\\FF10\";\n}\n\n.mdi-fishbowl-outline::before {\n  content: \"\\FF11\";\n}\n\n.mdi-fit-to-page::before {\n  content: \"\\FF12\";\n}\n\n.mdi-fit-to-page-outline::before {\n  content: \"\\FF13\";\n}\n\n.mdi-flag::before {\n  content: \"\\F23B\";\n}\n\n.mdi-flag-checkered::before {\n  content: \"\\F23C\";\n}\n\n.mdi-flag-minus::before {\n  content: \"\\FB75\";\n}\n\n.mdi-flag-minus-outline::before {\n  content: \"\\F00DD\";\n}\n\n.mdi-flag-outline::before {\n  content: \"\\F23D\";\n}\n\n.mdi-flag-plus::before {\n  content: \"\\FB76\";\n}\n\n.mdi-flag-plus-outline::before {\n  content: \"\\F00DE\";\n}\n\n.mdi-flag-remove::before {\n  content: \"\\FB77\";\n}\n\n.mdi-flag-remove-outline::before {\n  content: \"\\F00DF\";\n}\n\n.mdi-flag-triangle::before {\n  content: \"\\F23F\";\n}\n\n.mdi-flag-variant::before {\n  content: \"\\F240\";\n}\n\n.mdi-flag-variant-outline::before {\n  content: \"\\F23E\";\n}\n\n.mdi-flare::before {\n  content: \"\\FD4E\";\n}\n\n.mdi-flash::before {\n  content: \"\\F241\";\n}\n\n.mdi-flash-alert::before {\n  content: \"\\FF14\";\n}\n\n.mdi-flash-alert-outline::before {\n  content: \"\\FF15\";\n}\n\n.mdi-flash-auto::before {\n  content: \"\\F242\";\n}\n\n.mdi-flash-circle::before {\n  content: \"\\F81F\";\n}\n\n.mdi-flash-off::before {\n  content: \"\\F243\";\n}\n\n.mdi-flash-outline::before {\n  content: \"\\F6D4\";\n}\n\n.mdi-flash-red-eye::before {\n  content: \"\\F67A\";\n}\n\n.mdi-flashlight::before {\n  content: \"\\F244\";\n}\n\n.mdi-flashlight-off::before {\n  content: \"\\F245\";\n}\n\n.mdi-flask::before {\n  content: \"\\F093\";\n}\n\n.mdi-flask-empty::before {\n  content: \"\\F094\";\n}\n\n.mdi-flask-empty-minus::before {\n  content: \"\\F0265\";\n}\n\n.mdi-flask-empty-minus-outline::before {\n  content: \"\\F0266\";\n}\n\n.mdi-flask-empty-outline::before {\n  content: \"\\F095\";\n}\n\n.mdi-flask-empty-plus::before {\n  content: \"\\F0267\";\n}\n\n.mdi-flask-empty-plus-outline::before {\n  content: \"\\F0268\";\n}\n\n.mdi-flask-empty-remove::before {\n  content: \"\\F0269\";\n}\n\n.mdi-flask-empty-remove-outline::before {\n  content: \"\\F026A\";\n}\n\n.mdi-flask-minus::before {\n  content: \"\\F026B\";\n}\n\n.mdi-flask-minus-outline::before {\n  content: \"\\F026C\";\n}\n\n.mdi-flask-outline::before {\n  content: \"\\F096\";\n}\n\n.mdi-flask-plus::before {\n  content: \"\\F026D\";\n}\n\n.mdi-flask-plus-outline::before {\n  content: \"\\F026E\";\n}\n\n.mdi-flask-remove::before {\n  content: \"\\F026F\";\n}\n\n.mdi-flask-remove-outline::before {\n  content: \"\\F0270\";\n}\n\n.mdi-flask-round-bottom::before {\n  content: \"\\F0276\";\n}\n\n.mdi-flask-round-bottom-empty::before {\n  content: \"\\F0277\";\n}\n\n.mdi-flask-round-bottom-empty-outline::before {\n  content: \"\\F0278\";\n}\n\n.mdi-flask-round-bottom-outline::before {\n  content: \"\\F0279\";\n}\n\n.mdi-flattr::before {\n  content: \"\\F246\";\n}\n\n.mdi-fleur-de-lis::before {\n  content: \"\\F032E\";\n}\n\n.mdi-flickr::before {\n  content: \"\\FCE3\";\n}\n\n.mdi-flip-horizontal::before {\n  content: \"\\F0112\";\n}\n\n.mdi-flip-to-back::before {\n  content: \"\\F247\";\n}\n\n.mdi-flip-to-front::before {\n  content: \"\\F248\";\n}\n\n.mdi-flip-vertical::before {\n  content: \"\\F0113\";\n}\n\n.mdi-floor-lamp::before {\n  content: \"\\F8DC\";\n}\n\n.mdi-floor-lamp-dual::before {\n  content: \"\\F0062\";\n}\n\n.mdi-floor-lamp-variant::before {\n  content: \"\\F0063\";\n}\n\n.mdi-floor-plan::before {\n  content: \"\\F820\";\n}\n\n.mdi-floppy::before {\n  content: \"\\F249\";\n}\n\n.mdi-floppy-variant::before {\n  content: \"\\F9EE\";\n}\n\n.mdi-flower::before {\n  content: \"\\F24A\";\n}\n\n.mdi-flower-outline::before {\n  content: \"\\F9EF\";\n}\n\n.mdi-flower-poppy::before {\n  content: \"\\FCE4\";\n}\n\n.mdi-flower-tulip::before {\n  content: \"\\F9F0\";\n}\n\n.mdi-flower-tulip-outline::before {\n  content: \"\\F9F1\";\n}\n\n.mdi-focus-auto::before {\n  content: \"\\FF6B\";\n}\n\n.mdi-focus-field::before {\n  content: \"\\FF6C\";\n}\n\n.mdi-focus-field-horizontal::before {\n  content: \"\\FF6D\";\n}\n\n.mdi-focus-field-vertical::before {\n  content: \"\\FF6E\";\n}\n\n.mdi-folder::before {\n  content: \"\\F24B\";\n}\n\n.mdi-folder-account::before {\n  content: \"\\F24C\";\n}\n\n.mdi-folder-account-outline::before {\n  content: \"\\FB78\";\n}\n\n.mdi-folder-alert::before {\n  content: \"\\FDA8\";\n}\n\n.mdi-folder-alert-outline::before {\n  content: \"\\FDA9\";\n}\n\n.mdi-folder-clock::before {\n  content: \"\\FAB9\";\n}\n\n.mdi-folder-clock-outline::before {\n  content: \"\\FABA\";\n}\n\n.mdi-folder-download::before {\n  content: \"\\F24D\";\n}\n\n.mdi-folder-download-outline::before {\n  content: \"\\F0114\";\n}\n\n.mdi-folder-edit::before {\n  content: \"\\F8DD\";\n}\n\n.mdi-folder-edit-outline::before {\n  content: \"\\FDAA\";\n}\n\n.mdi-folder-google-drive::before {\n  content: \"\\F24E\";\n}\n\n.mdi-folder-heart::before {\n  content: \"\\F0115\";\n}\n\n.mdi-folder-heart-outline::before {\n  content: \"\\F0116\";\n}\n\n.mdi-folder-home::before {\n  content: \"\\F00E0\";\n}\n\n.mdi-folder-home-outline::before {\n  content: \"\\F00E1\";\n}\n\n.mdi-folder-image::before {\n  content: \"\\F24F\";\n}\n\n.mdi-folder-information::before {\n  content: \"\\F00E2\";\n}\n\n.mdi-folder-information-outline::before {\n  content: \"\\F00E3\";\n}\n\n.mdi-folder-key::before {\n  content: \"\\F8AB\";\n}\n\n.mdi-folder-key-network::before {\n  content: \"\\F8AC\";\n}\n\n.mdi-folder-key-network-outline::before {\n  content: \"\\FC5C\";\n}\n\n.mdi-folder-key-outline::before {\n  content: \"\\F0117\";\n}\n\n.mdi-folder-lock::before {\n  content: \"\\F250\";\n}\n\n.mdi-folder-lock-open::before {\n  content: \"\\F251\";\n}\n\n.mdi-folder-marker::before {\n  content: \"\\F0298\";\n}\n\n.mdi-folder-marker-outline::before {\n  content: \"\\F0299\";\n}\n\n.mdi-folder-move::before {\n  content: \"\\F252\";\n}\n\n.mdi-folder-move-outline::before {\n  content: \"\\F0271\";\n}\n\n.mdi-folder-multiple::before {\n  content: \"\\F253\";\n}\n\n.mdi-folder-multiple-image::before {\n  content: \"\\F254\";\n}\n\n.mdi-folder-multiple-outline::before {\n  content: \"\\F255\";\n}\n\n.mdi-folder-music::before {\n  content: \"\\F0384\";\n}\n\n.mdi-folder-music-outline::before {\n  content: \"\\F0385\";\n}\n\n.mdi-folder-network::before {\n  content: \"\\F86F\";\n}\n\n.mdi-folder-network-outline::before {\n  content: \"\\FC5D\";\n}\n\n.mdi-folder-open::before {\n  content: \"\\F76F\";\n}\n\n.mdi-folder-open-outline::before {\n  content: \"\\FDAB\";\n}\n\n.mdi-folder-outline::before {\n  content: \"\\F256\";\n}\n\n.mdi-folder-plus::before {\n  content: \"\\F257\";\n}\n\n.mdi-folder-plus-outline::before {\n  content: \"\\FB79\";\n}\n\n.mdi-folder-pound::before {\n  content: \"\\FCE5\";\n}\n\n.mdi-folder-pound-outline::before {\n  content: \"\\FCE6\";\n}\n\n.mdi-folder-remove::before {\n  content: \"\\F258\";\n}\n\n.mdi-folder-remove-outline::before {\n  content: \"\\FB7A\";\n}\n\n.mdi-folder-search::before {\n  content: \"\\F967\";\n}\n\n.mdi-folder-search-outline::before {\n  content: \"\\F968\";\n}\n\n.mdi-folder-settings::before {\n  content: \"\\F00A8\";\n}\n\n.mdi-folder-settings-outline::before {\n  content: \"\\F00A9\";\n}\n\n.mdi-folder-settings-variant::before {\n  content: \"\\F00AA\";\n}\n\n.mdi-folder-settings-variant-outline::before {\n  content: \"\\F00AB\";\n}\n\n.mdi-folder-star::before {\n  content: \"\\F69C\";\n}\n\n.mdi-folder-star-outline::before {\n  content: \"\\FB7B\";\n}\n\n.mdi-folder-swap::before {\n  content: \"\\FFD6\";\n}\n\n.mdi-folder-swap-outline::before {\n  content: \"\\FFD7\";\n}\n\n.mdi-folder-sync::before {\n  content: \"\\FCE7\";\n}\n\n.mdi-folder-sync-outline::before {\n  content: \"\\FCE8\";\n}\n\n.mdi-folder-table::before {\n  content: \"\\F030E\";\n}\n\n.mdi-folder-table-outline::before {\n  content: \"\\F030F\";\n}\n\n.mdi-folder-text::before {\n  content: \"\\FC5E\";\n}\n\n.mdi-folder-text-outline::before {\n  content: \"\\FC5F\";\n}\n\n.mdi-folder-upload::before {\n  content: \"\\F259\";\n}\n\n.mdi-folder-upload-outline::before {\n  content: \"\\F0118\";\n}\n\n.mdi-folder-zip::before {\n  content: \"\\F6EA\";\n}\n\n.mdi-folder-zip-outline::before {\n  content: \"\\F7B8\";\n}\n\n.mdi-font-awesome::before {\n  content: \"\\F03A\";\n}\n\n.mdi-food::before {\n  content: \"\\F25A\";\n}\n\n.mdi-food-apple::before {\n  content: \"\\F25B\";\n}\n\n.mdi-food-apple-outline::before {\n  content: \"\\FC60\";\n}\n\n.mdi-food-croissant::before {\n  content: \"\\F7C7\";\n}\n\n.mdi-food-fork-drink::before {\n  content: \"\\F5F2\";\n}\n\n.mdi-food-off::before {\n  content: \"\\F5F3\";\n}\n\n.mdi-food-variant::before {\n  content: \"\\F25C\";\n}\n\n.mdi-foot-print::before {\n  content: \"\\FF6F\";\n}\n\n.mdi-football::before {\n  content: \"\\F25D\";\n}\n\n.mdi-football-australian::before {\n  content: \"\\F25E\";\n}\n\n.mdi-football-helmet::before {\n  content: \"\\F25F\";\n}\n\n.mdi-forklift::before {\n  content: \"\\F7C8\";\n}\n\n.mdi-format-align-bottom::before {\n  content: \"\\F752\";\n}\n\n.mdi-format-align-center::before {\n  content: \"\\F260\";\n}\n\n.mdi-format-align-justify::before {\n  content: \"\\F261\";\n}\n\n.mdi-format-align-left::before {\n  content: \"\\F262\";\n}\n\n.mdi-format-align-middle::before {\n  content: \"\\F753\";\n}\n\n.mdi-format-align-right::before {\n  content: \"\\F263\";\n}\n\n.mdi-format-align-top::before {\n  content: \"\\F754\";\n}\n\n.mdi-format-annotation-minus::before {\n  content: \"\\FABB\";\n}\n\n.mdi-format-annotation-plus::before {\n  content: \"\\F646\";\n}\n\n.mdi-format-bold::before {\n  content: \"\\F264\";\n}\n\n.mdi-format-clear::before {\n  content: \"\\F265\";\n}\n\n.mdi-format-color-fill::before {\n  content: \"\\F266\";\n}\n\n.mdi-format-color-highlight::before {\n  content: \"\\FE14\";\n}\n\n.mdi-format-color-marker-cancel::before {\n  content: \"\\F033E\";\n}\n\n.mdi-format-color-text::before {\n  content: \"\\F69D\";\n}\n\n.mdi-format-columns::before {\n  content: \"\\F8DE\";\n}\n\n.mdi-format-float-center::before {\n  content: \"\\F267\";\n}\n\n.mdi-format-float-left::before {\n  content: \"\\F268\";\n}\n\n.mdi-format-float-none::before {\n  content: \"\\F269\";\n}\n\n.mdi-format-float-right::before {\n  content: \"\\F26A\";\n}\n\n.mdi-format-font::before {\n  content: \"\\F6D5\";\n}\n\n.mdi-format-font-size-decrease::before {\n  content: \"\\F9F2\";\n}\n\n.mdi-format-font-size-increase::before {\n  content: \"\\F9F3\";\n}\n\n.mdi-format-header-1::before {\n  content: \"\\F26B\";\n}\n\n.mdi-format-header-2::before {\n  content: \"\\F26C\";\n}\n\n.mdi-format-header-3::before {\n  content: \"\\F26D\";\n}\n\n.mdi-format-header-4::before {\n  content: \"\\F26E\";\n}\n\n.mdi-format-header-5::before {\n  content: \"\\F26F\";\n}\n\n.mdi-format-header-6::before {\n  content: \"\\F270\";\n}\n\n.mdi-format-header-decrease::before {\n  content: \"\\F271\";\n}\n\n.mdi-format-header-equal::before {\n  content: \"\\F272\";\n}\n\n.mdi-format-header-increase::before {\n  content: \"\\F273\";\n}\n\n.mdi-format-header-pound::before {\n  content: \"\\F274\";\n}\n\n.mdi-format-horizontal-align-center::before {\n  content: \"\\F61E\";\n}\n\n.mdi-format-horizontal-align-left::before {\n  content: \"\\F61F\";\n}\n\n.mdi-format-horizontal-align-right::before {\n  content: \"\\F620\";\n}\n\n.mdi-format-indent-decrease::before {\n  content: \"\\F275\";\n}\n\n.mdi-format-indent-increase::before {\n  content: \"\\F276\";\n}\n\n.mdi-format-italic::before {\n  content: \"\\F277\";\n}\n\n.mdi-format-letter-case::before {\n  content: \"\\FB19\";\n}\n\n.mdi-format-letter-case-lower::before {\n  content: \"\\FB1A\";\n}\n\n.mdi-format-letter-case-upper::before {\n  content: \"\\FB1B\";\n}\n\n.mdi-format-letter-ends-with::before {\n  content: \"\\FFD8\";\n}\n\n.mdi-format-letter-matches::before {\n  content: \"\\FFD9\";\n}\n\n.mdi-format-letter-starts-with::before {\n  content: \"\\FFDA\";\n}\n\n.mdi-format-line-spacing::before {\n  content: \"\\F278\";\n}\n\n.mdi-format-line-style::before {\n  content: \"\\F5C8\";\n}\n\n.mdi-format-line-weight::before {\n  content: \"\\F5C9\";\n}\n\n.mdi-format-list-bulleted::before {\n  content: \"\\F279\";\n}\n\n.mdi-format-list-bulleted-square::before {\n  content: \"\\FDAC\";\n}\n\n.mdi-format-list-bulleted-triangle::before {\n  content: \"\\FECF\";\n}\n\n.mdi-format-list-bulleted-type::before {\n  content: \"\\F27A\";\n}\n\n.mdi-format-list-checkbox::before {\n  content: \"\\F969\";\n}\n\n.mdi-format-list-checks::before {\n  content: \"\\F755\";\n}\n\n.mdi-format-list-numbered::before {\n  content: \"\\F27B\";\n}\n\n.mdi-format-list-numbered-rtl::before {\n  content: \"\\FCE9\";\n}\n\n.mdi-format-list-text::before {\n  content: \"\\F029A\";\n}\n\n.mdi-format-overline::before {\n  content: \"\\FED0\";\n}\n\n.mdi-format-page-break::before {\n  content: \"\\F6D6\";\n}\n\n.mdi-format-paint::before {\n  content: \"\\F27C\";\n}\n\n.mdi-format-paragraph::before {\n  content: \"\\F27D\";\n}\n\n.mdi-format-pilcrow::before {\n  content: \"\\F6D7\";\n}\n\n.mdi-format-quote-close::before {\n  content: \"\\F27E\";\n}\n\n.mdi-format-quote-close-outline::before {\n  content: \"\\F01D3\";\n}\n\n.mdi-format-quote-open::before {\n  content: \"\\F756\";\n}\n\n.mdi-format-quote-open-outline::before {\n  content: \"\\F01D2\";\n}\n\n.mdi-format-rotate-90::before {\n  content: \"\\F6A9\";\n}\n\n.mdi-format-section::before {\n  content: \"\\F69E\";\n}\n\n.mdi-format-size::before {\n  content: \"\\F27F\";\n}\n\n.mdi-format-strikethrough::before {\n  content: \"\\F280\";\n}\n\n.mdi-format-strikethrough-variant::before {\n  content: \"\\F281\";\n}\n\n.mdi-format-subscript::before {\n  content: \"\\F282\";\n}\n\n.mdi-format-superscript::before {\n  content: \"\\F283\";\n}\n\n.mdi-format-text::before {\n  content: \"\\F284\";\n}\n\n.mdi-format-text-rotation-angle-down::before {\n  content: \"\\FFDB\";\n}\n\n.mdi-format-text-rotation-angle-up::before {\n  content: \"\\FFDC\";\n}\n\n.mdi-format-text-rotation-down::before {\n  content: \"\\FD4F\";\n}\n\n.mdi-format-text-rotation-down-vertical::before {\n  content: \"\\FFDD\";\n}\n\n.mdi-format-text-rotation-none::before {\n  content: \"\\FD50\";\n}\n\n.mdi-format-text-rotation-up::before {\n  content: \"\\FFDE\";\n}\n\n.mdi-format-text-rotation-vertical::before {\n  content: \"\\FFDF\";\n}\n\n.mdi-format-text-variant::before {\n  content: \"\\FE15\";\n}\n\n.mdi-format-text-wrapping-clip::before {\n  content: \"\\FCEA\";\n}\n\n.mdi-format-text-wrapping-overflow::before {\n  content: \"\\FCEB\";\n}\n\n.mdi-format-text-wrapping-wrap::before {\n  content: \"\\FCEC\";\n}\n\n.mdi-format-textbox::before {\n  content: \"\\FCED\";\n}\n\n.mdi-format-textdirection-l-to-r::before {\n  content: \"\\F285\";\n}\n\n.mdi-format-textdirection-r-to-l::before {\n  content: \"\\F286\";\n}\n\n.mdi-format-title::before {\n  content: \"\\F5F4\";\n}\n\n.mdi-format-underline::before {\n  content: \"\\F287\";\n}\n\n.mdi-format-vertical-align-bottom::before {\n  content: \"\\F621\";\n}\n\n.mdi-format-vertical-align-center::before {\n  content: \"\\F622\";\n}\n\n.mdi-format-vertical-align-top::before {\n  content: \"\\F623\";\n}\n\n.mdi-format-wrap-inline::before {\n  content: \"\\F288\";\n}\n\n.mdi-format-wrap-square::before {\n  content: \"\\F289\";\n}\n\n.mdi-format-wrap-tight::before {\n  content: \"\\F28A\";\n}\n\n.mdi-format-wrap-top-bottom::before {\n  content: \"\\F28B\";\n}\n\n.mdi-forum::before {\n  content: \"\\F28C\";\n}\n\n.mdi-forum-outline::before {\n  content: \"\\F821\";\n}\n\n.mdi-forward::before {\n  content: \"\\F28D\";\n}\n\n.mdi-forwardburger::before {\n  content: \"\\FD51\";\n}\n\n.mdi-fountain::before {\n  content: \"\\F96A\";\n}\n\n.mdi-fountain-pen::before {\n  content: \"\\FCEE\";\n}\n\n.mdi-fountain-pen-tip::before {\n  content: \"\\FCEF\";\n}\n\n.mdi-foursquare::before {\n  content: \"\\F28E\";\n}\n\n.mdi-freebsd::before {\n  content: \"\\F8DF\";\n}\n\n.mdi-frequently-asked-questions::before {\n  content: \"\\FED1\";\n}\n\n.mdi-fridge::before {\n  content: \"\\F290\";\n}\n\n.mdi-fridge-alert::before {\n  content: \"\\F01DC\";\n}\n\n.mdi-fridge-alert-outline::before {\n  content: \"\\F01DD\";\n}\n\n.mdi-fridge-bottom::before {\n  content: \"\\F292\";\n}\n\n.mdi-fridge-off::before {\n  content: \"\\F01DA\";\n}\n\n.mdi-fridge-off-outline::before {\n  content: \"\\F01DB\";\n}\n\n.mdi-fridge-outline::before {\n  content: \"\\F28F\";\n}\n\n.mdi-fridge-top::before {\n  content: \"\\F291\";\n}\n\n.mdi-fruit-cherries::before {\n  content: \"\\F0064\";\n}\n\n.mdi-fruit-citrus::before {\n  content: \"\\F0065\";\n}\n\n.mdi-fruit-grapes::before {\n  content: \"\\F0066\";\n}\n\n.mdi-fruit-grapes-outline::before {\n  content: \"\\F0067\";\n}\n\n.mdi-fruit-pineapple::before {\n  content: \"\\F0068\";\n}\n\n.mdi-fruit-watermelon::before {\n  content: \"\\F0069\";\n}\n\n.mdi-fuel::before {\n  content: \"\\F7C9\";\n}\n\n.mdi-fullscreen::before {\n  content: \"\\F293\";\n}\n\n.mdi-fullscreen-exit::before {\n  content: \"\\F294\";\n}\n\n.mdi-function::before {\n  content: \"\\F295\";\n}\n\n.mdi-function-variant::before {\n  content: \"\\F870\";\n}\n\n.mdi-furigana-horizontal::before {\n  content: \"\\F00AC\";\n}\n\n.mdi-furigana-vertical::before {\n  content: \"\\F00AD\";\n}\n\n.mdi-fuse::before {\n  content: \"\\FC61\";\n}\n\n.mdi-fuse-blade::before {\n  content: \"\\FC62\";\n}\n\n.mdi-gamepad::before {\n  content: \"\\F296\";\n}\n\n.mdi-gamepad-circle::before {\n  content: \"\\FE16\";\n}\n\n.mdi-gamepad-circle-down::before {\n  content: \"\\FE17\";\n}\n\n.mdi-gamepad-circle-left::before {\n  content: \"\\FE18\";\n}\n\n.mdi-gamepad-circle-outline::before {\n  content: \"\\FE19\";\n}\n\n.mdi-gamepad-circle-right::before {\n  content: \"\\FE1A\";\n}\n\n.mdi-gamepad-circle-up::before {\n  content: \"\\FE1B\";\n}\n\n.mdi-gamepad-down::before {\n  content: \"\\FE1C\";\n}\n\n.mdi-gamepad-left::before {\n  content: \"\\FE1D\";\n}\n\n.mdi-gamepad-right::before {\n  content: \"\\FE1E\";\n}\n\n.mdi-gamepad-round::before {\n  content: \"\\FE1F\";\n}\n\n.mdi-gamepad-round-down::before {\n  content: \"\\FE7E\";\n}\n\n.mdi-gamepad-round-left::before {\n  content: \"\\FE7F\";\n}\n\n.mdi-gamepad-round-outline::before {\n  content: \"\\FE80\";\n}\n\n.mdi-gamepad-round-right::before {\n  content: \"\\FE81\";\n}\n\n.mdi-gamepad-round-up::before {\n  content: \"\\FE82\";\n}\n\n.mdi-gamepad-square::before {\n  content: \"\\FED2\";\n}\n\n.mdi-gamepad-square-outline::before {\n  content: \"\\FED3\";\n}\n\n.mdi-gamepad-up::before {\n  content: \"\\FE83\";\n}\n\n.mdi-gamepad-variant::before {\n  content: \"\\F297\";\n}\n\n.mdi-gamepad-variant-outline::before {\n  content: \"\\FED4\";\n}\n\n.mdi-gamma::before {\n  content: \"\\F0119\";\n}\n\n.mdi-gantry-crane::before {\n  content: \"\\FDAD\";\n}\n\n.mdi-garage::before {\n  content: \"\\F6D8\";\n}\n\n.mdi-garage-alert::before {\n  content: \"\\F871\";\n}\n\n.mdi-garage-alert-variant::before {\n  content: \"\\F0300\";\n}\n\n.mdi-garage-open::before {\n  content: \"\\F6D9\";\n}\n\n.mdi-garage-open-variant::before {\n  content: \"\\F02FF\";\n}\n\n.mdi-garage-variant::before {\n  content: \"\\F02FE\";\n}\n\n.mdi-gas-cylinder::before {\n  content: \"\\F647\";\n}\n\n.mdi-gas-station::before {\n  content: \"\\F298\";\n}\n\n.mdi-gas-station-outline::before {\n  content: \"\\FED5\";\n}\n\n.mdi-gate::before {\n  content: \"\\F299\";\n}\n\n.mdi-gate-and::before {\n  content: \"\\F8E0\";\n}\n\n.mdi-gate-arrow-right::before {\n  content: \"\\F0194\";\n}\n\n.mdi-gate-nand::before {\n  content: \"\\F8E1\";\n}\n\n.mdi-gate-nor::before {\n  content: \"\\F8E2\";\n}\n\n.mdi-gate-not::before {\n  content: \"\\F8E3\";\n}\n\n.mdi-gate-open::before {\n  content: \"\\F0195\";\n}\n\n.mdi-gate-or::before {\n  content: \"\\F8E4\";\n}\n\n.mdi-gate-xnor::before {\n  content: \"\\F8E5\";\n}\n\n.mdi-gate-xor::before {\n  content: \"\\F8E6\";\n}\n\n.mdi-gatsby::before {\n  content: \"\\FE84\";\n}\n\n.mdi-gauge::before {\n  content: \"\\F29A\";\n}\n\n.mdi-gauge-empty::before {\n  content: \"\\F872\";\n}\n\n.mdi-gauge-full::before {\n  content: \"\\F873\";\n}\n\n.mdi-gauge-low::before {\n  content: \"\\F874\";\n}\n\n.mdi-gavel::before {\n  content: \"\\F29B\";\n}\n\n.mdi-gender-female::before {\n  content: \"\\F29C\";\n}\n\n.mdi-gender-male::before {\n  content: \"\\F29D\";\n}\n\n.mdi-gender-male-female::before {\n  content: \"\\F29E\";\n}\n\n.mdi-gender-male-female-variant::before {\n  content: \"\\F016A\";\n}\n\n.mdi-gender-non-binary::before {\n  content: \"\\F016B\";\n}\n\n.mdi-gender-transgender::before {\n  content: \"\\F29F\";\n}\n\n.mdi-gentoo::before {\n  content: \"\\F8E7\";\n}\n\n.mdi-gesture::before {\n  content: \"\\F7CA\";\n}\n\n.mdi-gesture-double-tap::before {\n  content: \"\\F73B\";\n}\n\n.mdi-gesture-pinch::before {\n  content: \"\\FABC\";\n}\n\n.mdi-gesture-spread::before {\n  content: \"\\FABD\";\n}\n\n.mdi-gesture-swipe::before {\n  content: \"\\FD52\";\n}\n\n.mdi-gesture-swipe-down::before {\n  content: \"\\F73C\";\n}\n\n.mdi-gesture-swipe-horizontal::before {\n  content: \"\\FABE\";\n}\n\n.mdi-gesture-swipe-left::before {\n  content: \"\\F73D\";\n}\n\n.mdi-gesture-swipe-right::before {\n  content: \"\\F73E\";\n}\n\n.mdi-gesture-swipe-up::before {\n  content: \"\\F73F\";\n}\n\n.mdi-gesture-swipe-vertical::before {\n  content: \"\\FABF\";\n}\n\n.mdi-gesture-tap::before {\n  content: \"\\F740\";\n}\n\n.mdi-gesture-tap-box::before {\n  content: \"\\F02D4\";\n}\n\n.mdi-gesture-tap-button::before {\n  content: \"\\F02D3\";\n}\n\n.mdi-gesture-tap-hold::before {\n  content: \"\\FD53\";\n}\n\n.mdi-gesture-two-double-tap::before {\n  content: \"\\F741\";\n}\n\n.mdi-gesture-two-tap::before {\n  content: \"\\F742\";\n}\n\n.mdi-ghost::before {\n  content: \"\\F2A0\";\n}\n\n.mdi-ghost-off::before {\n  content: \"\\F9F4\";\n}\n\n.mdi-gif::before {\n  content: \"\\FD54\";\n}\n\n.mdi-gift::before {\n  content: \"\\FE85\";\n}\n\n.mdi-gift-outline::before {\n  content: \"\\F2A1\";\n}\n\n.mdi-git::before {\n  content: \"\\F2A2\";\n}\n\n.mdi-github-box::before {\n  content: \"\\F2A3\";\n}\n\n.mdi-github-circle::before {\n  content: \"\\F2A4\";\n}\n\n.mdi-github-face::before {\n  content: \"\\F6DA\";\n}\n\n.mdi-gitlab::before {\n  content: \"\\FB7C\";\n}\n\n.mdi-glass-cocktail::before {\n  content: \"\\F356\";\n}\n\n.mdi-glass-flute::before {\n  content: \"\\F2A5\";\n}\n\n.mdi-glass-mug::before {\n  content: \"\\F2A6\";\n}\n\n.mdi-glass-mug-variant::before {\n  content: \"\\F0141\";\n}\n\n.mdi-glass-pint-outline::before {\n  content: \"\\F0338\";\n}\n\n.mdi-glass-stange::before {\n  content: \"\\F2A7\";\n}\n\n.mdi-glass-tulip::before {\n  content: \"\\F2A8\";\n}\n\n.mdi-glass-wine::before {\n  content: \"\\F875\";\n}\n\n.mdi-glassdoor::before {\n  content: \"\\F2A9\";\n}\n\n.mdi-glasses::before {\n  content: \"\\F2AA\";\n}\n\n.mdi-globe-light::before {\n  content: \"\\F0302\";\n}\n\n.mdi-globe-model::before {\n  content: \"\\F8E8\";\n}\n\n.mdi-gmail::before {\n  content: \"\\F2AB\";\n}\n\n.mdi-gnome::before {\n  content: \"\\F2AC\";\n}\n\n.mdi-go-kart::before {\n  content: \"\\FD55\";\n}\n\n.mdi-go-kart-track::before {\n  content: \"\\FD56\";\n}\n\n.mdi-gog::before {\n  content: \"\\FB7D\";\n}\n\n.mdi-gold::before {\n  content: \"\\F027A\";\n}\n\n.mdi-golf::before {\n  content: \"\\F822\";\n}\n\n.mdi-golf-cart::before {\n  content: \"\\F01CF\";\n}\n\n.mdi-golf-tee::before {\n  content: \"\\F00AE\";\n}\n\n.mdi-gondola::before {\n  content: \"\\F685\";\n}\n\n.mdi-goodreads::before {\n  content: \"\\FD57\";\n}\n\n.mdi-google::before {\n  content: \"\\F2AD\";\n}\n\n.mdi-google-adwords::before {\n  content: \"\\FC63\";\n}\n\n.mdi-google-analytics::before {\n  content: \"\\F7CB\";\n}\n\n.mdi-google-assistant::before {\n  content: \"\\F7CC\";\n}\n\n.mdi-google-cardboard::before {\n  content: \"\\F2AE\";\n}\n\n.mdi-google-chrome::before {\n  content: \"\\F2AF\";\n}\n\n.mdi-google-circles::before {\n  content: \"\\F2B0\";\n}\n\n.mdi-google-circles-communities::before {\n  content: \"\\F2B1\";\n}\n\n.mdi-google-circles-extended::before {\n  content: \"\\F2B2\";\n}\n\n.mdi-google-circles-group::before {\n  content: \"\\F2B3\";\n}\n\n.mdi-google-classroom::before {\n  content: \"\\F2C0\";\n}\n\n.mdi-google-cloud::before {\n  content: \"\\F0221\";\n}\n\n.mdi-google-controller::before {\n  content: \"\\F2B4\";\n}\n\n.mdi-google-controller-off::before {\n  content: \"\\F2B5\";\n}\n\n.mdi-google-downasaur::before {\n  content: \"\\F038D\";\n}\n\n.mdi-google-drive::before {\n  content: \"\\F2B6\";\n}\n\n.mdi-google-earth::before {\n  content: \"\\F2B7\";\n}\n\n.mdi-google-fit::before {\n  content: \"\\F96B\";\n}\n\n.mdi-google-glass::before {\n  content: \"\\F2B8\";\n}\n\n.mdi-google-hangouts::before {\n  content: \"\\F2C9\";\n}\n\n.mdi-google-home::before {\n  content: \"\\F823\";\n}\n\n.mdi-google-keep::before {\n  content: \"\\F6DB\";\n}\n\n.mdi-google-lens::before {\n  content: \"\\F9F5\";\n}\n\n.mdi-google-maps::before {\n  content: \"\\F5F5\";\n}\n\n.mdi-google-my-business::before {\n  content: \"\\F006A\";\n}\n\n.mdi-google-nearby::before {\n  content: \"\\F2B9\";\n}\n\n.mdi-google-pages::before {\n  content: \"\\F2BA\";\n}\n\n.mdi-google-photos::before {\n  content: \"\\F6DC\";\n}\n\n.mdi-google-physical-web::before {\n  content: \"\\F2BB\";\n}\n\n.mdi-google-play::before {\n  content: \"\\F2BC\";\n}\n\n.mdi-google-plus::before {\n  content: \"\\F2BD\";\n}\n\n.mdi-google-plus-box::before {\n  content: \"\\F2BE\";\n}\n\n.mdi-google-podcast::before {\n  content: \"\\FED6\";\n}\n\n.mdi-google-spreadsheet::before {\n  content: \"\\F9F6\";\n}\n\n.mdi-google-street-view::before {\n  content: \"\\FC64\";\n}\n\n.mdi-google-translate::before {\n  content: \"\\F2BF\";\n}\n\n.mdi-gradient::before {\n  content: \"\\F69F\";\n}\n\n.mdi-grain::before {\n  content: \"\\FD58\";\n}\n\n.mdi-graph::before {\n  content: \"\\F006B\";\n}\n\n.mdi-graph-outline::before {\n  content: \"\\F006C\";\n}\n\n.mdi-graphql::before {\n  content: \"\\F876\";\n}\n\n.mdi-grave-stone::before {\n  content: \"\\FB7E\";\n}\n\n.mdi-grease-pencil::before {\n  content: \"\\F648\";\n}\n\n.mdi-greater-than::before {\n  content: \"\\F96C\";\n}\n\n.mdi-greater-than-or-equal::before {\n  content: \"\\F96D\";\n}\n\n.mdi-grid::before {\n  content: \"\\F2C1\";\n}\n\n.mdi-grid-large::before {\n  content: \"\\F757\";\n}\n\n.mdi-grid-off::before {\n  content: \"\\F2C2\";\n}\n\n.mdi-grill::before {\n  content: \"\\FE86\";\n}\n\n.mdi-grill-outline::before {\n  content: \"\\F01B5\";\n}\n\n.mdi-group::before {\n  content: \"\\F2C3\";\n}\n\n.mdi-guitar-acoustic::before {\n  content: \"\\F770\";\n}\n\n.mdi-guitar-electric::before {\n  content: \"\\F2C4\";\n}\n\n.mdi-guitar-pick::before {\n  content: \"\\F2C5\";\n}\n\n.mdi-guitar-pick-outline::before {\n  content: \"\\F2C6\";\n}\n\n.mdi-guy-fawkes-mask::before {\n  content: \"\\F824\";\n}\n\n.mdi-hackernews::before {\n  content: \"\\F624\";\n}\n\n.mdi-hail::before {\n  content: \"\\FAC0\";\n}\n\n.mdi-hair-dryer::before {\n  content: \"\\F011A\";\n}\n\n.mdi-hair-dryer-outline::before {\n  content: \"\\F011B\";\n}\n\n.mdi-halloween::before {\n  content: \"\\FB7F\";\n}\n\n.mdi-hamburger::before {\n  content: \"\\F684\";\n}\n\n.mdi-hammer::before {\n  content: \"\\F8E9\";\n}\n\n.mdi-hammer-screwdriver::before {\n  content: \"\\F034D\";\n}\n\n.mdi-hammer-wrench::before {\n  content: \"\\F034E\";\n}\n\n.mdi-hand::before {\n  content: \"\\FA4E\";\n}\n\n.mdi-hand-heart::before {\n  content: \"\\F011C\";\n}\n\n.mdi-hand-left::before {\n  content: \"\\FE87\";\n}\n\n.mdi-hand-okay::before {\n  content: \"\\FA4F\";\n}\n\n.mdi-hand-peace::before {\n  content: \"\\FA50\";\n}\n\n.mdi-hand-peace-variant::before {\n  content: \"\\FA51\";\n}\n\n.mdi-hand-pointing-down::before {\n  content: \"\\FA52\";\n}\n\n.mdi-hand-pointing-left::before {\n  content: \"\\FA53\";\n}\n\n.mdi-hand-pointing-right::before {\n  content: \"\\F2C7\";\n}\n\n.mdi-hand-pointing-up::before {\n  content: \"\\FA54\";\n}\n\n.mdi-hand-right::before {\n  content: \"\\FE88\";\n}\n\n.mdi-hand-saw::before {\n  content: \"\\FE89\";\n}\n\n.mdi-handball::before {\n  content: \"\\FF70\";\n}\n\n.mdi-handcuffs::before {\n  content: \"\\F0169\";\n}\n\n.mdi-handshake::before {\n  content: \"\\F0243\";\n}\n\n.mdi-hanger::before {\n  content: \"\\F2C8\";\n}\n\n.mdi-hard-hat::before {\n  content: \"\\F96E\";\n}\n\n.mdi-harddisk::before {\n  content: \"\\F2CA\";\n}\n\n.mdi-harddisk-plus::before {\n  content: \"\\F006D\";\n}\n\n.mdi-harddisk-remove::before {\n  content: \"\\F006E\";\n}\n\n.mdi-hat-fedora::before {\n  content: \"\\FB80\";\n}\n\n.mdi-hazard-lights::before {\n  content: \"\\FC65\";\n}\n\n.mdi-hdr::before {\n  content: \"\\FD59\";\n}\n\n.mdi-hdr-off::before {\n  content: \"\\FD5A\";\n}\n\n.mdi-head::before {\n  content: \"\\F0389\";\n}\n\n.mdi-head-alert::before {\n  content: \"\\F0363\";\n}\n\n.mdi-head-alert-outline::before {\n  content: \"\\F0364\";\n}\n\n.mdi-head-check::before {\n  content: \"\\F0365\";\n}\n\n.mdi-head-check-outline::before {\n  content: \"\\F0366\";\n}\n\n.mdi-head-cog::before {\n  content: \"\\F0367\";\n}\n\n.mdi-head-cog-outline::before {\n  content: \"\\F0368\";\n}\n\n.mdi-head-dots-horizontal::before {\n  content: \"\\F0369\";\n}\n\n.mdi-head-dots-horizontal-outline::before {\n  content: \"\\F036A\";\n}\n\n.mdi-head-flash::before {\n  content: \"\\F036B\";\n}\n\n.mdi-head-flash-outline::before {\n  content: \"\\F036C\";\n}\n\n.mdi-head-heart::before {\n  content: \"\\F036D\";\n}\n\n.mdi-head-heart-outline::before {\n  content: \"\\F036E\";\n}\n\n.mdi-head-lightbulb::before {\n  content: \"\\F036F\";\n}\n\n.mdi-head-lightbulb-outline::before {\n  content: \"\\F0370\";\n}\n\n.mdi-head-minus::before {\n  content: \"\\F0371\";\n}\n\n.mdi-head-minus-outline::before {\n  content: \"\\F0372\";\n}\n\n.mdi-head-outline::before {\n  content: \"\\F038A\";\n}\n\n.mdi-head-plus::before {\n  content: \"\\F0373\";\n}\n\n.mdi-head-plus-outline::before {\n  content: \"\\F0374\";\n}\n\n.mdi-head-question::before {\n  content: \"\\F0375\";\n}\n\n.mdi-head-question-outline::before {\n  content: \"\\F0376\";\n}\n\n.mdi-head-remove::before {\n  content: \"\\F0377\";\n}\n\n.mdi-head-remove-outline::before {\n  content: \"\\F0378\";\n}\n\n.mdi-head-snowflake::before {\n  content: \"\\F0379\";\n}\n\n.mdi-head-snowflake-outline::before {\n  content: \"\\F037A\";\n}\n\n.mdi-head-sync::before {\n  content: \"\\F037B\";\n}\n\n.mdi-head-sync-outline::before {\n  content: \"\\F037C\";\n}\n\n.mdi-headphones::before {\n  content: \"\\F2CB\";\n}\n\n.mdi-headphones-bluetooth::before {\n  content: \"\\F96F\";\n}\n\n.mdi-headphones-box::before {\n  content: \"\\F2CC\";\n}\n\n.mdi-headphones-off::before {\n  content: \"\\F7CD\";\n}\n\n.mdi-headphones-settings::before {\n  content: \"\\F2CD\";\n}\n\n.mdi-headset::before {\n  content: \"\\F2CE\";\n}\n\n.mdi-headset-dock::before {\n  content: \"\\F2CF\";\n}\n\n.mdi-headset-off::before {\n  content: \"\\F2D0\";\n}\n\n.mdi-heart::before {\n  content: \"\\F2D1\";\n}\n\n.mdi-heart-box::before {\n  content: \"\\F2D2\";\n}\n\n.mdi-heart-box-outline::before {\n  content: \"\\F2D3\";\n}\n\n.mdi-heart-broken::before {\n  content: \"\\F2D4\";\n}\n\n.mdi-heart-broken-outline::before {\n  content: \"\\FCF0\";\n}\n\n.mdi-heart-circle::before {\n  content: \"\\F970\";\n}\n\n.mdi-heart-circle-outline::before {\n  content: \"\\F971\";\n}\n\n.mdi-heart-flash::before {\n  content: \"\\FF16\";\n}\n\n.mdi-heart-half::before {\n  content: \"\\F6DE\";\n}\n\n.mdi-heart-half-full::before {\n  content: \"\\F6DD\";\n}\n\n.mdi-heart-half-outline::before {\n  content: \"\\F6DF\";\n}\n\n.mdi-heart-multiple::before {\n  content: \"\\FA55\";\n}\n\n.mdi-heart-multiple-outline::before {\n  content: \"\\FA56\";\n}\n\n.mdi-heart-off::before {\n  content: \"\\F758\";\n}\n\n.mdi-heart-outline::before {\n  content: \"\\F2D5\";\n}\n\n.mdi-heart-pulse::before {\n  content: \"\\F5F6\";\n}\n\n.mdi-helicopter::before {\n  content: \"\\FAC1\";\n}\n\n.mdi-help::before {\n  content: \"\\F2D6\";\n}\n\n.mdi-help-box::before {\n  content: \"\\F78A\";\n}\n\n.mdi-help-circle::before {\n  content: \"\\F2D7\";\n}\n\n.mdi-help-circle-outline::before {\n  content: \"\\F625\";\n}\n\n.mdi-help-network::before {\n  content: \"\\F6F4\";\n}\n\n.mdi-help-network-outline::before {\n  content: \"\\FC66\";\n}\n\n.mdi-help-rhombus::before {\n  content: \"\\FB81\";\n}\n\n.mdi-help-rhombus-outline::before {\n  content: \"\\FB82\";\n}\n\n.mdi-hexadecimal::before {\n  content: \"\\F02D2\";\n}\n\n.mdi-hexagon::before {\n  content: \"\\F2D8\";\n}\n\n.mdi-hexagon-multiple::before {\n  content: \"\\F6E0\";\n}\n\n.mdi-hexagon-multiple-outline::before {\n  content: \"\\F011D\";\n}\n\n.mdi-hexagon-outline::before {\n  content: \"\\F2D9\";\n}\n\n.mdi-hexagon-slice-1::before {\n  content: \"\\FAC2\";\n}\n\n.mdi-hexagon-slice-2::before {\n  content: \"\\FAC3\";\n}\n\n.mdi-hexagon-slice-3::before {\n  content: \"\\FAC4\";\n}\n\n.mdi-hexagon-slice-4::before {\n  content: \"\\FAC5\";\n}\n\n.mdi-hexagon-slice-5::before {\n  content: \"\\FAC6\";\n}\n\n.mdi-hexagon-slice-6::before {\n  content: \"\\FAC7\";\n}\n\n.mdi-hexagram::before {\n  content: \"\\FAC8\";\n}\n\n.mdi-hexagram-outline::before {\n  content: \"\\FAC9\";\n}\n\n.mdi-high-definition::before {\n  content: \"\\F7CE\";\n}\n\n.mdi-high-definition-box::before {\n  content: \"\\F877\";\n}\n\n.mdi-highway::before {\n  content: \"\\F5F7\";\n}\n\n.mdi-hiking::before {\n  content: \"\\FD5B\";\n}\n\n.mdi-hinduism::before {\n  content: \"\\F972\";\n}\n\n.mdi-history::before {\n  content: \"\\F2DA\";\n}\n\n.mdi-hockey-puck::before {\n  content: \"\\F878\";\n}\n\n.mdi-hockey-sticks::before {\n  content: \"\\F879\";\n}\n\n.mdi-hololens::before {\n  content: \"\\F2DB\";\n}\n\n.mdi-home::before {\n  content: \"\\F2DC\";\n}\n\n.mdi-home-account::before {\n  content: \"\\F825\";\n}\n\n.mdi-home-alert::before {\n  content: \"\\F87A\";\n}\n\n.mdi-home-analytics::before {\n  content: \"\\FED7\";\n}\n\n.mdi-home-assistant::before {\n  content: \"\\F7CF\";\n}\n\n.mdi-home-automation::before {\n  content: \"\\F7D0\";\n}\n\n.mdi-home-circle::before {\n  content: \"\\F7D1\";\n}\n\n.mdi-home-circle-outline::before {\n  content: \"\\F006F\";\n}\n\n.mdi-home-city::before {\n  content: \"\\FCF1\";\n}\n\n.mdi-home-city-outline::before {\n  content: \"\\FCF2\";\n}\n\n.mdi-home-currency-usd::before {\n  content: \"\\F8AE\";\n}\n\n.mdi-home-edit::before {\n  content: \"\\F0184\";\n}\n\n.mdi-home-edit-outline::before {\n  content: \"\\F0185\";\n}\n\n.mdi-home-export-outline::before {\n  content: \"\\FFB8\";\n}\n\n.mdi-home-flood::before {\n  content: \"\\FF17\";\n}\n\n.mdi-home-floor-0::before {\n  content: \"\\FDAE\";\n}\n\n.mdi-home-floor-1::before {\n  content: \"\\FD5C\";\n}\n\n.mdi-home-floor-2::before {\n  content: \"\\FD5D\";\n}\n\n.mdi-home-floor-3::before {\n  content: \"\\FD5E\";\n}\n\n.mdi-home-floor-a::before {\n  content: \"\\FD5F\";\n}\n\n.mdi-home-floor-b::before {\n  content: \"\\FD60\";\n}\n\n.mdi-home-floor-g::before {\n  content: \"\\FD61\";\n}\n\n.mdi-home-floor-l::before {\n  content: \"\\FD62\";\n}\n\n.mdi-home-floor-negative-1::before {\n  content: \"\\FDAF\";\n}\n\n.mdi-home-group::before {\n  content: \"\\FDB0\";\n}\n\n.mdi-home-heart::before {\n  content: \"\\F826\";\n}\n\n.mdi-home-import-outline::before {\n  content: \"\\FFB9\";\n}\n\n.mdi-home-lightbulb::before {\n  content: \"\\F027C\";\n}\n\n.mdi-home-lightbulb-outline::before {\n  content: \"\\F027D\";\n}\n\n.mdi-home-lock::before {\n  content: \"\\F8EA\";\n}\n\n.mdi-home-lock-open::before {\n  content: \"\\F8EB\";\n}\n\n.mdi-home-map-marker::before {\n  content: \"\\F5F8\";\n}\n\n.mdi-home-minus::before {\n  content: \"\\F973\";\n}\n\n.mdi-home-modern::before {\n  content: \"\\F2DD\";\n}\n\n.mdi-home-outline::before {\n  content: \"\\F6A0\";\n}\n\n.mdi-home-plus::before {\n  content: \"\\F974\";\n}\n\n.mdi-home-remove::before {\n  content: \"\\F0272\";\n}\n\n.mdi-home-roof::before {\n  content: \"\\F0156\";\n}\n\n.mdi-home-thermometer::before {\n  content: \"\\FF71\";\n}\n\n.mdi-home-thermometer-outline::before {\n  content: \"\\FF72\";\n}\n\n.mdi-home-variant::before {\n  content: \"\\F2DE\";\n}\n\n.mdi-home-variant-outline::before {\n  content: \"\\FB83\";\n}\n\n.mdi-hook::before {\n  content: \"\\F6E1\";\n}\n\n.mdi-hook-off::before {\n  content: \"\\F6E2\";\n}\n\n.mdi-hops::before {\n  content: \"\\F2DF\";\n}\n\n.mdi-horizontal-rotate-clockwise::before {\n  content: \"\\F011E\";\n}\n\n.mdi-horizontal-rotate-counterclockwise::before {\n  content: \"\\F011F\";\n}\n\n.mdi-horseshoe::before {\n  content: \"\\FA57\";\n}\n\n.mdi-hospital::before {\n  content: \"\\F0017\";\n}\n\n.mdi-hospital-box::before {\n  content: \"\\F2E0\";\n}\n\n.mdi-hospital-box-outline::before {\n  content: \"\\F0018\";\n}\n\n.mdi-hospital-building::before {\n  content: \"\\F2E1\";\n}\n\n.mdi-hospital-marker::before {\n  content: \"\\F2E2\";\n}\n\n.mdi-hot-tub::before {\n  content: \"\\F827\";\n}\n\n.mdi-hotel::before {\n  content: \"\\F2E3\";\n}\n\n.mdi-houzz::before {\n  content: \"\\F2E4\";\n}\n\n.mdi-houzz-box::before {\n  content: \"\\F2E5\";\n}\n\n.mdi-hubspot::before {\n  content: \"\\FCF3\";\n}\n\n.mdi-hulu::before {\n  content: \"\\F828\";\n}\n\n.mdi-human::before {\n  content: \"\\F2E6\";\n}\n\n.mdi-human-child::before {\n  content: \"\\F2E7\";\n}\n\n.mdi-human-female::before {\n  content: \"\\F649\";\n}\n\n.mdi-human-female-boy::before {\n  content: \"\\FA58\";\n}\n\n.mdi-human-female-female::before {\n  content: \"\\FA59\";\n}\n\n.mdi-human-female-girl::before {\n  content: \"\\FA5A\";\n}\n\n.mdi-human-greeting::before {\n  content: \"\\F64A\";\n}\n\n.mdi-human-handsdown::before {\n  content: \"\\F64B\";\n}\n\n.mdi-human-handsup::before {\n  content: \"\\F64C\";\n}\n\n.mdi-human-male::before {\n  content: \"\\F64D\";\n}\n\n.mdi-human-male-boy::before {\n  content: \"\\FA5B\";\n}\n\n.mdi-human-male-female::before {\n  content: \"\\F2E8\";\n}\n\n.mdi-human-male-girl::before {\n  content: \"\\FA5C\";\n}\n\n.mdi-human-male-height::before {\n  content: \"\\FF18\";\n}\n\n.mdi-human-male-height-variant::before {\n  content: \"\\FF19\";\n}\n\n.mdi-human-male-male::before {\n  content: \"\\FA5D\";\n}\n\n.mdi-human-pregnant::before {\n  content: \"\\F5CF\";\n}\n\n.mdi-humble-bundle::before {\n  content: \"\\F743\";\n}\n\n.mdi-hvac::before {\n  content: \"\\F037D\";\n}\n\n.mdi-hydraulic-oil-level::before {\n  content: \"\\F034F\";\n}\n\n.mdi-hydraulic-oil-temperature::before {\n  content: \"\\F0350\";\n}\n\n.mdi-hydro-power::before {\n  content: \"\\F0310\";\n}\n\n.mdi-ice-cream::before {\n  content: \"\\F829\";\n}\n\n.mdi-ice-pop::before {\n  content: \"\\FF1A\";\n}\n\n.mdi-id-card::before {\n  content: \"\\FFE0\";\n}\n\n.mdi-identifier::before {\n  content: \"\\FF1B\";\n}\n\n.mdi-ideogram-cjk::before {\n  content: \"\\F035C\";\n}\n\n.mdi-ideogram-cjk-variant::before {\n  content: \"\\F035D\";\n}\n\n.mdi-iframe::before {\n  content: \"\\FC67\";\n}\n\n.mdi-iframe-array::before {\n  content: \"\\F0120\";\n}\n\n.mdi-iframe-array-outline::before {\n  content: \"\\F0121\";\n}\n\n.mdi-iframe-braces::before {\n  content: \"\\F0122\";\n}\n\n.mdi-iframe-braces-outline::before {\n  content: \"\\F0123\";\n}\n\n.mdi-iframe-outline::before {\n  content: \"\\FC68\";\n}\n\n.mdi-iframe-parentheses::before {\n  content: \"\\F0124\";\n}\n\n.mdi-iframe-parentheses-outline::before {\n  content: \"\\F0125\";\n}\n\n.mdi-iframe-variable::before {\n  content: \"\\F0126\";\n}\n\n.mdi-iframe-variable-outline::before {\n  content: \"\\F0127\";\n}\n\n.mdi-image::before {\n  content: \"\\F2E9\";\n}\n\n.mdi-image-album::before {\n  content: \"\\F2EA\";\n}\n\n.mdi-image-area::before {\n  content: \"\\F2EB\";\n}\n\n.mdi-image-area-close::before {\n  content: \"\\F2EC\";\n}\n\n.mdi-image-auto-adjust::before {\n  content: \"\\FFE1\";\n}\n\n.mdi-image-broken::before {\n  content: \"\\F2ED\";\n}\n\n.mdi-image-broken-variant::before {\n  content: \"\\F2EE\";\n}\n\n.mdi-image-edit::before {\n  content: \"\\F020E\";\n}\n\n.mdi-image-edit-outline::before {\n  content: \"\\F020F\";\n}\n\n.mdi-image-filter::before {\n  content: \"\\F2EF\";\n}\n\n.mdi-image-filter-black-white::before {\n  content: \"\\F2F0\";\n}\n\n.mdi-image-filter-center-focus::before {\n  content: \"\\F2F1\";\n}\n\n.mdi-image-filter-center-focus-strong::before {\n  content: \"\\FF1C\";\n}\n\n.mdi-image-filter-center-focus-strong-outline::before {\n  content: \"\\FF1D\";\n}\n\n.mdi-image-filter-center-focus-weak::before {\n  content: \"\\F2F2\";\n}\n\n.mdi-image-filter-drama::before {\n  content: \"\\F2F3\";\n}\n\n.mdi-image-filter-frames::before {\n  content: \"\\F2F4\";\n}\n\n.mdi-image-filter-hdr::before {\n  content: \"\\F2F5\";\n}\n\n.mdi-image-filter-none::before {\n  content: \"\\F2F6\";\n}\n\n.mdi-image-filter-tilt-shift::before {\n  content: \"\\F2F7\";\n}\n\n.mdi-image-filter-vintage::before {\n  content: \"\\F2F8\";\n}\n\n.mdi-image-frame::before {\n  content: \"\\FE8A\";\n}\n\n.mdi-image-move::before {\n  content: \"\\F9F7\";\n}\n\n.mdi-image-multiple::before {\n  content: \"\\F2F9\";\n}\n\n.mdi-image-off::before {\n  content: \"\\F82A\";\n}\n\n.mdi-image-off-outline::before {\n  content: \"\\F01FC\";\n}\n\n.mdi-image-outline::before {\n  content: \"\\F975\";\n}\n\n.mdi-image-plus::before {\n  content: \"\\F87B\";\n}\n\n.mdi-image-search::before {\n  content: \"\\F976\";\n}\n\n.mdi-image-search-outline::before {\n  content: \"\\F977\";\n}\n\n.mdi-image-size-select-actual::before {\n  content: \"\\FC69\";\n}\n\n.mdi-image-size-select-large::before {\n  content: \"\\FC6A\";\n}\n\n.mdi-image-size-select-small::before {\n  content: \"\\FC6B\";\n}\n\n.mdi-import::before {\n  content: \"\\F2FA\";\n}\n\n.mdi-inbox::before {\n  content: \"\\F686\";\n}\n\n.mdi-inbox-arrow-down::before {\n  content: \"\\F2FB\";\n}\n\n.mdi-inbox-arrow-down-outline::before {\n  content: \"\\F029B\";\n}\n\n.mdi-inbox-arrow-up::before {\n  content: \"\\F3D1\";\n}\n\n.mdi-inbox-arrow-up-outline::before {\n  content: \"\\F029C\";\n}\n\n.mdi-inbox-full::before {\n  content: \"\\F029D\";\n}\n\n.mdi-inbox-full-outline::before {\n  content: \"\\F029E\";\n}\n\n.mdi-inbox-multiple::before {\n  content: \"\\F8AF\";\n}\n\n.mdi-inbox-multiple-outline::before {\n  content: \"\\FB84\";\n}\n\n.mdi-inbox-outline::before {\n  content: \"\\F029F\";\n}\n\n.mdi-incognito::before {\n  content: \"\\F5F9\";\n}\n\n.mdi-infinity::before {\n  content: \"\\F6E3\";\n}\n\n.mdi-information::before {\n  content: \"\\F2FC\";\n}\n\n.mdi-information-outline::before {\n  content: \"\\F2FD\";\n}\n\n.mdi-information-variant::before {\n  content: \"\\F64E\";\n}\n\n.mdi-instagram::before {\n  content: \"\\F2FE\";\n}\n\n.mdi-instapaper::before {\n  content: \"\\F2FF\";\n}\n\n.mdi-instrument-triangle::before {\n  content: \"\\F0070\";\n}\n\n.mdi-internet-explorer::before {\n  content: \"\\F300\";\n}\n\n.mdi-invert-colors::before {\n  content: \"\\F301\";\n}\n\n.mdi-invert-colors-off::before {\n  content: \"\\FE8B\";\n}\n\n.mdi-iobroker::before {\n  content: \"\\F0313\";\n}\n\n.mdi-ip::before {\n  content: \"\\FA5E\";\n}\n\n.mdi-ip-network::before {\n  content: \"\\FA5F\";\n}\n\n.mdi-ip-network-outline::before {\n  content: \"\\FC6C\";\n}\n\n.mdi-ipod::before {\n  content: \"\\FC6D\";\n}\n\n.mdi-islam::before {\n  content: \"\\F978\";\n}\n\n.mdi-island::before {\n  content: \"\\F0071\";\n}\n\n.mdi-itunes::before {\n  content: \"\\F676\";\n}\n\n.mdi-iv-bag::before {\n  content: \"\\F00E4\";\n}\n\n.mdi-jabber::before {\n  content: \"\\FDB1\";\n}\n\n.mdi-jeepney::before {\n  content: \"\\F302\";\n}\n\n.mdi-jellyfish::before {\n  content: \"\\FF1E\";\n}\n\n.mdi-jellyfish-outline::before {\n  content: \"\\FF1F\";\n}\n\n.mdi-jira::before {\n  content: \"\\F303\";\n}\n\n.mdi-jquery::before {\n  content: \"\\F87C\";\n}\n\n.mdi-jsfiddle::before {\n  content: \"\\F304\";\n}\n\n.mdi-json::before {\n  content: \"\\F626\";\n}\n\n.mdi-judaism::before {\n  content: \"\\F979\";\n}\n\n.mdi-jump-rope::before {\n  content: \"\\F032A\";\n}\n\n.mdi-kabaddi::before {\n  content: \"\\FD63\";\n}\n\n.mdi-karate::before {\n  content: \"\\F82B\";\n}\n\n.mdi-keg::before {\n  content: \"\\F305\";\n}\n\n.mdi-kettle::before {\n  content: \"\\F5FA\";\n}\n\n.mdi-kettle-alert::before {\n  content: \"\\F0342\";\n}\n\n.mdi-kettle-alert-outline::before {\n  content: \"\\F0343\";\n}\n\n.mdi-kettle-off::before {\n  content: \"\\F0346\";\n}\n\n.mdi-kettle-off-outline::before {\n  content: \"\\F0347\";\n}\n\n.mdi-kettle-outline::before {\n  content: \"\\FF73\";\n}\n\n.mdi-kettle-steam::before {\n  content: \"\\F0344\";\n}\n\n.mdi-kettle-steam-outline::before {\n  content: \"\\F0345\";\n}\n\n.mdi-kettlebell::before {\n  content: \"\\F032B\";\n}\n\n.mdi-key::before {\n  content: \"\\F306\";\n}\n\n.mdi-key-arrow-right::before {\n  content: \"\\F033D\";\n}\n\n.mdi-key-change::before {\n  content: \"\\F307\";\n}\n\n.mdi-key-link::before {\n  content: \"\\F01CA\";\n}\n\n.mdi-key-minus::before {\n  content: \"\\F308\";\n}\n\n.mdi-key-outline::before {\n  content: \"\\FDB2\";\n}\n\n.mdi-key-plus::before {\n  content: \"\\F309\";\n}\n\n.mdi-key-remove::before {\n  content: \"\\F30A\";\n}\n\n.mdi-key-star::before {\n  content: \"\\F01C9\";\n}\n\n.mdi-key-variant::before {\n  content: \"\\F30B\";\n}\n\n.mdi-key-wireless::before {\n  content: \"\\FFE2\";\n}\n\n.mdi-keyboard::before {\n  content: \"\\F30C\";\n}\n\n.mdi-keyboard-backspace::before {\n  content: \"\\F30D\";\n}\n\n.mdi-keyboard-caps::before {\n  content: \"\\F30E\";\n}\n\n.mdi-keyboard-close::before {\n  content: \"\\F30F\";\n}\n\n.mdi-keyboard-esc::before {\n  content: \"\\F02E2\";\n}\n\n.mdi-keyboard-f1::before {\n  content: \"\\F02D6\";\n}\n\n.mdi-keyboard-f10::before {\n  content: \"\\F02DF\";\n}\n\n.mdi-keyboard-f11::before {\n  content: \"\\F02E0\";\n}\n\n.mdi-keyboard-f12::before {\n  content: \"\\F02E1\";\n}\n\n.mdi-keyboard-f2::before {\n  content: \"\\F02D7\";\n}\n\n.mdi-keyboard-f3::before {\n  content: \"\\F02D8\";\n}\n\n.mdi-keyboard-f4::before {\n  content: \"\\F02D9\";\n}\n\n.mdi-keyboard-f5::before {\n  content: \"\\F02DA\";\n}\n\n.mdi-keyboard-f6::before {\n  content: \"\\F02DB\";\n}\n\n.mdi-keyboard-f7::before {\n  content: \"\\F02DC\";\n}\n\n.mdi-keyboard-f8::before {\n  content: \"\\F02DD\";\n}\n\n.mdi-keyboard-f9::before {\n  content: \"\\F02DE\";\n}\n\n.mdi-keyboard-off::before {\n  content: \"\\F310\";\n}\n\n.mdi-keyboard-off-outline::before {\n  content: \"\\FE8C\";\n}\n\n.mdi-keyboard-outline::before {\n  content: \"\\F97A\";\n}\n\n.mdi-keyboard-return::before {\n  content: \"\\F311\";\n}\n\n.mdi-keyboard-settings::before {\n  content: \"\\F9F8\";\n}\n\n.mdi-keyboard-settings-outline::before {\n  content: \"\\F9F9\";\n}\n\n.mdi-keyboard-space::before {\n  content: \"\\F0072\";\n}\n\n.mdi-keyboard-tab::before {\n  content: \"\\F312\";\n}\n\n.mdi-keyboard-variant::before {\n  content: \"\\F313\";\n}\n\n.mdi-khanda::before {\n  content: \"\\F0128\";\n}\n\n.mdi-kickstarter::before {\n  content: \"\\F744\";\n}\n\n.mdi-klingon::before {\n  content: \"\\F0386\";\n}\n\n.mdi-knife::before {\n  content: \"\\F9FA\";\n}\n\n.mdi-knife-military::before {\n  content: \"\\F9FB\";\n}\n\n.mdi-kodi::before {\n  content: \"\\F314\";\n}\n\n.mdi-kotlin::before {\n  content: \"\\F0244\";\n}\n\n.mdi-kubernetes::before {\n  content: \"\\F0129\";\n}\n\n.mdi-label::before {\n  content: \"\\F315\";\n}\n\n.mdi-label-multiple::before {\n  content: \"\\F03A0\";\n}\n\n.mdi-label-multiple-outline::before {\n  content: \"\\F03A1\";\n}\n\n.mdi-label-off::before {\n  content: \"\\FACA\";\n}\n\n.mdi-label-off-outline::before {\n  content: \"\\FACB\";\n}\n\n.mdi-label-outline::before {\n  content: \"\\F316\";\n}\n\n.mdi-label-percent::before {\n  content: \"\\F0315\";\n}\n\n.mdi-label-percent-outline::before {\n  content: \"\\F0316\";\n}\n\n.mdi-label-variant::before {\n  content: \"\\FACC\";\n}\n\n.mdi-label-variant-outline::before {\n  content: \"\\FACD\";\n}\n\n.mdi-ladybug::before {\n  content: \"\\F82C\";\n}\n\n.mdi-lambda::before {\n  content: \"\\F627\";\n}\n\n.mdi-lamp::before {\n  content: \"\\F6B4\";\n}\n\n.mdi-lan::before {\n  content: \"\\F317\";\n}\n\n.mdi-lan-check::before {\n  content: \"\\F02D5\";\n}\n\n.mdi-lan-connect::before {\n  content: \"\\F318\";\n}\n\n.mdi-lan-disconnect::before {\n  content: \"\\F319\";\n}\n\n.mdi-lan-pending::before {\n  content: \"\\F31A\";\n}\n\n.mdi-language-c::before {\n  content: \"\\F671\";\n}\n\n.mdi-language-cpp::before {\n  content: \"\\F672\";\n}\n\n.mdi-language-csharp::before {\n  content: \"\\F31B\";\n}\n\n.mdi-language-css3::before {\n  content: \"\\F31C\";\n}\n\n.mdi-language-fortran::before {\n  content: \"\\F0245\";\n}\n\n.mdi-language-go::before {\n  content: \"\\F7D2\";\n}\n\n.mdi-language-haskell::before {\n  content: \"\\FC6E\";\n}\n\n.mdi-language-html5::before {\n  content: \"\\F31D\";\n}\n\n.mdi-language-java::before {\n  content: \"\\FB1C\";\n}\n\n.mdi-language-javascript::before {\n  content: \"\\F31E\";\n}\n\n.mdi-language-lua::before {\n  content: \"\\F8B0\";\n}\n\n.mdi-language-php::before {\n  content: \"\\F31F\";\n}\n\n.mdi-language-python::before {\n  content: \"\\F320\";\n}\n\n.mdi-language-python-text::before {\n  content: \"\\F321\";\n}\n\n.mdi-language-r::before {\n  content: \"\\F7D3\";\n}\n\n.mdi-language-ruby-on-rails::before {\n  content: \"\\FACE\";\n}\n\n.mdi-language-swift::before {\n  content: \"\\F6E4\";\n}\n\n.mdi-language-typescript::before {\n  content: \"\\F6E5\";\n}\n\n.mdi-laptop::before {\n  content: \"\\F322\";\n}\n\n.mdi-laptop-chromebook::before {\n  content: \"\\F323\";\n}\n\n.mdi-laptop-mac::before {\n  content: \"\\F324\";\n}\n\n.mdi-laptop-off::before {\n  content: \"\\F6E6\";\n}\n\n.mdi-laptop-windows::before {\n  content: \"\\F325\";\n}\n\n.mdi-laravel::before {\n  content: \"\\FACF\";\n}\n\n.mdi-lasso::before {\n  content: \"\\FF20\";\n}\n\n.mdi-lastfm::before {\n  content: \"\\F326\";\n}\n\n.mdi-lastpass::before {\n  content: \"\\F446\";\n}\n\n.mdi-latitude::before {\n  content: \"\\FF74\";\n}\n\n.mdi-launch::before {\n  content: \"\\F327\";\n}\n\n.mdi-lava-lamp::before {\n  content: \"\\F7D4\";\n}\n\n.mdi-layers::before {\n  content: \"\\F328\";\n}\n\n.mdi-layers-minus::before {\n  content: \"\\FE8D\";\n}\n\n.mdi-layers-off::before {\n  content: \"\\F329\";\n}\n\n.mdi-layers-off-outline::before {\n  content: \"\\F9FC\";\n}\n\n.mdi-layers-outline::before {\n  content: \"\\F9FD\";\n}\n\n.mdi-layers-plus::before {\n  content: \"\\FE30\";\n}\n\n.mdi-layers-remove::before {\n  content: \"\\FE31\";\n}\n\n.mdi-layers-search::before {\n  content: \"\\F0231\";\n}\n\n.mdi-layers-search-outline::before {\n  content: \"\\F0232\";\n}\n\n.mdi-layers-triple::before {\n  content: \"\\FF75\";\n}\n\n.mdi-layers-triple-outline::before {\n  content: \"\\FF76\";\n}\n\n.mdi-lead-pencil::before {\n  content: \"\\F64F\";\n}\n\n.mdi-leaf::before {\n  content: \"\\F32A\";\n}\n\n.mdi-leaf-maple::before {\n  content: \"\\FC6F\";\n}\n\n.mdi-leaf-maple-off::before {\n  content: \"\\F0305\";\n}\n\n.mdi-leaf-off::before {\n  content: \"\\F0304\";\n}\n\n.mdi-leak::before {\n  content: \"\\FDB3\";\n}\n\n.mdi-leak-off::before {\n  content: \"\\FDB4\";\n}\n\n.mdi-led-off::before {\n  content: \"\\F32B\";\n}\n\n.mdi-led-on::before {\n  content: \"\\F32C\";\n}\n\n.mdi-led-outline::before {\n  content: \"\\F32D\";\n}\n\n.mdi-led-strip::before {\n  content: \"\\F7D5\";\n}\n\n.mdi-led-strip-variant::before {\n  content: \"\\F0073\";\n}\n\n.mdi-led-variant-off::before {\n  content: \"\\F32E\";\n}\n\n.mdi-led-variant-on::before {\n  content: \"\\F32F\";\n}\n\n.mdi-led-variant-outline::before {\n  content: \"\\F330\";\n}\n\n.mdi-leek::before {\n  content: \"\\F01A8\";\n}\n\n.mdi-less-than::before {\n  content: \"\\F97B\";\n}\n\n.mdi-less-than-or-equal::before {\n  content: \"\\F97C\";\n}\n\n.mdi-library::before {\n  content: \"\\F331\";\n}\n\n.mdi-library-books::before {\n  content: \"\\F332\";\n}\n\n.mdi-library-movie::before {\n  content: \"\\FCF4\";\n}\n\n.mdi-library-music::before {\n  content: \"\\F333\";\n}\n\n.mdi-library-music-outline::before {\n  content: \"\\FF21\";\n}\n\n.mdi-library-shelves::before {\n  content: \"\\FB85\";\n}\n\n.mdi-library-video::before {\n  content: \"\\FCF5\";\n}\n\n.mdi-license::before {\n  content: \"\\FFE3\";\n}\n\n.mdi-lifebuoy::before {\n  content: \"\\F87D\";\n}\n\n.mdi-light-switch::before {\n  content: \"\\F97D\";\n}\n\n.mdi-lightbulb::before {\n  content: \"\\F335\";\n}\n\n.mdi-lightbulb-cfl::before {\n  content: \"\\F0233\";\n}\n\n.mdi-lightbulb-cfl-off::before {\n  content: \"\\F0234\";\n}\n\n.mdi-lightbulb-cfl-spiral::before {\n  content: \"\\F02A0\";\n}\n\n.mdi-lightbulb-cfl-spiral-off::before {\n  content: \"\\F02EE\";\n}\n\n.mdi-lightbulb-group::before {\n  content: \"\\F027E\";\n}\n\n.mdi-lightbulb-group-off::before {\n  content: \"\\F02F8\";\n}\n\n.mdi-lightbulb-group-off-outline::before {\n  content: \"\\F02F9\";\n}\n\n.mdi-lightbulb-group-outline::before {\n  content: \"\\F027F\";\n}\n\n.mdi-lightbulb-multiple::before {\n  content: \"\\F0280\";\n}\n\n.mdi-lightbulb-multiple-off::before {\n  content: \"\\F02FA\";\n}\n\n.mdi-lightbulb-multiple-off-outline::before {\n  content: \"\\F02FB\";\n}\n\n.mdi-lightbulb-multiple-outline::before {\n  content: \"\\F0281\";\n}\n\n.mdi-lightbulb-off::before {\n  content: \"\\FE32\";\n}\n\n.mdi-lightbulb-off-outline::before {\n  content: \"\\FE33\";\n}\n\n.mdi-lightbulb-on::before {\n  content: \"\\F6E7\";\n}\n\n.mdi-lightbulb-on-outline::before {\n  content: \"\\F6E8\";\n}\n\n.mdi-lightbulb-outline::before {\n  content: \"\\F336\";\n}\n\n.mdi-lighthouse::before {\n  content: \"\\F9FE\";\n}\n\n.mdi-lighthouse-on::before {\n  content: \"\\F9FF\";\n}\n\n.mdi-link::before {\n  content: \"\\F337\";\n}\n\n.mdi-link-box::before {\n  content: \"\\FCF6\";\n}\n\n.mdi-link-box-outline::before {\n  content: \"\\FCF7\";\n}\n\n.mdi-link-box-variant::before {\n  content: \"\\FCF8\";\n}\n\n.mdi-link-box-variant-outline::before {\n  content: \"\\FCF9\";\n}\n\n.mdi-link-lock::before {\n  content: \"\\F00E5\";\n}\n\n.mdi-link-off::before {\n  content: \"\\F338\";\n}\n\n.mdi-link-plus::before {\n  content: \"\\FC70\";\n}\n\n.mdi-link-variant::before {\n  content: \"\\F339\";\n}\n\n.mdi-link-variant-minus::before {\n  content: \"\\F012A\";\n}\n\n.mdi-link-variant-off::before {\n  content: \"\\F33A\";\n}\n\n.mdi-link-variant-plus::before {\n  content: \"\\F012B\";\n}\n\n.mdi-link-variant-remove::before {\n  content: \"\\F012C\";\n}\n\n.mdi-linkedin::before {\n  content: \"\\F33B\";\n}\n\n.mdi-linkedin-box::before {\n  content: \"\\F33C\";\n}\n\n.mdi-linux::before {\n  content: \"\\F33D\";\n}\n\n.mdi-linux-mint::before {\n  content: \"\\F8EC\";\n}\n\n.mdi-litecoin::before {\n  content: \"\\FA60\";\n}\n\n.mdi-loading::before {\n  content: \"\\F771\";\n}\n\n.mdi-location-enter::before {\n  content: \"\\FFE4\";\n}\n\n.mdi-location-exit::before {\n  content: \"\\FFE5\";\n}\n\n.mdi-lock::before {\n  content: \"\\F33E\";\n}\n\n.mdi-lock-alert::before {\n  content: \"\\F8ED\";\n}\n\n.mdi-lock-clock::before {\n  content: \"\\F97E\";\n}\n\n.mdi-lock-open::before {\n  content: \"\\F33F\";\n}\n\n.mdi-lock-open-outline::before {\n  content: \"\\F340\";\n}\n\n.mdi-lock-open-variant::before {\n  content: \"\\FFE6\";\n}\n\n.mdi-lock-open-variant-outline::before {\n  content: \"\\FFE7\";\n}\n\n.mdi-lock-outline::before {\n  content: \"\\F341\";\n}\n\n.mdi-lock-pattern::before {\n  content: \"\\F6E9\";\n}\n\n.mdi-lock-plus::before {\n  content: \"\\F5FB\";\n}\n\n.mdi-lock-question::before {\n  content: \"\\F8EE\";\n}\n\n.mdi-lock-reset::before {\n  content: \"\\F772\";\n}\n\n.mdi-lock-smart::before {\n  content: \"\\F8B1\";\n}\n\n.mdi-locker::before {\n  content: \"\\F7D6\";\n}\n\n.mdi-locker-multiple::before {\n  content: \"\\F7D7\";\n}\n\n.mdi-login::before {\n  content: \"\\F342\";\n}\n\n.mdi-login-variant::before {\n  content: \"\\F5FC\";\n}\n\n.mdi-logout::before {\n  content: \"\\F343\";\n}\n\n.mdi-logout-variant::before {\n  content: \"\\F5FD\";\n}\n\n.mdi-longitude::before {\n  content: \"\\FF77\";\n}\n\n.mdi-looks::before {\n  content: \"\\F344\";\n}\n\n.mdi-loupe::before {\n  content: \"\\F345\";\n}\n\n.mdi-lumx::before {\n  content: \"\\F346\";\n}\n\n.mdi-lungs::before {\n  content: \"\\F00AF\";\n}\n\n.mdi-lyft::before {\n  content: \"\\FB1D\";\n}\n\n.mdi-magnet::before {\n  content: \"\\F347\";\n}\n\n.mdi-magnet-on::before {\n  content: \"\\F348\";\n}\n\n.mdi-magnify::before {\n  content: \"\\F349\";\n}\n\n.mdi-magnify-close::before {\n  content: \"\\F97F\";\n}\n\n.mdi-magnify-minus::before {\n  content: \"\\F34A\";\n}\n\n.mdi-magnify-minus-cursor::before {\n  content: \"\\FA61\";\n}\n\n.mdi-magnify-minus-outline::before {\n  content: \"\\F6EB\";\n}\n\n.mdi-magnify-plus::before {\n  content: \"\\F34B\";\n}\n\n.mdi-magnify-plus-cursor::before {\n  content: \"\\FA62\";\n}\n\n.mdi-magnify-plus-outline::before {\n  content: \"\\F6EC\";\n}\n\n.mdi-magnify-remove-cursor::before {\n  content: \"\\F0237\";\n}\n\n.mdi-magnify-remove-outline::before {\n  content: \"\\F0238\";\n}\n\n.mdi-magnify-scan::before {\n  content: \"\\F02A1\";\n}\n\n.mdi-mail::before {\n  content: \"\\FED8\";\n}\n\n.mdi-mail-ru::before {\n  content: \"\\F34C\";\n}\n\n.mdi-mailbox::before {\n  content: \"\\F6ED\";\n}\n\n.mdi-mailbox-open::before {\n  content: \"\\FD64\";\n}\n\n.mdi-mailbox-open-outline::before {\n  content: \"\\FD65\";\n}\n\n.mdi-mailbox-open-up::before {\n  content: \"\\FD66\";\n}\n\n.mdi-mailbox-open-up-outline::before {\n  content: \"\\FD67\";\n}\n\n.mdi-mailbox-outline::before {\n  content: \"\\FD68\";\n}\n\n.mdi-mailbox-up::before {\n  content: \"\\FD69\";\n}\n\n.mdi-mailbox-up-outline::before {\n  content: \"\\FD6A\";\n}\n\n.mdi-map::before {\n  content: \"\\F34D\";\n}\n\n.mdi-map-check::before {\n  content: \"\\FED9\";\n}\n\n.mdi-map-check-outline::before {\n  content: \"\\FEDA\";\n}\n\n.mdi-map-clock::before {\n  content: \"\\FCFA\";\n}\n\n.mdi-map-clock-outline::before {\n  content: \"\\FCFB\";\n}\n\n.mdi-map-legend::before {\n  content: \"\\FA00\";\n}\n\n.mdi-map-marker::before {\n  content: \"\\F34E\";\n}\n\n.mdi-map-marker-alert::before {\n  content: \"\\FF22\";\n}\n\n.mdi-map-marker-alert-outline::before {\n  content: \"\\FF23\";\n}\n\n.mdi-map-marker-check::before {\n  content: \"\\FC71\";\n}\n\n.mdi-map-marker-check-outline::before {\n  content: \"\\F0326\";\n}\n\n.mdi-map-marker-circle::before {\n  content: \"\\F34F\";\n}\n\n.mdi-map-marker-distance::before {\n  content: \"\\F8EF\";\n}\n\n.mdi-map-marker-down::before {\n  content: \"\\F012D\";\n}\n\n.mdi-map-marker-left::before {\n  content: \"\\F0306\";\n}\n\n.mdi-map-marker-left-outline::before {\n  content: \"\\F0308\";\n}\n\n.mdi-map-marker-minus::before {\n  content: \"\\F650\";\n}\n\n.mdi-map-marker-minus-outline::before {\n  content: \"\\F0324\";\n}\n\n.mdi-map-marker-multiple::before {\n  content: \"\\F350\";\n}\n\n.mdi-map-marker-multiple-outline::before {\n  content: \"\\F02A2\";\n}\n\n.mdi-map-marker-off::before {\n  content: \"\\F351\";\n}\n\n.mdi-map-marker-off-outline::before {\n  content: \"\\F0328\";\n}\n\n.mdi-map-marker-outline::before {\n  content: \"\\F7D8\";\n}\n\n.mdi-map-marker-path::before {\n  content: \"\\FCFC\";\n}\n\n.mdi-map-marker-plus::before {\n  content: \"\\F651\";\n}\n\n.mdi-map-marker-plus-outline::before {\n  content: \"\\F0323\";\n}\n\n.mdi-map-marker-question::before {\n  content: \"\\FF24\";\n}\n\n.mdi-map-marker-question-outline::before {\n  content: \"\\FF25\";\n}\n\n.mdi-map-marker-radius::before {\n  content: \"\\F352\";\n}\n\n.mdi-map-marker-radius-outline::before {\n  content: \"\\F0327\";\n}\n\n.mdi-map-marker-remove::before {\n  content: \"\\FF26\";\n}\n\n.mdi-map-marker-remove-outline::before {\n  content: \"\\F0325\";\n}\n\n.mdi-map-marker-remove-variant::before {\n  content: \"\\FF27\";\n}\n\n.mdi-map-marker-right::before {\n  content: \"\\F0307\";\n}\n\n.mdi-map-marker-right-outline::before {\n  content: \"\\F0309\";\n}\n\n.mdi-map-marker-up::before {\n  content: \"\\F012E\";\n}\n\n.mdi-map-minus::before {\n  content: \"\\F980\";\n}\n\n.mdi-map-outline::before {\n  content: \"\\F981\";\n}\n\n.mdi-map-plus::before {\n  content: \"\\F982\";\n}\n\n.mdi-map-search::before {\n  content: \"\\F983\";\n}\n\n.mdi-map-search-outline::before {\n  content: \"\\F984\";\n}\n\n.mdi-mapbox::before {\n  content: \"\\FB86\";\n}\n\n.mdi-margin::before {\n  content: \"\\F353\";\n}\n\n.mdi-markdown::before {\n  content: \"\\F354\";\n}\n\n.mdi-markdown-outline::before {\n  content: \"\\FF78\";\n}\n\n.mdi-marker::before {\n  content: \"\\F652\";\n}\n\n.mdi-marker-cancel::before {\n  content: \"\\FDB5\";\n}\n\n.mdi-marker-check::before {\n  content: \"\\F355\";\n}\n\n.mdi-mastodon::before {\n  content: \"\\FAD0\";\n}\n\n.mdi-mastodon-variant::before {\n  content: \"\\FAD1\";\n}\n\n.mdi-material-design::before {\n  content: \"\\F985\";\n}\n\n.mdi-material-ui::before {\n  content: \"\\F357\";\n}\n\n.mdi-math-compass::before {\n  content: \"\\F358\";\n}\n\n.mdi-math-cos::before {\n  content: \"\\FC72\";\n}\n\n.mdi-math-integral::before {\n  content: \"\\FFE8\";\n}\n\n.mdi-math-integral-box::before {\n  content: \"\\FFE9\";\n}\n\n.mdi-math-log::before {\n  content: \"\\F00B0\";\n}\n\n.mdi-math-norm::before {\n  content: \"\\FFEA\";\n}\n\n.mdi-math-norm-box::before {\n  content: \"\\FFEB\";\n}\n\n.mdi-math-sin::before {\n  content: \"\\FC73\";\n}\n\n.mdi-math-tan::before {\n  content: \"\\FC74\";\n}\n\n.mdi-matrix::before {\n  content: \"\\F628\";\n}\n\n.mdi-medal::before {\n  content: \"\\F986\";\n}\n\n.mdi-medal-outline::before {\n  content: \"\\F0351\";\n}\n\n.mdi-medical-bag::before {\n  content: \"\\F6EE\";\n}\n\n.mdi-meditation::before {\n  content: \"\\F01A6\";\n}\n\n.mdi-medium::before {\n  content: \"\\F35A\";\n}\n\n.mdi-meetup::before {\n  content: \"\\FAD2\";\n}\n\n.mdi-memory::before {\n  content: \"\\F35B\";\n}\n\n.mdi-menu::before {\n  content: \"\\F35C\";\n}\n\n.mdi-menu-down::before {\n  content: \"\\F35D\";\n}\n\n.mdi-menu-down-outline::before {\n  content: \"\\F6B5\";\n}\n\n.mdi-menu-left::before {\n  content: \"\\F35E\";\n}\n\n.mdi-menu-left-outline::before {\n  content: \"\\FA01\";\n}\n\n.mdi-menu-open::before {\n  content: \"\\FB87\";\n}\n\n.mdi-menu-right::before {\n  content: \"\\F35F\";\n}\n\n.mdi-menu-right-outline::before {\n  content: \"\\FA02\";\n}\n\n.mdi-menu-swap::before {\n  content: \"\\FA63\";\n}\n\n.mdi-menu-swap-outline::before {\n  content: \"\\FA64\";\n}\n\n.mdi-menu-up::before {\n  content: \"\\F360\";\n}\n\n.mdi-menu-up-outline::before {\n  content: \"\\F6B6\";\n}\n\n.mdi-merge::before {\n  content: \"\\FF79\";\n}\n\n.mdi-message::before {\n  content: \"\\F361\";\n}\n\n.mdi-message-alert::before {\n  content: \"\\F362\";\n}\n\n.mdi-message-alert-outline::before {\n  content: \"\\FA03\";\n}\n\n.mdi-message-arrow-left::before {\n  content: \"\\F031D\";\n}\n\n.mdi-message-arrow-left-outline::before {\n  content: \"\\F031E\";\n}\n\n.mdi-message-arrow-right::before {\n  content: \"\\F031F\";\n}\n\n.mdi-message-arrow-right-outline::before {\n  content: \"\\F0320\";\n}\n\n.mdi-message-bulleted::before {\n  content: \"\\F6A1\";\n}\n\n.mdi-message-bulleted-off::before {\n  content: \"\\F6A2\";\n}\n\n.mdi-message-draw::before {\n  content: \"\\F363\";\n}\n\n.mdi-message-image::before {\n  content: \"\\F364\";\n}\n\n.mdi-message-image-outline::before {\n  content: \"\\F0197\";\n}\n\n.mdi-message-lock::before {\n  content: \"\\FFEC\";\n}\n\n.mdi-message-lock-outline::before {\n  content: \"\\F0198\";\n}\n\n.mdi-message-minus::before {\n  content: \"\\F0199\";\n}\n\n.mdi-message-minus-outline::before {\n  content: \"\\F019A\";\n}\n\n.mdi-message-outline::before {\n  content: \"\\F365\";\n}\n\n.mdi-message-plus::before {\n  content: \"\\F653\";\n}\n\n.mdi-message-plus-outline::before {\n  content: \"\\F00E6\";\n}\n\n.mdi-message-processing::before {\n  content: \"\\F366\";\n}\n\n.mdi-message-processing-outline::before {\n  content: \"\\F019B\";\n}\n\n.mdi-message-reply::before {\n  content: \"\\F367\";\n}\n\n.mdi-message-reply-text::before {\n  content: \"\\F368\";\n}\n\n.mdi-message-settings::before {\n  content: \"\\F6EF\";\n}\n\n.mdi-message-settings-outline::before {\n  content: \"\\F019C\";\n}\n\n.mdi-message-settings-variant::before {\n  content: \"\\F6F0\";\n}\n\n.mdi-message-settings-variant-outline::before {\n  content: \"\\F019D\";\n}\n\n.mdi-message-text::before {\n  content: \"\\F369\";\n}\n\n.mdi-message-text-clock::before {\n  content: \"\\F019E\";\n}\n\n.mdi-message-text-clock-outline::before {\n  content: \"\\F019F\";\n}\n\n.mdi-message-text-lock::before {\n  content: \"\\FFED\";\n}\n\n.mdi-message-text-lock-outline::before {\n  content: \"\\F01A0\";\n}\n\n.mdi-message-text-outline::before {\n  content: \"\\F36A\";\n}\n\n.mdi-message-video::before {\n  content: \"\\F36B\";\n}\n\n.mdi-meteor::before {\n  content: \"\\F629\";\n}\n\n.mdi-metronome::before {\n  content: \"\\F7D9\";\n}\n\n.mdi-metronome-tick::before {\n  content: \"\\F7DA\";\n}\n\n.mdi-micro-sd::before {\n  content: \"\\F7DB\";\n}\n\n.mdi-microphone::before {\n  content: \"\\F36C\";\n}\n\n.mdi-microphone-minus::before {\n  content: \"\\F8B2\";\n}\n\n.mdi-microphone-off::before {\n  content: \"\\F36D\";\n}\n\n.mdi-microphone-outline::before {\n  content: \"\\F36E\";\n}\n\n.mdi-microphone-plus::before {\n  content: \"\\F8B3\";\n}\n\n.mdi-microphone-settings::before {\n  content: \"\\F36F\";\n}\n\n.mdi-microphone-variant::before {\n  content: \"\\F370\";\n}\n\n.mdi-microphone-variant-off::before {\n  content: \"\\F371\";\n}\n\n.mdi-microscope::before {\n  content: \"\\F654\";\n}\n\n.mdi-microsoft::before {\n  content: \"\\F372\";\n}\n\n.mdi-microsoft-dynamics::before {\n  content: \"\\F987\";\n}\n\n.mdi-microwave::before {\n  content: \"\\FC75\";\n}\n\n.mdi-middleware::before {\n  content: \"\\FF7A\";\n}\n\n.mdi-middleware-outline::before {\n  content: \"\\FF7B\";\n}\n\n.mdi-midi::before {\n  content: \"\\F8F0\";\n}\n\n.mdi-midi-port::before {\n  content: \"\\F8F1\";\n}\n\n.mdi-mine::before {\n  content: \"\\FDB6\";\n}\n\n.mdi-minecraft::before {\n  content: \"\\F373\";\n}\n\n.mdi-mini-sd::before {\n  content: \"\\FA04\";\n}\n\n.mdi-minidisc::before {\n  content: \"\\FA05\";\n}\n\n.mdi-minus::before {\n  content: \"\\F374\";\n}\n\n.mdi-minus-box::before {\n  content: \"\\F375\";\n}\n\n.mdi-minus-box-multiple::before {\n  content: \"\\F016C\";\n}\n\n.mdi-minus-box-multiple-outline::before {\n  content: \"\\F016D\";\n}\n\n.mdi-minus-box-outline::before {\n  content: \"\\F6F1\";\n}\n\n.mdi-minus-circle::before {\n  content: \"\\F376\";\n}\n\n.mdi-minus-circle-outline::before {\n  content: \"\\F377\";\n}\n\n.mdi-minus-network::before {\n  content: \"\\F378\";\n}\n\n.mdi-minus-network-outline::before {\n  content: \"\\FC76\";\n}\n\n.mdi-mirror::before {\n  content: \"\\F0228\";\n}\n\n.mdi-mixcloud::before {\n  content: \"\\F62A\";\n}\n\n.mdi-mixed-martial-arts::before {\n  content: \"\\FD6B\";\n}\n\n.mdi-mixed-reality::before {\n  content: \"\\F87E\";\n}\n\n.mdi-mixer::before {\n  content: \"\\F7DC\";\n}\n\n.mdi-molecule::before {\n  content: \"\\FB88\";\n}\n\n.mdi-monitor::before {\n  content: \"\\F379\";\n}\n\n.mdi-monitor-cellphone::before {\n  content: \"\\F988\";\n}\n\n.mdi-monitor-cellphone-star::before {\n  content: \"\\F989\";\n}\n\n.mdi-monitor-clean::before {\n  content: \"\\F012F\";\n}\n\n.mdi-monitor-dashboard::before {\n  content: \"\\FA06\";\n}\n\n.mdi-monitor-edit::before {\n  content: \"\\F02F1\";\n}\n\n.mdi-monitor-lock::before {\n  content: \"\\FDB7\";\n}\n\n.mdi-monitor-multiple::before {\n  content: \"\\F37A\";\n}\n\n.mdi-monitor-off::before {\n  content: \"\\FD6C\";\n}\n\n.mdi-monitor-screenshot::before {\n  content: \"\\FE34\";\n}\n\n.mdi-monitor-speaker::before {\n  content: \"\\FF7C\";\n}\n\n.mdi-monitor-speaker-off::before {\n  content: \"\\FF7D\";\n}\n\n.mdi-monitor-star::before {\n  content: \"\\FDB8\";\n}\n\n.mdi-moon-first-quarter::before {\n  content: \"\\FF7E\";\n}\n\n.mdi-moon-full::before {\n  content: \"\\FF7F\";\n}\n\n.mdi-moon-last-quarter::before {\n  content: \"\\FF80\";\n}\n\n.mdi-moon-new::before {\n  content: \"\\FF81\";\n}\n\n.mdi-moon-waning-crescent::before {\n  content: \"\\FF82\";\n}\n\n.mdi-moon-waning-gibbous::before {\n  content: \"\\FF83\";\n}\n\n.mdi-moon-waxing-crescent::before {\n  content: \"\\FF84\";\n}\n\n.mdi-moon-waxing-gibbous::before {\n  content: \"\\FF85\";\n}\n\n.mdi-moped::before {\n  content: \"\\F00B1\";\n}\n\n.mdi-more::before {\n  content: \"\\F37B\";\n}\n\n.mdi-mother-heart::before {\n  content: \"\\F033F\";\n}\n\n.mdi-mother-nurse::before {\n  content: \"\\FCFD\";\n}\n\n.mdi-motion-sensor::before {\n  content: \"\\FD6D\";\n}\n\n.mdi-motorbike::before {\n  content: \"\\F37C\";\n}\n\n.mdi-mouse::before {\n  content: \"\\F37D\";\n}\n\n.mdi-mouse-bluetooth::before {\n  content: \"\\F98A\";\n}\n\n.mdi-mouse-off::before {\n  content: \"\\F37E\";\n}\n\n.mdi-mouse-variant::before {\n  content: \"\\F37F\";\n}\n\n.mdi-mouse-variant-off::before {\n  content: \"\\F380\";\n}\n\n.mdi-move-resize::before {\n  content: \"\\F655\";\n}\n\n.mdi-move-resize-variant::before {\n  content: \"\\F656\";\n}\n\n.mdi-movie::before {\n  content: \"\\F381\";\n}\n\n.mdi-movie-edit::before {\n  content: \"\\F014D\";\n}\n\n.mdi-movie-edit-outline::before {\n  content: \"\\F014E\";\n}\n\n.mdi-movie-filter::before {\n  content: \"\\F014F\";\n}\n\n.mdi-movie-filter-outline::before {\n  content: \"\\F0150\";\n}\n\n.mdi-movie-open::before {\n  content: \"\\FFEE\";\n}\n\n.mdi-movie-open-outline::before {\n  content: \"\\FFEF\";\n}\n\n.mdi-movie-outline::before {\n  content: \"\\FDB9\";\n}\n\n.mdi-movie-roll::before {\n  content: \"\\F7DD\";\n}\n\n.mdi-movie-search::before {\n  content: \"\\F01FD\";\n}\n\n.mdi-movie-search-outline::before {\n  content: \"\\F01FE\";\n}\n\n.mdi-muffin::before {\n  content: \"\\F98B\";\n}\n\n.mdi-multiplication::before {\n  content: \"\\F382\";\n}\n\n.mdi-multiplication-box::before {\n  content: \"\\F383\";\n}\n\n.mdi-mushroom::before {\n  content: \"\\F7DE\";\n}\n\n.mdi-mushroom-outline::before {\n  content: \"\\F7DF\";\n}\n\n.mdi-music::before {\n  content: \"\\F759\";\n}\n\n.mdi-music-accidental-double-flat::before {\n  content: \"\\FF86\";\n}\n\n.mdi-music-accidental-double-sharp::before {\n  content: \"\\FF87\";\n}\n\n.mdi-music-accidental-flat::before {\n  content: \"\\FF88\";\n}\n\n.mdi-music-accidental-natural::before {\n  content: \"\\FF89\";\n}\n\n.mdi-music-accidental-sharp::before {\n  content: \"\\FF8A\";\n}\n\n.mdi-music-box::before {\n  content: \"\\F384\";\n}\n\n.mdi-music-box-outline::before {\n  content: \"\\F385\";\n}\n\n.mdi-music-circle::before {\n  content: \"\\F386\";\n}\n\n.mdi-music-circle-outline::before {\n  content: \"\\FAD3\";\n}\n\n.mdi-music-clef-alto::before {\n  content: \"\\FF8B\";\n}\n\n.mdi-music-clef-bass::before {\n  content: \"\\FF8C\";\n}\n\n.mdi-music-clef-treble::before {\n  content: \"\\FF8D\";\n}\n\n.mdi-music-note::before {\n  content: \"\\F387\";\n}\n\n.mdi-music-note-bluetooth::before {\n  content: \"\\F5FE\";\n}\n\n.mdi-music-note-bluetooth-off::before {\n  content: \"\\F5FF\";\n}\n\n.mdi-music-note-eighth::before {\n  content: \"\\F388\";\n}\n\n.mdi-music-note-eighth-dotted::before {\n  content: \"\\FF8E\";\n}\n\n.mdi-music-note-half::before {\n  content: \"\\F389\";\n}\n\n.mdi-music-note-half-dotted::before {\n  content: \"\\FF8F\";\n}\n\n.mdi-music-note-off::before {\n  content: \"\\F38A\";\n}\n\n.mdi-music-note-off-outline::before {\n  content: \"\\FF90\";\n}\n\n.mdi-music-note-outline::before {\n  content: \"\\FF91\";\n}\n\n.mdi-music-note-plus::before {\n  content: \"\\FDBA\";\n}\n\n.mdi-music-note-quarter::before {\n  content: \"\\F38B\";\n}\n\n.mdi-music-note-quarter-dotted::before {\n  content: \"\\FF92\";\n}\n\n.mdi-music-note-sixteenth::before {\n  content: \"\\F38C\";\n}\n\n.mdi-music-note-sixteenth-dotted::before {\n  content: \"\\FF93\";\n}\n\n.mdi-music-note-whole::before {\n  content: \"\\F38D\";\n}\n\n.mdi-music-note-whole-dotted::before {\n  content: \"\\FF94\";\n}\n\n.mdi-music-off::before {\n  content: \"\\F75A\";\n}\n\n.mdi-music-rest-eighth::before {\n  content: \"\\FF95\";\n}\n\n.mdi-music-rest-half::before {\n  content: \"\\FF96\";\n}\n\n.mdi-music-rest-quarter::before {\n  content: \"\\FF97\";\n}\n\n.mdi-music-rest-sixteenth::before {\n  content: \"\\FF98\";\n}\n\n.mdi-music-rest-whole::before {\n  content: \"\\FF99\";\n}\n\n.mdi-nail::before {\n  content: \"\\FDBB\";\n}\n\n.mdi-nas::before {\n  content: \"\\F8F2\";\n}\n\n.mdi-nativescript::before {\n  content: \"\\F87F\";\n}\n\n.mdi-nature::before {\n  content: \"\\F38E\";\n}\n\n.mdi-nature-people::before {\n  content: \"\\F38F\";\n}\n\n.mdi-navigation::before {\n  content: \"\\F390\";\n}\n\n.mdi-near-me::before {\n  content: \"\\F5CD\";\n}\n\n.mdi-necklace::before {\n  content: \"\\FF28\";\n}\n\n.mdi-needle::before {\n  content: \"\\F391\";\n}\n\n.mdi-netflix::before {\n  content: \"\\F745\";\n}\n\n.mdi-network::before {\n  content: \"\\F6F2\";\n}\n\n.mdi-network-off::before {\n  content: \"\\FC77\";\n}\n\n.mdi-network-off-outline::before {\n  content: \"\\FC78\";\n}\n\n.mdi-network-outline::before {\n  content: \"\\FC79\";\n}\n\n.mdi-network-router::before {\n  content: \"\\F00B2\";\n}\n\n.mdi-network-strength-1::before {\n  content: \"\\F8F3\";\n}\n\n.mdi-network-strength-1-alert::before {\n  content: \"\\F8F4\";\n}\n\n.mdi-network-strength-2::before {\n  content: \"\\F8F5\";\n}\n\n.mdi-network-strength-2-alert::before {\n  content: \"\\F8F6\";\n}\n\n.mdi-network-strength-3::before {\n  content: \"\\F8F7\";\n}\n\n.mdi-network-strength-3-alert::before {\n  content: \"\\F8F8\";\n}\n\n.mdi-network-strength-4::before {\n  content: \"\\F8F9\";\n}\n\n.mdi-network-strength-4-alert::before {\n  content: \"\\F8FA\";\n}\n\n.mdi-network-strength-off::before {\n  content: \"\\F8FB\";\n}\n\n.mdi-network-strength-off-outline::before {\n  content: \"\\F8FC\";\n}\n\n.mdi-network-strength-outline::before {\n  content: \"\\F8FD\";\n}\n\n.mdi-new-box::before {\n  content: \"\\F394\";\n}\n\n.mdi-newspaper::before {\n  content: \"\\F395\";\n}\n\n.mdi-newspaper-minus::before {\n  content: \"\\FF29\";\n}\n\n.mdi-newspaper-plus::before {\n  content: \"\\FF2A\";\n}\n\n.mdi-newspaper-variant::before {\n  content: \"\\F0023\";\n}\n\n.mdi-newspaper-variant-multiple::before {\n  content: \"\\F0024\";\n}\n\n.mdi-newspaper-variant-multiple-outline::before {\n  content: \"\\F0025\";\n}\n\n.mdi-newspaper-variant-outline::before {\n  content: \"\\F0026\";\n}\n\n.mdi-nfc::before {\n  content: \"\\F396\";\n}\n\n.mdi-nfc-off::before {\n  content: \"\\FE35\";\n}\n\n.mdi-nfc-search-variant::before {\n  content: \"\\FE36\";\n}\n\n.mdi-nfc-tap::before {\n  content: \"\\F397\";\n}\n\n.mdi-nfc-variant::before {\n  content: \"\\F398\";\n}\n\n.mdi-nfc-variant-off::before {\n  content: \"\\FE37\";\n}\n\n.mdi-ninja::before {\n  content: \"\\F773\";\n}\n\n.mdi-nintendo-switch::before {\n  content: \"\\F7E0\";\n}\n\n.mdi-nix::before {\n  content: \"\\F0130\";\n}\n\n.mdi-nodejs::before {\n  content: \"\\F399\";\n}\n\n.mdi-noodles::before {\n  content: \"\\F01A9\";\n}\n\n.mdi-not-equal::before {\n  content: \"\\F98C\";\n}\n\n.mdi-not-equal-variant::before {\n  content: \"\\F98D\";\n}\n\n.mdi-note::before {\n  content: \"\\F39A\";\n}\n\n.mdi-note-multiple::before {\n  content: \"\\F6B7\";\n}\n\n.mdi-note-multiple-outline::before {\n  content: \"\\F6B8\";\n}\n\n.mdi-note-outline::before {\n  content: \"\\F39B\";\n}\n\n.mdi-note-plus::before {\n  content: \"\\F39C\";\n}\n\n.mdi-note-plus-outline::before {\n  content: \"\\F39D\";\n}\n\n.mdi-note-text::before {\n  content: \"\\F39E\";\n}\n\n.mdi-note-text-outline::before {\n  content: \"\\F0202\";\n}\n\n.mdi-notebook::before {\n  content: \"\\F82D\";\n}\n\n.mdi-notebook-multiple::before {\n  content: \"\\FE38\";\n}\n\n.mdi-notebook-outline::before {\n  content: \"\\FEDC\";\n}\n\n.mdi-notification-clear-all::before {\n  content: \"\\F39F\";\n}\n\n.mdi-npm::before {\n  content: \"\\F6F6\";\n}\n\n.mdi-npm-variant::before {\n  content: \"\\F98E\";\n}\n\n.mdi-npm-variant-outline::before {\n  content: \"\\F98F\";\n}\n\n.mdi-nuke::before {\n  content: \"\\F6A3\";\n}\n\n.mdi-null::before {\n  content: \"\\F7E1\";\n}\n\n.mdi-numeric::before {\n  content: \"\\F3A0\";\n}\n\n.mdi-numeric-0::before {\n  content: \"0\";\n}\n\n.mdi-numeric-0-box::before {\n  content: \"\\F3A1\";\n}\n\n.mdi-numeric-0-box-multiple::before {\n  content: \"\\FF2B\";\n}\n\n.mdi-numeric-0-box-multiple-outline::before {\n  content: \"\\F3A2\";\n}\n\n.mdi-numeric-0-box-outline::before {\n  content: \"\\F3A3\";\n}\n\n.mdi-numeric-0-circle::before {\n  content: \"\\FC7A\";\n}\n\n.mdi-numeric-0-circle-outline::before {\n  content: \"\\FC7B\";\n}\n\n.mdi-numeric-1::before {\n  content: \"1\";\n}\n\n.mdi-numeric-1-box::before {\n  content: \"\\F3A4\";\n}\n\n.mdi-numeric-1-box-multiple::before {\n  content: \"\\FF2C\";\n}\n\n.mdi-numeric-1-box-multiple-outline::before {\n  content: \"\\F3A5\";\n}\n\n.mdi-numeric-1-box-outline::before {\n  content: \"\\F3A6\";\n}\n\n.mdi-numeric-1-circle::before {\n  content: \"\\FC7C\";\n}\n\n.mdi-numeric-1-circle-outline::before {\n  content: \"\\FC7D\";\n}\n\n.mdi-numeric-10::before {\n  content: \"\\F000A\";\n}\n\n.mdi-numeric-10-box::before {\n  content: \"\\FF9A\";\n}\n\n.mdi-numeric-10-box-multiple::before {\n  content: \"\\F000B\";\n}\n\n.mdi-numeric-10-box-multiple-outline::before {\n  content: \"\\F000C\";\n}\n\n.mdi-numeric-10-box-outline::before {\n  content: \"\\FF9B\";\n}\n\n.mdi-numeric-10-circle::before {\n  content: \"\\F000D\";\n}\n\n.mdi-numeric-10-circle-outline::before {\n  content: \"\\F000E\";\n}\n\n.mdi-numeric-2::before {\n  content: \"2\";\n}\n\n.mdi-numeric-2-box::before {\n  content: \"\\F3A7\";\n}\n\n.mdi-numeric-2-box-multiple::before {\n  content: \"\\FF2D\";\n}\n\n.mdi-numeric-2-box-multiple-outline::before {\n  content: \"\\F3A8\";\n}\n\n.mdi-numeric-2-box-outline::before {\n  content: \"\\F3A9\";\n}\n\n.mdi-numeric-2-circle::before {\n  content: \"\\FC7E\";\n}\n\n.mdi-numeric-2-circle-outline::before {\n  content: \"\\FC7F\";\n}\n\n.mdi-numeric-3::before {\n  content: \"3\";\n}\n\n.mdi-numeric-3-box::before {\n  content: \"\\F3AA\";\n}\n\n.mdi-numeric-3-box-multiple::before {\n  content: \"\\FF2E\";\n}\n\n.mdi-numeric-3-box-multiple-outline::before {\n  content: \"\\F3AB\";\n}\n\n.mdi-numeric-3-box-outline::before {\n  content: \"\\F3AC\";\n}\n\n.mdi-numeric-3-circle::before {\n  content: \"\\FC80\";\n}\n\n.mdi-numeric-3-circle-outline::before {\n  content: \"\\FC81\";\n}\n\n.mdi-numeric-4::before {\n  content: \"4\";\n}\n\n.mdi-numeric-4-box::before {\n  content: \"\\F3AD\";\n}\n\n.mdi-numeric-4-box-multiple::before {\n  content: \"\\FF2F\";\n}\n\n.mdi-numeric-4-box-multiple-outline::before {\n  content: \"\\F3AE\";\n}\n\n.mdi-numeric-4-box-outline::before {\n  content: \"\\F3AF\";\n}\n\n.mdi-numeric-4-circle::before {\n  content: \"\\FC82\";\n}\n\n.mdi-numeric-4-circle-outline::before {\n  content: \"\\FC83\";\n}\n\n.mdi-numeric-5::before {\n  content: \"5\";\n}\n\n.mdi-numeric-5-box::before {\n  content: \"\\F3B0\";\n}\n\n.mdi-numeric-5-box-multiple::before {\n  content: \"\\FF30\";\n}\n\n.mdi-numeric-5-box-multiple-outline::before {\n  content: \"\\F3B1\";\n}\n\n.mdi-numeric-5-box-outline::before {\n  content: \"\\F3B2\";\n}\n\n.mdi-numeric-5-circle::before {\n  content: \"\\FC84\";\n}\n\n.mdi-numeric-5-circle-outline::before {\n  content: \"\\FC85\";\n}\n\n.mdi-numeric-6::before {\n  content: \"6\";\n}\n\n.mdi-numeric-6-box::before {\n  content: \"\\F3B3\";\n}\n\n.mdi-numeric-6-box-multiple::before {\n  content: \"\\FF31\";\n}\n\n.mdi-numeric-6-box-multiple-outline::before {\n  content: \"\\F3B4\";\n}\n\n.mdi-numeric-6-box-outline::before {\n  content: \"\\F3B5\";\n}\n\n.mdi-numeric-6-circle::before {\n  content: \"\\FC86\";\n}\n\n.mdi-numeric-6-circle-outline::before {\n  content: \"\\FC87\";\n}\n\n.mdi-numeric-7::before {\n  content: \"7\";\n}\n\n.mdi-numeric-7-box::before {\n  content: \"\\F3B6\";\n}\n\n.mdi-numeric-7-box-multiple::before {\n  content: \"\\FF32\";\n}\n\n.mdi-numeric-7-box-multiple-outline::before {\n  content: \"\\F3B7\";\n}\n\n.mdi-numeric-7-box-outline::before {\n  content: \"\\F3B8\";\n}\n\n.mdi-numeric-7-circle::before {\n  content: \"\\FC88\";\n}\n\n.mdi-numeric-7-circle-outline::before {\n  content: \"\\FC89\";\n}\n\n.mdi-numeric-8::before {\n  content: \"8\";\n}\n\n.mdi-numeric-8-box::before {\n  content: \"\\F3B9\";\n}\n\n.mdi-numeric-8-box-multiple::before {\n  content: \"\\FF33\";\n}\n\n.mdi-numeric-8-box-multiple-outline::before {\n  content: \"\\F3BA\";\n}\n\n.mdi-numeric-8-box-outline::before {\n  content: \"\\F3BB\";\n}\n\n.mdi-numeric-8-circle::before {\n  content: \"\\FC8A\";\n}\n\n.mdi-numeric-8-circle-outline::before {\n  content: \"\\FC8B\";\n}\n\n.mdi-numeric-9::before {\n  content: \"9\";\n}\n\n.mdi-numeric-9-box::before {\n  content: \"\\F3BC\";\n}\n\n.mdi-numeric-9-box-multiple::before {\n  content: \"\\FF34\";\n}\n\n.mdi-numeric-9-box-multiple-outline::before {\n  content: \"\\F3BD\";\n}\n\n.mdi-numeric-9-box-outline::before {\n  content: \"\\F3BE\";\n}\n\n.mdi-numeric-9-circle::before {\n  content: \"\\FC8C\";\n}\n\n.mdi-numeric-9-circle-outline::before {\n  content: \"\\FC8D\";\n}\n\n.mdi-numeric-9-plus::before {\n  content: \"\\F000F\";\n}\n\n.mdi-numeric-9-plus-box::before {\n  content: \"\\F3BF\";\n}\n\n.mdi-numeric-9-plus-box-multiple::before {\n  content: \"\\FF35\";\n}\n\n.mdi-numeric-9-plus-box-multiple-outline::before {\n  content: \"\\F3C0\";\n}\n\n.mdi-numeric-9-plus-box-outline::before {\n  content: \"\\F3C1\";\n}\n\n.mdi-numeric-9-plus-circle::before {\n  content: \"\\FC8E\";\n}\n\n.mdi-numeric-9-plus-circle-outline::before {\n  content: \"\\FC8F\";\n}\n\n.mdi-numeric-negative-1::before {\n  content: \"\\F0074\";\n}\n\n.mdi-nut::before {\n  content: \"\\F6F7\";\n}\n\n.mdi-nutrition::before {\n  content: \"\\F3C2\";\n}\n\n.mdi-nuxt::before {\n  content: \"\\F0131\";\n}\n\n.mdi-oar::before {\n  content: \"\\F67B\";\n}\n\n.mdi-ocarina::before {\n  content: \"\\FDBC\";\n}\n\n.mdi-oci::before {\n  content: \"\\F0314\";\n}\n\n.mdi-ocr::before {\n  content: \"\\F0165\";\n}\n\n.mdi-octagon::before {\n  content: \"\\F3C3\";\n}\n\n.mdi-octagon-outline::before {\n  content: \"\\F3C4\";\n}\n\n.mdi-octagram::before {\n  content: \"\\F6F8\";\n}\n\n.mdi-octagram-outline::before {\n  content: \"\\F774\";\n}\n\n.mdi-odnoklassniki::before {\n  content: \"\\F3C5\";\n}\n\n.mdi-offer::before {\n  content: \"\\F0246\";\n}\n\n.mdi-office::before {\n  content: \"\\F3C6\";\n}\n\n.mdi-office-building::before {\n  content: \"\\F990\";\n}\n\n.mdi-oil::before {\n  content: \"\\F3C7\";\n}\n\n.mdi-oil-lamp::before {\n  content: \"\\FF36\";\n}\n\n.mdi-oil-level::before {\n  content: \"\\F0075\";\n}\n\n.mdi-oil-temperature::before {\n  content: \"\\F0019\";\n}\n\n.mdi-omega::before {\n  content: \"\\F3C9\";\n}\n\n.mdi-one-up::before {\n  content: \"\\FB89\";\n}\n\n.mdi-onedrive::before {\n  content: \"\\F3CA\";\n}\n\n.mdi-onenote::before {\n  content: \"\\F746\";\n}\n\n.mdi-onepassword::before {\n  content: \"\\F880\";\n}\n\n.mdi-opacity::before {\n  content: \"\\F5CC\";\n}\n\n.mdi-open-in-app::before {\n  content: \"\\F3CB\";\n}\n\n.mdi-open-in-new::before {\n  content: \"\\F3CC\";\n}\n\n.mdi-open-source-initiative::before {\n  content: \"\\FB8A\";\n}\n\n.mdi-openid::before {\n  content: \"\\F3CD\";\n}\n\n.mdi-opera::before {\n  content: \"\\F3CE\";\n}\n\n.mdi-orbit::before {\n  content: \"\\F018\";\n}\n\n.mdi-origin::before {\n  content: \"\\FB2B\";\n}\n\n.mdi-ornament::before {\n  content: \"\\F3CF\";\n}\n\n.mdi-ornament-variant::before {\n  content: \"\\F3D0\";\n}\n\n.mdi-outdoor-lamp::before {\n  content: \"\\F0076\";\n}\n\n.mdi-outlook::before {\n  content: \"\\FCFE\";\n}\n\n.mdi-overscan::before {\n  content: \"\\F0027\";\n}\n\n.mdi-owl::before {\n  content: \"\\F3D2\";\n}\n\n.mdi-pac-man::before {\n  content: \"\\FB8B\";\n}\n\n.mdi-package::before {\n  content: \"\\F3D3\";\n}\n\n.mdi-package-down::before {\n  content: \"\\F3D4\";\n}\n\n.mdi-package-up::before {\n  content: \"\\F3D5\";\n}\n\n.mdi-package-variant::before {\n  content: \"\\F3D6\";\n}\n\n.mdi-package-variant-closed::before {\n  content: \"\\F3D7\";\n}\n\n.mdi-page-first::before {\n  content: \"\\F600\";\n}\n\n.mdi-page-last::before {\n  content: \"\\F601\";\n}\n\n.mdi-page-layout-body::before {\n  content: \"\\F6F9\";\n}\n\n.mdi-page-layout-footer::before {\n  content: \"\\F6FA\";\n}\n\n.mdi-page-layout-header::before {\n  content: \"\\F6FB\";\n}\n\n.mdi-page-layout-header-footer::before {\n  content: \"\\FF9C\";\n}\n\n.mdi-page-layout-sidebar-left::before {\n  content: \"\\F6FC\";\n}\n\n.mdi-page-layout-sidebar-right::before {\n  content: \"\\F6FD\";\n}\n\n.mdi-page-next::before {\n  content: \"\\FB8C\";\n}\n\n.mdi-page-next-outline::before {\n  content: \"\\FB8D\";\n}\n\n.mdi-page-previous::before {\n  content: \"\\FB8E\";\n}\n\n.mdi-page-previous-outline::before {\n  content: \"\\FB8F\";\n}\n\n.mdi-palette::before {\n  content: \"\\F3D8\";\n}\n\n.mdi-palette-advanced::before {\n  content: \"\\F3D9\";\n}\n\n.mdi-palette-outline::before {\n  content: \"\\FE6C\";\n}\n\n.mdi-palette-swatch::before {\n  content: \"\\F8B4\";\n}\n\n.mdi-palette-swatch-outline::before {\n  content: \"\\F0387\";\n}\n\n.mdi-palm-tree::before {\n  content: \"\\F0077\";\n}\n\n.mdi-pan::before {\n  content: \"\\FB90\";\n}\n\n.mdi-pan-bottom-left::before {\n  content: \"\\FB91\";\n}\n\n.mdi-pan-bottom-right::before {\n  content: \"\\FB92\";\n}\n\n.mdi-pan-down::before {\n  content: \"\\FB93\";\n}\n\n.mdi-pan-horizontal::before {\n  content: \"\\FB94\";\n}\n\n.mdi-pan-left::before {\n  content: \"\\FB95\";\n}\n\n.mdi-pan-right::before {\n  content: \"\\FB96\";\n}\n\n.mdi-pan-top-left::before {\n  content: \"\\FB97\";\n}\n\n.mdi-pan-top-right::before {\n  content: \"\\FB98\";\n}\n\n.mdi-pan-up::before {\n  content: \"\\FB99\";\n}\n\n.mdi-pan-vertical::before {\n  content: \"\\FB9A\";\n}\n\n.mdi-panda::before {\n  content: \"\\F3DA\";\n}\n\n.mdi-pandora::before {\n  content: \"\\F3DB\";\n}\n\n.mdi-panorama::before {\n  content: \"\\F3DC\";\n}\n\n.mdi-panorama-fisheye::before {\n  content: \"\\F3DD\";\n}\n\n.mdi-panorama-horizontal::before {\n  content: \"\\F3DE\";\n}\n\n.mdi-panorama-vertical::before {\n  content: \"\\F3DF\";\n}\n\n.mdi-panorama-wide-angle::before {\n  content: \"\\F3E0\";\n}\n\n.mdi-paper-cut-vertical::before {\n  content: \"\\F3E1\";\n}\n\n.mdi-paper-roll::before {\n  content: \"\\F0182\";\n}\n\n.mdi-paper-roll-outline::before {\n  content: \"\\F0183\";\n}\n\n.mdi-paperclip::before {\n  content: \"\\F3E2\";\n}\n\n.mdi-parachute::before {\n  content: \"\\FC90\";\n}\n\n.mdi-parachute-outline::before {\n  content: \"\\FC91\";\n}\n\n.mdi-parking::before {\n  content: \"\\F3E3\";\n}\n\n.mdi-party-popper::before {\n  content: \"\\F0078\";\n}\n\n.mdi-passport::before {\n  content: \"\\F7E2\";\n}\n\n.mdi-passport-biometric::before {\n  content: \"\\FDBD\";\n}\n\n.mdi-pasta::before {\n  content: \"\\F018B\";\n}\n\n.mdi-patio-heater::before {\n  content: \"\\FF9D\";\n}\n\n.mdi-patreon::before {\n  content: \"\\F881\";\n}\n\n.mdi-pause::before {\n  content: \"\\F3E4\";\n}\n\n.mdi-pause-circle::before {\n  content: \"\\F3E5\";\n}\n\n.mdi-pause-circle-outline::before {\n  content: \"\\F3E6\";\n}\n\n.mdi-pause-octagon::before {\n  content: \"\\F3E7\";\n}\n\n.mdi-pause-octagon-outline::before {\n  content: \"\\F3E8\";\n}\n\n.mdi-paw::before {\n  content: \"\\F3E9\";\n}\n\n.mdi-paw-off::before {\n  content: \"\\F657\";\n}\n\n.mdi-paypal::before {\n  content: \"\\F882\";\n}\n\n.mdi-pdf-box::before {\n  content: \"\\FE39\";\n}\n\n.mdi-peace::before {\n  content: \"\\F883\";\n}\n\n.mdi-peanut::before {\n  content: \"\\F001E\";\n}\n\n.mdi-peanut-off::before {\n  content: \"\\F001F\";\n}\n\n.mdi-peanut-off-outline::before {\n  content: \"\\F0021\";\n}\n\n.mdi-peanut-outline::before {\n  content: \"\\F0020\";\n}\n\n.mdi-pen::before {\n  content: \"\\F3EA\";\n}\n\n.mdi-pen-lock::before {\n  content: \"\\FDBE\";\n}\n\n.mdi-pen-minus::before {\n  content: \"\\FDBF\";\n}\n\n.mdi-pen-off::before {\n  content: \"\\FDC0\";\n}\n\n.mdi-pen-plus::before {\n  content: \"\\FDC1\";\n}\n\n.mdi-pen-remove::before {\n  content: \"\\FDC2\";\n}\n\n.mdi-pencil::before {\n  content: \"\\F3EB\";\n}\n\n.mdi-pencil-box::before {\n  content: \"\\F3EC\";\n}\n\n.mdi-pencil-box-multiple::before {\n  content: \"\\F016F\";\n}\n\n.mdi-pencil-box-multiple-outline::before {\n  content: \"\\F0170\";\n}\n\n.mdi-pencil-box-outline::before {\n  content: \"\\F3ED\";\n}\n\n.mdi-pencil-circle::before {\n  content: \"\\F6FE\";\n}\n\n.mdi-pencil-circle-outline::before {\n  content: \"\\F775\";\n}\n\n.mdi-pencil-lock::before {\n  content: \"\\F3EE\";\n}\n\n.mdi-pencil-lock-outline::before {\n  content: \"\\FDC3\";\n}\n\n.mdi-pencil-minus::before {\n  content: \"\\FDC4\";\n}\n\n.mdi-pencil-minus-outline::before {\n  content: \"\\FDC5\";\n}\n\n.mdi-pencil-off::before {\n  content: \"\\F3EF\";\n}\n\n.mdi-pencil-off-outline::before {\n  content: \"\\FDC6\";\n}\n\n.mdi-pencil-outline::before {\n  content: \"\\FC92\";\n}\n\n.mdi-pencil-plus::before {\n  content: \"\\FDC7\";\n}\n\n.mdi-pencil-plus-outline::before {\n  content: \"\\FDC8\";\n}\n\n.mdi-pencil-remove::before {\n  content: \"\\FDC9\";\n}\n\n.mdi-pencil-remove-outline::before {\n  content: \"\\FDCA\";\n}\n\n.mdi-pencil-ruler::before {\n  content: \"\\F037E\";\n}\n\n.mdi-penguin::before {\n  content: \"\\FEDD\";\n}\n\n.mdi-pentagon::before {\n  content: \"\\F6FF\";\n}\n\n.mdi-pentagon-outline::before {\n  content: \"\\F700\";\n}\n\n.mdi-percent::before {\n  content: \"\\F3F0\";\n}\n\n.mdi-percent-outline::before {\n  content: \"\\F02A3\";\n}\n\n.mdi-periodic-table::before {\n  content: \"\\F8B5\";\n}\n\n.mdi-periodic-table-co::before {\n  content: \"\\F0329\";\n}\n\n.mdi-periodic-table-co2::before {\n  content: \"\\F7E3\";\n}\n\n.mdi-periscope::before {\n  content: \"\\F747\";\n}\n\n.mdi-perspective-less::before {\n  content: \"\\FCFF\";\n}\n\n.mdi-perspective-more::before {\n  content: \"\\FD00\";\n}\n\n.mdi-pharmacy::before {\n  content: \"\\F3F1\";\n}\n\n.mdi-phone::before {\n  content: \"\\F3F2\";\n}\n\n.mdi-phone-alert::before {\n  content: \"\\FF37\";\n}\n\n.mdi-phone-alert-outline::before {\n  content: \"\\F01B9\";\n}\n\n.mdi-phone-bluetooth::before {\n  content: \"\\F3F3\";\n}\n\n.mdi-phone-bluetooth-outline::before {\n  content: \"\\F01BA\";\n}\n\n.mdi-phone-cancel::before {\n  content: \"\\F00E7\";\n}\n\n.mdi-phone-cancel-outline::before {\n  content: \"\\F01BB\";\n}\n\n.mdi-phone-check::before {\n  content: \"\\F01D4\";\n}\n\n.mdi-phone-check-outline::before {\n  content: \"\\F01D5\";\n}\n\n.mdi-phone-classic::before {\n  content: \"\\F602\";\n}\n\n.mdi-phone-classic-off::before {\n  content: \"\\F02A4\";\n}\n\n.mdi-phone-forward::before {\n  content: \"\\F3F4\";\n}\n\n.mdi-phone-forward-outline::before {\n  content: \"\\F01BC\";\n}\n\n.mdi-phone-hangup::before {\n  content: \"\\F3F5\";\n}\n\n.mdi-phone-hangup-outline::before {\n  content: \"\\F01BD\";\n}\n\n.mdi-phone-in-talk::before {\n  content: \"\\F3F6\";\n}\n\n.mdi-phone-in-talk-outline::before {\n  content: \"\\F01AD\";\n}\n\n.mdi-phone-incoming::before {\n  content: \"\\F3F7\";\n}\n\n.mdi-phone-incoming-outline::before {\n  content: \"\\F01BE\";\n}\n\n.mdi-phone-lock::before {\n  content: \"\\F3F8\";\n}\n\n.mdi-phone-lock-outline::before {\n  content: \"\\F01BF\";\n}\n\n.mdi-phone-log::before {\n  content: \"\\F3F9\";\n}\n\n.mdi-phone-log-outline::before {\n  content: \"\\F01C0\";\n}\n\n.mdi-phone-message::before {\n  content: \"\\F01C1\";\n}\n\n.mdi-phone-message-outline::before {\n  content: \"\\F01C2\";\n}\n\n.mdi-phone-minus::before {\n  content: \"\\F658\";\n}\n\n.mdi-phone-minus-outline::before {\n  content: \"\\F01C3\";\n}\n\n.mdi-phone-missed::before {\n  content: \"\\F3FA\";\n}\n\n.mdi-phone-missed-outline::before {\n  content: \"\\F01D0\";\n}\n\n.mdi-phone-off::before {\n  content: \"\\FDCB\";\n}\n\n.mdi-phone-off-outline::before {\n  content: \"\\F01D1\";\n}\n\n.mdi-phone-outgoing::before {\n  content: \"\\F3FB\";\n}\n\n.mdi-phone-outgoing-outline::before {\n  content: \"\\F01C4\";\n}\n\n.mdi-phone-outline::before {\n  content: \"\\FDCC\";\n}\n\n.mdi-phone-paused::before {\n  content: \"\\F3FC\";\n}\n\n.mdi-phone-paused-outline::before {\n  content: \"\\F01C5\";\n}\n\n.mdi-phone-plus::before {\n  content: \"\\F659\";\n}\n\n.mdi-phone-plus-outline::before {\n  content: \"\\F01C6\";\n}\n\n.mdi-phone-return::before {\n  content: \"\\F82E\";\n}\n\n.mdi-phone-return-outline::before {\n  content: \"\\F01C7\";\n}\n\n.mdi-phone-ring::before {\n  content: \"\\F01D6\";\n}\n\n.mdi-phone-ring-outline::before {\n  content: \"\\F01D7\";\n}\n\n.mdi-phone-rotate-landscape::before {\n  content: \"\\F884\";\n}\n\n.mdi-phone-rotate-portrait::before {\n  content: \"\\F885\";\n}\n\n.mdi-phone-settings::before {\n  content: \"\\F3FD\";\n}\n\n.mdi-phone-settings-outline::before {\n  content: \"\\F01C8\";\n}\n\n.mdi-phone-voip::before {\n  content: \"\\F3FE\";\n}\n\n.mdi-pi::before {\n  content: \"\\F3FF\";\n}\n\n.mdi-pi-box::before {\n  content: \"\\F400\";\n}\n\n.mdi-pi-hole::before {\n  content: \"\\FDCD\";\n}\n\n.mdi-piano::before {\n  content: \"\\F67C\";\n}\n\n.mdi-pickaxe::before {\n  content: \"\\F8B6\";\n}\n\n.mdi-picture-in-picture-bottom-right::before {\n  content: \"\\FE3A\";\n}\n\n.mdi-picture-in-picture-bottom-right-outline::before {\n  content: \"\\FE3B\";\n}\n\n.mdi-picture-in-picture-top-right::before {\n  content: \"\\FE3C\";\n}\n\n.mdi-picture-in-picture-top-right-outline::before {\n  content: \"\\FE3D\";\n}\n\n.mdi-pier::before {\n  content: \"\\F886\";\n}\n\n.mdi-pier-crane::before {\n  content: \"\\F887\";\n}\n\n.mdi-pig::before {\n  content: \"\\F401\";\n}\n\n.mdi-pig-variant::before {\n  content: \"\\F0028\";\n}\n\n.mdi-piggy-bank::before {\n  content: \"\\F0029\";\n}\n\n.mdi-pill::before {\n  content: \"\\F402\";\n}\n\n.mdi-pillar::before {\n  content: \"\\F701\";\n}\n\n.mdi-pin::before {\n  content: \"\\F403\";\n}\n\n.mdi-pin-off::before {\n  content: \"\\F404\";\n}\n\n.mdi-pin-off-outline::before {\n  content: \"\\F92F\";\n}\n\n.mdi-pin-outline::before {\n  content: \"\\F930\";\n}\n\n.mdi-pine-tree::before {\n  content: \"\\F405\";\n}\n\n.mdi-pine-tree-box::before {\n  content: \"\\F406\";\n}\n\n.mdi-pinterest::before {\n  content: \"\\F407\";\n}\n\n.mdi-pinterest-box::before {\n  content: \"\\F408\";\n}\n\n.mdi-pinwheel::before {\n  content: \"\\FAD4\";\n}\n\n.mdi-pinwheel-outline::before {\n  content: \"\\FAD5\";\n}\n\n.mdi-pipe::before {\n  content: \"\\F7E4\";\n}\n\n.mdi-pipe-disconnected::before {\n  content: \"\\F7E5\";\n}\n\n.mdi-pipe-leak::before {\n  content: \"\\F888\";\n}\n\n.mdi-pipe-wrench::before {\n  content: \"\\F037F\";\n}\n\n.mdi-pirate::before {\n  content: \"\\FA07\";\n}\n\n.mdi-pistol::before {\n  content: \"\\F702\";\n}\n\n.mdi-piston::before {\n  content: \"\\F889\";\n}\n\n.mdi-pizza::before {\n  content: \"\\F409\";\n}\n\n.mdi-play::before {\n  content: \"\\F40A\";\n}\n\n.mdi-play-box::before {\n  content: \"\\F02A5\";\n}\n\n.mdi-play-box-outline::before {\n  content: \"\\F40B\";\n}\n\n.mdi-play-circle::before {\n  content: \"\\F40C\";\n}\n\n.mdi-play-circle-outline::before {\n  content: \"\\F40D\";\n}\n\n.mdi-play-network::before {\n  content: \"\\F88A\";\n}\n\n.mdi-play-network-outline::before {\n  content: \"\\FC93\";\n}\n\n.mdi-play-outline::before {\n  content: \"\\FF38\";\n}\n\n.mdi-play-pause::before {\n  content: \"\\F40E\";\n}\n\n.mdi-play-protected-content::before {\n  content: \"\\F40F\";\n}\n\n.mdi-play-speed::before {\n  content: \"\\F8FE\";\n}\n\n.mdi-playlist-check::before {\n  content: \"\\F5C7\";\n}\n\n.mdi-playlist-edit::before {\n  content: \"\\F8FF\";\n}\n\n.mdi-playlist-minus::before {\n  content: \"\\F410\";\n}\n\n.mdi-playlist-music::before {\n  content: \"\\FC94\";\n}\n\n.mdi-playlist-music-outline::before {\n  content: \"\\FC95\";\n}\n\n.mdi-playlist-play::before {\n  content: \"\\F411\";\n}\n\n.mdi-playlist-plus::before {\n  content: \"\\F412\";\n}\n\n.mdi-playlist-remove::before {\n  content: \"\\F413\";\n}\n\n.mdi-playlist-star::before {\n  content: \"\\FDCE\";\n}\n\n.mdi-playstation::before {\n  content: \"\\F414\";\n}\n\n.mdi-plex::before {\n  content: \"\\F6B9\";\n}\n\n.mdi-plus::before {\n  content: \"\\F415\";\n}\n\n.mdi-plus-box::before {\n  content: \"\\F416\";\n}\n\n.mdi-plus-box-multiple::before {\n  content: \"\\F334\";\n}\n\n.mdi-plus-box-multiple-outline::before {\n  content: \"\\F016E\";\n}\n\n.mdi-plus-box-outline::before {\n  content: \"\\F703\";\n}\n\n.mdi-plus-circle::before {\n  content: \"\\F417\";\n}\n\n.mdi-plus-circle-multiple-outline::before {\n  content: \"\\F418\";\n}\n\n.mdi-plus-circle-outline::before {\n  content: \"\\F419\";\n}\n\n.mdi-plus-minus::before {\n  content: \"\\F991\";\n}\n\n.mdi-plus-minus-box::before {\n  content: \"\\F992\";\n}\n\n.mdi-plus-network::before {\n  content: \"\\F41A\";\n}\n\n.mdi-plus-network-outline::before {\n  content: \"\\FC96\";\n}\n\n.mdi-plus-one::before {\n  content: \"\\F41B\";\n}\n\n.mdi-plus-outline::before {\n  content: \"\\F704\";\n}\n\n.mdi-plus-thick::before {\n  content: \"\\F0217\";\n}\n\n.mdi-pocket::before {\n  content: \"\\F41C\";\n}\n\n.mdi-podcast::before {\n  content: \"\\F993\";\n}\n\n.mdi-podium::before {\n  content: \"\\FD01\";\n}\n\n.mdi-podium-bronze::before {\n  content: \"\\FD02\";\n}\n\n.mdi-podium-gold::before {\n  content: \"\\FD03\";\n}\n\n.mdi-podium-silver::before {\n  content: \"\\FD04\";\n}\n\n.mdi-point-of-sale::before {\n  content: \"\\FD6E\";\n}\n\n.mdi-pokeball::before {\n  content: \"\\F41D\";\n}\n\n.mdi-pokemon-go::before {\n  content: \"\\FA08\";\n}\n\n.mdi-poker-chip::before {\n  content: \"\\F82F\";\n}\n\n.mdi-polaroid::before {\n  content: \"\\F41E\";\n}\n\n.mdi-police-badge::before {\n  content: \"\\F0192\";\n}\n\n.mdi-police-badge-outline::before {\n  content: \"\\F0193\";\n}\n\n.mdi-poll::before {\n  content: \"\\F41F\";\n}\n\n.mdi-poll-box::before {\n  content: \"\\F420\";\n}\n\n.mdi-poll-box-outline::before {\n  content: \"\\F02A6\";\n}\n\n.mdi-polymer::before {\n  content: \"\\F421\";\n}\n\n.mdi-pool::before {\n  content: \"\\F606\";\n}\n\n.mdi-popcorn::before {\n  content: \"\\F422\";\n}\n\n.mdi-post::before {\n  content: \"\\F002A\";\n}\n\n.mdi-post-outline::before {\n  content: \"\\F002B\";\n}\n\n.mdi-postage-stamp::before {\n  content: \"\\FC97\";\n}\n\n.mdi-pot::before {\n  content: \"\\F65A\";\n}\n\n.mdi-pot-mix::before {\n  content: \"\\F65B\";\n}\n\n.mdi-pound::before {\n  content: \"\\F423\";\n}\n\n.mdi-pound-box::before {\n  content: \"\\F424\";\n}\n\n.mdi-pound-box-outline::before {\n  content: \"\\F01AA\";\n}\n\n.mdi-power::before {\n  content: \"\\F425\";\n}\n\n.mdi-power-cycle::before {\n  content: \"\\F900\";\n}\n\n.mdi-power-off::before {\n  content: \"\\F901\";\n}\n\n.mdi-power-on::before {\n  content: \"\\F902\";\n}\n\n.mdi-power-plug::before {\n  content: \"\\F6A4\";\n}\n\n.mdi-power-plug-off::before {\n  content: \"\\F6A5\";\n}\n\n.mdi-power-settings::before {\n  content: \"\\F426\";\n}\n\n.mdi-power-sleep::before {\n  content: \"\\F903\";\n}\n\n.mdi-power-socket::before {\n  content: \"\\F427\";\n}\n\n.mdi-power-socket-au::before {\n  content: \"\\F904\";\n}\n\n.mdi-power-socket-de::before {\n  content: \"\\F0132\";\n}\n\n.mdi-power-socket-eu::before {\n  content: \"\\F7E6\";\n}\n\n.mdi-power-socket-fr::before {\n  content: \"\\F0133\";\n}\n\n.mdi-power-socket-jp::before {\n  content: \"\\F0134\";\n}\n\n.mdi-power-socket-uk::before {\n  content: \"\\F7E7\";\n}\n\n.mdi-power-socket-us::before {\n  content: \"\\F7E8\";\n}\n\n.mdi-power-standby::before {\n  content: \"\\F905\";\n}\n\n.mdi-powershell::before {\n  content: \"\\FA09\";\n}\n\n.mdi-prescription::before {\n  content: \"\\F705\";\n}\n\n.mdi-presentation::before {\n  content: \"\\F428\";\n}\n\n.mdi-presentation-play::before {\n  content: \"\\F429\";\n}\n\n.mdi-printer::before {\n  content: \"\\F42A\";\n}\n\n.mdi-printer-3d::before {\n  content: \"\\F42B\";\n}\n\n.mdi-printer-3d-nozzle::before {\n  content: \"\\FE3E\";\n}\n\n.mdi-printer-3d-nozzle-alert::before {\n  content: \"\\F01EB\";\n}\n\n.mdi-printer-3d-nozzle-alert-outline::before {\n  content: \"\\F01EC\";\n}\n\n.mdi-printer-3d-nozzle-outline::before {\n  content: \"\\FE3F\";\n}\n\n.mdi-printer-alert::before {\n  content: \"\\F42C\";\n}\n\n.mdi-printer-check::before {\n  content: \"\\F0171\";\n}\n\n.mdi-printer-off::before {\n  content: \"\\FE40\";\n}\n\n.mdi-printer-pos::before {\n  content: \"\\F0079\";\n}\n\n.mdi-printer-settings::before {\n  content: \"\\F706\";\n}\n\n.mdi-printer-wireless::before {\n  content: \"\\FA0A\";\n}\n\n.mdi-priority-high::before {\n  content: \"\\F603\";\n}\n\n.mdi-priority-low::before {\n  content: \"\\F604\";\n}\n\n.mdi-professional-hexagon::before {\n  content: \"\\F42D\";\n}\n\n.mdi-progress-alert::before {\n  content: \"\\FC98\";\n}\n\n.mdi-progress-check::before {\n  content: \"\\F994\";\n}\n\n.mdi-progress-clock::before {\n  content: \"\\F995\";\n}\n\n.mdi-progress-close::before {\n  content: \"\\F0135\";\n}\n\n.mdi-progress-download::before {\n  content: \"\\F996\";\n}\n\n.mdi-progress-upload::before {\n  content: \"\\F997\";\n}\n\n.mdi-progress-wrench::before {\n  content: \"\\FC99\";\n}\n\n.mdi-projector::before {\n  content: \"\\F42E\";\n}\n\n.mdi-projector-screen::before {\n  content: \"\\F42F\";\n}\n\n.mdi-propane-tank::before {\n  content: \"\\F0382\";\n}\n\n.mdi-propane-tank-outline::before {\n  content: \"\\F0383\";\n}\n\n.mdi-protocol::before {\n  content: \"\\FFF9\";\n}\n\n.mdi-publish::before {\n  content: \"\\F6A6\";\n}\n\n.mdi-pulse::before {\n  content: \"\\F430\";\n}\n\n.mdi-pumpkin::before {\n  content: \"\\FB9B\";\n}\n\n.mdi-purse::before {\n  content: \"\\FF39\";\n}\n\n.mdi-purse-outline::before {\n  content: \"\\FF3A\";\n}\n\n.mdi-puzzle::before {\n  content: \"\\F431\";\n}\n\n.mdi-puzzle-outline::before {\n  content: \"\\FA65\";\n}\n\n.mdi-qi::before {\n  content: \"\\F998\";\n}\n\n.mdi-qqchat::before {\n  content: \"\\F605\";\n}\n\n.mdi-qrcode::before {\n  content: \"\\F432\";\n}\n\n.mdi-qrcode-edit::before {\n  content: \"\\F8B7\";\n}\n\n.mdi-qrcode-minus::before {\n  content: \"\\F01B7\";\n}\n\n.mdi-qrcode-plus::before {\n  content: \"\\F01B6\";\n}\n\n.mdi-qrcode-remove::before {\n  content: \"\\F01B8\";\n}\n\n.mdi-qrcode-scan::before {\n  content: \"\\F433\";\n}\n\n.mdi-quadcopter::before {\n  content: \"\\F434\";\n}\n\n.mdi-quality-high::before {\n  content: \"\\F435\";\n}\n\n.mdi-quality-low::before {\n  content: \"\\FA0B\";\n}\n\n.mdi-quality-medium::before {\n  content: \"\\FA0C\";\n}\n\n.mdi-quicktime::before {\n  content: \"\\F436\";\n}\n\n.mdi-quora::before {\n  content: \"\\FD05\";\n}\n\n.mdi-rabbit::before {\n  content: \"\\F906\";\n}\n\n.mdi-racing-helmet::before {\n  content: \"\\FD6F\";\n}\n\n.mdi-racquetball::before {\n  content: \"\\FD70\";\n}\n\n.mdi-radar::before {\n  content: \"\\F437\";\n}\n\n.mdi-radiator::before {\n  content: \"\\F438\";\n}\n\n.mdi-radiator-disabled::before {\n  content: \"\\FAD6\";\n}\n\n.mdi-radiator-off::before {\n  content: \"\\FAD7\";\n}\n\n.mdi-radio::before {\n  content: \"\\F439\";\n}\n\n.mdi-radio-am::before {\n  content: \"\\FC9A\";\n}\n\n.mdi-radio-fm::before {\n  content: \"\\FC9B\";\n}\n\n.mdi-radio-handheld::before {\n  content: \"\\F43A\";\n}\n\n.mdi-radio-off::before {\n  content: \"\\F0247\";\n}\n\n.mdi-radio-tower::before {\n  content: \"\\F43B\";\n}\n\n.mdi-radioactive::before {\n  content: \"\\F43C\";\n}\n\n.mdi-radioactive-off::before {\n  content: \"\\FEDE\";\n}\n\n.mdi-radiobox-blank::before {\n  content: \"\\F43D\";\n}\n\n.mdi-radiobox-marked::before {\n  content: \"\\F43E\";\n}\n\n.mdi-radius::before {\n  content: \"\\FC9C\";\n}\n\n.mdi-radius-outline::before {\n  content: \"\\FC9D\";\n}\n\n.mdi-railroad-light::before {\n  content: \"\\FF3B\";\n}\n\n.mdi-raspberry-pi::before {\n  content: \"\\F43F\";\n}\n\n.mdi-ray-end::before {\n  content: \"\\F440\";\n}\n\n.mdi-ray-end-arrow::before {\n  content: \"\\F441\";\n}\n\n.mdi-ray-start::before {\n  content: \"\\F442\";\n}\n\n.mdi-ray-start-arrow::before {\n  content: \"\\F443\";\n}\n\n.mdi-ray-start-end::before {\n  content: \"\\F444\";\n}\n\n.mdi-ray-vertex::before {\n  content: \"\\F445\";\n}\n\n.mdi-react::before {\n  content: \"\\F707\";\n}\n\n.mdi-read::before {\n  content: \"\\F447\";\n}\n\n.mdi-receipt::before {\n  content: \"\\F449\";\n}\n\n.mdi-record::before {\n  content: \"\\F44A\";\n}\n\n.mdi-record-circle::before {\n  content: \"\\FEDF\";\n}\n\n.mdi-record-circle-outline::before {\n  content: \"\\FEE0\";\n}\n\n.mdi-record-player::before {\n  content: \"\\F999\";\n}\n\n.mdi-record-rec::before {\n  content: \"\\F44B\";\n}\n\n.mdi-rectangle::before {\n  content: \"\\FE41\";\n}\n\n.mdi-rectangle-outline::before {\n  content: \"\\FE42\";\n}\n\n.mdi-recycle::before {\n  content: \"\\F44C\";\n}\n\n.mdi-reddit::before {\n  content: \"\\F44D\";\n}\n\n.mdi-redhat::before {\n  content: \"\\F0146\";\n}\n\n.mdi-redo::before {\n  content: \"\\F44E\";\n}\n\n.mdi-redo-variant::before {\n  content: \"\\F44F\";\n}\n\n.mdi-reflect-horizontal::before {\n  content: \"\\FA0D\";\n}\n\n.mdi-reflect-vertical::before {\n  content: \"\\FA0E\";\n}\n\n.mdi-refresh::before {\n  content: \"\\F450\";\n}\n\n.mdi-refresh-circle::before {\n  content: \"\\F03A2\";\n}\n\n.mdi-regex::before {\n  content: \"\\F451\";\n}\n\n.mdi-registered-trademark::before {\n  content: \"\\FA66\";\n}\n\n.mdi-relative-scale::before {\n  content: \"\\F452\";\n}\n\n.mdi-reload::before {\n  content: \"\\F453\";\n}\n\n.mdi-reload-alert::before {\n  content: \"\\F0136\";\n}\n\n.mdi-reminder::before {\n  content: \"\\F88B\";\n}\n\n.mdi-remote::before {\n  content: \"\\F454\";\n}\n\n.mdi-remote-desktop::before {\n  content: \"\\F8B8\";\n}\n\n.mdi-remote-off::before {\n  content: \"\\FEE1\";\n}\n\n.mdi-remote-tv::before {\n  content: \"\\FEE2\";\n}\n\n.mdi-remote-tv-off::before {\n  content: \"\\FEE3\";\n}\n\n.mdi-rename-box::before {\n  content: \"\\F455\";\n}\n\n.mdi-reorder-horizontal::before {\n  content: \"\\F687\";\n}\n\n.mdi-reorder-vertical::before {\n  content: \"\\F688\";\n}\n\n.mdi-repeat::before {\n  content: \"\\F456\";\n}\n\n.mdi-repeat-off::before {\n  content: \"\\F457\";\n}\n\n.mdi-repeat-once::before {\n  content: \"\\F458\";\n}\n\n.mdi-replay::before {\n  content: \"\\F459\";\n}\n\n.mdi-reply::before {\n  content: \"\\F45A\";\n}\n\n.mdi-reply-all::before {\n  content: \"\\F45B\";\n}\n\n.mdi-reply-all-outline::before {\n  content: \"\\FF3C\";\n}\n\n.mdi-reply-circle::before {\n  content: \"\\F01D9\";\n}\n\n.mdi-reply-outline::before {\n  content: \"\\FF3D\";\n}\n\n.mdi-reproduction::before {\n  content: \"\\F45C\";\n}\n\n.mdi-resistor::before {\n  content: \"\\FB1F\";\n}\n\n.mdi-resistor-nodes::before {\n  content: \"\\FB20\";\n}\n\n.mdi-resize::before {\n  content: \"\\FA67\";\n}\n\n.mdi-resize-bottom-right::before {\n  content: \"\\F45D\";\n}\n\n.mdi-responsive::before {\n  content: \"\\F45E\";\n}\n\n.mdi-restart::before {\n  content: \"\\F708\";\n}\n\n.mdi-restart-alert::before {\n  content: \"\\F0137\";\n}\n\n.mdi-restart-off::before {\n  content: \"\\FD71\";\n}\n\n.mdi-restore::before {\n  content: \"\\F99A\";\n}\n\n.mdi-restore-alert::before {\n  content: \"\\F0138\";\n}\n\n.mdi-rewind::before {\n  content: \"\\F45F\";\n}\n\n.mdi-rewind-10::before {\n  content: \"\\FD06\";\n}\n\n.mdi-rewind-30::before {\n  content: \"\\FD72\";\n}\n\n.mdi-rewind-5::before {\n  content: \"\\F0224\";\n}\n\n.mdi-rewind-outline::before {\n  content: \"\\F709\";\n}\n\n.mdi-rhombus::before {\n  content: \"\\F70A\";\n}\n\n.mdi-rhombus-medium::before {\n  content: \"\\FA0F\";\n}\n\n.mdi-rhombus-outline::before {\n  content: \"\\F70B\";\n}\n\n.mdi-rhombus-split::before {\n  content: \"\\FA10\";\n}\n\n.mdi-ribbon::before {\n  content: \"\\F460\";\n}\n\n.mdi-rice::before {\n  content: \"\\F7E9\";\n}\n\n.mdi-ring::before {\n  content: \"\\F7EA\";\n}\n\n.mdi-rivet::before {\n  content: \"\\FE43\";\n}\n\n.mdi-road::before {\n  content: \"\\F461\";\n}\n\n.mdi-road-variant::before {\n  content: \"\\F462\";\n}\n\n.mdi-robber::before {\n  content: \"\\F007A\";\n}\n\n.mdi-robot::before {\n  content: \"\\F6A8\";\n}\n\n.mdi-robot-industrial::before {\n  content: \"\\FB21\";\n}\n\n.mdi-robot-mower::before {\n  content: \"\\F0222\";\n}\n\n.mdi-robot-mower-outline::before {\n  content: \"\\F021E\";\n}\n\n.mdi-robot-vacuum::before {\n  content: \"\\F70C\";\n}\n\n.mdi-robot-vacuum-variant::before {\n  content: \"\\F907\";\n}\n\n.mdi-rocket::before {\n  content: \"\\F463\";\n}\n\n.mdi-rodent::before {\n  content: \"\\F0352\";\n}\n\n.mdi-roller-skate::before {\n  content: \"\\FD07\";\n}\n\n.mdi-rollerblade::before {\n  content: \"\\FD08\";\n}\n\n.mdi-rollupjs::before {\n  content: \"\\FB9C\";\n}\n\n.mdi-roman-numeral-1::before {\n  content: \"\\F00B3\";\n}\n\n.mdi-roman-numeral-10::before {\n  content: \"\\F00BC\";\n}\n\n.mdi-roman-numeral-2::before {\n  content: \"\\F00B4\";\n}\n\n.mdi-roman-numeral-3::before {\n  content: \"\\F00B5\";\n}\n\n.mdi-roman-numeral-4::before {\n  content: \"\\F00B6\";\n}\n\n.mdi-roman-numeral-5::before {\n  content: \"\\F00B7\";\n}\n\n.mdi-roman-numeral-6::before {\n  content: \"\\F00B8\";\n}\n\n.mdi-roman-numeral-7::before {\n  content: \"\\F00B9\";\n}\n\n.mdi-roman-numeral-8::before {\n  content: \"\\F00BA\";\n}\n\n.mdi-roman-numeral-9::before {\n  content: \"\\F00BB\";\n}\n\n.mdi-room-service::before {\n  content: \"\\F88C\";\n}\n\n.mdi-room-service-outline::before {\n  content: \"\\FD73\";\n}\n\n.mdi-rotate-3d::before {\n  content: \"\\FEE4\";\n}\n\n.mdi-rotate-3d-variant::before {\n  content: \"\\F464\";\n}\n\n.mdi-rotate-left::before {\n  content: \"\\F465\";\n}\n\n.mdi-rotate-left-variant::before {\n  content: \"\\F466\";\n}\n\n.mdi-rotate-orbit::before {\n  content: \"\\FD74\";\n}\n\n.mdi-rotate-right::before {\n  content: \"\\F467\";\n}\n\n.mdi-rotate-right-variant::before {\n  content: \"\\F468\";\n}\n\n.mdi-rounded-corner::before {\n  content: \"\\F607\";\n}\n\n.mdi-router::before {\n  content: \"\\F020D\";\n}\n\n.mdi-router-wireless::before {\n  content: \"\\F469\";\n}\n\n.mdi-router-wireless-settings::before {\n  content: \"\\FA68\";\n}\n\n.mdi-routes::before {\n  content: \"\\F46A\";\n}\n\n.mdi-routes-clock::before {\n  content: \"\\F007B\";\n}\n\n.mdi-rowing::before {\n  content: \"\\F608\";\n}\n\n.mdi-rss::before {\n  content: \"\\F46B\";\n}\n\n.mdi-rss-box::before {\n  content: \"\\F46C\";\n}\n\n.mdi-rss-off::before {\n  content: \"\\FF3E\";\n}\n\n.mdi-ruby::before {\n  content: \"\\FD09\";\n}\n\n.mdi-rugby::before {\n  content: \"\\FD75\";\n}\n\n.mdi-ruler::before {\n  content: \"\\F46D\";\n}\n\n.mdi-ruler-square::before {\n  content: \"\\FC9E\";\n}\n\n.mdi-ruler-square-compass::before {\n  content: \"\\FEDB\";\n}\n\n.mdi-run::before {\n  content: \"\\F70D\";\n}\n\n.mdi-run-fast::before {\n  content: \"\\F46E\";\n}\n\n.mdi-rv-truck::before {\n  content: \"\\F01FF\";\n}\n\n.mdi-sack::before {\n  content: \"\\FD0A\";\n}\n\n.mdi-sack-percent::before {\n  content: \"\\FD0B\";\n}\n\n.mdi-safe::before {\n  content: \"\\FA69\";\n}\n\n.mdi-safe-square::before {\n  content: \"\\F02A7\";\n}\n\n.mdi-safe-square-outline::before {\n  content: \"\\F02A8\";\n}\n\n.mdi-safety-goggles::before {\n  content: \"\\FD0C\";\n}\n\n.mdi-sailing::before {\n  content: \"\\FEE5\";\n}\n\n.mdi-sale::before {\n  content: \"\\F46F\";\n}\n\n.mdi-salesforce::before {\n  content: \"\\F88D\";\n}\n\n.mdi-sass::before {\n  content: \"\\F7EB\";\n}\n\n.mdi-satellite::before {\n  content: \"\\F470\";\n}\n\n.mdi-satellite-uplink::before {\n  content: \"\\F908\";\n}\n\n.mdi-satellite-variant::before {\n  content: \"\\F471\";\n}\n\n.mdi-sausage::before {\n  content: \"\\F8B9\";\n}\n\n.mdi-saw-blade::before {\n  content: \"\\FE44\";\n}\n\n.mdi-saxophone::before {\n  content: \"\\F609\";\n}\n\n.mdi-scale::before {\n  content: \"\\F472\";\n}\n\n.mdi-scale-balance::before {\n  content: \"\\F5D1\";\n}\n\n.mdi-scale-bathroom::before {\n  content: \"\\F473\";\n}\n\n.mdi-scale-off::before {\n  content: \"\\F007C\";\n}\n\n.mdi-scanner::before {\n  content: \"\\F6AA\";\n}\n\n.mdi-scanner-off::before {\n  content: \"\\F909\";\n}\n\n.mdi-scatter-plot::before {\n  content: \"\\FEE6\";\n}\n\n.mdi-scatter-plot-outline::before {\n  content: \"\\FEE7\";\n}\n\n.mdi-school::before {\n  content: \"\\F474\";\n}\n\n.mdi-school-outline::before {\n  content: \"\\F01AB\";\n}\n\n.mdi-scissors-cutting::before {\n  content: \"\\FA6A\";\n}\n\n.mdi-scooter::before {\n  content: \"\\F0214\";\n}\n\n.mdi-scoreboard::before {\n  content: \"\\F02A9\";\n}\n\n.mdi-scoreboard-outline::before {\n  content: \"\\F02AA\";\n}\n\n.mdi-screen-rotation::before {\n  content: \"\\F475\";\n}\n\n.mdi-screen-rotation-lock::before {\n  content: \"\\F476\";\n}\n\n.mdi-screw-flat-top::before {\n  content: \"\\FDCF\";\n}\n\n.mdi-screw-lag::before {\n  content: \"\\FE54\";\n}\n\n.mdi-screw-machine-flat-top::before {\n  content: \"\\FE55\";\n}\n\n.mdi-screw-machine-round-top::before {\n  content: \"\\FE56\";\n}\n\n.mdi-screw-round-top::before {\n  content: \"\\FE57\";\n}\n\n.mdi-screwdriver::before {\n  content: \"\\F477\";\n}\n\n.mdi-script::before {\n  content: \"\\FB9D\";\n}\n\n.mdi-script-outline::before {\n  content: \"\\F478\";\n}\n\n.mdi-script-text::before {\n  content: \"\\FB9E\";\n}\n\n.mdi-script-text-outline::before {\n  content: \"\\FB9F\";\n}\n\n.mdi-sd::before {\n  content: \"\\F479\";\n}\n\n.mdi-seal::before {\n  content: \"\\F47A\";\n}\n\n.mdi-seal-variant::before {\n  content: \"\\FFFA\";\n}\n\n.mdi-search-web::before {\n  content: \"\\F70E\";\n}\n\n.mdi-seat::before {\n  content: \"\\FC9F\";\n}\n\n.mdi-seat-flat::before {\n  content: \"\\F47B\";\n}\n\n.mdi-seat-flat-angled::before {\n  content: \"\\F47C\";\n}\n\n.mdi-seat-individual-suite::before {\n  content: \"\\F47D\";\n}\n\n.mdi-seat-legroom-extra::before {\n  content: \"\\F47E\";\n}\n\n.mdi-seat-legroom-normal::before {\n  content: \"\\F47F\";\n}\n\n.mdi-seat-legroom-reduced::before {\n  content: \"\\F480\";\n}\n\n.mdi-seat-outline::before {\n  content: \"\\FCA0\";\n}\n\n.mdi-seat-passenger::before {\n  content: \"\\F0274\";\n}\n\n.mdi-seat-recline-extra::before {\n  content: \"\\F481\";\n}\n\n.mdi-seat-recline-normal::before {\n  content: \"\\F482\";\n}\n\n.mdi-seatbelt::before {\n  content: \"\\FCA1\";\n}\n\n.mdi-security::before {\n  content: \"\\F483\";\n}\n\n.mdi-security-network::before {\n  content: \"\\F484\";\n}\n\n.mdi-seed::before {\n  content: \"\\FE45\";\n}\n\n.mdi-seed-outline::before {\n  content: \"\\FE46\";\n}\n\n.mdi-segment::before {\n  content: \"\\FEE8\";\n}\n\n.mdi-select::before {\n  content: \"\\F485\";\n}\n\n.mdi-select-all::before {\n  content: \"\\F486\";\n}\n\n.mdi-select-color::before {\n  content: \"\\FD0D\";\n}\n\n.mdi-select-compare::before {\n  content: \"\\FAD8\";\n}\n\n.mdi-select-drag::before {\n  content: \"\\FA6B\";\n}\n\n.mdi-select-group::before {\n  content: \"\\FF9F\";\n}\n\n.mdi-select-inverse::before {\n  content: \"\\F487\";\n}\n\n.mdi-select-marker::before {\n  content: \"\\F02AB\";\n}\n\n.mdi-select-multiple::before {\n  content: \"\\F02AC\";\n}\n\n.mdi-select-multiple-marker::before {\n  content: \"\\F02AD\";\n}\n\n.mdi-select-off::before {\n  content: \"\\F488\";\n}\n\n.mdi-select-place::before {\n  content: \"\\FFFB\";\n}\n\n.mdi-select-search::before {\n  content: \"\\F022F\";\n}\n\n.mdi-selection::before {\n  content: \"\\F489\";\n}\n\n.mdi-selection-drag::before {\n  content: \"\\FA6C\";\n}\n\n.mdi-selection-ellipse::before {\n  content: \"\\FD0E\";\n}\n\n.mdi-selection-ellipse-arrow-inside::before {\n  content: \"\\FF3F\";\n}\n\n.mdi-selection-marker::before {\n  content: \"\\F02AE\";\n}\n\n.mdi-selection-multiple-marker::before {\n  content: \"\\F02AF\";\n}\n\n.mdi-selection-mutliple::before {\n  content: \"\\F02B0\";\n}\n\n.mdi-selection-off::before {\n  content: \"\\F776\";\n}\n\n.mdi-selection-search::before {\n  content: \"\\F0230\";\n}\n\n.mdi-semantic-web::before {\n  content: \"\\F0341\";\n}\n\n.mdi-send::before {\n  content: \"\\F48A\";\n}\n\n.mdi-send-check::before {\n  content: \"\\F018C\";\n}\n\n.mdi-send-check-outline::before {\n  content: \"\\F018D\";\n}\n\n.mdi-send-circle::before {\n  content: \"\\FE58\";\n}\n\n.mdi-send-circle-outline::before {\n  content: \"\\FE59\";\n}\n\n.mdi-send-clock::before {\n  content: \"\\F018E\";\n}\n\n.mdi-send-clock-outline::before {\n  content: \"\\F018F\";\n}\n\n.mdi-send-lock::before {\n  content: \"\\F7EC\";\n}\n\n.mdi-send-lock-outline::before {\n  content: \"\\F0191\";\n}\n\n.mdi-send-outline::before {\n  content: \"\\F0190\";\n}\n\n.mdi-serial-port::before {\n  content: \"\\F65C\";\n}\n\n.mdi-server::before {\n  content: \"\\F48B\";\n}\n\n.mdi-server-minus::before {\n  content: \"\\F48C\";\n}\n\n.mdi-server-network::before {\n  content: \"\\F48D\";\n}\n\n.mdi-server-network-off::before {\n  content: \"\\F48E\";\n}\n\n.mdi-server-off::before {\n  content: \"\\F48F\";\n}\n\n.mdi-server-plus::before {\n  content: \"\\F490\";\n}\n\n.mdi-server-remove::before {\n  content: \"\\F491\";\n}\n\n.mdi-server-security::before {\n  content: \"\\F492\";\n}\n\n.mdi-set-all::before {\n  content: \"\\F777\";\n}\n\n.mdi-set-center::before {\n  content: \"\\F778\";\n}\n\n.mdi-set-center-right::before {\n  content: \"\\F779\";\n}\n\n.mdi-set-left::before {\n  content: \"\\F77A\";\n}\n\n.mdi-set-left-center::before {\n  content: \"\\F77B\";\n}\n\n.mdi-set-left-right::before {\n  content: \"\\F77C\";\n}\n\n.mdi-set-none::before {\n  content: \"\\F77D\";\n}\n\n.mdi-set-right::before {\n  content: \"\\F77E\";\n}\n\n.mdi-set-top-box::before {\n  content: \"\\F99E\";\n}\n\n.mdi-settings::before {\n  content: \"\\F493\";\n}\n\n.mdi-settings-box::before {\n  content: \"\\F494\";\n}\n\n.mdi-settings-helper::before {\n  content: \"\\FA6D\";\n}\n\n.mdi-settings-outline::before {\n  content: \"\\F8BA\";\n}\n\n.mdi-settings-transfer::before {\n  content: \"\\F007D\";\n}\n\n.mdi-settings-transfer-outline::before {\n  content: \"\\F007E\";\n}\n\n.mdi-shaker::before {\n  content: \"\\F0139\";\n}\n\n.mdi-shaker-outline::before {\n  content: \"\\F013A\";\n}\n\n.mdi-shape::before {\n  content: \"\\F830\";\n}\n\n.mdi-shape-circle-plus::before {\n  content: \"\\F65D\";\n}\n\n.mdi-shape-outline::before {\n  content: \"\\F831\";\n}\n\n.mdi-shape-oval-plus::before {\n  content: \"\\F0225\";\n}\n\n.mdi-shape-plus::before {\n  content: \"\\F495\";\n}\n\n.mdi-shape-polygon-plus::before {\n  content: \"\\F65E\";\n}\n\n.mdi-shape-rectangle-plus::before {\n  content: \"\\F65F\";\n}\n\n.mdi-shape-square-plus::before {\n  content: \"\\F660\";\n}\n\n.mdi-share::before {\n  content: \"\\F496\";\n}\n\n.mdi-share-all::before {\n  content: \"\\F021F\";\n}\n\n.mdi-share-all-outline::before {\n  content: \"\\F0220\";\n}\n\n.mdi-share-circle::before {\n  content: \"\\F01D8\";\n}\n\n.mdi-share-off::before {\n  content: \"\\FF40\";\n}\n\n.mdi-share-off-outline::before {\n  content: \"\\FF41\";\n}\n\n.mdi-share-outline::before {\n  content: \"\\F931\";\n}\n\n.mdi-share-variant::before {\n  content: \"\\F497\";\n}\n\n.mdi-sheep::before {\n  content: \"\\FCA2\";\n}\n\n.mdi-shield::before {\n  content: \"\\F498\";\n}\n\n.mdi-shield-account::before {\n  content: \"\\F88E\";\n}\n\n.mdi-shield-account-outline::before {\n  content: \"\\FA11\";\n}\n\n.mdi-shield-airplane::before {\n  content: \"\\F6BA\";\n}\n\n.mdi-shield-airplane-outline::before {\n  content: \"\\FCA3\";\n}\n\n.mdi-shield-alert::before {\n  content: \"\\FEE9\";\n}\n\n.mdi-shield-alert-outline::before {\n  content: \"\\FEEA\";\n}\n\n.mdi-shield-car::before {\n  content: \"\\FFA0\";\n}\n\n.mdi-shield-check::before {\n  content: \"\\F565\";\n}\n\n.mdi-shield-check-outline::before {\n  content: \"\\FCA4\";\n}\n\n.mdi-shield-cross::before {\n  content: \"\\FCA5\";\n}\n\n.mdi-shield-cross-outline::before {\n  content: \"\\FCA6\";\n}\n\n.mdi-shield-edit::before {\n  content: \"\\F01CB\";\n}\n\n.mdi-shield-edit-outline::before {\n  content: \"\\F01CC\";\n}\n\n.mdi-shield-half::before {\n  content: \"\\F038B\";\n}\n\n.mdi-shield-half-full::before {\n  content: \"\\F77F\";\n}\n\n.mdi-shield-home::before {\n  content: \"\\F689\";\n}\n\n.mdi-shield-home-outline::before {\n  content: \"\\FCA7\";\n}\n\n.mdi-shield-key::before {\n  content: \"\\FBA0\";\n}\n\n.mdi-shield-key-outline::before {\n  content: \"\\FBA1\";\n}\n\n.mdi-shield-link-variant::before {\n  content: \"\\FD0F\";\n}\n\n.mdi-shield-link-variant-outline::before {\n  content: \"\\FD10\";\n}\n\n.mdi-shield-lock::before {\n  content: \"\\F99C\";\n}\n\n.mdi-shield-lock-outline::before {\n  content: \"\\FCA8\";\n}\n\n.mdi-shield-off::before {\n  content: \"\\F99D\";\n}\n\n.mdi-shield-off-outline::before {\n  content: \"\\F99B\";\n}\n\n.mdi-shield-outline::before {\n  content: \"\\F499\";\n}\n\n.mdi-shield-plus::before {\n  content: \"\\FAD9\";\n}\n\n.mdi-shield-plus-outline::before {\n  content: \"\\FADA\";\n}\n\n.mdi-shield-refresh::before {\n  content: \"\\F01CD\";\n}\n\n.mdi-shield-refresh-outline::before {\n  content: \"\\F01CE\";\n}\n\n.mdi-shield-remove::before {\n  content: \"\\FADB\";\n}\n\n.mdi-shield-remove-outline::before {\n  content: \"\\FADC\";\n}\n\n.mdi-shield-search::before {\n  content: \"\\FD76\";\n}\n\n.mdi-shield-star::before {\n  content: \"\\F0166\";\n}\n\n.mdi-shield-star-outline::before {\n  content: \"\\F0167\";\n}\n\n.mdi-shield-sun::before {\n  content: \"\\F007F\";\n}\n\n.mdi-shield-sun-outline::before {\n  content: \"\\F0080\";\n}\n\n.mdi-ship-wheel::before {\n  content: \"\\F832\";\n}\n\n.mdi-shoe-formal::before {\n  content: \"\\FB22\";\n}\n\n.mdi-shoe-heel::before {\n  content: \"\\FB23\";\n}\n\n.mdi-shoe-print::before {\n  content: \"\\FE5A\";\n}\n\n.mdi-shopify::before {\n  content: \"\\FADD\";\n}\n\n.mdi-shopping::before {\n  content: \"\\F49A\";\n}\n\n.mdi-shopping-music::before {\n  content: \"\\F49B\";\n}\n\n.mdi-shopping-outline::before {\n  content: \"\\F0200\";\n}\n\n.mdi-shopping-search::before {\n  content: \"\\FFA1\";\n}\n\n.mdi-shovel::before {\n  content: \"\\F70F\";\n}\n\n.mdi-shovel-off::before {\n  content: \"\\F710\";\n}\n\n.mdi-shower::before {\n  content: \"\\F99F\";\n}\n\n.mdi-shower-head::before {\n  content: \"\\F9A0\";\n}\n\n.mdi-shredder::before {\n  content: \"\\F49C\";\n}\n\n.mdi-shuffle::before {\n  content: \"\\F49D\";\n}\n\n.mdi-shuffle-disabled::before {\n  content: \"\\F49E\";\n}\n\n.mdi-shuffle-variant::before {\n  content: \"\\F49F\";\n}\n\n.mdi-shuriken::before {\n  content: \"\\F03AA\";\n}\n\n.mdi-sigma::before {\n  content: \"\\F4A0\";\n}\n\n.mdi-sigma-lower::before {\n  content: \"\\F62B\";\n}\n\n.mdi-sign-caution::before {\n  content: \"\\F4A1\";\n}\n\n.mdi-sign-direction::before {\n  content: \"\\F780\";\n}\n\n.mdi-sign-direction-minus::before {\n  content: \"\\F0022\";\n}\n\n.mdi-sign-direction-plus::before {\n  content: \"\\FFFD\";\n}\n\n.mdi-sign-direction-remove::before {\n  content: \"\\FFFE\";\n}\n\n.mdi-sign-real-estate::before {\n  content: \"\\F0143\";\n}\n\n.mdi-sign-text::before {\n  content: \"\\F781\";\n}\n\n.mdi-signal::before {\n  content: \"\\F4A2\";\n}\n\n.mdi-signal-2g::before {\n  content: \"\\F711\";\n}\n\n.mdi-signal-3g::before {\n  content: \"\\F712\";\n}\n\n.mdi-signal-4g::before {\n  content: \"\\F713\";\n}\n\n.mdi-signal-5g::before {\n  content: \"\\FA6E\";\n}\n\n.mdi-signal-cellular-1::before {\n  content: \"\\F8BB\";\n}\n\n.mdi-signal-cellular-2::before {\n  content: \"\\F8BC\";\n}\n\n.mdi-signal-cellular-3::before {\n  content: \"\\F8BD\";\n}\n\n.mdi-signal-cellular-outline::before {\n  content: \"\\F8BE\";\n}\n\n.mdi-signal-distance-variant::before {\n  content: \"\\FE47\";\n}\n\n.mdi-signal-hspa::before {\n  content: \"\\F714\";\n}\n\n.mdi-signal-hspa-plus::before {\n  content: \"\\F715\";\n}\n\n.mdi-signal-off::before {\n  content: \"\\F782\";\n}\n\n.mdi-signal-variant::before {\n  content: \"\\F60A\";\n}\n\n.mdi-signature::before {\n  content: \"\\FE5B\";\n}\n\n.mdi-signature-freehand::before {\n  content: \"\\FE5C\";\n}\n\n.mdi-signature-image::before {\n  content: \"\\FE5D\";\n}\n\n.mdi-signature-text::before {\n  content: \"\\FE5E\";\n}\n\n.mdi-silo::before {\n  content: \"\\FB24\";\n}\n\n.mdi-silverware::before {\n  content: \"\\F4A3\";\n}\n\n.mdi-silverware-clean::before {\n  content: \"\\FFFF\";\n}\n\n.mdi-silverware-fork::before {\n  content: \"\\F4A4\";\n}\n\n.mdi-silverware-fork-knife::before {\n  content: \"\\FA6F\";\n}\n\n.mdi-silverware-spoon::before {\n  content: \"\\F4A5\";\n}\n\n.mdi-silverware-variant::before {\n  content: \"\\F4A6\";\n}\n\n.mdi-sim::before {\n  content: \"\\F4A7\";\n}\n\n.mdi-sim-alert::before {\n  content: \"\\F4A8\";\n}\n\n.mdi-sim-off::before {\n  content: \"\\F4A9\";\n}\n\n.mdi-simple-icons::before {\n  content: \"\\F0348\";\n}\n\n.mdi-sina-weibo::before {\n  content: \"\\FADE\";\n}\n\n.mdi-sitemap::before {\n  content: \"\\F4AA\";\n}\n\n.mdi-skate::before {\n  content: \"\\FD11\";\n}\n\n.mdi-skew-less::before {\n  content: \"\\FD12\";\n}\n\n.mdi-skew-more::before {\n  content: \"\\FD13\";\n}\n\n.mdi-ski::before {\n  content: \"\\F032F\";\n}\n\n.mdi-ski-cross-country::before {\n  content: \"\\F0330\";\n}\n\n.mdi-ski-water::before {\n  content: \"\\F0331\";\n}\n\n.mdi-skip-backward::before {\n  content: \"\\F4AB\";\n}\n\n.mdi-skip-backward-outline::before {\n  content: \"\\FF42\";\n}\n\n.mdi-skip-forward::before {\n  content: \"\\F4AC\";\n}\n\n.mdi-skip-forward-outline::before {\n  content: \"\\FF43\";\n}\n\n.mdi-skip-next::before {\n  content: \"\\F4AD\";\n}\n\n.mdi-skip-next-circle::before {\n  content: \"\\F661\";\n}\n\n.mdi-skip-next-circle-outline::before {\n  content: \"\\F662\";\n}\n\n.mdi-skip-next-outline::before {\n  content: \"\\FF44\";\n}\n\n.mdi-skip-previous::before {\n  content: \"\\F4AE\";\n}\n\n.mdi-skip-previous-circle::before {\n  content: \"\\F663\";\n}\n\n.mdi-skip-previous-circle-outline::before {\n  content: \"\\F664\";\n}\n\n.mdi-skip-previous-outline::before {\n  content: \"\\FF45\";\n}\n\n.mdi-skull::before {\n  content: \"\\F68B\";\n}\n\n.mdi-skull-crossbones::before {\n  content: \"\\FBA2\";\n}\n\n.mdi-skull-crossbones-outline::before {\n  content: \"\\FBA3\";\n}\n\n.mdi-skull-outline::before {\n  content: \"\\FBA4\";\n}\n\n.mdi-skype::before {\n  content: \"\\F4AF\";\n}\n\n.mdi-skype-business::before {\n  content: \"\\F4B0\";\n}\n\n.mdi-slack::before {\n  content: \"\\F4B1\";\n}\n\n.mdi-slackware::before {\n  content: \"\\F90A\";\n}\n\n.mdi-slash-forward::before {\n  content: \"\\F0000\";\n}\n\n.mdi-slash-forward-box::before {\n  content: \"\\F0001\";\n}\n\n.mdi-sleep::before {\n  content: \"\\F4B2\";\n}\n\n.mdi-sleep-off::before {\n  content: \"\\F4B3\";\n}\n\n.mdi-slope-downhill::before {\n  content: \"\\FE5F\";\n}\n\n.mdi-slope-uphill::before {\n  content: \"\\FE60\";\n}\n\n.mdi-slot-machine::before {\n  content: \"\\F013F\";\n}\n\n.mdi-slot-machine-outline::before {\n  content: \"\\F0140\";\n}\n\n.mdi-smart-card::before {\n  content: \"\\F00E8\";\n}\n\n.mdi-smart-card-outline::before {\n  content: \"\\F00E9\";\n}\n\n.mdi-smart-card-reader::before {\n  content: \"\\F00EA\";\n}\n\n.mdi-smart-card-reader-outline::before {\n  content: \"\\F00EB\";\n}\n\n.mdi-smog::before {\n  content: \"\\FA70\";\n}\n\n.mdi-smoke-detector::before {\n  content: \"\\F392\";\n}\n\n.mdi-smoking::before {\n  content: \"\\F4B4\";\n}\n\n.mdi-smoking-off::before {\n  content: \"\\F4B5\";\n}\n\n.mdi-snapchat::before {\n  content: \"\\F4B6\";\n}\n\n.mdi-snowboard::before {\n  content: \"\\F0332\";\n}\n\n.mdi-snowflake::before {\n  content: \"\\F716\";\n}\n\n.mdi-snowflake-alert::before {\n  content: \"\\FF46\";\n}\n\n.mdi-snowflake-melt::before {\n  content: \"\\F02F6\";\n}\n\n.mdi-snowflake-variant::before {\n  content: \"\\FF47\";\n}\n\n.mdi-snowman::before {\n  content: \"\\F4B7\";\n}\n\n.mdi-soccer::before {\n  content: \"\\F4B8\";\n}\n\n.mdi-soccer-field::before {\n  content: \"\\F833\";\n}\n\n.mdi-sofa::before {\n  content: \"\\F4B9\";\n}\n\n.mdi-solar-panel::before {\n  content: \"\\FD77\";\n}\n\n.mdi-solar-panel-large::before {\n  content: \"\\FD78\";\n}\n\n.mdi-solar-power::before {\n  content: \"\\FA71\";\n}\n\n.mdi-soldering-iron::before {\n  content: \"\\F00BD\";\n}\n\n.mdi-solid::before {\n  content: \"\\F68C\";\n}\n\n.mdi-sort::before {\n  content: \"\\F4BA\";\n}\n\n.mdi-sort-alphabetical::before {\n  content: \"\\F4BB\";\n}\n\n.mdi-sort-alphabetical-ascending::before {\n  content: \"\\F0173\";\n}\n\n.mdi-sort-alphabetical-descending::before {\n  content: \"\\F0174\";\n}\n\n.mdi-sort-ascending::before {\n  content: \"\\F4BC\";\n}\n\n.mdi-sort-descending::before {\n  content: \"\\F4BD\";\n}\n\n.mdi-sort-numeric::before {\n  content: \"\\F4BE\";\n}\n\n.mdi-sort-variant::before {\n  content: \"\\F4BF\";\n}\n\n.mdi-sort-variant-lock::before {\n  content: \"\\FCA9\";\n}\n\n.mdi-sort-variant-lock-open::before {\n  content: \"\\FCAA\";\n}\n\n.mdi-sort-variant-remove::before {\n  content: \"\\F0172\";\n}\n\n.mdi-soundcloud::before {\n  content: \"\\F4C0\";\n}\n\n.mdi-source-branch::before {\n  content: \"\\F62C\";\n}\n\n.mdi-source-commit::before {\n  content: \"\\F717\";\n}\n\n.mdi-source-commit-end::before {\n  content: \"\\F718\";\n}\n\n.mdi-source-commit-end-local::before {\n  content: \"\\F719\";\n}\n\n.mdi-source-commit-local::before {\n  content: \"\\F71A\";\n}\n\n.mdi-source-commit-next-local::before {\n  content: \"\\F71B\";\n}\n\n.mdi-source-commit-start::before {\n  content: \"\\F71C\";\n}\n\n.mdi-source-commit-start-next-local::before {\n  content: \"\\F71D\";\n}\n\n.mdi-source-fork::before {\n  content: \"\\F4C1\";\n}\n\n.mdi-source-merge::before {\n  content: \"\\F62D\";\n}\n\n.mdi-source-pull::before {\n  content: \"\\F4C2\";\n}\n\n.mdi-source-repository::before {\n  content: \"\\FCAB\";\n}\n\n.mdi-source-repository-multiple::before {\n  content: \"\\FCAC\";\n}\n\n.mdi-soy-sauce::before {\n  content: \"\\F7ED\";\n}\n\n.mdi-spa::before {\n  content: \"\\FCAD\";\n}\n\n.mdi-spa-outline::before {\n  content: \"\\FCAE\";\n}\n\n.mdi-space-invaders::before {\n  content: \"\\FBA5\";\n}\n\n.mdi-space-station::before {\n  content: \"\\F03AE\";\n}\n\n.mdi-spade::before {\n  content: \"\\FE48\";\n}\n\n.mdi-speaker::before {\n  content: \"\\F4C3\";\n}\n\n.mdi-speaker-bluetooth::before {\n  content: \"\\F9A1\";\n}\n\n.mdi-speaker-multiple::before {\n  content: \"\\FD14\";\n}\n\n.mdi-speaker-off::before {\n  content: \"\\F4C4\";\n}\n\n.mdi-speaker-wireless::before {\n  content: \"\\F71E\";\n}\n\n.mdi-speedometer::before {\n  content: \"\\F4C5\";\n}\n\n.mdi-speedometer-medium::before {\n  content: \"\\FFA2\";\n}\n\n.mdi-speedometer-slow::before {\n  content: \"\\FFA3\";\n}\n\n.mdi-spellcheck::before {\n  content: \"\\F4C6\";\n}\n\n.mdi-spider::before {\n  content: \"\\F0215\";\n}\n\n.mdi-spider-thread::before {\n  content: \"\\F0216\";\n}\n\n.mdi-spider-web::before {\n  content: \"\\FBA6\";\n}\n\n.mdi-spotify::before {\n  content: \"\\F4C7\";\n}\n\n.mdi-spotlight::before {\n  content: \"\\F4C8\";\n}\n\n.mdi-spotlight-beam::before {\n  content: \"\\F4C9\";\n}\n\n.mdi-spray::before {\n  content: \"\\F665\";\n}\n\n.mdi-spray-bottle::before {\n  content: \"\\FADF\";\n}\n\n.mdi-sprinkler::before {\n  content: \"\\F0081\";\n}\n\n.mdi-sprinkler-variant::before {\n  content: \"\\F0082\";\n}\n\n.mdi-sprout::before {\n  content: \"\\FE49\";\n}\n\n.mdi-sprout-outline::before {\n  content: \"\\FE4A\";\n}\n\n.mdi-square::before {\n  content: \"\\F763\";\n}\n\n.mdi-square-edit-outline::before {\n  content: \"\\F90B\";\n}\n\n.mdi-square-inc::before {\n  content: \"\\F4CA\";\n}\n\n.mdi-square-inc-cash::before {\n  content: \"\\F4CB\";\n}\n\n.mdi-square-medium::before {\n  content: \"\\FA12\";\n}\n\n.mdi-square-medium-outline::before {\n  content: \"\\FA13\";\n}\n\n.mdi-square-off::before {\n  content: \"\\F0319\";\n}\n\n.mdi-square-off-outline::before {\n  content: \"\\F031A\";\n}\n\n.mdi-square-outline::before {\n  content: \"\\F762\";\n}\n\n.mdi-square-root::before {\n  content: \"\\F783\";\n}\n\n.mdi-square-root-box::before {\n  content: \"\\F9A2\";\n}\n\n.mdi-square-small::before {\n  content: \"\\FA14\";\n}\n\n.mdi-squeegee::before {\n  content: \"\\FAE0\";\n}\n\n.mdi-ssh::before {\n  content: \"\\F8BF\";\n}\n\n.mdi-stack-exchange::before {\n  content: \"\\F60B\";\n}\n\n.mdi-stack-overflow::before {\n  content: \"\\F4CC\";\n}\n\n.mdi-stackpath::before {\n  content: \"\\F359\";\n}\n\n.mdi-stadium::before {\n  content: \"\\F001A\";\n}\n\n.mdi-stadium-variant::before {\n  content: \"\\F71F\";\n}\n\n.mdi-stairs::before {\n  content: \"\\F4CD\";\n}\n\n.mdi-stairs-down::before {\n  content: \"\\F02E9\";\n}\n\n.mdi-stairs-up::before {\n  content: \"\\F02E8\";\n}\n\n.mdi-stamper::before {\n  content: \"\\FD15\";\n}\n\n.mdi-standard-definition::before {\n  content: \"\\F7EE\";\n}\n\n.mdi-star::before {\n  content: \"\\F4CE\";\n}\n\n.mdi-star-box::before {\n  content: \"\\FA72\";\n}\n\n.mdi-star-box-multiple::before {\n  content: \"\\F02B1\";\n}\n\n.mdi-star-box-multiple-outline::before {\n  content: \"\\F02B2\";\n}\n\n.mdi-star-box-outline::before {\n  content: \"\\FA73\";\n}\n\n.mdi-star-circle::before {\n  content: \"\\F4CF\";\n}\n\n.mdi-star-circle-outline::before {\n  content: \"\\F9A3\";\n}\n\n.mdi-star-face::before {\n  content: \"\\F9A4\";\n}\n\n.mdi-star-four-points::before {\n  content: \"\\FAE1\";\n}\n\n.mdi-star-four-points-outline::before {\n  content: \"\\FAE2\";\n}\n\n.mdi-star-half::before {\n  content: \"\\F4D0\";\n}\n\n.mdi-star-off::before {\n  content: \"\\F4D1\";\n}\n\n.mdi-star-outline::before {\n  content: \"\\F4D2\";\n}\n\n.mdi-star-three-points::before {\n  content: \"\\FAE3\";\n}\n\n.mdi-star-three-points-outline::before {\n  content: \"\\FAE4\";\n}\n\n.mdi-state-machine::before {\n  content: \"\\F021A\";\n}\n\n.mdi-steam::before {\n  content: \"\\F4D3\";\n}\n\n.mdi-steam-box::before {\n  content: \"\\F90C\";\n}\n\n.mdi-steering::before {\n  content: \"\\F4D4\";\n}\n\n.mdi-steering-off::before {\n  content: \"\\F90D\";\n}\n\n.mdi-step-backward::before {\n  content: \"\\F4D5\";\n}\n\n.mdi-step-backward-2::before {\n  content: \"\\F4D6\";\n}\n\n.mdi-step-forward::before {\n  content: \"\\F4D7\";\n}\n\n.mdi-step-forward-2::before {\n  content: \"\\F4D8\";\n}\n\n.mdi-stethoscope::before {\n  content: \"\\F4D9\";\n}\n\n.mdi-sticker::before {\n  content: \"\\F038F\";\n}\n\n.mdi-sticker-alert::before {\n  content: \"\\F0390\";\n}\n\n.mdi-sticker-alert-outline::before {\n  content: \"\\F0391\";\n}\n\n.mdi-sticker-check::before {\n  content: \"\\F0392\";\n}\n\n.mdi-sticker-check-outline::before {\n  content: \"\\F0393\";\n}\n\n.mdi-sticker-circle-outline::before {\n  content: \"\\F5D0\";\n}\n\n.mdi-sticker-emoji::before {\n  content: \"\\F784\";\n}\n\n.mdi-sticker-minus::before {\n  content: \"\\F0394\";\n}\n\n.mdi-sticker-minus-outline::before {\n  content: \"\\F0395\";\n}\n\n.mdi-sticker-outline::before {\n  content: \"\\F0396\";\n}\n\n.mdi-sticker-plus::before {\n  content: \"\\F0397\";\n}\n\n.mdi-sticker-plus-outline::before {\n  content: \"\\F0398\";\n}\n\n.mdi-sticker-remove::before {\n  content: \"\\F0399\";\n}\n\n.mdi-sticker-remove-outline::before {\n  content: \"\\F039A\";\n}\n\n.mdi-stocking::before {\n  content: \"\\F4DA\";\n}\n\n.mdi-stomach::before {\n  content: \"\\F00BE\";\n}\n\n.mdi-stop::before {\n  content: \"\\F4DB\";\n}\n\n.mdi-stop-circle::before {\n  content: \"\\F666\";\n}\n\n.mdi-stop-circle-outline::before {\n  content: \"\\F667\";\n}\n\n.mdi-store::before {\n  content: \"\\F4DC\";\n}\n\n.mdi-store-24-hour::before {\n  content: \"\\F4DD\";\n}\n\n.mdi-store-outline::before {\n  content: \"\\F038C\";\n}\n\n.mdi-storefront::before {\n  content: \"\\F00EC\";\n}\n\n.mdi-stove::before {\n  content: \"\\F4DE\";\n}\n\n.mdi-strategy::before {\n  content: \"\\F0201\";\n}\n\n.mdi-strava::before {\n  content: \"\\FB25\";\n}\n\n.mdi-stretch-to-page::before {\n  content: \"\\FF48\";\n}\n\n.mdi-stretch-to-page-outline::before {\n  content: \"\\FF49\";\n}\n\n.mdi-string-lights::before {\n  content: \"\\F02E5\";\n}\n\n.mdi-string-lights-off::before {\n  content: \"\\F02E6\";\n}\n\n.mdi-subdirectory-arrow-left::before {\n  content: \"\\F60C\";\n}\n\n.mdi-subdirectory-arrow-right::before {\n  content: \"\\F60D\";\n}\n\n.mdi-subtitles::before {\n  content: \"\\FA15\";\n}\n\n.mdi-subtitles-outline::before {\n  content: \"\\FA16\";\n}\n\n.mdi-subway::before {\n  content: \"\\F6AB\";\n}\n\n.mdi-subway-alert-variant::before {\n  content: \"\\FD79\";\n}\n\n.mdi-subway-variant::before {\n  content: \"\\F4DF\";\n}\n\n.mdi-summit::before {\n  content: \"\\F785\";\n}\n\n.mdi-sunglasses::before {\n  content: \"\\F4E0\";\n}\n\n.mdi-surround-sound::before {\n  content: \"\\F5C5\";\n}\n\n.mdi-surround-sound-2-0::before {\n  content: \"\\F7EF\";\n}\n\n.mdi-surround-sound-3-1::before {\n  content: \"\\F7F0\";\n}\n\n.mdi-surround-sound-5-1::before {\n  content: \"\\F7F1\";\n}\n\n.mdi-surround-sound-7-1::before {\n  content: \"\\F7F2\";\n}\n\n.mdi-svg::before {\n  content: \"\\F720\";\n}\n\n.mdi-swap-horizontal::before {\n  content: \"\\F4E1\";\n}\n\n.mdi-swap-horizontal-bold::before {\n  content: \"\\FBA9\";\n}\n\n.mdi-swap-horizontal-circle::before {\n  content: \"\\F0002\";\n}\n\n.mdi-swap-horizontal-circle-outline::before {\n  content: \"\\F0003\";\n}\n\n.mdi-swap-horizontal-variant::before {\n  content: \"\\F8C0\";\n}\n\n.mdi-swap-vertical::before {\n  content: \"\\F4E2\";\n}\n\n.mdi-swap-vertical-bold::before {\n  content: \"\\FBAA\";\n}\n\n.mdi-swap-vertical-circle::before {\n  content: \"\\F0004\";\n}\n\n.mdi-swap-vertical-circle-outline::before {\n  content: \"\\F0005\";\n}\n\n.mdi-swap-vertical-variant::before {\n  content: \"\\F8C1\";\n}\n\n.mdi-swim::before {\n  content: \"\\F4E3\";\n}\n\n.mdi-switch::before {\n  content: \"\\F4E4\";\n}\n\n.mdi-sword::before {\n  content: \"\\F4E5\";\n}\n\n.mdi-sword-cross::before {\n  content: \"\\F786\";\n}\n\n.mdi-syllabary-hangul::before {\n  content: \"\\F035E\";\n}\n\n.mdi-syllabary-hiragana::before {\n  content: \"\\F035F\";\n}\n\n.mdi-syllabary-katakana::before {\n  content: \"\\F0360\";\n}\n\n.mdi-syllabary-katakana-half-width::before {\n  content: \"\\F0361\";\n}\n\n.mdi-symfony::before {\n  content: \"\\FAE5\";\n}\n\n.mdi-sync::before {\n  content: \"\\F4E6\";\n}\n\n.mdi-sync-alert::before {\n  content: \"\\F4E7\";\n}\n\n.mdi-sync-circle::before {\n  content: \"\\F03A3\";\n}\n\n.mdi-sync-off::before {\n  content: \"\\F4E8\";\n}\n\n.mdi-tab::before {\n  content: \"\\F4E9\";\n}\n\n.mdi-tab-minus::before {\n  content: \"\\FB26\";\n}\n\n.mdi-tab-plus::before {\n  content: \"\\F75B\";\n}\n\n.mdi-tab-remove::before {\n  content: \"\\FB27\";\n}\n\n.mdi-tab-unselected::before {\n  content: \"\\F4EA\";\n}\n\n.mdi-table::before {\n  content: \"\\F4EB\";\n}\n\n.mdi-table-border::before {\n  content: \"\\FA17\";\n}\n\n.mdi-table-chair::before {\n  content: \"\\F0083\";\n}\n\n.mdi-table-column::before {\n  content: \"\\F834\";\n}\n\n.mdi-table-column-plus-after::before {\n  content: \"\\F4EC\";\n}\n\n.mdi-table-column-plus-before::before {\n  content: \"\\F4ED\";\n}\n\n.mdi-table-column-remove::before {\n  content: \"\\F4EE\";\n}\n\n.mdi-table-column-width::before {\n  content: \"\\F4EF\";\n}\n\n.mdi-table-edit::before {\n  content: \"\\F4F0\";\n}\n\n.mdi-table-eye::before {\n  content: \"\\F00BF\";\n}\n\n.mdi-table-headers-eye::before {\n  content: \"\\F0248\";\n}\n\n.mdi-table-headers-eye-off::before {\n  content: \"\\F0249\";\n}\n\n.mdi-table-large::before {\n  content: \"\\F4F1\";\n}\n\n.mdi-table-large-plus::before {\n  content: \"\\FFA4\";\n}\n\n.mdi-table-large-remove::before {\n  content: \"\\FFA5\";\n}\n\n.mdi-table-merge-cells::before {\n  content: \"\\F9A5\";\n}\n\n.mdi-table-of-contents::before {\n  content: \"\\F835\";\n}\n\n.mdi-table-plus::before {\n  content: \"\\FA74\";\n}\n\n.mdi-table-remove::before {\n  content: \"\\FA75\";\n}\n\n.mdi-table-row::before {\n  content: \"\\F836\";\n}\n\n.mdi-table-row-height::before {\n  content: \"\\F4F2\";\n}\n\n.mdi-table-row-plus-after::before {\n  content: \"\\F4F3\";\n}\n\n.mdi-table-row-plus-before::before {\n  content: \"\\F4F4\";\n}\n\n.mdi-table-row-remove::before {\n  content: \"\\F4F5\";\n}\n\n.mdi-table-search::before {\n  content: \"\\F90E\";\n}\n\n.mdi-table-settings::before {\n  content: \"\\F837\";\n}\n\n.mdi-table-tennis::before {\n  content: \"\\FE4B\";\n}\n\n.mdi-tablet::before {\n  content: \"\\F4F6\";\n}\n\n.mdi-tablet-android::before {\n  content: \"\\F4F7\";\n}\n\n.mdi-tablet-cellphone::before {\n  content: \"\\F9A6\";\n}\n\n.mdi-tablet-dashboard::before {\n  content: \"\\FEEB\";\n}\n\n.mdi-tablet-ipad::before {\n  content: \"\\F4F8\";\n}\n\n.mdi-taco::before {\n  content: \"\\F761\";\n}\n\n.mdi-tag::before {\n  content: \"\\F4F9\";\n}\n\n.mdi-tag-faces::before {\n  content: \"\\F4FA\";\n}\n\n.mdi-tag-heart::before {\n  content: \"\\F68A\";\n}\n\n.mdi-tag-heart-outline::before {\n  content: \"\\FBAB\";\n}\n\n.mdi-tag-minus::before {\n  content: \"\\F90F\";\n}\n\n.mdi-tag-minus-outline::before {\n  content: \"\\F024A\";\n}\n\n.mdi-tag-multiple::before {\n  content: \"\\F4FB\";\n}\n\n.mdi-tag-multiple-outline::before {\n  content: \"\\F0322\";\n}\n\n.mdi-tag-off::before {\n  content: \"\\F024B\";\n}\n\n.mdi-tag-off-outline::before {\n  content: \"\\F024C\";\n}\n\n.mdi-tag-outline::before {\n  content: \"\\F4FC\";\n}\n\n.mdi-tag-plus::before {\n  content: \"\\F721\";\n}\n\n.mdi-tag-plus-outline::before {\n  content: \"\\F024D\";\n}\n\n.mdi-tag-remove::before {\n  content: \"\\F722\";\n}\n\n.mdi-tag-remove-outline::before {\n  content: \"\\F024E\";\n}\n\n.mdi-tag-text::before {\n  content: \"\\F024F\";\n}\n\n.mdi-tag-text-outline::before {\n  content: \"\\F4FD\";\n}\n\n.mdi-tank::before {\n  content: \"\\FD16\";\n}\n\n.mdi-tanker-truck::before {\n  content: \"\\F0006\";\n}\n\n.mdi-tape-measure::before {\n  content: \"\\FB28\";\n}\n\n.mdi-target::before {\n  content: \"\\F4FE\";\n}\n\n.mdi-target-account::before {\n  content: \"\\FBAC\";\n}\n\n.mdi-target-variant::before {\n  content: \"\\FA76\";\n}\n\n.mdi-taxi::before {\n  content: \"\\F4FF\";\n}\n\n.mdi-tea::before {\n  content: \"\\FD7A\";\n}\n\n.mdi-tea-outline::before {\n  content: \"\\FD7B\";\n}\n\n.mdi-teach::before {\n  content: \"\\F88F\";\n}\n\n.mdi-teamviewer::before {\n  content: \"\\F500\";\n}\n\n.mdi-telegram::before {\n  content: \"\\F501\";\n}\n\n.mdi-telescope::before {\n  content: \"\\FB29\";\n}\n\n.mdi-television::before {\n  content: \"\\F502\";\n}\n\n.mdi-television-ambient-light::before {\n  content: \"\\F0381\";\n}\n\n.mdi-television-box::before {\n  content: \"\\F838\";\n}\n\n.mdi-television-classic::before {\n  content: \"\\F7F3\";\n}\n\n.mdi-television-classic-off::before {\n  content: \"\\F839\";\n}\n\n.mdi-television-clean::before {\n  content: \"\\F013B\";\n}\n\n.mdi-television-guide::before {\n  content: \"\\F503\";\n}\n\n.mdi-television-off::before {\n  content: \"\\F83A\";\n}\n\n.mdi-television-pause::before {\n  content: \"\\FFA6\";\n}\n\n.mdi-television-play::before {\n  content: \"\\FEEC\";\n}\n\n.mdi-television-stop::before {\n  content: \"\\FFA7\";\n}\n\n.mdi-temperature-celsius::before {\n  content: \"\\F504\";\n}\n\n.mdi-temperature-fahrenheit::before {\n  content: \"\\F505\";\n}\n\n.mdi-temperature-kelvin::before {\n  content: \"\\F506\";\n}\n\n.mdi-tennis::before {\n  content: \"\\FD7C\";\n}\n\n.mdi-tennis-ball::before {\n  content: \"\\F507\";\n}\n\n.mdi-tent::before {\n  content: \"\\F508\";\n}\n\n.mdi-terraform::before {\n  content: \"\\F0084\";\n}\n\n.mdi-terrain::before {\n  content: \"\\F509\";\n}\n\n.mdi-test-tube::before {\n  content: \"\\F668\";\n}\n\n.mdi-test-tube-empty::before {\n  content: \"\\F910\";\n}\n\n.mdi-test-tube-off::before {\n  content: \"\\F911\";\n}\n\n.mdi-text::before {\n  content: \"\\F9A7\";\n}\n\n.mdi-text-recognition::before {\n  content: \"\\F0168\";\n}\n\n.mdi-text-shadow::before {\n  content: \"\\F669\";\n}\n\n.mdi-text-short::before {\n  content: \"\\F9A8\";\n}\n\n.mdi-text-subject::before {\n  content: \"\\F9A9\";\n}\n\n.mdi-text-to-speech::before {\n  content: \"\\F50A\";\n}\n\n.mdi-text-to-speech-off::before {\n  content: \"\\F50B\";\n}\n\n.mdi-textarea::before {\n  content: \"\\F00C0\";\n}\n\n.mdi-textbox::before {\n  content: \"\\F60E\";\n}\n\n.mdi-textbox-lock::before {\n  content: \"\\F0388\";\n}\n\n.mdi-textbox-password::before {\n  content: \"\\F7F4\";\n}\n\n.mdi-texture::before {\n  content: \"\\F50C\";\n}\n\n.mdi-texture-box::before {\n  content: \"\\F0007\";\n}\n\n.mdi-theater::before {\n  content: \"\\F50D\";\n}\n\n.mdi-theme-light-dark::before {\n  content: \"\\F50E\";\n}\n\n.mdi-thermometer::before {\n  content: \"\\F50F\";\n}\n\n.mdi-thermometer-alert::before {\n  content: \"\\FE61\";\n}\n\n.mdi-thermometer-chevron-down::before {\n  content: \"\\FE62\";\n}\n\n.mdi-thermometer-chevron-up::before {\n  content: \"\\FE63\";\n}\n\n.mdi-thermometer-high::before {\n  content: \"\\F00ED\";\n}\n\n.mdi-thermometer-lines::before {\n  content: \"\\F510\";\n}\n\n.mdi-thermometer-low::before {\n  content: \"\\F00EE\";\n}\n\n.mdi-thermometer-minus::before {\n  content: \"\\FE64\";\n}\n\n.mdi-thermometer-plus::before {\n  content: \"\\FE65\";\n}\n\n.mdi-thermostat::before {\n  content: \"\\F393\";\n}\n\n.mdi-thermostat-box::before {\n  content: \"\\F890\";\n}\n\n.mdi-thought-bubble::before {\n  content: \"\\F7F5\";\n}\n\n.mdi-thought-bubble-outline::before {\n  content: \"\\F7F6\";\n}\n\n.mdi-thumb-down::before {\n  content: \"\\F511\";\n}\n\n.mdi-thumb-down-outline::before {\n  content: \"\\F512\";\n}\n\n.mdi-thumb-up::before {\n  content: \"\\F513\";\n}\n\n.mdi-thumb-up-outline::before {\n  content: \"\\F514\";\n}\n\n.mdi-thumbs-up-down::before {\n  content: \"\\F515\";\n}\n\n.mdi-ticket::before {\n  content: \"\\F516\";\n}\n\n.mdi-ticket-account::before {\n  content: \"\\F517\";\n}\n\n.mdi-ticket-confirmation::before {\n  content: \"\\F518\";\n}\n\n.mdi-ticket-outline::before {\n  content: \"\\F912\";\n}\n\n.mdi-ticket-percent::before {\n  content: \"\\F723\";\n}\n\n.mdi-tie::before {\n  content: \"\\F519\";\n}\n\n.mdi-tilde::before {\n  content: \"\\F724\";\n}\n\n.mdi-timelapse::before {\n  content: \"\\F51A\";\n}\n\n.mdi-timeline::before {\n  content: \"\\FBAD\";\n}\n\n.mdi-timeline-alert::before {\n  content: \"\\FFB2\";\n}\n\n.mdi-timeline-alert-outline::before {\n  content: \"\\FFB5\";\n}\n\n.mdi-timeline-clock::before {\n  content: \"\\F0226\";\n}\n\n.mdi-timeline-clock-outline::before {\n  content: \"\\F0227\";\n}\n\n.mdi-timeline-help::before {\n  content: \"\\FFB6\";\n}\n\n.mdi-timeline-help-outline::before {\n  content: \"\\FFB7\";\n}\n\n.mdi-timeline-outline::before {\n  content: \"\\FBAE\";\n}\n\n.mdi-timeline-plus::before {\n  content: \"\\FFB3\";\n}\n\n.mdi-timeline-plus-outline::before {\n  content: \"\\FFB4\";\n}\n\n.mdi-timeline-text::before {\n  content: \"\\FBAF\";\n}\n\n.mdi-timeline-text-outline::before {\n  content: \"\\FBB0\";\n}\n\n.mdi-timer::before {\n  content: \"\\F51B\";\n}\n\n.mdi-timer-10::before {\n  content: \"\\F51C\";\n}\n\n.mdi-timer-3::before {\n  content: \"\\F51D\";\n}\n\n.mdi-timer-off::before {\n  content: \"\\F51E\";\n}\n\n.mdi-timer-sand::before {\n  content: \"\\F51F\";\n}\n\n.mdi-timer-sand-empty::before {\n  content: \"\\F6AC\";\n}\n\n.mdi-timer-sand-full::before {\n  content: \"\\F78B\";\n}\n\n.mdi-timetable::before {\n  content: \"\\F520\";\n}\n\n.mdi-toaster::before {\n  content: \"\\F0085\";\n}\n\n.mdi-toaster-off::before {\n  content: \"\\F01E2\";\n}\n\n.mdi-toaster-oven::before {\n  content: \"\\FCAF\";\n}\n\n.mdi-toggle-switch::before {\n  content: \"\\F521\";\n}\n\n.mdi-toggle-switch-off::before {\n  content: \"\\F522\";\n}\n\n.mdi-toggle-switch-off-outline::before {\n  content: \"\\FA18\";\n}\n\n.mdi-toggle-switch-outline::before {\n  content: \"\\FA19\";\n}\n\n.mdi-toilet::before {\n  content: \"\\F9AA\";\n}\n\n.mdi-toolbox::before {\n  content: \"\\F9AB\";\n}\n\n.mdi-toolbox-outline::before {\n  content: \"\\F9AC\";\n}\n\n.mdi-tools::before {\n  content: \"\\F0086\";\n}\n\n.mdi-tooltip::before {\n  content: \"\\F523\";\n}\n\n.mdi-tooltip-account::before {\n  content: \"\\F00C\";\n}\n\n.mdi-tooltip-edit::before {\n  content: \"\\F524\";\n}\n\n.mdi-tooltip-edit-outline::before {\n  content: \"\\F02F0\";\n}\n\n.mdi-tooltip-image::before {\n  content: \"\\F525\";\n}\n\n.mdi-tooltip-image-outline::before {\n  content: \"\\FBB1\";\n}\n\n.mdi-tooltip-outline::before {\n  content: \"\\F526\";\n}\n\n.mdi-tooltip-plus::before {\n  content: \"\\FBB2\";\n}\n\n.mdi-tooltip-plus-outline::before {\n  content: \"\\F527\";\n}\n\n.mdi-tooltip-text::before {\n  content: \"\\F528\";\n}\n\n.mdi-tooltip-text-outline::before {\n  content: \"\\FBB3\";\n}\n\n.mdi-tooth::before {\n  content: \"\\F8C2\";\n}\n\n.mdi-tooth-outline::before {\n  content: \"\\F529\";\n}\n\n.mdi-toothbrush::before {\n  content: \"\\F0154\";\n}\n\n.mdi-toothbrush-electric::before {\n  content: \"\\F0157\";\n}\n\n.mdi-toothbrush-paste::before {\n  content: \"\\F0155\";\n}\n\n.mdi-tor::before {\n  content: \"\\F52A\";\n}\n\n.mdi-tortoise::before {\n  content: \"\\FD17\";\n}\n\n.mdi-toslink::before {\n  content: \"\\F02E3\";\n}\n\n.mdi-tournament::before {\n  content: \"\\F9AD\";\n}\n\n.mdi-tower-beach::before {\n  content: \"\\F680\";\n}\n\n.mdi-tower-fire::before {\n  content: \"\\F681\";\n}\n\n.mdi-towing::before {\n  content: \"\\F83B\";\n}\n\n.mdi-toy-brick::before {\n  content: \"\\F02B3\";\n}\n\n.mdi-toy-brick-marker::before {\n  content: \"\\F02B4\";\n}\n\n.mdi-toy-brick-marker-outline::before {\n  content: \"\\F02B5\";\n}\n\n.mdi-toy-brick-minus::before {\n  content: \"\\F02B6\";\n}\n\n.mdi-toy-brick-minus-outline::before {\n  content: \"\\F02B7\";\n}\n\n.mdi-toy-brick-outline::before {\n  content: \"\\F02B8\";\n}\n\n.mdi-toy-brick-plus::before {\n  content: \"\\F02B9\";\n}\n\n.mdi-toy-brick-plus-outline::before {\n  content: \"\\F02BA\";\n}\n\n.mdi-toy-brick-remove::before {\n  content: \"\\F02BB\";\n}\n\n.mdi-toy-brick-remove-outline::before {\n  content: \"\\F02BC\";\n}\n\n.mdi-toy-brick-search::before {\n  content: \"\\F02BD\";\n}\n\n.mdi-toy-brick-search-outline::before {\n  content: \"\\F02BE\";\n}\n\n.mdi-track-light::before {\n  content: \"\\F913\";\n}\n\n.mdi-trackpad::before {\n  content: \"\\F7F7\";\n}\n\n.mdi-trackpad-lock::before {\n  content: \"\\F932\";\n}\n\n.mdi-tractor::before {\n  content: \"\\F891\";\n}\n\n.mdi-trademark::before {\n  content: \"\\FA77\";\n}\n\n.mdi-traffic-cone::before {\n  content: \"\\F03A7\";\n}\n\n.mdi-traffic-light::before {\n  content: \"\\F52B\";\n}\n\n.mdi-train::before {\n  content: \"\\F52C\";\n}\n\n.mdi-train-car::before {\n  content: \"\\FBB4\";\n}\n\n.mdi-train-variant::before {\n  content: \"\\F8C3\";\n}\n\n.mdi-tram::before {\n  content: \"\\F52D\";\n}\n\n.mdi-tram-side::before {\n  content: \"\\F0008\";\n}\n\n.mdi-transcribe::before {\n  content: \"\\F52E\";\n}\n\n.mdi-transcribe-close::before {\n  content: \"\\F52F\";\n}\n\n.mdi-transfer::before {\n  content: \"\\F0087\";\n}\n\n.mdi-transfer-down::before {\n  content: \"\\FD7D\";\n}\n\n.mdi-transfer-left::before {\n  content: \"\\FD7E\";\n}\n\n.mdi-transfer-right::before {\n  content: \"\\F530\";\n}\n\n.mdi-transfer-up::before {\n  content: \"\\FD7F\";\n}\n\n.mdi-transit-connection::before {\n  content: \"\\FD18\";\n}\n\n.mdi-transit-connection-variant::before {\n  content: \"\\FD19\";\n}\n\n.mdi-transit-detour::before {\n  content: \"\\FFA8\";\n}\n\n.mdi-transit-transfer::before {\n  content: \"\\F6AD\";\n}\n\n.mdi-transition::before {\n  content: \"\\F914\";\n}\n\n.mdi-transition-masked::before {\n  content: \"\\F915\";\n}\n\n.mdi-translate::before {\n  content: \"\\F5CA\";\n}\n\n.mdi-translate-off::before {\n  content: \"\\FE66\";\n}\n\n.mdi-transmission-tower::before {\n  content: \"\\FD1A\";\n}\n\n.mdi-trash-can::before {\n  content: \"\\FA78\";\n}\n\n.mdi-trash-can-outline::before {\n  content: \"\\FA79\";\n}\n\n.mdi-tray::before {\n  content: \"\\F02BF\";\n}\n\n.mdi-tray-alert::before {\n  content: \"\\F02C0\";\n}\n\n.mdi-tray-full::before {\n  content: \"\\F02C1\";\n}\n\n.mdi-tray-minus::before {\n  content: \"\\F02C2\";\n}\n\n.mdi-tray-plus::before {\n  content: \"\\F02C3\";\n}\n\n.mdi-tray-remove::before {\n  content: \"\\F02C4\";\n}\n\n.mdi-treasure-chest::before {\n  content: \"\\F725\";\n}\n\n.mdi-tree::before {\n  content: \"\\F531\";\n}\n\n.mdi-tree-outline::before {\n  content: \"\\FE4C\";\n}\n\n.mdi-trello::before {\n  content: \"\\F532\";\n}\n\n.mdi-trending-down::before {\n  content: \"\\F533\";\n}\n\n.mdi-trending-neutral::before {\n  content: \"\\F534\";\n}\n\n.mdi-trending-up::before {\n  content: \"\\F535\";\n}\n\n.mdi-triangle::before {\n  content: \"\\F536\";\n}\n\n.mdi-triangle-outline::before {\n  content: \"\\F537\";\n}\n\n.mdi-triforce::before {\n  content: \"\\FBB5\";\n}\n\n.mdi-trophy::before {\n  content: \"\\F538\";\n}\n\n.mdi-trophy-award::before {\n  content: \"\\F539\";\n}\n\n.mdi-trophy-broken::before {\n  content: \"\\FD80\";\n}\n\n.mdi-trophy-outline::before {\n  content: \"\\F53A\";\n}\n\n.mdi-trophy-variant::before {\n  content: \"\\F53B\";\n}\n\n.mdi-trophy-variant-outline::before {\n  content: \"\\F53C\";\n}\n\n.mdi-truck::before {\n  content: \"\\F53D\";\n}\n\n.mdi-truck-check::before {\n  content: \"\\FCB0\";\n}\n\n.mdi-truck-check-outline::before {\n  content: \"\\F02C5\";\n}\n\n.mdi-truck-delivery::before {\n  content: \"\\F53E\";\n}\n\n.mdi-truck-delivery-outline::before {\n  content: \"\\F02C6\";\n}\n\n.mdi-truck-fast::before {\n  content: \"\\F787\";\n}\n\n.mdi-truck-fast-outline::before {\n  content: \"\\F02C7\";\n}\n\n.mdi-truck-outline::before {\n  content: \"\\F02C8\";\n}\n\n.mdi-truck-trailer::before {\n  content: \"\\F726\";\n}\n\n.mdi-trumpet::before {\n  content: \"\\F00C1\";\n}\n\n.mdi-tshirt-crew::before {\n  content: \"\\FA7A\";\n}\n\n.mdi-tshirt-crew-outline::before {\n  content: \"\\F53F\";\n}\n\n.mdi-tshirt-v::before {\n  content: \"\\FA7B\";\n}\n\n.mdi-tshirt-v-outline::before {\n  content: \"\\F540\";\n}\n\n.mdi-tumble-dryer::before {\n  content: \"\\F916\";\n}\n\n.mdi-tumble-dryer-alert::before {\n  content: \"\\F01E5\";\n}\n\n.mdi-tumble-dryer-off::before {\n  content: \"\\F01E6\";\n}\n\n.mdi-tumblr::before {\n  content: \"\\F541\";\n}\n\n.mdi-tumblr-box::before {\n  content: \"\\F917\";\n}\n\n.mdi-tumblr-reblog::before {\n  content: \"\\F542\";\n}\n\n.mdi-tune::before {\n  content: \"\\F62E\";\n}\n\n.mdi-tune-vertical::before {\n  content: \"\\F66A\";\n}\n\n.mdi-turnstile::before {\n  content: \"\\FCB1\";\n}\n\n.mdi-turnstile-outline::before {\n  content: \"\\FCB2\";\n}\n\n.mdi-turtle::before {\n  content: \"\\FCB3\";\n}\n\n.mdi-twitch::before {\n  content: \"\\F543\";\n}\n\n.mdi-twitter::before {\n  content: \"\\F544\";\n}\n\n.mdi-twitter-box::before {\n  content: \"\\F545\";\n}\n\n.mdi-twitter-circle::before {\n  content: \"\\F546\";\n}\n\n.mdi-twitter-retweet::before {\n  content: \"\\F547\";\n}\n\n.mdi-two-factor-authentication::before {\n  content: \"\\F9AE\";\n}\n\n.mdi-typewriter::before {\n  content: \"\\FF4A\";\n}\n\n.mdi-uber::before {\n  content: \"\\F748\";\n}\n\n.mdi-ubisoft::before {\n  content: \"\\FBB6\";\n}\n\n.mdi-ubuntu::before {\n  content: \"\\F548\";\n}\n\n.mdi-ufo::before {\n  content: \"\\F00EF\";\n}\n\n.mdi-ufo-outline::before {\n  content: \"\\F00F0\";\n}\n\n.mdi-ultra-high-definition::before {\n  content: \"\\F7F8\";\n}\n\n.mdi-umbraco::before {\n  content: \"\\F549\";\n}\n\n.mdi-umbrella::before {\n  content: \"\\F54A\";\n}\n\n.mdi-umbrella-closed::before {\n  content: \"\\F9AF\";\n}\n\n.mdi-umbrella-outline::before {\n  content: \"\\F54B\";\n}\n\n.mdi-undo::before {\n  content: \"\\F54C\";\n}\n\n.mdi-undo-variant::before {\n  content: \"\\F54D\";\n}\n\n.mdi-unfold-less-horizontal::before {\n  content: \"\\F54E\";\n}\n\n.mdi-unfold-less-vertical::before {\n  content: \"\\F75F\";\n}\n\n.mdi-unfold-more-horizontal::before {\n  content: \"\\F54F\";\n}\n\n.mdi-unfold-more-vertical::before {\n  content: \"\\F760\";\n}\n\n.mdi-ungroup::before {\n  content: \"\\F550\";\n}\n\n.mdi-unicode::before {\n  content: \"\\FEED\";\n}\n\n.mdi-unity::before {\n  content: \"\\F6AE\";\n}\n\n.mdi-unreal::before {\n  content: \"\\F9B0\";\n}\n\n.mdi-untappd::before {\n  content: \"\\F551\";\n}\n\n.mdi-update::before {\n  content: \"\\F6AF\";\n}\n\n.mdi-upload::before {\n  content: \"\\F552\";\n}\n\n.mdi-upload-lock::before {\n  content: \"\\F039E\";\n}\n\n.mdi-upload-lock-outline::before {\n  content: \"\\F039F\";\n}\n\n.mdi-upload-multiple::before {\n  content: \"\\F83C\";\n}\n\n.mdi-upload-network::before {\n  content: \"\\F6F5\";\n}\n\n.mdi-upload-network-outline::before {\n  content: \"\\FCB4\";\n}\n\n.mdi-upload-off::before {\n  content: \"\\F00F1\";\n}\n\n.mdi-upload-off-outline::before {\n  content: \"\\F00F2\";\n}\n\n.mdi-upload-outline::before {\n  content: \"\\FE67\";\n}\n\n.mdi-usb::before {\n  content: \"\\F553\";\n}\n\n.mdi-usb-flash-drive::before {\n  content: \"\\F02C9\";\n}\n\n.mdi-usb-flash-drive-outline::before {\n  content: \"\\F02CA\";\n}\n\n.mdi-usb-port::before {\n  content: \"\\F021B\";\n}\n\n.mdi-valve::before {\n  content: \"\\F0088\";\n}\n\n.mdi-valve-closed::before {\n  content: \"\\F0089\";\n}\n\n.mdi-valve-open::before {\n  content: \"\\F008A\";\n}\n\n.mdi-van-passenger::before {\n  content: \"\\F7F9\";\n}\n\n.mdi-van-utility::before {\n  content: \"\\F7FA\";\n}\n\n.mdi-vanish::before {\n  content: \"\\F7FB\";\n}\n\n.mdi-vanity-light::before {\n  content: \"\\F020C\";\n}\n\n.mdi-variable::before {\n  content: \"\\FAE6\";\n}\n\n.mdi-variable-box::before {\n  content: \"\\F013C\";\n}\n\n.mdi-vector-arrange-above::before {\n  content: \"\\F554\";\n}\n\n.mdi-vector-arrange-below::before {\n  content: \"\\F555\";\n}\n\n.mdi-vector-bezier::before {\n  content: \"\\FAE7\";\n}\n\n.mdi-vector-circle::before {\n  content: \"\\F556\";\n}\n\n.mdi-vector-circle-variant::before {\n  content: \"\\F557\";\n}\n\n.mdi-vector-combine::before {\n  content: \"\\F558\";\n}\n\n.mdi-vector-curve::before {\n  content: \"\\F559\";\n}\n\n.mdi-vector-difference::before {\n  content: \"\\F55A\";\n}\n\n.mdi-vector-difference-ab::before {\n  content: \"\\F55B\";\n}\n\n.mdi-vector-difference-ba::before {\n  content: \"\\F55C\";\n}\n\n.mdi-vector-ellipse::before {\n  content: \"\\F892\";\n}\n\n.mdi-vector-intersection::before {\n  content: \"\\F55D\";\n}\n\n.mdi-vector-line::before {\n  content: \"\\F55E\";\n}\n\n.mdi-vector-link::before {\n  content: \"\\F0009\";\n}\n\n.mdi-vector-point::before {\n  content: \"\\F55F\";\n}\n\n.mdi-vector-polygon::before {\n  content: \"\\F560\";\n}\n\n.mdi-vector-polyline::before {\n  content: \"\\F561\";\n}\n\n.mdi-vector-polyline-edit::before {\n  content: \"\\F0250\";\n}\n\n.mdi-vector-polyline-minus::before {\n  content: \"\\F0251\";\n}\n\n.mdi-vector-polyline-plus::before {\n  content: \"\\F0252\";\n}\n\n.mdi-vector-polyline-remove::before {\n  content: \"\\F0253\";\n}\n\n.mdi-vector-radius::before {\n  content: \"\\F749\";\n}\n\n.mdi-vector-rectangle::before {\n  content: \"\\F5C6\";\n}\n\n.mdi-vector-selection::before {\n  content: \"\\F562\";\n}\n\n.mdi-vector-square::before {\n  content: \"\\F001\";\n}\n\n.mdi-vector-triangle::before {\n  content: \"\\F563\";\n}\n\n.mdi-vector-union::before {\n  content: \"\\F564\";\n}\n\n.mdi-venmo::before {\n  content: \"\\F578\";\n}\n\n.mdi-vhs::before {\n  content: \"\\FA1A\";\n}\n\n.mdi-vibrate::before {\n  content: \"\\F566\";\n}\n\n.mdi-vibrate-off::before {\n  content: \"\\FCB5\";\n}\n\n.mdi-video::before {\n  content: \"\\F567\";\n}\n\n.mdi-video-3d::before {\n  content: \"\\F7FC\";\n}\n\n.mdi-video-3d-variant::before {\n  content: \"\\FEEE\";\n}\n\n.mdi-video-4k-box::before {\n  content: \"\\F83D\";\n}\n\n.mdi-video-account::before {\n  content: \"\\F918\";\n}\n\n.mdi-video-check::before {\n  content: \"\\F008B\";\n}\n\n.mdi-video-check-outline::before {\n  content: \"\\F008C\";\n}\n\n.mdi-video-image::before {\n  content: \"\\F919\";\n}\n\n.mdi-video-input-antenna::before {\n  content: \"\\F83E\";\n}\n\n.mdi-video-input-component::before {\n  content: \"\\F83F\";\n}\n\n.mdi-video-input-hdmi::before {\n  content: \"\\F840\";\n}\n\n.mdi-video-input-scart::before {\n  content: \"\\FFA9\";\n}\n\n.mdi-video-input-svideo::before {\n  content: \"\\F841\";\n}\n\n.mdi-video-minus::before {\n  content: \"\\F9B1\";\n}\n\n.mdi-video-off::before {\n  content: \"\\F568\";\n}\n\n.mdi-video-off-outline::before {\n  content: \"\\FBB7\";\n}\n\n.mdi-video-outline::before {\n  content: \"\\FBB8\";\n}\n\n.mdi-video-plus::before {\n  content: \"\\F9B2\";\n}\n\n.mdi-video-stabilization::before {\n  content: \"\\F91A\";\n}\n\n.mdi-video-switch::before {\n  content: \"\\F569\";\n}\n\n.mdi-video-vintage::before {\n  content: \"\\FA1B\";\n}\n\n.mdi-video-wireless::before {\n  content: \"\\FEEF\";\n}\n\n.mdi-video-wireless-outline::before {\n  content: \"\\FEF0\";\n}\n\n.mdi-view-agenda::before {\n  content: \"\\F56A\";\n}\n\n.mdi-view-agenda-outline::before {\n  content: \"\\F0203\";\n}\n\n.mdi-view-array::before {\n  content: \"\\F56B\";\n}\n\n.mdi-view-carousel::before {\n  content: \"\\F56C\";\n}\n\n.mdi-view-column::before {\n  content: \"\\F56D\";\n}\n\n.mdi-view-comfy::before {\n  content: \"\\FE4D\";\n}\n\n.mdi-view-compact::before {\n  content: \"\\FE4E\";\n}\n\n.mdi-view-compact-outline::before {\n  content: \"\\FE4F\";\n}\n\n.mdi-view-dashboard::before {\n  content: \"\\F56E\";\n}\n\n.mdi-view-dashboard-outline::before {\n  content: \"\\FA1C\";\n}\n\n.mdi-view-dashboard-variant::before {\n  content: \"\\F842\";\n}\n\n.mdi-view-day::before {\n  content: \"\\F56F\";\n}\n\n.mdi-view-grid::before {\n  content: \"\\F570\";\n}\n\n.mdi-view-grid-outline::before {\n  content: \"\\F0204\";\n}\n\n.mdi-view-grid-plus::before {\n  content: \"\\FFAA\";\n}\n\n.mdi-view-grid-plus-outline::before {\n  content: \"\\F0205\";\n}\n\n.mdi-view-headline::before {\n  content: \"\\F571\";\n}\n\n.mdi-view-list::before {\n  content: \"\\F572\";\n}\n\n.mdi-view-module::before {\n  content: \"\\F573\";\n}\n\n.mdi-view-parallel::before {\n  content: \"\\F727\";\n}\n\n.mdi-view-quilt::before {\n  content: \"\\F574\";\n}\n\n.mdi-view-sequential::before {\n  content: \"\\F728\";\n}\n\n.mdi-view-split-horizontal::before {\n  content: \"\\FBA7\";\n}\n\n.mdi-view-split-vertical::before {\n  content: \"\\FBA8\";\n}\n\n.mdi-view-stream::before {\n  content: \"\\F575\";\n}\n\n.mdi-view-week::before {\n  content: \"\\F576\";\n}\n\n.mdi-vimeo::before {\n  content: \"\\F577\";\n}\n\n.mdi-violin::before {\n  content: \"\\F60F\";\n}\n\n.mdi-virtual-reality::before {\n  content: \"\\F893\";\n}\n\n.mdi-visual-studio::before {\n  content: \"\\F610\";\n}\n\n.mdi-visual-studio-code::before {\n  content: \"\\FA1D\";\n}\n\n.mdi-vk::before {\n  content: \"\\F579\";\n}\n\n.mdi-vk-box::before {\n  content: \"\\F57A\";\n}\n\n.mdi-vk-circle::before {\n  content: \"\\F57B\";\n}\n\n.mdi-vlc::before {\n  content: \"\\F57C\";\n}\n\n.mdi-voice::before {\n  content: \"\\F5CB\";\n}\n\n.mdi-voice-off::before {\n  content: \"\\FEF1\";\n}\n\n.mdi-voicemail::before {\n  content: \"\\F57D\";\n}\n\n.mdi-volleyball::before {\n  content: \"\\F9B3\";\n}\n\n.mdi-volume-high::before {\n  content: \"\\F57E\";\n}\n\n.mdi-volume-low::before {\n  content: \"\\F57F\";\n}\n\n.mdi-volume-medium::before {\n  content: \"\\F580\";\n}\n\n.mdi-volume-minus::before {\n  content: \"\\F75D\";\n}\n\n.mdi-volume-mute::before {\n  content: \"\\F75E\";\n}\n\n.mdi-volume-off::before {\n  content: \"\\F581\";\n}\n\n.mdi-volume-plus::before {\n  content: \"\\F75C\";\n}\n\n.mdi-volume-source::before {\n  content: \"\\F014B\";\n}\n\n.mdi-volume-variant-off::before {\n  content: \"\\FE68\";\n}\n\n.mdi-volume-vibrate::before {\n  content: \"\\F014C\";\n}\n\n.mdi-vote::before {\n  content: \"\\FA1E\";\n}\n\n.mdi-vote-outline::before {\n  content: \"\\FA1F\";\n}\n\n.mdi-vpn::before {\n  content: \"\\F582\";\n}\n\n.mdi-vuejs::before {\n  content: \"\\F843\";\n}\n\n.mdi-vuetify::before {\n  content: \"\\FE50\";\n}\n\n.mdi-walk::before {\n  content: \"\\F583\";\n}\n\n.mdi-wall::before {\n  content: \"\\F7FD\";\n}\n\n.mdi-wall-sconce::before {\n  content: \"\\F91B\";\n}\n\n.mdi-wall-sconce-flat::before {\n  content: \"\\F91C\";\n}\n\n.mdi-wall-sconce-variant::before {\n  content: \"\\F91D\";\n}\n\n.mdi-wallet::before {\n  content: \"\\F584\";\n}\n\n.mdi-wallet-giftcard::before {\n  content: \"\\F585\";\n}\n\n.mdi-wallet-membership::before {\n  content: \"\\F586\";\n}\n\n.mdi-wallet-outline::before {\n  content: \"\\FBB9\";\n}\n\n.mdi-wallet-plus::before {\n  content: \"\\FFAB\";\n}\n\n.mdi-wallet-plus-outline::before {\n  content: \"\\FFAC\";\n}\n\n.mdi-wallet-travel::before {\n  content: \"\\F587\";\n}\n\n.mdi-wallpaper::before {\n  content: \"\\FE69\";\n}\n\n.mdi-wan::before {\n  content: \"\\F588\";\n}\n\n.mdi-wardrobe::before {\n  content: \"\\FFAD\";\n}\n\n.mdi-wardrobe-outline::before {\n  content: \"\\FFAE\";\n}\n\n.mdi-warehouse::before {\n  content: \"\\FFBB\";\n}\n\n.mdi-washing-machine::before {\n  content: \"\\F729\";\n}\n\n.mdi-washing-machine-alert::before {\n  content: \"\\F01E7\";\n}\n\n.mdi-washing-machine-off::before {\n  content: \"\\F01E8\";\n}\n\n.mdi-watch::before {\n  content: \"\\F589\";\n}\n\n.mdi-watch-export::before {\n  content: \"\\F58A\";\n}\n\n.mdi-watch-export-variant::before {\n  content: \"\\F894\";\n}\n\n.mdi-watch-import::before {\n  content: \"\\F58B\";\n}\n\n.mdi-watch-import-variant::before {\n  content: \"\\F895\";\n}\n\n.mdi-watch-variant::before {\n  content: \"\\F896\";\n}\n\n.mdi-watch-vibrate::before {\n  content: \"\\F6B0\";\n}\n\n.mdi-watch-vibrate-off::before {\n  content: \"\\FCB6\";\n}\n\n.mdi-water::before {\n  content: \"\\F58C\";\n}\n\n.mdi-water-boiler::before {\n  content: \"\\FFAF\";\n}\n\n.mdi-water-boiler-alert::before {\n  content: \"\\F01DE\";\n}\n\n.mdi-water-boiler-off::before {\n  content: \"\\F01DF\";\n}\n\n.mdi-water-off::before {\n  content: \"\\F58D\";\n}\n\n.mdi-water-outline::before {\n  content: \"\\FE6A\";\n}\n\n.mdi-water-percent::before {\n  content: \"\\F58E\";\n}\n\n.mdi-water-polo::before {\n  content: \"\\F02CB\";\n}\n\n.mdi-water-pump::before {\n  content: \"\\F58F\";\n}\n\n.mdi-water-pump-off::before {\n  content: \"\\FFB0\";\n}\n\n.mdi-water-well::before {\n  content: \"\\F008D\";\n}\n\n.mdi-water-well-outline::before {\n  content: \"\\F008E\";\n}\n\n.mdi-watermark::before {\n  content: \"\\F612\";\n}\n\n.mdi-wave::before {\n  content: \"\\FF4B\";\n}\n\n.mdi-waves::before {\n  content: \"\\F78C\";\n}\n\n.mdi-waze::before {\n  content: \"\\FBBA\";\n}\n\n.mdi-weather-cloudy::before {\n  content: \"\\F590\";\n}\n\n.mdi-weather-cloudy-alert::before {\n  content: \"\\FF4C\";\n}\n\n.mdi-weather-cloudy-arrow-right::before {\n  content: \"\\FE51\";\n}\n\n.mdi-weather-fog::before {\n  content: \"\\F591\";\n}\n\n.mdi-weather-hail::before {\n  content: \"\\F592\";\n}\n\n.mdi-weather-hazy::before {\n  content: \"\\FF4D\";\n}\n\n.mdi-weather-hurricane::before {\n  content: \"\\F897\";\n}\n\n.mdi-weather-lightning::before {\n  content: \"\\F593\";\n}\n\n.mdi-weather-lightning-rainy::before {\n  content: \"\\F67D\";\n}\n\n.mdi-weather-night::before {\n  content: \"\\F594\";\n}\n\n.mdi-weather-night-partly-cloudy::before {\n  content: \"\\FF4E\";\n}\n\n.mdi-weather-partly-cloudy::before {\n  content: \"\\F595\";\n}\n\n.mdi-weather-partly-lightning::before {\n  content: \"\\FF4F\";\n}\n\n.mdi-weather-partly-rainy::before {\n  content: \"\\FF50\";\n}\n\n.mdi-weather-partly-snowy::before {\n  content: \"\\FF51\";\n}\n\n.mdi-weather-partly-snowy-rainy::before {\n  content: \"\\FF52\";\n}\n\n.mdi-weather-pouring::before {\n  content: \"\\F596\";\n}\n\n.mdi-weather-rainy::before {\n  content: \"\\F597\";\n}\n\n.mdi-weather-snowy::before {\n  content: \"\\F598\";\n}\n\n.mdi-weather-snowy-heavy::before {\n  content: \"\\FF53\";\n}\n\n.mdi-weather-snowy-rainy::before {\n  content: \"\\F67E\";\n}\n\n.mdi-weather-sunny::before {\n  content: \"\\F599\";\n}\n\n.mdi-weather-sunny-alert::before {\n  content: \"\\FF54\";\n}\n\n.mdi-weather-sunset::before {\n  content: \"\\F59A\";\n}\n\n.mdi-weather-sunset-down::before {\n  content: \"\\F59B\";\n}\n\n.mdi-weather-sunset-up::before {\n  content: \"\\F59C\";\n}\n\n.mdi-weather-tornado::before {\n  content: \"\\FF55\";\n}\n\n.mdi-weather-windy::before {\n  content: \"\\F59D\";\n}\n\n.mdi-weather-windy-variant::before {\n  content: \"\\F59E\";\n}\n\n.mdi-web::before {\n  content: \"\\F59F\";\n}\n\n.mdi-web-box::before {\n  content: \"\\FFB1\";\n}\n\n.mdi-web-clock::before {\n  content: \"\\F0275\";\n}\n\n.mdi-webcam::before {\n  content: \"\\F5A0\";\n}\n\n.mdi-webhook::before {\n  content: \"\\F62F\";\n}\n\n.mdi-webpack::before {\n  content: \"\\F72A\";\n}\n\n.mdi-webrtc::before {\n  content: \"\\F0273\";\n}\n\n.mdi-wechat::before {\n  content: \"\\F611\";\n}\n\n.mdi-weight::before {\n  content: \"\\F5A1\";\n}\n\n.mdi-weight-gram::before {\n  content: \"\\FD1B\";\n}\n\n.mdi-weight-kilogram::before {\n  content: \"\\F5A2\";\n}\n\n.mdi-weight-lifter::before {\n  content: \"\\F0188\";\n}\n\n.mdi-weight-pound::before {\n  content: \"\\F9B4\";\n}\n\n.mdi-whatsapp::before {\n  content: \"\\F5A3\";\n}\n\n.mdi-wheelchair-accessibility::before {\n  content: \"\\F5A4\";\n}\n\n.mdi-whistle::before {\n  content: \"\\F9B5\";\n}\n\n.mdi-whistle-outline::before {\n  content: \"\\F02E7\";\n}\n\n.mdi-white-balance-auto::before {\n  content: \"\\F5A5\";\n}\n\n.mdi-white-balance-incandescent::before {\n  content: \"\\F5A6\";\n}\n\n.mdi-white-balance-iridescent::before {\n  content: \"\\F5A7\";\n}\n\n.mdi-white-balance-sunny::before {\n  content: \"\\F5A8\";\n}\n\n.mdi-widgets::before {\n  content: \"\\F72B\";\n}\n\n.mdi-widgets-outline::before {\n  content: \"\\F0380\";\n}\n\n.mdi-wifi::before {\n  content: \"\\F5A9\";\n}\n\n.mdi-wifi-off::before {\n  content: \"\\F5AA\";\n}\n\n.mdi-wifi-star::before {\n  content: \"\\FE6B\";\n}\n\n.mdi-wifi-strength-1::before {\n  content: \"\\F91E\";\n}\n\n.mdi-wifi-strength-1-alert::before {\n  content: \"\\F91F\";\n}\n\n.mdi-wifi-strength-1-lock::before {\n  content: \"\\F920\";\n}\n\n.mdi-wifi-strength-2::before {\n  content: \"\\F921\";\n}\n\n.mdi-wifi-strength-2-alert::before {\n  content: \"\\F922\";\n}\n\n.mdi-wifi-strength-2-lock::before {\n  content: \"\\F923\";\n}\n\n.mdi-wifi-strength-3::before {\n  content: \"\\F924\";\n}\n\n.mdi-wifi-strength-3-alert::before {\n  content: \"\\F925\";\n}\n\n.mdi-wifi-strength-3-lock::before {\n  content: \"\\F926\";\n}\n\n.mdi-wifi-strength-4::before {\n  content: \"\\F927\";\n}\n\n.mdi-wifi-strength-4-alert::before {\n  content: \"\\F928\";\n}\n\n.mdi-wifi-strength-4-lock::before {\n  content: \"\\F929\";\n}\n\n.mdi-wifi-strength-alert-outline::before {\n  content: \"\\F92A\";\n}\n\n.mdi-wifi-strength-lock-outline::before {\n  content: \"\\F92B\";\n}\n\n.mdi-wifi-strength-off::before {\n  content: \"\\F92C\";\n}\n\n.mdi-wifi-strength-off-outline::before {\n  content: \"\\F92D\";\n}\n\n.mdi-wifi-strength-outline::before {\n  content: \"\\F92E\";\n}\n\n.mdi-wii::before {\n  content: \"\\F5AB\";\n}\n\n.mdi-wiiu::before {\n  content: \"\\F72C\";\n}\n\n.mdi-wikipedia::before {\n  content: \"\\F5AC\";\n}\n\n.mdi-wind-turbine::before {\n  content: \"\\FD81\";\n}\n\n.mdi-window-close::before {\n  content: \"\\F5AD\";\n}\n\n.mdi-window-closed::before {\n  content: \"\\F5AE\";\n}\n\n.mdi-window-closed-variant::before {\n  content: \"\\F0206\";\n}\n\n.mdi-window-maximize::before {\n  content: \"\\F5AF\";\n}\n\n.mdi-window-minimize::before {\n  content: \"\\F5B0\";\n}\n\n.mdi-window-open::before {\n  content: \"\\F5B1\";\n}\n\n.mdi-window-open-variant::before {\n  content: \"\\F0207\";\n}\n\n.mdi-window-restore::before {\n  content: \"\\F5B2\";\n}\n\n.mdi-window-shutter::before {\n  content: \"\\F0147\";\n}\n\n.mdi-window-shutter-alert::before {\n  content: \"\\F0148\";\n}\n\n.mdi-window-shutter-open::before {\n  content: \"\\F0149\";\n}\n\n.mdi-windows::before {\n  content: \"\\F5B3\";\n}\n\n.mdi-windows-classic::before {\n  content: \"\\FA20\";\n}\n\n.mdi-wiper::before {\n  content: \"\\FAE8\";\n}\n\n.mdi-wiper-wash::before {\n  content: \"\\FD82\";\n}\n\n.mdi-wordpress::before {\n  content: \"\\F5B4\";\n}\n\n.mdi-worker::before {\n  content: \"\\F5B5\";\n}\n\n.mdi-wrap::before {\n  content: \"\\F5B6\";\n}\n\n.mdi-wrap-disabled::before {\n  content: \"\\FBBB\";\n}\n\n.mdi-wrench::before {\n  content: \"\\F5B7\";\n}\n\n.mdi-wrench-outline::before {\n  content: \"\\FBBC\";\n}\n\n.mdi-wunderlist::before {\n  content: \"\\F5B8\";\n}\n\n.mdi-xamarin::before {\n  content: \"\\F844\";\n}\n\n.mdi-xamarin-outline::before {\n  content: \"\\F845\";\n}\n\n.mdi-xaml::before {\n  content: \"\\F673\";\n}\n\n.mdi-xbox::before {\n  content: \"\\F5B9\";\n}\n\n.mdi-xbox-controller::before {\n  content: \"\\F5BA\";\n}\n\n.mdi-xbox-controller-battery-alert::before {\n  content: \"\\F74A\";\n}\n\n.mdi-xbox-controller-battery-charging::before {\n  content: \"\\FA21\";\n}\n\n.mdi-xbox-controller-battery-empty::before {\n  content: \"\\F74B\";\n}\n\n.mdi-xbox-controller-battery-full::before {\n  content: \"\\F74C\";\n}\n\n.mdi-xbox-controller-battery-low::before {\n  content: \"\\F74D\";\n}\n\n.mdi-xbox-controller-battery-medium::before {\n  content: \"\\F74E\";\n}\n\n.mdi-xbox-controller-battery-unknown::before {\n  content: \"\\F74F\";\n}\n\n.mdi-xbox-controller-menu::before {\n  content: \"\\FE52\";\n}\n\n.mdi-xbox-controller-off::before {\n  content: \"\\F5BB\";\n}\n\n.mdi-xbox-controller-view::before {\n  content: \"\\FE53\";\n}\n\n.mdi-xda::before {\n  content: \"\\F5BC\";\n}\n\n.mdi-xing::before {\n  content: \"\\F5BD\";\n}\n\n.mdi-xing-box::before {\n  content: \"\\F5BE\";\n}\n\n.mdi-xing-circle::before {\n  content: \"\\F5BF\";\n}\n\n.mdi-xml::before {\n  content: \"\\F5C0\";\n}\n\n.mdi-xmpp::before {\n  content: \"\\F7FE\";\n}\n\n.mdi-yahoo::before {\n  content: \"\\FB2A\";\n}\n\n.mdi-yammer::before {\n  content: \"\\F788\";\n}\n\n.mdi-yeast::before {\n  content: \"\\F5C1\";\n}\n\n.mdi-yelp::before {\n  content: \"\\F5C2\";\n}\n\n.mdi-yin-yang::before {\n  content: \"\\F67F\";\n}\n\n.mdi-yoga::before {\n  content: \"\\F01A7\";\n}\n\n.mdi-youtube::before {\n  content: \"\\F5C3\";\n}\n\n.mdi-youtube-creator-studio::before {\n  content: \"\\F846\";\n}\n\n.mdi-youtube-gaming::before {\n  content: \"\\F847\";\n}\n\n.mdi-youtube-subscription::before {\n  content: \"\\FD1C\";\n}\n\n.mdi-youtube-tv::before {\n  content: \"\\F448\";\n}\n\n.mdi-z-wave::before {\n  content: \"\\FAE9\";\n}\n\n.mdi-zend::before {\n  content: \"\\FAEA\";\n}\n\n.mdi-zigbee::before {\n  content: \"\\FD1D\";\n}\n\n.mdi-zip-box::before {\n  content: \"\\F5C4\";\n}\n\n.mdi-zip-box-outline::before {\n  content: \"\\F001B\";\n}\n\n.mdi-zip-disk::before {\n  content: \"\\FA22\";\n}\n\n.mdi-zodiac-aquarius::before {\n  content: \"\\FA7C\";\n}\n\n.mdi-zodiac-aries::before {\n  content: \"\\FA7D\";\n}\n\n.mdi-zodiac-cancer::before {\n  content: \"\\FA7E\";\n}\n\n.mdi-zodiac-capricorn::before {\n  content: \"\\FA7F\";\n}\n\n.mdi-zodiac-gemini::before {\n  content: \"\\FA80\";\n}\n\n.mdi-zodiac-leo::before {\n  content: \"\\FA81\";\n}\n\n.mdi-zodiac-libra::before {\n  content: \"\\FA82\";\n}\n\n.mdi-zodiac-pisces::before {\n  content: \"\\FA83\";\n}\n\n.mdi-zodiac-sagittarius::before {\n  content: \"\\FA84\";\n}\n\n.mdi-zodiac-scorpio::before {\n  content: \"\\FA85\";\n}\n\n.mdi-zodiac-taurus::before {\n  content: \"\\FA86\";\n}\n\n.mdi-zodiac-virgo::before {\n  content: \"\\FA87\";\n}\n\n.mdi-blank::before {\n  content: \"\\F68C\";\n  visibility: hidden;\n}\n\n.mdi-18px.mdi-set, .mdi-18px.mdi:before {\n  font-size: 18px;\n}\n\n.mdi-24px.mdi-set, .mdi-24px.mdi:before {\n  font-size: 24px;\n}\n\n.mdi-36px.mdi-set, .mdi-36px.mdi:before {\n  font-size: 36px;\n}\n\n.mdi-48px.mdi-set, .mdi-48px.mdi:before {\n  font-size: 48px;\n}\n\n.mdi-dark:before {\n  color: rgba(0, 0, 0, 0.54);\n}\n\n.mdi-dark.mdi-inactive:before {\n  color: rgba(0, 0, 0, 0.26);\n}\n\n.mdi-light:before {\n  color: white;\n}\n\n.mdi-light.mdi-inactive:before {\n  color: rgba(255, 255, 255, 0.3);\n}\n\n.mdi-rotate-45 {\n  /*\r\n        // Not included in production\r\n        &.mdi-flip-h:before {\r\n            -webkit-transform: scaleX(-1) rotate(45deg);\r\n            transform: scaleX(-1) rotate(45deg);\r\n            filter: FlipH;\r\n            -ms-filter: \"FlipH\";\r\n        }\r\n        &.mdi-flip-v:before {\r\n            -webkit-transform: scaleY(-1) rotate(45deg);\r\n            -ms-transform: rotate(45deg);\r\n            transform: scaleY(-1) rotate(45deg);\r\n            filter: FlipV;\r\n            -ms-filter: \"FlipV\";\r\n        }\r\n        */\n}\n\n.mdi-rotate-45:before {\n  -webkit-transform: rotate(45deg);\n  -ms-transform: rotate(45deg);\n  transform: rotate(45deg);\n}\n\n.mdi-rotate-90 {\n  /*\r\n        // Not included in production\r\n        &.mdi-flip-h:before {\r\n            -webkit-transform: scaleX(-1) rotate(90deg);\r\n            transform: scaleX(-1) rotate(90deg);\r\n            filter: FlipH;\r\n            -ms-filter: \"FlipH\";\r\n        }\r\n        &.mdi-flip-v:before {\r\n            -webkit-transform: scaleY(-1) rotate(90deg);\r\n            -ms-transform: rotate(90deg);\r\n            transform: scaleY(-1) rotate(90deg);\r\n            filter: FlipV;\r\n            -ms-filter: \"FlipV\";\r\n        }\r\n        */\n}\n\n.mdi-rotate-90:before {\n  -webkit-transform: rotate(90deg);\n  -ms-transform: rotate(90deg);\n  transform: rotate(90deg);\n}\n\n.mdi-rotate-135 {\n  /*\r\n        // Not included in production\r\n        &.mdi-flip-h:before {\r\n            -webkit-transform: scaleX(-1) rotate(135deg);\r\n            transform: scaleX(-1) rotate(135deg);\r\n            filter: FlipH;\r\n            -ms-filter: \"FlipH\";\r\n        }\r\n        &.mdi-flip-v:before {\r\n            -webkit-transform: scaleY(-1) rotate(135deg);\r\n            -ms-transform: rotate(135deg);\r\n            transform: scaleY(-1) rotate(135deg);\r\n            filter: FlipV;\r\n            -ms-filter: \"FlipV\";\r\n        }\r\n        */\n}\n\n.mdi-rotate-135:before {\n  -webkit-transform: rotate(135deg);\n  -ms-transform: rotate(135deg);\n  transform: rotate(135deg);\n}\n\n.mdi-rotate-180 {\n  /*\r\n        // Not included in production\r\n        &.mdi-flip-h:before {\r\n            -webkit-transform: scaleX(-1) rotate(180deg);\r\n            transform: scaleX(-1) rotate(180deg);\r\n            filter: FlipH;\r\n            -ms-filter: \"FlipH\";\r\n        }\r\n        &.mdi-flip-v:before {\r\n            -webkit-transform: scaleY(-1) rotate(180deg);\r\n            -ms-transform: rotate(180deg);\r\n            transform: scaleY(-1) rotate(180deg);\r\n            filter: FlipV;\r\n            -ms-filter: \"FlipV\";\r\n        }\r\n        */\n}\n\n.mdi-rotate-180:before {\n  -webkit-transform: rotate(180deg);\n  -ms-transform: rotate(180deg);\n  transform: rotate(180deg);\n}\n\n.mdi-rotate-225 {\n  /*\r\n        // Not included in production\r\n        &.mdi-flip-h:before {\r\n            -webkit-transform: scaleX(-1) rotate(225deg);\r\n            transform: scaleX(-1) rotate(225deg);\r\n            filter: FlipH;\r\n            -ms-filter: \"FlipH\";\r\n        }\r\n        &.mdi-flip-v:before {\r\n            -webkit-transform: scaleY(-1) rotate(225deg);\r\n            -ms-transform: rotate(225deg);\r\n            transform: scaleY(-1) rotate(225deg);\r\n            filter: FlipV;\r\n            -ms-filter: \"FlipV\";\r\n        }\r\n        */\n}\n\n.mdi-rotate-225:before {\n  -webkit-transform: rotate(225deg);\n  -ms-transform: rotate(225deg);\n  transform: rotate(225deg);\n}\n\n.mdi-rotate-270 {\n  /*\r\n        // Not included in production\r\n        &.mdi-flip-h:before {\r\n            -webkit-transform: scaleX(-1) rotate(270deg);\r\n            transform: scaleX(-1) rotate(270deg);\r\n            filter: FlipH;\r\n            -ms-filter: \"FlipH\";\r\n        }\r\n        &.mdi-flip-v:before {\r\n            -webkit-transform: scaleY(-1) rotate(270deg);\r\n            -ms-transform: rotate(270deg);\r\n            transform: scaleY(-1) rotate(270deg);\r\n            filter: FlipV;\r\n            -ms-filter: \"FlipV\";\r\n        }\r\n        */\n}\n\n.mdi-rotate-270:before {\n  -webkit-transform: rotate(270deg);\n  -ms-transform: rotate(270deg);\n  transform: rotate(270deg);\n}\n\n.mdi-rotate-315 {\n  /*\r\n        // Not included in production\r\n        &.mdi-flip-h:before {\r\n            -webkit-transform: scaleX(-1) rotate(315deg);\r\n            transform: scaleX(-1) rotate(315deg);\r\n            filter: FlipH;\r\n            -ms-filter: \"FlipH\";\r\n        }\r\n        &.mdi-flip-v:before {\r\n            -webkit-transform: scaleY(-1) rotate(315deg);\r\n            -ms-transform: rotate(315deg);\r\n            transform: scaleY(-1) rotate(315deg);\r\n            filter: FlipV;\r\n            -ms-filter: \"FlipV\";\r\n        }\r\n        */\n}\n\n.mdi-rotate-315:before {\n  -webkit-transform: rotate(315deg);\n  -ms-transform: rotate(315deg);\n  transform: rotate(315deg);\n}\n\n.mdi-flip-h:before {\n  -webkit-transform: scaleX(-1);\n  transform: scaleX(-1);\n  filter: FlipH;\n  -ms-filter: \"FlipH\";\n}\n\n.mdi-flip-v:before {\n  -webkit-transform: scaleY(-1);\n  transform: scaleY(-1);\n  filter: FlipV;\n  -ms-filter: \"FlipV\";\n}\n\n.mdi-spin:before {\n  -webkit-animation: mdi-spin 2s infinite linear;\n  animation: mdi-spin 2s infinite linear;\n}\n\n@-webkit-keyframes mdi-spin {\n  0% {\n    -webkit-transform: rotate(0deg);\n    transform: rotate(0deg);\n  }\n  100% {\n    -webkit-transform: rotate(359deg);\n    transform: rotate(359deg);\n  }\n}\n\n@keyframes mdi-spin {\n  0% {\n    -webkit-transform: rotate(0deg);\n    transform: rotate(0deg);\n  }\n  100% {\n    -webkit-transform: rotate(359deg);\n    transform: rotate(359deg);\n  }\n}", ""]);
+
+// exports
+
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./node_modules/material-design-icons-iconfont/dist/material-design-icons.css":
+/*!********************************************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader??ref--5-1!./node_modules/postcss-loader/src??ref--5-2!./node_modules/material-design-icons-iconfont/dist/material-design-icons.css ***!
+  \********************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var escape = __webpack_require__(/*! ../../css-loader/lib/url/escape.js */ "./node_modules/css-loader/lib/url/escape.js");
+exports = module.exports = __webpack_require__(/*! ../../css-loader/lib/css-base.js */ "./node_modules/css-loader/lib/css-base.js")(false);
+// imports
+
+
+// module
+exports.push([module.i, "@charset \"UTF-8\";\n@font-face {\n  font-family: 'Material Icons';\n  font-style: normal;\n  font-weight: 400;\n  font-display: block;\n  src: url(" + escape(__webpack_require__(/*! ./fonts/MaterialIcons-Regular.eot */ "./node_modules/material-design-icons-iconfont/dist/fonts/MaterialIcons-Regular.eot")) + ");\n  /* For IE6-8 */\n  src: local(\"\\263A\"), url(" + escape(__webpack_require__(/*! ./fonts/MaterialIcons-Regular.woff2 */ "./node_modules/material-design-icons-iconfont/dist/fonts/MaterialIcons-Regular.woff2")) + ") format(\"woff2\"), url(" + escape(__webpack_require__(/*! ./fonts/MaterialIcons-Regular.woff */ "./node_modules/material-design-icons-iconfont/dist/fonts/MaterialIcons-Regular.woff")) + ") format(\"woff\"), url(" + escape(__webpack_require__(/*! ./fonts/MaterialIcons-Regular.ttf */ "./node_modules/material-design-icons-iconfont/dist/fonts/MaterialIcons-Regular.ttf")) + ") format(\"truetype\"); }\n\n.material-icons {\n  font-family: 'Material Icons';\n  font-weight: normal;\n  font-style: normal;\n  font-size: 24px;\n  /* Preferred icon size */\n  display: inline-block;\n  line-height: 1;\n  text-transform: none;\n  letter-spacing: normal;\n  word-wrap: normal;\n  white-space: nowrap;\n  direction: ltr;\n  /* Support for all WebKit browsers. */\n  -webkit-font-smoothing: antialiased;\n  /* Support for Safari and Chrome. */\n  text-rendering: optimizeLegibility;\n  /* Support for Firefox. */\n  -moz-osx-font-smoothing: grayscale;\n  /* Support for IE. */\n  font-feature-settings: 'liga'; }\n  .material-icons._10k:before {\n    content: \"\\E951\"; }\n  .material-icons._10mp:before {\n    content: \"\\E952\"; }\n  .material-icons._11mp:before {\n    content: \"\\E953\"; }\n  .material-icons._12mp:before {\n    content: \"\\E954\"; }\n  .material-icons._13mp:before {\n    content: \"\\E955\"; }\n  .material-icons._14mp:before {\n    content: \"\\E956\"; }\n  .material-icons._15mp:before {\n    content: \"\\E957\"; }\n  .material-icons._16mp:before {\n    content: \"\\E958\"; }\n  .material-icons._17mp:before {\n    content: \"\\E959\"; }\n  .material-icons._18mp:before {\n    content: \"\\E95A\"; }\n  .material-icons._19mp:before {\n    content: \"\\E95B\"; }\n  .material-icons._1k:before {\n    content: \"\\E95C\"; }\n  .material-icons._1k_plus:before {\n    content: \"\\E95D\"; }\n  .material-icons._20mp:before {\n    content: \"\\E95E\"; }\n  .material-icons._21mp:before {\n    content: \"\\E95F\"; }\n  .material-icons._22mp:before {\n    content: \"\\E960\"; }\n  .material-icons._23mp:before {\n    content: \"\\E961\"; }\n  .material-icons._24mp:before {\n    content: \"\\E962\"; }\n  .material-icons._2k:before {\n    content: \"\\E963\"; }\n  .material-icons._2k_plus:before {\n    content: \"\\E964\"; }\n  .material-icons._2mp:before {\n    content: \"\\E965\"; }\n  .material-icons._360:before {\n    content: \"\\E577\"; }\n  .material-icons._3d_rotation:before {\n    content: \"\\E84D\"; }\n  .material-icons._3k:before {\n    content: \"\\E966\"; }\n  .material-icons._3k_plus:before {\n    content: \"\\E967\"; }\n  .material-icons._3mp:before {\n    content: \"\\E968\"; }\n  .material-icons._4k:before {\n    content: \"\\E072\"; }\n  .material-icons._4k_plus:before {\n    content: \"\\E969\"; }\n  .material-icons._4mp:before {\n    content: \"\\E96A\"; }\n  .material-icons._5g:before {\n    content: \"\\EF38\"; }\n  .material-icons._5k:before {\n    content: \"\\E96B\"; }\n  .material-icons._5k_plus:before {\n    content: \"\\E96C\"; }\n  .material-icons._5mp:before {\n    content: \"\\E96D\"; }\n  .material-icons._6_ft_apart:before {\n    content: \"\\F21E\"; }\n  .material-icons._6k:before {\n    content: \"\\E96E\"; }\n  .material-icons._6k_plus:before {\n    content: \"\\E96F\"; }\n  .material-icons._6mp:before {\n    content: \"\\E970\"; }\n  .material-icons._7k:before {\n    content: \"\\E971\"; }\n  .material-icons._7k_plus:before {\n    content: \"\\E972\"; }\n  .material-icons._7mp:before {\n    content: \"\\E973\"; }\n  .material-icons._8k:before {\n    content: \"\\E974\"; }\n  .material-icons._8k_plus:before {\n    content: \"\\E975\"; }\n  .material-icons._8mp:before {\n    content: \"\\E976\"; }\n  .material-icons._9k:before {\n    content: \"\\E977\"; }\n  .material-icons._9k_plus:before {\n    content: \"\\E978\"; }\n  .material-icons._9mp:before {\n    content: \"\\E979\"; }\n  .material-icons.ac_unit:before {\n    content: \"\\EB3B\"; }\n  .material-icons.access_alarm:before {\n    content: \"\\E190\"; }\n  .material-icons.access_alarms:before {\n    content: \"\\E191\"; }\n  .material-icons.access_time:before {\n    content: \"\\E192\"; }\n  .material-icons.accessibility:before {\n    content: \"\\E84E\"; }\n  .material-icons.accessibility_new:before {\n    content: \"\\E92C\"; }\n  .material-icons.accessible:before {\n    content: \"\\E914\"; }\n  .material-icons.accessible_forward:before {\n    content: \"\\E934\"; }\n  .material-icons.account_balance:before {\n    content: \"\\E84F\"; }\n  .material-icons.account_balance_wallet:before {\n    content: \"\\E850\"; }\n  .material-icons.account_box:before {\n    content: \"\\E851\"; }\n  .material-icons.account_circle:before {\n    content: \"\\E853\"; }\n  .material-icons.account_tree:before {\n    content: \"\\E97A\"; }\n  .material-icons.ad_units:before {\n    content: \"\\EF39\"; }\n  .material-icons.adb:before {\n    content: \"\\E60E\"; }\n  .material-icons.add:before {\n    content: \"\\E145\"; }\n  .material-icons.add_a_photo:before {\n    content: \"\\E439\"; }\n  .material-icons.add_alarm:before {\n    content: \"\\E193\"; }\n  .material-icons.add_alert:before {\n    content: \"\\E003\"; }\n  .material-icons.add_box:before {\n    content: \"\\E146\"; }\n  .material-icons.add_business:before {\n    content: \"\\E729\"; }\n  .material-icons.add_call:before {\n    content: \"\\E0E8\"; }\n  .material-icons.add_chart:before {\n    content: \"\\E97B\"; }\n  .material-icons.add_circle:before {\n    content: \"\\E147\"; }\n  .material-icons.add_circle_outline:before {\n    content: \"\\E148\"; }\n  .material-icons.add_comment:before {\n    content: \"\\E266\"; }\n  .material-icons.add_ic_call:before {\n    content: \"\\E97C\"; }\n  .material-icons.add_link:before {\n    content: \"\\E178\"; }\n  .material-icons.add_location:before {\n    content: \"\\E567\"; }\n  .material-icons.add_location_alt:before {\n    content: \"\\EF3A\"; }\n  .material-icons.add_moderator:before {\n    content: \"\\E97D\"; }\n  .material-icons.add_photo_alternate:before {\n    content: \"\\E43E\"; }\n  .material-icons.add_road:before {\n    content: \"\\EF3B\"; }\n  .material-icons.add_shopping_cart:before {\n    content: \"\\E854\"; }\n  .material-icons.add_task:before {\n    content: \"\\F23A\"; }\n  .material-icons.add_to_drive:before {\n    content: \"\\E65C\"; }\n  .material-icons.add_to_home_screen:before {\n    content: \"\\E1FE\"; }\n  .material-icons.add_to_photos:before {\n    content: \"\\E39D\"; }\n  .material-icons.add_to_queue:before {\n    content: \"\\E05C\"; }\n  .material-icons.addchart:before {\n    content: \"\\EF3C\"; }\n  .material-icons.adjust:before {\n    content: \"\\E39E\"; }\n  .material-icons.admin_panel_settings:before {\n    content: \"\\EF3D\"; }\n  .material-icons.agriculture:before {\n    content: \"\\EA79\"; }\n  .material-icons.airline_seat_flat:before {\n    content: \"\\E630\"; }\n  .material-icons.airline_seat_flat_angled:before {\n    content: \"\\E631\"; }\n  .material-icons.airline_seat_individual_suite:before {\n    content: \"\\E632\"; }\n  .material-icons.airline_seat_legroom_extra:before {\n    content: \"\\E633\"; }\n  .material-icons.airline_seat_legroom_normal:before {\n    content: \"\\E634\"; }\n  .material-icons.airline_seat_legroom_reduced:before {\n    content: \"\\E635\"; }\n  .material-icons.airline_seat_recline_extra:before {\n    content: \"\\E636\"; }\n  .material-icons.airline_seat_recline_normal:before {\n    content: \"\\E637\"; }\n  .material-icons.airplanemode_active:before {\n    content: \"\\E195\"; }\n  .material-icons.airplanemode_inactive:before {\n    content: \"\\E194\"; }\n  .material-icons.airplanemode_off:before {\n    content: \"\\E194\"; }\n  .material-icons.airplanemode_on:before {\n    content: \"\\E195\"; }\n  .material-icons.airplay:before {\n    content: \"\\E055\"; }\n  .material-icons.airport_shuttle:before {\n    content: \"\\EB3C\"; }\n  .material-icons.alarm:before {\n    content: \"\\E855\"; }\n  .material-icons.alarm_add:before {\n    content: \"\\E856\"; }\n  .material-icons.alarm_off:before {\n    content: \"\\E857\"; }\n  .material-icons.alarm_on:before {\n    content: \"\\E858\"; }\n  .material-icons.album:before {\n    content: \"\\E019\"; }\n  .material-icons.align_horizontal_center:before {\n    content: \"\\E00F\"; }\n  .material-icons.align_horizontal_left:before {\n    content: \"\\E00D\"; }\n  .material-icons.align_horizontal_right:before {\n    content: \"\\E010\"; }\n  .material-icons.align_vertical_bottom:before {\n    content: \"\\E015\"; }\n  .material-icons.align_vertical_center:before {\n    content: \"\\E011\"; }\n  .material-icons.align_vertical_top:before {\n    content: \"\\E00C\"; }\n  .material-icons.all_inbox:before {\n    content: \"\\E97F\"; }\n  .material-icons.all_inclusive:before {\n    content: \"\\EB3D\"; }\n  .material-icons.all_out:before {\n    content: \"\\E90B\"; }\n  .material-icons.alt_route:before {\n    content: \"\\F184\"; }\n  .material-icons.alternate_email:before {\n    content: \"\\E0E6\"; }\n  .material-icons.amp_stories:before {\n    content: \"\\EA13\"; }\n  .material-icons.analytics:before {\n    content: \"\\EF3E\"; }\n  .material-icons.anchor:before {\n    content: \"\\F1CD\"; }\n  .material-icons.android:before {\n    content: \"\\E859\"; }\n  .material-icons.animation:before {\n    content: \"\\E71C\"; }\n  .material-icons.announcement:before {\n    content: \"\\E85A\"; }\n  .material-icons.apartment:before {\n    content: \"\\EA40\"; }\n  .material-icons.api:before {\n    content: \"\\F1B7\"; }\n  .material-icons.app_blocking:before {\n    content: \"\\EF3F\"; }\n  .material-icons.app_registration:before {\n    content: \"\\EF40\"; }\n  .material-icons.app_settings_alt:before {\n    content: \"\\EF41\"; }\n  .material-icons.approval:before {\n    content: \"\\E982\"; }\n  .material-icons.apps:before {\n    content: \"\\E5C3\"; }\n  .material-icons.architecture:before {\n    content: \"\\EA3B\"; }\n  .material-icons.archive:before {\n    content: \"\\E149\"; }\n  .material-icons.arrow_back:before {\n    content: \"\\E5C4\"; }\n  .material-icons.arrow_back_ios:before {\n    content: \"\\E5E0\"; }\n  .material-icons.arrow_circle_down:before {\n    content: \"\\F181\"; }\n  .material-icons.arrow_circle_up:before {\n    content: \"\\F182\"; }\n  .material-icons.arrow_downward:before {\n    content: \"\\E5DB\"; }\n  .material-icons.arrow_drop_down:before {\n    content: \"\\E5C5\"; }\n  .material-icons.arrow_drop_down_circle:before {\n    content: \"\\E5C6\"; }\n  .material-icons.arrow_drop_up:before {\n    content: \"\\E5C7\"; }\n  .material-icons.arrow_forward:before {\n    content: \"\\E5C8\"; }\n  .material-icons.arrow_forward_ios:before {\n    content: \"\\E5E1\"; }\n  .material-icons.arrow_left:before {\n    content: \"\\E5DE\"; }\n  .material-icons.arrow_right:before {\n    content: \"\\E5DF\"; }\n  .material-icons.arrow_right_alt:before {\n    content: \"\\E941\"; }\n  .material-icons.arrow_upward:before {\n    content: \"\\E5D8\"; }\n  .material-icons.art_track:before {\n    content: \"\\E060\"; }\n  .material-icons.article:before {\n    content: \"\\EF42\"; }\n  .material-icons.aspect_ratio:before {\n    content: \"\\E85B\"; }\n  .material-icons.assessment:before {\n    content: \"\\E85C\"; }\n  .material-icons.assignment:before {\n    content: \"\\E85D\"; }\n  .material-icons.assignment_ind:before {\n    content: \"\\E85E\"; }\n  .material-icons.assignment_late:before {\n    content: \"\\E85F\"; }\n  .material-icons.assignment_return:before {\n    content: \"\\E860\"; }\n  .material-icons.assignment_returned:before {\n    content: \"\\E861\"; }\n  .material-icons.assignment_turned_in:before {\n    content: \"\\E862\"; }\n  .material-icons.assistant:before {\n    content: \"\\E39F\"; }\n  .material-icons.assistant_direction:before {\n    content: \"\\E988\"; }\n  .material-icons.assistant_navigation:before {\n    content: \"\\E989\"; }\n  .material-icons.assistant_photo:before {\n    content: \"\\E3A0\"; }\n  .material-icons.atm:before {\n    content: \"\\E573\"; }\n  .material-icons.attach_email:before {\n    content: \"\\EA5E\"; }\n  .material-icons.attach_file:before {\n    content: \"\\E226\"; }\n  .material-icons.attach_money:before {\n    content: \"\\E227\"; }\n  .material-icons.attachment:before {\n    content: \"\\E2BC\"; }\n  .material-icons.attractions:before {\n    content: \"\\EA52\"; }\n  .material-icons.audiotrack:before {\n    content: \"\\E3A1\"; }\n  .material-icons.auto_awesome:before {\n    content: \"\\E65F\"; }\n  .material-icons.auto_awesome_mosaic:before {\n    content: \"\\E660\"; }\n  .material-icons.auto_awesome_motion:before {\n    content: \"\\E661\"; }\n  .material-icons.auto_delete:before {\n    content: \"\\EA4C\"; }\n  .material-icons.auto_fix_high:before {\n    content: \"\\E663\"; }\n  .material-icons.auto_fix_normal:before {\n    content: \"\\E664\"; }\n  .material-icons.auto_fix_off:before {\n    content: \"\\E665\"; }\n  .material-icons.auto_stories:before {\n    content: \"\\E666\"; }\n  .material-icons.autorenew:before {\n    content: \"\\E863\"; }\n  .material-icons.av_timer:before {\n    content: \"\\E01B\"; }\n  .material-icons.baby_changing_station:before {\n    content: \"\\F19B\"; }\n  .material-icons.backpack:before {\n    content: \"\\F19C\"; }\n  .material-icons.backspace:before {\n    content: \"\\E14A\"; }\n  .material-icons.backup:before {\n    content: \"\\E864\"; }\n  .material-icons.backup_table:before {\n    content: \"\\EF43\"; }\n  .material-icons.badge:before {\n    content: \"\\EA67\"; }\n  .material-icons.bakery_dining:before {\n    content: \"\\EA53\"; }\n  .material-icons.ballot:before {\n    content: \"\\E172\"; }\n  .material-icons.bar_chart:before {\n    content: \"\\E26B\"; }\n  .material-icons.batch_prediction:before {\n    content: \"\\F0F5\"; }\n  .material-icons.bathtub:before {\n    content: \"\\EA41\"; }\n  .material-icons.battery_alert:before {\n    content: \"\\E19C\"; }\n  .material-icons.battery_charging_full:before {\n    content: \"\\E1A3\"; }\n  .material-icons.battery_full:before {\n    content: \"\\E1A4\"; }\n  .material-icons.battery_std:before {\n    content: \"\\E1A5\"; }\n  .material-icons.battery_unknown:before {\n    content: \"\\E1A6\"; }\n  .material-icons.beach_access:before {\n    content: \"\\EB3E\"; }\n  .material-icons.bedtime:before {\n    content: \"\\EF44\"; }\n  .material-icons.beenhere:before {\n    content: \"\\E52D\"; }\n  .material-icons.bento:before {\n    content: \"\\F1F4\"; }\n  .material-icons.bike_scooter:before {\n    content: \"\\EF45\"; }\n  .material-icons.biotech:before {\n    content: \"\\EA3A\"; }\n  .material-icons.block:before {\n    content: \"\\E14B\"; }\n  .material-icons.block_flipped:before {\n    content: \"\\EF46\"; }\n  .material-icons.bluetooth:before {\n    content: \"\\E1A7\"; }\n  .material-icons.bluetooth_audio:before {\n    content: \"\\E60F\"; }\n  .material-icons.bluetooth_connected:before {\n    content: \"\\E1A8\"; }\n  .material-icons.bluetooth_disabled:before {\n    content: \"\\E1A9\"; }\n  .material-icons.bluetooth_searching:before {\n    content: \"\\E1AA\"; }\n  .material-icons.blur_circular:before {\n    content: \"\\E3A2\"; }\n  .material-icons.blur_linear:before {\n    content: \"\\E3A3\"; }\n  .material-icons.blur_off:before {\n    content: \"\\E3A4\"; }\n  .material-icons.blur_on:before {\n    content: \"\\E3A5\"; }\n  .material-icons.bolt:before {\n    content: \"\\EA0B\"; }\n  .material-icons.book:before {\n    content: \"\\E865\"; }\n  .material-icons.book_online:before {\n    content: \"\\F217\"; }\n  .material-icons.bookmark:before {\n    content: \"\\E866\"; }\n  .material-icons.bookmark_border:before {\n    content: \"\\E867\"; }\n  .material-icons.bookmark_outline:before {\n    content: \"\\E867\"; }\n  .material-icons.bookmarks:before {\n    content: \"\\E98B\"; }\n  .material-icons.border_all:before {\n    content: \"\\E228\"; }\n  .material-icons.border_bottom:before {\n    content: \"\\E229\"; }\n  .material-icons.border_clear:before {\n    content: \"\\E22A\"; }\n  .material-icons.border_color:before {\n    content: \"\\E22B\"; }\n  .material-icons.border_horizontal:before {\n    content: \"\\E22C\"; }\n  .material-icons.border_inner:before {\n    content: \"\\E22D\"; }\n  .material-icons.border_left:before {\n    content: \"\\E22E\"; }\n  .material-icons.border_outer:before {\n    content: \"\\E22F\"; }\n  .material-icons.border_right:before {\n    content: \"\\E230\"; }\n  .material-icons.border_style:before {\n    content: \"\\E231\"; }\n  .material-icons.border_top:before {\n    content: \"\\E232\"; }\n  .material-icons.border_vertical:before {\n    content: \"\\E233\"; }\n  .material-icons.branding_watermark:before {\n    content: \"\\E06B\"; }\n  .material-icons.breakfast_dining:before {\n    content: \"\\EA54\"; }\n  .material-icons.brightness_1:before {\n    content: \"\\E3A6\"; }\n  .material-icons.brightness_2:before {\n    content: \"\\E3A7\"; }\n  .material-icons.brightness_3:before {\n    content: \"\\E3A8\"; }\n  .material-icons.brightness_4:before {\n    content: \"\\E3A9\"; }\n  .material-icons.brightness_5:before {\n    content: \"\\E3AA\"; }\n  .material-icons.brightness_6:before {\n    content: \"\\E3AB\"; }\n  .material-icons.brightness_7:before {\n    content: \"\\E3AC\"; }\n  .material-icons.brightness_auto:before {\n    content: \"\\E1AB\"; }\n  .material-icons.brightness_high:before {\n    content: \"\\E1AC\"; }\n  .material-icons.brightness_low:before {\n    content: \"\\E1AD\"; }\n  .material-icons.brightness_medium:before {\n    content: \"\\E1AE\"; }\n  .material-icons.broken_image:before {\n    content: \"\\E3AD\"; }\n  .material-icons.browser_not_supported:before {\n    content: \"\\EF47\"; }\n  .material-icons.brunch_dining:before {\n    content: \"\\EA73\"; }\n  .material-icons.brush:before {\n    content: \"\\E3AE\"; }\n  .material-icons.bubble_chart:before {\n    content: \"\\E6DD\"; }\n  .material-icons.bug_report:before {\n    content: \"\\E868\"; }\n  .material-icons.build:before {\n    content: \"\\E869\"; }\n  .material-icons.build_circle:before {\n    content: \"\\EF48\"; }\n  .material-icons.burst_mode:before {\n    content: \"\\E43C\"; }\n  .material-icons.bus_alert:before {\n    content: \"\\E98F\"; }\n  .material-icons.business:before {\n    content: \"\\E0AF\"; }\n  .material-icons.business_center:before {\n    content: \"\\EB3F\"; }\n  .material-icons.cached:before {\n    content: \"\\E86A\"; }\n  .material-icons.cake:before {\n    content: \"\\E7E9\"; }\n  .material-icons.calculate:before {\n    content: \"\\EA5F\"; }\n  .material-icons.calendar_today:before {\n    content: \"\\E935\"; }\n  .material-icons.calendar_view_day:before {\n    content: \"\\E936\"; }\n  .material-icons.call:before {\n    content: \"\\E0B0\"; }\n  .material-icons.call_end:before {\n    content: \"\\E0B1\"; }\n  .material-icons.call_made:before {\n    content: \"\\E0B2\"; }\n  .material-icons.call_merge:before {\n    content: \"\\E0B3\"; }\n  .material-icons.call_missed:before {\n    content: \"\\E0B4\"; }\n  .material-icons.call_missed_outgoing:before {\n    content: \"\\E0E4\"; }\n  .material-icons.call_received:before {\n    content: \"\\E0B5\"; }\n  .material-icons.call_split:before {\n    content: \"\\E0B6\"; }\n  .material-icons.call_to_action:before {\n    content: \"\\E06C\"; }\n  .material-icons.camera:before {\n    content: \"\\E3AF\"; }\n  .material-icons.camera_alt:before {\n    content: \"\\E3B0\"; }\n  .material-icons.camera_enhance:before {\n    content: \"\\E8FC\"; }\n  .material-icons.camera_front:before {\n    content: \"\\E3B1\"; }\n  .material-icons.camera_rear:before {\n    content: \"\\E3B2\"; }\n  .material-icons.camera_roll:before {\n    content: \"\\E3B3\"; }\n  .material-icons.campaign:before {\n    content: \"\\EF49\"; }\n  .material-icons.cancel:before {\n    content: \"\\E5C9\"; }\n  .material-icons.cancel_presentation:before {\n    content: \"\\E0E9\"; }\n  .material-icons.cancel_schedule_send:before {\n    content: \"\\EA39\"; }\n  .material-icons.car_rental:before {\n    content: \"\\EA55\"; }\n  .material-icons.car_repair:before {\n    content: \"\\EA56\"; }\n  .material-icons.card_giftcard:before {\n    content: \"\\E8F6\"; }\n  .material-icons.card_membership:before {\n    content: \"\\E8F7\"; }\n  .material-icons.card_travel:before {\n    content: \"\\E8F8\"; }\n  .material-icons.carpenter:before {\n    content: \"\\F1F8\"; }\n  .material-icons.cases:before {\n    content: \"\\E992\"; }\n  .material-icons.casino:before {\n    content: \"\\EB40\"; }\n  .material-icons.cast:before {\n    content: \"\\E307\"; }\n  .material-icons.cast_connected:before {\n    content: \"\\E308\"; }\n  .material-icons.cast_for_education:before {\n    content: \"\\EFEC\"; }\n  .material-icons.category:before {\n    content: \"\\E574\"; }\n  .material-icons.celebration:before {\n    content: \"\\EA65\"; }\n  .material-icons.cell_wifi:before {\n    content: \"\\E0EC\"; }\n  .material-icons.center_focus_strong:before {\n    content: \"\\E3B4\"; }\n  .material-icons.center_focus_weak:before {\n    content: \"\\E3B5\"; }\n  .material-icons.change_history:before {\n    content: \"\\E86B\"; }\n  .material-icons.charging_station:before {\n    content: \"\\F19D\"; }\n  .material-icons.chat:before {\n    content: \"\\E0B7\"; }\n  .material-icons.chat_bubble:before {\n    content: \"\\E0CA\"; }\n  .material-icons.chat_bubble_outline:before {\n    content: \"\\E0CB\"; }\n  .material-icons.check:before {\n    content: \"\\E5CA\"; }\n  .material-icons.check_box:before {\n    content: \"\\E834\"; }\n  .material-icons.check_box_outline_blank:before {\n    content: \"\\E835\"; }\n  .material-icons.check_circle:before {\n    content: \"\\E86C\"; }\n  .material-icons.check_circle_outline:before {\n    content: \"\\E92D\"; }\n  .material-icons.checkroom:before {\n    content: \"\\F19E\"; }\n  .material-icons.chevron_left:before {\n    content: \"\\E5CB\"; }\n  .material-icons.chevron_right:before {\n    content: \"\\E5CC\"; }\n  .material-icons.child_care:before {\n    content: \"\\EB41\"; }\n  .material-icons.child_friendly:before {\n    content: \"\\EB42\"; }\n  .material-icons.chrome_reader_mode:before {\n    content: \"\\E86D\"; }\n  .material-icons.circle:before {\n    content: \"\\EF4A\"; }\n  .material-icons.circle_notifications:before {\n    content: \"\\E994\"; }\n  .material-icons.class:before {\n    content: \"\\E86E\"; }\n  .material-icons.clean_hands:before {\n    content: \"\\F21F\"; }\n  .material-icons.cleaning_services:before {\n    content: \"\\F0FF\"; }\n  .material-icons.clear:before {\n    content: \"\\E14C\"; }\n  .material-icons.clear_all:before {\n    content: \"\\E0B8\"; }\n  .material-icons.close:before {\n    content: \"\\E5CD\"; }\n  .material-icons.close_fullscreen:before {\n    content: \"\\F1CF\"; }\n  .material-icons.closed_caption:before {\n    content: \"\\E01C\"; }\n  .material-icons.closed_caption_disabled:before {\n    content: \"\\F1DC\"; }\n  .material-icons.closed_caption_off:before {\n    content: \"\\E996\"; }\n  .material-icons.cloud:before {\n    content: \"\\E2BD\"; }\n  .material-icons.cloud_circle:before {\n    content: \"\\E2BE\"; }\n  .material-icons.cloud_done:before {\n    content: \"\\E2BF\"; }\n  .material-icons.cloud_download:before {\n    content: \"\\E2C0\"; }\n  .material-icons.cloud_off:before {\n    content: \"\\E2C1\"; }\n  .material-icons.cloud_queue:before {\n    content: \"\\E2C2\"; }\n  .material-icons.cloud_upload:before {\n    content: \"\\E2C3\"; }\n  .material-icons.code:before {\n    content: \"\\E86F\"; }\n  .material-icons.collections:before {\n    content: \"\\E3B6\"; }\n  .material-icons.collections_bookmark:before {\n    content: \"\\E431\"; }\n  .material-icons.color_lens:before {\n    content: \"\\E3B7\"; }\n  .material-icons.colorize:before {\n    content: \"\\E3B8\"; }\n  .material-icons.comment:before {\n    content: \"\\E0B9\"; }\n  .material-icons.comment_bank:before {\n    content: \"\\EA4E\"; }\n  .material-icons.commute:before {\n    content: \"\\E940\"; }\n  .material-icons.compare:before {\n    content: \"\\E3B9\"; }\n  .material-icons.compare_arrows:before {\n    content: \"\\E915\"; }\n  .material-icons.compass_calibration:before {\n    content: \"\\E57C\"; }\n  .material-icons.compress:before {\n    content: \"\\E94D\"; }\n  .material-icons.computer:before {\n    content: \"\\E30A\"; }\n  .material-icons.confirmation_num:before {\n    content: \"\\E638\"; }\n  .material-icons.confirmation_number:before {\n    content: \"\\E638\"; }\n  .material-icons.connect_without_contact:before {\n    content: \"\\F223\"; }\n  .material-icons.connected_tv:before {\n    content: \"\\E998\"; }\n  .material-icons.construction:before {\n    content: \"\\EA3C\"; }\n  .material-icons.contact_mail:before {\n    content: \"\\E0D0\"; }\n  .material-icons.contact_page:before {\n    content: \"\\F22E\"; }\n  .material-icons.contact_phone:before {\n    content: \"\\E0CF\"; }\n  .material-icons.contact_support:before {\n    content: \"\\E94C\"; }\n  .material-icons.contactless:before {\n    content: \"\\EA71\"; }\n  .material-icons.contacts:before {\n    content: \"\\E0BA\"; }\n  .material-icons.content_copy:before {\n    content: \"\\E14D\"; }\n  .material-icons.content_cut:before {\n    content: \"\\E14E\"; }\n  .material-icons.content_paste:before {\n    content: \"\\E14F\"; }\n  .material-icons.control_camera:before {\n    content: \"\\E074\"; }\n  .material-icons.control_point:before {\n    content: \"\\E3BA\"; }\n  .material-icons.control_point_duplicate:before {\n    content: \"\\E3BB\"; }\n  .material-icons.copyright:before {\n    content: \"\\E90C\"; }\n  .material-icons.coronavirus:before {\n    content: \"\\F221\"; }\n  .material-icons.corporate_fare:before {\n    content: \"\\F1D0\"; }\n  .material-icons.countertops:before {\n    content: \"\\F1F7\"; }\n  .material-icons.create:before {\n    content: \"\\E150\"; }\n  .material-icons.create_new_folder:before {\n    content: \"\\E2CC\"; }\n  .material-icons.credit_card:before {\n    content: \"\\E870\"; }\n  .material-icons.crop:before {\n    content: \"\\E3BE\"; }\n  .material-icons.crop_16_9:before {\n    content: \"\\E3BC\"; }\n  .material-icons.crop_3_2:before {\n    content: \"\\E3BD\"; }\n  .material-icons.crop_5_4:before {\n    content: \"\\E3BF\"; }\n  .material-icons.crop_7_5:before {\n    content: \"\\E3C0\"; }\n  .material-icons.crop_din:before {\n    content: \"\\E3C1\"; }\n  .material-icons.crop_free:before {\n    content: \"\\E3C2\"; }\n  .material-icons.crop_landscape:before {\n    content: \"\\E3C3\"; }\n  .material-icons.crop_original:before {\n    content: \"\\E3C4\"; }\n  .material-icons.crop_portrait:before {\n    content: \"\\E3C5\"; }\n  .material-icons.crop_rotate:before {\n    content: \"\\E437\"; }\n  .material-icons.crop_square:before {\n    content: \"\\E3C6\"; }\n  .material-icons.dangerous:before {\n    content: \"\\E99A\"; }\n  .material-icons.dashboard:before {\n    content: \"\\E871\"; }\n  .material-icons.dashboard_customize:before {\n    content: \"\\E99B\"; }\n  .material-icons.data_usage:before {\n    content: \"\\E1AF\"; }\n  .material-icons.date_range:before {\n    content: \"\\E916\"; }\n  .material-icons.deck:before {\n    content: \"\\EA42\"; }\n  .material-icons.dehaze:before {\n    content: \"\\E3C7\"; }\n  .material-icons.delete:before {\n    content: \"\\E872\"; }\n  .material-icons.delete_forever:before {\n    content: \"\\E92B\"; }\n  .material-icons.delete_outline:before {\n    content: \"\\E92E\"; }\n  .material-icons.delete_sweep:before {\n    content: \"\\E16C\"; }\n  .material-icons.delivery_dining:before {\n    content: \"\\EA72\"; }\n  .material-icons.departure_board:before {\n    content: \"\\E576\"; }\n  .material-icons.description:before {\n    content: \"\\E873\"; }\n  .material-icons.design_services:before {\n    content: \"\\F10A\"; }\n  .material-icons.desktop_access_disabled:before {\n    content: \"\\E99D\"; }\n  .material-icons.desktop_mac:before {\n    content: \"\\E30B\"; }\n  .material-icons.desktop_windows:before {\n    content: \"\\E30C\"; }\n  .material-icons.details:before {\n    content: \"\\E3C8\"; }\n  .material-icons.developer_board:before {\n    content: \"\\E30D\"; }\n  .material-icons.developer_mode:before {\n    content: \"\\E1B0\"; }\n  .material-icons.device_hub:before {\n    content: \"\\E335\"; }\n  .material-icons.device_thermostat:before {\n    content: \"\\E1FF\"; }\n  .material-icons.device_unknown:before {\n    content: \"\\E339\"; }\n  .material-icons.devices:before {\n    content: \"\\E1B1\"; }\n  .material-icons.devices_other:before {\n    content: \"\\E337\"; }\n  .material-icons.dialer_sip:before {\n    content: \"\\E0BB\"; }\n  .material-icons.dialpad:before {\n    content: \"\\E0BC\"; }\n  .material-icons.dinner_dining:before {\n    content: \"\\EA57\"; }\n  .material-icons.directions:before {\n    content: \"\\E52E\"; }\n  .material-icons.directions_bike:before {\n    content: \"\\E52F\"; }\n  .material-icons.directions_boat:before {\n    content: \"\\E532\"; }\n  .material-icons.directions_bus:before {\n    content: \"\\E530\"; }\n  .material-icons.directions_car:before {\n    content: \"\\E531\"; }\n  .material-icons.directions_ferry:before {\n    content: \"\\E532\"; }\n  .material-icons.directions_off:before {\n    content: \"\\F10F\"; }\n  .material-icons.directions_railway:before {\n    content: \"\\E534\"; }\n  .material-icons.directions_run:before {\n    content: \"\\E566\"; }\n  .material-icons.directions_subway:before {\n    content: \"\\E533\"; }\n  .material-icons.directions_train:before {\n    content: \"\\E534\"; }\n  .material-icons.directions_transit:before {\n    content: \"\\E535\"; }\n  .material-icons.directions_walk:before {\n    content: \"\\E536\"; }\n  .material-icons.dirty_lens:before {\n    content: \"\\EF4B\"; }\n  .material-icons.disabled_by_default:before {\n    content: \"\\F230\"; }\n  .material-icons.disc_full:before {\n    content: \"\\E610\"; }\n  .material-icons.dnd_forwardslash:before {\n    content: \"\\E611\"; }\n  .material-icons.dns:before {\n    content: \"\\E875\"; }\n  .material-icons.do_not_disturb:before {\n    content: \"\\E612\"; }\n  .material-icons.do_not_disturb_alt:before {\n    content: \"\\E611\"; }\n  .material-icons.do_not_disturb_off:before {\n    content: \"\\E643\"; }\n  .material-icons.do_not_disturb_on:before {\n    content: \"\\E644\"; }\n  .material-icons.do_not_step:before {\n    content: \"\\F19F\"; }\n  .material-icons.do_not_touch:before {\n    content: \"\\F1B0\"; }\n  .material-icons.dock:before {\n    content: \"\\E30E\"; }\n  .material-icons.domain:before {\n    content: \"\\E7EE\"; }\n  .material-icons.domain_disabled:before {\n    content: \"\\E0EF\"; }\n  .material-icons.domain_verification:before {\n    content: \"\\EF4C\"; }\n  .material-icons.done:before {\n    content: \"\\E876\"; }\n  .material-icons.done_all:before {\n    content: \"\\E877\"; }\n  .material-icons.done_outline:before {\n    content: \"\\E92F\"; }\n  .material-icons.donut_large:before {\n    content: \"\\E917\"; }\n  .material-icons.donut_small:before {\n    content: \"\\E918\"; }\n  .material-icons.double_arrow:before {\n    content: \"\\EA50\"; }\n  .material-icons.drafts:before {\n    content: \"\\E151\"; }\n  .material-icons.drag_handle:before {\n    content: \"\\E25D\"; }\n  .material-icons.drag_indicator:before {\n    content: \"\\E945\"; }\n  .material-icons.drive_eta:before {\n    content: \"\\E613\"; }\n  .material-icons.drive_file_move:before {\n    content: \"\\E675\"; }\n  .material-icons.drive_file_move_outline:before {\n    content: \"\\E9A1\"; }\n  .material-icons.drive_file_rename_outline:before {\n    content: \"\\E9A2\"; }\n  .material-icons.drive_folder_upload:before {\n    content: \"\\E9A3\"; }\n  .material-icons.dry:before {\n    content: \"\\F1B3\"; }\n  .material-icons.dry_cleaning:before {\n    content: \"\\EA58\"; }\n  .material-icons.duo:before {\n    content: \"\\E9A5\"; }\n  .material-icons.dvr:before {\n    content: \"\\E1B2\"; }\n  .material-icons.dynamic_feed:before {\n    content: \"\\EA14\"; }\n  .material-icons.dynamic_form:before {\n    content: \"\\F1BF\"; }\n  .material-icons.east:before {\n    content: \"\\F1DF\"; }\n  .material-icons.eco:before {\n    content: \"\\EA35\"; }\n  .material-icons.edit:before {\n    content: \"\\E3C9\"; }\n  .material-icons.edit_attributes:before {\n    content: \"\\E578\"; }\n  .material-icons.edit_location:before {\n    content: \"\\E568\"; }\n  .material-icons.edit_off:before {\n    content: \"\\E950\"; }\n  .material-icons.edit_road:before {\n    content: \"\\EF4D\"; }\n  .material-icons.eject:before {\n    content: \"\\E8FB\"; }\n  .material-icons.elderly:before {\n    content: \"\\F21A\"; }\n  .material-icons.electric_bike:before {\n    content: \"\\EB1B\"; }\n  .material-icons.electric_car:before {\n    content: \"\\EB1C\"; }\n  .material-icons.electric_moped:before {\n    content: \"\\EB1D\"; }\n  .material-icons.electric_rickshaw:before {\n    content: \"\\EB1E\"; }\n  .material-icons.electric_scooter:before {\n    content: \"\\EB1F\"; }\n  .material-icons.electrical_services:before {\n    content: \"\\F102\"; }\n  .material-icons.elevator:before {\n    content: \"\\F1A0\"; }\n  .material-icons.email:before {\n    content: \"\\E0BE\"; }\n  .material-icons.emoji_emotions:before {\n    content: \"\\EA22\"; }\n  .material-icons.emoji_events:before {\n    content: \"\\EA23\"; }\n  .material-icons.emoji_flags:before {\n    content: \"\\EA1A\"; }\n  .material-icons.emoji_food_beverage:before {\n    content: \"\\EA1B\"; }\n  .material-icons.emoji_nature:before {\n    content: \"\\EA1C\"; }\n  .material-icons.emoji_objects:before {\n    content: \"\\EA24\"; }\n  .material-icons.emoji_people:before {\n    content: \"\\EA1D\"; }\n  .material-icons.emoji_symbols:before {\n    content: \"\\EA1E\"; }\n  .material-icons.emoji_transportation:before {\n    content: \"\\EA1F\"; }\n  .material-icons.engineering:before {\n    content: \"\\EA3D\"; }\n  .material-icons.enhance_photo_translate:before {\n    content: \"\\E8FC\"; }\n  .material-icons.enhanced_encryption:before {\n    content: \"\\E63F\"; }\n  .material-icons.equalizer:before {\n    content: \"\\E01D\"; }\n  .material-icons.error:before {\n    content: \"\\E000\"; }\n  .material-icons.error_outline:before {\n    content: \"\\E001\"; }\n  .material-icons.escalator:before {\n    content: \"\\F1A1\"; }\n  .material-icons.escalator_warning:before {\n    content: \"\\F1AC\"; }\n  .material-icons.euro:before {\n    content: \"\\EA15\"; }\n  .material-icons.euro_symbol:before {\n    content: \"\\E926\"; }\n  .material-icons.ev_station:before {\n    content: \"\\E56D\"; }\n  .material-icons.event:before {\n    content: \"\\E878\"; }\n  .material-icons.event_available:before {\n    content: \"\\E614\"; }\n  .material-icons.event_busy:before {\n    content: \"\\E615\"; }\n  .material-icons.event_note:before {\n    content: \"\\E616\"; }\n  .material-icons.event_seat:before {\n    content: \"\\E903\"; }\n  .material-icons.exit_to_app:before {\n    content: \"\\E879\"; }\n  .material-icons.expand:before {\n    content: \"\\E94F\"; }\n  .material-icons.expand_less:before {\n    content: \"\\E5CE\"; }\n  .material-icons.expand_more:before {\n    content: \"\\E5CF\"; }\n  .material-icons.explicit:before {\n    content: \"\\E01E\"; }\n  .material-icons.explore:before {\n    content: \"\\E87A\"; }\n  .material-icons.explore_off:before {\n    content: \"\\E9A8\"; }\n  .material-icons.exposure:before {\n    content: \"\\E3CA\"; }\n  .material-icons.exposure_minus_1:before {\n    content: \"\\E3CB\"; }\n  .material-icons.exposure_minus_2:before {\n    content: \"\\E3CC\"; }\n  .material-icons.exposure_neg_1:before {\n    content: \"\\E3CB\"; }\n  .material-icons.exposure_neg_2:before {\n    content: \"\\E3CC\"; }\n  .material-icons.exposure_plus_1:before {\n    content: \"\\E3CD\"; }\n  .material-icons.exposure_plus_2:before {\n    content: \"\\E3CE\"; }\n  .material-icons.exposure_zero:before {\n    content: \"\\E3CF\"; }\n  .material-icons.extension:before {\n    content: \"\\E87B\"; }\n  .material-icons.face:before {\n    content: \"\\E87C\"; }\n  .material-icons.face_retouching_natural:before {\n    content: \"\\EF4E\"; }\n  .material-icons.facebook:before {\n    content: \"\\F234\"; }\n  .material-icons.fact_check:before {\n    content: \"\\F0C5\"; }\n  .material-icons.family_restroom:before {\n    content: \"\\F1A2\"; }\n  .material-icons.fast_forward:before {\n    content: \"\\E01F\"; }\n  .material-icons.fast_rewind:before {\n    content: \"\\E020\"; }\n  .material-icons.fastfood:before {\n    content: \"\\E57A\"; }\n  .material-icons.favorite:before {\n    content: \"\\E87D\"; }\n  .material-icons.favorite_border:before {\n    content: \"\\E87E\"; }\n  .material-icons.favorite_outline:before {\n    content: \"\\E87E\"; }\n  .material-icons.featured_play_list:before {\n    content: \"\\E06D\"; }\n  .material-icons.featured_video:before {\n    content: \"\\E06E\"; }\n  .material-icons.feedback:before {\n    content: \"\\E87F\"; }\n  .material-icons.fence:before {\n    content: \"\\F1F6\"; }\n  .material-icons.festival:before {\n    content: \"\\EA68\"; }\n  .material-icons.fiber_dvr:before {\n    content: \"\\E05D\"; }\n  .material-icons.fiber_manual_record:before {\n    content: \"\\E061\"; }\n  .material-icons.fiber_new:before {\n    content: \"\\E05E\"; }\n  .material-icons.fiber_pin:before {\n    content: \"\\E06A\"; }\n  .material-icons.fiber_smart_record:before {\n    content: \"\\E062\"; }\n  .material-icons.file_copy:before {\n    content: \"\\E173\"; }\n  .material-icons.file_download:before {\n    content: \"\\E2C4\"; }\n  .material-icons.file_download_done:before {\n    content: \"\\E9AA\"; }\n  .material-icons.file_present:before {\n    content: \"\\EA0E\"; }\n  .material-icons.file_upload:before {\n    content: \"\\E2C6\"; }\n  .material-icons.filter:before {\n    content: \"\\E3D3\"; }\n  .material-icons.filter_1:before {\n    content: \"\\E3D0\"; }\n  .material-icons.filter_2:before {\n    content: \"\\E3D1\"; }\n  .material-icons.filter_3:before {\n    content: \"\\E3D2\"; }\n  .material-icons.filter_4:before {\n    content: \"\\E3D4\"; }\n  .material-icons.filter_5:before {\n    content: \"\\E3D5\"; }\n  .material-icons.filter_6:before {\n    content: \"\\E3D6\"; }\n  .material-icons.filter_7:before {\n    content: \"\\E3D7\"; }\n  .material-icons.filter_8:before {\n    content: \"\\E3D8\"; }\n  .material-icons.filter_9:before {\n    content: \"\\E3D9\"; }\n  .material-icons.filter_9_plus:before {\n    content: \"\\E3DA\"; }\n  .material-icons.filter_alt:before {\n    content: \"\\EF4F\"; }\n  .material-icons.filter_b_and_w:before {\n    content: \"\\E3DB\"; }\n  .material-icons.filter_center_focus:before {\n    content: \"\\E3DC\"; }\n  .material-icons.filter_drama:before {\n    content: \"\\E3DD\"; }\n  .material-icons.filter_frames:before {\n    content: \"\\E3DE\"; }\n  .material-icons.filter_hdr:before {\n    content: \"\\E3DF\"; }\n  .material-icons.filter_list:before {\n    content: \"\\E152\"; }\n  .material-icons.filter_list_alt:before {\n    content: \"\\E94E\"; }\n  .material-icons.filter_none:before {\n    content: \"\\E3E0\"; }\n  .material-icons.filter_tilt_shift:before {\n    content: \"\\E3E2\"; }\n  .material-icons.filter_vintage:before {\n    content: \"\\E3E3\"; }\n  .material-icons.find_in_page:before {\n    content: \"\\E880\"; }\n  .material-icons.find_replace:before {\n    content: \"\\E881\"; }\n  .material-icons.fingerprint:before {\n    content: \"\\E90D\"; }\n  .material-icons.fire_extinguisher:before {\n    content: \"\\F1D8\"; }\n  .material-icons.fire_hydrant:before {\n    content: \"\\F1A3\"; }\n  .material-icons.fireplace:before {\n    content: \"\\EA43\"; }\n  .material-icons.first_page:before {\n    content: \"\\E5DC\"; }\n  .material-icons.fit_screen:before {\n    content: \"\\EA10\"; }\n  .material-icons.fitness_center:before {\n    content: \"\\EB43\"; }\n  .material-icons.flag:before {\n    content: \"\\E153\"; }\n  .material-icons.flaky:before {\n    content: \"\\EF50\"; }\n  .material-icons.flare:before {\n    content: \"\\E3E4\"; }\n  .material-icons.flash_auto:before {\n    content: \"\\E3E5\"; }\n  .material-icons.flash_off:before {\n    content: \"\\E3E6\"; }\n  .material-icons.flash_on:before {\n    content: \"\\E3E7\"; }\n  .material-icons.flight:before {\n    content: \"\\E539\"; }\n  .material-icons.flight_land:before {\n    content: \"\\E904\"; }\n  .material-icons.flight_takeoff:before {\n    content: \"\\E905\"; }\n  .material-icons.flip:before {\n    content: \"\\E3E8\"; }\n  .material-icons.flip_camera_android:before {\n    content: \"\\EA37\"; }\n  .material-icons.flip_camera_ios:before {\n    content: \"\\EA38\"; }\n  .material-icons.flip_to_back:before {\n    content: \"\\E882\"; }\n  .material-icons.flip_to_front:before {\n    content: \"\\E883\"; }\n  .material-icons.folder:before {\n    content: \"\\E2C7\"; }\n  .material-icons.folder_open:before {\n    content: \"\\E2C8\"; }\n  .material-icons.folder_shared:before {\n    content: \"\\E2C9\"; }\n  .material-icons.folder_special:before {\n    content: \"\\E617\"; }\n  .material-icons.follow_the_signs:before {\n    content: \"\\F222\"; }\n  .material-icons.font_download:before {\n    content: \"\\E167\"; }\n  .material-icons.food_bank:before {\n    content: \"\\F1F2\"; }\n  .material-icons.format_align_center:before {\n    content: \"\\E234\"; }\n  .material-icons.format_align_justify:before {\n    content: \"\\E235\"; }\n  .material-icons.format_align_left:before {\n    content: \"\\E236\"; }\n  .material-icons.format_align_right:before {\n    content: \"\\E237\"; }\n  .material-icons.format_bold:before {\n    content: \"\\E238\"; }\n  .material-icons.format_clear:before {\n    content: \"\\E239\"; }\n  .material-icons.format_color_fill:before {\n    content: \"\\E23A\"; }\n  .material-icons.format_color_reset:before {\n    content: \"\\E23B\"; }\n  .material-icons.format_color_text:before {\n    content: \"\\E23C\"; }\n  .material-icons.format_indent_decrease:before {\n    content: \"\\E23D\"; }\n  .material-icons.format_indent_increase:before {\n    content: \"\\E23E\"; }\n  .material-icons.format_italic:before {\n    content: \"\\E23F\"; }\n  .material-icons.format_line_spacing:before {\n    content: \"\\E240\"; }\n  .material-icons.format_list_bulleted:before {\n    content: \"\\E241\"; }\n  .material-icons.format_list_numbered:before {\n    content: \"\\E242\"; }\n  .material-icons.format_list_numbered_rtl:before {\n    content: \"\\E267\"; }\n  .material-icons.format_paint:before {\n    content: \"\\E243\"; }\n  .material-icons.format_quote:before {\n    content: \"\\E244\"; }\n  .material-icons.format_shapes:before {\n    content: \"\\E25E\"; }\n  .material-icons.format_size:before {\n    content: \"\\E245\"; }\n  .material-icons.format_strikethrough:before {\n    content: \"\\E246\"; }\n  .material-icons.format_textdirection_l_to_r:before {\n    content: \"\\E247\"; }\n  .material-icons.format_textdirection_r_to_l:before {\n    content: \"\\E248\"; }\n  .material-icons.format_underline:before {\n    content: \"\\E249\"; }\n  .material-icons.format_underlined:before {\n    content: \"\\E249\"; }\n  .material-icons.forum:before {\n    content: \"\\E0BF\"; }\n  .material-icons.forward:before {\n    content: \"\\E154\"; }\n  .material-icons.forward_10:before {\n    content: \"\\E056\"; }\n  .material-icons.forward_30:before {\n    content: \"\\E057\"; }\n  .material-icons.forward_5:before {\n    content: \"\\E058\"; }\n  .material-icons.forward_to_inbox:before {\n    content: \"\\F187\"; }\n  .material-icons.foundation:before {\n    content: \"\\F200\"; }\n  .material-icons.free_breakfast:before {\n    content: \"\\EB44\"; }\n  .material-icons.fullscreen:before {\n    content: \"\\E5D0\"; }\n  .material-icons.fullscreen_exit:before {\n    content: \"\\E5D1\"; }\n  .material-icons.functions:before {\n    content: \"\\E24A\"; }\n  .material-icons.g_translate:before {\n    content: \"\\E927\"; }\n  .material-icons.gamepad:before {\n    content: \"\\E30F\"; }\n  .material-icons.games:before {\n    content: \"\\E021\"; }\n  .material-icons.gavel:before {\n    content: \"\\E90E\"; }\n  .material-icons.gesture:before {\n    content: \"\\E155\"; }\n  .material-icons.get_app:before {\n    content: \"\\E884\"; }\n  .material-icons.gif:before {\n    content: \"\\E908\"; }\n  .material-icons.goat:before {\n    content: \"\\EBFF\"; }\n  .material-icons.golf_course:before {\n    content: \"\\EB45\"; }\n  .material-icons.gps_fixed:before {\n    content: \"\\E1B3\"; }\n  .material-icons.gps_not_fixed:before {\n    content: \"\\E1B4\"; }\n  .material-icons.gps_off:before {\n    content: \"\\E1B5\"; }\n  .material-icons.grade:before {\n    content: \"\\E885\"; }\n  .material-icons.gradient:before {\n    content: \"\\E3E9\"; }\n  .material-icons.grading:before {\n    content: \"\\EA4F\"; }\n  .material-icons.grain:before {\n    content: \"\\E3EA\"; }\n  .material-icons.graphic_eq:before {\n    content: \"\\E1B8\"; }\n  .material-icons.grass:before {\n    content: \"\\F205\"; }\n  .material-icons.grid_off:before {\n    content: \"\\E3EB\"; }\n  .material-icons.grid_on:before {\n    content: \"\\E3EC\"; }\n  .material-icons.grid_view:before {\n    content: \"\\E9B0\"; }\n  .material-icons.group:before {\n    content: \"\\E7EF\"; }\n  .material-icons.group_add:before {\n    content: \"\\E7F0\"; }\n  .material-icons.group_work:before {\n    content: \"\\E886\"; }\n  .material-icons.groups:before {\n    content: \"\\F233\"; }\n  .material-icons.hail:before {\n    content: \"\\E9B1\"; }\n  .material-icons.handyman:before {\n    content: \"\\F10B\"; }\n  .material-icons.hardware:before {\n    content: \"\\EA59\"; }\n  .material-icons.hd:before {\n    content: \"\\E052\"; }\n  .material-icons.hdr_enhanced_select:before {\n    content: \"\\EF51\"; }\n  .material-icons.hdr_off:before {\n    content: \"\\E3ED\"; }\n  .material-icons.hdr_on:before {\n    content: \"\\E3EE\"; }\n  .material-icons.hdr_strong:before {\n    content: \"\\E3F1\"; }\n  .material-icons.hdr_weak:before {\n    content: \"\\E3F2\"; }\n  .material-icons.headset:before {\n    content: \"\\E310\"; }\n  .material-icons.headset_mic:before {\n    content: \"\\E311\"; }\n  .material-icons.headset_off:before {\n    content: \"\\E33A\"; }\n  .material-icons.healing:before {\n    content: \"\\E3F3\"; }\n  .material-icons.hearing:before {\n    content: \"\\E023\"; }\n  .material-icons.hearing_disabled:before {\n    content: \"\\F104\"; }\n  .material-icons.height:before {\n    content: \"\\EA16\"; }\n  .material-icons.help:before {\n    content: \"\\E887\"; }\n  .material-icons.help_center:before {\n    content: \"\\F1C0\"; }\n  .material-icons.help_outline:before {\n    content: \"\\E8FD\"; }\n  .material-icons.high_quality:before {\n    content: \"\\E024\"; }\n  .material-icons.highlight:before {\n    content: \"\\E25F\"; }\n  .material-icons.highlight_alt:before {\n    content: \"\\EF52\"; }\n  .material-icons.highlight_off:before {\n    content: \"\\E888\"; }\n  .material-icons.highlight_remove:before {\n    content: \"\\E888\"; }\n  .material-icons.history:before {\n    content: \"\\E889\"; }\n  .material-icons.history_edu:before {\n    content: \"\\EA3E\"; }\n  .material-icons.history_toggle_off:before {\n    content: \"\\F17D\"; }\n  .material-icons.home:before {\n    content: \"\\E88A\"; }\n  .material-icons.home_filled:before {\n    content: \"\\E9B2\"; }\n  .material-icons.home_repair_service:before {\n    content: \"\\F100\"; }\n  .material-icons.home_work:before {\n    content: \"\\EA09\"; }\n  .material-icons.horizontal_distribute:before {\n    content: \"\\E014\"; }\n  .material-icons.horizontal_rule:before {\n    content: \"\\F108\"; }\n  .material-icons.horizontal_split:before {\n    content: \"\\E947\"; }\n  .material-icons.hot_tub:before {\n    content: \"\\EB46\"; }\n  .material-icons.hotel:before {\n    content: \"\\E53A\"; }\n  .material-icons.hourglass_bottom:before {\n    content: \"\\EA5C\"; }\n  .material-icons.hourglass_disabled:before {\n    content: \"\\EF53\"; }\n  .material-icons.hourglass_empty:before {\n    content: \"\\E88B\"; }\n  .material-icons.hourglass_full:before {\n    content: \"\\E88C\"; }\n  .material-icons.hourglass_top:before {\n    content: \"\\EA5B\"; }\n  .material-icons.house:before {\n    content: \"\\EA44\"; }\n  .material-icons.house_siding:before {\n    content: \"\\F202\"; }\n  .material-icons.how_to_reg:before {\n    content: \"\\E174\"; }\n  .material-icons.how_to_vote:before {\n    content: \"\\E175\"; }\n  .material-icons.http:before {\n    content: \"\\E902\"; }\n  .material-icons.https:before {\n    content: \"\\E88D\"; }\n  .material-icons.hvac:before {\n    content: \"\\F10E\"; }\n  .material-icons.icecream:before {\n    content: \"\\EA69\"; }\n  .material-icons.image:before {\n    content: \"\\E3F4\"; }\n  .material-icons.image_aspect_ratio:before {\n    content: \"\\E3F5\"; }\n  .material-icons.image_not_supported:before {\n    content: \"\\F116\"; }\n  .material-icons.image_search:before {\n    content: \"\\E43F\"; }\n  .material-icons.imagesearch_roller:before {\n    content: \"\\E9B4\"; }\n  .material-icons.import_contacts:before {\n    content: \"\\E0E0\"; }\n  .material-icons.import_export:before {\n    content: \"\\E0C3\"; }\n  .material-icons.important_devices:before {\n    content: \"\\E912\"; }\n  .material-icons.inbox:before {\n    content: \"\\E156\"; }\n  .material-icons.indeterminate_check_box:before {\n    content: \"\\E909\"; }\n  .material-icons.info:before {\n    content: \"\\E88E\"; }\n  .material-icons.info_outline:before {\n    content: \"\\E88F\"; }\n  .material-icons.input:before {\n    content: \"\\E890\"; }\n  .material-icons.insert_chart:before {\n    content: \"\\E24B\"; }\n  .material-icons.insert_chart_outlined:before {\n    content: \"\\E26A\"; }\n  .material-icons.insert_comment:before {\n    content: \"\\E24C\"; }\n  .material-icons.insert_drive_file:before {\n    content: \"\\E24D\"; }\n  .material-icons.insert_emoticon:before {\n    content: \"\\E24E\"; }\n  .material-icons.insert_invitation:before {\n    content: \"\\E24F\"; }\n  .material-icons.insert_link:before {\n    content: \"\\E250\"; }\n  .material-icons.insert_photo:before {\n    content: \"\\E251\"; }\n  .material-icons.insights:before {\n    content: \"\\F092\"; }\n  .material-icons.integration_instructions:before {\n    content: \"\\EF54\"; }\n  .material-icons.inventory:before {\n    content: \"\\E179\"; }\n  .material-icons.invert_colors:before {\n    content: \"\\E891\"; }\n  .material-icons.invert_colors_off:before {\n    content: \"\\E0C4\"; }\n  .material-icons.invert_colors_on:before {\n    content: \"\\E891\"; }\n  .material-icons.ios_share:before {\n    content: \"\\E6B8\"; }\n  .material-icons.iso:before {\n    content: \"\\E3F6\"; }\n  .material-icons.keyboard:before {\n    content: \"\\E312\"; }\n  .material-icons.keyboard_arrow_down:before {\n    content: \"\\E313\"; }\n  .material-icons.keyboard_arrow_left:before {\n    content: \"\\E314\"; }\n  .material-icons.keyboard_arrow_right:before {\n    content: \"\\E315\"; }\n  .material-icons.keyboard_arrow_up:before {\n    content: \"\\E316\"; }\n  .material-icons.keyboard_backspace:before {\n    content: \"\\E317\"; }\n  .material-icons.keyboard_capslock:before {\n    content: \"\\E318\"; }\n  .material-icons.keyboard_control:before {\n    content: \"\\E5D3\"; }\n  .material-icons.keyboard_hide:before {\n    content: \"\\E31A\"; }\n  .material-icons.keyboard_return:before {\n    content: \"\\E31B\"; }\n  .material-icons.keyboard_tab:before {\n    content: \"\\E31C\"; }\n  .material-icons.keyboard_voice:before {\n    content: \"\\E31D\"; }\n  .material-icons.king_bed:before {\n    content: \"\\EA45\"; }\n  .material-icons.kitchen:before {\n    content: \"\\EB47\"; }\n  .material-icons.label:before {\n    content: \"\\E892\"; }\n  .material-icons.label_important:before {\n    content: \"\\E937\"; }\n  .material-icons.label_important_outline:before {\n    content: \"\\E948\"; }\n  .material-icons.label_off:before {\n    content: \"\\E9B6\"; }\n  .material-icons.label_outline:before {\n    content: \"\\E893\"; }\n  .material-icons.landscape:before {\n    content: \"\\E3F7\"; }\n  .material-icons.language:before {\n    content: \"\\E894\"; }\n  .material-icons.laptop:before {\n    content: \"\\E31E\"; }\n  .material-icons.laptop_chromebook:before {\n    content: \"\\E31F\"; }\n  .material-icons.laptop_mac:before {\n    content: \"\\E320\"; }\n  .material-icons.laptop_windows:before {\n    content: \"\\E321\"; }\n  .material-icons.last_page:before {\n    content: \"\\E5DD\"; }\n  .material-icons.launch:before {\n    content: \"\\E895\"; }\n  .material-icons.layers:before {\n    content: \"\\E53B\"; }\n  .material-icons.layers_clear:before {\n    content: \"\\E53C\"; }\n  .material-icons.leaderboard:before {\n    content: \"\\F20C\"; }\n  .material-icons.leak_add:before {\n    content: \"\\E3F8\"; }\n  .material-icons.leak_remove:before {\n    content: \"\\E3F9\"; }\n  .material-icons.leave_bags_at_home:before {\n    content: \"\\F21B\"; }\n  .material-icons.legend_toggle:before {\n    content: \"\\F11B\"; }\n  .material-icons.lens:before {\n    content: \"\\E3FA\"; }\n  .material-icons.library_add:before {\n    content: \"\\E02E\"; }\n  .material-icons.library_add_check:before {\n    content: \"\\E9B7\"; }\n  .material-icons.library_books:before {\n    content: \"\\E02F\"; }\n  .material-icons.library_music:before {\n    content: \"\\E030\"; }\n  .material-icons.lightbulb:before {\n    content: \"\\E0F0\"; }\n  .material-icons.lightbulb_outline:before {\n    content: \"\\E90F\"; }\n  .material-icons.line_style:before {\n    content: \"\\E919\"; }\n  .material-icons.line_weight:before {\n    content: \"\\E91A\"; }\n  .material-icons.linear_scale:before {\n    content: \"\\E260\"; }\n  .material-icons.link:before {\n    content: \"\\E157\"; }\n  .material-icons.link_off:before {\n    content: \"\\E16F\"; }\n  .material-icons.linked_camera:before {\n    content: \"\\E438\"; }\n  .material-icons.liquor:before {\n    content: \"\\EA60\"; }\n  .material-icons.list:before {\n    content: \"\\E896\"; }\n  .material-icons.list_alt:before {\n    content: \"\\E0EE\"; }\n  .material-icons.live_help:before {\n    content: \"\\E0C6\"; }\n  .material-icons.live_tv:before {\n    content: \"\\E639\"; }\n  .material-icons.local_activity:before {\n    content: \"\\E53F\"; }\n  .material-icons.local_airport:before {\n    content: \"\\E53D\"; }\n  .material-icons.local_atm:before {\n    content: \"\\E53E\"; }\n  .material-icons.local_attraction:before {\n    content: \"\\E53F\"; }\n  .material-icons.local_bar:before {\n    content: \"\\E540\"; }\n  .material-icons.local_cafe:before {\n    content: \"\\E541\"; }\n  .material-icons.local_car_wash:before {\n    content: \"\\E542\"; }\n  .material-icons.local_convenience_store:before {\n    content: \"\\E543\"; }\n  .material-icons.local_dining:before {\n    content: \"\\E556\"; }\n  .material-icons.local_drink:before {\n    content: \"\\E544\"; }\n  .material-icons.local_fire_department:before {\n    content: \"\\EF55\"; }\n  .material-icons.local_florist:before {\n    content: \"\\E545\"; }\n  .material-icons.local_gas_station:before {\n    content: \"\\E546\"; }\n  .material-icons.local_grocery_store:before {\n    content: \"\\E547\"; }\n  .material-icons.local_hospital:before {\n    content: \"\\E548\"; }\n  .material-icons.local_hotel:before {\n    content: \"\\E549\"; }\n  .material-icons.local_laundry_service:before {\n    content: \"\\E54A\"; }\n  .material-icons.local_library:before {\n    content: \"\\E54B\"; }\n  .material-icons.local_mall:before {\n    content: \"\\E54C\"; }\n  .material-icons.local_movies:before {\n    content: \"\\E54D\"; }\n  .material-icons.local_offer:before {\n    content: \"\\E54E\"; }\n  .material-icons.local_parking:before {\n    content: \"\\E54F\"; }\n  .material-icons.local_pharmacy:before {\n    content: \"\\E550\"; }\n  .material-icons.local_phone:before {\n    content: \"\\E551\"; }\n  .material-icons.local_pizza:before {\n    content: \"\\E552\"; }\n  .material-icons.local_play:before {\n    content: \"\\E553\"; }\n  .material-icons.local_police:before {\n    content: \"\\EF56\"; }\n  .material-icons.local_post_office:before {\n    content: \"\\E554\"; }\n  .material-icons.local_print_shop:before {\n    content: \"\\E555\"; }\n  .material-icons.local_printshop:before {\n    content: \"\\E555\"; }\n  .material-icons.local_restaurant:before {\n    content: \"\\E556\"; }\n  .material-icons.local_see:before {\n    content: \"\\E557\"; }\n  .material-icons.local_shipping:before {\n    content: \"\\E558\"; }\n  .material-icons.local_taxi:before {\n    content: \"\\E559\"; }\n  .material-icons.location_city:before {\n    content: \"\\E7F1\"; }\n  .material-icons.location_disabled:before {\n    content: \"\\E1B6\"; }\n  .material-icons.location_history:before {\n    content: \"\\E55A\"; }\n  .material-icons.location_off:before {\n    content: \"\\E0C7\"; }\n  .material-icons.location_on:before {\n    content: \"\\E0C8\"; }\n  .material-icons.location_pin:before {\n    content: \"\\F1DB\"; }\n  .material-icons.location_searching:before {\n    content: \"\\E1B7\"; }\n  .material-icons.lock:before {\n    content: \"\\E897\"; }\n  .material-icons.lock_clock:before {\n    content: \"\\EF57\"; }\n  .material-icons.lock_open:before {\n    content: \"\\E898\"; }\n  .material-icons.lock_outline:before {\n    content: \"\\E899\"; }\n  .material-icons.login:before {\n    content: \"\\EA77\"; }\n  .material-icons.logout:before {\n    content: \"\\E9BA\"; }\n  .material-icons.looks:before {\n    content: \"\\E3FC\"; }\n  .material-icons.looks_3:before {\n    content: \"\\E3FB\"; }\n  .material-icons.looks_4:before {\n    content: \"\\E3FD\"; }\n  .material-icons.looks_5:before {\n    content: \"\\E3FE\"; }\n  .material-icons.looks_6:before {\n    content: \"\\E3FF\"; }\n  .material-icons.looks_one:before {\n    content: \"\\E400\"; }\n  .material-icons.looks_two:before {\n    content: \"\\E401\"; }\n  .material-icons.loop:before {\n    content: \"\\E028\"; }\n  .material-icons.loupe:before {\n    content: \"\\E402\"; }\n  .material-icons.low_priority:before {\n    content: \"\\E16D\"; }\n  .material-icons.loyalty:before {\n    content: \"\\E89A\"; }\n  .material-icons.luggage:before {\n    content: \"\\F235\"; }\n  .material-icons.lunch_dining:before {\n    content: \"\\EA61\"; }\n  .material-icons.mail:before {\n    content: \"\\E158\"; }\n  .material-icons.mail_outline:before {\n    content: \"\\E0E1\"; }\n  .material-icons.map:before {\n    content: \"\\E55B\"; }\n  .material-icons.maps_ugc:before {\n    content: \"\\EF58\"; }\n  .material-icons.margin:before {\n    content: \"\\E9BB\"; }\n  .material-icons.mark_as_unread:before {\n    content: \"\\E9BC\"; }\n  .material-icons.mark_chat_read:before {\n    content: \"\\F18B\"; }\n  .material-icons.mark_chat_unread:before {\n    content: \"\\F189\"; }\n  .material-icons.mark_email_read:before {\n    content: \"\\F18C\"; }\n  .material-icons.mark_email_unread:before {\n    content: \"\\F18A\"; }\n  .material-icons.markunread:before {\n    content: \"\\E159\"; }\n  .material-icons.markunread_mailbox:before {\n    content: \"\\E89B\"; }\n  .material-icons.masks:before {\n    content: \"\\F218\"; }\n  .material-icons.maximize:before {\n    content: \"\\E930\"; }\n  .material-icons.mediation:before {\n    content: \"\\EFA7\"; }\n  .material-icons.medical_services:before {\n    content: \"\\F109\"; }\n  .material-icons.meeting_room:before {\n    content: \"\\EB4F\"; }\n  .material-icons.memory:before {\n    content: \"\\E322\"; }\n  .material-icons.menu:before {\n    content: \"\\E5D2\"; }\n  .material-icons.menu_book:before {\n    content: \"\\EA19\"; }\n  .material-icons.menu_open:before {\n    content: \"\\E9BD\"; }\n  .material-icons.merge_type:before {\n    content: \"\\E252\"; }\n  .material-icons.message:before {\n    content: \"\\E0C9\"; }\n  .material-icons.messenger:before {\n    content: \"\\E0CA\"; }\n  .material-icons.messenger_outline:before {\n    content: \"\\E0CB\"; }\n  .material-icons.mic:before {\n    content: \"\\E029\"; }\n  .material-icons.mic_external_off:before {\n    content: \"\\EF59\"; }\n  .material-icons.mic_external_on:before {\n    content: \"\\EF5A\"; }\n  .material-icons.mic_none:before {\n    content: \"\\E02A\"; }\n  .material-icons.mic_off:before {\n    content: \"\\E02B\"; }\n  .material-icons.microwave:before {\n    content: \"\\F204\"; }\n  .material-icons.military_tech:before {\n    content: \"\\EA3F\"; }\n  .material-icons.minimize:before {\n    content: \"\\E931\"; }\n  .material-icons.miscellaneous_services:before {\n    content: \"\\F10C\"; }\n  .material-icons.missed_video_call:before {\n    content: \"\\E073\"; }\n  .material-icons.mms:before {\n    content: \"\\E618\"; }\n  .material-icons.mobile_friendly:before {\n    content: \"\\E200\"; }\n  .material-icons.mobile_off:before {\n    content: \"\\E201\"; }\n  .material-icons.mobile_screen_share:before {\n    content: \"\\E0E7\"; }\n  .material-icons.mode_comment:before {\n    content: \"\\E253\"; }\n  .material-icons.mode_edit:before {\n    content: \"\\E254\"; }\n  .material-icons.model_training:before {\n    content: \"\\F0CF\"; }\n  .material-icons.monetization_on:before {\n    content: \"\\E263\"; }\n  .material-icons.money:before {\n    content: \"\\E57D\"; }\n  .material-icons.money_off:before {\n    content: \"\\E25C\"; }\n  .material-icons.monitor:before {\n    content: \"\\EF5B\"; }\n  .material-icons.monochrome_photos:before {\n    content: \"\\E403\"; }\n  .material-icons.mood:before {\n    content: \"\\E7F2\"; }\n  .material-icons.mood_bad:before {\n    content: \"\\E7F3\"; }\n  .material-icons.moped:before {\n    content: \"\\EB28\"; }\n  .material-icons.more:before {\n    content: \"\\E619\"; }\n  .material-icons.more_horiz:before {\n    content: \"\\E5D3\"; }\n  .material-icons.more_time:before {\n    content: \"\\EA5D\"; }\n  .material-icons.more_vert:before {\n    content: \"\\E5D4\"; }\n  .material-icons.motion_photos_off:before {\n    content: \"\\E9C0\"; }\n  .material-icons.motion_photos_on:before {\n    content: \"\\E9C1\"; }\n  .material-icons.motion_photos_pause:before {\n    content: \"\\F227\"; }\n  .material-icons.motion_photos_paused:before {\n    content: \"\\E9C2\"; }\n  .material-icons.motorcycle:before {\n    content: \"\\E91B\"; }\n  .material-icons.mouse:before {\n    content: \"\\E323\"; }\n  .material-icons.move_to_inbox:before {\n    content: \"\\E168\"; }\n  .material-icons.movie:before {\n    content: \"\\E02C\"; }\n  .material-icons.movie_creation:before {\n    content: \"\\E404\"; }\n  .material-icons.movie_filter:before {\n    content: \"\\E43A\"; }\n  .material-icons.mp:before {\n    content: \"\\E9C3\"; }\n  .material-icons.multiline_chart:before {\n    content: \"\\E6DF\"; }\n  .material-icons.multiple_stop:before {\n    content: \"\\F1B9\"; }\n  .material-icons.multitrack_audio:before {\n    content: \"\\E1B8\"; }\n  .material-icons.museum:before {\n    content: \"\\EA36\"; }\n  .material-icons.music_note:before {\n    content: \"\\E405\"; }\n  .material-icons.music_off:before {\n    content: \"\\E440\"; }\n  .material-icons.music_video:before {\n    content: \"\\E063\"; }\n  .material-icons.my_library_add:before {\n    content: \"\\E02E\"; }\n  .material-icons.my_library_books:before {\n    content: \"\\E02F\"; }\n  .material-icons.my_library_music:before {\n    content: \"\\E030\"; }\n  .material-icons.my_location:before {\n    content: \"\\E55C\"; }\n  .material-icons.nat:before {\n    content: \"\\EF5C\"; }\n  .material-icons.nature:before {\n    content: \"\\E406\"; }\n  .material-icons.nature_people:before {\n    content: \"\\E407\"; }\n  .material-icons.navigate_before:before {\n    content: \"\\E408\"; }\n  .material-icons.navigate_next:before {\n    content: \"\\E409\"; }\n  .material-icons.navigation:before {\n    content: \"\\E55D\"; }\n  .material-icons.near_me:before {\n    content: \"\\E569\"; }\n  .material-icons.near_me_disabled:before {\n    content: \"\\F1EF\"; }\n  .material-icons.network_cell:before {\n    content: \"\\E1B9\"; }\n  .material-icons.network_check:before {\n    content: \"\\E640\"; }\n  .material-icons.network_locked:before {\n    content: \"\\E61A\"; }\n  .material-icons.network_wifi:before {\n    content: \"\\E1BA\"; }\n  .material-icons.new_releases:before {\n    content: \"\\E031\"; }\n  .material-icons.next_plan:before {\n    content: \"\\EF5D\"; }\n  .material-icons.next_week:before {\n    content: \"\\E16A\"; }\n  .material-icons.nfc:before {\n    content: \"\\E1BB\"; }\n  .material-icons.night_shelter:before {\n    content: \"\\F1F1\"; }\n  .material-icons.nightlife:before {\n    content: \"\\EA62\"; }\n  .material-icons.nightlight_round:before {\n    content: \"\\EF5E\"; }\n  .material-icons.nights_stay:before {\n    content: \"\\EA46\"; }\n  .material-icons.no_backpack:before {\n    content: \"\\F237\"; }\n  .material-icons.no_cell:before {\n    content: \"\\F1A4\"; }\n  .material-icons.no_drinks:before {\n    content: \"\\F1A5\"; }\n  .material-icons.no_encryption:before {\n    content: \"\\E641\"; }\n  .material-icons.no_flash:before {\n    content: \"\\F1A6\"; }\n  .material-icons.no_food:before {\n    content: \"\\F1A7\"; }\n  .material-icons.no_luggage:before {\n    content: \"\\F23B\"; }\n  .material-icons.no_meals:before {\n    content: \"\\F1D6\"; }\n  .material-icons.no_meals_ouline:before {\n    content: \"\\F229\"; }\n  .material-icons.no_meeting_room:before {\n    content: \"\\EB4E\"; }\n  .material-icons.no_photography:before {\n    content: \"\\F1A8\"; }\n  .material-icons.no_sim:before {\n    content: \"\\E0CC\"; }\n  .material-icons.no_stroller:before {\n    content: \"\\F1AF\"; }\n  .material-icons.no_transfer:before {\n    content: \"\\F1D5\"; }\n  .material-icons.north:before {\n    content: \"\\F1E0\"; }\n  .material-icons.north_east:before {\n    content: \"\\F1E1\"; }\n  .material-icons.north_west:before {\n    content: \"\\F1E2\"; }\n  .material-icons.not_accessible:before {\n    content: \"\\F0FE\"; }\n  .material-icons.not_interested:before {\n    content: \"\\E033\"; }\n  .material-icons.not_listed_location:before {\n    content: \"\\E575\"; }\n  .material-icons.not_started:before {\n    content: \"\\F0D1\"; }\n  .material-icons.note:before {\n    content: \"\\E06F\"; }\n  .material-icons.note_add:before {\n    content: \"\\E89C\"; }\n  .material-icons.notes:before {\n    content: \"\\E26C\"; }\n  .material-icons.notification_important:before {\n    content: \"\\E004\"; }\n  .material-icons.notifications:before {\n    content: \"\\E7F4\"; }\n  .material-icons.notifications_active:before {\n    content: \"\\E7F7\"; }\n  .material-icons.notifications_none:before {\n    content: \"\\E7F5\"; }\n  .material-icons.notifications_off:before {\n    content: \"\\E7F6\"; }\n  .material-icons.notifications_on:before {\n    content: \"\\E7F7\"; }\n  .material-icons.notifications_paused:before {\n    content: \"\\E7F8\"; }\n  .material-icons.now_wallpaper:before {\n    content: \"\\E1BC\"; }\n  .material-icons.now_widgets:before {\n    content: \"\\E1BD\"; }\n  .material-icons.offline_bolt:before {\n    content: \"\\E932\"; }\n  .material-icons.offline_pin:before {\n    content: \"\\E90A\"; }\n  .material-icons.offline_share:before {\n    content: \"\\E9C5\"; }\n  .material-icons.ondemand_video:before {\n    content: \"\\E63A\"; }\n  .material-icons.online_prediction:before {\n    content: \"\\F0EB\"; }\n  .material-icons.opacity:before {\n    content: \"\\E91C\"; }\n  .material-icons.open_in_browser:before {\n    content: \"\\E89D\"; }\n  .material-icons.open_in_full:before {\n    content: \"\\F1CE\"; }\n  .material-icons.open_in_new:before {\n    content: \"\\E89E\"; }\n  .material-icons.open_with:before {\n    content: \"\\E89F\"; }\n  .material-icons.outbond:before {\n    content: \"\\F228\"; }\n  .material-icons.outbox:before {\n    content: \"\\EF5F\"; }\n  .material-icons.outdoor_grill:before {\n    content: \"\\EA47\"; }\n  .material-icons.outgoing_mail:before {\n    content: \"\\F0D2\"; }\n  .material-icons.outlet:before {\n    content: \"\\F1D4\"; }\n  .material-icons.outlined_flag:before {\n    content: \"\\E16E\"; }\n  .material-icons.padding:before {\n    content: \"\\E9C8\"; }\n  .material-icons.pages:before {\n    content: \"\\E7F9\"; }\n  .material-icons.pageview:before {\n    content: \"\\E8A0\"; }\n  .material-icons.palette:before {\n    content: \"\\E40A\"; }\n  .material-icons.pan_tool:before {\n    content: \"\\E925\"; }\n  .material-icons.panorama:before {\n    content: \"\\E40B\"; }\n  .material-icons.panorama_fish_eye:before {\n    content: \"\\E40C\"; }\n  .material-icons.panorama_fisheye:before {\n    content: \"\\E40C\"; }\n  .material-icons.panorama_horizontal:before {\n    content: \"\\E40D\"; }\n  .material-icons.panorama_horizontal_select:before {\n    content: \"\\EF60\"; }\n  .material-icons.panorama_photosphere:before {\n    content: \"\\E9C9\"; }\n  .material-icons.panorama_photosphere_select:before {\n    content: \"\\E9CA\"; }\n  .material-icons.panorama_vertical:before {\n    content: \"\\E40E\"; }\n  .material-icons.panorama_vertical_select:before {\n    content: \"\\EF61\"; }\n  .material-icons.panorama_wide_angle:before {\n    content: \"\\E40F\"; }\n  .material-icons.panorama_wide_angle_select:before {\n    content: \"\\EF62\"; }\n  .material-icons.park:before {\n    content: \"\\EA63\"; }\n  .material-icons.party_mode:before {\n    content: \"\\E7FA\"; }\n  .material-icons.pause:before {\n    content: \"\\E034\"; }\n  .material-icons.pause_circle_filled:before {\n    content: \"\\E035\"; }\n  .material-icons.pause_circle_outline:before {\n    content: \"\\E036\"; }\n  .material-icons.pause_presentation:before {\n    content: \"\\E0EA\"; }\n  .material-icons.payment:before {\n    content: \"\\E8A1\"; }\n  .material-icons.payments:before {\n    content: \"\\EF63\"; }\n  .material-icons.pedal_bike:before {\n    content: \"\\EB29\"; }\n  .material-icons.pending:before {\n    content: \"\\EF64\"; }\n  .material-icons.pending_actions:before {\n    content: \"\\F1BB\"; }\n  .material-icons.people:before {\n    content: \"\\E7FB\"; }\n  .material-icons.people_alt:before {\n    content: \"\\EA21\"; }\n  .material-icons.people_outline:before {\n    content: \"\\E7FC\"; }\n  .material-icons.perm_camera_mic:before {\n    content: \"\\E8A2\"; }\n  .material-icons.perm_contact_cal:before {\n    content: \"\\E8A3\"; }\n  .material-icons.perm_contact_calendar:before {\n    content: \"\\E8A3\"; }\n  .material-icons.perm_data_setting:before {\n    content: \"\\E8A4\"; }\n  .material-icons.perm_device_info:before {\n    content: \"\\E8A5\"; }\n  .material-icons.perm_device_information:before {\n    content: \"\\E8A5\"; }\n  .material-icons.perm_identity:before {\n    content: \"\\E8A6\"; }\n  .material-icons.perm_media:before {\n    content: \"\\E8A7\"; }\n  .material-icons.perm_phone_msg:before {\n    content: \"\\E8A8\"; }\n  .material-icons.perm_scan_wifi:before {\n    content: \"\\E8A9\"; }\n  .material-icons.person:before {\n    content: \"\\E7FD\"; }\n  .material-icons.person_add:before {\n    content: \"\\E7FE\"; }\n  .material-icons.person_add_alt:before {\n    content: \"\\EA4D\"; }\n  .material-icons.person_add_alt_1:before {\n    content: \"\\EF65\"; }\n  .material-icons.person_add_disabled:before {\n    content: \"\\E9CB\"; }\n  .material-icons.person_outline:before {\n    content: \"\\E7FF\"; }\n  .material-icons.person_pin:before {\n    content: \"\\E55A\"; }\n  .material-icons.person_pin_circle:before {\n    content: \"\\E56A\"; }\n  .material-icons.person_remove:before {\n    content: \"\\EF66\"; }\n  .material-icons.person_remove_alt_1:before {\n    content: \"\\EF67\"; }\n  .material-icons.person_search:before {\n    content: \"\\F106\"; }\n  .material-icons.personal_video:before {\n    content: \"\\E63B\"; }\n  .material-icons.pest_control:before {\n    content: \"\\F0FA\"; }\n  .material-icons.pest_control_rodent:before {\n    content: \"\\F0FD\"; }\n  .material-icons.pets:before {\n    content: \"\\E91D\"; }\n  .material-icons.phone:before {\n    content: \"\\E0CD\"; }\n  .material-icons.phone_android:before {\n    content: \"\\E324\"; }\n  .material-icons.phone_bluetooth_speaker:before {\n    content: \"\\E61B\"; }\n  .material-icons.phone_callback:before {\n    content: \"\\E649\"; }\n  .material-icons.phone_disabled:before {\n    content: \"\\E9CC\"; }\n  .material-icons.phone_enabled:before {\n    content: \"\\E9CD\"; }\n  .material-icons.phone_forwarded:before {\n    content: \"\\E61C\"; }\n  .material-icons.phone_in_talk:before {\n    content: \"\\E61D\"; }\n  .material-icons.phone_iphone:before {\n    content: \"\\E325\"; }\n  .material-icons.phone_locked:before {\n    content: \"\\E61E\"; }\n  .material-icons.phone_missed:before {\n    content: \"\\E61F\"; }\n  .material-icons.phone_paused:before {\n    content: \"\\E620\"; }\n  .material-icons.phonelink:before {\n    content: \"\\E326\"; }\n  .material-icons.phonelink_erase:before {\n    content: \"\\E0DB\"; }\n  .material-icons.phonelink_lock:before {\n    content: \"\\E0DC\"; }\n  .material-icons.phonelink_off:before {\n    content: \"\\E327\"; }\n  .material-icons.phonelink_ring:before {\n    content: \"\\E0DD\"; }\n  .material-icons.phonelink_setup:before {\n    content: \"\\E0DE\"; }\n  .material-icons.photo:before {\n    content: \"\\E410\"; }\n  .material-icons.photo_album:before {\n    content: \"\\E411\"; }\n  .material-icons.photo_camera:before {\n    content: \"\\E412\"; }\n  .material-icons.photo_camera_back:before {\n    content: \"\\EF68\"; }\n  .material-icons.photo_camera_front:before {\n    content: \"\\EF69\"; }\n  .material-icons.photo_filter:before {\n    content: \"\\E43B\"; }\n  .material-icons.photo_library:before {\n    content: \"\\E413\"; }\n  .material-icons.photo_size_select_actual:before {\n    content: \"\\E432\"; }\n  .material-icons.photo_size_select_large:before {\n    content: \"\\E433\"; }\n  .material-icons.photo_size_select_small:before {\n    content: \"\\E434\"; }\n  .material-icons.picture_as_pdf:before {\n    content: \"\\E415\"; }\n  .material-icons.picture_in_picture:before {\n    content: \"\\E8AA\"; }\n  .material-icons.picture_in_picture_alt:before {\n    content: \"\\E911\"; }\n  .material-icons.pie_chart:before {\n    content: \"\\E6C4\"; }\n  .material-icons.pie_chart_outlined:before {\n    content: \"\\E6C5\"; }\n  .material-icons.pin_drop:before {\n    content: \"\\E55E\"; }\n  .material-icons.pivot_table_chart:before {\n    content: \"\\E9CE\"; }\n  .material-icons.place:before {\n    content: \"\\E55F\"; }\n  .material-icons.plagiarism:before {\n    content: \"\\EA5A\"; }\n  .material-icons.play_arrow:before {\n    content: \"\\E037\"; }\n  .material-icons.play_circle_fill:before {\n    content: \"\\E038\"; }\n  .material-icons.play_circle_filled:before {\n    content: \"\\E038\"; }\n  .material-icons.play_circle_outline:before {\n    content: \"\\E039\"; }\n  .material-icons.play_disabled:before {\n    content: \"\\EF6A\"; }\n  .material-icons.play_for_work:before {\n    content: \"\\E906\"; }\n  .material-icons.playlist_add:before {\n    content: \"\\E03B\"; }\n  .material-icons.playlist_add_check:before {\n    content: \"\\E065\"; }\n  .material-icons.playlist_play:before {\n    content: \"\\E05F\"; }\n  .material-icons.plumbing:before {\n    content: \"\\F107\"; }\n  .material-icons.plus_one:before {\n    content: \"\\E800\"; }\n  .material-icons.point_of_sale:before {\n    content: \"\\F17E\"; }\n  .material-icons.policy:before {\n    content: \"\\EA17\"; }\n  .material-icons.poll:before {\n    content: \"\\E801\"; }\n  .material-icons.polymer:before {\n    content: \"\\E8AB\"; }\n  .material-icons.pool:before {\n    content: \"\\EB48\"; }\n  .material-icons.portable_wifi_off:before {\n    content: \"\\E0CE\"; }\n  .material-icons.portrait:before {\n    content: \"\\E416\"; }\n  .material-icons.post_add:before {\n    content: \"\\EA20\"; }\n  .material-icons.power:before {\n    content: \"\\E63C\"; }\n  .material-icons.power_input:before {\n    content: \"\\E336\"; }\n  .material-icons.power_off:before {\n    content: \"\\E646\"; }\n  .material-icons.power_settings_new:before {\n    content: \"\\E8AC\"; }\n  .material-icons.pregnant_woman:before {\n    content: \"\\E91E\"; }\n  .material-icons.present_to_all:before {\n    content: \"\\E0DF\"; }\n  .material-icons.preview:before {\n    content: \"\\F1C5\"; }\n  .material-icons.print:before {\n    content: \"\\E8AD\"; }\n  .material-icons.print_disabled:before {\n    content: \"\\E9CF\"; }\n  .material-icons.priority_high:before {\n    content: \"\\E645\"; }\n  .material-icons.privacy_tip:before {\n    content: \"\\F0DC\"; }\n  .material-icons.psychology:before {\n    content: \"\\EA4A\"; }\n  .material-icons.public:before {\n    content: \"\\E80B\"; }\n  .material-icons.public_off:before {\n    content: \"\\F1CA\"; }\n  .material-icons.publish:before {\n    content: \"\\E255\"; }\n  .material-icons.published_with_changes:before {\n    content: \"\\F232\"; }\n  .material-icons.push_pin:before {\n    content: \"\\F10D\"; }\n  .material-icons.qr_code:before {\n    content: \"\\EF6B\"; }\n  .material-icons.qr_code_2:before {\n    content: \"\\E00A\"; }\n  .material-icons.qr_code_scanner:before {\n    content: \"\\F206\"; }\n  .material-icons.query_builder:before {\n    content: \"\\E8AE\"; }\n  .material-icons.question_answer:before {\n    content: \"\\E8AF\"; }\n  .material-icons.queue:before {\n    content: \"\\E03C\"; }\n  .material-icons.queue_music:before {\n    content: \"\\E03D\"; }\n  .material-icons.queue_play_next:before {\n    content: \"\\E066\"; }\n  .material-icons.quick_contacts_dialer:before {\n    content: \"\\E0CF\"; }\n  .material-icons.quick_contacts_mail:before {\n    content: \"\\E0D0\"; }\n  .material-icons.quickreply:before {\n    content: \"\\EF6C\"; }\n  .material-icons.radio:before {\n    content: \"\\E03E\"; }\n  .material-icons.radio_button_checked:before {\n    content: \"\\E837\"; }\n  .material-icons.radio_button_off:before {\n    content: \"\\E836\"; }\n  .material-icons.radio_button_on:before {\n    content: \"\\E837\"; }\n  .material-icons.radio_button_unchecked:before {\n    content: \"\\E836\"; }\n  .material-icons.railway_alert:before {\n    content: \"\\E9D1\"; }\n  .material-icons.ramen_dining:before {\n    content: \"\\EA64\"; }\n  .material-icons.rate_review:before {\n    content: \"\\E560\"; }\n  .material-icons.read_more:before {\n    content: \"\\EF6D\"; }\n  .material-icons.receipt:before {\n    content: \"\\E8B0\"; }\n  .material-icons.receipt_long:before {\n    content: \"\\EF6E\"; }\n  .material-icons.recent_actors:before {\n    content: \"\\E03F\"; }\n  .material-icons.recommend:before {\n    content: \"\\E9D2\"; }\n  .material-icons.record_voice_over:before {\n    content: \"\\E91F\"; }\n  .material-icons.redeem:before {\n    content: \"\\E8B1\"; }\n  .material-icons.redo:before {\n    content: \"\\E15A\"; }\n  .material-icons.reduce_capacity:before {\n    content: \"\\F21C\"; }\n  .material-icons.refresh:before {\n    content: \"\\E5D5\"; }\n  .material-icons.remove:before {\n    content: \"\\E15B\"; }\n  .material-icons.remove_circle:before {\n    content: \"\\E15C\"; }\n  .material-icons.remove_circle_outline:before {\n    content: \"\\E15D\"; }\n  .material-icons.remove_done:before {\n    content: \"\\E9D3\"; }\n  .material-icons.remove_from_queue:before {\n    content: \"\\E067\"; }\n  .material-icons.remove_moderator:before {\n    content: \"\\E9D4\"; }\n  .material-icons.remove_red_eye:before {\n    content: \"\\E417\"; }\n  .material-icons.remove_shopping_cart:before {\n    content: \"\\E928\"; }\n  .material-icons.reorder:before {\n    content: \"\\E8FE\"; }\n  .material-icons.repeat:before {\n    content: \"\\E040\"; }\n  .material-icons.repeat_on:before {\n    content: \"\\E9D6\"; }\n  .material-icons.repeat_one:before {\n    content: \"\\E041\"; }\n  .material-icons.repeat_one_on:before {\n    content: \"\\E9D7\"; }\n  .material-icons.replay:before {\n    content: \"\\E042\"; }\n  .material-icons.replay_10:before {\n    content: \"\\E059\"; }\n  .material-icons.replay_30:before {\n    content: \"\\E05A\"; }\n  .material-icons.replay_5:before {\n    content: \"\\E05B\"; }\n  .material-icons.replay_circle_filled:before {\n    content: \"\\E9D8\"; }\n  .material-icons.reply:before {\n    content: \"\\E15E\"; }\n  .material-icons.reply_all:before {\n    content: \"\\E15F\"; }\n  .material-icons.report:before {\n    content: \"\\E160\"; }\n  .material-icons.report_off:before {\n    content: \"\\E170\"; }\n  .material-icons.report_problem:before {\n    content: \"\\E8B2\"; }\n  .material-icons.request_page:before {\n    content: \"\\F22C\"; }\n  .material-icons.request_quote:before {\n    content: \"\\F1B6\"; }\n  .material-icons.reset_tv:before {\n    content: \"\\E9D9\"; }\n  .material-icons.restaurant:before {\n    content: \"\\E56C\"; }\n  .material-icons.restaurant_menu:before {\n    content: \"\\E561\"; }\n  .material-icons.restore:before {\n    content: \"\\E8B3\"; }\n  .material-icons.restore_from_trash:before {\n    content: \"\\E938\"; }\n  .material-icons.restore_page:before {\n    content: \"\\E929\"; }\n  .material-icons.rice_bowl:before {\n    content: \"\\F1F5\"; }\n  .material-icons.ring_volume:before {\n    content: \"\\E0D1\"; }\n  .material-icons.roofing:before {\n    content: \"\\F201\"; }\n  .material-icons.room:before {\n    content: \"\\E8B4\"; }\n  .material-icons.room_preferences:before {\n    content: \"\\F1B8\"; }\n  .material-icons.room_service:before {\n    content: \"\\EB49\"; }\n  .material-icons.rotate_90_degrees_ccw:before {\n    content: \"\\E418\"; }\n  .material-icons.rotate_left:before {\n    content: \"\\E419\"; }\n  .material-icons.rotate_right:before {\n    content: \"\\E41A\"; }\n  .material-icons.rounded_corner:before {\n    content: \"\\E920\"; }\n  .material-icons.router:before {\n    content: \"\\E328\"; }\n  .material-icons.rowing:before {\n    content: \"\\E921\"; }\n  .material-icons.rss_feed:before {\n    content: \"\\E0E5\"; }\n  .material-icons.rtt:before {\n    content: \"\\E9AD\"; }\n  .material-icons.rule:before {\n    content: \"\\F1C2\"; }\n  .material-icons.rule_folder:before {\n    content: \"\\F1C9\"; }\n  .material-icons.run_circle:before {\n    content: \"\\EF6F\"; }\n  .material-icons.rv_hookup:before {\n    content: \"\\E642\"; }\n  .material-icons.sanitizer:before {\n    content: \"\\F21D\"; }\n  .material-icons.satellite:before {\n    content: \"\\E562\"; }\n  .material-icons.save:before {\n    content: \"\\E161\"; }\n  .material-icons.save_alt:before {\n    content: \"\\E171\"; }\n  .material-icons.saved_search:before {\n    content: \"\\EA11\"; }\n  .material-icons.scanner:before {\n    content: \"\\E329\"; }\n  .material-icons.scatter_plot:before {\n    content: \"\\E268\"; }\n  .material-icons.schedule:before {\n    content: \"\\E8B5\"; }\n  .material-icons.schedule_send:before {\n    content: \"\\EA0A\"; }\n  .material-icons.school:before {\n    content: \"\\E80C\"; }\n  .material-icons.science:before {\n    content: \"\\EA4B\"; }\n  .material-icons.score:before {\n    content: \"\\E269\"; }\n  .material-icons.screen_lock_landscape:before {\n    content: \"\\E1BE\"; }\n  .material-icons.screen_lock_portrait:before {\n    content: \"\\E1BF\"; }\n  .material-icons.screen_lock_rotation:before {\n    content: \"\\E1C0\"; }\n  .material-icons.screen_rotation:before {\n    content: \"\\E1C1\"; }\n  .material-icons.screen_search_desktop:before {\n    content: \"\\EF70\"; }\n  .material-icons.screen_share:before {\n    content: \"\\E0E2\"; }\n  .material-icons.sd:before {\n    content: \"\\E9DD\"; }\n  .material-icons.sd_card:before {\n    content: \"\\E623\"; }\n  .material-icons.sd_storage:before {\n    content: \"\\E1C2\"; }\n  .material-icons.search:before {\n    content: \"\\E8B6\"; }\n  .material-icons.search_off:before {\n    content: \"\\EA76\"; }\n  .material-icons.security:before {\n    content: \"\\E32A\"; }\n  .material-icons.segment:before {\n    content: \"\\E94B\"; }\n  .material-icons.select_all:before {\n    content: \"\\E162\"; }\n  .material-icons.self_improvement:before {\n    content: \"\\EA78\"; }\n  .material-icons.send:before {\n    content: \"\\E163\"; }\n  .material-icons.send_and_archive:before {\n    content: \"\\EA0C\"; }\n  .material-icons.send_to_mobile:before {\n    content: \"\\F05C\"; }\n  .material-icons.sensor_door:before {\n    content: \"\\F1B5\"; }\n  .material-icons.sensor_window:before {\n    content: \"\\F1B4\"; }\n  .material-icons.sentiment_dissatisfied:before {\n    content: \"\\E811\"; }\n  .material-icons.sentiment_neutral:before {\n    content: \"\\E812\"; }\n  .material-icons.sentiment_satisfied:before {\n    content: \"\\E813\"; }\n  .material-icons.sentiment_satisfied_alt:before {\n    content: \"\\E0ED\"; }\n  .material-icons.sentiment_very_dissatisfied:before {\n    content: \"\\E814\"; }\n  .material-icons.sentiment_very_satisfied:before {\n    content: \"\\E815\"; }\n  .material-icons.set_meal:before {\n    content: \"\\F1EA\"; }\n  .material-icons.settings:before {\n    content: \"\\E8B8\"; }\n  .material-icons.settings_applications:before {\n    content: \"\\E8B9\"; }\n  .material-icons.settings_backup_restore:before {\n    content: \"\\E8BA\"; }\n  .material-icons.settings_bluetooth:before {\n    content: \"\\E8BB\"; }\n  .material-icons.settings_brightness:before {\n    content: \"\\E8BD\"; }\n  .material-icons.settings_cell:before {\n    content: \"\\E8BC\"; }\n  .material-icons.settings_display:before {\n    content: \"\\E8BD\"; }\n  .material-icons.settings_ethernet:before {\n    content: \"\\E8BE\"; }\n  .material-icons.settings_input_antenna:before {\n    content: \"\\E8BF\"; }\n  .material-icons.settings_input_component:before {\n    content: \"\\E8C0\"; }\n  .material-icons.settings_input_composite:before {\n    content: \"\\E8C1\"; }\n  .material-icons.settings_input_hdmi:before {\n    content: \"\\E8C2\"; }\n  .material-icons.settings_input_svideo:before {\n    content: \"\\E8C3\"; }\n  .material-icons.settings_overscan:before {\n    content: \"\\E8C4\"; }\n  .material-icons.settings_phone:before {\n    content: \"\\E8C5\"; }\n  .material-icons.settings_power:before {\n    content: \"\\E8C6\"; }\n  .material-icons.settings_remote:before {\n    content: \"\\E8C7\"; }\n  .material-icons.settings_system_daydream:before {\n    content: \"\\E1C3\"; }\n  .material-icons.settings_voice:before {\n    content: \"\\E8C8\"; }\n  .material-icons.share:before {\n    content: \"\\E80D\"; }\n  .material-icons.shield:before {\n    content: \"\\E9E0\"; }\n  .material-icons.shop:before {\n    content: \"\\E8C9\"; }\n  .material-icons.shop_two:before {\n    content: \"\\E8CA\"; }\n  .material-icons.shopping_bag:before {\n    content: \"\\F1CC\"; }\n  .material-icons.shopping_basket:before {\n    content: \"\\E8CB\"; }\n  .material-icons.shopping_cart:before {\n    content: \"\\E8CC\"; }\n  .material-icons.short_text:before {\n    content: \"\\E261\"; }\n  .material-icons.show_chart:before {\n    content: \"\\E6E1\"; }\n  .material-icons.shuffle:before {\n    content: \"\\E043\"; }\n  .material-icons.shuffle_on:before {\n    content: \"\\E9E1\"; }\n  .material-icons.shutter_speed:before {\n    content: \"\\E43D\"; }\n  .material-icons.sick:before {\n    content: \"\\F220\"; }\n  .material-icons.signal_cellular_0_bar:before {\n    content: \"\\F0A8\"; }\n  .material-icons.signal_cellular_4_bar:before {\n    content: \"\\E1C8\"; }\n  .material-icons.signal_cellular_alt:before {\n    content: \"\\E202\"; }\n  .material-icons.signal_cellular_connected_no_internet_4_bar:before {\n    content: \"\\E1CD\"; }\n  .material-icons.signal_cellular_no_sim:before {\n    content: \"\\E1CE\"; }\n  .material-icons.signal_cellular_null:before {\n    content: \"\\E1CF\"; }\n  .material-icons.signal_cellular_off:before {\n    content: \"\\E1D0\"; }\n  .material-icons.signal_wifi_0_bar:before {\n    content: \"\\F0B0\"; }\n  .material-icons.signal_wifi_4_bar:before {\n    content: \"\\E1D8\"; }\n  .material-icons.signal_wifi_4_bar_lock:before {\n    content: \"\\E1D9\"; }\n  .material-icons.signal_wifi_off:before {\n    content: \"\\E1DA\"; }\n  .material-icons.sim_card:before {\n    content: \"\\E32B\"; }\n  .material-icons.sim_card_alert:before {\n    content: \"\\E624\"; }\n  .material-icons.single_bed:before {\n    content: \"\\EA48\"; }\n  .material-icons.skip_next:before {\n    content: \"\\E044\"; }\n  .material-icons.skip_previous:before {\n    content: \"\\E045\"; }\n  .material-icons.slideshow:before {\n    content: \"\\E41B\"; }\n  .material-icons.slow_motion_video:before {\n    content: \"\\E068\"; }\n  .material-icons.smart_button:before {\n    content: \"\\F1C1\"; }\n  .material-icons.smartphone:before {\n    content: \"\\E32C\"; }\n  .material-icons.smoke_free:before {\n    content: \"\\EB4A\"; }\n  .material-icons.smoking_rooms:before {\n    content: \"\\EB4B\"; }\n  .material-icons.sms:before {\n    content: \"\\E625\"; }\n  .material-icons.sms_failed:before {\n    content: \"\\E626\"; }\n  .material-icons.snippet_folder:before {\n    content: \"\\F1C7\"; }\n  .material-icons.snooze:before {\n    content: \"\\E046\"; }\n  .material-icons.soap:before {\n    content: \"\\F1B2\"; }\n  .material-icons.sort:before {\n    content: \"\\E164\"; }\n  .material-icons.sort_by_alpha:before {\n    content: \"\\E053\"; }\n  .material-icons.source:before {\n    content: \"\\F1C4\"; }\n  .material-icons.south:before {\n    content: \"\\F1E3\"; }\n  .material-icons.south_east:before {\n    content: \"\\F1E4\"; }\n  .material-icons.south_west:before {\n    content: \"\\F1E5\"; }\n  .material-icons.spa:before {\n    content: \"\\EB4C\"; }\n  .material-icons.space_bar:before {\n    content: \"\\E256\"; }\n  .material-icons.speaker:before {\n    content: \"\\E32D\"; }\n  .material-icons.speaker_group:before {\n    content: \"\\E32E\"; }\n  .material-icons.speaker_notes:before {\n    content: \"\\E8CD\"; }\n  .material-icons.speaker_notes_off:before {\n    content: \"\\E92A\"; }\n  .material-icons.speaker_phone:before {\n    content: \"\\E0D2\"; }\n  .material-icons.speed:before {\n    content: \"\\E9E4\"; }\n  .material-icons.spellcheck:before {\n    content: \"\\E8CE\"; }\n  .material-icons.sports:before {\n    content: \"\\EA30\"; }\n  .material-icons.sports_bar:before {\n    content: \"\\F1F3\"; }\n  .material-icons.sports_baseball:before {\n    content: \"\\EA51\"; }\n  .material-icons.sports_basketball:before {\n    content: \"\\EA26\"; }\n  .material-icons.sports_cricket:before {\n    content: \"\\EA27\"; }\n  .material-icons.sports_esports:before {\n    content: \"\\EA28\"; }\n  .material-icons.sports_football:before {\n    content: \"\\EA29\"; }\n  .material-icons.sports_golf:before {\n    content: \"\\EA2A\"; }\n  .material-icons.sports_handball:before {\n    content: \"\\EA33\"; }\n  .material-icons.sports_hockey:before {\n    content: \"\\EA2B\"; }\n  .material-icons.sports_kabaddi:before {\n    content: \"\\EA34\"; }\n  .material-icons.sports_mma:before {\n    content: \"\\EA2C\"; }\n  .material-icons.sports_motorsports:before {\n    content: \"\\EA2D\"; }\n  .material-icons.sports_rugby:before {\n    content: \"\\EA2E\"; }\n  .material-icons.sports_soccer:before {\n    content: \"\\EA2F\"; }\n  .material-icons.sports_tennis:before {\n    content: \"\\EA32\"; }\n  .material-icons.sports_volleyball:before {\n    content: \"\\EA31\"; }\n  .material-icons.square_foot:before {\n    content: \"\\EA49\"; }\n  .material-icons.stacked_bar_chart:before {\n    content: \"\\E9E6\"; }\n  .material-icons.stacked_line_chart:before {\n    content: \"\\F22B\"; }\n  .material-icons.stairs:before {\n    content: \"\\F1A9\"; }\n  .material-icons.star:before {\n    content: \"\\E838\"; }\n  .material-icons.star_border:before {\n    content: \"\\E83A\"; }\n  .material-icons.star_half:before {\n    content: \"\\E839\"; }\n  .material-icons.star_outline:before {\n    content: \"\\F06F\"; }\n  .material-icons.star_rate:before {\n    content: \"\\F0EC\"; }\n  .material-icons.stars:before {\n    content: \"\\E8D0\"; }\n  .material-icons.stay_current_landscape:before {\n    content: \"\\E0D3\"; }\n  .material-icons.stay_current_portrait:before {\n    content: \"\\E0D4\"; }\n  .material-icons.stay_primary_landscape:before {\n    content: \"\\E0D5\"; }\n  .material-icons.stay_primary_portrait:before {\n    content: \"\\E0D6\"; }\n  .material-icons.sticky_note_2:before {\n    content: \"\\F1FC\"; }\n  .material-icons.stop:before {\n    content: \"\\E047\"; }\n  .material-icons.stop_circle:before {\n    content: \"\\EF71\"; }\n  .material-icons.stop_screen_share:before {\n    content: \"\\E0E3\"; }\n  .material-icons.storage:before {\n    content: \"\\E1DB\"; }\n  .material-icons.store:before {\n    content: \"\\E8D1\"; }\n  .material-icons.store_mall_directory:before {\n    content: \"\\E563\"; }\n  .material-icons.storefront:before {\n    content: \"\\EA12\"; }\n  .material-icons.straighten:before {\n    content: \"\\E41C\"; }\n  .material-icons.stream:before {\n    content: \"\\E9E9\"; }\n  .material-icons.streetview:before {\n    content: \"\\E56E\"; }\n  .material-icons.strikethrough_s:before {\n    content: \"\\E257\"; }\n  .material-icons.stroller:before {\n    content: \"\\F1AE\"; }\n  .material-icons.style:before {\n    content: \"\\E41D\"; }\n  .material-icons.subdirectory_arrow_left:before {\n    content: \"\\E5D9\"; }\n  .material-icons.subdirectory_arrow_right:before {\n    content: \"\\E5DA\"; }\n  .material-icons.subject:before {\n    content: \"\\E8D2\"; }\n  .material-icons.subscript:before {\n    content: \"\\F111\"; }\n  .material-icons.subscriptions:before {\n    content: \"\\E064\"; }\n  .material-icons.subtitles:before {\n    content: \"\\E048\"; }\n  .material-icons.subtitles_off:before {\n    content: \"\\EF72\"; }\n  .material-icons.subway:before {\n    content: \"\\E56F\"; }\n  .material-icons.superscript:before {\n    content: \"\\F112\"; }\n  .material-icons.supervised_user_circle:before {\n    content: \"\\E939\"; }\n  .material-icons.supervisor_account:before {\n    content: \"\\E8D3\"; }\n  .material-icons.support:before {\n    content: \"\\EF73\"; }\n  .material-icons.support_agent:before {\n    content: \"\\F0E2\"; }\n  .material-icons.surround_sound:before {\n    content: \"\\E049\"; }\n  .material-icons.swap_calls:before {\n    content: \"\\E0D7\"; }\n  .material-icons.swap_horiz:before {\n    content: \"\\E8D4\"; }\n  .material-icons.swap_horizontal_circle:before {\n    content: \"\\E933\"; }\n  .material-icons.swap_vert:before {\n    content: \"\\E8D5\"; }\n  .material-icons.swap_vert_circle:before {\n    content: \"\\E8D6\"; }\n  .material-icons.swap_vertical_circle:before {\n    content: \"\\E8D6\"; }\n  .material-icons.swipe:before {\n    content: \"\\E9EC\"; }\n  .material-icons.switch_account:before {\n    content: \"\\E9ED\"; }\n  .material-icons.switch_camera:before {\n    content: \"\\E41E\"; }\n  .material-icons.switch_left:before {\n    content: \"\\F1D1\"; }\n  .material-icons.switch_right:before {\n    content: \"\\F1D2\"; }\n  .material-icons.switch_video:before {\n    content: \"\\E41F\"; }\n  .material-icons.sync:before {\n    content: \"\\E627\"; }\n  .material-icons.sync_alt:before {\n    content: \"\\EA18\"; }\n  .material-icons.sync_disabled:before {\n    content: \"\\E628\"; }\n  .material-icons.sync_problem:before {\n    content: \"\\E629\"; }\n  .material-icons.system_update:before {\n    content: \"\\E62A\"; }\n  .material-icons.system_update_alt:before {\n    content: \"\\E8D7\"; }\n  .material-icons.system_update_tv:before {\n    content: \"\\E8D7\"; }\n  .material-icons.tab:before {\n    content: \"\\E8D8\"; }\n  .material-icons.tab_unselected:before {\n    content: \"\\E8D9\"; }\n  .material-icons.table_chart:before {\n    content: \"\\E265\"; }\n  .material-icons.table_rows:before {\n    content: \"\\F101\"; }\n  .material-icons.table_view:before {\n    content: \"\\F1BE\"; }\n  .material-icons.tablet:before {\n    content: \"\\E32F\"; }\n  .material-icons.tablet_android:before {\n    content: \"\\E330\"; }\n  .material-icons.tablet_mac:before {\n    content: \"\\E331\"; }\n  .material-icons.tag:before {\n    content: \"\\E9EF\"; }\n  .material-icons.tag_faces:before {\n    content: \"\\E420\"; }\n  .material-icons.takeout_dining:before {\n    content: \"\\EA74\"; }\n  .material-icons.tap_and_play:before {\n    content: \"\\E62B\"; }\n  .material-icons.tapas:before {\n    content: \"\\F1E9\"; }\n  .material-icons.taxi_alert:before {\n    content: \"\\EF74\"; }\n  .material-icons.terrain:before {\n    content: \"\\E564\"; }\n  .material-icons.text_fields:before {\n    content: \"\\E262\"; }\n  .material-icons.text_format:before {\n    content: \"\\E165\"; }\n  .material-icons.text_rotate_up:before {\n    content: \"\\E93A\"; }\n  .material-icons.text_rotate_vertical:before {\n    content: \"\\E93B\"; }\n  .material-icons.text_rotation_angledown:before {\n    content: \"\\E93C\"; }\n  .material-icons.text_rotation_angleup:before {\n    content: \"\\E93D\"; }\n  .material-icons.text_rotation_down:before {\n    content: \"\\E93E\"; }\n  .material-icons.text_rotation_none:before {\n    content: \"\\E93F\"; }\n  .material-icons.text_snippet:before {\n    content: \"\\F1C6\"; }\n  .material-icons.textsms:before {\n    content: \"\\E0D8\"; }\n  .material-icons.texture:before {\n    content: \"\\E421\"; }\n  .material-icons.theater_comedy:before {\n    content: \"\\EA66\"; }\n  .material-icons.theaters:before {\n    content: \"\\E8DA\"; }\n  .material-icons.thumb_down:before {\n    content: \"\\E8DB\"; }\n  .material-icons.thumb_down_alt:before {\n    content: \"\\E816\"; }\n  .material-icons.thumb_down_off_alt:before {\n    content: \"\\E9F2\"; }\n  .material-icons.thumb_up:before {\n    content: \"\\E8DC\"; }\n  .material-icons.thumb_up_alt:before {\n    content: \"\\E817\"; }\n  .material-icons.thumb_up_off_alt:before {\n    content: \"\\E9F3\"; }\n  .material-icons.thumbs_up_down:before {\n    content: \"\\E8DD\"; }\n  .material-icons.time_to_leave:before {\n    content: \"\\E62C\"; }\n  .material-icons.timelapse:before {\n    content: \"\\E422\"; }\n  .material-icons.timeline:before {\n    content: \"\\E922\"; }\n  .material-icons.timer:before {\n    content: \"\\E425\"; }\n  .material-icons.timer_10:before {\n    content: \"\\E423\"; }\n  .material-icons.timer_3:before {\n    content: \"\\E424\"; }\n  .material-icons.timer_off:before {\n    content: \"\\E426\"; }\n  .material-icons.title:before {\n    content: \"\\E264\"; }\n  .material-icons.toc:before {\n    content: \"\\E8DE\"; }\n  .material-icons.today:before {\n    content: \"\\E8DF\"; }\n  .material-icons.toggle_off:before {\n    content: \"\\E9F5\"; }\n  .material-icons.toggle_on:before {\n    content: \"\\E9F6\"; }\n  .material-icons.toll:before {\n    content: \"\\E8E0\"; }\n  .material-icons.tonality:before {\n    content: \"\\E427\"; }\n  .material-icons.topic:before {\n    content: \"\\F1C8\"; }\n  .material-icons.touch_app:before {\n    content: \"\\E913\"; }\n  .material-icons.tour:before {\n    content: \"\\EF75\"; }\n  .material-icons.toys:before {\n    content: \"\\E332\"; }\n  .material-icons.track_changes:before {\n    content: \"\\E8E1\"; }\n  .material-icons.traffic:before {\n    content: \"\\E565\"; }\n  .material-icons.train:before {\n    content: \"\\E570\"; }\n  .material-icons.tram:before {\n    content: \"\\E571\"; }\n  .material-icons.transfer_within_a_station:before {\n    content: \"\\E572\"; }\n  .material-icons.transform:before {\n    content: \"\\E428\"; }\n  .material-icons.transit_enterexit:before {\n    content: \"\\E579\"; }\n  .material-icons.translate:before {\n    content: \"\\E8E2\"; }\n  .material-icons.trending_down:before {\n    content: \"\\E8E3\"; }\n  .material-icons.trending_flat:before {\n    content: \"\\E8E4\"; }\n  .material-icons.trending_neutral:before {\n    content: \"\\E8E4\"; }\n  .material-icons.trending_up:before {\n    content: \"\\E8E5\"; }\n  .material-icons.trip_origin:before {\n    content: \"\\E57B\"; }\n  .material-icons.tty:before {\n    content: \"\\F1AA\"; }\n  .material-icons.tune:before {\n    content: \"\\E429\"; }\n  .material-icons.turned_in:before {\n    content: \"\\E8E6\"; }\n  .material-icons.turned_in_not:before {\n    content: \"\\E8E7\"; }\n  .material-icons.tv:before {\n    content: \"\\E333\"; }\n  .material-icons.tv_off:before {\n    content: \"\\E647\"; }\n  .material-icons.two_wheeler:before {\n    content: \"\\E9F9\"; }\n  .material-icons.umbrella:before {\n    content: \"\\F1AD\"; }\n  .material-icons.unarchive:before {\n    content: \"\\E169\"; }\n  .material-icons.undo:before {\n    content: \"\\E166\"; }\n  .material-icons.unfold_less:before {\n    content: \"\\E5D6\"; }\n  .material-icons.unfold_more:before {\n    content: \"\\E5D7\"; }\n  .material-icons.unpublished:before {\n    content: \"\\F236\"; }\n  .material-icons.unsubscribe:before {\n    content: \"\\E0EB\"; }\n  .material-icons.update:before {\n    content: \"\\E923\"; }\n  .material-icons.update_disabled:before {\n    content: \"\\E075\"; }\n  .material-icons.upgrade:before {\n    content: \"\\F0FB\"; }\n  .material-icons.upload_file:before {\n    content: \"\\E9FC\"; }\n  .material-icons.usb:before {\n    content: \"\\E1E0\"; }\n  .material-icons.verified:before {\n    content: \"\\EF76\"; }\n  .material-icons.verified_user:before {\n    content: \"\\E8E8\"; }\n  .material-icons.vertical_align_bottom:before {\n    content: \"\\E258\"; }\n  .material-icons.vertical_align_center:before {\n    content: \"\\E259\"; }\n  .material-icons.vertical_align_top:before {\n    content: \"\\E25A\"; }\n  .material-icons.vertical_distribute:before {\n    content: \"\\E076\"; }\n  .material-icons.vertical_split:before {\n    content: \"\\E949\"; }\n  .material-icons.vibration:before {\n    content: \"\\E62D\"; }\n  .material-icons.video_call:before {\n    content: \"\\E070\"; }\n  .material-icons.video_collection:before {\n    content: \"\\E04A\"; }\n  .material-icons.video_label:before {\n    content: \"\\E071\"; }\n  .material-icons.video_library:before {\n    content: \"\\E04A\"; }\n  .material-icons.video_settings:before {\n    content: \"\\EA75\"; }\n  .material-icons.videocam:before {\n    content: \"\\E04B\"; }\n  .material-icons.videocam_off:before {\n    content: \"\\E04C\"; }\n  .material-icons.videogame_asset:before {\n    content: \"\\E338\"; }\n  .material-icons.view_agenda:before {\n    content: \"\\E8E9\"; }\n  .material-icons.view_array:before {\n    content: \"\\E8EA\"; }\n  .material-icons.view_carousel:before {\n    content: \"\\E8EB\"; }\n  .material-icons.view_column:before {\n    content: \"\\E8EC\"; }\n  .material-icons.view_comfortable:before {\n    content: \"\\E42A\"; }\n  .material-icons.view_comfy:before {\n    content: \"\\E42A\"; }\n  .material-icons.view_compact:before {\n    content: \"\\E42B\"; }\n  .material-icons.view_day:before {\n    content: \"\\E8ED\"; }\n  .material-icons.view_headline:before {\n    content: \"\\E8EE\"; }\n  .material-icons.view_in_ar:before {\n    content: \"\\E9FE\"; }\n  .material-icons.view_list:before {\n    content: \"\\E8EF\"; }\n  .material-icons.view_module:before {\n    content: \"\\E8F0\"; }\n  .material-icons.view_quilt:before {\n    content: \"\\E8F1\"; }\n  .material-icons.view_sidebar:before {\n    content: \"\\F114\"; }\n  .material-icons.view_stream:before {\n    content: \"\\E8F2\"; }\n  .material-icons.view_week:before {\n    content: \"\\E8F3\"; }\n  .material-icons.vignette:before {\n    content: \"\\E435\"; }\n  .material-icons.visibility:before {\n    content: \"\\E8F4\"; }\n  .material-icons.visibility_off:before {\n    content: \"\\E8F5\"; }\n  .material-icons.voice_chat:before {\n    content: \"\\E62E\"; }\n  .material-icons.voice_over_off:before {\n    content: \"\\E94A\"; }\n  .material-icons.voicemail:before {\n    content: \"\\E0D9\"; }\n  .material-icons.volume_down:before {\n    content: \"\\E04D\"; }\n  .material-icons.volume_mute:before {\n    content: \"\\E04E\"; }\n  .material-icons.volume_off:before {\n    content: \"\\E04F\"; }\n  .material-icons.volume_up:before {\n    content: \"\\E050\"; }\n  .material-icons.volunteer_activism:before {\n    content: \"\\EA70\"; }\n  .material-icons.vpn_key:before {\n    content: \"\\E0DA\"; }\n  .material-icons.vpn_lock:before {\n    content: \"\\E62F\"; }\n  .material-icons.wallet_giftcard:before {\n    content: \"\\E8F6\"; }\n  .material-icons.wallet_membership:before {\n    content: \"\\E8F7\"; }\n  .material-icons.wallet_travel:before {\n    content: \"\\E8F8\"; }\n  .material-icons.wallpaper:before {\n    content: \"\\E1BC\"; }\n  .material-icons.warning:before {\n    content: \"\\E002\"; }\n  .material-icons.wash:before {\n    content: \"\\F1B1\"; }\n  .material-icons.watch:before {\n    content: \"\\E334\"; }\n  .material-icons.watch_later:before {\n    content: \"\\E924\"; }\n  .material-icons.water_damage:before {\n    content: \"\\F203\"; }\n  .material-icons.waterfall_chart:before {\n    content: \"\\EA00\"; }\n  .material-icons.waves:before {\n    content: \"\\E176\"; }\n  .material-icons.wb_auto:before {\n    content: \"\\E42C\"; }\n  .material-icons.wb_cloudy:before {\n    content: \"\\E42D\"; }\n  .material-icons.wb_incandescent:before {\n    content: \"\\E42E\"; }\n  .material-icons.wb_iridescent:before {\n    content: \"\\E436\"; }\n  .material-icons.wb_shade:before {\n    content: \"\\EA01\"; }\n  .material-icons.wb_sunny:before {\n    content: \"\\E430\"; }\n  .material-icons.wb_twighlight:before {\n    content: \"\\EA02\"; }\n  .material-icons.wc:before {\n    content: \"\\E63D\"; }\n  .material-icons.web:before {\n    content: \"\\E051\"; }\n  .material-icons.web_asset:before {\n    content: \"\\E069\"; }\n  .material-icons.weekend:before {\n    content: \"\\E16B\"; }\n  .material-icons.west:before {\n    content: \"\\F1E6\"; }\n  .material-icons.whatshot:before {\n    content: \"\\E80E\"; }\n  .material-icons.wheelchair_pickup:before {\n    content: \"\\F1AB\"; }\n  .material-icons.where_to_vote:before {\n    content: \"\\E177\"; }\n  .material-icons.widgets:before {\n    content: \"\\E1BD\"; }\n  .material-icons.wifi:before {\n    content: \"\\E63E\"; }\n  .material-icons.wifi_calling:before {\n    content: \"\\EF77\"; }\n  .material-icons.wifi_lock:before {\n    content: \"\\E1E1\"; }\n  .material-icons.wifi_off:before {\n    content: \"\\E648\"; }\n  .material-icons.wifi_protected_setup:before {\n    content: \"\\F0FC\"; }\n  .material-icons.wifi_tethering:before {\n    content: \"\\E1E2\"; }\n  .material-icons.wine_bar:before {\n    content: \"\\F1E8\"; }\n  .material-icons.work:before {\n    content: \"\\E8F9\"; }\n  .material-icons.work_off:before {\n    content: \"\\E942\"; }\n  .material-icons.work_outline:before {\n    content: \"\\E943\"; }\n  .material-icons.workspaces_filled:before {\n    content: \"\\EA0D\"; }\n  .material-icons.workspaces_outline:before {\n    content: \"\\EA0F\"; }\n  .material-icons.wrap_text:before {\n    content: \"\\E25B\"; }\n  .material-icons.wrong_location:before {\n    content: \"\\EF78\"; }\n  .material-icons.wysiwyg:before {\n    content: \"\\F1C3\"; }\n  .material-icons.youtube_searched_for:before {\n    content: \"\\E8FA\"; }\n  .material-icons.zoom_in:before {\n    content: \"\\E8FF\"; }\n  .material-icons.zoom_out:before {\n    content: \"\\E900\"; }\n  .material-icons.zoom_out_map:before {\n    content: \"\\E56B\"; }\n", ""]);
+
+// exports
+
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./node_modules/vue-toast-notification/dist/index.css":
+/*!********************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader??ref--5-1!./node_modules/postcss-loader/src??ref--5-2!./node_modules/vue-toast-notification/dist/index.css ***!
+  \********************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(/*! ../../css-loader/lib/css-base.js */ "./node_modules/css-loader/lib/css-base.js")(false);
+// imports
+
+
+// module
+exports.push([module.i, "@keyframes fadeOut{from{opacity:1}to{opacity:0}}.fadeOut{animation-name:fadeOut}@keyframes fadeInDown{from{opacity:0;transform:translate3d(0, -100%, 0)}to{opacity:1;transform:none}}.fadeInDown{animation-name:fadeInDown}@keyframes fadeInUp{from{opacity:0;transform:translate3d(0, 100%, 0)}to{opacity:1;transform:none}}.fadeInUp{animation-name:fadeInUp}.fade-enter-active,.fade-leave-active{transition:opacity 150ms ease-out}.fade-enter,.fade-leave-to{opacity:0}.notices{position:fixed;display:flex;top:0;bottom:0;left:0;right:0;padding:2em;overflow:hidden;z-index:1052;pointer-events:none}.notices .toast{display:inline-flex;align-items:center;animation-duration:150ms;margin:.5em 0;box-shadow:0 1px 4px rgba(0,0,0,.12),0 0 6px rgba(0,0,0,.04);border-radius:.25em;pointer-events:auto;opacity:.92;color:#fff;min-height:3em;cursor:pointer}.notices .toast .toast-text{margin:0;padding:.5em 1em}.notices .toast-success{background-color:#28a745}.notices .toast-info{background-color:#17a2b8}.notices .toast-warning{background-color:#ffc107}.notices .toast-error{background-color:#dc3545}.notices .toast-default{background-color:#343a40}.notices .toast.is-top,.notices .toast.is-bottom{align-self:center}.notices .toast.is-top-right,.notices .toast.is-bottom-right{align-self:flex-end}.notices .toast.is-top-left,.notices .toast.is-bottom-left{align-self:flex-start}.notices.is-top{flex-direction:column}.notices.is-bottom{flex-direction:column-reverse}.notices.is-custom-parent{position:absolute}@media screen and (max-width: 768px){.notices{padding:0;position:fixed !important}}\n", ""]);
+
+// exports
+
 
 /***/ }),
 
@@ -2168,6 +2277,33 @@ function toComment(sourceMap) {
 	var data = 'sourceMappingURL=data:application/json;charset=utf-8;base64,' + base64;
 
 	return '/*# ' + data + ' */';
+}
+
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/lib/url/escape.js":
+/*!***************************************************!*\
+  !*** ./node_modules/css-loader/lib/url/escape.js ***!
+  \***************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = function escape(url) {
+    if (typeof url !== 'string') {
+        return url
+    }
+    // If url is already wrapped in quotes, remove them
+    if (/^['"].*['"]$/.test(url)) {
+        url = url.slice(1, -1);
+    }
+    // Should url be wrapped?
+    // See https://drafts.csswg.org/css-values-3/#urls
+    if (/["'() \t\n]/.test(url)) {
+        return '"' + url.replace(/"/g, '\\"').replace(/\n/g, '\\n') + '"'
+    }
+
+    return url
 }
 
 
@@ -19386,6 +19522,80 @@ function toComment(sourceMap) {
 
 /***/ }),
 
+/***/ "./node_modules/material-design-icons-iconfont/dist/fonts/MaterialIcons-Regular.eot":
+/*!******************************************************************************************!*\
+  !*** ./node_modules/material-design-icons-iconfont/dist/fonts/MaterialIcons-Regular.eot ***!
+  \******************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/fonts/vendor/material-design-icons-icondist/MaterialIcons-Regular.eot?2a61b00fcc9b1afbf99be145777b1b72";
+
+/***/ }),
+
+/***/ "./node_modules/material-design-icons-iconfont/dist/fonts/MaterialIcons-Regular.ttf":
+/*!******************************************************************************************!*\
+  !*** ./node_modules/material-design-icons-iconfont/dist/fonts/MaterialIcons-Regular.ttf ***!
+  \******************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/fonts/vendor/material-design-icons-icondist/MaterialIcons-Regular.ttf?51cf1d641ae503ece727e7d84b182524";
+
+/***/ }),
+
+/***/ "./node_modules/material-design-icons-iconfont/dist/fonts/MaterialIcons-Regular.woff":
+/*!*******************************************************************************************!*\
+  !*** ./node_modules/material-design-icons-iconfont/dist/fonts/MaterialIcons-Regular.woff ***!
+  \*******************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/fonts/vendor/material-design-icons-icondist/MaterialIcons-Regular.woff?84a37de85c17f186652a179b1145392f";
+
+/***/ }),
+
+/***/ "./node_modules/material-design-icons-iconfont/dist/fonts/MaterialIcons-Regular.woff2":
+/*!********************************************************************************************!*\
+  !*** ./node_modules/material-design-icons-iconfont/dist/fonts/MaterialIcons-Regular.woff2 ***!
+  \********************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/fonts/vendor/material-design-icons-icondist/MaterialIcons-Regular.woff2?703cf8f274fbb265d49c6262825780e1";
+
+/***/ }),
+
+/***/ "./node_modules/material-design-icons-iconfont/dist/material-design-icons.css":
+/*!************************************************************************************!*\
+  !*** ./node_modules/material-design-icons-iconfont/dist/material-design-icons.css ***!
+  \************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+
+var content = __webpack_require__(/*! !../../css-loader??ref--5-1!../../postcss-loader/src??ref--5-2!./material-design-icons.css */ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./node_modules/material-design-icons-iconfont/dist/material-design-icons.css");
+
+if(typeof content === 'string') content = [[module.i, content, '']];
+
+var transform;
+var insertInto;
+
+
+
+var options = {"hmr":true}
+
+options.transform = transform
+options.insertInto = undefined;
+
+var update = __webpack_require__(/*! ../../style-loader/lib/addStyles.js */ "./node_modules/style-loader/lib/addStyles.js")(content, options);
+
+if(content.locals) module.exports = content.locals;
+
+if(false) {}
+
+/***/ }),
+
 /***/ "./node_modules/process/browser.js":
 /*!*****************************************!*\
   !*** ./node_modules/process/browser.js ***!
@@ -20363,92 +20573,11124 @@ exports.clearImmediate = (typeof self !== "undefined" && self.clearImmediate) ||
 
 /***/ }),
 
-/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/admin/src/layout/App.vue?vue&type=template&id=bd5ce136&":
-/*!************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/admin/src/layout/App.vue?vue&type=template&id=bd5ce136& ***!
-  \************************************************************************************************************************************************************************************************************/
-/*! exports provided: render, staticRenderFns */
+/***/ "./node_modules/vee-validate/dist/vee-validate.esm.js":
+/*!************************************************************!*\
+  !*** ./node_modules/vee-validate/dist/vee-validate.esm.js ***!
+  \************************************************************/
+/*! exports provided: default, ErrorBag, Rules, ValidationObserver, ValidationProvider, Validator, directive, install, mapFields, mixin, version, withValidation */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
-var render = function() {
-  var _vm = this
-  var _h = _vm.$createElement
-  var _c = _vm._self._c || _h
-  return _c(
-    "div",
-    [
-      _c("main-header"),
-      _vm._v(" "),
-      _c("navbar"),
-      _vm._v(" "),
-      _c("main-footer")
-    ],
-    1
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ErrorBag", function() { return ErrorBag; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "Rules", function() { return Rules; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ValidationObserver", function() { return ValidationObserver; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ValidationProvider", function() { return ValidationProvider; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "Validator", function() { return Validator; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "directive", function() { return directive; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "install", function() { return install; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "mapFields", function() { return mapFields; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "mixin", function() { return mixin; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "version", function() { return version; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "withValidation", function() { return withValidation; });
+/**
+  * vee-validate v2.2.15
+  * (c) 2019 Abdelrahman Awad
+  * @license MIT
+  */
+// 
+
+var isTextInput = function (el) {
+  return includes(['text', 'password', 'search', 'email', 'tel', 'url', 'textarea', 'number'], el.type);
+};
+
+var isCheckboxOrRadioInput = function (el) {
+  return includes(['radio', 'checkbox'], el.type);
+};
+
+var isDateInput = function (el) {
+  return includes(['date', 'week', 'month', 'datetime-local', 'time'], el.type);
+};
+
+/**
+ * Gets the data attribute. the name must be kebab-case.
+ */
+var getDataAttribute = function (el, name) { return el.getAttribute(("data-vv-" + name)); };
+
+var isNaN$1 = function (value) {
+  if ('isNaN' in Number) {
+    return Number.isNaN(value);
+  }
+
+  // eslint-disable-next-line
+  return typeof(value) === 'number' && value !== value;
+};
+
+/**
+ * Checks if the values are either null or undefined.
+ */
+var isNullOrUndefined = function () {
+  var values = [], len = arguments.length;
+  while ( len-- ) values[ len ] = arguments[ len ];
+
+  return values.every(function (value) {
+    return value === null || value === undefined;
+  });
+};
+
+/**
+ * Creates the default flags object.
+ */
+var createFlags = function () { return ({
+  untouched: true,
+  touched: false,
+  dirty: false,
+  pristine: true,
+  valid: null,
+  invalid: null,
+  validated: false,
+  pending: false,
+  required: false,
+  changed: false
+}); };
+
+/**
+ * Shallow object comparison.
+ */
+var isEqual = function (lhs, rhs) {
+  if (lhs instanceof RegExp && rhs instanceof RegExp) {
+    return isEqual(lhs.source, rhs.source) && isEqual(lhs.flags, rhs.flags);
+  }
+
+  if (Array.isArray(lhs) && Array.isArray(rhs)) {
+    if (lhs.length !== rhs.length) { return false; }
+
+    for (var i = 0; i < lhs.length; i++) {
+      if (!isEqual(lhs[i], rhs[i])) {
+        return false;
+      }
+    }
+
+    return true;
+  }
+
+  // if both are objects, compare each key recursively.
+  if (isObject(lhs) && isObject(rhs)) {
+    return Object.keys(lhs).every(function (key) {
+      return isEqual(lhs[key], rhs[key]);
+    }) && Object.keys(rhs).every(function (key) {
+      return isEqual(lhs[key], rhs[key]);
+    });
+  }
+
+  if (isNaN$1(lhs) && isNaN$1(rhs)) {
+    return true;
+  }
+
+  return lhs === rhs;
+};
+
+/**
+ * Determines the input field scope.
+ */
+var getScope = function (el) {
+  var scope = getDataAttribute(el, 'scope');
+  if (isNullOrUndefined(scope)) {
+    var form = getForm(el);
+
+    if (form) {
+      scope = getDataAttribute(form, 'scope');
+    }
+  }
+
+  return !isNullOrUndefined(scope) ? scope : null;
+};
+
+/**
+ * Get the closest form element.
+ */
+var getForm = function (el) {
+  if (isNullOrUndefined(el)) { return null; }
+
+  if (el.tagName === 'FORM') { return el; }
+
+  if (!isNullOrUndefined(el.form)) { return el.form; }
+
+  return !isNullOrUndefined(el.parentNode) ? getForm(el.parentNode) : null;
+};
+
+/**
+ * Gets the value in an object safely.
+ */
+var getPath = function (path, target, def) {
+  if ( def === void 0 ) def = undefined;
+
+  if (!path || !target) { return def; }
+
+  var value = target;
+  path.split('.').every(function (prop) {
+    if (prop in value) {
+      value = value[prop];
+
+      return true;
+    }
+
+    value = def;
+
+    return false;
+  });
+
+  return value;
+};
+
+/**
+ * Checks if path exists within an object.
+ */
+var hasPath = function (path, target) {
+  var obj = target;
+  var previousPath = null;
+  var isNullOrNonObject = false;
+  var isValidPath = path.split('.').reduce(function (reducer, prop) {
+    if (obj == null || typeof obj !== 'object') {
+      isNullOrNonObject = true;
+      return reducer && false;
+    }
+
+    if (prop in obj) {
+      obj = obj[prop];
+      previousPath = previousPath === null ? prop : previousPath + '.' + prop;
+
+      return reducer && true;
+    }
+
+    return reducer && false;
+  }, true);
+
+  if (true) {
+    if (isNullOrNonObject) {
+      throw new Error(previousPath + ' is not an object');
+    }
+  }
+
+  return isValidPath;
+};
+
+/**
+ * Parses a rule string expression.
+ */
+var parseRule = function (rule) {
+  var params = [];
+  var name = rule.split(':')[0];
+
+  if (includes(rule, ':')) {
+    params = rule.split(':').slice(1).join(':').split(',');
+  }
+
+  return { name: name, params: params };
+};
+
+/**
+ * Debounces a function.
+ */
+var debounce = function (fn, wait, token) {
+  if ( wait === void 0 ) wait = 0;
+  if ( token === void 0 ) token = { cancelled: false };
+
+  if (wait === 0) {
+    return fn;
+  }
+
+  var timeout;
+
+  return function () {
+    var args = [], len = arguments.length;
+    while ( len-- ) args[ len ] = arguments[ len ];
+
+    var later = function () {
+      timeout = null;
+
+      // check if the fn call was cancelled.
+      if (!token.cancelled) { fn.apply(void 0, args); }
+    };
+
+    clearTimeout(timeout);
+    timeout = setTimeout(later, wait);
+    if (!timeout) { fn.apply(void 0, args); }
+  };
+};
+
+/**
+ * Appends a rule definition to a list of rules.
+ */
+var appendRule = function (rule, rules) {
+  if (!rules) {
+    return normalizeRules(rule);
+  }
+
+  if (!rule) {
+    return normalizeRules(rules);
+  }
+
+  if (typeof rules === 'string') {
+    rules = normalizeRules(rules);
+  }
+
+  return assign({}, rules, normalizeRules(rule));
+};
+
+/**
+ * Normalizes the given rules expression.
+ */
+var normalizeRules = function (rules) {
+  // if falsy value return an empty object.
+  if (!rules) {
+    return {};
+  }
+
+  if (isObject(rules)) {
+    // $FlowFixMe
+    return Object.keys(rules).reduce(function (prev, curr) {
+      var params = [];
+      // $FlowFixMe
+      if (rules[curr] === true) {
+        params = [];
+      } else if (Array.isArray(rules[curr])) {
+        params = rules[curr];
+      } else if (isObject(rules[curr])) {
+        params = rules[curr];
+      } else {
+        params = [rules[curr]];
+      }
+
+      // $FlowFixMe
+      if (rules[curr] !== false) {
+        prev[curr] = params;
+      }
+
+      return prev;
+    }, {});
+  }
+
+  if (typeof rules !== 'string') {
+    warn('rules must be either a string or an object.');
+    return {};
+  }
+
+  return rules.split('|').reduce(function (prev, rule) {
+    var parsedRule = parseRule(rule);
+    if (!parsedRule.name) {
+      return prev;
+    }
+
+    prev[parsedRule.name] = parsedRule.params;
+    return prev;
+  }, {});
+};
+
+/**
+ * Emits a warning to the console.
+ */
+var warn = function (message) {
+  console.warn(("[vee-validate] " + message)); // eslint-disable-line
+};
+
+/**
+ * Creates a branded error object.
+ */
+var createError = function (message) { return new Error(("[vee-validate] " + message)); };
+
+/**
+ * Checks if the value is an object.
+ */
+var isObject = function (obj) { return obj !== null && obj && typeof obj === 'object' && ! Array.isArray(obj); };
+
+/**
+ * Checks if a function is callable.
+ */
+var isCallable = function (func) { return typeof func === 'function'; };
+
+/**
+ * Check if element has the css class on it.
+ */
+var hasClass = function (el, className) {
+  if (el.classList) {
+    return el.classList.contains(className);
+  }
+
+  return !!el.className.match(new RegExp(("(\\s|^)" + className + "(\\s|$)")));
+};
+
+/**
+ * Adds the provided css className to the element.
+ */
+var addClass = function (el, className) {
+  if (el.classList) {
+    el.classList.add(className);
+    return;
+  }
+
+  if (!hasClass(el, className)) {
+    el.className += " " + className;
+  }
+};
+
+/**
+ * Remove the provided css className from the element.
+ */
+var removeClass = function (el, className) {
+  if (el.classList) {
+    el.classList.remove(className);
+    return;
+  }
+
+  if (hasClass(el, className)) {
+    var reg = new RegExp(("(\\s|^)" + className + "(\\s|$)"));
+    el.className = el.className.replace(reg, ' ');
+  }
+};
+
+/**
+ * Adds or removes a class name on the input depending on the status flag.
+ */
+var toggleClass = function (el, className, status) {
+  if (!el || !className) { return; }
+
+  if (Array.isArray(className)) {
+    className.forEach(function (item) { return toggleClass(el, item, status); });
+    return;
+  }
+
+  if (status) {
+    return addClass(el, className);
+  }
+
+  removeClass(el, className);
+};
+
+/**
+ * Converts an array-like object to array, provides a simple polyfill for Array.from
+ */
+var toArray = function (arrayLike) {
+  if (isCallable(Array.from)) {
+    return Array.from(arrayLike);
+  }
+
+  var array = [];
+  var length = arrayLike.length;
+  /* istanbul ignore next */
+  for (var i = 0; i < length; i++) {
+    array.push(arrayLike[i]);
+  }
+
+  /* istanbul ignore next */
+  return array;
+};
+
+/**
+ * Converts an array-like object to array and place other elements in an array
+ */
+var ensureArray = function (arrayLike) {
+  if (Array.isArray(arrayLike)) {
+    return [].concat( arrayLike );
+  }
+  var array = toArray(arrayLike);
+  return isEmptyArray(array) ? [arrayLike] : array;
+};
+
+/**
+ * Assign polyfill from the mdn.
+ */
+var assign = function (target) {
+  var others = [], len = arguments.length - 1;
+  while ( len-- > 0 ) others[ len ] = arguments[ len + 1 ];
+
+  /* istanbul ignore else */
+  if (isCallable(Object.assign)) {
+    return Object.assign.apply(Object, [ target ].concat( others ));
+  }
+
+  /* istanbul ignore next */
+  if (target == null) {
+    throw new TypeError('Cannot convert undefined or null to object');
+  }
+
+  /* istanbul ignore next */
+  var to = Object(target);
+  /* istanbul ignore next */
+  others.forEach(function (arg) {
+    // Skip over if undefined or null
+    if (arg != null) {
+      Object.keys(arg).forEach(function (key) {
+        to[key] = arg[key];
+      });
+    }
+  });
+  /* istanbul ignore next */
+  return to;
+};
+
+var id = 0;
+var idTemplate = '{id}';
+
+/**
+ * Generates a unique id.
+ */
+var uniqId = function () {
+  // handle too many uses of uniqId, although unlikely.
+  if (id >= 9999) {
+    id = 0;
+    // shift the template.
+    idTemplate = idTemplate.replace('{id}', '_{id}');
+  }
+
+  id++;
+  var newId = idTemplate.replace('{id}', String(id));
+
+  return newId;
+};
+
+var findIndex = function (arrayLike, predicate) {
+  var array = Array.isArray(arrayLike) ? arrayLike : toArray(arrayLike);
+  for (var i = 0; i < array.length; i++) {
+    if (predicate(array[i])) {
+      return i;
+    }
+  }
+
+  return -1;
+};
+
+/**
+ * finds the first element that satisfies the predicate callback, polyfills array.find
+ */
+var find = function (arrayLike, predicate) {
+  var array = Array.isArray(arrayLike) ? arrayLike : toArray(arrayLike);
+  var idx = findIndex(array, predicate);
+
+  return idx === -1 ? undefined : array[idx];
+};
+
+var isBuiltInComponent = function (vnode) {
+  if (!vnode) {
+    return false;
+  }
+
+  var tag = vnode.componentOptions.tag;
+
+  return /^(keep-alive|transition|transition-group)$/.test(tag);
+};
+
+var makeDelayObject = function (events, delay, delayConfig) {
+  if (typeof delay === 'number') {
+    return events.reduce(function (prev, e) {
+      prev[e] = delay;
+      return prev;
+    }, {});
+  }
+
+  return events.reduce(function (prev, e) {
+    if (typeof delay === 'object' && e in delay) {
+      prev[e] = delay[e];
+      return prev;
+    }
+
+    if (typeof delayConfig === 'number') {
+      prev[e] = delayConfig;
+      return prev;
+    }
+
+    prev[e] = (delayConfig && delayConfig[e]) || 0;
+
+    return prev;
+  }, {});
+};
+
+var deepParseInt = function (input) {
+  if (typeof input === 'number') { return input; }
+
+  if (typeof input === 'string') { return parseInt(input); }
+
+  var map = {};
+  for (var element in input) {
+    map[element] = parseInt(input[element]);
+  }
+
+  return map;
+};
+
+var merge = function (target, source) {
+  if (! (isObject(target) && isObject(source))) {
+    return target;
+  }
+
+  Object.keys(source).forEach(function (key) {
+    var obj, obj$1;
+
+    if (isObject(source[key])) {
+      if (! target[key]) {
+        assign(target, ( obj = {}, obj[key] = {}, obj ));
+      }
+
+      merge(target[key], source[key]);
+      return;
+    }
+
+    assign(target, ( obj$1 = {}, obj$1[key] = source[key], obj$1 ));
+  });
+
+  return target;
+};
+
+var fillRulesFromElement = function (el, rules) {
+  if (el.required) {
+    rules = appendRule('required', rules);
+  }
+
+  if (isTextInput(el)) {
+    if (el.type === 'email') {
+      rules = appendRule(("email" + (el.multiple ? ':multiple' : '')), rules);
+    }
+
+    if (el.pattern) {
+      rules = appendRule({ regex: el.pattern }, rules);
+    }
+
+    // 524288 is the max on some browsers and test environments.
+    if (el.maxLength >= 0 && el.maxLength < 524288) {
+      rules = appendRule(("max:" + (el.maxLength)), rules);
+    }
+
+    if (el.minLength > 0) {
+      rules = appendRule(("min:" + (el.minLength)), rules);
+    }
+
+    if (el.type === 'number') {
+      rules = appendRule('decimal', rules);
+      if (el.min !== '') {
+        rules = appendRule(("min_value:" + (el.min)), rules);
+      }
+
+      if (el.max !== '') {
+        rules = appendRule(("max_value:" + (el.max)), rules);
+      }
+    }
+
+    return rules;
+  }
+
+  if (isDateInput(el)) {
+    var timeFormat = el.step && Number(el.step) < 60 ? 'HH:mm:ss' : 'HH:mm';
+
+    if (el.type === 'date') {
+      return appendRule('date_format:yyyy-MM-dd', rules);
+    }
+
+    if (el.type === 'datetime-local') {
+      return appendRule(("date_format:yyyy-MM-ddT" + timeFormat), rules);
+    }
+
+    if (el.type === 'month') {
+      return appendRule('date_format:yyyy-MM', rules);
+    }
+
+    if (el.type === 'week') {
+      return appendRule('date_format:yyyy-[W]WW', rules);
+    }
+
+    if (el.type === 'time') {
+      return appendRule(("date_format:" + timeFormat), rules);
+    }
+  }
+
+  return rules;
+};
+
+var values = function (obj) {
+  if (isCallable(Object.values)) {
+    return Object.values(obj);
+  }
+
+  // fallback to keys()
+  /* istanbul ignore next */
+  return Object.keys(obj).map(function (k) { return obj[k]; });
+};
+
+var parseSelector = function (selector) {
+  var rule = null;
+  if (includes(selector, ':')) {
+    rule = selector.split(':').pop();
+    selector = selector.replace((":" + rule), '');
+  }
+
+  if (selector[0] === '#') {
+    return {
+      id: selector.slice(1),
+      rule: rule,
+      name: null,
+      scope: null
+    };
+  }
+
+  var scope = null;
+  var name = selector;
+  if (includes(selector, '.')) {
+    var parts = selector.split('.');
+    scope = parts[0];
+    name = parts.slice(1).join('.');
+  }
+
+  return {
+    id: null,
+    scope: scope,
+    name: name,
+    rule: rule
+  };
+};
+
+var includes = function (collection, item) {
+  return collection.indexOf(item) !== -1;
+};
+
+var isEmptyArray = function (arr) {
+  return Array.isArray(arr) && arr.length === 0;
+};
+
+var defineNonReactive = function (obj, prop, value) {
+  Object.defineProperty(obj, prop, {
+    configurable: false,
+    writable: true,
+    value: value
+  });
+};
+
+// 
+
+var LOCALE = 'en';
+
+var Dictionary = function Dictionary (dictionary) {
+  if ( dictionary === void 0 ) dictionary = {};
+
+  this.container = {};
+  this.merge(dictionary);
+};
+
+var prototypeAccessors = { locale: { configurable: true } };
+
+prototypeAccessors.locale.get = function () {
+  return LOCALE;
+};
+
+prototypeAccessors.locale.set = function (value) {
+  LOCALE = value || 'en';
+};
+
+Dictionary.prototype.hasLocale = function hasLocale (locale) {
+  return !!this.container[locale];
+};
+
+Dictionary.prototype.setDateFormat = function setDateFormat (locale, format) {
+  if (!this.container[locale]) {
+    this.container[locale] = {};
+  }
+
+  this.container[locale].dateFormat = format;
+};
+
+Dictionary.prototype.getDateFormat = function getDateFormat (locale) {
+  if (!this.container[locale] || !this.container[locale].dateFormat) {
+    return null;
+  }
+
+  return this.container[locale].dateFormat;
+};
+
+Dictionary.prototype.getMessage = function getMessage (locale, key, data) {
+  var message = null;
+  if (!this.hasMessage(locale, key)) {
+    message = this._getDefaultMessage(locale);
+  } else {
+    message = this.container[locale].messages[key];
+  }
+
+  return isCallable(message) ? message.apply(void 0, data) : message;
+};
+
+/**
+ * Gets a specific message for field. falls back to the rule message.
+ */
+Dictionary.prototype.getFieldMessage = function getFieldMessage (locale, field, key, data) {
+  if (!this.hasLocale(locale)) {
+    return this.getMessage(locale, key, data);
+  }
+
+  var dict = this.container[locale].custom && this.container[locale].custom[field];
+  if (!dict || !dict[key]) {
+    return this.getMessage(locale, key, data);
+  }
+
+  var message = dict[key];
+  return isCallable(message) ? message.apply(void 0, data) : message;
+};
+
+Dictionary.prototype._getDefaultMessage = function _getDefaultMessage (locale) {
+  if (this.hasMessage(locale, '_default')) {
+    return this.container[locale].messages._default;
+  }
+
+  return this.container.en.messages._default;
+};
+
+Dictionary.prototype.getAttribute = function getAttribute (locale, key, fallback) {
+    if ( fallback === void 0 ) fallback = '';
+
+  if (!this.hasAttribute(locale, key)) {
+    return fallback;
+  }
+
+  return this.container[locale].attributes[key];
+};
+
+Dictionary.prototype.hasMessage = function hasMessage (locale, key) {
+  return !! (
+    this.hasLocale(locale) &&
+          this.container[locale].messages &&
+          this.container[locale].messages[key]
+  );
+};
+
+Dictionary.prototype.hasAttribute = function hasAttribute (locale, key) {
+  return !! (
+    this.hasLocale(locale) &&
+          this.container[locale].attributes &&
+          this.container[locale].attributes[key]
+  );
+};
+
+Dictionary.prototype.merge = function merge$1 (dictionary) {
+  merge(this.container, dictionary);
+};
+
+Dictionary.prototype.setMessage = function setMessage (locale, key, message) {
+  if (! this.hasLocale(locale)) {
+    this.container[locale] = {
+      messages: {},
+      attributes: {}
+    };
+  }
+    
+  if (!this.container[locale].messages) {
+    this.container[locale].messages = {};
+  }
+
+  this.container[locale].messages[key] = message;
+};
+
+Dictionary.prototype.setAttribute = function setAttribute (locale, key, attribute) {
+  if (! this.hasLocale(locale)) {
+    this.container[locale] = {
+      messages: {},
+      attributes: {}
+    };
+  }
+
+  this.container[locale].attributes[key] = attribute;
+};
+
+Object.defineProperties( Dictionary.prototype, prototypeAccessors );
+
+var drivers = {
+  default: new Dictionary({
+    en: {
+      messages: {},
+      attributes: {},
+      custom: {}
+    }
+  })
+};
+
+var currentDriver = 'default';
+
+var DictionaryResolver = function DictionaryResolver () {};
+
+DictionaryResolver._checkDriverName = function _checkDriverName (driver) {
+  if (!driver) {
+    throw createError('you must provide a name to the dictionary driver');
+  }
+};
+
+DictionaryResolver.setDriver = function setDriver (driver, implementation) {
+    if ( implementation === void 0 ) implementation = null;
+
+  this._checkDriverName(driver);
+  if (implementation) {
+    drivers[driver] = implementation;
+  }
+
+  currentDriver = driver;
+};
+
+DictionaryResolver.getDriver = function getDriver () {
+  return drivers[currentDriver];
+};
+
+// 
+
+var ErrorBag = function ErrorBag (errorBag, id) {
+  if ( errorBag === void 0 ) errorBag = null;
+  if ( id === void 0 ) id = null;
+
+  this.vmId = id || null;
+  // make this bag a mirror of the provided one, sharing the same items reference.
+  if (errorBag && errorBag instanceof ErrorBag) {
+    this.items = errorBag.items;
+  } else {
+    this.items = [];
+  }
+};
+
+ErrorBag.prototype[typeof Symbol === 'function' ? Symbol.iterator : '@@iterator'] = function () {
+    var this$1 = this;
+
+  var index = 0;
+  return {
+    next: function () {
+      return { value: this$1.items[index++], done: index > this$1.items.length };
+    }
+  };
+};
+
+/**
+ * Adds an error to the internal array.
+ */
+ErrorBag.prototype.add = function add (error) {
+    var ref;
+
+  (ref = this.items).push.apply(
+    ref, this._normalizeError(error)
+  );
+};
+
+/**
+ * Normalizes passed errors to an error array.
+ */
+ErrorBag.prototype._normalizeError = function _normalizeError (error) {
+    var this$1 = this;
+
+  if (Array.isArray(error)) {
+    return error.map(function (e) {
+      e.scope = !isNullOrUndefined(e.scope) ? e.scope : null;
+      e.vmId = !isNullOrUndefined(e.vmId) ? e.vmId : (this$1.vmId || null);
+
+      return e;
+    });
+  }
+
+  error.scope = !isNullOrUndefined(error.scope) ? error.scope : null;
+  error.vmId = !isNullOrUndefined(error.vmId) ? error.vmId : (this.vmId || null);
+
+  return [error];
+};
+
+/**
+ * Regenrates error messages if they have a generator function.
+ */
+ErrorBag.prototype.regenerate = function regenerate () {
+  this.items.forEach(function (i) {
+    i.msg = isCallable(i.regenerate) ? i.regenerate() : i.msg;
+  });
+};
+
+/**
+ * Updates a field error with the new field scope.
+ */
+ErrorBag.prototype.update = function update (id, error) {
+  var item = find(this.items, function (i) { return i.id === id; });
+  if (!item) {
+    return;
+  }
+
+  var idx = this.items.indexOf(item);
+  this.items.splice(idx, 1);
+  item.scope = error.scope;
+  this.items.push(item);
+};
+
+/**
+ * Gets all error messages from the internal array.
+ */
+ErrorBag.prototype.all = function all (scope) {
+    var this$1 = this;
+
+  var filterFn = function (item) {
+    var matchesScope = true;
+    var matchesVM = true;
+    if (!isNullOrUndefined(scope)) {
+      matchesScope = item.scope === scope;
+    }
+
+    if (!isNullOrUndefined(this$1.vmId)) {
+      matchesVM = item.vmId === this$1.vmId;
+    }
+
+    return matchesVM && matchesScope;
+  };
+
+  return this.items.filter(filterFn).map(function (e) { return e.msg; });
+};
+
+/**
+ * Checks if there are any errors in the internal array.
+ */
+ErrorBag.prototype.any = function any (scope) {
+    var this$1 = this;
+
+  var filterFn = function (item) {
+    var matchesScope = true;
+    var matchesVM = true;
+    if (!isNullOrUndefined(scope)) {
+      matchesScope = item.scope === scope;
+    }
+
+    if (!isNullOrUndefined(this$1.vmId)) {
+      matchesVM = item.vmId === this$1.vmId;
+    }
+
+    return matchesVM && matchesScope;
+  };
+
+  return !!this.items.filter(filterFn).length;
+};
+
+/**
+ * Removes all items from the internal array.
+ */
+ErrorBag.prototype.clear = function clear (scope) {
+    var this$1 = this;
+
+  var matchesVM = isNullOrUndefined(this.vmId) ? function () { return true; } : function (i) { return i.vmId === this$1.vmId; };
+  var matchesScope = function (i) { return i.scope === scope; };
+  if (arguments.length === 0) {
+    matchesScope = function () { return true; };
+  } else if (isNullOrUndefined(scope)) {
+    scope = null;
+  }
+
+  for (var i = 0; i < this.items.length; ++i) {
+    if (matchesVM(this.items[i]) && matchesScope(this.items[i])) {
+      this.items.splice(i, 1);
+      --i;
+    }
+  }
+};
+
+/**
+ * Collects errors into groups or for a specific field.
+ */
+ErrorBag.prototype.collect = function collect (field, scope, map) {
+    var this$1 = this;
+    if ( map === void 0 ) map = true;
+
+  var isSingleField = !isNullOrUndefined(field) && !field.includes('*');
+  var groupErrors = function (items) {
+    var errors = items.reduce(function (collection, error) {
+      if (!isNullOrUndefined(this$1.vmId) && error.vmId !== this$1.vmId) {
+        return collection;
+      }
+
+      if (!collection[error.field]) {
+        collection[error.field] = [];
+      }
+
+      collection[error.field].push(map ? error.msg : error);
+
+      return collection;
+    }, {});
+
+    // reduce the collection to be a single array.
+    if (isSingleField) {
+      return values(errors)[0] || [];
+    }
+
+    return errors;
+  };
+
+  if (isNullOrUndefined(field)) {
+    return groupErrors(this.items);
+  }
+
+  var selector = isNullOrUndefined(scope) ? String(field) : (scope + "." + field);
+  var ref = this._makeCandidateFilters(selector);
+    var isPrimary = ref.isPrimary;
+    var isAlt = ref.isAlt;
+
+  var collected = this.items.reduce(function (prev, curr) {
+    if (isPrimary(curr)) {
+      prev.primary.push(curr);
+    }
+
+    if (isAlt(curr)) {
+      prev.alt.push(curr);
+    }
+
+    return prev;
+  }, { primary: [], alt: [] });
+
+  collected = collected.primary.length ? collected.primary : collected.alt;
+
+  return groupErrors(collected);
+};
+
+/**
+ * Gets the internal array length.
+ */
+ErrorBag.prototype.count = function count () {
+    var this$1 = this;
+
+  if (this.vmId) {
+    return this.items.filter(function (e) { return e.vmId === this$1.vmId; }).length;
+  }
+
+  return this.items.length;
+};
+
+/**
+ * Finds and fetches the first error message for the specified field id.
+ */
+ErrorBag.prototype.firstById = function firstById (id) {
+  var error = find(this.items, function (i) { return i.id === id; });
+
+  return error ? error.msg : undefined;
+};
+
+/**
+ * Gets the first error message for a specific field.
+ */
+ErrorBag.prototype.first = function first (field, scope) {
+    if ( scope === void 0 ) scope = null;
+
+  var selector = isNullOrUndefined(scope) ? field : (scope + "." + field);
+  var match = this._match(selector);
+
+  return match && match.msg;
+};
+
+/**
+ * Returns the first error rule for the specified field
+ */
+ErrorBag.prototype.firstRule = function firstRule (field, scope) {
+  var errors = this.collect(field, scope, false);
+
+  return (errors.length && errors[0].rule) || undefined;
+};
+
+/**
+ * Checks if the internal array has at least one error for the specified field.
+ */
+ErrorBag.prototype.has = function has (field, scope) {
+    if ( scope === void 0 ) scope = null;
+
+  return !!this.first(field, scope);
+};
+
+/**
+ * Gets the first error message for a specific field and a rule.
+ */
+ErrorBag.prototype.firstByRule = function firstByRule (name, rule, scope) {
+    if ( scope === void 0 ) scope = null;
+
+  var error = this.collect(name, scope, false).filter(function (e) { return e.rule === rule; })[0];
+
+  return (error && error.msg) || undefined;
+};
+
+/**
+ * Gets the first error message for a specific field that not match the rule.
+ */
+ErrorBag.prototype.firstNot = function firstNot (name, rule, scope) {
+    if ( rule === void 0 ) rule = 'required';
+    if ( scope === void 0 ) scope = null;
+
+  var error = this.collect(name, scope, false).filter(function (e) { return e.rule !== rule; })[0];
+
+  return (error && error.msg) || undefined;
+};
+
+/**
+ * Removes errors by matching against the id or ids.
+ */
+ErrorBag.prototype.removeById = function removeById (id) {
+  var condition = function (item) { return item.id === id; };
+  if (Array.isArray(id)) {
+    condition = function (item) { return id.indexOf(item.id) !== -1; };
+  }
+
+  for (var i = 0; i < this.items.length; ++i) {
+    if (condition(this.items[i])) {
+      this.items.splice(i, 1);
+      --i;
+    }
+  }
+};
+
+/**
+ * Removes all error messages associated with a specific field.
+ */
+ErrorBag.prototype.remove = function remove (field, scope, vmId) {
+  if (isNullOrUndefined(field)) {
+    return;
+  }
+
+  var selector = isNullOrUndefined(scope) ? String(field) : (scope + "." + field);
+  var ref = this._makeCandidateFilters(selector);
+    var isPrimary = ref.isPrimary;
+    var isAlt = ref.isAlt;
+  var matches = function (item) { return isPrimary(item) || isAlt(item); };
+  var shouldRemove = function (item) {
+    if (isNullOrUndefined(vmId)) { return matches(item); }
+
+    return matches(item) && item.vmId === vmId;
+  };
+
+  for (var i = 0; i < this.items.length; ++i) {
+    if (shouldRemove(this.items[i])) {
+      this.items.splice(i, 1);
+      --i;
+    }
+  }
+};
+
+ErrorBag.prototype._makeCandidateFilters = function _makeCandidateFilters (selector) {
+    var this$1 = this;
+
+  var matchesRule = function () { return true; };
+  var matchesScope = function () { return true; };
+  var matchesName = function () { return true; };
+  var matchesVM = function () { return true; };
+
+  var ref = parseSelector(selector);
+    var id = ref.id;
+    var rule = ref.rule;
+    var scope = ref.scope;
+    var name = ref.name;
+
+  if (rule) {
+    matchesRule = function (item) { return item.rule === rule; };
+  }
+
+  // match by id, can be combined with rule selection.
+  if (id) {
+    return {
+      isPrimary: function (item) { return matchesRule(item) && (function (item) { return id === item.id; }); },
+      isAlt: function () { return false; }
+    };
+  }
+
+  if (isNullOrUndefined(scope)) {
+    // if no scope specified, make sure the found error has no scope.
+    matchesScope = function (item) { return isNullOrUndefined(item.scope); };
+  } else {
+    matchesScope = function (item) { return item.scope === scope; };
+  }
+
+  if (!isNullOrUndefined(name) && name !== '*') {
+    matchesName = function (item) { return item.field === name; };
+  }
+
+  if (!isNullOrUndefined(this.vmId)) {
+    matchesVM = function (item) { return item.vmId === this$1.vmId; };
+  }
+
+  // matches the first candidate.
+  var isPrimary = function (item) {
+    return matchesVM(item) && matchesName(item) && matchesRule(item) && matchesScope(item);
+  };
+
+  // matches a second candidate, which is a field with a name containing the '.' character.
+  var isAlt = function (item) {
+    return matchesVM(item) && matchesRule(item) && item.field === (scope + "." + name);
+  };
+
+  return {
+    isPrimary: isPrimary,
+    isAlt: isAlt
+  };
+};
+
+ErrorBag.prototype._match = function _match (selector) {
+  if (isNullOrUndefined(selector)) {
+    return undefined;
+  }
+
+  var ref = this._makeCandidateFilters(selector);
+    var isPrimary = ref.isPrimary;
+    var isAlt = ref.isAlt;
+
+  return this.items.reduce(function (prev, item, idx, arr) {
+    var isLast = idx === arr.length - 1;
+    if (prev.primary) {
+      return isLast ? prev.primary : prev;
+    }
+
+    if (isPrimary(item)) {
+      prev.primary = item;
+    }
+
+    if (isAlt(item)) {
+      prev.alt = item;
+    }
+
+    // keep going.
+    if (!isLast) {
+      return prev;
+    }
+
+    return prev.primary || prev.alt;
+  }, {});
+};
+
+var DEFAULT_CONFIG = {
+  locale: 'en',
+  delay: 0,
+  errorBagName: 'errors',
+  dictionary: null,
+  fieldsBagName: 'fields',
+  classes: false,
+  classNames: null,
+  events: 'input',
+  inject: true,
+  fastExit: true,
+  aria: true,
+  validity: false,
+  mode: 'aggressive',
+  useConstraintAttrs: true,
+  i18n: null,
+  i18nRootKey: 'validation'
+};
+
+var currentConfig = assign({}, DEFAULT_CONFIG);
+
+var resolveConfig = function (ctx) {
+  var selfConfig = getPath('$options.$_veeValidate', ctx, {});
+
+  return assign({}, currentConfig, selfConfig);
+};
+
+var getConfig = function () { return currentConfig; };
+
+var setConfig = function (newConf) {
+  currentConfig = assign({}, currentConfig, newConf);
+};
+
+// VNode Utils
+
+// Gets the model object on the vnode.
+function findModel (vnode) {
+  if (!vnode.data) {
+    return null;
+  }
+
+  // Component Model
+  if (vnode.data.model) {
+    return vnode.data.model;
+  }
+
+  return !!(vnode.data.directives) && find(vnode.data.directives, function (d) { return d.name === 'model'; });
+}
+
+function extractChildren (vnode) {
+  if (Array.isArray(vnode)) {
+    return vnode;
+  }
+
+  if (Array.isArray(vnode.children)) {
+    return vnode.children;
+  }
+
+  if (vnode.componentOptions && Array.isArray(vnode.componentOptions.children)) {
+    return vnode.componentOptions.children;
+  }
+
+  return [];
+}
+
+function extractVNodes (vnode) {
+  if (findModel(vnode)) {
+    return [vnode];
+  }
+
+  var children = extractChildren(vnode);
+
+  return children.reduce(function (nodes, node) {
+    var candidates = extractVNodes(node);
+    if (candidates.length) {
+      nodes.push.apply(nodes, candidates);
+    }
+
+    return nodes;
+  }, []);
+}
+
+// Resolves v-model config if exists.
+function findModelConfig (vnode) {
+  if (!vnode.componentOptions) { return null; }
+
+  return vnode.componentOptions.Ctor.options.model;
+}
+// Adds a listener to vnode listener object.
+function mergeVNodeListeners (obj, eventName, handler) {
+  // Has a single listener, convert to array.
+  if (isCallable(obj[eventName])) {
+    var prevHandler = obj[eventName];
+    obj[eventName] = [prevHandler];
+  }
+
+  // no listeners, create the array.
+  if (isNullOrUndefined(obj[eventName])) {
+    obj[eventName] = [];
+  }
+
+  obj[eventName].push(handler);
+}
+
+// Adds a listener to a native HTML vnode.
+function addNativeNodeListener (node, eventName, handler) {
+  if (isNullOrUndefined(node.data.on)) {
+    node.data.on = {};
+  }
+
+  mergeVNodeListeners(node.data.on, eventName, handler);
+}
+
+// Adds a listener to a Vue component vnode.
+function addComponentNodeListener (node, eventName, handler) {
+  /* istanbul ignore next */
+  if (!node.componentOptions.listeners) {
+    node.componentOptions.listeners = {};
+  }
+
+  mergeVNodeListeners(node.componentOptions.listeners, eventName, handler);
+}
+function addVNodeListener (vnode, eventName, handler) {
+  if (vnode.componentOptions) {
+    addComponentNodeListener(vnode, eventName, handler);
+    return;
+  }
+
+  addNativeNodeListener(vnode, eventName, handler);
+}
+// Determines if `change` should be used over `input` for listeners.
+function getInputEventName (vnode, model) {
+  // Is a component.
+  if (vnode.componentOptions) {
+    var ref = findModelConfig(vnode) || { event: 'input' };
+    var event = ref.event;
+
+    return event;
+  }
+
+  // Lazy Models and select tag typically use change event
+  if ((model && model.modifiers && model.modifiers.lazy) || vnode.tag === 'select') {
+    return 'change';
+  }
+
+  // is a textual-type input.
+  if (vnode.data.attrs && isTextInput({ type: vnode.data.attrs.type || 'text' })) {
+    return 'input';
+  }
+
+  return 'change';
+}
+
+function normalizeSlots (slots, ctx) {
+  return Object.keys(slots).reduce(function (arr, key) {
+    slots[key].forEach(function (vnode) {
+      if (!vnode.context) {
+        slots[key].context = ctx;
+        if (!vnode.data) {
+          vnode.data = {};
+        }
+        vnode.data.slot = key;
+      }
+    });
+
+    return arr.concat(slots[key]);
+  }, []);
+}
+function createRenderless (h, children) {
+  // Only render the first item of the node.
+  if (Array.isArray(children) && children[0]) {
+    return children[0];
+  }
+
+  // a single node.
+  if (children) {
+    return children;
+  }
+
+  // No slots, render nothing.
+  return h();
+}
+
+/**
+ * Generates the options required to construct a field.
+ */
+var Resolver = function Resolver () {};
+
+Resolver.generate = function generate (el, binding, vnode) {
+  var model = Resolver.resolveModel(binding, vnode);
+  var options = resolveConfig(vnode.context);
+
+  return {
+    name: Resolver.resolveName(el, vnode),
+    el: el,
+    listen: !binding.modifiers.disable,
+    bails: binding.modifiers.bails ? true : (binding.modifiers.continues === true ? false : undefined),
+    scope: Resolver.resolveScope(el, binding, vnode),
+    vm: vnode.context,
+    expression: binding.value,
+    component: vnode.componentInstance,
+    classes: options.classes,
+    classNames: options.classNames,
+    getter: Resolver.resolveGetter(el, vnode, model),
+    events: Resolver.resolveEvents(el, vnode) || options.events,
+    model: model,
+    delay: Resolver.resolveDelay(el, vnode, options),
+    rules: Resolver.resolveRules(el, binding, vnode),
+    immediate: !!binding.modifiers.initial || !!binding.modifiers.immediate,
+    persist: !!binding.modifiers.persist,
+    validity: options.validity && !vnode.componentInstance,
+    aria: options.aria && !vnode.componentInstance,
+    initialValue: Resolver.resolveInitialValue(vnode)
+  };
+};
+
+Resolver.getCtorConfig = function getCtorConfig (vnode) {
+  if (!vnode.componentInstance) { return null; }
+
+  var config = getPath('componentInstance.$options.$_veeValidate', vnode);
+
+  return config;
+};
+
+/**
+ * Resolves the rules defined on an element.
+ */
+Resolver.resolveRules = function resolveRules (el, binding, vnode) {
+  var rules = '';
+  if (!binding.value && (!binding || !binding.expression)) {
+    rules = getDataAttribute(el, 'rules');
+  }
+
+  if (binding.value && includes(['string', 'object'], typeof binding.value.rules)) {
+    rules = binding.value.rules;
+  } else if (binding.value) {
+    rules = binding.value;
+  }
+
+  if (vnode.componentInstance) {
+    return rules;
+  }
+
+  // If validity is disabled, ignore field rules.
+  var normalized = normalizeRules(rules);
+  if (!getConfig().useConstraintAttrs) {
+    return normalized;
+  }
+
+  return assign({}, fillRulesFromElement(el, {}), normalized);
+};
+
+/**
+ * @param {*} vnode
+ */
+Resolver.resolveInitialValue = function resolveInitialValue (vnode) {
+  var model = vnode.data.model || find(vnode.data.directives, function (d) { return d.name === 'model'; });
+
+  return model && model.value;
+};
+
+/**
+ * Resolves the delay value.
+ * @param {*} el
+ * @param {*} vnode
+ * @param {Object} options
+ */
+Resolver.resolveDelay = function resolveDelay (el, vnode, options) {
+  var delay = getDataAttribute(el, 'delay');
+  var globalDelay = (options && 'delay' in options) ? options.delay : 0;
+
+  if (!delay && vnode.componentInstance && vnode.componentInstance.$attrs) {
+    delay = vnode.componentInstance.$attrs['data-vv-delay'];
+  }
+
+  if (!isObject(globalDelay)) {
+    return deepParseInt(delay || globalDelay);
+  }
+
+  if (!isNullOrUndefined(delay)) {
+    globalDelay.input = delay;
+  }
+
+  return deepParseInt(globalDelay);
+};
+
+/**
+ * Resolves the events to validate in response to.
+ * @param {*} el
+ * @param {*} vnode
+ */
+Resolver.resolveEvents = function resolveEvents (el, vnode) {
+  // resolve it from the root element.
+  var events = getDataAttribute(el, 'validate-on');
+
+  // resolve from data-vv-validate-on if its a vue component.
+  if (!events && vnode.componentInstance && vnode.componentInstance.$attrs) {
+    events = vnode.componentInstance.$attrs['data-vv-validate-on'];
+  }
+
+  // resolve it from $_veeValidate options.
+  if (!events && vnode.componentInstance) {
+    var config = Resolver.getCtorConfig(vnode);
+    events = config && config.events;
+  }
+
+  if (!events && getConfig().events) {
+    events = getConfig().events;
+  }
+
+  // resolve the model event if its configured for custom components.
+  if (events && vnode.componentInstance && includes(events, 'input')) {
+    var ref = vnode.componentInstance.$options.model || { event: 'input' };
+      var event = ref.event;
+    // if the prop was configured but not the model.
+    if (!event) {
+      return events;
+    }
+
+    events = events.replace('input', event);
+  }
+
+  return events;
+};
+
+/**
+ * Resolves the scope for the field.
+ * @param {*} el
+ * @param {*} binding
+ */
+Resolver.resolveScope = function resolveScope (el, binding, vnode) {
+    if ( vnode === void 0 ) vnode = {};
+
+  var scope = null;
+  if (vnode.componentInstance && isNullOrUndefined(scope)) {
+    scope = vnode.componentInstance.$attrs && vnode.componentInstance.$attrs['data-vv-scope'];
+  }
+
+  return !isNullOrUndefined(scope) ? scope : getScope(el);
+};
+
+/**
+ * Checks if the node directives contains a v-model or a specified arg.
+ * Args take priority over models.
+ *
+ * @return {Object}
+ */
+Resolver.resolveModel = function resolveModel (binding, vnode) {
+  if (binding.arg) {
+    return { expression: binding.arg };
+  }
+
+  var model = findModel(vnode);
+  if (!model) {
+    return null;
+  }
+
+  // https://github.com/vuejs/vue/blob/dev/src/core/util/lang.js#L26
+  var watchable = !/[^\w.$]/.test(model.expression) && hasPath(model.expression, vnode.context);
+  var lazy = !!(model.modifiers && model.modifiers.lazy);
+
+  if (!watchable) {
+    return { expression: null, lazy: lazy };
+  }
+
+  return { expression: model.expression, lazy: lazy };
+};
+
+/**
+ * Resolves the field name to trigger validations.
+ * @return {String} The field name.
+ */
+Resolver.resolveName = function resolveName (el, vnode) {
+  var name = getDataAttribute(el, 'name');
+
+  if (!name && !vnode.componentInstance) {
+    return el.name;
+  }
+
+  if (!name && vnode.componentInstance && vnode.componentInstance.$attrs) {
+    name = vnode.componentInstance.$attrs['data-vv-name'] || vnode.componentInstance.$attrs['name'];
+  }
+
+  if (!name && vnode.componentInstance) {
+    var config = Resolver.getCtorConfig(vnode);
+    if (config && isCallable(config.name)) {
+      var boundGetter = config.name.bind(vnode.componentInstance);
+
+      return boundGetter();
+    }
+
+    return vnode.componentInstance.name;
+  }
+
+  return name;
+};
+
+/**
+ * Returns a value getter input type.
+ */
+Resolver.resolveGetter = function resolveGetter (el, vnode, model) {
+  if (model && model.expression) {
+    return function () {
+      return getPath(model.expression, vnode.context);
+    };
+  }
+
+  if (vnode.componentInstance) {
+    var path = getDataAttribute(el, 'value-path') || (vnode.componentInstance.$attrs && vnode.componentInstance.$attrs['data-vv-value-path']);
+    if (path) {
+      return function () {
+        return getPath(path, vnode.componentInstance);
+      };
+    }
+
+    var config = Resolver.getCtorConfig(vnode);
+    if (config && isCallable(config.value)) {
+      var boundGetter = config.value.bind(vnode.componentInstance);
+
+      return function () {
+        return boundGetter();
+      };
+    }
+
+    var ref = vnode.componentInstance.$options.model || { prop: 'value' };
+      var prop = ref.prop;
+
+    return function () {
+      return vnode.componentInstance[prop];
+    };
+  }
+
+  switch (el.type) {
+  case 'checkbox': return function () {
+    var els = document.querySelectorAll(("input[name=\"" + (el.name) + "\"]"));
+
+    els = toArray(els).filter(function (el) { return el.checked; });
+    if (!els.length) { return undefined; }
+
+    return els.map(function (checkbox) { return checkbox.value; });
+  };
+  case 'radio': return function () {
+    var els = document.querySelectorAll(("input[name=\"" + (el.name) + "\"]"));
+    var elm = find(els, function (el) { return el.checked; });
+
+    return elm && elm.value;
+  };
+  case 'file': return function (context) {
+    return toArray(el.files);
+  };
+  case 'select-multiple': return function () {
+    return toArray(el.options).filter(function (opt) { return opt.selected; }).map(function (opt) { return opt.value; });
+  };
+  default: return function () {
+    return el && el.value;
+  };
+  }
+};
+
+var RULES = {};
+
+var RuleContainer = function RuleContainer () {};
+
+var staticAccessors = { rules: { configurable: true } };
+
+RuleContainer.add = function add (name, ref) {
+    var validate = ref.validate;
+    var options = ref.options;
+    var paramNames = ref.paramNames;
+
+  RULES[name] = {
+    validate: validate,
+    options: options,
+    paramNames: paramNames
+  };
+};
+
+staticAccessors.rules.get = function () {
+  return RULES;
+};
+
+RuleContainer.has = function has (name) {
+  return !!RULES[name];
+};
+
+RuleContainer.isImmediate = function isImmediate (name) {
+  return !!(RULES[name] && RULES[name].options.immediate);
+};
+
+RuleContainer.isRequireRule = function isRequireRule (name) {
+  return !!(RULES[name] && RULES[name].options.computesRequired);
+};
+
+RuleContainer.isTargetRule = function isTargetRule (name) {
+  return !!(RULES[name] && RULES[name].options.hasTarget);
+};
+
+RuleContainer.remove = function remove (ruleName) {
+  delete RULES[ruleName];
+};
+
+RuleContainer.getParamNames = function getParamNames (ruleName) {
+  return RULES[ruleName] && RULES[ruleName].paramNames;
+};
+
+RuleContainer.getOptions = function getOptions (ruleName) {
+  return RULES[ruleName] && RULES[ruleName].options;
+};
+
+RuleContainer.getValidatorMethod = function getValidatorMethod (ruleName) {
+  return RULES[ruleName] ? RULES[ruleName].validate : null;
+};
+
+Object.defineProperties( RuleContainer, staticAccessors );
+
+// 
+
+var isEvent = function (evt) {
+  return (typeof Event !== 'undefined' && isCallable(Event) && evt instanceof Event) || (evt && evt.srcElement);
+};
+
+var normalizeEvents = function (evts) {
+  if (!evts) { return []; }
+
+  return (typeof evts === 'string' ? evts.split('|') : evts);
+};
+
+var supportsPassive = true;
+
+var detectPassiveSupport = function () {
+  try {
+    var opts = Object.defineProperty({}, 'passive', {
+      get: function get () {
+        supportsPassive = true;
+      }
+    });
+    window.addEventListener('testPassive', null, opts);
+    window.removeEventListener('testPassive', null, opts);
+  } catch (e) {
+    supportsPassive = false;
+  }
+  return supportsPassive;
+};
+
+var addEventListener = function (el, eventName, cb) {
+  el.addEventListener(eventName, cb, supportsPassive ? { passive: true } : false);
+};
+
+// 
+
+var DEFAULT_OPTIONS = {
+  targetOf: null,
+  immediate: false,
+  persist: false,
+  scope: null,
+  listen: true,
+  name: null,
+  rules: {},
+  vm: null,
+  classes: false,
+  validity: true,
+  aria: true,
+  events: 'input|blur',
+  delay: 0,
+  classNames: {
+    touched: 'touched', // the control has been blurred
+    untouched: 'untouched', // the control hasn't been blurred
+    valid: 'valid', // model is valid
+    invalid: 'invalid', // model is invalid
+    pristine: 'pristine', // control has not been interacted with
+    dirty: 'dirty' // control has been interacted with
+  }
+};
+
+var Field = function Field (options) {
+  if ( options === void 0 ) options = {};
+
+  this.id = uniqId();
+  this.el = options.el;
+  this.updated = false;
+  this.vmId = options.vmId;
+  defineNonReactive(this, 'dependencies', []);
+  defineNonReactive(this, 'watchers', []);
+  defineNonReactive(this, 'events', []);
+  this.delay = 0;
+  this.rules = {};
+  this.forceRequired = false;
+  this._cacheId(options);
+  this.classNames = assign({}, DEFAULT_OPTIONS.classNames);
+  options = assign({}, DEFAULT_OPTIONS, options);
+  this._delay = !isNullOrUndefined(options.delay) ? options.delay : 0; // cache initial delay
+  this.validity = options.validity;
+  this.aria = options.aria;
+  this.flags = options.flags || createFlags();
+  defineNonReactive(this, 'vm', options.vm);
+  defineNonReactive(this, 'componentInstance', options.component);
+  this.ctorConfig = this.componentInstance ? getPath('$options.$_veeValidate', this.componentInstance) : undefined;
+  this.update(options);
+  // set initial value.
+  this.initialValue = this.value;
+  this.updated = false;
+};
+
+var prototypeAccessors$1 = { validator: { configurable: true },isRequired: { configurable: true },isDisabled: { configurable: true },alias: { configurable: true },value: { configurable: true },bails: { configurable: true },rejectsFalse: { configurable: true } };
+
+prototypeAccessors$1.validator.get = function () {
+  if (!this.vm || !this.vm.$validator) {
+    return { validate: function () { return Promise.resolve(true); } };
+  }
+
+  return this.vm.$validator;
+};
+
+prototypeAccessors$1.isRequired.get = function () {
+  return !!this.rules.required || this.forceRequired;
+};
+
+prototypeAccessors$1.isDisabled.get = function () {
+  return !!(this.el && this.el.disabled);
+};
+
+/**
+ * Gets the display name (user-friendly name).
+ */
+prototypeAccessors$1.alias.get = function () {
+  if (this._alias) {
+    return this._alias;
+  }
+
+  var alias = null;
+  if (this.ctorConfig && this.ctorConfig.alias) {
+    alias = isCallable(this.ctorConfig.alias) ? this.ctorConfig.alias.call(this.componentInstance) : this.ctorConfig.alias;
+  }
+
+  if (!alias && this.el) {
+    alias = getDataAttribute(this.el, 'as');
+  }
+
+  if (!alias && this.componentInstance) {
+    return this.componentInstance.$attrs && this.componentInstance.$attrs['data-vv-as'];
+  }
+
+  return alias;
+};
+
+/**
+ * Gets the input value.
+ */
+
+prototypeAccessors$1.value.get = function () {
+  if (!isCallable(this.getter)) {
+    return undefined;
+  }
+
+  return this.getter();
+};
+
+prototypeAccessors$1.bails.get = function () {
+  return this._bails;
+};
+
+/**
+ * If the field rejects false as a valid value for the required rule.
+ */
+
+prototypeAccessors$1.rejectsFalse.get = function () {
+  if (this.componentInstance && this.ctorConfig) {
+    return !!this.ctorConfig.rejectsFalse;
+  }
+
+  if (!this.el) {
+    return false;
+  }
+
+  return this.el.type === 'checkbox';
+};
+
+/**
+ * Determines if the instance matches the options provided.
+ */
+Field.prototype.matches = function matches (options) {
+    var this$1 = this;
+
+  if (!options) {
+    return true;
+  }
+
+  if (options.id) {
+    return this.id === options.id;
+  }
+
+  var matchesComponentId = isNullOrUndefined(options.vmId) ? function () { return true; } : function (id) { return id === this$1.vmId; };
+  if (!matchesComponentId(options.vmId)) {
+    return false;
+  }
+
+  if (options.name === undefined && options.scope === undefined) {
+    return true;
+  }
+
+  if (options.scope === undefined) {
+    return this.name === options.name;
+  }
+
+  if (options.name === undefined) {
+    return this.scope === options.scope;
+  }
+
+  return options.name === this.name && options.scope === this.scope;
+};
+
+/**
+ * Caches the field id.
+ */
+Field.prototype._cacheId = function _cacheId (options) {
+  if (this.el && !options.targetOf) {
+    this.el._veeValidateId = this.id;
+  }
+};
+
+/**
+ * Keeps a reference of the most current validation run.
+ */
+Field.prototype.waitFor = function waitFor (pendingPromise) {
+  this._waitingFor = pendingPromise;
+};
+
+Field.prototype.isWaitingFor = function isWaitingFor (promise) {
+  return this._waitingFor === promise;
+};
+
+/**
+ * Updates the field with changed data.
+ */
+Field.prototype.update = function update (options) {
+    var this$1 = this;
+
+  this.targetOf = options.targetOf || null;
+  this.immediate = options.immediate || this.immediate || false;
+  this.persist = options.persist || this.persist || false;
+
+  // update errors scope if the field scope was changed.
+  if (!isNullOrUndefined(options.scope) && options.scope !== this.scope && isCallable(this.validator.update)) {
+    this.validator.update(this.id, { scope: options.scope });
+  }
+  this.scope = !isNullOrUndefined(options.scope) ? options.scope
+    : !isNullOrUndefined(this.scope) ? this.scope : null;
+  this.name = (!isNullOrUndefined(options.name) ? String(options.name) : options.name) || this.name || null;
+  this.rules = options.rules !== undefined ? normalizeRules(options.rules) : this.rules;
+  this._bails = options.bails !== undefined ? options.bails : this._bails;
+  this.model = options.model || this.model;
+  this.listen = options.listen !== undefined ? options.listen : this.listen;
+  this.classes = (options.classes || this.classes || false) && !this.componentInstance;
+  this.classNames = isObject(options.classNames) ? merge(this.classNames, options.classNames) : this.classNames;
+  this.getter = isCallable(options.getter) ? options.getter : this.getter;
+  this._alias = options.alias || this._alias;
+  this.events = (options.events) ? normalizeEvents(options.events) : this.events;
+  this.delay = makeDelayObject(this.events, options.delay || this.delay, this._delay);
+  this.updateDependencies();
+  this.addActionListeners();
+
+  if ( true && !this.name && !this.targetOf) {
+    warn('A field is missing a "name" or "data-vv-name" attribute');
+  }
+
+  // update required flag flags
+  if (options.rules !== undefined) {
+    this.flags.required = this.isRequired;
+  }
+
+  if (Object.keys(options.rules || {}).length === 0 && this.updated) {
+    var resetFlag = this.flags.validated;
+    this.validator.validate(("#" + (this.id))).then(function () {
+      this$1.flags.validated = resetFlag;
+    });
+  }
+
+  // validate if it was validated before and field was updated and there was a rules mutation.
+  if (this.flags.validated && options.rules !== undefined && this.updated) {
+    this.validator.validate(("#" + (this.id)));
+  }
+
+  this.updated = true;
+  this.addValueListeners();
+
+  // no need to continue.
+  if (!this.el) {
+    return;
+  }
+  this.updateClasses();
+  this.updateAriaAttrs();
+};
+
+/**
+ * Resets field flags and errors.
+ */
+Field.prototype.reset = function reset () {
+    var this$1 = this;
+
+  if (this._cancellationToken) {
+    this._cancellationToken.cancelled = true;
+    delete this._cancellationToken;
+  }
+
+  var defaults = createFlags();
+  Object.keys(this.flags).filter(function (flag) { return flag !== 'required'; }).forEach(function (flag) {
+    this$1.flags[flag] = defaults[flag];
+  });
+
+  // update initial value
+  this.initialValue = this.value;
+  this.flags.changed = false;
+
+  this.addValueListeners();
+  this.addActionListeners();
+  this.updateClasses(true);
+  this.updateAriaAttrs();
+  this.updateCustomValidity();
+};
+
+/**
+ * Sets the flags and their negated counterparts, and updates the classes and re-adds action listeners.
+ */
+Field.prototype.setFlags = function setFlags (flags) {
+    var this$1 = this;
+
+  var negated = {
+    pristine: 'dirty',
+    dirty: 'pristine',
+    valid: 'invalid',
+    invalid: 'valid',
+    touched: 'untouched',
+    untouched: 'touched'
+  };
+
+  Object.keys(flags).forEach(function (flag) {
+    this$1.flags[flag] = flags[flag];
+    // if it has a negation and was not specified, set it as well.
+    if (negated[flag] && flags[negated[flag]] === undefined) {
+      this$1.flags[negated[flag]] = !flags[flag];
+    }
+  });
+
+  if (
+    flags.untouched !== undefined ||
+    flags.touched !== undefined ||
+    flags.dirty !== undefined ||
+    flags.pristine !== undefined
+  ) {
+    this.addActionListeners();
+  }
+  this.updateClasses();
+  this.updateAriaAttrs();
+  this.updateCustomValidity();
+};
+
+/**
+ * Determines if the field requires references to target fields.
+*/
+Field.prototype.updateDependencies = function updateDependencies () {
+    var this$1 = this;
+
+  // reset dependencies.
+  this.dependencies.forEach(function (d) { return d.field.destroy(); });
+  this.dependencies = [];
+
+  // we get the selectors for each field.
+  var fields = Object.keys(this.rules).reduce(function (prev, r) {
+    if (RuleContainer.isTargetRule(r)) {
+      prev.push({ selector: this$1.rules[r][0], name: r });
+    }
+
+    return prev;
+  }, []);
+
+  if (!fields.length || !this.vm || !this.vm.$el) { return; }
+
+  // must be contained within the same component, so we use the vm root element constrain our dom search.
+  fields.forEach(function (ref$1) {
+      var selector = ref$1.selector;
+      var name = ref$1.name;
+
+    var ref = this$1.vm.$refs[selector];
+    var el = Array.isArray(ref) ? ref[0] : ref;
+    if (!el) {
+      return;
+    }
+
+    var options = {
+      vm: this$1.vm,
+      classes: this$1.classes,
+      classNames: this$1.classNames,
+      delay: this$1.delay,
+      scope: this$1.scope,
+      events: this$1.events.join('|'),
+      immediate: this$1.immediate,
+      targetOf: this$1.id
+    };
+
+    // probably a component.
+    if (isCallable(el.$watch)) {
+      options.component = el;
+      options.el = el.$el;
+      options.getter = Resolver.resolveGetter(el.$el, el.$vnode);
+    } else {
+      options.el = el;
+      options.getter = Resolver.resolveGetter(el, {});
+    }
+
+    this$1.dependencies.push({ name: name, field: new Field(options) });
+  });
+};
+
+/**
+ * Removes listeners.
+ */
+Field.prototype.unwatch = function unwatch (tag) {
+    if ( tag === void 0 ) tag = null;
+
+  if (!tag) {
+    this.watchers.forEach(function (w) { return w.unwatch(); });
+    this.watchers = [];
+    return;
+  }
+
+  this.watchers.filter(function (w) { return tag.test(w.tag); }).forEach(function (w) { return w.unwatch(); });
+  this.watchers = this.watchers.filter(function (w) { return !tag.test(w.tag); });
+};
+
+/**
+ * Updates the element classes depending on each field flag status.
+ */
+Field.prototype.updateClasses = function updateClasses (isReset) {
+    var this$1 = this;
+    if ( isReset === void 0 ) isReset = false;
+
+  if (!this.classes || this.isDisabled) { return; }
+  var applyClasses = function (el) {
+    toggleClass(el, this$1.classNames.dirty, this$1.flags.dirty);
+    toggleClass(el, this$1.classNames.pristine, this$1.flags.pristine);
+    toggleClass(el, this$1.classNames.touched, this$1.flags.touched);
+    toggleClass(el, this$1.classNames.untouched, this$1.flags.untouched);
+
+    // remove valid/invalid classes on reset.
+    if (isReset) {
+      toggleClass(el, this$1.classNames.valid, false);
+      toggleClass(el, this$1.classNames.invalid, false);
+    }
+
+    // make sure we don't set any classes if the state is undetermined.
+    if (!isNullOrUndefined(this$1.flags.valid) && this$1.flags.validated) {
+      toggleClass(el, this$1.classNames.valid, this$1.flags.valid);
+    }
+
+    if (!isNullOrUndefined(this$1.flags.invalid) && this$1.flags.validated) {
+      toggleClass(el, this$1.classNames.invalid, this$1.flags.invalid);
+    }
+  };
+
+  if (!isCheckboxOrRadioInput(this.el)) {
+    applyClasses(this.el);
+    return;
+  }
+
+  var els = document.querySelectorAll(("input[name=\"" + (this.el.name) + "\"]"));
+  toArray(els).forEach(applyClasses);
+};
+
+/**
+ * Adds the listeners required for automatic classes and some flags.
+ */
+Field.prototype.addActionListeners = function addActionListeners () {
+    var this$1 = this;
+
+  // remove previous listeners.
+  this.unwatch(/class/);
+
+  if (!this.el) { return; }
+
+  var onBlur = function () {
+    this$1.flags.touched = true;
+    this$1.flags.untouched = false;
+    if (this$1.classes) {
+      toggleClass(this$1.el, this$1.classNames.touched, true);
+      toggleClass(this$1.el, this$1.classNames.untouched, false);
+    }
+
+    // only needed once.
+    this$1.unwatch(/^class_blur$/);
+  };
+
+  var inputEvent = isTextInput(this.el) ? 'input' : 'change';
+  var onInput = function () {
+    this$1.flags.dirty = true;
+    this$1.flags.pristine = false;
+    if (this$1.classes) {
+      toggleClass(this$1.el, this$1.classNames.pristine, false);
+      toggleClass(this$1.el, this$1.classNames.dirty, true);
+    }
+
+    // only needed once.
+    this$1.unwatch(/^class_input$/);
+  };
+
+  if (this.componentInstance && isCallable(this.componentInstance.$once)) {
+    this.componentInstance.$once('input', onInput);
+    this.componentInstance.$once('blur', onBlur);
+    this.watchers.push({
+      tag: 'class_input',
+      unwatch: function () {
+        this$1.componentInstance.$off('input', onInput);
+      }
+    });
+    this.watchers.push({
+      tag: 'class_blur',
+      unwatch: function () {
+        this$1.componentInstance.$off('blur', onBlur);
+      }
+    });
+    return;
+  }
+
+  if (!this.el) { return; }
+
+  addEventListener(this.el, inputEvent, onInput);
+  // Checkboxes and radio buttons on Mac don't emit blur naturally, so we listen on click instead.
+  var blurEvent = isCheckboxOrRadioInput(this.el) ? 'change' : 'blur';
+  addEventListener(this.el, blurEvent, onBlur);
+  this.watchers.push({
+    tag: 'class_input',
+    unwatch: function () {
+      this$1.el.removeEventListener(inputEvent, onInput);
+    }
+  });
+
+  this.watchers.push({
+    tag: 'class_blur',
+    unwatch: function () {
+      this$1.el.removeEventListener(blurEvent, onBlur);
+    }
+  });
+};
+
+Field.prototype.checkValueChanged = function checkValueChanged () {
+  // handle some people initialize the value to null, since text inputs have empty string value.
+  if (this.initialValue === null && this.value === '' && isTextInput(this.el)) {
+    return false;
+  }
+
+  return this.value !== this.initialValue;
+};
+
+/**
+ * Determines the suitable primary event to listen for.
+ */
+Field.prototype._determineInputEvent = function _determineInputEvent () {
+  // if its a custom component, use the customized model event or the input event.
+  if (this.componentInstance) {
+    return (this.componentInstance.$options.model && this.componentInstance.$options.model.event) || 'input';
+  }
+
+  if (this.model && this.model.lazy) {
+    return 'change';
+  }
+
+  if (isTextInput(this.el)) {
+    return 'input';
+  }
+
+  return 'change';
+};
+
+/**
+ * Determines the list of events to listen to.
+ */
+Field.prototype._determineEventList = function _determineEventList (defaultInputEvent) {
+    var this$1 = this;
+
+  // if no event is configured, or it is a component or a text input then respect the user choice.
+  if (!this.events.length || this.componentInstance || isTextInput(this.el)) {
+    return [].concat( this.events ).map(function (evt) {
+      if (evt === 'input' && this$1.model && this$1.model.lazy) {
+        return 'change';
+      }
+
+      return evt;
+    });
+  }
+
+  // force suitable event for non-text type fields.
+  return this.events.map(function (e) {
+    if (e === 'input') {
+      return defaultInputEvent;
+    }
+
+    return e;
+  });
+};
+
+/**
+ * Adds the listeners required for validation.
+ */
+Field.prototype.addValueListeners = function addValueListeners () {
+    var this$1 = this;
+
+  this.unwatch(/^input_.+/);
+  if (!this.listen || !this.el) { return; }
+
+  var token = { cancelled: false };
+  var fn = this.targetOf ? function () {
+    var target = this$1.validator._resolveField(("#" + (this$1.targetOf)));
+    if (target && target.flags.validated) {
+      this$1.validator.validate(("#" + (this$1.targetOf)));
+    }
+  } : function () {
+      var args = [], len = arguments.length;
+      while ( len-- ) args[ len ] = arguments[ len ];
+
+    // if its a DOM event, resolve the value, otherwise use the first parameter as the value.
+    if (args.length === 0 || isEvent(args[0])) {
+      args[0] = this$1.value;
+    }
+
+    this$1.flags.pending = true;
+    this$1._cancellationToken = token;
+    this$1.validator.validate(("#" + (this$1.id)), args[0]);
+  };
+
+  var inputEvent = this._determineInputEvent();
+  var events = this._determineEventList(inputEvent);
+
+  // if on input validation is requested.
+  if (includes(events, inputEvent)) {
+    var ctx = null;
+    var expression = null;
+    var watchCtxVm = false;
+    // if its watchable from the context vm.
+    if (this.model && this.model.expression) {
+      ctx = this.vm;
+      expression = this.model.expression;
+      watchCtxVm = true;
+    }
+
+    // watch it from the custom component vm instead.
+    if (!expression && this.componentInstance && this.componentInstance.$options.model) {
+      ctx = this.componentInstance;
+      expression = this.componentInstance.$options.model.prop || 'value';
+    }
+
+    if (ctx && expression) {
+      var debouncedFn = debounce(fn, this.delay[inputEvent], token);
+      var unwatch = ctx.$watch(expression, debouncedFn);
+      this.watchers.push({
+        tag: 'input_model',
+        unwatch: function () {
+          this$1.vm.$nextTick(function () {
+            unwatch();
+          });
+        }
+      });
+
+      // filter out input event when we are watching from the context vm.
+      if (watchCtxVm) {
+        events = events.filter(function (e) { return e !== inputEvent; });
+      }
+    }
+  }
+
+  // Add events.
+  events.forEach(function (e) {
+    var debouncedFn = debounce(fn, this$1.delay[e], token);
+
+    this$1._addComponentEventListener(e, debouncedFn);
+    this$1._addHTMLEventListener(e, debouncedFn);
+  });
+};
+
+Field.prototype._addComponentEventListener = function _addComponentEventListener (evt, validate) {
+    var this$1 = this;
+
+  if (!this.componentInstance) { return; }
+
+  this.componentInstance.$on(evt, validate);
+  this.watchers.push({
+    tag: 'input_vue',
+    unwatch: function () {
+      this$1.componentInstance.$off(evt, validate);
+    }
+  });
+};
+
+Field.prototype._addHTMLEventListener = function _addHTMLEventListener (evt, validate) {
+    var this$1 = this;
+
+  if (!this.el || this.componentInstance) { return; }
+
+  // listen for the current element.
+  var addListener = function (el) {
+    addEventListener(el, evt, validate);
+    this$1.watchers.push({
+      tag: 'input_native',
+      unwatch: function () {
+        el.removeEventListener(evt, validate);
+      }
+    });
+  };
+
+  addListener(this.el);
+  if (!isCheckboxOrRadioInput(this.el)) {
+    return;
+  }
+
+  var els = document.querySelectorAll(("input[name=\"" + (this.el.name) + "\"]"));
+  toArray(els).forEach(function (el) {
+    // skip if it is added by v-validate and is not the current element.
+    if (el._veeValidateId && el !== this$1.el) {
+      return;
+    }
+
+    addListener(el);
+  });
+};
+
+/**
+ * Updates aria attributes on the element.
+ */
+Field.prototype.updateAriaAttrs = function updateAriaAttrs () {
+    var this$1 = this;
+
+  if (!this.aria || !this.el || !isCallable(this.el.setAttribute)) { return; }
+
+  var applyAriaAttrs = function (el) {
+    el.setAttribute('aria-required', this$1.isRequired ? 'true' : 'false');
+    el.setAttribute('aria-invalid', this$1.flags.invalid ? 'true' : 'false');
+  };
+
+  if (!isCheckboxOrRadioInput(this.el)) {
+    applyAriaAttrs(this.el);
+    return;
+  }
+
+  var els = document.querySelectorAll(("input[name=\"" + (this.el.name) + "\"]"));
+  toArray(els).forEach(applyAriaAttrs);
+};
+
+/**
+ * Updates the custom validity for the field.
+ */
+Field.prototype.updateCustomValidity = function updateCustomValidity () {
+  if (!this.validity || !this.el || !isCallable(this.el.setCustomValidity) || !this.validator.errors) { return; }
+
+  this.el.setCustomValidity(this.flags.valid ? '' : (this.validator.errors.firstById(this.id) || ''));
+};
+
+/**
+ * Removes all listeners.
+ */
+Field.prototype.destroy = function destroy () {
+  // ignore the result of any ongoing validation.
+  if (this._cancellationToken) {
+    this._cancellationToken.cancelled = true;
+  }
+
+  this.unwatch();
+  this.dependencies.forEach(function (d) { return d.field.destroy(); });
+  this.dependencies = [];
+};
+
+Object.defineProperties( Field.prototype, prototypeAccessors$1 );
+
+// 
+
+var FieldBag = function FieldBag (items) {
+  if ( items === void 0 ) items = [];
+
+  this.items = items || [];
+  this.itemsById = this.items.reduce(function (itemsById, item) {
+    itemsById[item.id] = item;
+    return itemsById;
+  }, {});
+};
+
+var prototypeAccessors$2 = { length: { configurable: true } };
+
+FieldBag.prototype[typeof Symbol === 'function' ? Symbol.iterator : '@@iterator'] = function () {
+    var this$1 = this;
+
+  var index = 0;
+  return {
+    next: function () {
+      return { value: this$1.items[index++], done: index > this$1.items.length };
+    }
+  };
+};
+
+/**
+ * Gets the current items length.
+ */
+
+prototypeAccessors$2.length.get = function () {
+  return this.items.length;
+};
+
+/**
+ * Finds the first field that matches the provided matcher object.
+ */
+FieldBag.prototype.find = function find$1 (matcher) {
+  return find(this.items, function (item) { return item.matches(matcher); });
+};
+
+/**
+ * Finds the field with the given id, using a plain object as a map to link
+ * ids to items faster than by looping over the array and matching.
+ */
+FieldBag.prototype.findById = function findById (id) {
+  return this.itemsById[id] || null;
+};
+
+/**
+ * Filters the items down to the matched fields.
+ */
+FieldBag.prototype.filter = function filter (matcher) {
+  // multiple matchers to be tried.
+  if (Array.isArray(matcher)) {
+    return this.items.filter(function (item) { return matcher.some(function (m) { return item.matches(m); }); });
+  }
+
+  return this.items.filter(function (item) { return item.matches(matcher); });
+};
+
+/**
+ * Maps the field items using the mapping function.
+ */
+FieldBag.prototype.map = function map (mapper) {
+  return this.items.map(mapper);
+};
+
+/**
+ * Finds and removes the first field that matches the provided matcher object, returns the removed item.
+ */
+FieldBag.prototype.remove = function remove (matcher) {
+  var item = null;
+  if (matcher instanceof Field) {
+    item = matcher;
+  } else {
+    item = this.find(matcher);
+  }
+
+  if (!item) { return null; }
+
+  var index = this.items.indexOf(item);
+  this.items.splice(index, 1);
+  delete this.itemsById[item.id];
+
+  return item;
+};
+
+/**
+ * Adds a field item to the list.
+ */
+FieldBag.prototype.push = function push (item) {
+  if (! (item instanceof Field)) {
+    throw createError('FieldBag only accepts instances of Field that has an id defined.');
+  }
+
+  if (!item.id) {
+    throw createError('Field id must be defined.');
+  }
+
+  if (this.findById(item.id)) {
+    throw createError(("Field with id " + (item.id) + " is already added."));
+  }
+
+  this.items.push(item);
+  this.itemsById[item.id] = item;
+};
+
+Object.defineProperties( FieldBag.prototype, prototypeAccessors$2 );
+
+var ScopedValidator = function ScopedValidator (base, vm) {
+  this.id = vm._uid;
+  this._base = base;
+  this._paused = false;
+
+  // create a mirror bag with limited component scope.
+  this.errors = new ErrorBag(base.errors, this.id);
+};
+
+var prototypeAccessors$3 = { flags: { configurable: true },rules: { configurable: true },fields: { configurable: true },dictionary: { configurable: true },locale: { configurable: true } };
+
+prototypeAccessors$3.flags.get = function () {
+    var this$1 = this;
+
+  return this._base.fields.items.filter(function (f) { return f.vmId === this$1.id; }).reduce(function (acc, field) {
+    if (field.scope) {
+      if (!acc[("$" + (field.scope))]) {
+        acc[("$" + (field.scope))] = {};
+      }
+
+      acc[("$" + (field.scope))][field.name] = field.flags;
+    }
+
+    acc[field.name] = field.flags;
+
+    return acc;
+  }, {});
+};
+
+prototypeAccessors$3.rules.get = function () {
+  return this._base.rules;
+};
+
+prototypeAccessors$3.fields.get = function () {
+  return new FieldBag(this._base.fields.filter({ vmId: this.id }));
+};
+
+prototypeAccessors$3.dictionary.get = function () {
+  return this._base.dictionary;
+};
+
+prototypeAccessors$3.locale.get = function () {
+  return this._base.locale;
+};
+
+prototypeAccessors$3.locale.set = function (val) {
+  this._base.locale = val;
+};
+
+ScopedValidator.prototype.localize = function localize () {
+    var ref;
+
+    var args = [], len = arguments.length;
+    while ( len-- ) args[ len ] = arguments[ len ];
+  return (ref = this._base).localize.apply(ref, args);
+};
+
+ScopedValidator.prototype.update = function update () {
+    var ref;
+
+    var args = [], len = arguments.length;
+    while ( len-- ) args[ len ] = arguments[ len ];
+  return (ref = this._base).update.apply(ref, args);
+};
+
+ScopedValidator.prototype.attach = function attach (opts) {
+  var attachOpts = assign({}, opts, { vmId: this.id });
+
+  return this._base.attach(attachOpts);
+};
+
+ScopedValidator.prototype.pause = function pause () {
+  this._paused = true;
+};
+
+ScopedValidator.prototype.resume = function resume () {
+  this._paused = false;
+};
+
+ScopedValidator.prototype.remove = function remove (ruleName) {
+  return this._base.remove(ruleName);
+};
+
+ScopedValidator.prototype.detach = function detach (name, scope) {
+  return this._base.detach(name, scope, this.id);
+};
+
+ScopedValidator.prototype.extend = function extend () {
+    var ref;
+
+    var args = [], len = arguments.length;
+    while ( len-- ) args[ len ] = arguments[ len ];
+  return (ref = this._base).extend.apply(ref, args);
+};
+
+ScopedValidator.prototype.validate = function validate (descriptor, value, opts) {
+    if ( opts === void 0 ) opts = {};
+
+  if (this._paused) { return Promise.resolve(true); }
+
+  return this._base.validate(descriptor, value, assign({}, { vmId: this.id }, opts || {}));
+};
+
+ScopedValidator.prototype.verify = function verify () {
+    var ref;
+
+    var args = [], len = arguments.length;
+    while ( len-- ) args[ len ] = arguments[ len ];
+  return (ref = this._base).verify.apply(ref, args);
+};
+
+ScopedValidator.prototype.validateAll = function validateAll (values, opts) {
+    if ( opts === void 0 ) opts = {};
+
+  if (this._paused) { return Promise.resolve(true); }
+
+  return this._base.validateAll(values, assign({}, { vmId: this.id }, opts || {}));
+};
+
+ScopedValidator.prototype.validateScopes = function validateScopes (opts) {
+    if ( opts === void 0 ) opts = {};
+
+  if (this._paused) { return Promise.resolve(true); }
+
+  return this._base.validateScopes(assign({}, { vmId: this.id }, opts || {}));
+};
+
+ScopedValidator.prototype.destroy = function destroy () {
+  delete this.id;
+  delete this._base;
+};
+
+ScopedValidator.prototype.reset = function reset (matcher) {
+  return this._base.reset(Object.assign({}, matcher || {}, { vmId: this.id }));
+};
+
+ScopedValidator.prototype.flag = function flag () {
+    var ref;
+
+    var args = [], len = arguments.length;
+    while ( len-- ) args[ len ] = arguments[ len ];
+  return (ref = this._base).flag.apply(ref, args.concat( [this.id] ));
+};
+
+ScopedValidator.prototype._resolveField = function _resolveField () {
+    var ref;
+
+    var args = [], len = arguments.length;
+    while ( len-- ) args[ len ] = arguments[ len ];
+  return (ref = this._base)._resolveField.apply(ref, args);
+};
+
+Object.defineProperties( ScopedValidator.prototype, prototypeAccessors$3 );
+
+var VALIDATOR = null;
+
+var getValidator = function () {
+  return VALIDATOR;
+};
+
+var setValidator = function (value) {
+  VALIDATOR = value;
+
+  return value;
+};
+
+// 
+
+/**
+ * Checks if a parent validator instance was requested.
+ */
+var requestsValidator = function (injections) {
+  if (isObject(injections) && injections.$validator) {
+    return true;
+  }
+
+  return false;
+};
+
+var mixin = {
+  provide: function provide () {
+    if (this.$validator && !isBuiltInComponent(this.$vnode)) {
+      return {
+        $validator: this.$validator
+      };
+    }
+
+    return {};
+  },
+  beforeCreate: function beforeCreate () {
+    // if built in do nothing.
+    if (isBuiltInComponent(this.$vnode) || this.$options.$__veeInject === false) {
+      return;
+    }
+
+    // if its a root instance set the config if it exists.
+    if (!this.$parent) {
+      setConfig(this.$options.$_veeValidate || {});
+    }
+
+    var options = resolveConfig(this);
+
+    // if its a root instance, inject anyways, or if it requested a new instance.
+    if (!this.$parent || (this.$options.$_veeValidate && /new/.test(this.$options.$_veeValidate.validator))) {
+      this.$validator = new ScopedValidator(getValidator(), this);
+    }
+
+    var requested = requestsValidator(this.$options.inject);
+
+    // if automatic injection is enabled and no instance was requested.
+    if (! this.$validator && options.inject && !requested) {
+      this.$validator = new ScopedValidator(getValidator(), this);
+    }
+
+    // don't inject errors or fieldBag as no validator was resolved.
+    if (!requested && !this.$validator) {
+      return;
+    }
+
+    // There is a validator but it isn't injected, mark as reactive.
+    if (!requested && this.$validator) {
+      var Vue = this.$options._base; // the vue constructor.
+      Vue.util.defineReactive(this.$validator, 'errors', this.$validator.errors);
+    }
+
+    if (!this.$options.computed) {
+      this.$options.computed = {};
+    }
+
+    this.$options.computed[options.errorBagName || 'errors'] = function errorBagGetter () {
+      return this.$validator.errors;
+    };
+    this.$options.computed[options.fieldsBagName || 'fields'] = function fieldBagGetter () {
+      return this.$validator.fields.items.reduce(function (acc, field) {
+        if (field.scope) {
+          if (!acc[("$" + (field.scope))]) {
+            acc[("$" + (field.scope))] = {};
+          }
+
+          acc[("$" + (field.scope))][field.name] = field.flags;
+
+          return acc;
+        }
+
+        acc[field.name] = field.flags;
+
+        return acc;
+      }, {});
+    };
+  },
+  beforeDestroy: function beforeDestroy () {
+    if (this.$validator && this._uid === this.$validator.id) {
+      this.$validator.errors.clear(); // remove errors generated by this component.
+    }
+  }
+};
+
+// 
+
+/**
+ * Finds the requested field by id from the context object.
+ */
+function findField (el, context) {
+  if (!context || !context.$validator) {
+    return null;
+  }
+
+  return context.$validator.fields.findById(el._veeValidateId);
+}
+var directive = {
+  bind: function bind (el, binding, vnode) {
+    var validator = vnode.context.$validator;
+    if (!validator) {
+      if (true) {
+        warn("No validator instance is present on vm, did you forget to inject '$validator'?");
+      }
+
+      return;
+    }
+
+    var fieldOptions = Resolver.generate(el, binding, vnode);
+    validator.attach(fieldOptions);
+  },
+  inserted: function inserted (el, binding, vnode) {
+    var field = findField(el, vnode.context);
+    var scope = Resolver.resolveScope(el, binding, vnode);
+
+    // skip if scope hasn't changed.
+    if (!field || scope === field.scope) { return; }
+
+    // only update scope.
+    field.update({ scope: scope });
+
+    // allows the field to re-evaluated once more in the update hook.
+    field.updated = false;
+  },
+  update: function update (el, binding, vnode) {
+    var field = findField(el, vnode.context);
+
+    // make sure we don't do unneccasary work if no important change was done.
+    if (!field || (field.updated && isEqual(binding.value, binding.oldValue))) { return; }
+    var scope = Resolver.resolveScope(el, binding, vnode);
+    var rules = Resolver.resolveRules(el, binding, vnode);
+
+    field.update({
+      scope: scope,
+      rules: rules
+    });
+  },
+  unbind: function unbind (el, binding, ref) {
+    var context = ref.context;
+
+    var field = findField(el, context);
+    if (!field) { return; }
+
+    context.$validator.detach(field);
+  }
+};
+
+// 
+
+var Validator = function Validator (validations, options, pluginContainer) {
+  if ( options === void 0 ) options = { fastExit: true };
+  if ( pluginContainer === void 0 ) pluginContainer = null;
+
+  this.errors = new ErrorBag();
+  this.fields = new FieldBag();
+  this._createFields(validations);
+  this.paused = false;
+  this.fastExit = !isNullOrUndefined(options && options.fastExit) ? options.fastExit : true;
+  this.$vee = pluginContainer || {
+    _vm: {
+      $nextTick: function (cb) { return isCallable(cb) ? cb() : Promise.resolve(); },
+      $emit: function () {},
+      $off: function () {}
+    }
+  };
+};
+
+var prototypeAccessors$4 = { rules: { configurable: true },dictionary: { configurable: true },flags: { configurable: true },locale: { configurable: true } };
+var staticAccessors$1 = { rules: { configurable: true },dictionary: { configurable: true },locale: { configurable: true } };
+
+/**
+ * @deprecated
+ */
+staticAccessors$1.rules.get = function () {
+  if (true) {
+    warn('this accessor will be deprecated, use `import { rules } from "vee-validate"` instead.');
+  }
+
+  return RuleContainer.rules;
+};
+
+/**
+ * @deprecated
+ */
+prototypeAccessors$4.rules.get = function () {
+  if (true) {
+    warn('this accessor will be deprecated, use `import { rules } from "vee-validate"` instead.');
+  }
+
+  return RuleContainer.rules;
+};
+
+prototypeAccessors$4.dictionary.get = function () {
+  return DictionaryResolver.getDriver();
+};
+
+staticAccessors$1.dictionary.get = function () {
+  return DictionaryResolver.getDriver();
+};
+
+prototypeAccessors$4.flags.get = function () {
+  return this.fields.items.reduce(function (acc, field) {
+      var obj;
+
+    if (field.scope) {
+      acc[("$" + (field.scope))] = ( obj = {}, obj[field.name] = field.flags, obj );
+
+      return acc;
+    }
+
+    acc[field.name] = field.flags;
+
+    return acc;
+  }, {});
+};
+
+/**
+ * Getter for the current locale.
+ */
+prototypeAccessors$4.locale.get = function () {
+  return Validator.locale;
+};
+
+/**
+ * Setter for the validator locale.
+ */
+prototypeAccessors$4.locale.set = function (value) {
+  Validator.locale = value;
+};
+
+staticAccessors$1.locale.get = function () {
+  return DictionaryResolver.getDriver().locale;
+};
+
+/**
+ * Setter for the validator locale.
+ */
+staticAccessors$1.locale.set = function (value) {
+  var hasChanged = value !== DictionaryResolver.getDriver().locale;
+  DictionaryResolver.getDriver().locale = value;
+  if (hasChanged && Validator.$vee && Validator.$vee._vm) {
+    Validator.$vee._vm.$emit('localeChanged');
+  }
+};
+
+/**
+ * Static constructor.
+ * @deprecated
+ */
+Validator.create = function create (validations, options) {
+  if (true) {
+    warn('Please use `new` to create new validator instances.');
+  }
+
+  return new Validator(validations, options);
+};
+
+/**
+ * Adds a custom validator to the list of validation rules.
+ */
+Validator.extend = function extend (name, validator, options) {
+    if ( options === void 0 ) options = {};
+
+  Validator._guardExtend(name, validator);
+  // rules imported from the minimal bundle
+  // will have the options embedded in them
+  var mergedOpts = validator.options || {};
+  Validator._merge(name, {
+    validator: validator,
+    paramNames: (options && options.paramNames) || validator.paramNames,
+    options: assign({ hasTarget: false, immediate: true }, mergedOpts, options || {})
+  });
+};
+
+/**
+ * Removes a rule from the list of validators.
+ * @deprecated
+ */
+Validator.remove = function remove (name) {
+  if (true) {
+    warn('this method will be deprecated, you can still override your rules with `extend`');
+  }
+
+  RuleContainer.remove(name);
+};
+
+/**
+ * Adds and sets the current locale for the validator.
+*/
+Validator.prototype.localize = function localize (lang, dictionary) {
+  Validator.localize(lang, dictionary);
+};
+
+/**
+ * Adds and sets the current locale for the validator.
+ */
+Validator.localize = function localize (lang, dictionary) {
+    var obj;
+
+  if (isObject(lang)) {
+    DictionaryResolver.getDriver().merge(lang);
+    return;
+  }
+
+  // merge the dictionary.
+  if (dictionary) {
+    var locale = lang || dictionary.name;
+    dictionary = assign({}, dictionary);
+    DictionaryResolver.getDriver().merge(( obj = {}, obj[locale] = dictionary, obj ));
+  }
+
+  if (lang) {
+    // set the locale.
+    Validator.locale = lang;
+  }
+};
+
+/**
+ * Registers a field to be validated.
+ */
+Validator.prototype.attach = function attach (fieldOpts) {
+    var this$1 = this;
+
+  // We search for a field with the same name & scope, having persist enabled
+  var oldFieldMatcher = { name: fieldOpts.name, scope: fieldOpts.scope, persist: true };
+  var oldField = fieldOpts.persist ? this.fields.find(oldFieldMatcher) : null;
+
+  if (oldField) {
+    // We keep the flags of the old field, then we remove its instance
+    fieldOpts.flags = oldField.flags;
+    oldField.destroy();
+    this.fields.remove(oldField);
+  }
+
+  // fixes initial value detection with v-model and select elements.
+  var value = fieldOpts.initialValue;
+  var field = new Field(fieldOpts);
+  this.fields.push(field);
+
+  // validate the field initially
+  if (field.immediate) {
+    this.$vee._vm.$nextTick(function () { return this$1.validate(("#" + (field.id)), value || field.value, { vmId: fieldOpts.vmId }); });
+  } else {
+    this._validate(field, value || field.value, { initial: true }).then(function (result) {
+      field.flags.valid = result.valid;
+      field.flags.invalid = !result.valid;
+    });
+  }
+
+  return field;
+};
+
+/**
+ * Sets the flags on a field.
+ */
+Validator.prototype.flag = function flag (name, flags, uid) {
+    if ( uid === void 0 ) uid = null;
+
+  var field = this._resolveField(name, undefined, uid);
+  if (!field || !flags) {
+    return;
+  }
+
+  field.setFlags(flags);
+};
+
+/**
+ * Removes a field from the validator.
+ */
+Validator.prototype.detach = function detach (name, scope, uid) {
+  var field = isCallable(name.destroy) ? name : this._resolveField(name, scope, uid);
+  if (!field) { return; }
+
+  // We destroy/remove the field & error instances if it's not a `persist` one
+  if (!field.persist) {
+    field.destroy();
+    this.errors.remove(field.name, field.scope, field.vmId);
+    this.fields.remove(field);
+  }
+};
+
+/**
+ * Adds a custom validator to the list of validation rules.
+ */
+Validator.prototype.extend = function extend (name, validator, options) {
+    if ( options === void 0 ) options = {};
+
+  Validator.extend(name, validator, options);
+};
+
+Validator.prototype.reset = function reset (matcher) {
+    var this$1 = this;
+
+  // two ticks
+  return this.$vee._vm.$nextTick().then(function () {
+    return this$1.$vee._vm.$nextTick();
+  }).then(function () {
+    this$1.fields.filter(matcher).forEach(function (field) {
+      field.waitFor(null);
+      field.reset(); // reset field flags.
+      this$1.errors.remove(field.name, field.scope, matcher && matcher.vmId);
+    });
+  });
+};
+
+/**
+ * Updates a field, updating both errors and flags.
+ */
+Validator.prototype.update = function update (id, ref) {
+    var scope = ref.scope;
+
+  var field = this._resolveField(("#" + id));
+  if (!field) { return; }
+
+  // remove old scope.
+  this.errors.update(id, { scope: scope });
+};
+
+/**
+ * Removes a rule from the list of validators.
+ * @deprecated
+ */
+Validator.prototype.remove = function remove (name) {
+  Validator.remove(name);
+};
+
+/**
+ * Validates a value against a registered field validations.
+ */
+Validator.prototype.validate = function validate (fieldDescriptor, value, ref) {
+    var this$1 = this;
+    if ( ref === void 0 ) ref = {};
+    var silent = ref.silent;
+    var vmId = ref.vmId;
+
+  if (this.paused) { return Promise.resolve(true); }
+
+  // overload to validate all.
+  if (isNullOrUndefined(fieldDescriptor)) {
+    return this.validateScopes({ silent: silent, vmId: vmId });
+  }
+
+  // overload to validate scope-less fields.
+  if (fieldDescriptor === '*') {
+    return this.validateAll(undefined, { silent: silent, vmId: vmId });
+  }
+
+  // if scope validation was requested.
+  if (/^(.+)\.\*$/.test(fieldDescriptor)) {
+    var matched = fieldDescriptor.match(/^(.+)\.\*$/)[1];
+    return this.validateAll(matched);
+  }
+
+  var field = this._resolveField(fieldDescriptor);
+  if (!field) {
+    return this._handleFieldNotFound(fieldDescriptor);
+  }
+
+  if (!silent) { field.flags.pending = true; }
+  if (value === undefined) {
+    value = field.value;
+  }
+
+  var validationPromise = this._validate(field, value);
+  field.waitFor(validationPromise);
+
+  return validationPromise.then(function (result) {
+    if (!silent && field.isWaitingFor(validationPromise)) {
+      // allow next validation to mutate the state.
+      field.waitFor(null);
+      this$1._handleValidationResults([result], vmId);
+    }
+
+    return result.valid;
+  });
+};
+
+/**
+ * Pauses the validator.
+ */
+Validator.prototype.pause = function pause () {
+  this.paused = true;
+
+  return this;
+};
+
+/**
+ * Resumes the validator.
+ */
+Validator.prototype.resume = function resume () {
+  this.paused = false;
+
+  return this;
+};
+
+/**
+ * Validates each value against the corresponding field validations.
+ */
+Validator.prototype.validateAll = function validateAll (values, ref) {
+    var this$1 = this;
+    if ( ref === void 0 ) ref = {};
+    var silent = ref.silent;
+    var vmId = ref.vmId;
+
+  if (this.paused) { return Promise.resolve(true); }
+
+  var matcher = null;
+  var providedValues = false;
+
+  if (typeof values === 'string') {
+    matcher = { scope: values, vmId: vmId };
+  } else if (isObject(values)) {
+    matcher = Object.keys(values).map(function (key) {
+      return { name: key, vmId: vmId, scope: null };
+    });
+    providedValues = true;
+  } else if (Array.isArray(values)) {
+    matcher = values.map(function (key) {
+      return typeof key === 'object' ? Object.assign({ vmId: vmId }, key) : { name: key, vmId: vmId };
+    });
+  } else {
+    matcher = { scope: null, vmId: vmId };
+  }
+
+  return Promise.all(
+    this.fields.filter(matcher).map(function (field) { return this$1._validate(field, providedValues ? values[field.name] : field.value); })
+  ).then(function (results) {
+    if (!silent) {
+      this$1._handleValidationResults(results, vmId);
+    }
+
+    return results.every(function (t) { return t.valid; });
+  });
+};
+
+/**
+ * Validates all scopes.
+ */
+Validator.prototype.validateScopes = function validateScopes (ref) {
+    var this$1 = this;
+    if ( ref === void 0 ) ref = {};
+    var silent = ref.silent;
+    var vmId = ref.vmId;
+
+  if (this.paused) { return Promise.resolve(true); }
+
+  return Promise.all(
+    this.fields.filter({ vmId: vmId }).map(function (field) { return this$1._validate(field, field.value); })
+  ).then(function (results) {
+    if (!silent) {
+      this$1._handleValidationResults(results, vmId);
+    }
+
+    return results.every(function (t) { return t.valid; });
+  });
+};
+
+/**
+ * Validates a value against the rules.
+ */
+Validator.prototype.verify = function verify (value, rules, options) {
+    if ( options === void 0 ) options = {};
+
+  var field = {
+    name: (options && options.name) || '{field}',
+    rules: normalizeRules(rules),
+    bails: getPath('bails', options, true),
+    forceRequired: false,
+    get isRequired () {
+      return !!this.rules.required || this.forceRequired;
+    }
+  };
+
+  var targetRules = Object.keys(field.rules).filter(RuleContainer.isTargetRule);
+  if (targetRules.length && options && isObject(options.values)) {
+    field.dependencies = targetRules.map(function (rule) {
+      var ref = field.rules[rule];
+        var targetKey = ref[0];
+
+      return {
+        name: rule,
+        field: { value: options.values[targetKey] }
+      };
+    });
+  }
+
+  return this._validate(field, value).then(function (result) {
+    var errors = [];
+    var ruleMap = {};
+    result.errors.forEach(function (e) {
+      errors.push(e.msg);
+      ruleMap[e.rule] = e.msg;
+    });
+
+    return {
+      valid: result.valid,
+      errors: errors,
+      failedRules: ruleMap
+    };
+  });
+};
+
+/**
+ * Perform cleanup.
+ */
+Validator.prototype.destroy = function destroy () {
+  this.$vee._vm.$off('localeChanged');
+};
+
+/**
+ * Creates the fields to be validated.
+ */
+Validator.prototype._createFields = function _createFields (validations) {
+    var this$1 = this;
+
+  if (!validations) { return; }
+
+  Object.keys(validations).forEach(function (field) {
+    var options = assign({}, { name: field, rules: validations[field] });
+    this$1.attach(options);
+  });
+};
+
+/**
+ * Date rules need the existence of a format, so date_format must be supplied.
+ */
+Validator.prototype._getDateFormat = function _getDateFormat (validations) {
+  var format = null;
+  if (validations.date_format && Array.isArray(validations.date_format)) {
+    format = validations.date_format[0];
+  }
+
+  return format || DictionaryResolver.getDriver().getDateFormat(this.locale);
+};
+
+/**
+ * Formats an error message for field and a rule.
+ */
+Validator.prototype._formatErrorMessage = function _formatErrorMessage (field, rule, data, targetName) {
+    if ( data === void 0 ) data = {};
+    if ( targetName === void 0 ) targetName = null;
+
+  var name = this._getFieldDisplayName(field);
+  var params = this._getLocalizedParams(rule, targetName);
+
+  return DictionaryResolver.getDriver().getFieldMessage(this.locale, field.name, rule.name, [name, params, data]);
+};
+
+/**
+ * We need to convert any object param to an array format since the locales do not handle params as objects yet.
+ */
+Validator.prototype._convertParamObjectToArray = function _convertParamObjectToArray (obj, ruleName) {
+  if (Array.isArray(obj)) {
+    return obj;
+  }
+
+  var paramNames = RuleContainer.getParamNames(ruleName);
+  if (!paramNames || !isObject(obj)) {
+    return obj;
+  }
+
+  return paramNames.reduce(function (prev, paramName) {
+    if (paramName in obj) {
+      prev.push(obj[paramName]);
+    }
+
+    return prev;
+  }, []);
+};
+
+/**
+ * Translates the parameters passed to the rule (mainly for target fields).
+ */
+Validator.prototype._getLocalizedParams = function _getLocalizedParams (rule, targetName) {
+    if ( targetName === void 0 ) targetName = null;
+
+  var params = this._convertParamObjectToArray(rule.params, rule.name);
+  if (rule.options.hasTarget && params && params[0]) {
+    var localizedName = targetName || DictionaryResolver.getDriver().getAttribute(this.locale, params[0], params[0]);
+    return [localizedName].concat(params.slice(1));
+  }
+
+  return params;
+};
+
+/**
+ * Resolves an appropriate display name, first checking 'data-as' or the registered 'prettyName'
+ */
+Validator.prototype._getFieldDisplayName = function _getFieldDisplayName (field) {
+  return field.alias || DictionaryResolver.getDriver().getAttribute(this.locale, field.name, field.name);
+};
+
+/**
+ * Converts an array of params to an object with named properties.
+ * Only works if the rule is configured with a paramNames array.
+ * Returns the same params if it cannot convert it.
+ */
+Validator.prototype._convertParamArrayToObj = function _convertParamArrayToObj (params, ruleName) {
+  var paramNames = RuleContainer.getParamNames(ruleName);
+  if (!paramNames) {
+    return params;
+  }
+
+  if (isObject(params)) {
+    // check if the object is either a config object or a single parameter that is an object.
+    var hasKeys = paramNames.some(function (name) { return Object.keys(params).indexOf(name) !== -1; });
+    // if it has some of the keys, return it as is.
+    if (hasKeys) {
+      return params;
+    }
+    // otherwise wrap the object in an array.
+    params = [params];
+  }
+
+  // Reduce the paramsNames to a param object.
+  return params.reduce(function (prev, value, idx) {
+    prev[paramNames[idx]] = value;
+
+    return prev;
+  }, {});
+};
+
+/**
+ * Tests a single input value against a rule.
+ */
+Validator.prototype._test = function _test (field, value, rule) {
+    var this$1 = this;
+
+  var validator = RuleContainer.getValidatorMethod(rule.name);
+  var params = Array.isArray(rule.params) ? toArray(rule.params) : rule.params;
+  if (!params) {
+    params = [];
+  }
+
+  var targetName = null;
+  if (!validator || typeof validator !== 'function') {
+    return Promise.reject(createError(("No such validator '" + (rule.name) + "' exists.")));
+  }
+
+  // has field dependencies.
+  if (rule.options.hasTarget && field.dependencies) {
+    var target = find(field.dependencies, function (d) { return d.name === rule.name; });
+    if (target) {
+      targetName = target.field.alias;
+      params = [target.field.value].concat(params.slice(1));
+    }
+  } else if (rule.name === 'required' && field.rejectsFalse) {
+    // invalidate false if no args were specified and the field rejects false by default.
+    params = params.length ? params : [true];
+  }
+
+  if (rule.options.isDate) {
+    var dateFormat = this._getDateFormat(field.rules);
+    if (rule.name !== 'date_format') {
+      params.push(dateFormat);
+    }
+  }
+
+  var result = validator(value, this._convertParamArrayToObj(params, rule.name));
+
+  // If it is a promise.
+  if (isCallable(result.then)) {
+    return result.then(function (values) {
+      var allValid = true;
+      var data = {};
+      if (Array.isArray(values)) {
+        allValid = values.every(function (t) { return (isObject(t) ? t.valid : t); });
+      } else { // Is a single object/boolean.
+        allValid = isObject(values) ? values.valid : values;
+        data = values.data;
+      }
+
+      return {
+        valid: allValid,
+        data: result.data,
+        errors: allValid ? [] : [this$1._createFieldError(field, rule, data, targetName)]
+      };
+    });
+  }
+
+  if (!isObject(result)) {
+    result = { valid: result, data: {} };
+  }
+
+  return {
+    valid: result.valid,
+    data: result.data,
+    errors: result.valid ? [] : [this._createFieldError(field, rule, result.data, targetName)]
+  };
+};
+
+/**
+ * Merges a validator object into the RULES and Messages.
+ */
+Validator._merge = function _merge (name, ref) {
+    var validator = ref.validator;
+    var options = ref.options;
+    var paramNames = ref.paramNames;
+
+  var validate = isCallable(validator) ? validator : validator.validate;
+  if (validator.getMessage) {
+    DictionaryResolver.getDriver().setMessage(Validator.locale, name, validator.getMessage);
+  }
+
+  RuleContainer.add(name, {
+    validate: validate,
+    options: options,
+    paramNames: paramNames
+  });
+};
+
+/**
+ * Guards from extension violations.
+ */
+Validator._guardExtend = function _guardExtend (name, validator) {
+  if (isCallable(validator)) {
+    return;
+  }
+
+  if (!isCallable(validator.validate)) {
+    throw createError(
+      ("Extension Error: The validator '" + name + "' must be a function or have a 'validate' method.")
+    );
+  }
+};
+
+/**
+ * Creates a Field Error Object.
+ */
+Validator.prototype._createFieldError = function _createFieldError (field, rule, data, targetName) {
+    var this$1 = this;
+
+  return {
+    id: field.id,
+    vmId: field.vmId,
+    field: field.name,
+    msg: this._formatErrorMessage(field, rule, data, targetName),
+    rule: rule.name,
+    scope: field.scope,
+    regenerate: function () {
+      return this$1._formatErrorMessage(field, rule, data, targetName);
+    }
+  };
+};
+
+/**
+ * Tries different strategies to find a field.
+ */
+Validator.prototype._resolveField = function _resolveField (name, scope, uid) {
+  if (name[0] === '#') {
+    return this.fields.findById(name.slice(1));
+  }
+
+  if (!isNullOrUndefined(scope)) {
+    return this.fields.find({ name: name, scope: scope, vmId: uid });
+  }
+
+  if (includes(name, '.')) {
+    var ref = name.split('.');
+      var fieldScope = ref[0];
+      var fieldName = ref.slice(1);
+    var field = this.fields.find({ name: fieldName.join('.'), scope: fieldScope, vmId: uid });
+    if (field) {
+      return field;
+    }
+  }
+
+  return this.fields.find({ name: name, scope: null, vmId: uid });
+};
+
+/**
+ * Handles when a field is not found.
+ */
+Validator.prototype._handleFieldNotFound = function _handleFieldNotFound (name, scope) {
+  var fullName = isNullOrUndefined(scope) ? name : ("" + (!isNullOrUndefined(scope) ? scope + '.' : '') + name);
+
+  return Promise.reject(createError(
+    ("Validating a non-existent field: \"" + fullName + "\". Use \"attach()\" first.")
+  ));
+};
+
+/**
+ * Handles validation results.
+ */
+Validator.prototype._handleValidationResults = function _handleValidationResults (results, vmId) {
+    var this$1 = this;
+
+  var matchers = results.map(function (result) { return ({ id: result.id }); });
+  this.errors.removeById(matchers.map(function (m) { return m.id; }));
+  // remove by name and scope to remove any custom errors added.
+  results.forEach(function (result) {
+    this$1.errors.remove(result.field, result.scope, vmId);
+  });
+  var allErrors = results.reduce(function (prev, curr) {
+    prev.push.apply(prev, curr.errors);
+
+    return prev;
+  }, []);
+
+  this.errors.add(allErrors);
+
+  // handle flags.
+  this.fields.filter(matchers).forEach(function (field) {
+    var result = find(results, function (r) { return r.id === field.id; });
+    field.setFlags({
+      pending: false,
+      valid: result.valid,
+      validated: true
+    });
+  });
+};
+
+Validator.prototype._shouldSkip = function _shouldSkip (field, value) {
+  // field is configured to run through the pipeline regardless
+  if (field.bails === false) {
+    return false;
+  }
+
+  // disabled fields are skipped if useConstraintAttrs is enabled in config
+  if (field.isDisabled && getConfig().useConstraintAttrs) {
+    return true;
+  }
+
+  // skip if the field is not required and has an empty value.
+  return !field.isRequired && (isNullOrUndefined(value) || value === '' || isEmptyArray(value));
+};
+
+Validator.prototype._shouldBail = function _shouldBail (field) {
+  // if the field was configured explicitly.
+  if (field.bails !== undefined) {
+    return field.bails;
+  }
+
+  return this.fastExit;
+};
+
+/**
+ * Starts the validation process.
+ */
+Validator.prototype._validate = function _validate (field, value, ref) {
+    var this$1 = this;
+    if ( ref === void 0 ) ref = {};
+    var initial = ref.initial;
+
+  var requireRules = Object.keys(field.rules).filter(RuleContainer.isRequireRule);
+
+  field.forceRequired = false;
+  requireRules.forEach(function (rule) {
+    var ruleOptions = RuleContainer.getOptions(rule);
+    var result = this$1._test(field, value, { name: rule, params: field.rules[rule], options: ruleOptions });
+
+    if (isCallable(result.then)) { throw createError('Require rules cannot be async'); }
+    if (!isObject(result)) { throw createError('Require rules has to return an object (see docs)'); }
+
+    if (result.data.required === true) {
+      field.forceRequired = true;
+    }
+  });
+
+  if (this._shouldSkip(field, value)) {
+    return Promise.resolve({ valid: true, id: field.id, field: field.name, scope: field.scope, errors: [] });
+  }
+
+  var promises = [];
+  var errors = [];
+  var isExitEarly = false;
+  if (isCallable(field.checkValueChanged)) {
+    field.flags.changed = field.checkValueChanged();
+  }
+
+  // use of '.some()' is to break iteration in middle by returning true
+  Object.keys(field.rules).filter(function (rule) {
+    if (!initial || !RuleContainer.has(rule)) { return true; }
+
+    return RuleContainer.isImmediate(rule);
+  }).some(function (rule) {
+    var ruleOptions = RuleContainer.getOptions(rule);
+    var result = this$1._test(field, value, { name: rule, params: field.rules[rule], options: ruleOptions });
+    if (isCallable(result.then)) {
+      promises.push(result);
+    } else if (!result.valid && this$1._shouldBail(field)) {
+      errors.push.apply(errors, result.errors);
+      isExitEarly = true;
+    } else {
+      // promisify the result.
+      promises.push(new Promise(function (resolve) { return resolve(result); }));
+    }
+
+    return isExitEarly;
+  });
+
+  if (isExitEarly) {
+    return Promise.resolve({ valid: false, errors: errors, id: field.id, field: field.name, scope: field.scope });
+  }
+
+  return Promise.all(promises).then(function (results) {
+    return results.reduce(function (prev, v) {
+        var ref;
+
+      if (!v.valid) {
+        (ref = prev.errors).push.apply(ref, v.errors);
+      }
+
+      prev.valid = prev.valid && v.valid;
+
+      return prev;
+    }, { valid: true, errors: errors, id: field.id, field: field.name, scope: field.scope });
+  });
+};
+
+Object.defineProperties( Validator.prototype, prototypeAccessors$4 );
+Object.defineProperties( Validator, staticAccessors$1 );
+
+// 
+
+var normalizeValue = function (value) {
+  if (isObject(value)) {
+    return Object.keys(value).reduce(function (prev, key) {
+      prev[key] = normalizeValue(value[key]);
+
+      return prev;
+    }, {});
+  }
+
+  if (isCallable(value)) {
+    return value('{0}', ['{1}', '{2}', '{3}']);
+  }
+
+  return value;
+};
+
+var normalizeFormat = function (locale) {
+  // normalize messages
+  var dictionary = {};
+  if (locale.messages) {
+    dictionary.messages = normalizeValue(locale.messages);
+  }
+
+  if (locale.custom) {
+    dictionary.custom = normalizeValue(locale.custom);
+  }
+
+  if (locale.attributes) {
+    dictionary.attributes = locale.attributes;
+  }
+
+  if (!isNullOrUndefined(locale.dateFormat)) {
+    dictionary.dateFormat = locale.dateFormat;
+  }
+
+  return dictionary;
+};
+
+var I18nDictionary = function I18nDictionary (i18n, rootKey) {
+  this.i18n = i18n;
+  this.rootKey = rootKey;
+};
+
+var prototypeAccessors$5 = { locale: { configurable: true } };
+
+prototypeAccessors$5.locale.get = function () {
+  return this.i18n.locale;
+};
+
+prototypeAccessors$5.locale.set = function (value) {
+  warn('Cannot set locale from the validator when using vue-i18n, use i18n.locale setter instead');
+};
+
+I18nDictionary.prototype.getDateFormat = function getDateFormat (locale) {
+  return this.i18n.getDateTimeFormat(locale || this.locale);
+};
+
+I18nDictionary.prototype.setDateFormat = function setDateFormat (locale, value) {
+  this.i18n.setDateTimeFormat(locale || this.locale, value);
+};
+
+I18nDictionary.prototype.getMessage = function getMessage (_, key, data) {
+  var path = (this.rootKey) + ".messages." + key;
+  var dataOptions = data;
+
+  if (Array.isArray(data)) {
+    dataOptions = [].concat.apply([], data);
+  }
+
+  if (this.i18n.te(path)) {
+    return this.i18n.t(path, dataOptions);
+  }
+
+  // fallback to the fallback message
+  if (this.i18n.te(path, this.i18n.fallbackLocale)) {
+    return this.i18n.t(path, this.i18n.fallbackLocale, dataOptions);
+  }
+
+  // fallback to the root message
+  return this.i18n.t(((this.rootKey) + ".messages._default"), dataOptions);
+};
+
+I18nDictionary.prototype.getAttribute = function getAttribute (_, key, fallback) {
+    if ( fallback === void 0 ) fallback = '';
+
+  var path = (this.rootKey) + ".attributes." + key;
+  if (this.i18n.te(path)) {
+    return this.i18n.t(path);
+  }
+
+  return fallback;
+};
+
+I18nDictionary.prototype.getFieldMessage = function getFieldMessage (_, field, key, data) {
+  var path = (this.rootKey) + ".custom." + field + "." + key;
+  if (this.i18n.te(path)) {
+    return this.i18n.t(path, data);
+  }
+
+  return this.getMessage(_, key, data);
+};
+
+I18nDictionary.prototype.merge = function merge$1 (dictionary) {
+    var this$1 = this;
+
+  Object.keys(dictionary).forEach(function (localeKey) {
+      var obj;
+
+    // i18n doesn't deep merge
+    // first clone the existing locale (avoid mutations to locale)
+    var clone = merge({}, getPath((localeKey + "." + (this$1.rootKey)), this$1.i18n.messages, {}));
+    // Merge cloned locale with new one
+    var locale = merge(clone, normalizeFormat(dictionary[localeKey]));
+    this$1.i18n.mergeLocaleMessage(localeKey, ( obj = {}, obj[this$1.rootKey] = locale, obj ));
+    if (locale.dateFormat) {
+      this$1.i18n.setDateTimeFormat(localeKey, locale.dateFormat);
+    }
+  });
+};
+
+I18nDictionary.prototype.setMessage = function setMessage (locale, key, value) {
+    var obj, obj$1;
+
+  this.merge(( obj$1 = {}, obj$1[locale] = {
+      messages: ( obj = {}, obj[key] = value, obj )
+    }, obj$1 ));
+};
+
+I18nDictionary.prototype.setAttribute = function setAttribute (locale, key, value) {
+    var obj, obj$1;
+
+  this.merge(( obj$1 = {}, obj$1[locale] = {
+      attributes: ( obj = {}, obj[key] = value, obj )
+    }, obj$1 ));
+};
+
+Object.defineProperties( I18nDictionary.prototype, prototypeAccessors$5 );
+
+var aggressive = function () { return ({
+  on: ['input']
+}); };
+
+var lazy = function () { return ({
+  on: ['change']
+}); };
+
+var eager = function (ref) {
+  var errors = ref.errors;
+
+  if (errors.length) {
+    return {
+      on: ['input']
+    };
+  }
+
+  return {
+    on: ['change', 'blur']
+  };
+};
+
+var passive = function () { return ({
+  on: []
+}); };
+
+var modes = {
+  aggressive: aggressive,
+  eager: eager,
+  passive: passive,
+  lazy: lazy
+};
+
+// 
+
+var Vue;
+var pendingPlugins;
+var pluginInstance;
+
+var VeeValidate$1 = function VeeValidate (config, _Vue) {
+  this.configure(config);
+  pluginInstance = this;
+  if (_Vue) {
+    Vue = _Vue;
+  }
+  this._validator = setValidator(
+    new Validator(null, { fastExit: config && config.fastExit }, this)
+  );
+  this._initVM(this.config);
+  this._initI18n(this.config);
+};
+
+var prototypeAccessors$6 = { i18nDriver: { configurable: true },config: { configurable: true } };
+var staticAccessors$2 = { i18nDriver: { configurable: true },config: { configurable: true } };
+
+VeeValidate$1.setI18nDriver = function setI18nDriver (driver, instance) {
+  DictionaryResolver.setDriver(driver, instance);
+};
+
+VeeValidate$1.configure = function configure (cfg) {
+  setConfig(cfg);
+};
+
+VeeValidate$1.setMode = function setMode (mode, implementation) {
+  setConfig({ mode: mode });
+  if (!implementation) {
+    return;
+  }
+
+  if (!isCallable(implementation)) {
+    throw new Error('A mode implementation must be a function');
+  }
+
+  modes[mode] = implementation;
+};
+
+VeeValidate$1.use = function use (plugin, options) {
+    if ( options === void 0 ) options = {};
+
+  if (!isCallable(plugin)) {
+    return warn('The plugin must be a callable function');
+  }
+
+  // Don't install plugins until vee-validate is installed.
+  if (!pluginInstance) {
+    if (!pendingPlugins) {
+      pendingPlugins = [];
+    }
+    pendingPlugins.push({ plugin: plugin, options: options });
+    return;
+  }
+
+  plugin({ Validator: Validator, ErrorBag: ErrorBag, Rules: Validator.rules }, options);
+};
+VeeValidate$1.install = function install (_Vue, opts) {
+  if (Vue && _Vue === Vue) {
+    if (true) {
+      warn('already installed, Vue.use(VeeValidate) should only be called once.');
+    }
+    return;
+  }
+
+  Vue = _Vue;
+  pluginInstance = new VeeValidate$1(opts);
+  // inject the plugin container statically into the validator class
+  Validator.$vee = pluginInstance;
+
+  detectPassiveSupport();
+
+  Vue.mixin(mixin);
+  Vue.directive('validate', directive);
+  if (pendingPlugins) {
+    pendingPlugins.forEach(function (ref) {
+        var plugin = ref.plugin;
+        var options = ref.options;
+
+      VeeValidate$1.use(plugin, options);
+    });
+    pendingPlugins = null;
+  }
+};
+
+prototypeAccessors$6.i18nDriver.get = function () {
+  return DictionaryResolver.getDriver();
+};
+
+staticAccessors$2.i18nDriver.get = function () {
+  return DictionaryResolver.getDriver();
+};
+
+prototypeAccessors$6.config.get = function () {
+  return getConfig();
+};
+
+staticAccessors$2.config.get = function () {
+  return getConfig();
+};
+
+VeeValidate$1.prototype._initVM = function _initVM (config) {
+    var this$1 = this;
+
+  this._vm = new Vue({
+    data: function () { return ({
+      errors: this$1._validator.errors,
+      fields: this$1._validator.fields
+    }); }
+  });
+};
+
+VeeValidate$1.prototype._initI18n = function _initI18n (config) {
+    var this$1 = this;
+
+  var dictionary = config.dictionary;
+    var i18n = config.i18n;
+    var i18nRootKey = config.i18nRootKey;
+    var locale = config.locale;
+  var onLocaleChanged = function () {
+    if (dictionary) {
+      this$1.i18nDriver.merge(dictionary);
+    }
+
+    this$1._validator.errors.regenerate();
+  };
+
+  // i18 is being used for localization.
+  if (i18n) {
+    VeeValidate$1.setI18nDriver('i18n', new I18nDictionary(i18n, i18nRootKey));
+    i18n._vm.$watch('locale', onLocaleChanged);
+  } else if (typeof window !== 'undefined') {
+    this._vm.$on('localeChanged', onLocaleChanged);
+  }
+
+  if (dictionary) {
+    this.i18nDriver.merge(dictionary);
+  }
+
+  if (locale && !i18n) {
+    this._validator.localize(locale);
+  }
+};
+
+VeeValidate$1.prototype.configure = function configure (cfg) {
+  setConfig(cfg);
+};
+
+Object.defineProperties( VeeValidate$1.prototype, prototypeAccessors$6 );
+Object.defineProperties( VeeValidate$1, staticAccessors$2 );
+
+VeeValidate$1.mixin = mixin;
+VeeValidate$1.directive = directive;
+VeeValidate$1.Validator = Validator;
+VeeValidate$1.ErrorBag = ErrorBag;
+
+/**
+ * Formates file size.
+ *
+ * @param {Number|String} size
+ */
+var formatFileSize = function (size) {
+  var units = ['Byte', 'KB', 'MB', 'GB', 'TB', 'PB', 'EB', 'ZB', 'YB'];
+  var threshold = 1024;
+  size = Number(size) * threshold;
+  var i = size === 0 ? 0 : Math.floor(Math.log(size) / Math.log(threshold));
+  return (((size / Math.pow(threshold, i)).toFixed(2) * 1) + " " + (units[i]));
+};
+
+/**
+ * Checks if vee-validate is defined globally.
+ */
+var isDefinedGlobally = function () {
+  return typeof VeeValidate !== 'undefined';
+};
+
+var obj;
+
+var messages = {
+  _default: function (field) { return ("The " + field + " value is not valid"); },
+  after: function (field, ref) {
+    var target = ref[0];
+    var inclusion = ref[1];
+
+    return ("The " + field + " must be after " + (inclusion ? 'or equal to ' : '') + target);
+},
+  alpha: function (field) { return ("The " + field + " field may only contain alphabetic characters"); },
+  alpha_dash: function (field) { return ("The " + field + " field may contain alpha-numeric characters as well as dashes and underscores"); },
+  alpha_num: function (field) { return ("The " + field + " field may only contain alpha-numeric characters"); },
+  alpha_spaces: function (field) { return ("The " + field + " field may only contain alphabetic characters as well as spaces"); },
+  before: function (field, ref) {
+    var target = ref[0];
+    var inclusion = ref[1];
+
+    return ("The " + field + " must be before " + (inclusion ? 'or equal to ' : '') + target);
+},
+  between: function (field, ref) {
+    var min = ref[0];
+    var max = ref[1];
+
+    return ("The " + field + " field must be between " + min + " and " + max);
+},
+  confirmed: function (field) { return ("The " + field + " confirmation does not match"); },
+  credit_card: function (field) { return ("The " + field + " field is invalid"); },
+  date_between: function (field, ref) {
+    var min = ref[0];
+    var max = ref[1];
+
+    return ("The " + field + " must be between " + min + " and " + max);
+},
+  date_format: function (field, ref) {
+    var format = ref[0];
+
+    return ("The " + field + " must be in the format " + format);
+},
+  decimal: function (field, ref) {
+    if ( ref === void 0 ) ref = [];
+    var decimals = ref[0]; if ( decimals === void 0 ) decimals = '*';
+
+    return ("The " + field + " field must be numeric and may contain" + (!decimals || decimals === '*' ? '' : ' ' + decimals) + " decimal points");
+},
+  digits: function (field, ref) {
+    var length = ref[0];
+
+    return ("The " + field + " field must be numeric and contains exactly " + length + " digits");
+},
+  dimensions: function (field, ref) {
+    var width = ref[0];
+    var height = ref[1];
+
+    return ("The " + field + " field must be " + width + " pixels by " + height + " pixels");
+},
+  email: function (field) { return ("The " + field + " field must be a valid email"); },
+  excluded: function (field) { return ("The " + field + " field must be a valid value"); },
+  ext: function (field) { return ("The " + field + " field must be a valid file"); },
+  image: function (field) { return ("The " + field + " field must be an image"); },
+  included: function (field) { return ("The " + field + " field must be a valid value"); },
+  integer: function (field) { return ("The " + field + " field must be an integer"); },
+  ip: function (field) { return ("The " + field + " field must be a valid ip address"); },
+  ip_or_fqdn: function (field) { return ("The " + field + " field must be a valid ip address or FQDN"); },
+  length: function (field, ref) {
+    var length = ref[0];
+    var max = ref[1];
+
+    if (max) {
+      return ("The " + field + " length must be between " + length + " and " + max);
+    }
+
+    return ("The " + field + " length must be " + length);
+  },
+  max: function (field, ref) {
+    var length = ref[0];
+
+    return ("The " + field + " field may not be greater than " + length + " characters");
+},
+  max_value: function (field, ref) {
+    var max = ref[0];
+
+    return ("The " + field + " field must be " + max + " or less");
+},
+  mimes: function (field) { return ("The " + field + " field must have a valid file type"); },
+  min: function (field, ref) {
+    var length = ref[0];
+
+    return ("The " + field + " field must be at least " + length + " characters");
+},
+  min_value: function (field, ref) {
+    var min = ref[0];
+
+    return ("The " + field + " field must be " + min + " or more");
+},
+  numeric: function (field) { return ("The " + field + " field may only contain numeric characters"); },
+  regex: function (field) { return ("The " + field + " field format is invalid"); },
+  required: function (field) { return ("The " + field + " field is required"); },
+  required_if: function (field, ref) {
+    var target = ref[0];
+
+    return ("The " + field + " field is required when the " + target + " field has this value");
+},
+  size: function (field, ref) {
+    var size = ref[0];
+
+    return ("The " + field + " size must be less than " + (formatFileSize(size)));
+},
+  url: function (field) { return ("The " + field + " field is not a valid URL"); }
+};
+
+var locale = {
+  name: 'en',
+  messages: messages,
+  attributes: {}
+};
+
+if (isDefinedGlobally()) {
+  // eslint-disable-next-line
+  VeeValidate.Validator.localize(( obj = {}, obj[locale.name] = locale, obj ));
+}
+
+function toInteger (dirtyNumber) {
+  if (dirtyNumber === null || dirtyNumber === true || dirtyNumber === false) {
+    return NaN
+  }
+
+  var number = Number(dirtyNumber);
+
+  if (isNaN(number)) {
+    return number
+  }
+
+  return number < 0 ? Math.ceil(number) : Math.floor(number)
+}
+
+var MILLISECONDS_IN_MINUTE = 60000;
+
+/**
+ * Google Chrome as of 67.0.3396.87 introduced timezones with offset that includes seconds.
+ * They usually appear for dates that denote time before the timezones were introduced
+ * (e.g. for 'Europe/Prague' timezone the offset is GMT+00:57:44 before 1 October 1891
+ * and GMT+01:00:00 after that date)
+ *
+ * Date#getTimezoneOffset returns the offset in minutes and would return 57 for the example above,
+ * which would lead to incorrect calculations.
+ *
+ * This function returns the timezone offset in milliseconds that takes seconds in account.
+ */
+function getTimezoneOffsetInMilliseconds (dirtyDate) {
+  var date = new Date(dirtyDate.getTime());
+  var baseTimezoneOffset = date.getTimezoneOffset();
+  date.setSeconds(0, 0);
+  var millisecondsPartOfTimezoneOffset = date.getTime() % MILLISECONDS_IN_MINUTE;
+
+  return baseTimezoneOffset * MILLISECONDS_IN_MINUTE + millisecondsPartOfTimezoneOffset
+}
+
+var MILLISECONDS_IN_HOUR = 3600000;
+var MILLISECONDS_IN_MINUTE$1 = 60000;
+var DEFAULT_ADDITIONAL_DIGITS = 2;
+
+var patterns = {
+  dateTimeDelimeter: /[T ]/,
+  plainTime: /:/,
+  timeZoneDelimeter: /[Z ]/i,
+
+  // year tokens
+  YY: /^(\d{2})$/,
+  YYY: [
+    /^([+-]\d{2})$/, // 0 additional digits
+    /^([+-]\d{3})$/, // 1 additional digit
+    /^([+-]\d{4})$/ // 2 additional digits
+  ],
+  YYYY: /^(\d{4})/,
+  YYYYY: [
+    /^([+-]\d{4})/, // 0 additional digits
+    /^([+-]\d{5})/, // 1 additional digit
+    /^([+-]\d{6})/ // 2 additional digits
+  ],
+
+  // date tokens
+  MM: /^-(\d{2})$/,
+  DDD: /^-?(\d{3})$/,
+  MMDD: /^-?(\d{2})-?(\d{2})$/,
+  Www: /^-?W(\d{2})$/,
+  WwwD: /^-?W(\d{2})-?(\d{1})$/,
+
+  HH: /^(\d{2}([.,]\d*)?)$/,
+  HHMM: /^(\d{2}):?(\d{2}([.,]\d*)?)$/,
+  HHMMSS: /^(\d{2}):?(\d{2}):?(\d{2}([.,]\d*)?)$/,
+
+  // timezone tokens
+  timezone: /([Z+-].*)$/,
+  timezoneZ: /^(Z)$/,
+  timezoneHH: /^([+-])(\d{2})$/,
+  timezoneHHMM: /^([+-])(\d{2}):?(\d{2})$/
+};
+
+/**
+ * @name toDate
+ * @category Common Helpers
+ * @summary Convert the given argument to an instance of Date.
+ *
+ * @description
+ * Convert the given argument to an instance of Date.
+ *
+ * If the argument is an instance of Date, the function returns its clone.
+ *
+ * If the argument is a number, it is treated as a timestamp.
+ *
+ * If an argument is a string, the function tries to parse it.
+ * Function accepts complete ISO 8601 formats as well as partial implementations.
+ * ISO 8601: http://en.wikipedia.org/wiki/ISO_8601
+ * If the function cannot parse the string or the values are invalid, it returns Invalid Date.
+ *
+ * If the argument is none of the above, the function returns Invalid Date.
+ *
+ * **Note**: *all* Date arguments passed to any *date-fns* function is processed by `toDate`.
+ * All *date-fns* functions will throw `RangeError` if `options.additionalDigits` is not 0, 1, 2 or undefined.
+ *
+ * @param {Date|String|Number} argument - the value to convert
+ * @param {Options} [options] - the object with options. See [Options]{@link https://date-fns.org/docs/Options}
+ * @param {0|1|2} [options.additionalDigits=2] - the additional number of digits in the extended year format
+ * @returns {Date} the parsed date in the local time zone
+ * @throws {TypeError} 1 argument required
+ * @throws {RangeError} `options.additionalDigits` must be 0, 1 or 2
+ *
+ * @example
+ * // Convert string '2014-02-11T11:30:30' to date:
+ * var result = toDate('2014-02-11T11:30:30')
+ * //=> Tue Feb 11 2014 11:30:30
+ *
+ * @example
+ * // Convert string '+02014101' to date,
+ * // if the additional number of digits in the extended year format is 1:
+ * var result = toDate('+02014101', {additionalDigits: 1})
+ * //=> Fri Apr 11 2014 00:00:00
+ */
+function toDate (argument, dirtyOptions) {
+  if (arguments.length < 1) {
+    throw new TypeError('1 argument required, but only ' + arguments.length + ' present')
+  }
+
+  if (argument === null) {
+    return new Date(NaN)
+  }
+
+  var options = dirtyOptions || {};
+
+  var additionalDigits = options.additionalDigits == null ? DEFAULT_ADDITIONAL_DIGITS : toInteger(options.additionalDigits);
+  if (additionalDigits !== 2 && additionalDigits !== 1 && additionalDigits !== 0) {
+    throw new RangeError('additionalDigits must be 0, 1 or 2')
+  }
+
+  // Clone the date
+  if (argument instanceof Date ||
+    (typeof argument === 'object' && Object.prototype.toString.call(argument) === '[object Date]')
+  ) {
+    // Prevent the date to lose the milliseconds when passed to new Date() in IE10
+    return new Date(argument.getTime())
+  } else if (typeof argument === 'number' || Object.prototype.toString.call(argument) === '[object Number]') {
+    return new Date(argument)
+  } else if (!(typeof argument === 'string' || Object.prototype.toString.call(argument) === '[object String]')) {
+    return new Date(NaN)
+  }
+
+  var dateStrings = splitDateString(argument);
+
+  var parseYearResult = parseYear(dateStrings.date, additionalDigits);
+  var year = parseYearResult.year;
+  var restDateString = parseYearResult.restDateString;
+
+  var date = parseDate(restDateString, year);
+
+  if (isNaN(date)) {
+    return new Date(NaN)
+  }
+
+  if (date) {
+    var timestamp = date.getTime();
+    var time = 0;
+    var offset;
+
+    if (dateStrings.time) {
+      time = parseTime(dateStrings.time);
+
+      if (isNaN(time)) {
+        return new Date(NaN)
+      }
+    }
+
+    if (dateStrings.timezone) {
+      offset = parseTimezone(dateStrings.timezone);
+      if (isNaN(offset)) {
+        return new Date(NaN)
+      }
+    } else {
+      // get offset accurate to hour in timezones that change offset
+      offset = getTimezoneOffsetInMilliseconds(new Date(timestamp + time));
+      offset = getTimezoneOffsetInMilliseconds(new Date(timestamp + time + offset));
+    }
+
+    return new Date(timestamp + time + offset)
+  } else {
+    return new Date(NaN)
+  }
+}
+
+function splitDateString (dateString) {
+  var dateStrings = {};
+  var array = dateString.split(patterns.dateTimeDelimeter);
+  var timeString;
+
+  if (patterns.plainTime.test(array[0])) {
+    dateStrings.date = null;
+    timeString = array[0];
+  } else {
+    dateStrings.date = array[0];
+    timeString = array[1];
+    if (patterns.timeZoneDelimeter.test(dateStrings.date)) {
+      dateStrings.date = dateString.split(patterns.timeZoneDelimeter)[0];
+      timeString = dateString.substr(dateStrings.date.length, dateString.length);
+    }
+  }
+
+  if (timeString) {
+    var token = patterns.timezone.exec(timeString);
+    if (token) {
+      dateStrings.time = timeString.replace(token[1], '');
+      dateStrings.timezone = token[1];
+    } else {
+      dateStrings.time = timeString;
+    }
+  }
+
+  return dateStrings
+}
+
+function parseYear (dateString, additionalDigits) {
+  var patternYYY = patterns.YYY[additionalDigits];
+  var patternYYYYY = patterns.YYYYY[additionalDigits];
+
+  var token;
+
+  // YYYY or ±YYYYY
+  token = patterns.YYYY.exec(dateString) || patternYYYYY.exec(dateString);
+  if (token) {
+    var yearString = token[1];
+    return {
+      year: parseInt(yearString, 10),
+      restDateString: dateString.slice(yearString.length)
+    }
+  }
+
+  // YY or ±YYY
+  token = patterns.YY.exec(dateString) || patternYYY.exec(dateString);
+  if (token) {
+    var centuryString = token[1];
+    return {
+      year: parseInt(centuryString, 10) * 100,
+      restDateString: dateString.slice(centuryString.length)
+    }
+  }
+
+  // Invalid ISO-formatted year
+  return {
+    year: null
+  }
+}
+
+function parseDate (dateString, year) {
+  // Invalid ISO-formatted year
+  if (year === null) {
+    return null
+  }
+
+  var token;
+  var date;
+  var month;
+  var week;
+
+  // YYYY
+  if (dateString.length === 0) {
+    date = new Date(0);
+    date.setUTCFullYear(year);
+    return date
+  }
+
+  // YYYY-MM
+  token = patterns.MM.exec(dateString);
+  if (token) {
+    date = new Date(0);
+    month = parseInt(token[1], 10) - 1;
+
+    if (!validateDate(year, month)) {
+      return new Date(NaN)
+    }
+
+    date.setUTCFullYear(year, month);
+    return date
+  }
+
+  // YYYY-DDD or YYYYDDD
+  token = patterns.DDD.exec(dateString);
+  if (token) {
+    date = new Date(0);
+    var dayOfYear = parseInt(token[1], 10);
+
+    if (!validateDayOfYearDate(year, dayOfYear)) {
+      return new Date(NaN)
+    }
+
+    date.setUTCFullYear(year, 0, dayOfYear);
+    return date
+  }
+
+  // YYYY-MM-DD or YYYYMMDD
+  token = patterns.MMDD.exec(dateString);
+  if (token) {
+    date = new Date(0);
+    month = parseInt(token[1], 10) - 1;
+    var day = parseInt(token[2], 10);
+
+    if (!validateDate(year, month, day)) {
+      return new Date(NaN)
+    }
+
+    date.setUTCFullYear(year, month, day);
+    return date
+  }
+
+  // YYYY-Www or YYYYWww
+  token = patterns.Www.exec(dateString);
+  if (token) {
+    week = parseInt(token[1], 10) - 1;
+
+    if (!validateWeekDate(year, week)) {
+      return new Date(NaN)
+    }
+
+    return dayOfISOWeekYear(year, week)
+  }
+
+  // YYYY-Www-D or YYYYWwwD
+  token = patterns.WwwD.exec(dateString);
+  if (token) {
+    week = parseInt(token[1], 10) - 1;
+    var dayOfWeek = parseInt(token[2], 10) - 1;
+
+    if (!validateWeekDate(year, week, dayOfWeek)) {
+      return new Date(NaN)
+    }
+
+    return dayOfISOWeekYear(year, week, dayOfWeek)
+  }
+
+  // Invalid ISO-formatted date
+  return null
+}
+
+function parseTime (timeString) {
+  var token;
+  var hours;
+  var minutes;
+
+  // hh
+  token = patterns.HH.exec(timeString);
+  if (token) {
+    hours = parseFloat(token[1].replace(',', '.'));
+
+    if (!validateTime(hours)) {
+      return NaN
+    }
+
+    return (hours % 24) * MILLISECONDS_IN_HOUR
+  }
+
+  // hh:mm or hhmm
+  token = patterns.HHMM.exec(timeString);
+  if (token) {
+    hours = parseInt(token[1], 10);
+    minutes = parseFloat(token[2].replace(',', '.'));
+
+    if (!validateTime(hours, minutes)) {
+      return NaN
+    }
+
+    return (hours % 24) * MILLISECONDS_IN_HOUR +
+      minutes * MILLISECONDS_IN_MINUTE$1
+  }
+
+  // hh:mm:ss or hhmmss
+  token = patterns.HHMMSS.exec(timeString);
+  if (token) {
+    hours = parseInt(token[1], 10);
+    minutes = parseInt(token[2], 10);
+    var seconds = parseFloat(token[3].replace(',', '.'));
+
+    if (!validateTime(hours, minutes, seconds)) {
+      return NaN
+    }
+
+    return (hours % 24) * MILLISECONDS_IN_HOUR +
+      minutes * MILLISECONDS_IN_MINUTE$1 +
+      seconds * 1000
+  }
+
+  // Invalid ISO-formatted time
+  return null
+}
+
+function parseTimezone (timezoneString) {
+  var token;
+  var absoluteOffset;
+
+  // Z
+  token = patterns.timezoneZ.exec(timezoneString);
+  if (token) {
+    return 0
+  }
+
+  var hours;
+
+  // ±hh
+  token = patterns.timezoneHH.exec(timezoneString);
+  if (token) {
+    hours = parseInt(token[2], 10);
+
+    if (!validateTimezone()) {
+      return NaN
+    }
+
+    absoluteOffset = hours * MILLISECONDS_IN_HOUR;
+    return (token[1] === '+') ? -absoluteOffset : absoluteOffset
+  }
+
+  // ±hh:mm or ±hhmm
+  token = patterns.timezoneHHMM.exec(timezoneString);
+  if (token) {
+    hours = parseInt(token[2], 10);
+    var minutes = parseInt(token[3], 10);
+
+    if (!validateTimezone(hours, minutes)) {
+      return NaN
+    }
+
+    absoluteOffset = hours * MILLISECONDS_IN_HOUR + minutes * MILLISECONDS_IN_MINUTE$1;
+    return (token[1] === '+') ? -absoluteOffset : absoluteOffset
+  }
+
+  return 0
+}
+
+function dayOfISOWeekYear (isoWeekYear, week, day) {
+  week = week || 0;
+  day = day || 0;
+  var date = new Date(0);
+  date.setUTCFullYear(isoWeekYear, 0, 4);
+  var fourthOfJanuaryDay = date.getUTCDay() || 7;
+  var diff = week * 7 + day + 1 - fourthOfJanuaryDay;
+  date.setUTCDate(date.getUTCDate() + diff);
+  return date
+}
+
+// Validation functions
+
+var DAYS_IN_MONTH = [31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31];
+var DAYS_IN_MONTH_LEAP_YEAR = [31, 29, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31];
+
+function isLeapYearIndex (year) {
+  return year % 400 === 0 || (year % 4 === 0 && year % 100 !== 0)
+}
+
+function validateDate (year, month, date) {
+  if (month < 0 || month > 11) {
+    return false
+  }
+
+  if (date != null) {
+    if (date < 1) {
+      return false
+    }
+
+    var isLeapYear = isLeapYearIndex(year);
+    if (isLeapYear && date > DAYS_IN_MONTH_LEAP_YEAR[month]) {
+      return false
+    }
+    if (!isLeapYear && date > DAYS_IN_MONTH[month]) {
+      return false
+    }
+  }
+
+  return true
+}
+
+function validateDayOfYearDate (year, dayOfYear) {
+  if (dayOfYear < 1) {
+    return false
+  }
+
+  var isLeapYear = isLeapYearIndex(year);
+  if (isLeapYear && dayOfYear > 366) {
+    return false
+  }
+  if (!isLeapYear && dayOfYear > 365) {
+    return false
+  }
+
+  return true
+}
+
+function validateWeekDate (year, week, day) {
+  if (week < 0 || week > 52) {
+    return false
+  }
+
+  if (day != null && (day < 0 || day > 6)) {
+    return false
+  }
+
+  return true
+}
+
+function validateTime (hours, minutes, seconds) {
+  if (hours != null && (hours < 0 || hours >= 25)) {
+    return false
+  }
+
+  if (minutes != null && (minutes < 0 || minutes >= 60)) {
+    return false
+  }
+
+  if (seconds != null && (seconds < 0 || seconds >= 60)) {
+    return false
+  }
+
+  return true
+}
+
+function validateTimezone (hours, minutes) {
+  if (minutes != null && (minutes < 0 || minutes > 59)) {
+    return false
+  }
+
+  return true
+}
+
+/**
+ * @name addMilliseconds
+ * @category Millisecond Helpers
+ * @summary Add the specified number of milliseconds to the given date.
+ *
+ * @description
+ * Add the specified number of milliseconds to the given date.
+ *
+ * @param {Date|String|Number} date - the date to be changed
+ * @param {Number} amount - the amount of milliseconds to be added
+ * @param {Options} [options] - the object with options. See [Options]{@link https://date-fns.org/docs/Options}
+ * @param {0|1|2} [options.additionalDigits=2] - passed to `toDate`. See [toDate]{@link https://date-fns.org/docs/toDate}
+ * @returns {Date} the new date with the milliseconds added
+ * @throws {TypeError} 2 arguments required
+ * @throws {RangeError} `options.additionalDigits` must be 0, 1 or 2
+ *
+ * @example
+ * // Add 750 milliseconds to 10 July 2014 12:45:30.000:
+ * var result = addMilliseconds(new Date(2014, 6, 10, 12, 45, 30, 0), 750)
+ * //=> Thu Jul 10 2014 12:45:30.750
+ */
+function addMilliseconds (dirtyDate, dirtyAmount, dirtyOptions) {
+  if (arguments.length < 2) {
+    throw new TypeError('2 arguments required, but only ' + arguments.length + ' present')
+  }
+
+  var timestamp = toDate(dirtyDate, dirtyOptions).getTime();
+  var amount = toInteger(dirtyAmount);
+  return new Date(timestamp + amount)
+}
+
+/**
+ * @name isValid
+ * @category Common Helpers
+ * @summary Is the given date valid?
+ *
+ * @description
+ * Returns false if argument is Invalid Date and true otherwise.
+ * Argument is converted to Date using `toDate`. See [toDate]{@link https://date-fns.org/docs/toDate}
+ * Invalid Date is a Date, whose time value is NaN.
+ *
+ * Time value of Date: http://es5.github.io/#x15.9.1.1
+ *
+ * @param {*} date - the date to check
+ * @param {Options} [options] - the object with options. See [Options]{@link https://date-fns.org/docs/Options}
+ * @param {0|1|2} [options.additionalDigits=2] - passed to `toDate`. See [toDate]{@link https://date-fns.org/docs/toDate}
+ * @returns {Boolean} the date is valid
+ * @throws {TypeError} 1 argument required
+ * @throws {RangeError} `options.additionalDigits` must be 0, 1 or 2
+ *
+ * @example
+ * // For the valid date:
+ * var result = isValid(new Date(2014, 1, 31))
+ * //=> true
+ *
+ * @example
+ * // For the value, convertable into a date:
+ * var result = isValid('2014-02-31')
+ * //=> true
+ *
+ * @example
+ * // For the invalid date:
+ * var result = isValid(new Date(''))
+ * //=> false
+ */
+function isValid (dirtyDate, dirtyOptions) {
+  if (arguments.length < 1) {
+    throw new TypeError('1 argument required, but only ' + arguments.length + ' present')
+  }
+
+  var date = toDate(dirtyDate, dirtyOptions);
+  return !isNaN(date)
+}
+
+var formatDistanceLocale = {
+  lessThanXSeconds: {
+    one: 'less than a second',
+    other: 'less than {{count}} seconds'
+  },
+
+  xSeconds: {
+    one: '1 second',
+    other: '{{count}} seconds'
+  },
+
+  halfAMinute: 'half a minute',
+
+  lessThanXMinutes: {
+    one: 'less than a minute',
+    other: 'less than {{count}} minutes'
+  },
+
+  xMinutes: {
+    one: '1 minute',
+    other: '{{count}} minutes'
+  },
+
+  aboutXHours: {
+    one: 'about 1 hour',
+    other: 'about {{count}} hours'
+  },
+
+  xHours: {
+    one: '1 hour',
+    other: '{{count}} hours'
+  },
+
+  xDays: {
+    one: '1 day',
+    other: '{{count}} days'
+  },
+
+  aboutXMonths: {
+    one: 'about 1 month',
+    other: 'about {{count}} months'
+  },
+
+  xMonths: {
+    one: '1 month',
+    other: '{{count}} months'
+  },
+
+  aboutXYears: {
+    one: 'about 1 year',
+    other: 'about {{count}} years'
+  },
+
+  xYears: {
+    one: '1 year',
+    other: '{{count}} years'
+  },
+
+  overXYears: {
+    one: 'over 1 year',
+    other: 'over {{count}} years'
+  },
+
+  almostXYears: {
+    one: 'almost 1 year',
+    other: 'almost {{count}} years'
+  }
+};
+
+function formatDistance (token, count, options) {
+  options = options || {};
+
+  var result;
+  if (typeof formatDistanceLocale[token] === 'string') {
+    result = formatDistanceLocale[token];
+  } else if (count === 1) {
+    result = formatDistanceLocale[token].one;
+  } else {
+    result = formatDistanceLocale[token].other.replace('{{count}}', count);
+  }
+
+  if (options.addSuffix) {
+    if (options.comparison > 0) {
+      return 'in ' + result
+    } else {
+      return result + ' ago'
+    }
+  }
+
+  return result
+}
+
+function buildFormatLongFn (args) {
+  return function (dirtyOptions) {
+    var options = dirtyOptions || {};
+    var width = options.width ? String(options.width) : args.defaultWidth;
+    var format = args.formats[width] || args.formats[args.defaultWidth];
+    return format
+  }
+}
+
+var dateFormats = {
+  full: 'EEEE, MMMM do, y',
+  long: 'MMMM do, y',
+  medium: 'MMM d, y',
+  short: 'MM/dd/yyyy'
+};
+
+var timeFormats = {
+  full: 'h:mm:ss a zzzz',
+  long: 'h:mm:ss a z',
+  medium: 'h:mm:ss a',
+  short: 'h:mm a'
+};
+
+var dateTimeFormats = {
+  full: "{{date}} 'at' {{time}}",
+  long: "{{date}} 'at' {{time}}",
+  medium: '{{date}}, {{time}}',
+  short: '{{date}}, {{time}}'
+};
+
+var formatLong = {
+  date: buildFormatLongFn({
+    formats: dateFormats,
+    defaultWidth: 'full'
+  }),
+
+  time: buildFormatLongFn({
+    formats: timeFormats,
+    defaultWidth: 'full'
+  }),
+
+  dateTime: buildFormatLongFn({
+    formats: dateTimeFormats,
+    defaultWidth: 'full'
+  })
+};
+
+var formatRelativeLocale = {
+  lastWeek: "'last' eeee 'at' p",
+  yesterday: "'yesterday at' p",
+  today: "'today at' p",
+  tomorrow: "'tomorrow at' p",
+  nextWeek: "eeee 'at' p",
+  other: 'P'
+};
+
+function formatRelative (token, date, baseDate, options) {
+  return formatRelativeLocale[token]
+}
+
+function buildLocalizeFn (args) {
+  return function (dirtyIndex, dirtyOptions) {
+    var options = dirtyOptions || {};
+    var width = options.width ? String(options.width) : args.defaultWidth;
+    var context = options.context ? String(options.context) : 'standalone';
+
+    var valuesArray;
+    if (context === 'formatting' && args.formattingValues) {
+      valuesArray = args.formattingValues[width] || args.formattingValues[args.defaultFormattingWidth];
+    } else {
+      valuesArray = args.values[width] || args.values[args.defaultWidth];
+    }
+    var index = args.argumentCallback ? args.argumentCallback(dirtyIndex) : dirtyIndex;
+    return valuesArray[index]
+  }
+}
+
+var eraValues = {
+  narrow: ['B', 'A'],
+  abbreviated: ['BC', 'AD'],
+  wide: ['Before Christ', 'Anno Domini']
+};
+
+var quarterValues = {
+  narrow: ['1', '2', '3', '4'],
+  abbreviated: ['Q1', 'Q2', 'Q3', 'Q4'],
+  wide: ['1st quarter', '2nd quarter', '3rd quarter', '4th quarter']
+};
+
+// Note: in English, the names of days of the week and months are capitalized.
+// If you are making a new locale based on this one, check if the same is true for the language you're working on.
+// Generally, formatted dates should look like they are in the middle of a sentence,
+// e.g. in Spanish language the weekdays and months should be in the lowercase.
+var monthValues = {
+  narrow: ['J', 'F', 'M', 'A', 'M', 'J', 'J', 'A', 'S', 'O', 'N', 'D'],
+  abbreviated: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'],
+  wide: ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December']
+};
+
+var dayValues = {
+  narrow: ['S', 'M', 'T', 'W', 'T', 'F', 'S'],
+  short: ['Su', 'Mo', 'Tu', 'We', 'Th', 'Fr', 'Sa'],
+  abbreviated: ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'],
+  wide: ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday']
+};
+
+var dayPeriodValues = {
+  narrow: {
+    am: 'a',
+    pm: 'p',
+    midnight: 'mi',
+    noon: 'n',
+    morning: 'morning',
+    afternoon: 'afternoon',
+    evening: 'evening',
+    night: 'night'
+  },
+  abbreviated: {
+    am: 'AM',
+    pm: 'PM',
+    midnight: 'midnight',
+    noon: 'noon',
+    morning: 'morning',
+    afternoon: 'afternoon',
+    evening: 'evening',
+    night: 'night'
+  },
+  wide: {
+    am: 'a.m.',
+    pm: 'p.m.',
+    midnight: 'midnight',
+    noon: 'noon',
+    morning: 'morning',
+    afternoon: 'afternoon',
+    evening: 'evening',
+    night: 'night'
+  }
+};
+var formattingDayPeriodValues = {
+  narrow: {
+    am: 'a',
+    pm: 'p',
+    midnight: 'mi',
+    noon: 'n',
+    morning: 'in the morning',
+    afternoon: 'in the afternoon',
+    evening: 'in the evening',
+    night: 'at night'
+  },
+  abbreviated: {
+    am: 'AM',
+    pm: 'PM',
+    midnight: 'midnight',
+    noon: 'noon',
+    morning: 'in the morning',
+    afternoon: 'in the afternoon',
+    evening: 'in the evening',
+    night: 'at night'
+  },
+  wide: {
+    am: 'a.m.',
+    pm: 'p.m.',
+    midnight: 'midnight',
+    noon: 'noon',
+    morning: 'in the morning',
+    afternoon: 'in the afternoon',
+    evening: 'in the evening',
+    night: 'at night'
+  }
+};
+
+function ordinalNumber (dirtyNumber, dirtyOptions) {
+  var number = Number(dirtyNumber);
+
+  // If ordinal numbers depend on context, for example,
+  // if they are different for different grammatical genders,
+  // use `options.unit`:
+  //
+  //   var options = dirtyOptions || {}
+  //   var unit = String(options.unit)
+  //
+  // where `unit` can be 'year', 'quarter', 'month', 'week', 'date', 'dayOfYear',
+  // 'day', 'hour', 'minute', 'second'
+
+  var rem100 = number % 100;
+  if (rem100 > 20 || rem100 < 10) {
+    switch (rem100 % 10) {
+      case 1:
+        return number + 'st'
+      case 2:
+        return number + 'nd'
+      case 3:
+        return number + 'rd'
+    }
+  }
+  return number + 'th'
+}
+
+var localize = {
+  ordinalNumber: ordinalNumber,
+
+  era: buildLocalizeFn({
+    values: eraValues,
+    defaultWidth: 'wide'
+  }),
+
+  quarter: buildLocalizeFn({
+    values: quarterValues,
+    defaultWidth: 'wide',
+    argumentCallback: function (quarter) {
+      return Number(quarter) - 1
+    }
+  }),
+
+  month: buildLocalizeFn({
+    values: monthValues,
+    defaultWidth: 'wide'
+  }),
+
+  day: buildLocalizeFn({
+    values: dayValues,
+    defaultWidth: 'wide'
+  }),
+
+  dayPeriod: buildLocalizeFn({
+    values: dayPeriodValues,
+    defaultWidth: 'wide',
+    formattingValues: formattingDayPeriodValues,
+    defaulFormattingWidth: 'wide'
+  })
+};
+
+function buildMatchPatternFn (args) {
+  return function (dirtyString, dirtyOptions) {
+    var string = String(dirtyString);
+    var options = dirtyOptions || {};
+
+    var matchResult = string.match(args.matchPattern);
+    if (!matchResult) {
+      return null
+    }
+    var matchedString = matchResult[0];
+
+    var parseResult = string.match(args.parsePattern);
+    if (!parseResult) {
+      return null
+    }
+    var value = args.valueCallback ? args.valueCallback(parseResult[0]) : parseResult[0];
+    value = options.valueCallback ? options.valueCallback(value) : value;
+
+    return {
+      value: value,
+      rest: string.slice(matchedString.length)
+    }
+  }
+}
+
+function buildMatchFn (args) {
+  return function (dirtyString, dirtyOptions) {
+    var string = String(dirtyString);
+    var options = dirtyOptions || {};
+    var width = options.width;
+
+    var matchPattern = (width && args.matchPatterns[width]) || args.matchPatterns[args.defaultMatchWidth];
+    var matchResult = string.match(matchPattern);
+
+    if (!matchResult) {
+      return null
+    }
+    var matchedString = matchResult[0];
+
+    var parsePatterns = (width && args.parsePatterns[width]) || args.parsePatterns[args.defaultParseWidth];
+
+    var value;
+    if (Object.prototype.toString.call(parsePatterns) === '[object Array]') {
+      value = parsePatterns.findIndex(function (pattern) {
+        return pattern.test(string)
+      });
+    } else {
+      value = findKey(parsePatterns, function (pattern) {
+        return pattern.test(string)
+      });
+    }
+
+    value = args.valueCallback ? args.valueCallback(value) : value;
+    value = options.valueCallback ? options.valueCallback(value) : value;
+
+    return {
+      value: value,
+      rest: string.slice(matchedString.length)
+    }
+  }
+}
+
+function findKey (object, predicate) {
+  for (var key in object) {
+    if (object.hasOwnProperty(key) && predicate(object[key])) {
+      return key
+    }
+  }
+}
+
+var matchOrdinalNumberPattern = /^(\d+)(th|st|nd|rd)?/i;
+var parseOrdinalNumberPattern = /\d+/i;
+
+var matchEraPatterns = {
+  narrow: /^(b|a)/i,
+  abbreviated: /^(b\.?\s?c\.?|b\.?\s?c\.?\s?e\.?|a\.?\s?d\.?|c\.?\s?e\.?)/i,
+  wide: /^(before christ|before common era|anno domini|common era)/i
+};
+var parseEraPatterns = {
+  any: [/^b/i, /^(a|c)/i]
+};
+
+var matchQuarterPatterns = {
+  narrow: /^[1234]/i,
+  abbreviated: /^q[1234]/i,
+  wide: /^[1234](th|st|nd|rd)? quarter/i
+};
+var parseQuarterPatterns = {
+  any: [/1/i, /2/i, /3/i, /4/i]
+};
+
+var matchMonthPatterns = {
+  narrow: /^[jfmasond]/i,
+  abbreviated: /^(jan|feb|mar|apr|may|jun|jul|aug|sep|oct|nov|dec)/i,
+  wide: /^(january|february|march|april|may|june|july|august|september|october|november|december)/i
+};
+var parseMonthPatterns = {
+  narrow: [/^j/i, /^f/i, /^m/i, /^a/i, /^m/i, /^j/i, /^j/i, /^a/i, /^s/i, /^o/i, /^n/i, /^d/i],
+  any: [/^ja/i, /^f/i, /^mar/i, /^ap/i, /^may/i, /^jun/i, /^jul/i, /^au/i, /^s/i, /^o/i, /^n/i, /^d/i]
+};
+
+var matchDayPatterns = {
+  narrow: /^[smtwf]/i,
+  short: /^(su|mo|tu|we|th|fr|sa)/i,
+  abbreviated: /^(sun|mon|tue|wed|thu|fri|sat)/i,
+  wide: /^(sunday|monday|tuesday|wednesday|thursday|friday|saturday)/i
+};
+var parseDayPatterns = {
+  narrow: [/^s/i, /^m/i, /^t/i, /^w/i, /^t/i, /^f/i, /^s/i],
+  any: [/^su/i, /^m/i, /^tu/i, /^w/i, /^th/i, /^f/i, /^sa/i]
+};
+
+var matchDayPeriodPatterns = {
+  narrow: /^(a|p|mi|n|(in the|at) (morning|afternoon|evening|night))/i,
+  any: /^([ap]\.?\s?m\.?|midnight|noon|(in the|at) (morning|afternoon|evening|night))/i
+};
+var parseDayPeriodPatterns = {
+  any: {
+    am: /^a/i,
+    pm: /^p/i,
+    midnight: /^mi/i,
+    noon: /^no/i,
+    morning: /morning/i,
+    afternoon: /afternoon/i,
+    evening: /evening/i,
+    night: /night/i
+  }
+};
+
+var match = {
+  ordinalNumber: buildMatchPatternFn({
+    matchPattern: matchOrdinalNumberPattern,
+    parsePattern: parseOrdinalNumberPattern,
+    valueCallback: function (value) {
+      return parseInt(value, 10)
+    }
+  }),
+
+  era: buildMatchFn({
+    matchPatterns: matchEraPatterns,
+    defaultMatchWidth: 'wide',
+    parsePatterns: parseEraPatterns,
+    defaultParseWidth: 'any'
+  }),
+
+  quarter: buildMatchFn({
+    matchPatterns: matchQuarterPatterns,
+    defaultMatchWidth: 'wide',
+    parsePatterns: parseQuarterPatterns,
+    defaultParseWidth: 'any',
+    valueCallback: function (index) {
+      return index + 1
+    }
+  }),
+
+  month: buildMatchFn({
+    matchPatterns: matchMonthPatterns,
+    defaultMatchWidth: 'wide',
+    parsePatterns: parseMonthPatterns,
+    defaultParseWidth: 'any'
+  }),
+
+  day: buildMatchFn({
+    matchPatterns: matchDayPatterns,
+    defaultMatchWidth: 'wide',
+    parsePatterns: parseDayPatterns,
+    defaultParseWidth: 'any'
+  }),
+
+  dayPeriod: buildMatchFn({
+    matchPatterns: matchDayPeriodPatterns,
+    defaultMatchWidth: 'any',
+    parsePatterns: parseDayPeriodPatterns,
+    defaultParseWidth: 'any'
+  })
+};
+
+/**
+ * @type {Locale}
+ * @category Locales
+ * @summary English locale (United States).
+ * @language English
+ * @iso-639-2 eng
+ * @author Sasha Koss [@kossnocorp]{@link https://github.com/kossnocorp}
+ * @author Lesha Koss [@leshakoss]{@link https://github.com/leshakoss}
+ */
+var locale$1 = {
+  formatDistance: formatDistance,
+  formatLong: formatLong,
+  formatRelative: formatRelative,
+  localize: localize,
+  match: match,
+  options: {
+    weekStartsOn: 0 /* Sunday */,
+    firstWeekContainsDate: 1
+  }
+};
+
+var MILLISECONDS_IN_DAY = 86400000;
+
+// This function will be a part of public API when UTC function will be implemented.
+// See issue: https://github.com/date-fns/date-fns/issues/376
+function getUTCDayOfYear (dirtyDate, dirtyOptions) {
+  if (arguments.length < 1) {
+    throw new TypeError('1 argument required, but only ' + arguments.length + ' present')
+  }
+
+  var date = toDate(dirtyDate, dirtyOptions);
+  var timestamp = date.getTime();
+  date.setUTCMonth(0, 1);
+  date.setUTCHours(0, 0, 0, 0);
+  var startOfYearTimestamp = date.getTime();
+  var difference = timestamp - startOfYearTimestamp;
+  return Math.floor(difference / MILLISECONDS_IN_DAY) + 1
+}
+
+// This function will be a part of public API when UTC function will be implemented.
+// See issue: https://github.com/date-fns/date-fns/issues/376
+function startOfUTCISOWeek (dirtyDate, dirtyOptions) {
+  if (arguments.length < 1) {
+    throw new TypeError('1 argument required, but only ' + arguments.length + ' present')
+  }
+
+  var weekStartsOn = 1;
+
+  var date = toDate(dirtyDate, dirtyOptions);
+  var day = date.getUTCDay();
+  var diff = (day < weekStartsOn ? 7 : 0) + day - weekStartsOn;
+
+  date.setUTCDate(date.getUTCDate() - diff);
+  date.setUTCHours(0, 0, 0, 0);
+  return date
+}
+
+// This function will be a part of public API when UTC function will be implemented.
+// See issue: https://github.com/date-fns/date-fns/issues/376
+function getUTCISOWeekYear (dirtyDate, dirtyOptions) {
+  if (arguments.length < 1) {
+    throw new TypeError('1 argument required, but only ' + arguments.length + ' present')
+  }
+
+  var date = toDate(dirtyDate, dirtyOptions);
+  var year = date.getUTCFullYear();
+
+  var fourthOfJanuaryOfNextYear = new Date(0);
+  fourthOfJanuaryOfNextYear.setUTCFullYear(year + 1, 0, 4);
+  fourthOfJanuaryOfNextYear.setUTCHours(0, 0, 0, 0);
+  var startOfNextYear = startOfUTCISOWeek(fourthOfJanuaryOfNextYear, dirtyOptions);
+
+  var fourthOfJanuaryOfThisYear = new Date(0);
+  fourthOfJanuaryOfThisYear.setUTCFullYear(year, 0, 4);
+  fourthOfJanuaryOfThisYear.setUTCHours(0, 0, 0, 0);
+  var startOfThisYear = startOfUTCISOWeek(fourthOfJanuaryOfThisYear, dirtyOptions);
+
+  if (date.getTime() >= startOfNextYear.getTime()) {
+    return year + 1
+  } else if (date.getTime() >= startOfThisYear.getTime()) {
+    return year
+  } else {
+    return year - 1
+  }
+}
+
+// This function will be a part of public API when UTC function will be implemented.
+// See issue: https://github.com/date-fns/date-fns/issues/376
+function startOfUTCISOWeekYear (dirtyDate, dirtyOptions) {
+  if (arguments.length < 1) {
+    throw new TypeError('1 argument required, but only ' + arguments.length + ' present')
+  }
+
+  var year = getUTCISOWeekYear(dirtyDate, dirtyOptions);
+  var fourthOfJanuary = new Date(0);
+  fourthOfJanuary.setUTCFullYear(year, 0, 4);
+  fourthOfJanuary.setUTCHours(0, 0, 0, 0);
+  var date = startOfUTCISOWeek(fourthOfJanuary, dirtyOptions);
+  return date
+}
+
+var MILLISECONDS_IN_WEEK = 604800000;
+
+// This function will be a part of public API when UTC function will be implemented.
+// See issue: https://github.com/date-fns/date-fns/issues/376
+function getUTCISOWeek (dirtyDate, dirtyOptions) {
+  if (arguments.length < 1) {
+    throw new TypeError('1 argument required, but only ' + arguments.length + ' present')
+  }
+
+  var date = toDate(dirtyDate, dirtyOptions);
+  var diff = startOfUTCISOWeek(date, dirtyOptions).getTime() - startOfUTCISOWeekYear(date, dirtyOptions).getTime();
+
+  // Round the number of days to the nearest integer
+  // because the number of milliseconds in a week is not constant
+  // (e.g. it's different in the week of the daylight saving time clock shift)
+  return Math.round(diff / MILLISECONDS_IN_WEEK) + 1
+}
+
+// This function will be a part of public API when UTC function will be implemented.
+// See issue: https://github.com/date-fns/date-fns/issues/376
+function startOfUTCWeek (dirtyDate, dirtyOptions) {
+  if (arguments.length < 1) {
+    throw new TypeError('1 argument required, but only ' + arguments.length + ' present')
+  }
+
+  var options = dirtyOptions || {};
+  var locale = options.locale;
+  var localeWeekStartsOn = locale && locale.options && locale.options.weekStartsOn;
+  var defaultWeekStartsOn = localeWeekStartsOn == null ? 0 : toInteger(localeWeekStartsOn);
+  var weekStartsOn = options.weekStartsOn == null ? defaultWeekStartsOn : toInteger(options.weekStartsOn);
+
+  // Test if weekStartsOn is between 0 and 6 _and_ is not NaN
+  if (!(weekStartsOn >= 0 && weekStartsOn <= 6)) {
+    throw new RangeError('weekStartsOn must be between 0 and 6 inclusively')
+  }
+
+  var date = toDate(dirtyDate, options);
+  var day = date.getUTCDay();
+  var diff = (day < weekStartsOn ? 7 : 0) + day - weekStartsOn;
+
+  date.setUTCDate(date.getUTCDate() - diff);
+  date.setUTCHours(0, 0, 0, 0);
+  return date
+}
+
+// This function will be a part of public API when UTC function will be implemented.
+// See issue: https://github.com/date-fns/date-fns/issues/376
+function getUTCWeekYear (dirtyDate, dirtyOptions) {
+  if (arguments.length < 1) {
+    throw new TypeError('1 argument required, but only ' + arguments.length + ' present')
+  }
+
+  var date = toDate(dirtyDate, dirtyOptions);
+  var year = date.getUTCFullYear();
+
+  var options = dirtyOptions || {};
+  var locale = options.locale;
+  var localeFirstWeekContainsDate = locale &&
+    locale.options &&
+    locale.options.firstWeekContainsDate;
+  var defaultFirstWeekContainsDate =
+    localeFirstWeekContainsDate == null
+      ? 1
+      : toInteger(localeFirstWeekContainsDate);
+  var firstWeekContainsDate =
+    options.firstWeekContainsDate == null
+      ? defaultFirstWeekContainsDate
+      : toInteger(options.firstWeekContainsDate);
+
+  // Test if weekStartsOn is between 1 and 7 _and_ is not NaN
+  if (!(firstWeekContainsDate >= 1 && firstWeekContainsDate <= 7)) {
+    throw new RangeError('firstWeekContainsDate must be between 1 and 7 inclusively')
+  }
+
+  var firstWeekOfNextYear = new Date(0);
+  firstWeekOfNextYear.setUTCFullYear(year + 1, 0, firstWeekContainsDate);
+  firstWeekOfNextYear.setUTCHours(0, 0, 0, 0);
+  var startOfNextYear = startOfUTCWeek(firstWeekOfNextYear, dirtyOptions);
+
+  var firstWeekOfThisYear = new Date(0);
+  firstWeekOfThisYear.setUTCFullYear(year, 0, firstWeekContainsDate);
+  firstWeekOfThisYear.setUTCHours(0, 0, 0, 0);
+  var startOfThisYear = startOfUTCWeek(firstWeekOfThisYear, dirtyOptions);
+
+  if (date.getTime() >= startOfNextYear.getTime()) {
+    return year + 1
+  } else if (date.getTime() >= startOfThisYear.getTime()) {
+    return year
+  } else {
+    return year - 1
+  }
+}
+
+// This function will be a part of public API when UTC function will be implemented.
+// See issue: https://github.com/date-fns/date-fns/issues/376
+function startOfUTCWeekYear (dirtyDate, dirtyOptions) {
+  if (arguments.length < 1) {
+    throw new TypeError('1 argument required, but only ' + arguments.length + ' present')
+  }
+
+  var options = dirtyOptions || {};
+  var locale = options.locale;
+  var localeFirstWeekContainsDate = locale &&
+    locale.options &&
+    locale.options.firstWeekContainsDate;
+  var defaultFirstWeekContainsDate =
+    localeFirstWeekContainsDate == null
+      ? 1
+      : toInteger(localeFirstWeekContainsDate);
+  var firstWeekContainsDate =
+    options.firstWeekContainsDate == null
+      ? defaultFirstWeekContainsDate
+      : toInteger(options.firstWeekContainsDate);
+
+  var year = getUTCWeekYear(dirtyDate, dirtyOptions);
+  var firstWeek = new Date(0);
+  firstWeek.setUTCFullYear(year, 0, firstWeekContainsDate);
+  firstWeek.setUTCHours(0, 0, 0, 0);
+  var date = startOfUTCWeek(firstWeek, dirtyOptions);
+  return date
+}
+
+var MILLISECONDS_IN_WEEK$1 = 604800000;
+
+// This function will be a part of public API when UTC function will be implemented.
+// See issue: https://github.com/date-fns/date-fns/issues/376
+function getUTCWeek (dirtyDate, dirtyOptions) {
+  if (arguments.length < 1) {
+    throw new TypeError('1 argument required, but only ' + arguments.length + ' present')
+  }
+
+  var date = toDate(dirtyDate, dirtyOptions);
+  var diff = startOfUTCWeek(date, dirtyOptions).getTime() - startOfUTCWeekYear(date, dirtyOptions).getTime();
+
+  // Round the number of days to the nearest integer
+  // because the number of milliseconds in a week is not constant
+  // (e.g. it's different in the week of the daylight saving time clock shift)
+  return Math.round(diff / MILLISECONDS_IN_WEEK$1) + 1
+}
+
+var dayPeriodEnum = {
+  am: 'am',
+  pm: 'pm',
+  midnight: 'midnight',
+  noon: 'noon',
+  morning: 'morning',
+  afternoon: 'afternoon',
+  evening: 'evening',
+  night: 'night'
+};
+
+/*
+ * |     | Unit                           |     | Unit                           |
+ * |-----|--------------------------------|-----|--------------------------------|
+ * |  a  | AM, PM                         |  A* | Milliseconds in day            |
+ * |  b  | AM, PM, noon, midnight         |  B  | Flexible day period            |
+ * |  c  | Stand-alone local day of week  |  C* | Localized hour w/ day period   |
+ * |  d  | Day of month                   |  D  | Day of year                    |
+ * |  e  | Local day of week              |  E  | Day of week                    |
+ * |  f  |                                |  F* | Day of week in month           |
+ * |  g* | Modified Julian day            |  G  | Era                            |
+ * |  h  | Hour [1-12]                    |  H  | Hour [0-23]                    |
+ * |  i! | ISO day of week                |  I! | ISO week of year               |
+ * |  j* | Localized hour w/ day period   |  J* | Localized hour w/o day period  |
+ * |  k  | Hour [1-24]                    |  K  | Hour [0-11]                    |
+ * |  l* | (deprecated)                   |  L  | Stand-alone month              |
+ * |  m  | Minute                         |  M  | Month                          |
+ * |  n  |                                |  N  |                                |
+ * |  o! | Ordinal number modifier        |  O  | Timezone (GMT)                 |
+ * |  p! | Long localized time            |  P! | Long localized date            |
+ * |  q  | Stand-alone quarter            |  Q  | Quarter                        |
+ * |  r* | Related Gregorian year         |  R! | ISO week-numbering year        |
+ * |  s  | Second                         |  S  | Fraction of second             |
+ * |  t! | Seconds timestamp              |  T! | Milliseconds timestamp         |
+ * |  u  | Extended year                  |  U* | Cyclic year                    |
+ * |  v* | Timezone (generic non-locat.)  |  V* | Timezone (location)            |
+ * |  w  | Local week of year             |  W* | Week of month                  |
+ * |  x  | Timezone (ISO-8601 w/o Z)      |  X  | Timezone (ISO-8601)            |
+ * |  y  | Year (abs)                     |  Y  | Local week-numbering year      |
+ * |  z  | Timezone (specific non-locat.) |  Z* | Timezone (aliases)             |
+ *
+ * Letters marked by * are not implemented but reserved by Unicode standard.
+ *
+ * Letters marked by ! are non-standard, but implemented by date-fns:
+ * - `o` modifies the previous token to turn it into an ordinal (see `format` docs)
+ * - `i` is ISO day of week. For `i` and `ii` is returns numeric ISO week days,
+ *   i.e. 7 for Sunday, 1 for Monday, etc.
+ * - `I` is ISO week of year, as opposed to `w` which is local week of year.
+ * - `R` is ISO week-numbering year, as opposed to `Y` which is local week-numbering year.
+ *   `R` is supposed to be used in conjunction with `I` and `i`
+ *   for universal ISO week-numbering date, whereas
+ *   `Y` is supposed to be used in conjunction with `w` and `e`
+ *   for week-numbering date specific to the locale.
+ * - `P` is long localized date format
+ * - `p` is long localized time format
+ */
+
+var formatters = {
+  // Era
+  G: function (date, token, localize) {
+    var era = date.getUTCFullYear() > 0 ? 1 : 0;
+    switch (token) {
+      // AD, BC
+      case 'G':
+      case 'GG':
+      case 'GGG':
+        return localize.era(era, {width: 'abbreviated'})
+      // A, B
+      case 'GGGGG':
+        return localize.era(era, {width: 'narrow'})
+      // Anno Domini, Before Christ
+      case 'GGGG':
+      default:
+        return localize.era(era, {width: 'wide'})
+    }
+  },
+
+  // Year
+  y: function (date, token, localize, options) {
+    // From http://www.unicode.org/reports/tr35/tr35-31/tr35-dates.html#Date_Format_tokens
+    // | Year     |     y | yy |   yyy |  yyyy | yyyyy |
+    // |----------|-------|----|-------|-------|-------|
+    // | AD 1     |     1 | 01 |   001 |  0001 | 00001 |
+    // | AD 12    |    12 | 12 |   012 |  0012 | 00012 |
+    // | AD 123   |   123 | 23 |   123 |  0123 | 00123 |
+    // | AD 1234  |  1234 | 34 |  1234 |  1234 | 01234 |
+    // | AD 12345 | 12345 | 45 | 12345 | 12345 | 12345 |
+
+    var signedYear = date.getUTCFullYear();
+
+    // Returns 1 for 1 BC (which is year 0 in JavaScript)
+    var year = signedYear > 0 ? signedYear : 1 - signedYear;
+
+    // Two digit year
+    if (token === 'yy') {
+      var twoDigitYear = year % 100;
+      return addLeadingZeros(twoDigitYear, 2)
+    }
+
+    // Ordinal number
+    if (token === 'yo') {
+      return localize.ordinalNumber(year, {unit: 'year'})
+    }
+
+    // Padding
+    return addLeadingZeros(year, token.length)
+  },
+
+  // Local week-numbering year
+  Y: function (date, token, localize, options) {
+    var signedWeekYear = getUTCWeekYear(date, options);
+    var weekYear = signedWeekYear > 0 ? signedWeekYear : 1 - signedWeekYear;
+
+    // Two digit year
+    if (token === 'YY') {
+      var twoDigitYear = weekYear % 100;
+      return addLeadingZeros(twoDigitYear, 2)
+    }
+
+    // Ordinal number
+    if (token === 'Yo') {
+      return localize.ordinalNumber(weekYear, {unit: 'year'})
+    }
+
+    // Padding
+    return addLeadingZeros(weekYear, token.length)
+  },
+
+  // ISO week-numbering year
+  R: function (date, token, localize, options) {
+    var isoWeekYear = getUTCISOWeekYear(date, options);
+
+    // Padding
+    return addLeadingZeros(isoWeekYear, token.length)
+  },
+
+  // Extended year. This is a single number designating the year of this calendar system.
+  // The main difference between `y` and `u` localizers are B.C. years:
+  // | Year | `y` | `u` |
+  // |------|-----|-----|
+  // | AC 1 |   1 |   1 |
+  // | BC 1 |   1 |   0 |
+  // | BC 2 |   2 |  -1 |
+  // Also `yy` always returns the last two digits of a year,
+  // while `uu` pads single digit years to 2 characters and returns other years unchanged.
+  u: function (date, token, localize, options) {
+    var year = date.getUTCFullYear();
+    return addLeadingZeros(year, token.length)
+  },
+
+  // Quarter
+  Q: function (date, token, localize, options) {
+    var quarter = Math.ceil((date.getUTCMonth() + 1) / 3);
+    switch (token) {
+      // 1, 2, 3, 4
+      case 'Q':
+        return String(quarter)
+      // 01, 02, 03, 04
+      case 'QQ':
+        return addLeadingZeros(quarter, 2)
+      // 1st, 2nd, 3rd, 4th
+      case 'Qo':
+        return localize.ordinalNumber(quarter, {unit: 'quarter'})
+      // Q1, Q2, Q3, Q4
+      case 'QQQ':
+        return localize.quarter(quarter, {width: 'abbreviated', context: 'formatting'})
+      // 1, 2, 3, 4 (narrow quarter; could be not numerical)
+      case 'QQQQQ':
+        return localize.quarter(quarter, {width: 'narrow', context: 'formatting'})
+      // 1st quarter, 2nd quarter, ...
+      case 'QQQQ':
+      default:
+        return localize.quarter(quarter, {width: 'wide', context: 'formatting'})
+    }
+  },
+
+  // Stand-alone quarter
+  q: function (date, token, localize, options) {
+    var quarter = Math.ceil((date.getUTCMonth() + 1) / 3);
+    switch (token) {
+      // 1, 2, 3, 4
+      case 'q':
+        return String(quarter)
+      // 01, 02, 03, 04
+      case 'qq':
+        return addLeadingZeros(quarter, 2)
+      // 1st, 2nd, 3rd, 4th
+      case 'qo':
+        return localize.ordinalNumber(quarter, {unit: 'quarter'})
+      // Q1, Q2, Q3, Q4
+      case 'qqq':
+        return localize.quarter(quarter, {width: 'abbreviated', context: 'standalone'})
+      // 1, 2, 3, 4 (narrow quarter; could be not numerical)
+      case 'qqqqq':
+        return localize.quarter(quarter, {width: 'narrow', context: 'standalone'})
+      // 1st quarter, 2nd quarter, ...
+      case 'qqqq':
+      default:
+        return localize.quarter(quarter, {width: 'wide', context: 'standalone'})
+    }
+  },
+
+  // Month
+  M: function (date, token, localize, options) {
+    var month = date.getUTCMonth();
+    switch (token) {
+      // 1, 2, ..., 12
+      case 'M':
+        return String(month + 1)
+      // 01, 02, ..., 12
+      case 'MM':
+        return addLeadingZeros(month + 1, 2)
+      // 1st, 2nd, ..., 12th
+      case 'Mo':
+        return localize.ordinalNumber(month + 1, {unit: 'month'})
+      // Jan, Feb, ..., Dec
+      case 'MMM':
+        return localize.month(month, {width: 'abbreviated', context: 'formatting'})
+      // J, F, ..., D
+      case 'MMMMM':
+        return localize.month(month, {width: 'narrow', context: 'formatting'})
+      // January, February, ..., December
+      case 'MMMM':
+      default:
+        return localize.month(month, {width: 'wide', context: 'formatting'})
+    }
+  },
+
+  // Stand-alone month
+  L: function (date, token, localize, options) {
+    var month = date.getUTCMonth();
+    switch (token) {
+      // 1, 2, ..., 12
+      case 'L':
+        return String(month + 1)
+      // 01, 02, ..., 12
+      case 'LL':
+        return addLeadingZeros(month + 1, 2)
+      // 1st, 2nd, ..., 12th
+      case 'Lo':
+        return localize.ordinalNumber(month + 1, {unit: 'month'})
+      // Jan, Feb, ..., Dec
+      case 'LLL':
+        return localize.month(month, {width: 'abbreviated', context: 'standalone'})
+      // J, F, ..., D
+      case 'LLLLL':
+        return localize.month(month, {width: 'narrow', context: 'standalone'})
+      // January, February, ..., December
+      case 'LLLL':
+      default:
+        return localize.month(month, {width: 'wide', context: 'standalone'})
+    }
+  },
+
+  // Local week of year
+  w: function (date, token, localize, options) {
+    var week = getUTCWeek(date, options);
+
+    if (token === 'wo') {
+      return localize.ordinalNumber(week, {unit: 'week'})
+    }
+
+    return addLeadingZeros(week, token.length)
+  },
+
+  // ISO week of year
+  I: function (date, token, localize, options) {
+    var isoWeek = getUTCISOWeek(date, options);
+
+    if (token === 'Io') {
+      return localize.ordinalNumber(isoWeek, {unit: 'week'})
+    }
+
+    return addLeadingZeros(isoWeek, token.length)
+  },
+
+  // Day of the month
+  d: function (date, token, localize, options) {
+    var dayOfMonth = date.getUTCDate();
+
+    if (token === 'do') {
+      return localize.ordinalNumber(dayOfMonth, {unit: 'date'})
+    }
+
+    return addLeadingZeros(dayOfMonth, token.length)
+  },
+
+  // Day of year
+  D: function (date, token, localize, options) {
+    var dayOfYear = getUTCDayOfYear(date, options);
+
+    if (token === 'Do') {
+      return localize.ordinalNumber(dayOfYear, {unit: 'dayOfYear'})
+    }
+
+    return addLeadingZeros(dayOfYear, token.length)
+  },
+
+  // Day of week
+  E: function (date, token, localize, options) {
+    var dayOfWeek = date.getUTCDay();
+    switch (token) {
+      // Tue
+      case 'E':
+      case 'EE':
+      case 'EEE':
+        return localize.day(dayOfWeek, {width: 'abbreviated', context: 'formatting'})
+      // T
+      case 'EEEEE':
+        return localize.day(dayOfWeek, {width: 'narrow', context: 'formatting'})
+      // Tu
+      case 'EEEEEE':
+        return localize.day(dayOfWeek, {width: 'short', context: 'formatting'})
+      // Tuesday
+      case 'EEEE':
+      default:
+        return localize.day(dayOfWeek, {width: 'wide', context: 'formatting'})
+    }
+  },
+
+  // Local day of week
+  e: function (date, token, localize, options) {
+    var dayOfWeek = date.getUTCDay();
+    var localDayOfWeek = ((dayOfWeek - options.weekStartsOn + 8) % 7) || 7;
+    switch (token) {
+      // Numerical value (Nth day of week with current locale or weekStartsOn)
+      case 'e':
+        return String(localDayOfWeek)
+      // Padded numerical value
+      case 'ee':
+        return addLeadingZeros(localDayOfWeek, 2)
+      // 1st, 2nd, ..., 7th
+      case 'eo':
+        return localize.ordinalNumber(localDayOfWeek, {unit: 'day'})
+      case 'eee':
+        return localize.day(dayOfWeek, {width: 'abbreviated', context: 'formatting'})
+      // T
+      case 'eeeee':
+        return localize.day(dayOfWeek, {width: 'narrow', context: 'formatting'})
+      // Tu
+      case 'eeeeee':
+        return localize.day(dayOfWeek, {width: 'short', context: 'formatting'})
+      // Tuesday
+      case 'eeee':
+      default:
+        return localize.day(dayOfWeek, {width: 'wide', context: 'formatting'})
+    }
+  },
+
+  // Stand-alone local day of week
+  c: function (date, token, localize, options) {
+    var dayOfWeek = date.getUTCDay();
+    var localDayOfWeek = ((dayOfWeek - options.weekStartsOn + 8) % 7) || 7;
+    switch (token) {
+      // Numerical value (same as in `e`)
+      case 'c':
+        return String(localDayOfWeek)
+      // Padded numberical value
+      case 'cc':
+        return addLeadingZeros(localDayOfWeek, token.length)
+      // 1st, 2nd, ..., 7th
+      case 'co':
+        return localize.ordinalNumber(localDayOfWeek, {unit: 'day'})
+      case 'ccc':
+        return localize.day(dayOfWeek, {width: 'abbreviated', context: 'standalone'})
+      // T
+      case 'ccccc':
+        return localize.day(dayOfWeek, {width: 'narrow', context: 'standalone'})
+      // Tu
+      case 'cccccc':
+        return localize.day(dayOfWeek, {width: 'short', context: 'standalone'})
+      // Tuesday
+      case 'cccc':
+      default:
+        return localize.day(dayOfWeek, {width: 'wide', context: 'standalone'})
+    }
+  },
+
+  // ISO day of week
+  i: function (date, token, localize, options) {
+    var dayOfWeek = date.getUTCDay();
+    var isoDayOfWeek = dayOfWeek === 0 ? 7 : dayOfWeek;
+    switch (token) {
+      // 2
+      case 'i':
+        return String(isoDayOfWeek)
+      // 02
+      case 'ii':
+        return addLeadingZeros(isoDayOfWeek, token.length)
+      // 2nd
+      case 'io':
+        return localize.ordinalNumber(isoDayOfWeek, {unit: 'day'})
+      // Tue
+      case 'iii':
+        return localize.day(dayOfWeek, {width: 'abbreviated', context: 'formatting'})
+      // T
+      case 'iiiii':
+        return localize.day(dayOfWeek, {width: 'narrow', context: 'formatting'})
+      // Tu
+      case 'iiiiii':
+        return localize.day(dayOfWeek, {width: 'short', context: 'formatting'})
+      // Tuesday
+      case 'iiii':
+      default:
+        return localize.day(dayOfWeek, {width: 'wide', context: 'formatting'})
+    }
+  },
+
+  // AM or PM
+  a: function (date, token, localize) {
+    var hours = date.getUTCHours();
+    var dayPeriodEnumValue = (hours / 12) >= 1 ? 'pm' : 'am';
+
+    switch (token) {
+      case 'a':
+      case 'aa':
+      case 'aaa':
+        return localize.dayPeriod(dayPeriodEnumValue, {width: 'abbreviated', context: 'formatting'})
+      case 'aaaaa':
+        return localize.dayPeriod(dayPeriodEnumValue, {width: 'narrow', context: 'formatting'})
+      case 'aaaa':
+      default:
+        return localize.dayPeriod(dayPeriodEnumValue, {width: 'wide', context: 'formatting'})
+    }
+  },
+
+  // AM, PM, midnight, noon
+  b: function (date, token, localize) {
+    var hours = date.getUTCHours();
+    var dayPeriodEnumValue;
+    if (hours === 12) {
+      dayPeriodEnumValue = dayPeriodEnum.noon;
+    } else if (hours === 0) {
+      dayPeriodEnumValue = dayPeriodEnum.midnight;
+    } else {
+      dayPeriodEnumValue = (hours / 12) >= 1 ? 'pm' : 'am';
+    }
+
+    switch (token) {
+      case 'b':
+      case 'bb':
+      case 'bbb':
+        return localize.dayPeriod(dayPeriodEnumValue, {width: 'abbreviated', context: 'formatting'})
+      case 'bbbbb':
+        return localize.dayPeriod(dayPeriodEnumValue, {width: 'narrow', context: 'formatting'})
+      case 'bbbb':
+      default:
+        return localize.dayPeriod(dayPeriodEnumValue, {width: 'wide', context: 'formatting'})
+    }
+  },
+
+  // in the morning, in the afternoon, in the evening, at night
+  B: function (date, token, localize) {
+    var hours = date.getUTCHours();
+    var dayPeriodEnumValue;
+    if (hours >= 17) {
+      dayPeriodEnumValue = dayPeriodEnum.evening;
+    } else if (hours >= 12) {
+      dayPeriodEnumValue = dayPeriodEnum.afternoon;
+    } else if (hours >= 4) {
+      dayPeriodEnumValue = dayPeriodEnum.morning;
+    } else {
+      dayPeriodEnumValue = dayPeriodEnum.night;
+    }
+
+    switch (token) {
+      case 'B':
+      case 'BB':
+      case 'BBB':
+        return localize.dayPeriod(dayPeriodEnumValue, {width: 'abbreviated', context: 'formatting'})
+      case 'BBBBB':
+        return localize.dayPeriod(dayPeriodEnumValue, {width: 'narrow', context: 'formatting'})
+      case 'BBBB':
+      default:
+        return localize.dayPeriod(dayPeriodEnumValue, {width: 'wide', context: 'formatting'})
+    }
+  },
+
+  // Hour [1-12]
+  h: function (date, token, localize, options) {
+    var hours = date.getUTCHours() % 12;
+
+    if (hours === 0) {
+      hours = 12;
+    }
+
+    if (token === 'ho') {
+      return localize.ordinalNumber(hours, {unit: 'hour'})
+    }
+
+    return addLeadingZeros(hours, token.length)
+  },
+
+  // Hour [0-23]
+  H: function (date, token, localize, options) {
+    var hours = date.getUTCHours();
+
+    if (token === 'Ho') {
+      return localize.ordinalNumber(hours, {unit: 'hour'})
+    }
+
+    return addLeadingZeros(hours, token.length)
+  },
+
+  // Hour [0-11]
+  K: function (date, token, localize, options) {
+    var hours = date.getUTCHours() % 12;
+
+    if (token === 'Ko') {
+      return localize.ordinalNumber(hours, {unit: 'hour'})
+    }
+
+    return addLeadingZeros(hours, token.length)
+  },
+
+  // Hour [1-24]
+  k: function (date, token, localize, options) {
+    var hours = date.getUTCHours();
+
+    if (hours === 0) {
+      hours = 24;
+    }
+
+    if (token === 'ko') {
+      return localize.ordinalNumber(hours, {unit: 'hour'})
+    }
+
+    return addLeadingZeros(hours, token.length)
+  },
+
+  // Minute
+  m: function (date, token, localize, options) {
+    var minutes = date.getUTCMinutes();
+
+    if (token === 'mo') {
+      return localize.ordinalNumber(minutes, {unit: 'minute'})
+    }
+
+    return addLeadingZeros(minutes, token.length)
+  },
+
+  // Second
+  s: function (date, token, localize, options) {
+    var seconds = date.getUTCSeconds();
+
+    if (token === 'so') {
+      return localize.ordinalNumber(seconds, {unit: 'second'})
+    }
+
+    return addLeadingZeros(seconds, token.length)
+  },
+
+  // Fraction of second
+  S: function (date, token, localize, options) {
+    var numberOfDigits = token.length;
+    var milliseconds = date.getUTCMilliseconds();
+    var fractionalSeconds = Math.floor(milliseconds * Math.pow(10, numberOfDigits - 3));
+    return addLeadingZeros(fractionalSeconds, numberOfDigits)
+  },
+
+  // Timezone (ISO-8601. If offset is 0, output is always `'Z'`)
+  X: function (date, token, localize, options) {
+    var originalDate = options._originalDate || date;
+    var timezoneOffset = originalDate.getTimezoneOffset();
+
+    if (timezoneOffset === 0) {
+      return 'Z'
+    }
+
+    switch (token) {
+      // Hours and optional minutes
+      case 'X':
+        return formatTimezoneWithOptionalMinutes(timezoneOffset)
+
+      // Hours, minutes and optional seconds without `:` delimeter
+      // Note: neither ISO-8601 nor JavaScript supports seconds in timezone offsets
+      // so this token always has the same output as `XX`
+      case 'XXXX':
+      case 'XX': // Hours and minutes without `:` delimeter
+        return formatTimezone(timezoneOffset)
+
+      // Hours, minutes and optional seconds with `:` delimeter
+      // Note: neither ISO-8601 nor JavaScript supports seconds in timezone offsets
+      // so this token always has the same output as `XXX`
+      case 'XXXXX':
+      case 'XXX': // Hours and minutes with `:` delimeter
+      default:
+        return formatTimezone(timezoneOffset, ':')
+    }
+  },
+
+  // Timezone (ISO-8601. If offset is 0, output is `'+00:00'` or equivalent)
+  x: function (date, token, localize, options) {
+    var originalDate = options._originalDate || date;
+    var timezoneOffset = originalDate.getTimezoneOffset();
+
+    switch (token) {
+      // Hours and optional minutes
+      case 'x':
+        return formatTimezoneWithOptionalMinutes(timezoneOffset)
+
+      // Hours, minutes and optional seconds without `:` delimeter
+      // Note: neither ISO-8601 nor JavaScript supports seconds in timezone offsets
+      // so this token always has the same output as `xx`
+      case 'xxxx':
+      case 'xx': // Hours and minutes without `:` delimeter
+        return formatTimezone(timezoneOffset)
+
+      // Hours, minutes and optional seconds with `:` delimeter
+      // Note: neither ISO-8601 nor JavaScript supports seconds in timezone offsets
+      // so this token always has the same output as `xxx`
+      case 'xxxxx':
+      case 'xxx': // Hours and minutes with `:` delimeter
+      default:
+        return formatTimezone(timezoneOffset, ':')
+    }
+  },
+
+  // Timezone (GMT)
+  O: function (date, token, localize, options) {
+    var originalDate = options._originalDate || date;
+    var timezoneOffset = originalDate.getTimezoneOffset();
+
+    switch (token) {
+      // Short
+      case 'O':
+      case 'OO':
+      case 'OOO':
+        return 'GMT' + formatTimezoneShort(timezoneOffset, ':')
+      // Long
+      case 'OOOO':
+      default:
+        return 'GMT' + formatTimezone(timezoneOffset, ':')
+    }
+  },
+
+  // Timezone (specific non-location)
+  z: function (date, token, localize, options) {
+    var originalDate = options._originalDate || date;
+    var timezoneOffset = originalDate.getTimezoneOffset();
+
+    switch (token) {
+      // Short
+      case 'z':
+      case 'zz':
+      case 'zzz':
+        return 'GMT' + formatTimezoneShort(timezoneOffset, ':')
+      // Long
+      case 'zzzz':
+      default:
+        return 'GMT' + formatTimezone(timezoneOffset, ':')
+    }
+  },
+
+  // Seconds timestamp
+  t: function (date, token, localize, options) {
+    var originalDate = options._originalDate || date;
+    var timestamp = Math.floor(originalDate.getTime() / 1000);
+    return addLeadingZeros(timestamp, token.length)
+  },
+
+  // Milliseconds timestamp
+  T: function (date, token, localize, options) {
+    var originalDate = options._originalDate || date;
+    var timestamp = originalDate.getTime();
+    return addLeadingZeros(timestamp, token.length)
+  }
+};
+
+function addLeadingZeros (number, targetLength) {
+  var sign = number < 0 ? '-' : '';
+  var output = Math.abs(number).toString();
+  while (output.length < targetLength) {
+    output = '0' + output;
+  }
+  return sign + output
+}
+
+function formatTimezone (offset, dirtyDelimeter) {
+  var delimeter = dirtyDelimeter || '';
+  var sign = offset > 0 ? '-' : '+';
+  var absOffset = Math.abs(offset);
+  var hours = addLeadingZeros(Math.floor(absOffset / 60), 2);
+  var minutes = addLeadingZeros(absOffset % 60, 2);
+  return sign + hours + delimeter + minutes
+}
+
+function formatTimezoneWithOptionalMinutes (offset, dirtyDelimeter) {
+  if (offset % 60 === 0) {
+    var sign = offset > 0 ? '-' : '+';
+    return sign + addLeadingZeros(Math.abs(offset) / 60, 2)
+  }
+  return formatTimezone(offset, dirtyDelimeter)
+}
+
+function formatTimezoneShort (offset, dirtyDelimeter) {
+  var sign = offset > 0 ? '-' : '+';
+  var absOffset = Math.abs(offset);
+  var hours = Math.floor(absOffset / 60);
+  var minutes = absOffset % 60;
+  if (minutes === 0) {
+    return sign + String(hours)
+  }
+  var delimeter = dirtyDelimeter || '';
+  return sign + String(hours) + delimeter + addLeadingZeros(minutes, 2)
+}
+
+function dateLongFormatter (pattern, formatLong, options) {
+  switch (pattern) {
+    case 'P':
+      return formatLong.date({width: 'short'})
+    case 'PP':
+      return formatLong.date({width: 'medium'})
+    case 'PPP':
+      return formatLong.date({width: 'long'})
+    case 'PPPP':
+    default:
+      return formatLong.date({width: 'full'})
+  }
+}
+
+function timeLongFormatter (pattern, formatLong, options) {
+  switch (pattern) {
+    case 'p':
+      return formatLong.time({width: 'short'})
+    case 'pp':
+      return formatLong.time({width: 'medium'})
+    case 'ppp':
+      return formatLong.time({width: 'long'})
+    case 'pppp':
+    default:
+      return formatLong.time({width: 'full'})
+  }
+}
+
+function dateTimeLongFormatter (pattern, formatLong, options) {
+  var matchResult = pattern.match(/(P+)(p+)?/);
+  var datePattern = matchResult[1];
+  var timePattern = matchResult[2];
+
+  if (!timePattern) {
+    return dateLongFormatter(pattern, formatLong)
+  }
+
+  var dateTimeFormat;
+
+  switch (datePattern) {
+    case 'P':
+      dateTimeFormat = formatLong.dateTime({width: 'short'});
+      break
+    case 'PP':
+      dateTimeFormat = formatLong.dateTime({width: 'medium'});
+      break
+    case 'PPP':
+      dateTimeFormat = formatLong.dateTime({width: 'long'});
+      break
+    case 'PPPP':
+    default:
+      dateTimeFormat = formatLong.dateTime({width: 'full'});
+      break
+  }
+
+  return dateTimeFormat
+    .replace('{{date}}', dateLongFormatter(datePattern, formatLong))
+    .replace('{{time}}', timeLongFormatter(timePattern, formatLong))
+}
+
+var longFormatters = {
+  p: timeLongFormatter,
+  P: dateTimeLongFormatter
+};
+
+/**
+ * @name subMilliseconds
+ * @category Millisecond Helpers
+ * @summary Subtract the specified number of milliseconds from the given date.
+ *
+ * @description
+ * Subtract the specified number of milliseconds from the given date.
+ *
+ * @param {Date|String|Number} date - the date to be changed
+ * @param {Number} amount - the amount of milliseconds to be subtracted
+ * @param {Options} [options] - the object with options. See [Options]{@link https://date-fns.org/docs/Options}
+ * @param {0|1|2} [options.additionalDigits=2] - passed to `toDate`. See [toDate]{@link https://date-fns.org/docs/toDate}
+ * @returns {Date} the new date with the milliseconds subtracted
+ * @throws {TypeError} 2 arguments required
+ * @throws {RangeError} `options.additionalDigits` must be 0, 1 or 2
+ *
+ * @example
+ * // Subtract 750 milliseconds from 10 July 2014 12:45:30.000:
+ * var result = subMilliseconds(new Date(2014, 6, 10, 12, 45, 30, 0), 750)
+ * //=> Thu Jul 10 2014 12:45:29.250
+ */
+function subMilliseconds (dirtyDate, dirtyAmount, dirtyOptions) {
+  if (arguments.length < 2) {
+    throw new TypeError('2 arguments required, but only ' + arguments.length + ' present')
+  }
+
+  var amount = toInteger(dirtyAmount);
+  return addMilliseconds(dirtyDate, -amount, dirtyOptions)
+}
+
+var protectedTokens = ['D', 'DD', 'YY', 'YYYY'];
+
+function isProtectedToken(token) {
+  return protectedTokens.indexOf(token) !== -1
+}
+
+function throwProtectedError(token) {
+  throw new RangeError(
+    '`options.awareOfUnicodeTokens` must be set to `true` to use `' +
+      token +
+      '` token; see: https://git.io/fxCyr'
   )
 }
-var staticRenderFns = []
-render._withStripped = true
 
+// This RegExp consists of three parts separated by `|`:
+// - [yYQqMLwIdDecihHKkms]o matches any available ordinal number token
+//   (one of the certain letters followed by `o`)
+// - (\w)\1* matches any sequences of the same letter
+// - '' matches two quote characters in a row
+// - '(''|[^'])+('|$) matches anything surrounded by two quote characters ('),
+//   except a single quote symbol, which ends the sequence.
+//   Two quote characters do not end the sequence.
+//   If there is no matching single quote
+//   then the sequence will continue until the end of the string.
+// - . matches any single character unmatched by previous parts of the RegExps
+var formattingTokensRegExp = /[yYQqMLwIdDecihHKkms]o|(\w)\1*|''|'(''|[^'])+('|$)|./g;
 
+// This RegExp catches symbols escaped by quotes, and also
+// sequences of symbols P, p, and the combinations like `PPPPPPPppppp`
+var longFormattingTokensRegExp = /P+p+|P+|p+|''|'(''|[^'])+('|$)|./g;
 
-/***/ }),
+var escapedStringRegExp = /^'(.*?)'?$/;
+var doubleQuoteRegExp = /''/g;
 
-/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/admin/src/layout/footer.vue?vue&type=template&id=7e660be7&":
-/*!***************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/admin/src/layout/footer.vue?vue&type=template&id=7e660be7& ***!
-  \***************************************************************************************************************************************************************************************************************/
-/*! exports provided: render, staticRenderFns */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
+/**
+ * @name format
+ * @category Common Helpers
+ * @summary Format the date.
+ *
+ * @description
+ * Return the formatted date string in the given format. The result may vary by locale.
+ *
+ * > ⚠️ Please note that the `format` tokens differ from Moment.js and other libraries.
+ * > See: https://git.io/fxCyr
+ *
+ * The characters wrapped between two single quotes characters (') are escaped.
+ * Two single quotes in a row, whether inside or outside a quoted sequence, represent a 'real' single quote.
+ * (see the last example)
+ *
+ * Format of the string is based on Unicode Technical Standard #35:
+ * https://www.unicode.org/reports/tr35/tr35-dates.html#Date_Field_Symbol_Table
+ * with a few additions (see note 7 below the table).
+ *
+ * Accepted patterns:
+ * | Unit                            | Pattern | Result examples                   | Notes |
+ * |---------------------------------|---------|-----------------------------------|-------|
+ * | Era                             | G..GGG  | AD, BC                            |       |
+ * |                                 | GGGG    | Anno Domini, Before Christ        | 2     |
+ * |                                 | GGGGG   | A, B                              |       |
+ * | Calendar year                   | y       | 44, 1, 1900, 2017                 | 5     |
+ * |                                 | yo      | 44th, 1st, 0th, 17th              | 5,7   |
+ * |                                 | yy      | 44, 01, 00, 17                    | 5     |
+ * |                                 | yyy     | 044, 001, 1900, 2017              | 5     |
+ * |                                 | yyyy    | 0044, 0001, 1900, 2017            | 5     |
+ * |                                 | yyyyy   | ...                               | 3,5   |
+ * | Local week-numbering year       | Y       | 44, 1, 1900, 2017                 | 5     |
+ * |                                 | Yo      | 44th, 1st, 1900th, 2017th         | 5,7   |
+ * |                                 | YY      | 44, 01, 00, 17                    | 5,8   |
+ * |                                 | YYY     | 044, 001, 1900, 2017              | 5     |
+ * |                                 | YYYY    | 0044, 0001, 1900, 2017            | 5,8   |
+ * |                                 | YYYYY   | ...                               | 3,5   |
+ * | ISO week-numbering year         | R       | -43, 0, 1, 1900, 2017             | 5,7   |
+ * |                                 | RR      | -43, 00, 01, 1900, 2017           | 5,7   |
+ * |                                 | RRR     | -043, 000, 001, 1900, 2017        | 5,7   |
+ * |                                 | RRRR    | -0043, 0000, 0001, 1900, 2017     | 5,7   |
+ * |                                 | RRRRR   | ...                               | 3,5,7 |
+ * | Extended year                   | u       | -43, 0, 1, 1900, 2017             | 5     |
+ * |                                 | uu      | -43, 01, 1900, 2017               | 5     |
+ * |                                 | uuu     | -043, 001, 1900, 2017             | 5     |
+ * |                                 | uuuu    | -0043, 0001, 1900, 2017           | 5     |
+ * |                                 | uuuuu   | ...                               | 3,5   |
+ * | Quarter (formatting)            | Q       | 1, 2, 3, 4                        |       |
+ * |                                 | Qo      | 1st, 2nd, 3rd, 4th                | 7     |
+ * |                                 | QQ      | 01, 02, 03, 04                    |       |
+ * |                                 | QQQ     | Q1, Q2, Q3, Q4                    |       |
+ * |                                 | QQQQ    | 1st quarter, 2nd quarter, ...     | 2     |
+ * |                                 | QQQQQ   | 1, 2, 3, 4                        | 4     |
+ * | Quarter (stand-alone)           | q       | 1, 2, 3, 4                        |       |
+ * |                                 | qo      | 1st, 2nd, 3rd, 4th                | 7     |
+ * |                                 | qq      | 01, 02, 03, 04                    |       |
+ * |                                 | qqq     | Q1, Q2, Q3, Q4                    |       |
+ * |                                 | qqqq    | 1st quarter, 2nd quarter, ...     | 2     |
+ * |                                 | qqqqq   | 1, 2, 3, 4                        | 4     |
+ * | Month (formatting)              | M       | 1, 2, ..., 12                     |       |
+ * |                                 | Mo      | 1st, 2nd, ..., 12th               | 7     |
+ * |                                 | MM      | 01, 02, ..., 12                   |       |
+ * |                                 | MMM     | Jan, Feb, ..., Dec                |       |
+ * |                                 | MMMM    | January, February, ..., December  | 2     |
+ * |                                 | MMMMM   | J, F, ..., D                      |       |
+ * | Month (stand-alone)             | L       | 1, 2, ..., 12                     |       |
+ * |                                 | Lo      | 1st, 2nd, ..., 12th               | 7     |
+ * |                                 | LL      | 01, 02, ..., 12                   |       |
+ * |                                 | LLL     | Jan, Feb, ..., Dec                |       |
+ * |                                 | LLLL    | January, February, ..., December  | 2     |
+ * |                                 | LLLLL   | J, F, ..., D                      |       |
+ * | Local week of year              | w       | 1, 2, ..., 53                     |       |
+ * |                                 | wo      | 1st, 2nd, ..., 53th               | 7     |
+ * |                                 | ww      | 01, 02, ..., 53                   |       |
+ * | ISO week of year                | I       | 1, 2, ..., 53                     | 7     |
+ * |                                 | Io      | 1st, 2nd, ..., 53th               | 7     |
+ * |                                 | II      | 01, 02, ..., 53                   | 7     |
+ * | Day of month                    | d       | 1, 2, ..., 31                     |       |
+ * |                                 | do      | 1st, 2nd, ..., 31st               | 7     |
+ * |                                 | dd      | 01, 02, ..., 31                   |       |
+ * | Day of year                     | D       | 1, 2, ..., 365, 366               | 8     |
+ * |                                 | Do      | 1st, 2nd, ..., 365th, 366th       | 7     |
+ * |                                 | DD      | 01, 02, ..., 365, 366             | 8     |
+ * |                                 | DDD     | 001, 002, ..., 365, 366           |       |
+ * |                                 | DDDD    | ...                               | 3     |
+ * | Day of week (formatting)        | E..EEE  | Mon, Tue, Wed, ..., Su            |       |
+ * |                                 | EEEE    | Monday, Tuesday, ..., Sunday      | 2     |
+ * |                                 | EEEEE   | M, T, W, T, F, S, S               |       |
+ * |                                 | EEEEEE  | Mo, Tu, We, Th, Fr, Su, Sa        |       |
+ * | ISO day of week (formatting)    | i       | 1, 2, 3, ..., 7                   | 7     |
+ * |                                 | io      | 1st, 2nd, ..., 7th                | 7     |
+ * |                                 | ii      | 01, 02, ..., 07                   | 7     |
+ * |                                 | iii     | Mon, Tue, Wed, ..., Su            | 7     |
+ * |                                 | iiii    | Monday, Tuesday, ..., Sunday      | 2,7   |
+ * |                                 | iiiii   | M, T, W, T, F, S, S               | 7     |
+ * |                                 | iiiiii  | Mo, Tu, We, Th, Fr, Su, Sa        | 7     |
+ * | Local day of week (formatting)  | e       | 2, 3, 4, ..., 1                   |       |
+ * |                                 | eo      | 2nd, 3rd, ..., 1st                | 7     |
+ * |                                 | ee      | 02, 03, ..., 01                   |       |
+ * |                                 | eee     | Mon, Tue, Wed, ..., Su            |       |
+ * |                                 | eeee    | Monday, Tuesday, ..., Sunday      | 2     |
+ * |                                 | eeeee   | M, T, W, T, F, S, S               |       |
+ * |                                 | eeeeee  | Mo, Tu, We, Th, Fr, Su, Sa        |       |
+ * | Local day of week (stand-alone) | c       | 2, 3, 4, ..., 1                   |       |
+ * |                                 | co      | 2nd, 3rd, ..., 1st                | 7     |
+ * |                                 | cc      | 02, 03, ..., 01                   |       |
+ * |                                 | ccc     | Mon, Tue, Wed, ..., Su            |       |
+ * |                                 | cccc    | Monday, Tuesday, ..., Sunday      | 2     |
+ * |                                 | ccccc   | M, T, W, T, F, S, S               |       |
+ * |                                 | cccccc  | Mo, Tu, We, Th, Fr, Su, Sa        |       |
+ * | AM, PM                          | a..aaa  | AM, PM                            |       |
+ * |                                 | aaaa    | a.m., p.m.                        | 2     |
+ * |                                 | aaaaa   | a, p                              |       |
+ * | AM, PM, noon, midnight          | b..bbb  | AM, PM, noon, midnight            |       |
+ * |                                 | bbbb    | a.m., p.m., noon, midnight        | 2     |
+ * |                                 | bbbbb   | a, p, n, mi                       |       |
+ * | Flexible day period             | B..BBB  | at night, in the morning, ...     |       |
+ * |                                 | BBBB    | at night, in the morning, ...     | 2     |
+ * |                                 | BBBBB   | at night, in the morning, ...     |       |
+ * | Hour [1-12]                     | h       | 1, 2, ..., 11, 12                 |       |
+ * |                                 | ho      | 1st, 2nd, ..., 11th, 12th         | 7     |
+ * |                                 | hh      | 01, 02, ..., 11, 12               |       |
+ * | Hour [0-23]                     | H       | 0, 1, 2, ..., 23                  |       |
+ * |                                 | Ho      | 0th, 1st, 2nd, ..., 23rd          | 7     |
+ * |                                 | HH      | 00, 01, 02, ..., 23               |       |
+ * | Hour [0-11]                     | K       | 1, 2, ..., 11, 0                  |       |
+ * |                                 | Ko      | 1st, 2nd, ..., 11th, 0th          | 7     |
+ * |                                 | KK      | 1, 2, ..., 11, 0                  |       |
+ * | Hour [1-24]                     | k       | 24, 1, 2, ..., 23                 |       |
+ * |                                 | ko      | 24th, 1st, 2nd, ..., 23rd         | 7     |
+ * |                                 | kk      | 24, 01, 02, ..., 23               |       |
+ * | Minute                          | m       | 0, 1, ..., 59                     |       |
+ * |                                 | mo      | 0th, 1st, ..., 59th               | 7     |
+ * |                                 | mm      | 00, 01, ..., 59                   |       |
+ * | Second                          | s       | 0, 1, ..., 59                     |       |
+ * |                                 | so      | 0th, 1st, ..., 59th               | 7     |
+ * |                                 | ss      | 00, 01, ..., 59                   |       |
+ * | Fraction of second              | S       | 0, 1, ..., 9                      |       |
+ * |                                 | SS      | 00, 01, ..., 99                   |       |
+ * |                                 | SSS     | 000, 0001, ..., 999               |       |
+ * |                                 | SSSS    | ...                               | 3     |
+ * | Timezone (ISO-8601 w/ Z)        | X       | -08, +0530, Z                     |       |
+ * |                                 | XX      | -0800, +0530, Z                   |       |
+ * |                                 | XXX     | -08:00, +05:30, Z                 |       |
+ * |                                 | XXXX    | -0800, +0530, Z, +123456          | 2     |
+ * |                                 | XXXXX   | -08:00, +05:30, Z, +12:34:56      |       |
+ * | Timezone (ISO-8601 w/o Z)       | x       | -08, +0530, +00                   |       |
+ * |                                 | xx      | -0800, +0530, +0000               |       |
+ * |                                 | xxx     | -08:00, +05:30, +00:00            | 2     |
+ * |                                 | xxxx    | -0800, +0530, +0000, +123456      |       |
+ * |                                 | xxxxx   | -08:00, +05:30, +00:00, +12:34:56 |       |
+ * | Timezone (GMT)                  | O...OOO | GMT-8, GMT+5:30, GMT+0            |       |
+ * |                                 | OOOO    | GMT-08:00, GMT+05:30, GMT+00:00   | 2     |
+ * | Timezone (specific non-locat.)  | z...zzz | GMT-8, GMT+5:30, GMT+0            | 6     |
+ * |                                 | zzzz    | GMT-08:00, GMT+05:30, GMT+00:00   | 2,6   |
+ * | Seconds timestamp               | t       | 512969520                         | 7     |
+ * |                                 | tt      | ...                               | 3,7   |
+ * | Milliseconds timestamp          | T       | 512969520900                      | 7     |
+ * |                                 | TT      | ...                               | 3,7   |
+ * | Long localized date             | P       | 05/29/1453                        | 7     |
+ * |                                 | PP      | May 29, 1453                      | 7     |
+ * |                                 | PPP     | May 29th, 1453                    | 7     |
+ * |                                 | PPPP    | Sunday, May 29th, 1453            | 2,7   |
+ * | Long localized time             | p       | 12:00 AM                          | 7     |
+ * |                                 | pp      | 12:00:00 AM                       | 7     |
+ * |                                 | ppp     | 12:00:00 AM GMT+2                 | 7     |
+ * |                                 | pppp    | 12:00:00 AM GMT+02:00             | 2,7   |
+ * | Combination of date and time    | Pp      | 05/29/1453, 12:00 AM              | 7     |
+ * |                                 | PPpp    | May 29, 1453, 12:00:00 AM         | 7     |
+ * |                                 | PPPppp  | May 29th, 1453 at ...             | 7     |
+ * |                                 | PPPPpppp| Sunday, May 29th, 1453 at ...     | 2,7   |
+ * Notes:
+ * 1. "Formatting" units (e.g. formatting quarter) in the default en-US locale
+ *    are the same as "stand-alone" units, but are different in some languages.
+ *    "Formatting" units are declined according to the rules of the language
+ *    in the context of a date. "Stand-alone" units are always nominative singular:
+ *
+ *    `format(new Date(2017, 10, 6), 'do LLLL', {locale: cs}) //=> '6. listopad'`
+ *
+ *    `format(new Date(2017, 10, 6), 'do MMMM', {locale: cs}) //=> '6. listopadu'`
+ *
+ * 2. Any sequence of the identical letters is a pattern, unless it is escaped by
+ *    the single quote characters (see below).
+ *    If the sequence is longer than listed in table (e.g. `EEEEEEEEEEE`)
+ *    the output will be the same as default pattern for this unit, usually
+ *    the longest one (in case of ISO weekdays, `EEEE`). Default patterns for units
+ *    are marked with "2" in the last column of the table.
+ *
+ *    `format(new Date(2017, 10, 6), 'MMM') //=> 'Nov'`
+ *
+ *    `format(new Date(2017, 10, 6), 'MMMM') //=> 'November'`
+ *
+ *    `format(new Date(2017, 10, 6), 'MMMMM') //=> 'N'`
+ *
+ *    `format(new Date(2017, 10, 6), 'MMMMMM') //=> 'November'`
+ *
+ *    `format(new Date(2017, 10, 6), 'MMMMMMM') //=> 'November'`
+ *
+ * 3. Some patterns could be unlimited length (such as `yyyyyyyy`).
+ *    The output will be padded with zeros to match the length of the pattern.
+ *
+ *    `format(new Date(2017, 10, 6), 'yyyyyyyy') //=> '00002017'`
+ *
+ * 4. `QQQQQ` and `qqqqq` could be not strictly numerical in some locales.
+ *    These tokens represent the shortest form of the quarter.
+ *
+ * 5. The main difference between `y` and `u` patterns are B.C. years:
+ *
+ *    | Year | `y` | `u` |
+ *    |------|-----|-----|
+ *    | AC 1 |   1 |   1 |
+ *    | BC 1 |   1 |   0 |
+ *    | BC 2 |   2 |  -1 |
+ *
+ *    Also `yy` always returns the last two digits of a year,
+ *    while `uu` pads single digit years to 2 characters and returns other years unchanged:
+ *
+ *    | Year | `yy` | `uu` |
+ *    |------|------|------|
+ *    | 1    |   01 |   01 |
+ *    | 14   |   14 |   14 |
+ *    | 376  |   76 |  376 |
+ *    | 1453 |   53 | 1453 |
+ *
+ *    The same difference is true for local and ISO week-numbering years (`Y` and `R`),
+ *    except local week-numbering years are dependent on `options.weekStartsOn`
+ *    and `options.firstWeekContainsDate` (compare [getISOWeekYear]{@link https://date-fns.org/docs/getISOWeekYear}
+ *    and [getWeekYear]{@link https://date-fns.org/docs/getWeekYear}).
+ *
+ * 6. Specific non-location timezones are currently unavailable in `date-fns`,
+ *    so right now these tokens fall back to GMT timezones.
+ *
+ * 7. These patterns are not in the Unicode Technical Standard #35:
+ *    - `i`: ISO day of week
+ *    - `I`: ISO week of year
+ *    - `R`: ISO week-numbering year
+ *    - `t`: seconds timestamp
+ *    - `T`: milliseconds timestamp
+ *    - `o`: ordinal number modifier
+ *    - `P`: long localized date
+ *    - `p`: long localized time
+ *
+ * 8. These tokens are often confused with others. See: https://git.io/fxCyr
+ *
+ * @param {Date|String|Number} date - the original date
+ * @param {String} format - the string of tokens
+ * @param {Options} [options] - the object with options. See [Options]{@link https://date-fns.org/docs/Options}
+ * @param {0|1|2} [options.additionalDigits=2] - passed to `toDate`. See [toDate]{@link https://date-fns.org/docs/toDate}
+ * @param {0|1|2|3|4|5|6} [options.weekStartsOn=0] - the index of the first day of the week (0 - Sunday)
+ * @param {Number} [options.firstWeekContainsDate=1] - the day of January, which is
+ * @param {Locale} [options.locale=defaultLocale] - the locale object. See [Locale]{@link https://date-fns.org/docs/Locale}
+ * @param {Boolean} [options.awareOfUnicodeTokens=false] - if true, allows usage of Unicode tokens causes confusion:
+ *   - Some of the day of year tokens (`D`, `DD`) that are confused with the day of month tokens (`d`, `dd`).
+ *   - Some of the local week-numbering year tokens (`YY`, `YYYY`) that are confused with the calendar year tokens (`yy`, `yyyy`).
+ *   See: https://git.io/fxCyr
+ * @returns {String} the formatted date string
+ * @throws {TypeError} 2 arguments required
+ * @throws {RangeError} `options.additionalDigits` must be 0, 1 or 2
+ * @throws {RangeError} `options.locale` must contain `localize` property
+ * @throws {RangeError} `options.locale` must contain `formatLong` property
+ * @throws {RangeError} `options.weekStartsOn` must be between 0 and 6
+ * @throws {RangeError} `options.firstWeekContainsDate` must be between 1 and 7
+ * @throws {RangeError} `options.awareOfUnicodeTokens` must be set to `true` to use `XX` token; see: https://git.io/fxCyr
+ *
+ * @example
+ * // Represent 11 February 2014 in middle-endian format:
+ * var result = format(
+ *   new Date(2014, 1, 11),
+ *   'MM/dd/yyyy'
+ * )
+ * //=> '02/11/2014'
+ *
+ * @example
+ * // Represent 2 July 2014 in Esperanto:
+ * import { eoLocale } from 'date-fns/locale/eo'
+ * var result = format(
+ *   new Date(2014, 6, 2),
+ *   "do 'de' MMMM yyyy",
+ *   {locale: eoLocale}
+ * )
+ * //=> '2-a de julio 2014'
+ *
+ * @example
+ * // Escape string by single quote characters:
+ * var result = format(
+ *   new Date(2014, 6, 2, 15),
+ *   "h 'o''clock'"
+ * )
+ * //=> "3 o'clock"
+ */
+function format(dirtyDate, dirtyFormatStr, dirtyOptions) {
+  if (arguments.length < 2) {
+    throw new TypeError(
+      '2 arguments required, but only ' + arguments.length + ' present'
+    )
+  }
 
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
-var render = function() {
-  var _vm = this
-  var _h = _vm.$createElement
-  var _c = _vm._self._c || _h
-  return _c("div", [_vm._v("\n    Footer\n")])
+  var formatStr = String(dirtyFormatStr);
+  var options = dirtyOptions || {};
+
+  var locale = options.locale || locale$1;
+
+  var localeFirstWeekContainsDate =
+    locale.options && locale.options.firstWeekContainsDate;
+  var defaultFirstWeekContainsDate =
+    localeFirstWeekContainsDate == null
+      ? 1
+      : toInteger(localeFirstWeekContainsDate);
+  var firstWeekContainsDate =
+    options.firstWeekContainsDate == null
+      ? defaultFirstWeekContainsDate
+      : toInteger(options.firstWeekContainsDate);
+
+  // Test if weekStartsOn is between 1 and 7 _and_ is not NaN
+  if (!(firstWeekContainsDate >= 1 && firstWeekContainsDate <= 7)) {
+    throw new RangeError(
+      'firstWeekContainsDate must be between 1 and 7 inclusively'
+    )
+  }
+
+  var localeWeekStartsOn = locale.options && locale.options.weekStartsOn;
+  var defaultWeekStartsOn =
+    localeWeekStartsOn == null ? 0 : toInteger(localeWeekStartsOn);
+  var weekStartsOn =
+    options.weekStartsOn == null
+      ? defaultWeekStartsOn
+      : toInteger(options.weekStartsOn);
+
+  // Test if weekStartsOn is between 0 and 6 _and_ is not NaN
+  if (!(weekStartsOn >= 0 && weekStartsOn <= 6)) {
+    throw new RangeError('weekStartsOn must be between 0 and 6 inclusively')
+  }
+
+  if (!locale.localize) {
+    throw new RangeError('locale must contain localize property')
+  }
+
+  if (!locale.formatLong) {
+    throw new RangeError('locale must contain formatLong property')
+  }
+
+  var originalDate = toDate(dirtyDate, options);
+
+  if (!isValid(originalDate, options)) {
+    return 'Invalid Date'
+  }
+
+  // Convert the date in system timezone to the same date in UTC+00:00 timezone.
+  // This ensures that when UTC functions will be implemented, locales will be compatible with them.
+  // See an issue about UTC functions: https://github.com/date-fns/date-fns/issues/376
+  var timezoneOffset = getTimezoneOffsetInMilliseconds(originalDate);
+  var utcDate = subMilliseconds(originalDate, timezoneOffset, options);
+
+  var formatterOptions = {
+    firstWeekContainsDate: firstWeekContainsDate,
+    weekStartsOn: weekStartsOn,
+    locale: locale,
+    _originalDate: originalDate
+  };
+
+  var result = formatStr
+    .match(longFormattingTokensRegExp)
+    .map(function(substring) {
+      var firstCharacter = substring[0];
+      if (firstCharacter === 'p' || firstCharacter === 'P') {
+        var longFormatter = longFormatters[firstCharacter];
+        return longFormatter(substring, locale.formatLong, formatterOptions)
+      }
+      return substring
+    })
+    .join('')
+    .match(formattingTokensRegExp)
+    .map(function(substring) {
+      // Replace two single quote characters with one single quote character
+      if (substring === "''") {
+        return "'"
+      }
+
+      var firstCharacter = substring[0];
+      if (firstCharacter === "'") {
+        return cleanEscapedString(substring)
+      }
+
+      var formatter = formatters[firstCharacter];
+      if (formatter) {
+        if (!options.awareOfUnicodeTokens && isProtectedToken(substring)) {
+          throwProtectedError(substring);
+        }
+        return formatter(utcDate, substring, locale.localize, formatterOptions)
+      }
+
+      return substring
+    })
+    .join('');
+
+  return result
 }
-var staticRenderFns = []
-render._withStripped = true
 
-
-
-/***/ }),
-
-/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/admin/src/layout/header.vue?vue&type=template&id=c0cf204e&":
-/*!***************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/admin/src/layout/header.vue?vue&type=template&id=c0cf204e& ***!
-  \***************************************************************************************************************************************************************************************************************/
-/*! exports provided: render, staticRenderFns */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
-var render = function() {
-  var _vm = this
-  var _h = _vm.$createElement
-  var _c = _vm._self._c || _h
-  return _c("div", [_vm._v("\n    Header\n")])
+function cleanEscapedString(input) {
+  return input.match(escapedStringRegExp)[1].replace(doubleQuoteRegExp, "'")
 }
-var staticRenderFns = []
-render._withStripped = true
+
+/**
+ * @name isAfter
+ * @category Common Helpers
+ * @summary Is the first date after the second one?
+ *
+ * @description
+ * Is the first date after the second one?
+ *
+ * @param {Date|String|Number} date - the date that should be after the other one to return true
+ * @param {Date|String|Number} dateToCompare - the date to compare with
+ * @param {Options} [options] - the object with options. See [Options]{@link https://date-fns.org/docs/Options}
+ * @param {0|1|2} [options.additionalDigits=2] - passed to `toDate`. See [toDate]{@link https://date-fns.org/docs/toDate}
+ * @returns {Boolean} the first date is after the second date
+ * @throws {TypeError} 2 arguments required
+ * @throws {RangeError} `options.additionalDigits` must be 0, 1 or 2
+ *
+ * @example
+ * // Is 10 July 1989 after 11 February 1987?
+ * var result = isAfter(new Date(1989, 6, 10), new Date(1987, 1, 11))
+ * //=> true
+ */
+function isAfter (dirtyDate, dirtyDateToCompare, dirtyOptions) {
+  if (arguments.length < 2) {
+    throw new TypeError('2 arguments required, but only ' + arguments.length + ' present')
+  }
+
+  var date = toDate(dirtyDate, dirtyOptions);
+  var dateToCompare = toDate(dirtyDateToCompare, dirtyOptions);
+  return date.getTime() > dateToCompare.getTime()
+}
+
+/**
+ * @name isBefore
+ * @category Common Helpers
+ * @summary Is the first date before the second one?
+ *
+ * @description
+ * Is the first date before the second one?
+ *
+ * @param {Date|String|Number} date - the date that should be before the other one to return true
+ * @param {Date|String|Number} dateToCompare - the date to compare with
+ * @param {Options} [options] - the object with options. See [Options]{@link https://date-fns.org/docs/Options}
+ * @param {0|1|2} [options.additionalDigits=2] - passed to `toDate`. See [toDate]{@link https://date-fns.org/docs/toDate}
+ * @returns {Boolean} the first date is before the second date
+ * @throws {TypeError} 2 arguments required
+ * @throws {RangeError} `options.additionalDigits` must be 0, 1 or 2
+ *
+ * @example
+ * // Is 10 July 1989 before 11 February 1987?
+ * var result = isBefore(new Date(1989, 6, 10), new Date(1987, 1, 11))
+ * //=> false
+ */
+function isBefore (dirtyDate, dirtyDateToCompare, dirtyOptions) {
+  if (arguments.length < 2) {
+    throw new TypeError('2 arguments required, but only ' + arguments.length + ' present')
+  }
+
+  var date = toDate(dirtyDate, dirtyOptions);
+  var dateToCompare = toDate(dirtyDateToCompare, dirtyOptions);
+  return date.getTime() < dateToCompare.getTime()
+}
+
+/**
+ * @name isEqual
+ * @category Common Helpers
+ * @summary Are the given dates equal?
+ *
+ * @description
+ * Are the given dates equal?
+ *
+ * @param {Date|String|Number} dateLeft - the first date to compare
+ * @param {Date|String|Number} dateRight - the second date to compare
+ * @param {Options} [options] - the object with options. See [Options]{@link https://date-fns.org/docs/Options}
+ * @param {0|1|2} [options.additionalDigits=2] - passed to `toDate`. See [toDate]{@link https://date-fns.org/docs/toDate}
+ * @returns {Boolean} the dates are equal
+ * @throws {TypeError} 2 arguments required
+ * @throws {RangeError} `options.additionalDigits` must be 0, 1 or 2
+ *
+ * @example
+ * // Are 2 July 2014 06:30:45.000 and 2 July 2014 06:30:45.500 equal?
+ * var result = isEqual(
+ *   new Date(2014, 6, 2, 6, 30, 45, 0)
+ *   new Date(2014, 6, 2, 6, 30, 45, 500)
+ * )
+ * //=> false
+ */
+function isEqual$1 (dirtyLeftDate, dirtyRightDate, dirtyOptions) {
+  if (arguments.length < 2) {
+    throw new TypeError('2 arguments required, but only ' + arguments.length + ' present')
+  }
+
+  var dateLeft = toDate(dirtyLeftDate, dirtyOptions);
+  var dateRight = toDate(dirtyRightDate, dirtyOptions);
+  return dateLeft.getTime() === dateRight.getTime()
+}
+
+// This function will be a part of public API when UTC function will be implemented.
+// See issue: https://github.com/date-fns/date-fns/issues/376
+function setUTCDay (dirtyDate, dirtyDay, dirtyOptions) {
+  if (arguments.length < 2) {
+    throw new TypeError('2 arguments required, but only ' + arguments.length + ' present')
+  }
+
+  var options = dirtyOptions || {};
+  var locale = options.locale;
+  var localeWeekStartsOn = locale && locale.options && locale.options.weekStartsOn;
+  var defaultWeekStartsOn = localeWeekStartsOn == null ? 0 : toInteger(localeWeekStartsOn);
+  var weekStartsOn = options.weekStartsOn == null ? defaultWeekStartsOn : toInteger(options.weekStartsOn);
+
+  // Test if weekStartsOn is between 0 and 6 _and_ is not NaN
+  if (!(weekStartsOn >= 0 && weekStartsOn <= 6)) {
+    throw new RangeError('weekStartsOn must be between 0 and 6 inclusively')
+  }
+
+  var date = toDate(dirtyDate, dirtyOptions);
+  var day = toInteger(dirtyDay);
+
+  var currentDay = date.getUTCDay();
+
+  var remainder = day % 7;
+  var dayIndex = (remainder + 7) % 7;
+
+  var diff = (dayIndex < weekStartsOn ? 7 : 0) + day - currentDay;
+
+  date.setUTCDate(date.getUTCDate() + diff);
+  return date
+}
+
+// This function will be a part of public API when UTC function will be implemented.
+// See issue: https://github.com/date-fns/date-fns/issues/376
+function setUTCWeek (dirtyDate, dirtyWeek, dirtyOptions) {
+  if (arguments.length < 2) {
+    throw new TypeError('2 arguments required, but only ' + arguments.length + ' present')
+  }
+
+  var date = toDate(dirtyDate, dirtyOptions);
+  var week = toInteger(dirtyWeek);
+  var diff = getUTCWeek(date, dirtyOptions) - week;
+  date.setUTCDate(date.getUTCDate() - diff * 7);
+  return date
+}
+
+// This function will be a part of public API when UTC function will be implemented.
+// See issue: https://github.com/date-fns/date-fns/issues/376
+function setUTCISODay (dirtyDate, dirtyDay, dirtyOptions) {
+  if (arguments.length < 2) {
+    throw new TypeError('2 arguments required, but only ' + arguments.length + ' present')
+  }
+
+  var day = toInteger(dirtyDay);
+
+  if (day % 7 === 0) {
+    day = day - 7;
+  }
+
+  var weekStartsOn = 1;
+  var date = toDate(dirtyDate, dirtyOptions);
+  var currentDay = date.getUTCDay();
+
+  var remainder = day % 7;
+  var dayIndex = (remainder + 7) % 7;
+
+  var diff = (dayIndex < weekStartsOn ? 7 : 0) + day - currentDay;
+
+  date.setUTCDate(date.getUTCDate() + diff);
+  return date
+}
+
+// This function will be a part of public API when UTC function will be implemented.
+// See issue: https://github.com/date-fns/date-fns/issues/376
+function setUTCISOWeek (dirtyDate, dirtyISOWeek, dirtyOptions) {
+  if (arguments.length < 2) {
+    throw new TypeError('2 arguments required, but only ' + arguments.length + ' present')
+  }
+
+  var date = toDate(dirtyDate, dirtyOptions);
+  var isoWeek = toInteger(dirtyISOWeek);
+  var diff = getUTCISOWeek(date, dirtyOptions) - isoWeek;
+  date.setUTCDate(date.getUTCDate() - diff * 7);
+  return date
+}
+
+var MILLISECONDS_IN_HOUR$1 = 3600000;
+var MILLISECONDS_IN_MINUTE$2 = 60000;
+var MILLISECONDS_IN_SECOND = 1000;
+
+var numericPatterns = {
+  month: /^(1[0-2]|0?\d)/, // 0 to 12
+  date: /^(3[0-1]|[0-2]?\d)/, // 0 to 31
+  dayOfYear: /^(36[0-6]|3[0-5]\d|[0-2]?\d?\d)/, // 0 to 366
+  week: /^(5[0-3]|[0-4]?\d)/, // 0 to 53
+  hour23h: /^(2[0-3]|[0-1]?\d)/, // 0 to 23
+  hour24h: /^(2[0-4]|[0-1]?\d)/, // 0 to 24
+  hour11h: /^(1[0-1]|0?\d)/, // 0 to 11
+  hour12h: /^(1[0-2]|0?\d)/, // 0 to 12
+  minute: /^[0-5]?\d/, // 0 to 59
+  second: /^[0-5]?\d/, // 0 to 59
+
+  singleDigit: /^\d/, // 0 to 9
+  twoDigits: /^\d{1,2}/, // 0 to 99
+  threeDigits: /^\d{1,3}/, // 0 to 999
+  fourDigits: /^\d{1,4}/, // 0 to 9999
+
+  anyDigitsSigned: /^-?\d+/,
+  singleDigitSigned: /^-?\d/, // 0 to 9, -0 to -9
+  twoDigitsSigned: /^-?\d{1,2}/, // 0 to 99, -0 to -99
+  threeDigitsSigned: /^-?\d{1,3}/, // 0 to 999, -0 to -999
+  fourDigitsSigned: /^-?\d{1,4}/ // 0 to 9999, -0 to -9999
+};
+
+var timezonePatterns = {
+  basicOptionalMinutes: /^([+-])(\d{2})(\d{2})?|Z/,
+  basic: /^([+-])(\d{2})(\d{2})|Z/,
+  basicOptionalSeconds: /^([+-])(\d{2})(\d{2})((\d{2}))?|Z/,
+  extended: /^([+-])(\d{2}):(\d{2})|Z/,
+  extendedOptionalSeconds: /^([+-])(\d{2}):(\d{2})(:(\d{2}))?|Z/
+};
+
+function parseNumericPattern (pattern, string, valueCallback) {
+  var matchResult = string.match(pattern);
+
+  if (!matchResult) {
+    return null
+  }
+
+  var value = parseInt(matchResult[0], 10);
+
+  return {
+    value: valueCallback ? valueCallback(value) : value,
+    rest: string.slice(matchResult[0].length)
+  }
+}
+
+function parseTimezonePattern (pattern, string) {
+  var matchResult = string.match(pattern);
+
+  if (!matchResult) {
+    return null
+  }
+
+  // Input is 'Z'
+  if (matchResult[0] === 'Z') {
+    return {
+      value: 0,
+      rest: string.slice(1)
+    }
+  }
+
+  var sign = matchResult[1] === '+' ? 1 : -1;
+  var hours = matchResult[2] ? parseInt(matchResult[2], 10) : 0;
+  var minutes = matchResult[3] ? parseInt(matchResult[3], 10) : 0;
+  var seconds = matchResult[5] ? parseInt(matchResult[5], 10) : 0;
+
+  return {
+    value: sign * (
+      hours * MILLISECONDS_IN_HOUR$1 +
+        minutes * MILLISECONDS_IN_MINUTE$2 +
+        seconds * MILLISECONDS_IN_SECOND
+    ),
+    rest: string.slice(matchResult[0].length)
+  }
+}
+
+function parseAnyDigitsSigned (string, valueCallback) {
+  return parseNumericPattern(numericPatterns.anyDigitsSigned, string, valueCallback)
+}
+
+function parseNDigits (n, string, valueCallback) {
+  switch (n) {
+    case 1:
+      return parseNumericPattern(numericPatterns.singleDigit, string, valueCallback)
+    case 2:
+      return parseNumericPattern(numericPatterns.twoDigits, string, valueCallback)
+    case 3:
+      return parseNumericPattern(numericPatterns.threeDigits, string, valueCallback)
+    case 4:
+      return parseNumericPattern(numericPatterns.fourDigits, string, valueCallback)
+    default:
+      return parseNumericPattern(new RegExp('^\\d{1,' + n + '}'), string, valueCallback)
+  }
+}
+
+function parseNDigitsSigned (n, string, valueCallback) {
+  switch (n) {
+    case 1:
+      return parseNumericPattern(numericPatterns.singleDigitSigned, string, valueCallback)
+    case 2:
+      return parseNumericPattern(numericPatterns.twoDigitsSigned, string, valueCallback)
+    case 3:
+      return parseNumericPattern(numericPatterns.threeDigitsSigned, string, valueCallback)
+    case 4:
+      return parseNumericPattern(numericPatterns.fourDigitsSigned, string, valueCallback)
+    default:
+      return parseNumericPattern(new RegExp('^-?\\d{1,' + n + '}'), string, valueCallback)
+  }
+}
+
+function dayPeriodEnumToHours (enumValue) {
+  switch (enumValue) {
+    case 'morning':
+      return 4
+    case 'evening':
+      return 17
+    case 'pm':
+    case 'noon':
+    case 'afternoon':
+      return 12
+    case 'am':
+    case 'midnight':
+    case 'night':
+    default:
+      return 0
+  }
+}
+
+function normalizeTwoDigitYear (twoDigitYear, currentYear) {
+  var isCommonEra = currentYear > 0;
+  // Absolute number of the current year:
+  // 1 -> 1 AC
+  // 0 -> 1 BC
+  // -1 -> 2 BC
+  var absCurrentYear = isCommonEra ? currentYear : 1 - currentYear;
+
+  var result;
+  if (absCurrentYear <= 50) {
+    result = twoDigitYear || 100;
+  } else {
+    var rangeEnd = absCurrentYear + 50;
+    var rangeEndCentury = Math.floor(rangeEnd / 100) * 100;
+    var isPreviousCentury = twoDigitYear >= rangeEnd % 100;
+    result = twoDigitYear + rangeEndCentury - (isPreviousCentury ? 100 : 0);
+  }
+
+  return isCommonEra ? result : 1 - result
+}
+
+var DAYS_IN_MONTH$1 = [31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31];
+var DAYS_IN_MONTH_LEAP_YEAR$1 = [31, 29, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31];
+
+// User for validation
+function isLeapYearIndex$1 (year) {
+  return year % 400 === 0 || (year % 4 === 0 && year % 100 !== 0)
+}
+
+/*
+ * |     | Unit                           |     | Unit                           |
+ * |-----|--------------------------------|-----|--------------------------------|
+ * |  a  | AM, PM                         |  A* | Milliseconds in day            |
+ * |  b  | AM, PM, noon, midnight         |  B  | Flexible day period            |
+ * |  c  | Stand-alone local day of week  |  C* | Localized hour w/ day period   |
+ * |  d  | Day of month                   |  D  | Day of year                    |
+ * |  e  | Local day of week              |  E  | Day of week                    |
+ * |  f  |                                |  F* | Day of week in month           |
+ * |  g* | Modified Julian day            |  G  | Era                            |
+ * |  h  | Hour [1-12]                    |  H  | Hour [0-23]                    |
+ * |  i! | ISO day of week                |  I! | ISO week of year               |
+ * |  j* | Localized hour w/ day period   |  J* | Localized hour w/o day period  |
+ * |  k  | Hour [1-24]                    |  K  | Hour [0-11]                    |
+ * |  l* | (deprecated)                   |  L  | Stand-alone month              |
+ * |  m  | Minute                         |  M  | Month                          |
+ * |  n  |                                |  N  |                                |
+ * |  o! | Ordinal number modifier        |  O* | Timezone (GMT)                 |
+ * |  p  |                                |  P  |                                |
+ * |  q  | Stand-alone quarter            |  Q  | Quarter                        |
+ * |  r* | Related Gregorian year         |  R! | ISO week-numbering year        |
+ * |  s  | Second                         |  S  | Fraction of second             |
+ * |  t! | Seconds timestamp              |  T! | Milliseconds timestamp         |
+ * |  u  | Extended year                  |  U* | Cyclic year                    |
+ * |  v* | Timezone (generic non-locat.)  |  V* | Timezone (location)            |
+ * |  w  | Local week of year             |  W* | Week of month                  |
+ * |  x  | Timezone (ISO-8601 w/o Z)      |  X  | Timezone (ISO-8601)            |
+ * |  y  | Year (abs)                     |  Y  | Local week-numbering year      |
+ * |  z* | Timezone (specific non-locat.) |  Z* | Timezone (aliases)             |
+ *
+ * Letters marked by * are not implemented but reserved by Unicode standard.
+ *
+ * Letters marked by ! are non-standard, but implemented by date-fns:
+ * - `o` modifies the previous token to turn it into an ordinal (see `parse` docs)
+ * - `i` is ISO day of week. For `i` and `ii` is returns numeric ISO week days,
+ *   i.e. 7 for Sunday, 1 for Monday, etc.
+ * - `I` is ISO week of year, as opposed to `w` which is local week of year.
+ * - `R` is ISO week-numbering year, as opposed to `Y` which is local week-numbering year.
+ *   `R` is supposed to be used in conjunction with `I` and `i`
+ *   for universal ISO week-numbering date, whereas
+ *   `Y` is supposed to be used in conjunction with `w` and `e`
+ *   for week-numbering date specific to the locale.
+ */
+var parsers = {
+  // Era
+  G: {
+    priority: 140,
+    parse: function (string, token, match, options) {
+      switch (token) {
+        // AD, BC
+        case 'G':
+        case 'GG':
+        case 'GGG':
+          return match.era(string, {width: 'abbreviated'}) ||
+            match.era(string, {width: 'narrow'})
+        // A, B
+        case 'GGGGG':
+          return match.era(string, {width: 'narrow'})
+        // Anno Domini, Before Christ
+        case 'GGGG':
+        default:
+          return match.era(string, {width: 'wide'}) ||
+            match.era(string, {width: 'abbreviated'}) ||
+            match.era(string, {width: 'narrow'})
+      }
+    },
+    set: function (date, value, options) {
+      // Sets year 10 BC if BC, or 10 AC if AC
+      date.setUTCFullYear(value === 1 ? 10 : -9, 0, 1);
+      date.setUTCHours(0, 0, 0, 0);
+      return date
+    }
+  },
+
+  // Year
+  y: {
+    // From http://www.unicode.org/reports/tr35/tr35-31/tr35-dates.html#Date_Format_Patterns
+    // | Year     |     y | yy |   yyy |  yyyy | yyyyy |
+    // |----------|-------|----|-------|-------|-------|
+    // | AD 1     |     1 | 01 |   001 |  0001 | 00001 |
+    // | AD 12    |    12 | 12 |   012 |  0012 | 00012 |
+    // | AD 123   |   123 | 23 |   123 |  0123 | 00123 |
+    // | AD 1234  |  1234 | 34 |  1234 |  1234 | 01234 |
+    // | AD 12345 | 12345 | 45 | 12345 | 12345 | 12345 |
+
+    priority: 130,
+    parse: function (string, token, match, options) {
+      var valueCallback = function (year) {
+        return {
+          year: year,
+          isTwoDigitYear: token === 'yy'
+        }
+      };
+
+      switch (token) {
+        case 'y':
+          return parseNDigits(4, string, valueCallback)
+        case 'yo':
+          return match.ordinalNumber(string, {unit: 'year', valueCallback: valueCallback})
+        default:
+          return parseNDigits(token.length, string, valueCallback)
+      }
+    },
+    validate: function (date, value, options) {
+      return value.isTwoDigitYear || value.year > 0
+    },
+    set: function (date, value, options) {
+      var currentYear = getUTCWeekYear(date, options);
+
+      if (value.isTwoDigitYear) {
+        var normalizedTwoDigitYear = normalizeTwoDigitYear(value.year, currentYear);
+        date.setUTCFullYear(normalizedTwoDigitYear, 0, 1);
+        date.setUTCHours(0, 0, 0, 0);
+        return date
+      }
+
+      var year = currentYear > 0 ? value.year : 1 - value.year;
+      date.setUTCFullYear(year, 0, 1);
+      date.setUTCHours(0, 0, 0, 0);
+      return date
+    }
+  },
+
+  // Local week-numbering year
+  Y: {
+    priority: 130,
+    parse: function (string, token, match, options) {
+      var valueCallback = function (year) {
+        return {
+          year: year,
+          isTwoDigitYear: token === 'YY'
+        }
+      };
+
+      switch (token) {
+        case 'Y':
+          return parseNDigits(4, string, valueCallback)
+        case 'Yo':
+          return match.ordinalNumber(string, {unit: 'year', valueCallback: valueCallback})
+        default:
+          return parseNDigits(token.length, string, valueCallback)
+      }
+    },
+    validate: function (date, value, options) {
+      return value.isTwoDigitYear || value.year > 0
+    },
+    set: function (date, value, options) {
+      var currentYear = date.getUTCFullYear();
+
+      if (value.isTwoDigitYear) {
+        var normalizedTwoDigitYear = normalizeTwoDigitYear(value.year, currentYear);
+        date.setUTCFullYear(normalizedTwoDigitYear, 0, options.firstWeekContainsDate);
+        date.setUTCHours(0, 0, 0, 0);
+        return startOfUTCWeek(date, options)
+      }
+
+      var year = currentYear > 0 ? value.year : 1 - value.year;
+      date.setUTCFullYear(year, 0, options.firstWeekContainsDate);
+      date.setUTCHours(0, 0, 0, 0);
+      return startOfUTCWeek(date, options)
+    }
+  },
+
+  // ISO week-numbering year
+  R: {
+    priority: 130,
+    parse: function (string, token, match, options) {
+      if (token === 'R') {
+        return parseNDigitsSigned(4, string)
+      }
+
+      return parseNDigitsSigned(token.length, string)
+    },
+    set: function (date, value, options) {
+      var firstWeekOfYear = new Date(0);
+      firstWeekOfYear.setUTCFullYear(value, 0, 4);
+      firstWeekOfYear.setUTCHours(0, 0, 0, 0);
+      return startOfUTCISOWeek(firstWeekOfYear)
+    }
+  },
+
+  // Extended year
+  u: {
+    priority: 130,
+    parse: function (string, token, match, options) {
+      if (token === 'u') {
+        return parseNDigitsSigned(4, string)
+      }
+
+      return parseNDigitsSigned(token.length, string)
+    },
+    set: function (date, value, options) {
+      date.setUTCFullYear(value, 0, 1);
+      date.setUTCHours(0, 0, 0, 0);
+      return date
+    }
+  },
+
+  // Quarter
+  Q: {
+    priority: 120,
+    parse: function (string, token, match, options) {
+      switch (token) {
+        // 1, 2, 3, 4
+        case 'Q':
+        case 'QQ': // 01, 02, 03, 04
+          return parseNDigits(token.length, string)
+        // 1st, 2nd, 3rd, 4th
+        case 'Qo':
+          return match.ordinalNumber(string, {unit: 'quarter'})
+        // Q1, Q2, Q3, Q4
+        case 'QQQ':
+          return match.quarter(string, {width: 'abbreviated', context: 'formatting'}) ||
+            match.quarter(string, {width: 'narrow', context: 'formatting'})
+        // 1, 2, 3, 4 (narrow quarter; could be not numerical)
+        case 'QQQQQ':
+          return match.quarter(string, {width: 'narrow', context: 'formatting'})
+        // 1st quarter, 2nd quarter, ...
+        case 'QQQQ':
+        default:
+          return match.quarter(string, {width: 'wide', context: 'formatting'}) ||
+            match.quarter(string, {width: 'abbreviated', context: 'formatting'}) ||
+            match.quarter(string, {width: 'narrow', context: 'formatting'})
+      }
+    },
+    validate: function (date, value, options) {
+      return value >= 1 && value <= 4
+    },
+    set: function (date, value, options) {
+      date.setUTCMonth((value - 1) * 3, 1);
+      date.setUTCHours(0, 0, 0, 0);
+      return date
+    }
+  },
+
+  // Stand-alone quarter
+  q: {
+    priority: 120,
+    parse: function (string, token, match, options) {
+      switch (token) {
+        // 1, 2, 3, 4
+        case 'q':
+        case 'qq': // 01, 02, 03, 04
+          return parseNDigits(token.length, string)
+        // 1st, 2nd, 3rd, 4th
+        case 'qo':
+          return match.ordinalNumber(string, {unit: 'quarter'})
+        // Q1, Q2, Q3, Q4
+        case 'qqq':
+          return match.quarter(string, {width: 'abbreviated', context: 'standalone'}) ||
+            match.quarter(string, {width: 'narrow', context: 'standalone'})
+        // 1, 2, 3, 4 (narrow quarter; could be not numerical)
+        case 'qqqqq':
+          return match.quarter(string, {width: 'narrow', context: 'standalone'})
+        // 1st quarter, 2nd quarter, ...
+        case 'qqqq':
+        default:
+          return match.quarter(string, {width: 'wide', context: 'standalone'}) ||
+            match.quarter(string, {width: 'abbreviated', context: 'standalone'}) ||
+            match.quarter(string, {width: 'narrow', context: 'standalone'})
+      }
+    },
+    validate: function (date, value, options) {
+      return value >= 1 && value <= 4
+    },
+    set: function (date, value, options) {
+      date.setUTCMonth((value - 1) * 3, 1);
+      date.setUTCHours(0, 0, 0, 0);
+      return date
+    }
+  },
+
+  // Month
+  M: {
+    priority: 110,
+    parse: function (string, token, match, options) {
+      var valueCallback = function (value) {
+        return value - 1
+      };
+
+      switch (token) {
+        // 1, 2, ..., 12
+        case 'M':
+          return parseNumericPattern(numericPatterns.month, string, valueCallback)
+        // 01, 02, ..., 12
+        case 'MM':
+          return parseNDigits(2, string, valueCallback)
+        // 1st, 2nd, ..., 12th
+        case 'Mo':
+          return match.ordinalNumber(string, {unit: 'month', valueCallback: valueCallback})
+        // Jan, Feb, ..., Dec
+        case 'MMM':
+          return match.month(string, {width: 'abbreviated', context: 'formatting'}) ||
+            match.month(string, {width: 'narrow', context: 'formatting'})
+        // J, F, ..., D
+        case 'MMMMM':
+          return match.month(string, {width: 'narrow', context: 'formatting'})
+        // January, February, ..., December
+        case 'MMMM':
+        default:
+          return match.month(string, {width: 'wide', context: 'formatting'}) ||
+            match.month(string, {width: 'abbreviated', context: 'formatting'}) ||
+            match.month(string, {width: 'narrow', context: 'formatting'})
+      }
+    },
+    validate: function (date, value, options) {
+      return value >= 0 && value <= 11
+    },
+    set: function (date, value, options) {
+      date.setUTCMonth(value, 1);
+      date.setUTCHours(0, 0, 0, 0);
+      return date
+    }
+  },
+
+  // Stand-alone month
+  L: {
+    priority: 110,
+    parse: function (string, token, match, options) {
+      var valueCallback = function (value) {
+        return value - 1
+      };
+
+      switch (token) {
+        // 1, 2, ..., 12
+        case 'L':
+          return parseNumericPattern(numericPatterns.month, string, valueCallback)
+        // 01, 02, ..., 12
+        case 'LL':
+          return parseNDigits(2, string, valueCallback)
+        // 1st, 2nd, ..., 12th
+        case 'Lo':
+          return match.ordinalNumber(string, {unit: 'month', valueCallback: valueCallback})
+        // Jan, Feb, ..., Dec
+        case 'LLL':
+          return match.month(string, {width: 'abbreviated', context: 'standalone'}) ||
+            match.month(string, {width: 'narrow', context: 'standalone'})
+        // J, F, ..., D
+        case 'LLLLL':
+          return match.month(string, {width: 'narrow', context: 'standalone'})
+        // January, February, ..., December
+        case 'LLLL':
+        default:
+          return match.month(string, {width: 'wide', context: 'standalone'}) ||
+            match.month(string, {width: 'abbreviated', context: 'standalone'}) ||
+            match.month(string, {width: 'narrow', context: 'standalone'})
+      }
+    },
+    validate: function (date, value, options) {
+      return value >= 0 && value <= 11
+    },
+    set: function (date, value, options) {
+      date.setUTCMonth(value, 1);
+      date.setUTCHours(0, 0, 0, 0);
+      return date
+    }
+  },
+
+  // Local week of year
+  w: {
+    priority: 100,
+    parse: function (string, token, match, options) {
+      switch (token) {
+        case 'w':
+          return parseNumericPattern(numericPatterns.week, string)
+        case 'wo':
+          return match.ordinalNumber(string, {unit: 'week'})
+        default:
+          return parseNDigits(token.length, string)
+      }
+    },
+    validate: function (date, value, options) {
+      return value >= 1 && value <= 53
+    },
+    set: function (date, value, options) {
+      return startOfUTCWeek(setUTCWeek(date, value, options), options)
+    }
+  },
+
+  // ISO week of year
+  I: {
+    priority: 100,
+    parse: function (string, token, match, options) {
+      switch (token) {
+        case 'I':
+          return parseNumericPattern(numericPatterns.week, string)
+        case 'Io':
+          return match.ordinalNumber(string, {unit: 'week'})
+        default:
+          return parseNDigits(token.length, string)
+      }
+    },
+    validate: function (date, value, options) {
+      return value >= 1 && value <= 53
+    },
+    set: function (date, value, options) {
+      return startOfUTCISOWeek(setUTCISOWeek(date, value, options), options)
+    }
+  },
+
+  // Day of the month
+  d: {
+    priority: 90,
+    parse: function (string, token, match, options) {
+      switch (token) {
+        case 'd':
+          return parseNumericPattern(numericPatterns.date, string)
+        case 'do':
+          return match.ordinalNumber(string, {unit: 'date'})
+        default:
+          return parseNDigits(token.length, string)
+      }
+    },
+    validate: function (date, value, options) {
+      var year = date.getUTCFullYear();
+      var isLeapYear = isLeapYearIndex$1(year);
+      var month = date.getUTCMonth();
+      if (isLeapYear) {
+        return value >= 1 && value <= DAYS_IN_MONTH_LEAP_YEAR$1[month]
+      } else {
+        return value >= 1 && value <= DAYS_IN_MONTH$1[month]
+      }
+    },
+    set: function (date, value, options) {
+      date.setUTCDate(value);
+      date.setUTCHours(0, 0, 0, 0);
+      return date
+    }
+  },
+
+  // Day of year
+  D: {
+    priority: 90,
+    parse: function (string, token, match, options) {
+      switch (token) {
+        case 'D':
+        case 'DD':
+          return parseNumericPattern(numericPatterns.dayOfYear, string)
+        case 'Do':
+          return match.ordinalNumber(string, {unit: 'date'})
+        default:
+          return parseNDigits(token.length, string)
+      }
+    },
+    validate: function (date, value, options) {
+      var year = date.getUTCFullYear();
+      var isLeapYear = isLeapYearIndex$1(year);
+      if (isLeapYear) {
+        return value >= 1 && value <= 366
+      } else {
+        return value >= 1 && value <= 365
+      }
+    },
+    set: function (date, value, options) {
+      date.setUTCMonth(0, value);
+      date.setUTCHours(0, 0, 0, 0);
+      return date
+    }
+  },
+
+  // Day of week
+  E: {
+    priority: 90,
+    parse: function (string, token, match, options) {
+      switch (token) {
+        // Tue
+        case 'E':
+        case 'EE':
+        case 'EEE':
+          return match.day(string, {width: 'abbreviated', context: 'formatting'}) ||
+            match.day(string, {width: 'short', context: 'formatting'}) ||
+            match.day(string, {width: 'narrow', context: 'formatting'})
+        // T
+        case 'EEEEE':
+          return match.day(string, {width: 'narrow', context: 'formatting'})
+        // Tu
+        case 'EEEEEE':
+          return match.day(string, {width: 'short', context: 'formatting'}) ||
+          match.day(string, {width: 'narrow', context: 'formatting'})
+        // Tuesday
+        case 'EEEE':
+        default:
+          return match.day(string, {width: 'wide', context: 'formatting'}) ||
+            match.day(string, {width: 'abbreviated', context: 'formatting'}) ||
+            match.day(string, {width: 'short', context: 'formatting'}) ||
+            match.day(string, {width: 'narrow', context: 'formatting'})
+      }
+    },
+    validate: function (date, value, options) {
+      return value >= 0 && value <= 6
+    },
+    set: function (date, value, options) {
+      date = setUTCDay(date, value, options);
+      date.setUTCHours(0, 0, 0, 0);
+      return date
+    }
+  },
+
+  // Local day of week
+  e: {
+    priority: 90,
+    parse: function (string, token, match, options) {
+      var valueCallback = function (value) {
+        var wholeWeekDays = Math.floor((value - 1) / 7) * 7;
+        return (value + options.weekStartsOn + 6) % 7 + wholeWeekDays
+      };
+
+      switch (token) {
+        // 3
+        case 'e':
+        case 'ee': // 03
+          return parseNDigits(token.length, string, valueCallback)
+        // 3rd
+        case 'eo':
+          return match.ordinalNumber(string, {unit: 'day', valueCallback: valueCallback})
+        // Tue
+        case 'eee':
+          return match.day(string, {width: 'abbreviated', context: 'formatting'}) ||
+            match.day(string, {width: 'short', context: 'formatting'}) ||
+            match.day(string, {width: 'narrow', context: 'formatting'})
+        // T
+        case 'eeeee':
+          return match.day(string, {width: 'narrow', context: 'formatting'})
+        // Tu
+        case 'eeeeee':
+          return match.day(string, {width: 'short', context: 'formatting'}) ||
+          match.day(string, {width: 'narrow', context: 'formatting'})
+        // Tuesday
+        case 'eeee':
+        default:
+          return match.day(string, {width: 'wide', context: 'formatting'}) ||
+            match.day(string, {width: 'abbreviated', context: 'formatting'}) ||
+            match.day(string, {width: 'short', context: 'formatting'}) ||
+            match.day(string, {width: 'narrow', context: 'formatting'})
+      }
+    },
+    validate: function (date, value, options) {
+      return value >= 0 && value <= 6
+    },
+    set: function (date, value, options) {
+      date = setUTCDay(date, value, options);
+      date.setUTCHours(0, 0, 0, 0);
+      return date
+    }
+  },
+
+  // Stand-alone local day of week
+  c: {
+    priority: 90,
+    parse: function (string, token, match, options) {
+      var valueCallback = function (value) {
+        var wholeWeekDays = Math.floor((value - 1) / 7) * 7;
+        return (value + options.weekStartsOn + 6) % 7 + wholeWeekDays
+      };
+
+      switch (token) {
+        // 3
+        case 'c':
+        case 'cc': // 03
+          return parseNDigits(token.length, string, valueCallback)
+        // 3rd
+        case 'co':
+          return match.ordinalNumber(string, {unit: 'day', valueCallback: valueCallback})
+        // Tue
+        case 'ccc':
+          return match.day(string, {width: 'abbreviated', context: 'standalone'}) ||
+            match.day(string, {width: 'short', context: 'standalone'}) ||
+            match.day(string, {width: 'narrow', context: 'standalone'})
+        // T
+        case 'ccccc':
+          return match.day(string, {width: 'narrow', context: 'standalone'})
+        // Tu
+        case 'cccccc':
+          return match.day(string, {width: 'short', context: 'standalone'}) ||
+          match.day(string, {width: 'narrow', context: 'standalone'})
+        // Tuesday
+        case 'cccc':
+        default:
+          return match.day(string, {width: 'wide', context: 'standalone'}) ||
+            match.day(string, {width: 'abbreviated', context: 'standalone'}) ||
+            match.day(string, {width: 'short', context: 'standalone'}) ||
+            match.day(string, {width: 'narrow', context: 'standalone'})
+      }
+    },
+    validate: function (date, value, options) {
+      return value >= 0 && value <= 6
+    },
+    set: function (date, value, options) {
+      date = setUTCDay(date, value, options);
+      date.setUTCHours(0, 0, 0, 0);
+      return date
+    }
+  },
+
+  // ISO day of week
+  i: {
+    priority: 90,
+    parse: function (string, token, match, options) {
+      var valueCallback = function (value) {
+        if (value === 0) {
+          return 7
+        }
+        return value
+      };
+
+      switch (token) {
+        // 2
+        case 'i':
+        case 'ii': // 02
+          return parseNDigits(token.length, string)
+        // 2nd
+        case 'io':
+          return match.ordinalNumber(string, {unit: 'day'})
+        // Tue
+        case 'iii':
+          return match.day(string, {width: 'abbreviated', context: 'formatting', valueCallback: valueCallback}) ||
+            match.day(string, {width: 'short', context: 'formatting', valueCallback: valueCallback}) ||
+            match.day(string, {width: 'narrow', context: 'formatting', valueCallback: valueCallback})
+        // T
+        case 'iiiii':
+          return match.day(string, {width: 'narrow', context: 'formatting', valueCallback: valueCallback})
+        // Tu
+        case 'iiiiii':
+          return match.day(string, {width: 'short', context: 'formatting', valueCallback: valueCallback}) ||
+          match.day(string, {width: 'narrow', context: 'formatting', valueCallback: valueCallback})
+        // Tuesday
+        case 'iiii':
+        default:
+          return match.day(string, {width: 'wide', context: 'formatting', valueCallback: valueCallback}) ||
+            match.day(string, {width: 'abbreviated', context: 'formatting', valueCallback: valueCallback}) ||
+            match.day(string, {width: 'short', context: 'formatting', valueCallback: valueCallback}) ||
+            match.day(string, {width: 'narrow', context: 'formatting', valueCallback: valueCallback})
+      }
+    },
+    validate: function (date, value, options) {
+      return value >= 1 && value <= 7
+    },
+    set: function (date, value, options) {
+      date = setUTCISODay(date, value, options);
+      date.setUTCHours(0, 0, 0, 0);
+      return date
+    }
+  },
+
+  // AM or PM
+  a: {
+    priority: 80,
+    parse: function (string, token, match, options) {
+      switch (token) {
+        case 'a':
+        case 'aa':
+        case 'aaa':
+          return match.dayPeriod(string, {width: 'abbreviated', context: 'formatting'}) ||
+            match.dayPeriod(string, {width: 'narrow', context: 'formatting'})
+        case 'aaaaa':
+          return match.dayPeriod(string, {width: 'narrow', context: 'formatting'})
+        case 'aaaa':
+        default:
+          return match.dayPeriod(string, {width: 'wide', context: 'formatting'}) ||
+            match.dayPeriod(string, {width: 'abbreviated', context: 'formatting'}) ||
+            match.dayPeriod(string, {width: 'narrow', context: 'formatting'})
+      }
+    },
+    set: function (date, value, options) {
+      date.setUTCHours(dayPeriodEnumToHours(value), 0, 0, 0);
+      return date
+    }
+  },
+
+  // AM, PM, midnight
+  b: {
+    priority: 80,
+    parse: function (string, token, match, options) {
+      switch (token) {
+        case 'b':
+        case 'bb':
+        case 'bbb':
+          return match.dayPeriod(string, {width: 'abbreviated', context: 'formatting'}) ||
+            match.dayPeriod(string, {width: 'narrow', context: 'formatting'})
+        case 'bbbbb':
+          return match.dayPeriod(string, {width: 'narrow', context: 'formatting'})
+        case 'bbbb':
+        default:
+          return match.dayPeriod(string, {width: 'wide', context: 'formatting'}) ||
+            match.dayPeriod(string, {width: 'abbreviated', context: 'formatting'}) ||
+            match.dayPeriod(string, {width: 'narrow', context: 'formatting'})
+      }
+    },
+    set: function (date, value, options) {
+      date.setUTCHours(dayPeriodEnumToHours(value), 0, 0, 0);
+      return date
+    }
+  },
+
+  // in the morning, in the afternoon, in the evening, at night
+  B: {
+    priority: 80,
+    parse: function (string, token, match, options) {
+      switch (token) {
+        case 'B':
+        case 'BB':
+        case 'BBB':
+          return match.dayPeriod(string, {width: 'abbreviated', context: 'formatting'}) ||
+            match.dayPeriod(string, {width: 'narrow', context: 'formatting'})
+        case 'BBBBB':
+          return match.dayPeriod(string, {width: 'narrow', context: 'formatting'})
+        case 'BBBB':
+        default:
+          return match.dayPeriod(string, {width: 'wide', context: 'formatting'}) ||
+            match.dayPeriod(string, {width: 'abbreviated', context: 'formatting'}) ||
+            match.dayPeriod(string, {width: 'narrow', context: 'formatting'})
+      }
+    },
+    set: function (date, value, options) {
+      date.setUTCHours(dayPeriodEnumToHours(value), 0, 0, 0);
+      return date
+    }
+  },
+
+  // Hour [1-12]
+  h: {
+    priority: 70,
+    parse: function (string, token, match, options) {
+      switch (token) {
+        case 'h':
+          return parseNumericPattern(numericPatterns.hour12h, string)
+        case 'ho':
+          return match.ordinalNumber(string, {unit: 'hour'})
+        default:
+          return parseNDigits(token.length, string)
+      }
+    },
+    validate: function (date, value, options) {
+      return value >= 1 && value <= 12
+    },
+    set: function (date, value, options) {
+      var isPM = date.getUTCHours() >= 12;
+      if (isPM && value < 12) {
+        date.setUTCHours(value + 12, 0, 0, 0);
+      } else if (!isPM && value === 12) {
+        date.setUTCHours(0, 0, 0, 0);
+      } else {
+        date.setUTCHours(value, 0, 0, 0);
+      }
+      return date
+    }
+  },
+
+  // Hour [0-23]
+  H: {
+    priority: 70,
+    parse: function (string, token, match, options) {
+      switch (token) {
+        case 'H':
+          return parseNumericPattern(numericPatterns.hour23h, string)
+        case 'Ho':
+          return match.ordinalNumber(string, {unit: 'hour'})
+        default:
+          return parseNDigits(token.length, string)
+      }
+    },
+    validate: function (date, value, options) {
+      return value >= 0 && value <= 23
+    },
+    set: function (date, value, options) {
+      date.setUTCHours(value, 0, 0, 0);
+      return date
+    }
+  },
+
+  // Hour [0-11]
+  K: {
+    priority: 70,
+    parse: function (string, token, match, options) {
+      switch (token) {
+        case 'K':
+          return parseNumericPattern(numericPatterns.hour11h, string)
+        case 'Ko':
+          return match.ordinalNumber(string, {unit: 'hour'})
+        default:
+          return parseNDigits(token.length, string)
+      }
+    },
+    validate: function (date, value, options) {
+      return value >= 0 && value <= 11
+    },
+    set: function (date, value, options) {
+      var isPM = date.getUTCHours() >= 12;
+      if (isPM && value < 12) {
+        date.setUTCHours(value + 12, 0, 0, 0);
+      } else {
+        date.setUTCHours(value, 0, 0, 0);
+      }
+      return date
+    }
+  },
+
+  // Hour [1-24]
+  k: {
+    priority: 70,
+    parse: function (string, token, match, options) {
+      switch (token) {
+        case 'k':
+          return parseNumericPattern(numericPatterns.hour24h, string)
+        case 'ko':
+          return match.ordinalNumber(string, {unit: 'hour'})
+        default:
+          return parseNDigits(token.length, string)
+      }
+    },
+    validate: function (date, value, options) {
+      return value >= 1 && value <= 24
+    },
+    set: function (date, value, options) {
+      var hours = value <= 24 ? value % 24 : value;
+      date.setUTCHours(hours, 0, 0, 0);
+      return date
+    }
+  },
+
+  // Minute
+  m: {
+    priority: 60,
+    parse: function (string, token, match, options) {
+      switch (token) {
+        case 'm':
+          return parseNumericPattern(numericPatterns.minute, string)
+        case 'mo':
+          return match.ordinalNumber(string, {unit: 'minute'})
+        default:
+          return parseNDigits(token.length, string)
+      }
+    },
+    validate: function (date, value, options) {
+      return value >= 0 && value <= 59
+    },
+    set: function (date, value, options) {
+      date.setUTCMinutes(value, 0, 0);
+      return date
+    }
+  },
+
+  // Second
+  s: {
+    priority: 50,
+    parse: function (string, token, match, options) {
+      switch (token) {
+        case 's':
+          return parseNumericPattern(numericPatterns.second, string)
+        case 'so':
+          return match.ordinalNumber(string, {unit: 'second'})
+        default:
+          return parseNDigits(token.length, string)
+      }
+    },
+    validate: function (date, value, options) {
+      return value >= 0 && value <= 59
+    },
+    set: function (date, value, options) {
+      date.setUTCSeconds(value, 0);
+      return date
+    }
+  },
+
+  // Fraction of second
+  S: {
+    priority: 40,
+    parse: function (string, token, match, options) {
+      var valueCallback = function (value) {
+        return Math.floor(value * Math.pow(10, -token.length + 3))
+      };
+      return parseNDigits(token.length, string, valueCallback)
+    },
+    set: function (date, value, options) {
+      date.setUTCMilliseconds(value);
+      return date
+    }
+  },
+
+  // Timezone (ISO-8601. +00:00 is `'Z'`)
+  X: {
+    priority: 20,
+    parse: function (string, token, match, options) {
+      switch (token) {
+        case 'X':
+          return parseTimezonePattern(timezonePatterns.basicOptionalMinutes, string)
+        case 'XX':
+          return parseTimezonePattern(timezonePatterns.basic, string)
+        case 'XXXX':
+          return parseTimezonePattern(timezonePatterns.basicOptionalSeconds, string)
+        case 'XXXXX':
+          return parseTimezonePattern(timezonePatterns.extendedOptionalSeconds, string)
+        case 'XXX':
+        default:
+          return parseTimezonePattern(timezonePatterns.extended, string)
+      }
+    },
+    set: function (date, value, options) {
+      return new Date(date.getTime() - value)
+    }
+  },
+
+  // Timezone (ISO-8601)
+  x: {
+    priority: 20,
+    parse: function (string, token, match, options) {
+      switch (token) {
+        case 'x':
+          return parseTimezonePattern(timezonePatterns.basicOptionalMinutes, string)
+        case 'xx':
+          return parseTimezonePattern(timezonePatterns.basic, string)
+        case 'xxxx':
+          return parseTimezonePattern(timezonePatterns.basicOptionalSeconds, string)
+        case 'xxxxx':
+          return parseTimezonePattern(timezonePatterns.extendedOptionalSeconds, string)
+        case 'xxx':
+        default:
+          return parseTimezonePattern(timezonePatterns.extended, string)
+      }
+    },
+    set: function (date, value, options) {
+      return new Date(date.getTime() - value)
+    }
+  },
+
+  // Seconds timestamp
+  t: {
+    priority: 10,
+    parse: function (string, token, match, options) {
+      return parseAnyDigitsSigned(string)
+    },
+    set: function (date, value, options) {
+      return new Date(value * 1000)
+    }
+  },
+
+  // Milliseconds timestamp
+  T: {
+    priority: 10,
+    parse: function (string, token, match, options) {
+      return parseAnyDigitsSigned(string)
+    },
+    set: function (date, value, options) {
+      return new Date(value)
+    }
+  }
+};
+
+var TIMEZONE_UNIT_PRIORITY = 20;
+
+// This RegExp consists of three parts separated by `|`:
+// - [yYQqMLwIdDecihHKkms]o matches any available ordinal number token
+//   (one of the certain letters followed by `o`)
+// - (\w)\1* matches any sequences of the same letter
+// - '' matches two quote characters in a row
+// - '(''|[^'])+('|$) matches anything surrounded by two quote characters ('),
+//   except a single quote symbol, which ends the sequence.
+//   Two quote characters do not end the sequence.
+//   If there is no matching single quote
+//   then the sequence will continue until the end of the string.
+// - . matches any single character unmatched by previous parts of the RegExps
+var formattingTokensRegExp$1 = /[yYQqMLwIdDecihHKkms]o|(\w)\1*|''|'(''|[^'])+('|$)|./g;
+
+var escapedStringRegExp$1 = /^'(.*?)'?$/;
+var doubleQuoteRegExp$1 = /''/g;
+
+var notWhitespaceRegExp = /\S/;
+
+/**
+ * @name parse
+ * @category Common Helpers
+ * @summary Parse the date.
+ *
+ * @description
+ * Return the date parsed from string using the given format string.
+ *
+ * > ⚠️ Please note that the `format` tokens differ from Moment.js and other libraries.
+ * > See: https://git.io/fxCyr
+ *
+ * The characters in the format string wrapped between two single quotes characters (') are escaped.
+ * Two single quotes in a row, whether inside or outside a quoted sequence, represent a 'real' single quote.
+ *
+ * Format of the format string is based on Unicode Technical Standard #35:
+ * https://www.unicode.org/reports/tr35/tr35-dates.html#Date_Field_Symbol_Table
+ * with a few additions (see note 5 below the table).
+ *
+ * Accepted format string patterns:
+ * | Unit                            |Prior| Pattern | Result examples                   | Notes |
+ * |---------------------------------|-----|---------|-----------------------------------|-------|
+ * | Era                             | 140 | G..GGG  | AD, BC                            |       |
+ * |                                 |     | GGGG    | Anno Domini, Before Christ        | 2     |
+ * |                                 |     | GGGGG   | A, B                              |       |
+ * | Calendar year                   | 130 | y       | 44, 1, 1900, 2017, 9999           | 4     |
+ * |                                 |     | yo      | 44th, 1st, 1900th, 9999999th      | 4,5   |
+ * |                                 |     | yy      | 44, 01, 00, 17                    | 4     |
+ * |                                 |     | yyy     | 044, 001, 123, 999                | 4     |
+ * |                                 |     | yyyy    | 0044, 0001, 1900, 2017            | 4     |
+ * |                                 |     | yyyyy   | ...                               | 2,4   |
+ * | Local week-numbering year       | 130 | Y       | 44, 1, 1900, 2017, 9000           | 4     |
+ * |                                 |     | Yo      | 44th, 1st, 1900th, 9999999th      | 4,5   |
+ * |                                 |     | YY      | 44, 01, 00, 17                    | 4,6   |
+ * |                                 |     | YYY     | 044, 001, 123, 999                | 4     |
+ * |                                 |     | YYYY    | 0044, 0001, 1900, 2017            | 4,6   |
+ * |                                 |     | YYYYY   | ...                               | 2,4   |
+ * | ISO week-numbering year         | 130 | R       | -43, 1, 1900, 2017, 9999, -9999   | 4,5   |
+ * |                                 |     | RR      | -43, 01, 00, 17                   | 4,5   |
+ * |                                 |     | RRR     | -043, 001, 123, 999, -999         | 4,5   |
+ * |                                 |     | RRRR    | -0043, 0001, 2017, 9999, -9999    | 4,5   |
+ * |                                 |     | RRRRR   | ...                               | 2,4,5 |
+ * | Extended year                   | 130 | u       | -43, 1, 1900, 2017, 9999, -999    | 4     |
+ * |                                 |     | uu      | -43, 01, 99, -99                  | 4     |
+ * |                                 |     | uuu     | -043, 001, 123, 999, -999         | 4     |
+ * |                                 |     | uuuu    | -0043, 0001, 2017, 9999, -9999    | 4     |
+ * |                                 |     | uuuuu   | ...                               | 2,4   |
+ * | Quarter (formatting)            | 120 | Q       | 1, 2, 3, 4                        |       |
+ * |                                 |     | Qo      | 1st, 2nd, 3rd, 4th                | 5     |
+ * |                                 |     | QQ      | 01, 02, 03, 04                    |       |
+ * |                                 |     | QQQ     | Q1, Q2, Q3, Q4                    |       |
+ * |                                 |     | QQQQ    | 1st quarter, 2nd quarter, ...     | 2     |
+ * |                                 |     | QQQQQ   | 1, 2, 3, 4                        | 4     |
+ * | Quarter (stand-alone)           | 120 | q       | 1, 2, 3, 4                        |       |
+ * |                                 |     | qo      | 1st, 2nd, 3rd, 4th                | 5     |
+ * |                                 |     | qq      | 01, 02, 03, 04                    |       |
+ * |                                 |     | qqq     | Q1, Q2, Q3, Q4                    |       |
+ * |                                 |     | qqqq    | 1st quarter, 2nd quarter, ...     | 2     |
+ * |                                 |     | qqqqq   | 1, 2, 3, 4                        | 3     |
+ * | Month (formatting)              | 110 | M       | 1, 2, ..., 12                     |       |
+ * |                                 |     | Mo      | 1st, 2nd, ..., 12th               | 5     |
+ * |                                 |     | MM      | 01, 02, ..., 12                   |       |
+ * |                                 |     | MMM     | Jan, Feb, ..., Dec                |       |
+ * |                                 |     | MMMM    | January, February, ..., December  | 2     |
+ * |                                 |     | MMMMM   | J, F, ..., D                      |       |
+ * | Month (stand-alone)             | 110 | L       | 1, 2, ..., 12                     |       |
+ * |                                 |     | Lo      | 1st, 2nd, ..., 12th               | 5     |
+ * |                                 |     | LL      | 01, 02, ..., 12                   |       |
+ * |                                 |     | LLL     | Jan, Feb, ..., Dec                |       |
+ * |                                 |     | LLLL    | January, February, ..., December  | 2     |
+ * |                                 |     | LLLLL   | J, F, ..., D                      |       |
+ * | Local week of year              | 100 | w       | 1, 2, ..., 53                     |       |
+ * |                                 |     | wo      | 1st, 2nd, ..., 53th               | 5     |
+ * |                                 |     | ww      | 01, 02, ..., 53                   |       |
+ * | ISO week of year                | 100 | I       | 1, 2, ..., 53                     | 5     |
+ * |                                 |     | Io      | 1st, 2nd, ..., 53th               | 5     |
+ * |                                 |     | II      | 01, 02, ..., 53                   | 5     |
+ * | Day of month                    |  90 | d       | 1, 2, ..., 31                     |       |
+ * |                                 |     | do      | 1st, 2nd, ..., 31st               | 5     |
+ * |                                 |     | dd      | 01, 02, ..., 31                   |       |
+ * | Day of year                     |  90 | D       | 1, 2, ..., 365, 366               | 6     |
+ * |                                 |     | Do      | 1st, 2nd, ..., 365th, 366th       | 5     |
+ * |                                 |     | DD      | 01, 02, ..., 365, 366             | 6     |
+ * |                                 |     | DDD     | 001, 002, ..., 365, 366           |       |
+ * |                                 |     | DDDD    | ...                               | 2     |
+ * | Day of week (formatting)        |  90 | E..EEE  | Mon, Tue, Wed, ..., Su            |       |
+ * |                                 |     | EEEE    | Monday, Tuesday, ..., Sunday      | 2     |
+ * |                                 |     | EEEEE   | M, T, W, T, F, S, S               |       |
+ * |                                 |     | EEEEEE  | Mo, Tu, We, Th, Fr, Su, Sa        |       |
+ * | ISO day of week (formatting)    |  90 | i       | 1, 2, 3, ..., 7                   | 5     |
+ * |                                 |     | io      | 1st, 2nd, ..., 7th                | 5     |
+ * |                                 |     | ii      | 01, 02, ..., 07                   | 5     |
+ * |                                 |     | iii     | Mon, Tue, Wed, ..., Su            | 5     |
+ * |                                 |     | iiii    | Monday, Tuesday, ..., Sunday      | 2,5   |
+ * |                                 |     | iiiii   | M, T, W, T, F, S, S               | 5     |
+ * |                                 |     | iiiiii  | Mo, Tu, We, Th, Fr, Su, Sa        | 5     |
+ * | Local day of week (formatting)  |  90 | e       | 2, 3, 4, ..., 1                   |       |
+ * |                                 |     | eo      | 2nd, 3rd, ..., 1st                | 5     |
+ * |                                 |     | ee      | 02, 03, ..., 01                   |       |
+ * |                                 |     | eee     | Mon, Tue, Wed, ..., Su            |       |
+ * |                                 |     | eeee    | Monday, Tuesday, ..., Sunday      | 2     |
+ * |                                 |     | eeeee   | M, T, W, T, F, S, S               |       |
+ * |                                 |     | eeeeee  | Mo, Tu, We, Th, Fr, Su, Sa        |       |
+ * | Local day of week (stand-alone) |  90 | c       | 2, 3, 4, ..., 1                   |       |
+ * |                                 |     | co      | 2nd, 3rd, ..., 1st                | 5     |
+ * |                                 |     | cc      | 02, 03, ..., 01                   |       |
+ * |                                 |     | ccc     | Mon, Tue, Wed, ..., Su            |       |
+ * |                                 |     | cccc    | Monday, Tuesday, ..., Sunday      | 2     |
+ * |                                 |     | ccccc   | M, T, W, T, F, S, S               |       |
+ * |                                 |     | cccccc  | Mo, Tu, We, Th, Fr, Su, Sa        |       |
+ * | AM, PM                          |  80 | a..aaa  | AM, PM                            |       |
+ * |                                 |     | aaaa    | a.m., p.m.                        | 2     |
+ * |                                 |     | aaaaa   | a, p                              |       |
+ * | AM, PM, noon, midnight          |  80 | b..bbb  | AM, PM, noon, midnight            |       |
+ * |                                 |     | bbbb    | a.m., p.m., noon, midnight        | 2     |
+ * |                                 |     | bbbbb   | a, p, n, mi                       |       |
+ * | Flexible day period             |  80 | B..BBB  | at night, in the morning, ...     |       |
+ * |                                 |     | BBBB    | at night, in the morning, ...     | 2     |
+ * |                                 |     | BBBBB   | at night, in the morning, ...     |       |
+ * | Hour [1-12]                     |  70 | h       | 1, 2, ..., 11, 12                 |       |
+ * |                                 |     | ho      | 1st, 2nd, ..., 11th, 12th         | 5     |
+ * |                                 |     | hh      | 01, 02, ..., 11, 12               |       |
+ * | Hour [0-23]                     |  70 | H       | 0, 1, 2, ..., 23                  |       |
+ * |                                 |     | Ho      | 0th, 1st, 2nd, ..., 23rd          | 5     |
+ * |                                 |     | HH      | 00, 01, 02, ..., 23               |       |
+ * | Hour [0-11]                     |  70 | K       | 1, 2, ..., 11, 0                  |       |
+ * |                                 |     | Ko      | 1st, 2nd, ..., 11th, 0th          | 5     |
+ * |                                 |     | KK      | 1, 2, ..., 11, 0                  |       |
+ * | Hour [1-24]                     |  70 | k       | 24, 1, 2, ..., 23                 |       |
+ * |                                 |     | ko      | 24th, 1st, 2nd, ..., 23rd         | 5     |
+ * |                                 |     | kk      | 24, 01, 02, ..., 23               |       |
+ * | Minute                          |  60 | m       | 0, 1, ..., 59                     |       |
+ * |                                 |     | mo      | 0th, 1st, ..., 59th               | 5     |
+ * |                                 |     | mm      | 00, 01, ..., 59                   |       |
+ * | Second                          |  50 | s       | 0, 1, ..., 59                     |       |
+ * |                                 |     | so      | 0th, 1st, ..., 59th               | 5     |
+ * |                                 |     | ss      | 00, 01, ..., 59                   |       |
+ * | Fraction of second              |  40 | S       | 0, 1, ..., 9                      |       |
+ * |                                 |     | SS      | 00, 01, ..., 99                   |       |
+ * |                                 |     | SSS     | 000, 0001, ..., 999               |       |
+ * |                                 |     | SSSS    | ...                               | 2     |
+ * | Timezone (ISO-8601 w/ Z)        |  20 | X       | -08, +0530, Z                     |       |
+ * |                                 |     | XX      | -0800, +0530, Z                   |       |
+ * |                                 |     | XXX     | -08:00, +05:30, Z                 |       |
+ * |                                 |     | XXXX    | -0800, +0530, Z, +123456          | 2     |
+ * |                                 |     | XXXXX   | -08:00, +05:30, Z, +12:34:56      |       |
+ * | Timezone (ISO-8601 w/o Z)       |  20 | x       | -08, +0530, +00                   |       |
+ * |                                 |     | xx      | -0800, +0530, +0000               |       |
+ * |                                 |     | xxx     | -08:00, +05:30, +00:00            | 2     |
+ * |                                 |     | xxxx    | -0800, +0530, +0000, +123456      |       |
+ * |                                 |     | xxxxx   | -08:00, +05:30, +00:00, +12:34:56 |       |
+ * | Seconds timestamp               |  10 | t       | 512969520                         |       |
+ * |                                 |     | tt      | ...                               | 2     |
+ * | Milliseconds timestamp          |  10 | T       | 512969520900                      |       |
+ * |                                 |     | TT      | ...                               | 2     |
+ * Notes:
+ * 1. "Formatting" units (e.g. formatting quarter) in the default en-US locale
+ *    are the same as "stand-alone" units, but are different in some languages.
+ *    "Formatting" units are declined according to the rules of the language
+ *    in the context of a date. "Stand-alone" units are always nominative singular.
+ *    In `format` function, they will produce different result:
+ *
+ *    `format(new Date(2017, 10, 6), 'do LLLL', {locale: cs}) //=> '6. listopad'`
+ *
+ *    `format(new Date(2017, 10, 6), 'do MMMM', {locale: cs}) //=> '6. listopadu'`
+ *
+ *    `parse` will try to match both formatting and stand-alone units interchangably.
+ *
+ * 2. Any sequence of the identical letters is a pattern, unless it is escaped by
+ *    the single quote characters (see below).
+ *    If the sequence is longer than listed in table:
+ *    - for numerical units (`yyyyyyyy`) `parse` will try to match a number
+ *      as wide as the sequence
+ *    - for text units (`MMMMMMMM`) `parse` will try to match the widest variation of the unit.
+ *      These variations are marked with "2" in the last column of the table.
+ *
+ * 3. `QQQQQ` and `qqqqq` could be not strictly numerical in some locales.
+ *    These tokens represent the shortest form of the quarter.
+ *
+ * 4. The main difference between `y` and `u` patterns are B.C. years:
+ *
+ *    | Year | `y` | `u` |
+ *    |------|-----|-----|
+ *    | AC 1 |   1 |   1 |
+ *    | BC 1 |   1 |   0 |
+ *    | BC 2 |   2 |  -1 |
+ *
+ *    Also `yy` will try to guess the century of two digit year by proximity with `baseDate`:
+ *
+ *    `parse('50', 'yy', new Date(2018, 0, 1)) //=> Sat Jan 01 2050 00:00:00`
+ *
+ *    `parse('75', 'yy', new Date(2018, 0, 1)) //=> Wed Jan 01 1975 00:00:00`
+ *
+ *    while `uu` will just assign the year as is:
+ *
+ *    `parse('50', 'uu', new Date(2018, 0, 1)) //=> Sat Jan 01 0050 00:00:00`
+ *
+ *    `parse('75', 'uu', new Date(2018, 0, 1)) //=> Tue Jan 01 0075 00:00:00`
+ *
+ *    The same difference is true for local and ISO week-numbering years (`Y` and `R`),
+ *    except local week-numbering years are dependent on `options.weekStartsOn`
+ *    and `options.firstWeekContainsDate` (compare [setISOWeekYear]{@link https://date-fns.org/docs/setISOWeekYear}
+ *    and [setWeekYear]{@link https://date-fns.org/docs/setWeekYear}).
+ *
+ * 5. These patterns are not in the Unicode Technical Standard #35:
+ *    - `i`: ISO day of week
+ *    - `I`: ISO week of year
+ *    - `R`: ISO week-numbering year
+ *    - `o`: ordinal number modifier
+ *
+ * 6. These tokens are often confused with others. See: https://git.io/fxCyr
+ *
+ * Values will be assigned to the date in the descending order of its unit's priority.
+ * Units of an equal priority overwrite each other in the order of appearance.
+ *
+ * If no values of higher priority are parsed (e.g. when parsing string 'January 1st' without a year),
+ * the values will be taken from 3rd argument `baseDate` which works as a context of parsing.
+ *
+ * `baseDate` must be passed for correct work of the function.
+ * If you're not sure which `baseDate` to supply, create a new instance of Date:
+ * `parse('02/11/2014', 'MM/dd/yyyy', new Date())`
+ * In this case parsing will be done in the context of the current date.
+ * If `baseDate` is `Invalid Date` or a value not convertible to valid `Date`,
+ * then `Invalid Date` will be returned.
+ *
+ * The result may vary by locale.
+ *
+ * If `formatString` matches with `dateString` but does not provides tokens, `baseDate` will be returned.
+ *
+ * If parsing failed, `Invalid Date` will be returned.
+ * Invalid Date is a Date, whose time value is NaN.
+ * Time value of Date: http://es5.github.io/#x15.9.1.1
+ *
+ * @param {String} dateString - the string to parse
+ * @param {String} formatString - the string of tokens
+ * @param {Date|String|Number} baseDate - defines values missing from the parsed dateString
+ * @param {Options} [options] - the object with options. See [Options]{@link https://date-fns.org/docs/Options}
+ * @param {0|1|2} [options.additionalDigits=2] - passed to `toDate`. See [toDate]{@link https://date-fns.org/docs/toDate}
+ * @param {Locale} [options.locale=defaultLocale] - the locale object. See [Locale]{@link https://date-fns.org/docs/Locale}
+ * @param {0|1|2|3|4|5|6} [options.weekStartsOn=0] - the index of the first day of the week (0 - Sunday)
+ * @param {1|2|3|4|5|6|7} [options.firstWeekContainsDate=1] - the day of January, which is always in the first week of the year
+ * @param {Boolean} [options.awareOfUnicodeTokens=false] - if true, allows usage of Unicode tokens causes confusion:
+ *   - Some of the day of year tokens (`D`, `DD`) that are confused with the day of month tokens (`d`, `dd`).
+ *   - Some of the local week-numbering year tokens (`YY`, `YYYY`) that are confused with the calendar year tokens (`yy`, `yyyy`).
+ *   See: https://git.io/fxCyr
+ * @returns {Date} the parsed date
+ * @throws {TypeError} 3 arguments required
+ * @throws {RangeError} `options.additionalDigits` must be 0, 1 or 2
+ * @throws {RangeError} `options.weekStartsOn` must be between 0 and 6
+ * @throws {RangeError} `options.firstWeekContainsDate` must be between 1 and 7
+ * @throws {RangeError} `options.locale` must contain `match` property
+ * @throws {RangeError} `options.awareOfUnicodeTokens` must be set to `true` to use `XX` token; see: https://git.io/fxCyr
+ *
+ * @example
+ * // Parse 11 February 2014 from middle-endian format:
+ * var result = parse(
+ *   '02/11/2014',
+ *   'MM/dd/yyyy',
+ *   new Date()
+ * )
+ * //=> Tue Feb 11 2014 00:00:00
+ *
+ * @example
+ * // Parse 28th of February in Esperanto locale in the context of 2010 year:
+ * import eo from 'date-fns/locale/eo'
+ * var result = parse(
+ *   '28-a de februaro',
+ *   "do 'de' MMMM",
+ *   new Date(2010, 0, 1),
+ *   {locale: eo}
+ * )
+ * //=> Sun Feb 28 2010 00:00:00
+ */
+function parse(
+  dirtyDateString,
+  dirtyFormatString,
+  dirtyBaseDate,
+  dirtyOptions
+) {
+  if (arguments.length < 3) {
+    throw new TypeError(
+      '3 arguments required, but only ' + arguments.length + ' present'
+    )
+  }
+
+  var dateString = String(dirtyDateString);
+  var formatString = String(dirtyFormatString);
+  var options = dirtyOptions || {};
+
+  var locale = options.locale || locale$1;
+
+  if (!locale.match) {
+    throw new RangeError('locale must contain match property')
+  }
+
+  var localeFirstWeekContainsDate =
+    locale.options && locale.options.firstWeekContainsDate;
+  var defaultFirstWeekContainsDate =
+    localeFirstWeekContainsDate == null
+      ? 1
+      : toInteger(localeFirstWeekContainsDate);
+  var firstWeekContainsDate =
+    options.firstWeekContainsDate == null
+      ? defaultFirstWeekContainsDate
+      : toInteger(options.firstWeekContainsDate);
+
+  // Test if weekStartsOn is between 1 and 7 _and_ is not NaN
+  if (!(firstWeekContainsDate >= 1 && firstWeekContainsDate <= 7)) {
+    throw new RangeError(
+      'firstWeekContainsDate must be between 1 and 7 inclusively'
+    )
+  }
+
+  var localeWeekStartsOn = locale.options && locale.options.weekStartsOn;
+  var defaultWeekStartsOn =
+    localeWeekStartsOn == null ? 0 : toInteger(localeWeekStartsOn);
+  var weekStartsOn =
+    options.weekStartsOn == null
+      ? defaultWeekStartsOn
+      : toInteger(options.weekStartsOn);
+
+  // Test if weekStartsOn is between 0 and 6 _and_ is not NaN
+  if (!(weekStartsOn >= 0 && weekStartsOn <= 6)) {
+    throw new RangeError('weekStartsOn must be between 0 and 6 inclusively')
+  }
+
+  if (formatString === '') {
+    if (dateString === '') {
+      return toDate(dirtyBaseDate, options)
+    } else {
+      return new Date(NaN)
+    }
+  }
+
+  var subFnOptions = {
+    firstWeekContainsDate: firstWeekContainsDate,
+    weekStartsOn: weekStartsOn,
+    locale: locale
+  };
+
+  // If timezone isn't specified, it will be set to the system timezone
+  var setters = [
+    {
+      priority: TIMEZONE_UNIT_PRIORITY,
+      set: dateToSystemTimezone,
+      index: 0
+    }
+  ];
+
+  var i;
+
+  var tokens = formatString.match(formattingTokensRegExp$1);
+
+  for (i = 0; i < tokens.length; i++) {
+    var token = tokens[i];
+
+    if (!options.awareOfUnicodeTokens && isProtectedToken(token)) {
+      throwProtectedError(token);
+    }
+
+    var firstCharacter = token[0];
+    var parser = parsers[firstCharacter];
+    if (parser) {
+      var parseResult = parser.parse(
+        dateString,
+        token,
+        locale.match,
+        subFnOptions
+      );
+
+      if (!parseResult) {
+        return new Date(NaN)
+      }
+
+      setters.push({
+        priority: parser.priority,
+        set: parser.set,
+        validate: parser.validate,
+        value: parseResult.value,
+        index: setters.length
+      });
+
+      dateString = parseResult.rest;
+    } else {
+      // Replace two single quote characters with one single quote character
+      if (token === "''") {
+        token = "'";
+      } else if (firstCharacter === "'") {
+        token = cleanEscapedString$1(token);
+      }
+
+      // Cut token from string, or, if string doesn't match the token, return Invalid Date
+      if (dateString.indexOf(token) === 0) {
+        dateString = dateString.slice(token.length);
+      } else {
+        return new Date(NaN)
+      }
+    }
+  }
+
+  // Check if the remaining input contains something other than whitespace
+  if (dateString.length > 0 && notWhitespaceRegExp.test(dateString)) {
+    return new Date(NaN)
+  }
+
+  var uniquePrioritySetters = setters
+    .map(function(setter) {
+      return setter.priority
+    })
+    .sort(function(a, b) {
+      return b - a
+    })
+    .filter(function(priority, index, array) {
+      return array.indexOf(priority) === index
+    })
+    .map(function(priority) {
+      return setters
+        .filter(function(setter) {
+          return setter.priority === priority
+        })
+        .reverse()
+    })
+    .map(function(setterArray) {
+      return setterArray[0]
+    });
+
+  var date = toDate(dirtyBaseDate, options);
+
+  if (isNaN(date)) {
+    return new Date(NaN)
+  }
+
+  // Convert the date in system timezone to the same date in UTC+00:00 timezone.
+  // This ensures that when UTC functions will be implemented, locales will be compatible with them.
+  // See an issue about UTC functions: https://github.com/date-fns/date-fns/issues/37
+  var utcDate = subMilliseconds(date, getTimezoneOffsetInMilliseconds(date));
+
+  for (i = 0; i < uniquePrioritySetters.length; i++) {
+    var setter = uniquePrioritySetters[i];
+
+    if (
+      setter.validate &&
+      !setter.validate(utcDate, setter.value, subFnOptions)
+    ) {
+      return new Date(NaN)
+    }
+
+    utcDate = setter.set(utcDate, setter.value, subFnOptions);
+  }
+
+  return utcDate
+}
+
+function dateToSystemTimezone(date) {
+  var convertedDate = new Date(0);
+  convertedDate.setFullYear(
+    date.getUTCFullYear(),
+    date.getUTCMonth(),
+    date.getUTCDate()
+  );
+  convertedDate.setHours(
+    date.getUTCHours(),
+    date.getUTCMinutes(),
+    date.getUTCSeconds(),
+    date.getUTCMilliseconds()
+  );
+  return convertedDate
+}
+
+function cleanEscapedString$1(input) {
+  return input.match(escapedStringRegExp$1)[1].replace(doubleQuoteRegExp$1, "'")
+}
+
+// 
+
+/**
+ * Custom parse behavior on top of date-fns parse function.
+ */
+function parseDate$1 (date, format$1) {
+  if (typeof date !== 'string') {
+    return isValid(date) ? date : null;
+  }
+
+  var parsed = parse(date, format$1, new Date());
+
+  // if date is not valid or the formatted output after parsing does not match
+  // the string value passed in (avoids overflows)
+  if (!isValid(parsed) || format(parsed, format$1) !== date) {
+    return null;
+  }
+
+  return parsed;
+}
+
+var afterValidator = function (value, ref) {
+  if ( ref === void 0 ) ref = {};
+  var targetValue = ref.targetValue;
+  var inclusion = ref.inclusion; if ( inclusion === void 0 ) inclusion = false;
+  var format = ref.format;
+
+  if (typeof format === 'undefined') {
+    format = inclusion;
+    inclusion = false;
+  }
+
+  value = parseDate$1(value, format);
+  targetValue = parseDate$1(targetValue, format);
+
+  // if either is not valid.
+  if (!value || !targetValue) {
+    return false;
+  }
+
+  return isAfter(value, targetValue) || (inclusion && isEqual$1(value, targetValue));
+};
+
+var options = {
+  hasTarget: true,
+  isDate: true
+};
+
+// required to convert from a list of array values to an object.
+var paramNames = ['targetValue', 'inclusion', 'format'];
+
+var after = {
+  validate: afterValidator,
+  options: options,
+  paramNames: paramNames
+};
+
+/**
+ * Some Alpha Regex helpers.
+ * https://github.com/chriso/validator.js/blob/master/src/lib/alpha.js
+ */
+
+var alpha = {
+  en: /^[A-Z]*$/i,
+  cs: /^[A-ZÁČĎÉĚÍŇÓŘŠŤÚŮÝŽ]*$/i,
+  da: /^[A-ZÆØÅ]*$/i,
+  de: /^[A-ZÄÖÜß]*$/i,
+  es: /^[A-ZÁÉÍÑÓÚÜ]*$/i,
+  fa: /^[ءآأؤإئابةتثجحخدذرزسشصضطظعغفقكلمنهوىيًٌٍَُِّْٰپژگچکی]*$/,
+  fr: /^[A-ZÀÂÆÇÉÈÊËÏÎÔŒÙÛÜŸ]*$/i,
+  it: /^[A-Z\xC0-\xFF]*$/i,
+  lt: /^[A-ZĄČĘĖĮŠŲŪŽ]*$/i,
+  nl: /^[A-ZÉËÏÓÖÜ]*$/i,
+  hu: /^[A-ZÁÉÍÓÖŐÚÜŰ]*$/i,
+  pl: /^[A-ZĄĆĘŚŁŃÓŻŹ]*$/i,
+  pt: /^[A-ZÃÁÀÂÇÉÊÍÕÓÔÚÜ]*$/i,
+  ru: /^[А-ЯЁ]*$/i,
+  sk: /^[A-ZÁÄČĎÉÍĹĽŇÓŔŠŤÚÝŽ]*$/i,
+  sr: /^[A-ZČĆŽŠĐ]*$/i,
+  sv: /^[A-ZÅÄÖ]*$/i,
+  tr: /^[A-ZÇĞİıÖŞÜ]*$/i,
+  uk: /^[А-ЩЬЮЯЄІЇҐ]*$/i,
+  ar: /^[ءآأؤإئابةتثجحخدذرزسشصضطظعغفقكلمنهوىيًٌٍَُِّْٰ]*$/,
+  az: /^[A-ZÇƏĞİıÖŞÜ]*$/i
+};
+
+var alphaSpaces = {
+  en: /^[A-Z\s]*$/i,
+  cs: /^[A-ZÁČĎÉĚÍŇÓŘŠŤÚŮÝŽ\s]*$/i,
+  da: /^[A-ZÆØÅ\s]*$/i,
+  de: /^[A-ZÄÖÜß\s]*$/i,
+  es: /^[A-ZÁÉÍÑÓÚÜ\s]*$/i,
+  fa: /^[ءآأؤإئابةتثجحخدذرزسشصضطظعغفقكلمنهوىيًٌٍَُِّْٰپژگچکی\s]*$/,
+  fr: /^[A-ZÀÂÆÇÉÈÊËÏÎÔŒÙÛÜŸ\s]*$/i,
+  it: /^[A-Z\xC0-\xFF\s]*$/i,
+  lt: /^[A-ZĄČĘĖĮŠŲŪŽ\s]*$/i,
+  nl: /^[A-ZÉËÏÓÖÜ\s]*$/i,
+  hu: /^[A-ZÁÉÍÓÖŐÚÜŰ\s]*$/i,
+  pl: /^[A-ZĄĆĘŚŁŃÓŻŹ\s]*$/i,
+  pt: /^[A-ZÃÁÀÂÇÉÊÍÕÓÔÚÜ\s]*$/i,
+  ru: /^[А-ЯЁ\s]*$/i,
+  sk: /^[A-ZÁÄČĎÉÍĹĽŇÓŔŠŤÚÝŽ\s]*$/i,
+  sr: /^[A-ZČĆŽŠĐ\s]*$/i,
+  sv: /^[A-ZÅÄÖ\s]*$/i,
+  tr: /^[A-ZÇĞİıÖŞÜ\s]*$/i,
+  uk: /^[А-ЩЬЮЯЄІЇҐ\s]*$/i,
+  ar: /^[ءآأؤإئابةتثجحخدذرزسشصضطظعغفقكلمنهوىيًٌٍَُِّْٰ\s]*$/,
+  az: /^[A-ZÇƏĞİıÖŞÜ\s]*$/i
+};
+
+var alphanumeric = {
+  en: /^[0-9A-Z]*$/i,
+  cs: /^[0-9A-ZÁČĎÉĚÍŇÓŘŠŤÚŮÝŽ]*$/i,
+  da: /^[0-9A-ZÆØÅ]$/i,
+  de: /^[0-9A-ZÄÖÜß]*$/i,
+  es: /^[0-9A-ZÁÉÍÑÓÚÜ]*$/i,
+  fa: /^[٠١٢٣٤٥٦٧٨٩0-9ءآأؤإئابةتثجحخدذرزسشصضطظعغفقكلمنهوىيًٌٍَُِّْٰپژگچکی]*$/,
+  fr: /^[0-9A-ZÀÂÆÇÉÈÊËÏÎÔŒÙÛÜŸ]*$/i,
+  it: /^[0-9A-Z\xC0-\xFF]*$/i,
+  lt: /^[0-9A-ZĄČĘĖĮŠŲŪŽ]*$/i,
+  hu: /^[0-9A-ZÁÉÍÓÖŐÚÜŰ]*$/i,
+  nl: /^[0-9A-ZÉËÏÓÖÜ]*$/i,
+  pl: /^[0-9A-ZĄĆĘŚŁŃÓŻŹ]*$/i,
+  pt: /^[0-9A-ZÃÁÀÂÇÉÊÍÕÓÔÚÜ]*$/i,
+  ru: /^[0-9А-ЯЁ]*$/i,
+  sk: /^[0-9A-ZÁÄČĎÉÍĹĽŇÓŔŠŤÚÝŽ]*$/i,
+  sr: /^[0-9A-ZČĆŽŠĐ]*$/i,
+  sv: /^[0-9A-ZÅÄÖ]*$/i,
+  tr: /^[0-9A-ZÇĞİıÖŞÜ]*$/i,
+  uk: /^[0-9А-ЩЬЮЯЄІЇҐ]*$/i,
+  ar: /^[٠١٢٣٤٥٦٧٨٩0-9ءآأؤإئابةتثجحخدذرزسشصضطظعغفقكلمنهوىيًٌٍَُِّْٰ]*$/,
+  az: /^[0-9A-ZÇƏĞİıÖŞÜ]*$/i
+};
+
+var alphaDash = {
+  en: /^[0-9A-Z_-]*$/i,
+  cs: /^[0-9A-ZÁČĎÉĚÍŇÓŘŠŤÚŮÝŽ_-]*$/i,
+  da: /^[0-9A-ZÆØÅ_-]*$/i,
+  de: /^[0-9A-ZÄÖÜß_-]*$/i,
+  es: /^[0-9A-ZÁÉÍÑÓÚÜ_-]*$/i,
+  fa: /^[٠١٢٣٤٥٦٧٨٩0-9ءآأؤإئابةتثجحخدذرزسشصضطظعغفقكلمنهوىيًٌٍَُِّْٰپژگچکی_-]*$/,
+  fr: /^[0-9A-ZÀÂÆÇÉÈÊËÏÎÔŒÙÛÜŸ_-]*$/i,
+  it: /^[0-9A-Z\xC0-\xFF_-]*$/i,
+  lt: /^[0-9A-ZĄČĘĖĮŠŲŪŽ_-]*$/i,
+  nl: /^[0-9A-ZÉËÏÓÖÜ_-]*$/i,
+  hu: /^[0-9A-ZÁÉÍÓÖŐÚÜŰ_-]*$/i,
+  pl: /^[0-9A-ZĄĆĘŚŁŃÓŻŹ_-]*$/i,
+  pt: /^[0-9A-ZÃÁÀÂÇÉÊÍÕÓÔÚÜ_-]*$/i,
+  ru: /^[0-9А-ЯЁ_-]*$/i,
+  sk: /^[0-9A-ZÁÄČĎÉÍĹĽŇÓŔŠŤÚÝŽ_-]*$/i,
+  sr: /^[0-9A-ZČĆŽŠĐ_-]*$/i,
+  sv: /^[0-9A-ZÅÄÖ_-]*$/i,
+  tr: /^[0-9A-ZÇĞİıÖŞÜ_-]*$/i,
+  uk: /^[0-9А-ЩЬЮЯЄІЇҐ_-]*$/i,
+  ar: /^[٠١٢٣٤٥٦٧٨٩0-9ءآأؤإئابةتثجحخدذرزسشصضطظعغفقكلمنهوىيًٌٍَُِّْٰ_-]*$/,
+  az: /^[0-9A-ZÇƏĞİıÖŞÜ_-]*$/i
+};
+
+var validate = function (value, ref) {
+  if ( ref === void 0 ) ref = {};
+  var locale = ref.locale;
+
+  if (Array.isArray(value)) {
+    return value.every(function (val) { return validate(val, [locale]); });
+  }
+
+  // Match at least one locale.
+  if (! locale) {
+    return Object.keys(alpha).some(function (loc) { return alpha[loc].test(value); });
+  }
+
+  return (alpha[locale] || alpha.en).test(value);
+};
+
+var paramNames$1 = ['locale'];
+
+var alpha$1 = {
+  validate: validate,
+  paramNames: paramNames$1
+};
+
+var validate$1 = function (value, ref) {
+  if ( ref === void 0 ) ref = {};
+  var locale = ref.locale;
+
+  if (Array.isArray(value)) {
+    return value.every(function (val) { return validate$1(val, [locale]); });
+  }
+
+  // Match at least one locale.
+  if (! locale) {
+    return Object.keys(alphaDash).some(function (loc) { return alphaDash[loc].test(value); });
+  }
+
+  return (alphaDash[locale] || alphaDash.en).test(value);
+};
+
+var paramNames$2 = ['locale'];
+
+var alpha_dash = {
+  validate: validate$1,
+  paramNames: paramNames$2
+};
+
+var validate$2 = function (value, ref) {
+  if ( ref === void 0 ) ref = {};
+  var locale = ref.locale;
+
+  if (Array.isArray(value)) {
+    return value.every(function (val) { return validate$2(val, [locale]); });
+  }
+
+  // Match at least one locale.
+  if (! locale) {
+    return Object.keys(alphanumeric).some(function (loc) { return alphanumeric[loc].test(value); });
+  }
+
+  return (alphanumeric[locale] || alphanumeric.en).test(value);
+};
+
+var paramNames$3 = ['locale'];
+
+var alpha_num = {
+  validate: validate$2,
+  paramNames: paramNames$3
+};
+
+var validate$3 = function (value, ref) {
+  if ( ref === void 0 ) ref = {};
+  var locale = ref.locale;
+
+  if (Array.isArray(value)) {
+    return value.every(function (val) { return validate$3(val, [locale]); });
+  }
+
+  // Match at least one locale.
+  if (! locale) {
+    return Object.keys(alphaSpaces).some(function (loc) { return alphaSpaces[loc].test(value); });
+  }
+
+  return (alphaSpaces[locale] || alphaSpaces.en).test(value);
+};
+
+var paramNames$4 = ['locale'];
+
+var alpha_spaces = {
+  validate: validate$3,
+  paramNames: paramNames$4
+};
+
+var validate$4 = function (value, ref) {
+  if ( ref === void 0 ) ref = {};
+  var targetValue = ref.targetValue;
+  var inclusion = ref.inclusion; if ( inclusion === void 0 ) inclusion = false;
+  var format = ref.format;
+
+  if (typeof format === 'undefined') {
+    format = inclusion;
+    inclusion = false;
+  }
+
+  value = parseDate$1(value, format);
+  targetValue = parseDate$1(targetValue, format);
+
+  // if either is not valid.
+  if (!value || !targetValue) {
+    return false;
+  }
+
+  return isBefore(value, targetValue) || (inclusion && isEqual$1(value, targetValue));
+};
+
+var options$1 = {
+  hasTarget: true,
+  isDate: true
+};
+
+var paramNames$5 = ['targetValue', 'inclusion', 'format'];
+
+var before = {
+  validate: validate$4,
+  options: options$1,
+  paramNames: paramNames$5
+};
+
+var validate$5 = function (value, ref) {
+  if ( ref === void 0 ) ref = {};
+  var min = ref.min;
+  var max = ref.max;
+
+  if (Array.isArray(value)) {
+    return value.every(function (val) { return validate$5(val, { min: min, max: max }); });
+  }
+
+  return Number(min) <= value && Number(max) >= value;
+};
+
+var paramNames$6 = ['min', 'max'];
+
+var between = {
+  validate: validate$5,
+  paramNames: paramNames$6
+};
+
+var validate$6 = function (value, ref) {
+  var targetValue = ref.targetValue;
+
+  return String(value) === String(targetValue);
+};
+var options$2 = {
+  hasTarget: true
+};
+
+var paramNames$7 = ['targetValue'];
+
+var confirmed = {
+  validate: validate$6,
+  options: options$2,
+  paramNames: paramNames$7
+};
+
+function unwrapExports (x) {
+	return x && x.__esModule && Object.prototype.hasOwnProperty.call(x, 'default') ? x['default'] : x;
+}
+
+function createCommonjsModule(fn, module) {
+	return module = { exports: {} }, fn(module, module.exports), module.exports;
+}
+
+var assertString_1 = createCommonjsModule(function (module, exports) {
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = assertString;
+
+function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
+
+function assertString(input) {
+  var isString = typeof input === 'string' || input instanceof String;
+
+  if (!isString) {
+    var invalidType;
+
+    if (input === null) {
+      invalidType = 'null';
+    } else {
+      invalidType = _typeof(input);
+
+      if (invalidType === 'object' && input.constructor && input.constructor.hasOwnProperty('name')) {
+        invalidType = input.constructor.name;
+      } else {
+        invalidType = "a ".concat(invalidType);
+      }
+    }
+
+    throw new TypeError("Expected string but received ".concat(invalidType, "."));
+  }
+}
+
+module.exports = exports.default;
+module.exports.default = exports.default;
+});
+
+unwrapExports(assertString_1);
+
+var isCreditCard_1 = createCommonjsModule(function (module, exports) {
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = isCreditCard;
+
+var _assertString = _interopRequireDefault(assertString_1);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+/* eslint-disable max-len */
+var creditCard = /^(?:4[0-9]{12}(?:[0-9]{3})?|5[1-5][0-9]{14}|(222[1-9]|22[3-9][0-9]|2[3-6][0-9]{2}|27[01][0-9]|2720)[0-9]{12}|6(?:011|5[0-9][0-9])[0-9]{12}|3[47][0-9]{13}|3(?:0[0-5]|[68][0-9])[0-9]{11}|(?:2131|1800|35\d{3})\d{11}|6[27][0-9]{14})$/;
+/* eslint-enable max-len */
+
+function isCreditCard(str) {
+  (0, _assertString.default)(str);
+  var sanitized = str.replace(/[- ]+/g, '');
+
+  if (!creditCard.test(sanitized)) {
+    return false;
+  }
+
+  var sum = 0;
+  var digit;
+  var tmpNum;
+  var shouldDouble;
+
+  for (var i = sanitized.length - 1; i >= 0; i--) {
+    digit = sanitized.substring(i, i + 1);
+    tmpNum = parseInt(digit, 10);
+
+    if (shouldDouble) {
+      tmpNum *= 2;
+
+      if (tmpNum >= 10) {
+        sum += tmpNum % 10 + 1;
+      } else {
+        sum += tmpNum;
+      }
+    } else {
+      sum += tmpNum;
+    }
+
+    shouldDouble = !shouldDouble;
+  }
+
+  return !!(sum % 10 === 0 ? sanitized : false);
+}
+
+module.exports = exports.default;
+module.exports.default = exports.default;
+});
+
+var isCreditCard = unwrapExports(isCreditCard_1);
+
+var validate$7 = function (value) { return isCreditCard(String(value)); };
+
+var credit_card = {
+  validate: validate$7
+};
+
+var validate$8 = function (value, ref) {
+  if ( ref === void 0 ) ref = {};
+  var min = ref.min;
+  var max = ref.max;
+  var inclusivity = ref.inclusivity; if ( inclusivity === void 0 ) inclusivity = '()';
+  var format = ref.format;
+
+  if (typeof format === 'undefined') {
+    format = inclusivity;
+    inclusivity = '()';
+  }
+
+  var minDate = parseDate$1(String(min), format);
+  var maxDate = parseDate$1(String(max), format);
+  var dateVal = parseDate$1(String(value), format);
+
+  if (!minDate || !maxDate || !dateVal) {
+    return false;
+  }
+
+  if (inclusivity === '()') {
+    return isAfter(dateVal, minDate) && isBefore(dateVal, maxDate);
+  }
+
+  if (inclusivity === '(]') {
+    return isAfter(dateVal, minDate) && (isEqual$1(dateVal, maxDate) || isBefore(dateVal, maxDate));
+  }
+
+  if (inclusivity === '[)') {
+    return isBefore(dateVal, maxDate) && (isEqual$1(dateVal, minDate) || isAfter(dateVal, minDate));
+  }
+
+  return isEqual$1(dateVal, maxDate) || isEqual$1(dateVal, minDate) ||
+    (isBefore(dateVal, maxDate) && isAfter(dateVal, minDate));
+};
+
+var options$3 = {
+  isDate: true
+};
+
+var paramNames$8 = ['min', 'max', 'inclusivity', 'format'];
+
+var date_between = {
+  validate: validate$8,
+  options: options$3,
+  paramNames: paramNames$8
+};
+
+var validate$9 = function (value, ref) {
+  var format = ref.format;
+
+  return !!parseDate$1(value, format);
+};
+
+var options$4 = {
+  isDate: true
+};
+
+var paramNames$9 = ['format'];
+
+var date_format = {
+  validate: validate$9,
+  options: options$4,
+  paramNames: paramNames$9
+};
+
+var validate$a = function (value, ref) {
+  if ( ref === void 0 ) ref = {};
+  var decimals = ref.decimals; if ( decimals === void 0 ) decimals = '*';
+  var separator = ref.separator; if ( separator === void 0 ) separator = '.';
+
+  if (isNullOrUndefined(value) || value === '') {
+    return false;
+  }
+
+  if (Array.isArray(value)) {
+    return value.every(function (val) { return validate$a(val, { decimals: decimals, separator: separator }); });
+  }
+
+  // if is 0.
+  if (Number(decimals) === 0) {
+    return /^-?\d*$/.test(value);
+  }
+
+  var regexPart = decimals === '*' ? '+' : ("{1," + decimals + "}");
+  var regex = new RegExp(("^[-+]?\\d*(\\" + separator + "\\d" + regexPart + ")?([eE]{1}[-]?\\d+)?$"));
+
+  if (! regex.test(value)) {
+    return false;
+  }
+
+  var parsedValue = parseFloat(value);
+
+  // eslint-disable-next-line
+  return parsedValue === parsedValue;
+};
+
+var paramNames$a = ['decimals', 'separator'];
+
+var decimal = {
+  validate: validate$a,
+  paramNames: paramNames$a
+};
+
+var validate$b = function (value, ref) {
+  var length = ref[0];
+
+  if (Array.isArray(value)) {
+    return value.every(function (val) { return validate$b(val, [length]); });
+  }
+  var strVal = String(value);
+
+  return /^[0-9]*$/.test(strVal) && strVal.length === Number(length);
+};
+
+var digits = {
+  validate: validate$b
+};
+
+var imageRegex = /\.(jpg|svg|jpeg|png|bmp|gif)$/i;
+
+var validateImage = function (file, width, height) {
+  var URL = window.URL || window.webkitURL;
+  return new Promise(function (resolve) {
+    var image = new Image();
+    image.onerror = function () { return resolve({ valid: false }); };
+    image.onload = function () { return resolve({
+      valid: image.width === Number(width) && image.height === Number(height)
+    }); };
+
+    image.src = URL.createObjectURL(file);
+  });
+};
+
+var validate$c = function (files, ref) {
+  var width = ref[0];
+  var height = ref[1];
+
+  var images = ensureArray(files).filter(function (file) { return imageRegex.test(file.name); });
+  if (images.length === 0) {
+    return false;
+  }
+  return Promise.all(images.map(function (image) { return validateImage(image, width, height); }));
+};
+
+var dimensions = {
+  validate: validate$c
+};
+
+var merge_1 = createCommonjsModule(function (module, exports) {
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = merge;
+
+function merge() {
+  var obj = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : {};
+  var defaults = arguments.length > 1 ? arguments[1] : undefined;
+
+  for (var key in defaults) {
+    if (typeof obj[key] === 'undefined') {
+      obj[key] = defaults[key];
+    }
+  }
+
+  return obj;
+}
+
+module.exports = exports.default;
+module.exports.default = exports.default;
+});
+
+unwrapExports(merge_1);
+
+var isByteLength_1 = createCommonjsModule(function (module, exports) {
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = isByteLength;
+
+var _assertString = _interopRequireDefault(assertString_1);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
+
+/* eslint-disable prefer-rest-params */
+function isByteLength(str, options) {
+  (0, _assertString.default)(str);
+  var min;
+  var max;
+
+  if (_typeof(options) === 'object') {
+    min = options.min || 0;
+    max = options.max;
+  } else {
+    // backwards compatibility: isByteLength(str, min [, max])
+    min = arguments[1];
+    max = arguments[2];
+  }
+
+  var len = encodeURI(str).split(/%..|./).length - 1;
+  return len >= min && (typeof max === 'undefined' || len <= max);
+}
+
+module.exports = exports.default;
+module.exports.default = exports.default;
+});
+
+unwrapExports(isByteLength_1);
+
+var isFQDN_1 = createCommonjsModule(function (module, exports) {
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = isFQDN;
+
+var _assertString = _interopRequireDefault(assertString_1);
+
+var _merge = _interopRequireDefault(merge_1);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+var default_fqdn_options = {
+  require_tld: true,
+  allow_underscores: false,
+  allow_trailing_dot: false
+};
+
+function isFQDN(str, options) {
+  (0, _assertString.default)(str);
+  options = (0, _merge.default)(options, default_fqdn_options);
+  /* Remove the optional trailing dot before checking validity */
+
+  if (options.allow_trailing_dot && str[str.length - 1] === '.') {
+    str = str.substring(0, str.length - 1);
+  }
+
+  var parts = str.split('.');
+
+  for (var i = 0; i < parts.length; i++) {
+    if (parts[i].length > 63) {
+      return false;
+    }
+  }
+
+  if (options.require_tld) {
+    var tld = parts.pop();
+
+    if (!parts.length || !/^([a-z\u00a1-\uffff]{2,}|xn[a-z0-9-]{2,})$/i.test(tld)) {
+      return false;
+    } // disallow spaces
+
+
+    if (/[\s\u2002-\u200B\u202F\u205F\u3000\uFEFF\uDB40\uDC20]/.test(tld)) {
+      return false;
+    }
+  }
+
+  for (var part, _i = 0; _i < parts.length; _i++) {
+    part = parts[_i];
+
+    if (options.allow_underscores) {
+      part = part.replace(/_/g, '');
+    }
+
+    if (!/^[a-z\u00a1-\uffff0-9-]+$/i.test(part)) {
+      return false;
+    } // disallow full-width chars
+
+
+    if (/[\uff01-\uff5e]/.test(part)) {
+      return false;
+    }
+
+    if (part[0] === '-' || part[part.length - 1] === '-') {
+      return false;
+    }
+  }
+
+  return true;
+}
+
+module.exports = exports.default;
+module.exports.default = exports.default;
+});
+
+var isFQDN = unwrapExports(isFQDN_1);
+
+var isIP_1 = createCommonjsModule(function (module, exports) {
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = isIP;
+
+var _assertString = _interopRequireDefault(assertString_1);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+var ipv4Maybe = /^(\d{1,3})\.(\d{1,3})\.(\d{1,3})\.(\d{1,3})$/;
+var ipv6Block = /^[0-9A-F]{1,4}$/i;
+
+function isIP(str) {
+  var version = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : '';
+  (0, _assertString.default)(str);
+  version = String(version);
+
+  if (!version) {
+    return isIP(str, 4) || isIP(str, 6);
+  } else if (version === '4') {
+    if (!ipv4Maybe.test(str)) {
+      return false;
+    }
+
+    var parts = str.split('.').sort(function (a, b) {
+      return a - b;
+    });
+    return parts[3] <= 255;
+  } else if (version === '6') {
+    var blocks = str.split(':');
+    var foundOmissionBlock = false; // marker to indicate ::
+    // At least some OS accept the last 32 bits of an IPv6 address
+    // (i.e. 2 of the blocks) in IPv4 notation, and RFC 3493 says
+    // that '::ffff:a.b.c.d' is valid for IPv4-mapped IPv6 addresses,
+    // and '::a.b.c.d' is deprecated, but also valid.
+
+    var foundIPv4TransitionBlock = isIP(blocks[blocks.length - 1], 4);
+    var expectedNumberOfBlocks = foundIPv4TransitionBlock ? 7 : 8;
+
+    if (blocks.length > expectedNumberOfBlocks) {
+      return false;
+    } // initial or final ::
+
+
+    if (str === '::') {
+      return true;
+    } else if (str.substr(0, 2) === '::') {
+      blocks.shift();
+      blocks.shift();
+      foundOmissionBlock = true;
+    } else if (str.substr(str.length - 2) === '::') {
+      blocks.pop();
+      blocks.pop();
+      foundOmissionBlock = true;
+    }
+
+    for (var i = 0; i < blocks.length; ++i) {
+      // test for a :: which can not be at the string start/end
+      // since those cases have been handled above
+      if (blocks[i] === '' && i > 0 && i < blocks.length - 1) {
+        if (foundOmissionBlock) {
+          return false; // multiple :: in address
+        }
+
+        foundOmissionBlock = true;
+      } else if (foundIPv4TransitionBlock && i === blocks.length - 1) ; else if (!ipv6Block.test(blocks[i])) {
+        return false;
+      }
+    }
+
+    if (foundOmissionBlock) {
+      return blocks.length >= 1;
+    }
+
+    return blocks.length === expectedNumberOfBlocks;
+  }
+
+  return false;
+}
+
+module.exports = exports.default;
+module.exports.default = exports.default;
+});
+
+var isIP = unwrapExports(isIP_1);
+
+var isEmail_1 = createCommonjsModule(function (module, exports) {
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = isEmail;
+
+var _assertString = _interopRequireDefault(assertString_1);
+
+var _merge = _interopRequireDefault(merge_1);
+
+var _isByteLength = _interopRequireDefault(isByteLength_1);
+
+var _isFQDN = _interopRequireDefault(isFQDN_1);
+
+var _isIP = _interopRequireDefault(isIP_1);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+var default_email_options = {
+  allow_display_name: false,
+  require_display_name: false,
+  allow_utf8_local_part: true,
+  require_tld: true
+};
+/* eslint-disable max-len */
+
+/* eslint-disable no-control-regex */
+
+var displayName = /^[a-z\d!#\$%&'\*\+\-\/=\?\^_`{\|}~\.\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF]+[a-z\d!#\$%&'\*\+\-\/=\?\^_`{\|}~\,\.\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF\s]*<(.+)>$/i;
+var emailUserPart = /^[a-z\d!#\$%&'\*\+\-\/=\?\^_`{\|}~]+$/i;
+var gmailUserPart = /^[a-z\d]+$/;
+var quotedEmailUser = /^([\s\x01-\x08\x0b\x0c\x0e-\x1f\x7f\x21\x23-\x5b\x5d-\x7e]|(\\[\x01-\x09\x0b\x0c\x0d-\x7f]))*$/i;
+var emailUserUtf8Part = /^[a-z\d!#\$%&'\*\+\-\/=\?\^_`{\|}~\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF]+$/i;
+var quotedEmailUserUtf8 = /^([\s\x01-\x08\x0b\x0c\x0e-\x1f\x7f\x21\x23-\x5b\x5d-\x7e\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF]|(\\[\x01-\x09\x0b\x0c\x0d-\x7f\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF]))*$/i;
+/* eslint-enable max-len */
+
+/* eslint-enable no-control-regex */
+
+function isEmail(str, options) {
+  (0, _assertString.default)(str);
+  options = (0, _merge.default)(options, default_email_options);
+
+  if (options.require_display_name || options.allow_display_name) {
+    var display_email = str.match(displayName);
+
+    if (display_email) {
+      str = display_email[1];
+    } else if (options.require_display_name) {
+      return false;
+    }
+  }
+
+  var parts = str.split('@');
+  var domain = parts.pop();
+  var user = parts.join('@');
+  var lower_domain = domain.toLowerCase();
+
+  if (options.domain_specific_validation && (lower_domain === 'gmail.com' || lower_domain === 'googlemail.com')) {
+    /*
+      Previously we removed dots for gmail addresses before validating.
+      This was removed because it allows `multiple..dots@gmail.com`
+      to be reported as valid, but it is not.
+      Gmail only normalizes single dots, removing them from here is pointless,
+      should be done in normalizeEmail
+    */
+    user = user.toLowerCase(); // Removing sub-address from username before gmail validation
+
+    var username = user.split('+')[0]; // Dots are not included in gmail length restriction
+
+    if (!(0, _isByteLength.default)(username.replace('.', ''), {
+      min: 6,
+      max: 30
+    })) {
+      return false;
+    }
+
+    var _user_parts = username.split('.');
+
+    for (var i = 0; i < _user_parts.length; i++) {
+      if (!gmailUserPart.test(_user_parts[i])) {
+        return false;
+      }
+    }
+  }
+
+  if (!(0, _isByteLength.default)(user, {
+    max: 64
+  }) || !(0, _isByteLength.default)(domain, {
+    max: 254
+  })) {
+    return false;
+  }
+
+  if (!(0, _isFQDN.default)(domain, {
+    require_tld: options.require_tld
+  })) {
+    if (!options.allow_ip_domain) {
+      return false;
+    }
+
+    if (!(0, _isIP.default)(domain)) {
+      if (!domain.startsWith('[') || !domain.endsWith(']')) {
+        return false;
+      }
+
+      var noBracketdomain = domain.substr(1, domain.length - 2);
+
+      if (noBracketdomain.length === 0 || !(0, _isIP.default)(noBracketdomain)) {
+        return false;
+      }
+    }
+  }
+
+  if (user[0] === '"') {
+    user = user.slice(1, user.length - 1);
+    return options.allow_utf8_local_part ? quotedEmailUserUtf8.test(user) : quotedEmailUser.test(user);
+  }
+
+  var pattern = options.allow_utf8_local_part ? emailUserUtf8Part : emailUserPart;
+  var user_parts = user.split('.');
+
+  for (var _i = 0; _i < user_parts.length; _i++) {
+    if (!pattern.test(user_parts[_i])) {
+      return false;
+    }
+  }
+
+  return true;
+}
+
+module.exports = exports.default;
+module.exports.default = exports.default;
+});
+
+var isEmail = unwrapExports(isEmail_1);
+
+function objectWithoutProperties (obj, exclude) { var target = {}; for (var k in obj) if (Object.prototype.hasOwnProperty.call(obj, k) && exclude.indexOf(k) === -1) target[k] = obj[k]; return target; }
+
+var validate$d = function (value, ref) {
+  if ( ref === void 0 ) ref = {};
+  var multiple = ref.multiple; if ( multiple === void 0 ) multiple = false;
+  var rest = objectWithoutProperties( ref, ["multiple"] );
+  var options = rest;
+
+  if (multiple && !Array.isArray(value)) {
+    value = String(value).split(',').map(function (emailStr) { return emailStr.trim(); });
+  }
+
+  var validatorOptions = assign({}, options);
+
+  if (Array.isArray(value)) {
+    return value.every(function (val) { return isEmail(String(val), validatorOptions); });
+  }
+
+  return isEmail(String(value), validatorOptions);
+};
+
+var email = {
+  validate: validate$d
+};
+
+var validate$e = function (value, options) {
+  if (Array.isArray(value)) {
+    return value.every(function (val) { return validate$e(val, options); });
+  }
+
+  return toArray(options).some(function (item) {
+    // eslint-disable-next-line
+    return item == value;
+  });
+};
+
+var included = {
+  validate: validate$e
+};
+
+var validate$f = function () {
+  var args = [], len = arguments.length;
+  while ( len-- ) args[ len ] = arguments[ len ];
+
+  return !validate$e.apply(void 0, args);
+};
+
+var excluded = {
+  validate: validate$f
+};
+
+var validate$g = function (files, extensions) {
+  var regex = new RegExp((".(" + (extensions.join('|')) + ")$"), 'i');
+  return ensureArray(files).every(function (file) { return regex.test(file.name); });
+};
+
+var ext = {
+  validate: validate$g
+};
+
+var validate$h = function (files) { return (Array.isArray(files) ? files : [files]).every(function (file) { return /\.(jpg|svg|jpeg|png|bmp|gif)$/i.test(file.name); }); };
+
+var image = {
+  validate: validate$h
+};
+
+var validate$i = function (value) {
+  if (Array.isArray(value)) {
+    return value.every(function (val) { return /^-?[0-9]+$/.test(String(val)); });
+  }
+
+  return /^-?[0-9]+$/.test(String(value));
+};
+
+var integer = {
+  validate: validate$i
+};
+
+var validate$j = function (value, ref) {
+  if ( ref === void 0 ) ref = {};
+  var version = ref.version; if ( version === void 0 ) version = 4;
+
+  if (isNullOrUndefined(value)) {
+    value = '';
+  }
+
+  if (Array.isArray(value)) {
+    return value.every(function (val) { return isIP(val, version); });
+  }
+
+  return isIP(value, version);
+};
+
+var paramNames$b = ['version'];
+
+var ip = {
+  validate: validate$j,
+  paramNames: paramNames$b
+};
+
+var validate$k = function (value) {
+  if (isNullOrUndefined(value)) {
+    value = '';
+  }
+
+  if (Array.isArray(value)) {
+    return value.every(function (val) { return (isIP(val, '') || isFQDN(val)); });
+  }
+
+  return isIP(value, '') || isFQDN(value);
+};
+
+var ip_or_fqdn = {
+  validate: validate$k
+};
+
+var validate$l = function (value, ref) {
+  if ( ref === void 0 ) ref = [];
+  var other = ref[0];
+
+  return value === other;
+};
+
+var is = {
+  validate: validate$l
+};
+
+var validate$m = function (value, ref) {
+  if ( ref === void 0 ) ref = [];
+  var other = ref[0];
+
+  return value !== other;
+};
+
+var is_not = {
+  validate: validate$m
+};
+
+/**
+ * @param {Array|String} value
+ * @param {Number} length
+ * @param {Number} max
+ */
+var compare = function (value, length, max) {
+  if (max === undefined) {
+    return value.length === length;
+  }
+
+  // cast to number.
+  max = Number(max);
+
+  return value.length >= length && value.length <= max;
+};
+
+var validate$n = function (value, ref) {
+  var length = ref[0];
+  var max = ref[1]; if ( max === void 0 ) max = undefined;
+
+  if (isNullOrUndefined(value)) {
+    return false;
+  }
+
+  length = Number(length);
+  if (typeof value === 'number') {
+    value = String(value);
+  }
+
+  if (!value.length) {
+    value = toArray(value);
+  }
+
+  return compare(value, length, max);
+};
+
+var length = {
+  validate: validate$n
+};
+
+var validate$o = function (value, ref) {
+  var length = ref[0];
+
+  if (isNullOrUndefined(value)) {
+    return length >= 0;
+  }
+
+  if (Array.isArray(value)) {
+    return value.every(function (val) { return validate$o(val, [length]); });
+  }
+
+  return String(value).length <= length;
+};
+
+var max = {
+  validate: validate$o
+};
+
+var validate$p = function (value, ref) {
+  var max = ref[0];
+
+  if (isNullOrUndefined(value) || value === '') {
+    return false;
+  }
+
+  if (Array.isArray(value)) {
+    return value.length > 0 && value.every(function (val) { return validate$p(val, [max]); });
+  }
+
+  return Number(value) <= max;
+};
+
+var max_value = {
+  validate: validate$p
+};
+
+var validate$q = function (files, mimes) {
+  var regex = new RegExp(((mimes.join('|').replace('*', '.+')) + "$"), 'i');
+  return ensureArray(files).every(function (file) { return regex.test(file.type); });
+};
+
+var mimes = {
+  validate: validate$q
+};
+
+var validate$r = function (value, ref) {
+  var length = ref[0];
+
+  if (isNullOrUndefined(value)) {
+    return false;
+  }
+
+  if (Array.isArray(value)) {
+    return value.every(function (val) { return validate$r(val, [length]); });
+  }
+
+  return String(value).length >= length;
+};
+
+var min = {
+  validate: validate$r
+};
+
+var validate$s = function (value, ref) {
+  var min = ref[0];
+
+  if (isNullOrUndefined(value) || value === '') {
+    return false;
+  }
+
+  if (Array.isArray(value)) {
+    return value.length > 0 && value.every(function (val) { return validate$s(val, [min]); });
+  }
+
+  return Number(value) >= min;
+};
+
+var min_value = {
+  validate: validate$s
+};
+
+var ar = /^[٠١٢٣٤٥٦٧٨٩]+$/;
+var en = /^[0-9]+$/;
+
+var validate$t = function (value) {
+  var testValue = function (val) {
+    var strValue = String(val);
+
+    return en.test(strValue) || ar.test(strValue);
+  };
+
+  if (Array.isArray(value)) {
+    return value.every(testValue);
+  }
+
+  return testValue(value);
+};
+
+var numeric = {
+  validate: validate$t
+};
+
+var validate$u = function (value, ref) {
+  var expression = ref.expression;
+
+  if (typeof expression === 'string') {
+    expression = new RegExp(expression);
+  }
+
+  if (Array.isArray(value)) {
+    return value.every(function (val) { return validate$u(val, { expression: expression }); });
+  }
+
+  return expression.test(String(value));
+};
+
+var paramNames$c = ['expression'];
+
+var regex = {
+  validate: validate$u,
+  paramNames: paramNames$c
+};
+
+var validate$v = function (value, ref) {
+  if ( ref === void 0 ) ref = [];
+  var invalidateFalse = ref[0]; if ( invalidateFalse === void 0 ) invalidateFalse = false;
+
+  if (isNullOrUndefined(value) || isEmptyArray(value)) {
+    return false;
+  }
+
+  // incase a field considers `false` as an empty value like checkboxes.
+  if (value === false && invalidateFalse) {
+    return false;
+  }
+
+  return !!String(value).trim().length;
+};
+
+var required = {
+  validate: validate$v
+};
+
+var validate$w = function (value, ref) {
+  if ( ref === void 0 ) ref = [];
+  var otherFieldVal = ref[0];
+  var possibleVals = ref.slice(1);
+
+  var required = possibleVals.includes(String(otherFieldVal).trim());
+
+  if (!required) {
+    return {
+      valid: true,
+      data: {
+        required: required
+      }
+    };
+  }
+
+  var invalid = (isEmptyArray(value) || [false, null, undefined].includes(value));
+
+  invalid = invalid || !String(value).trim().length;
+
+  return {
+    valid: !invalid,
+    data: {
+      required: required
+    }
+  };
+};
+
+var options$5 = {
+  hasTarget: true,
+  computesRequired: true
+};
+
+var required_if = {
+  validate: validate$w,
+  options: options$5
+};
+
+var validate$x = function (files, ref) {
+  var size = ref[0];
+
+  if (isNaN(size)) {
+    return false;
+  }
+  var nSize = Number(size) * 1024;
+  return ensureArray(files).every(function (file) { return file.size <= nSize; });
+};
+
+var size = {
+  validate: validate$x
+};
+
+var isURL_1 = createCommonjsModule(function (module, exports) {
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = isURL;
+
+var _assertString = _interopRequireDefault(assertString_1);
+
+var _isFQDN = _interopRequireDefault(isFQDN_1);
+
+var _isIP = _interopRequireDefault(isIP_1);
+
+var _merge = _interopRequireDefault(merge_1);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+var default_url_options = {
+  protocols: ['http', 'https', 'ftp'],
+  require_tld: true,
+  require_protocol: false,
+  require_host: true,
+  require_valid_protocol: true,
+  allow_underscores: false,
+  allow_trailing_dot: false,
+  allow_protocol_relative_urls: false
+};
+var wrapped_ipv6 = /^\[([^\]]+)\](?::([0-9]+))?$/;
+
+function isRegExp(obj) {
+  return Object.prototype.toString.call(obj) === '[object RegExp]';
+}
+
+function checkHost(host, matches) {
+  for (var i = 0; i < matches.length; i++) {
+    var match = matches[i];
+
+    if (host === match || isRegExp(match) && match.test(host)) {
+      return true;
+    }
+  }
+
+  return false;
+}
+
+function isURL(url, options) {
+  (0, _assertString.default)(url);
+
+  if (!url || url.length >= 2083 || /[\s<>]/.test(url)) {
+    return false;
+  }
+
+  if (url.indexOf('mailto:') === 0) {
+    return false;
+  }
+
+  options = (0, _merge.default)(options, default_url_options);
+  var protocol, auth, host, hostname, port, port_str, split, ipv6;
+  split = url.split('#');
+  url = split.shift();
+  split = url.split('?');
+  url = split.shift();
+  split = url.split('://');
+
+  if (split.length > 1) {
+    protocol = split.shift().toLowerCase();
+
+    if (options.require_valid_protocol && options.protocols.indexOf(protocol) === -1) {
+      return false;
+    }
+  } else if (options.require_protocol) {
+    return false;
+  } else if (url.substr(0, 2) === '//') {
+    if (!options.allow_protocol_relative_urls) {
+      return false;
+    }
+
+    split[0] = url.substr(2);
+  }
+
+  url = split.join('://');
+
+  if (url === '') {
+    return false;
+  }
+
+  split = url.split('/');
+  url = split.shift();
+
+  if (url === '' && !options.require_host) {
+    return true;
+  }
+
+  split = url.split('@');
+
+  if (split.length > 1) {
+    if (options.disallow_auth) {
+      return false;
+    }
+
+    auth = split.shift();
+
+    if (auth.indexOf(':') >= 0 && auth.split(':').length > 2) {
+      return false;
+    }
+  }
+
+  hostname = split.join('@');
+  port_str = null;
+  ipv6 = null;
+  var ipv6_match = hostname.match(wrapped_ipv6);
+
+  if (ipv6_match) {
+    host = '';
+    ipv6 = ipv6_match[1];
+    port_str = ipv6_match[2] || null;
+  } else {
+    split = hostname.split(':');
+    host = split.shift();
+
+    if (split.length) {
+      port_str = split.join(':');
+    }
+  }
+
+  if (port_str !== null) {
+    port = parseInt(port_str, 10);
+
+    if (!/^[0-9]+$/.test(port_str) || port <= 0 || port > 65535) {
+      return false;
+    }
+  }
+
+  if (!(0, _isIP.default)(host) && !(0, _isFQDN.default)(host, options) && (!ipv6 || !(0, _isIP.default)(ipv6, 6))) {
+    return false;
+  }
+
+  host = host || ipv6;
+
+  if (options.host_whitelist && !checkHost(host, options.host_whitelist)) {
+    return false;
+  }
+
+  if (options.host_blacklist && checkHost(host, options.host_blacklist)) {
+    return false;
+  }
+
+  return true;
+}
+
+module.exports = exports.default;
+module.exports.default = exports.default;
+});
+
+var isURL = unwrapExports(isURL_1);
+
+var validate$y = function (value, options) {
+  if ( options === void 0 ) options = {};
+
+  if (isNullOrUndefined(value)) {
+    value = '';
+  }
+
+  var validatorOptions = assign({}, options);
+
+  if (Array.isArray(value)) {
+    return value.every(function (val) { return isURL(val, validatorOptions); });
+  }
+
+  return isURL(value, validatorOptions);
+};
+
+var url = {
+  validate: validate$y
+};
+
+/* eslint-disable camelcase */
+
+var Rules = /*#__PURE__*/Object.freeze({
+  after: after,
+  alpha_dash: alpha_dash,
+  alpha_num: alpha_num,
+  alpha_spaces: alpha_spaces,
+  alpha: alpha$1,
+  before: before,
+  between: between,
+  confirmed: confirmed,
+  credit_card: credit_card,
+  date_between: date_between,
+  date_format: date_format,
+  decimal: decimal,
+  digits: digits,
+  dimensions: dimensions,
+  email: email,
+  ext: ext,
+  image: image,
+  included: included,
+  integer: integer,
+  length: length,
+  ip: ip,
+  ip_or_fqdn: ip_or_fqdn,
+  is_not: is_not,
+  is: is,
+  max: max,
+  max_value: max_value,
+  mimes: mimes,
+  min: min,
+  min_value: min_value,
+  excluded: excluded,
+  numeric: numeric,
+  regex: regex,
+  required: required,
+  required_if: required_if,
+  size: size,
+  url: url
+});
+
+// 
+
+var normalize = function (fields) {
+  if (Array.isArray(fields)) {
+    return fields.reduce(function (prev, curr) {
+      if (includes(curr, '.')) {
+        prev[curr.split('.')[1]] = curr;
+      } else {
+        prev[curr] = curr;
+      }
+
+      return prev;
+    }, {});
+  }
+
+  return fields;
+};
+
+// Combines two flags using either AND or OR depending on the flag type.
+var combine = function (lhs, rhs) {
+  var mapper = {
+    pristine: function (lhs, rhs) { return lhs && rhs; },
+    dirty: function (lhs, rhs) { return lhs || rhs; },
+    touched: function (lhs, rhs) { return lhs || rhs; },
+    untouched: function (lhs, rhs) { return lhs && rhs; },
+    valid: function (lhs, rhs) { return lhs && rhs; },
+    invalid: function (lhs, rhs) { return lhs || rhs; },
+    pending: function (lhs, rhs) { return lhs || rhs; },
+    required: function (lhs, rhs) { return lhs || rhs; },
+    validated: function (lhs, rhs) { return lhs && rhs; }
+  };
+
+  return Object.keys(mapper).reduce(function (flags, flag) {
+    flags[flag] = mapper[flag](lhs[flag], rhs[flag]);
+
+    return flags;
+  }, {});
+};
+
+var mapScope = function (scope, deep) {
+  if ( deep === void 0 ) deep = true;
+
+  return Object.keys(scope).reduce(function (flags, field) {
+    if (!flags) {
+      flags = assign({}, scope[field]);
+      return flags;
+    }
+
+    // scope.
+    var isScope = field.indexOf('$') === 0;
+    if (deep && isScope) {
+      return combine(mapScope(scope[field]), flags);
+    } else if (!deep && isScope) {
+      return flags;
+    }
+
+    flags = combine(flags, scope[field]);
+
+    return flags;
+  }, null);
+};
+
+/**
+ * Maps fields to computed functions.
+ */
+var mapFields = function (fields) {
+  if (!fields) {
+    return function () {
+      return mapScope(this.$validator.flags);
+    };
+  }
+
+  var normalized = normalize(fields);
+  return Object.keys(normalized).reduce(function (prev, curr) {
+    var field = normalized[curr];
+    prev[curr] = function mappedField () {
+      // if field exists
+      if (this.$validator.flags[field]) {
+        return this.$validator.flags[field];
+      }
+
+      // scopeless fields were selected.
+      if (normalized[curr] === '*') {
+        return mapScope(this.$validator.flags, false);
+      }
+
+      // if it has a scope defined
+      var index = field.indexOf('.');
+      if (index <= 0) {
+        return {};
+      }
+
+      var ref = field.split('.');
+      var scope = ref[0];
+      var name = ref.slice(1);
+
+      scope = this.$validator.flags[("$" + scope)];
+      name = name.join('.');
+
+      // an entire scope was selected: scope.*
+      if (name === '*' && scope) {
+        return mapScope(scope);
+      }
+
+      if (scope && scope[name]) {
+        return scope[name];
+      }
+
+      return {};
+    };
+
+    return prev;
+  }, {});
+};
+
+var $validator = null;
+
+var PROVIDER_COUNTER = 0;
+
+var ValidationProvider = {
+  $__veeInject: false,
+  inject: {
+    $_veeObserver: {
+      from: '$_veeObserver',
+      default: function default$1 () {
+        if (!this.$vnode.context.$_veeObserver) {
+          this.$vnode.context.$_veeObserver = createObserver();
+        }
+
+        return this.$vnode.context.$_veeObserver;
+      }
+    }
+  },
+  props: {
+    vid: {
+      type: [String, Number],
+      default: function () {
+        PROVIDER_COUNTER++;
+
+        return ("_vee_" + PROVIDER_COUNTER);
+      }
+    },
+    name: {
+      type: String,
+      default: null
+    },
+    mode: {
+      type: [String, Function],
+      default: function () {
+        return getConfig().mode;
+      }
+    },
+    events: {
+      type: Array,
+      validate: function () {
+        /* istanbul ignore next */
+        if (true) {
+          warn('events prop and config will be deprecated in future version please use the interaction modes instead');
+        }
+
+        return true;
+      },
+      default: function () {
+        var events = getConfig().events;
+        if (typeof events === 'string') {
+          return events.split('|');
+        }
+
+        return events;
+      }
+    },
+    rules: {
+      type: [Object, String],
+      default: null
+    },
+    immediate: {
+      type: Boolean,
+      default: false
+    },
+    persist: {
+      type: Boolean,
+      default: false
+    },
+    bails: {
+      type: Boolean,
+      default: function () { return getConfig().fastExit; }
+    },
+    debounce: {
+      type: Number,
+      default: function () { return getConfig().delay || 0; }
+    },
+    tag: {
+      type: String,
+      default: 'span'
+    },
+    slim: {
+      type: Boolean,
+      default: false
+    }
+  },
+  watch: {
+    rules: {
+      deep: true,
+      handler: function handler (val, oldVal) {
+        this._needsValidation = !isEqual(val, oldVal);
+      }
+    }
+  },
+  data: function () { return ({
+    messages: [],
+    value: undefined,
+    initialized: false,
+    initialValue: undefined,
+    flags: createFlags(),
+    failedRules: {},
+    forceRequired: false,
+    isDeactivated: false,
+    id: null
+  }); },
+  computed: {
+    isValid: function isValid () {
+      return this.flags.valid;
+    },
+    fieldDeps: function fieldDeps () {
+      var this$1 = this;
+
+      var rules = normalizeRules(this.rules);
+
+      return Object.keys(rules).filter(RuleContainer.isTargetRule).map(function (rule) {
+        var depName = rules[rule][0];
+        watchCrossFieldDep(this$1, depName);
+
+        return depName;
+      });
+    },
+    normalizedEvents: function normalizedEvents () {
+      var this$1 = this;
+
+      var ref = computeModeSetting(this);
+      var on = ref.on;
+
+      return normalizeEvents(on || this.events || []).map(function (e) {
+        if (e === 'input') {
+          return this$1._inputEventName;
+        }
+
+        return e;
+      });
+    },
+    isRequired: function isRequired () {
+      var rules = normalizeRules(this.rules);
+      var forceRequired = this.forceRequired;
+
+      var isRequired = rules.required || forceRequired;
+      this.flags.required = isRequired;
+
+      return isRequired;
+    },
+    classes: function classes () {
+      var this$1 = this;
+
+      var names = getConfig().classNames;
+      return Object.keys(this.flags).reduce(function (classes, flag) {
+        var className = (names && names[flag]) || flag;
+        if (isNullOrUndefined(this$1.flags[flag])) {
+          return classes;
+        }
+
+        if (className) {
+          classes[className] = this$1.flags[flag];
+        }
+
+        return classes;
+      }, {});
+    }
+  },
+  render: function render (h) {
+    var this$1 = this;
+
+    this.registerField();
+    var ctx = createValidationCtx(this);
+
+    // Gracefully handle non-existent scoped slots.
+    var slot = this.$scopedSlots.default;
+    /* istanbul ignore next */
+    if (!isCallable(slot)) {
+      if (true) {
+        warn('ValidationProvider expects a scoped slot. Did you forget to add "v-slot" to your slot?');
+      }
+
+      return h(this.tag, this.$slots.default);
+    }
+
+    var nodes = slot(ctx);
+    // Handle single-root slot.
+    extractVNodes(nodes).forEach(function (input) {
+      addListeners.call(this$1, input);
+    });
+
+    return this.slim ? createRenderless(h, nodes) : h(this.tag, nodes);
+  },
+  beforeDestroy: function beforeDestroy () {
+    // cleanup reference.
+    this.$_veeObserver.unsubscribe(this);
+  },
+  activated: function activated () {
+    this.$_veeObserver.subscribe(this);
+    this.isDeactivated = false;
+  },
+  deactivated: function deactivated () {
+    this.$_veeObserver.unsubscribe(this);
+    this.isDeactivated = true;
+  },
+  methods: {
+    setFlags: function setFlags (flags) {
+      var this$1 = this;
+
+      Object.keys(flags).forEach(function (flag) {
+        this$1.flags[flag] = flags[flag];
+      });
+    },
+    syncValue: function syncValue (e) {
+      var value = normalizeValue$1(e);
+      this.value = value;
+      this.flags.changed = this.initialValue !== value;
+    },
+    reset: function reset () {
+      this.messages = [];
+      this._pendingValidation = null;
+      this.initialValue = this.value;
+      var flags = createFlags();
+      this.setFlags(flags);
+    },
+    validate: function validate () {
+      var this$1 = this;
+      var args = [], len = arguments.length;
+      while ( len-- ) args[ len ] = arguments[ len ];
+
+      if (args.length > 0) {
+        this.syncValue(args[0]);
+      }
+
+      return this.validateSilent().then(function (result) {
+        this$1.applyResult(result);
+
+        return result;
+      });
+    },
+    validateSilent: function validateSilent () {
+      var this$1 = this;
+
+      this.setFlags({ pending: true });
+
+      return $validator.verify(this.value, this.rules, {
+        name: this.name,
+        values: createValuesLookup(this),
+        bails: this.bails
+      }).then(function (result) {
+        this$1.setFlags({ pending: false });
+        if (!this$1.isRequired) {
+          this$1.setFlags({ valid: result.valid, invalid: !result.valid });
+        }
+
+        return result;
+      });
+    },
+    applyResult: function applyResult (ref) {
+      var errors = ref.errors;
+      var failedRules = ref.failedRules;
+
+      this.messages = errors;
+      this.failedRules = assign({}, failedRules);
+      this.setFlags({
+        valid: !errors.length,
+        changed: this.value !== this.initialValue,
+        invalid: !!errors.length,
+        validated: true
+      });
+    },
+    registerField: function registerField () {
+      if (!$validator) {
+        $validator = getValidator() || new Validator(null, { fastExit: getConfig().fastExit });
+      }
+
+      updateRenderingContextRefs(this);
+    }
+  }
+};
+
+function createValidationCtx (ctx) {
+  return {
+    errors: ctx.messages,
+    flags: ctx.flags,
+    classes: ctx.classes,
+    valid: ctx.isValid,
+    failedRules: ctx.failedRules,
+    reset: function () { return ctx.reset(); },
+    validate: function () {
+      var args = [], len = arguments.length;
+      while ( len-- ) args[ len ] = arguments[ len ];
+
+      return ctx.validate.apply(ctx, args);
+  },
+    aria: {
+      'aria-invalid': ctx.flags.invalid ? 'true' : 'false',
+      'aria-required': ctx.isRequired ? 'true' : 'false'
+    }
+  };
+}
+
+function normalizeValue$1 (value) {
+  if (isEvent(value)) {
+    return value.target.type === 'file' ? toArray(value.target.files) : value.target.value;
+  }
+
+  return value;
+}
+
+/**
+ * Determines if a provider needs to run validation.
+ */
+function shouldValidate (ctx, model) {
+  // when an immediate/initial validation is needed and wasn't done before.
+  if (!ctx._ignoreImmediate && ctx.immediate) {
+    return true;
+  }
+
+  // when the value changes for whatever reason.
+  if (ctx.value !== model.value) {
+    return true;
+  }
+
+  // when it needs validation due to props/cross-fields changes.
+  if (ctx._needsValidation) {
+    return true;
+  }
+
+  // when the initial value is undefined and the field wasn't rendered yet.
+  if (!ctx.initialized && model.value === undefined) {
+    return true;
+  }
+
+  return false;
+}
+
+function computeModeSetting (ctx) {
+  var compute = isCallable(ctx.mode) ? ctx.mode : modes[ctx.mode];
+
+  return compute({
+    errors: ctx.messages,
+    value: ctx.value,
+    flags: ctx.flags
+  });
+}
+
+function onRenderUpdate (model) {
+  if (!this.initialized) {
+    this.initialValue = model.value;
+  }
+
+  var validateNow = shouldValidate(this, model);
+  this._needsValidation = false;
+  this.value = model.value;
+  this._ignoreImmediate = true;
+
+  if (!validateNow) {
+    return;
+  }
+
+  this.validateSilent().then(this.immediate || this.flags.validated ? this.applyResult : function (x) { return x; });
+}
+
+// Creates the common handlers for a validatable context.
+function createCommonHandlers (ctx) {
+  var onInput = function (e) {
+    ctx.syncValue(e); // track and keep the value updated.
+    ctx.setFlags({ dirty: true, pristine: false });
+  };
+
+  // Blur event listener.
+  var onBlur = function () {
+    ctx.setFlags({ touched: true, untouched: false });
+  };
+
+  var onValidate = ctx.$veeHandler;
+  var mode = computeModeSetting(ctx);
+
+  // Handle debounce changes.
+  if (!onValidate || ctx.$veeDebounce !== ctx.debounce) {
+    onValidate = debounce(
+      function () {
+        ctx.$nextTick(function () {
+          var pendingPromise = ctx.validateSilent();
+          // avoids race conditions between successive validations.
+          ctx._pendingValidation = pendingPromise;
+          pendingPromise.then(function (result) {
+            if (pendingPromise === ctx._pendingValidation) {
+              ctx.applyResult(result);
+              ctx._pendingValidation = null;
+            }
+          });
+        });
+      },
+      mode.debounce || ctx.debounce
+    );
+
+    // Cache the handler so we don't create it each time.
+    ctx.$veeHandler = onValidate;
+    // cache the debounce value so we detect if it was changed.
+    ctx.$veeDebounce = ctx.debounce;
+  }
+
+  return { onInput: onInput, onBlur: onBlur, onValidate: onValidate };
+}
+
+// Adds all plugin listeners to the vnode.
+function addListeners (node) {
+  var model = findModel(node);
+  // cache the input eventName.
+  this._inputEventName = this._inputEventName || getInputEventName(node, model);
+
+  onRenderUpdate.call(this, model);
+
+  var ref = createCommonHandlers(this);
+  var onInput = ref.onInput;
+  var onBlur = ref.onBlur;
+  var onValidate = ref.onValidate;
+  addVNodeListener(node, this._inputEventName, onInput);
+  addVNodeListener(node, 'blur', onBlur);
+
+  // add the validation listeners.
+  this.normalizedEvents.forEach(function (evt) {
+    addVNodeListener(node, evt, onValidate);
+  });
+
+  this.initialized = true;
+}
+
+function createValuesLookup (ctx) {
+  var providers = ctx.$_veeObserver.refs;
+
+  return ctx.fieldDeps.reduce(function (acc, depName) {
+    if (!providers[depName]) {
+      return acc;
+    }
+
+    acc[depName] = providers[depName].value;
+
+    return acc;
+  }, {});
+}
+
+function updateRenderingContextRefs (ctx) {
+  // IDs should not be nullable.
+  if (isNullOrUndefined(ctx.id) && ctx.id === ctx.vid) {
+    ctx.id = PROVIDER_COUNTER;
+    PROVIDER_COUNTER++;
+  }
+
+  var id = ctx.id;
+  var vid = ctx.vid;
+  // Nothing has changed.
+  if (ctx.isDeactivated || (id === vid && ctx.$_veeObserver.refs[id])) {
+    return;
+  }
+
+  // vid was changed.
+  if (id !== vid && ctx.$_veeObserver.refs[id] === ctx) {
+    ctx.$_veeObserver.unsubscribe({ vid: id });
+  }
+
+  ctx.$_veeObserver.subscribe(ctx);
+  ctx.id = vid;
+}
+
+function createObserver () {
+  return {
+    refs: {},
+    subscribe: function subscribe (ctx) {
+      this.refs[ctx.vid] = ctx;
+    },
+    unsubscribe: function unsubscribe (ctx) {
+      delete this.refs[ctx.vid];
+    }
+  };
+}
+
+function watchCrossFieldDep (ctx, depName, withHooks) {
+  if ( withHooks === void 0 ) withHooks = true;
+
+  var providers = ctx.$_veeObserver.refs;
+  if (!ctx._veeWatchers) {
+    ctx._veeWatchers = {};
+  }
+
+  if (!providers[depName] && withHooks) {
+    return ctx.$once('hook:mounted', function () {
+      watchCrossFieldDep(ctx, depName, false);
+    });
+  }
+
+  if (!isCallable(ctx._veeWatchers[depName]) && providers[depName]) {
+    ctx._veeWatchers[depName] = providers[depName].$watch('value', function () {
+      if (ctx.flags.validated) {
+        ctx._needsValidation = true;
+        ctx.validate();
+      }
+    });
+  }
+}
+
+var flagMergingStrategy = {
+  pristine: 'every',
+  dirty: 'some',
+  touched: 'some',
+  untouched: 'every',
+  valid: 'every',
+  invalid: 'some',
+  pending: 'some',
+  validated: 'every'
+};
+
+function mergeFlags (lhs, rhs, strategy) {
+  var stratName = flagMergingStrategy[strategy];
+
+  return [lhs, rhs][stratName](function (f) { return f; });
+}
+
+var OBSERVER_COUNTER = 0;
+
+var ValidationObserver = {
+  name: 'ValidationObserver',
+  provide: function provide () {
+    return {
+      $_veeObserver: this
+    };
+  },
+  inject: {
+    $_veeObserver: {
+      from: '$_veeObserver',
+      default: function default$1 () {
+        if (!this.$vnode.context.$_veeObserver) {
+          return null;
+        }
+
+        return this.$vnode.context.$_veeObserver;
+      }
+    }
+  },
+  props: {
+    tag: {
+      type: String,
+      default: 'span'
+    },
+    slim: {
+      type: Boolean,
+      default: false
+    }
+  },
+  data: function () { return ({
+    vid: ("obs_" + (OBSERVER_COUNTER++)),
+    refs: {},
+    observers: [],
+    persistedStore: {}
+  }); },
+  computed: {
+    ctx: function ctx () {
+      var this$1 = this;
+
+      var ctx = {
+        errors: {},
+        validate: function (arg) {
+          var promise = this$1.validate(arg);
+
+          return {
+            then: function then (thenable) {
+              return promise.then(function (success) {
+                if (success && isCallable(thenable)) {
+                  return Promise.resolve(thenable());
+                }
+
+                return Promise.resolve(success);
+              });
+            }
+          };
+        },
+        reset: function () { return this$1.reset(); }
+      };
+
+      return values(this.refs).concat( Object.keys(this.persistedStore).map(function (key) {
+          return {
+            vid: key,
+            flags: this$1.persistedStore[key].flags,
+            messages: this$1.persistedStore[key].errors
+          };
+        }),
+        this.observers ).reduce(function (acc, provider) {
+        Object.keys(flagMergingStrategy).forEach(function (flag) {
+          var flags = provider.flags || provider.ctx;
+          if (!(flag in acc)) {
+            acc[flag] = flags[flag];
+            return;
+          }
+
+          acc[flag] = mergeFlags(acc[flag], flags[flag], flag);
+        });
+
+        acc.errors[provider.vid] = provider.messages || values(provider.ctx.errors).reduce(function (errs, obsErrors) {
+          return errs.concat(obsErrors);
+        }, []);
+
+        return acc;
+      }, ctx);
+    }
+  },
+  created: function created () {
+    if (this.$_veeObserver) {
+      this.$_veeObserver.subscribe(this, 'observer');
+    }
+  },
+  activated: function activated () {
+    if (this.$_veeObserver) {
+      this.$_veeObserver.subscribe(this, 'observer');
+    }
+  },
+  deactivated: function deactivated () {
+    if (this.$_veeObserver) {
+      this.$_veeObserver.unsubscribe(this, 'observer');
+    }
+  },
+  beforeDestroy: function beforeDestroy () {
+    if (this.$_veeObserver) {
+      this.$_veeObserver.unsubscribe(this, 'observer');
+    }
+  },
+  render: function render (h) {
+    var slots = this.$slots.default || this.$scopedSlots.default || [];
+    if (isCallable(slots)) {
+      slots = slots(this.ctx);
+    }
+
+    return this.slim ? createRenderless(h, slots) : h(this.tag, { on: this.$listeners, attrs: this.$attrs }, slots);
+  },
+  methods: {
+    subscribe: function subscribe (subscriber, kind) {
+      var obj;
+
+      if ( kind === void 0 ) kind = 'provider';
+      if (kind === 'observer') {
+        this.observers.push(subscriber);
+        return;
+      }
+
+      this.refs = Object.assign({}, this.refs, ( obj = {}, obj[subscriber.vid] = subscriber, obj ));
+      if (subscriber.persist && this.persistedStore[subscriber.vid]) {
+        this.restoreProviderState(subscriber);
+      }
+    },
+    unsubscribe: function unsubscribe (ref, kind) {
+      var vid = ref.vid;
+      if ( kind === void 0 ) kind = 'provider';
+
+      if (kind === 'provider') {
+        this.removeProvider(vid);
+      }
+
+      var idx = findIndex(this.observers, function (o) { return o.vid === vid; });
+      if (idx !== -1) {
+        this.observers.splice(idx, 1);
+      }
+    },
+    validate: function validate (ref) {
+      if ( ref === void 0 ) ref = { silent: false };
+      var silent = ref.silent;
+
+      return Promise.all(values(this.refs).map(function (ref) { return ref[silent ? 'validateSilent' : 'validate']().then(function (r) { return r.valid; }); }).concat( this.observers.map(function (obs) { return obs.validate({ silent: silent }); })
+      )).then(function (results) { return results.every(function (r) { return r; }); });
+    },
+    reset: function reset () {
+      var this$1 = this;
+
+      Object.keys(this.persistedStore).forEach(function (key) {
+        this$1.$delete(this$1.persistedStore, key);
+      });
+      return values(this.refs).concat( this.observers).forEach(function (ref) { return ref.reset(); });
+    },
+    restoreProviderState: function restoreProviderState (provider) {
+      var state = this.persistedStore[provider.vid];
+      provider.setFlags(state.flags);
+      provider.applyResult(state);
+      this.$delete(this.persistedStore, provider.vid);
+    },
+    removeProvider: function removeProvider (vid) {
+      var obj;
+
+      var provider = this.refs[vid];
+      // save it for the next time.
+      if (provider && provider.persist) {
+        /* istanbul ignore else */
+        if (true) {
+          if (vid.indexOf('_vee_') === 0) {
+            warn('Please provide a `vid` prop when using `persist`, there might be unexpected issues otherwise.');
+          }
+        }
+
+        this.persistedStore = assign({}, this.persistedStore, ( obj = {}, obj[vid] = {
+            flags: provider.flags,
+            errors: provider.messages,
+            failedRules: provider.failedRules
+          }, obj ));
+      }
+
+      this.$delete(this.refs, vid);
+    },
+  }
+};
+
+function withValidation (component, ctxToProps) {
+  if ( ctxToProps === void 0 ) ctxToProps = null;
+
+  var options = isCallable(component) ? component.options : component;
+  options.$__veeInject = false;
+  var hoc = {
+    name: ((options.name || 'AnonymousHoc') + "WithValidation"),
+    props: assign({}, ValidationProvider.props),
+    data: ValidationProvider.data,
+    computed: assign({}, ValidationProvider.computed),
+    methods: assign({}, ValidationProvider.methods),
+    $__veeInject: false,
+    beforeDestroy: ValidationProvider.beforeDestroy,
+    inject: ValidationProvider.inject
+  };
+
+  // Default ctx converts ctx props to component props.
+  if (!ctxToProps) {
+    ctxToProps = function (ctx) { return ctx; };
+  }
+
+  var eventName = (options.model && options.model.event) || 'input';
+
+  hoc.render = function (h) {
+    var obj;
+
+    this.registerField();
+    var vctx = createValidationCtx(this);
+    var listeners = assign({}, this.$listeners);
+
+    var model = findModel(this.$vnode);
+    this._inputEventName = this._inputEventName || getInputEventName(this.$vnode, model);
+    onRenderUpdate.call(this, model);
+
+    var ref = createCommonHandlers(this);
+    var onInput = ref.onInput;
+    var onBlur = ref.onBlur;
+    var onValidate = ref.onValidate;
+
+    mergeVNodeListeners(listeners, eventName, onInput);
+    mergeVNodeListeners(listeners, 'blur', onBlur);
+    this.normalizedEvents.forEach(function (evt, idx) {
+      mergeVNodeListeners(listeners, evt, onValidate);
+    });
+
+    // Props are any attrs not associated with ValidationProvider Plus the model prop.
+    // WARNING: Accidental prop overwrite will probably happen.
+    var ref$1 = findModelConfig(this.$vnode) || { prop: 'value' };
+    var prop = ref$1.prop;
+    var props = assign({}, this.$attrs, ( obj = {}, obj[prop] = model.value, obj ), ctxToProps(vctx));
+
+    return h(options, {
+      attrs: this.$attrs,
+      props: props,
+      on: listeners
+    }, normalizeSlots(this.$slots, this.$vnode.context));
+  };
+
+  return hoc;
+}
+
+var version = '2.2.15';
+
+Object.keys(Rules).forEach(function (rule) {
+  Validator.extend(rule, Rules[rule].validate, assign({}, Rules[rule].options, { paramNames: Rules[rule].paramNames }));
+});
+
+// Merge the english messages.
+Validator.localize({ en: locale });
+
+var install = VeeValidate$1.install;
+
+VeeValidate$1.version = version;
+VeeValidate$1.mapFields = mapFields;
+VeeValidate$1.ValidationProvider = ValidationProvider;
+VeeValidate$1.ValidationObserver = ValidationObserver;
+VeeValidate$1.withValidation = withValidation;
+
+/* harmony default export */ __webpack_exports__["default"] = (VeeValidate$1);
 
 
 
 /***/ }),
 
-/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/admin/src/layout/navbar.vue?vue&type=template&id=1d182fdc&":
-/*!***************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/admin/src/layout/navbar.vue?vue&type=template&id=1d182fdc& ***!
-  \***************************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/admin/src/layout/Main.vue?vue&type=template&id=45643e25&":
+/*!*************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/admin/src/layout/Main.vue?vue&type=template&id=45643e25& ***!
+  \*************************************************************************************************************************************************************************************************************/
 /*! exports provided: render, staticRenderFns */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -20460,19 +31702,7 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _c(
-    "v-main",
-    { staticClass: "mx-5" },
-    [
-      _c(
-        "transition",
-        { attrs: { name: "fade", mode: "out-in" } },
-        [_c("router-view")],
-        1
-      )
-    ],
-    1
-  )
+  return _c("div", [_c("router-view")], 1)
 }
 var staticRenderFns = []
 render._withStripped = true
@@ -23741,6 +34971,47 @@ if (inBrowser && window.Vue) {
 
 /* harmony default export */ __webpack_exports__["default"] = (VueRouter);
 
+
+/***/ }),
+
+/***/ "./node_modules/vue-toast-notification/dist/index.css":
+/*!************************************************************!*\
+  !*** ./node_modules/vue-toast-notification/dist/index.css ***!
+  \************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+
+var content = __webpack_require__(/*! !../../css-loader??ref--5-1!../../postcss-loader/src??ref--5-2!./index.css */ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./node_modules/vue-toast-notification/dist/index.css");
+
+if(typeof content === 'string') content = [[module.i, content, '']];
+
+var transform;
+var insertInto;
+
+
+
+var options = {"hmr":true}
+
+options.transform = transform
+options.insertInto = undefined;
+
+var update = __webpack_require__(/*! ../../style-loader/lib/addStyles.js */ "./node_modules/style-loader/lib/addStyles.js")(content, options);
+
+if(content.locals) module.exports = content.locals;
+
+if(false) {}
+
+/***/ }),
+
+/***/ "./node_modules/vue-toast-notification/dist/index.min.js":
+/*!***************************************************************!*\
+  !*** ./node_modules/vue-toast-notification/dist/index.min.js ***!
+  \***************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+!function(t,e){ true?module.exports=e(__webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.common.js")):undefined}("undefined"!=typeof self?self:this,function(t){return function(t){var e={};function n(o){if(e[o])return e[o].exports;var i=e[o]={i:o,l:!1,exports:{}};return t[o].call(i.exports,i,i.exports,n),i.l=!0,i.exports}return n.m=t,n.c=e,n.d=function(t,e,o){n.o(t,e)||Object.defineProperty(t,e,{enumerable:!0,get:o})},n.r=function(t){"undefined"!=typeof Symbol&&Symbol.toStringTag&&Object.defineProperty(t,Symbol.toStringTag,{value:"Module"}),Object.defineProperty(t,"__esModule",{value:!0})},n.t=function(t,e){if(1&e&&(t=n(t)),8&e)return t;if(4&e&&"object"==typeof t&&t&&t.__esModule)return t;var o=Object.create(null);if(n.r(o),Object.defineProperty(o,"default",{enumerable:!0,value:t}),2&e&&"string"!=typeof t)for(var i in t)n.d(o,i,function(e){return t[e]}.bind(null,i));return o},n.n=function(t){var e=t&&t.__esModule?function(){return t.default}:function(){return t};return n.d(e,"a",e),e},n.o=function(t,e){return Object.prototype.hasOwnProperty.call(t,e)},n.p="",n(n.s=2)}([function(e,n){e.exports=t},function(t,e,n){},function(t,e,n){"use strict";n.r(e);var o="undefined"!=typeof window?window.HTMLElement:Object,i=n(0),s=new(n.n(i).a);var r=function(t,e,n,o,i,s,r,a){var u,c="function"==typeof t?t.options:t;if(e&&(c.render=e,c.staticRenderFns=n,c._compiled=!0),o&&(c.functional=!0),s&&(c._scopeId="data-v-"+s),r?(u=function(t){(t=t||this.$vnode&&this.$vnode.ssrContext||this.parent&&this.parent.$vnode&&this.parent.$vnode.ssrContext)||"undefined"==typeof __VUE_SSR_CONTEXT__||(t=__VUE_SSR_CONTEXT__),i&&i.call(this,t),t&&t._registeredComponents&&t._registeredComponents.add(r)},c._ssrRegister=u):i&&(u=a?function(){i.call(this,this.$root.$options.shadowRoot)}:i),u)if(c.functional){c._injectStyles=u;var l=c.render;c.render=function(t,e){return u.call(e),l(t,e)}}else{var p=c.beforeCreate;c.beforeCreate=p?[].concat(p,u):[u]}return{exports:t,options:c}}({name:"toast",props:{message:{type:String,required:!0},type:{type:String,default:"success"},position:{type:String,default:"bottom-right"},duration:{type:Number,default:3e3},dismissible:{type:Boolean,default:!0},onClose:{type:Function,default:function(){}},queue:Boolean,container:{type:[Object,Function,o],default:null}},data:function(){return{isActive:!1,parentTop:null,parentBottom:null}},beforeMount:function(){this.setupContainer()},mounted:function(){this.showNotice(),s.$on("toast.clear",this.close)},methods:{setupContainer:function(){if(this.parentTop=document.querySelector(".notices.is-top"),this.parentBottom=document.querySelector(".notices.is-bottom"),!this.parentTop||!this.parentBottom){this.parentTop||(this.parentTop=document.createElement("div"),this.parentTop.className="notices is-top"),this.parentBottom||(this.parentBottom=document.createElement("div"),this.parentBottom.className="notices is-bottom");var t=this.container||document.body;t.appendChild(this.parentTop),t.appendChild(this.parentBottom);this.container&&(this.parentTop.classList.add("is-custom-parent"),this.parentBottom.classList.add("is-custom-parent"))}},shouldQueue:function(){return!!this.queue&&(this.parentTop.childElementCount>0||this.parentBottom.childElementCount>0)},close:function(){var t=this;clearTimeout(this.timer),this.isActive=!1,setTimeout(function(){var e;t.$destroy(),void 0!==(e=t.$el).remove?e.remove():e.parentNode.removeChild(e)},150)},showNotice:function(){var t=this;this.shouldQueue()?setTimeout(function(){return t.showNotice()},250):(this.correctParent.insertAdjacentElement("afterbegin",this.$el),this.isActive=!0,this.timer=setTimeout(function(){return t.close()},this.duration))},onClick:function(){this.dismissible&&(this.onClose.apply(null,arguments),this.close())}},computed:{correctParent:function(){switch(this.position){case"top-right":case"top":case"top-left":return this.parentTop;case"bottom-right":case"bottom":case"bottom-left":return this.parentBottom}},transition:function(){switch(this.position){case"top-right":case"top":case"top-left":return{enter:"fadeInDown",leave:"fadeOut"};case"bottom-right":case"bottom":case"bottom-left":return{enter:"fadeInUp",leave:"fadeOut"}}}}},function(){var t=this,e=t.$createElement,n=t._self._c||e;return n("transition",{attrs:{"enter-active-class":t.transition.enter,"leave-active-class":t.transition.leave}},[n("div",{directives:[{name:"show",rawName:"v-show",value:t.isActive,expression:"isActive"}],staticClass:"toast",class:["toast-"+t.type,"is-"+t.position],attrs:{role:"alert"},on:{click:t.onClick}},[n("p",{staticClass:"toast-text"},[t._v(t._s(t.message))])])])},[],!1,null,null,null).exports,a=function(t){var e=arguments.length>1&&void 0!==arguments[1]?arguments[1]:{};return{open:function(n){var o;"string"==typeof n&&(o=n);var i={message:o},s=Object.assign({},i,e,n);return new(t.extend(r))({el:document.createElement("div"),propsData:s})},clear:function(){s.$emit("toast.clear")},success:function(t){var e=arguments.length>1&&void 0!==arguments[1]?arguments[1]:{};return this.open(Object.assign({},{message:t,type:"success"},e))},error:function(t){var e=arguments.length>1&&void 0!==arguments[1]?arguments[1]:{};return this.open(Object.assign({},{message:t,type:"error"},e))},info:function(t){var e=arguments.length>1&&void 0!==arguments[1]?arguments[1]:{};return this.open(Object.assign({},{message:t,type:"info"},e))},warning:function(t){var e=arguments.length>1&&void 0!==arguments[1]?arguments[1]:{};return this.open(Object.assign({},{message:t,type:"warning"},e))},default:function(t){var e=arguments.length>1&&void 0!==arguments[1]?arguments[1]:{};return this.open(Object.assign({},{message:t,type:"default"},e))}}};n(1);r.install=function(t){var e=arguments.length>1&&void 0!==arguments[1]?arguments[1]:{},n=a(t,e);t.$toast=n,t.prototype.$toast=n};e.default=r}]).default});
 
 /***/ }),
 
@@ -80640,31 +91911,43 @@ module.exports = function(module) {
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _src_router_index__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./src/router/index */ "./resources/js/admin/src/router/index.js");
 /* harmony import */ var _src_plugin_vuetify_index__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./src/plugin/vuetify/index */ "./resources/js/admin/src/plugin/vuetify/index.js");
+/* harmony import */ var vue_toast_notification__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! vue-toast-notification */ "./node_modules/vue-toast-notification/dist/index.min.js");
+/* harmony import */ var vue_toast_notification__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(vue_toast_notification__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var vee_validate__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! vee-validate */ "./node_modules/vee-validate/dist/vee-validate.esm.js");
+/* harmony import */ var vue_toast_notification_dist_index_css__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! vue-toast-notification/dist/index.css */ "./node_modules/vue-toast-notification/dist/index.css");
+/* harmony import */ var vue_toast_notification_dist_index_css__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(vue_toast_notification_dist_index_css__WEBPACK_IMPORTED_MODULE_4__);
 __webpack_require__(/*! ../bootstrap */ "./resources/js/bootstrap.js");
 
 window.Vue = __webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.common.js");
 
 
-Vue.component('main-app', __webpack_require__(/*! @admin/layout/App.vue */ "./resources/js/admin/src/layout/App.vue")["default"]);
+
+
+
+Vue.use(vee_validate__WEBPACK_IMPORTED_MODULE_3__["default"]);
+Vue.use(vue_toast_notification__WEBPACK_IMPORTED_MODULE_2___default.a);
+Vue.component('main-app', __webpack_require__(/*! @admin/layout/Main.vue */ "./resources/js/admin/src/layout/Main.vue")["default"]);
 var app = new Vue({
   el: '#app',
   router: _src_router_index__WEBPACK_IMPORTED_MODULE_0__["default"],
-  vuetify: _src_plugin_vuetify_index__WEBPACK_IMPORTED_MODULE_1__["default"]
+  vuetify: _src_plugin_vuetify_index__WEBPACK_IMPORTED_MODULE_1__["default"],
+  VueToast: vue_toast_notification__WEBPACK_IMPORTED_MODULE_2___default.a,
+  VeeValidate: vee_validate__WEBPACK_IMPORTED_MODULE_3__["default"]
 });
 
 /***/ }),
 
-/***/ "./resources/js/admin/src/layout/App.vue":
-/*!***********************************************!*\
-  !*** ./resources/js/admin/src/layout/App.vue ***!
-  \***********************************************/
+/***/ "./resources/js/admin/src/layout/Main.vue":
+/*!************************************************!*\
+  !*** ./resources/js/admin/src/layout/Main.vue ***!
+  \************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _App_vue_vue_type_template_id_bd5ce136___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./App.vue?vue&type=template&id=bd5ce136& */ "./resources/js/admin/src/layout/App.vue?vue&type=template&id=bd5ce136&");
-/* harmony import */ var _App_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./App.vue?vue&type=script&lang=js& */ "./resources/js/admin/src/layout/App.vue?vue&type=script&lang=js&");
+/* harmony import */ var _Main_vue_vue_type_template_id_45643e25___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Main.vue?vue&type=template&id=45643e25& */ "./resources/js/admin/src/layout/Main.vue?vue&type=template&id=45643e25&");
+/* harmony import */ var _Main_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Main.vue?vue&type=script&lang=js& */ "./resources/js/admin/src/layout/Main.vue?vue&type=script&lang=js&");
 /* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
 
 
@@ -80674,9 +91957,9 @@ __webpack_require__.r(__webpack_exports__);
 /* normalize component */
 
 var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
-  _App_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
-  _App_vue_vue_type_template_id_bd5ce136___WEBPACK_IMPORTED_MODULE_0__["render"],
-  _App_vue_vue_type_template_id_bd5ce136___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  _Main_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _Main_vue_vue_type_template_id_45643e25___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _Main_vue_vue_type_template_id_45643e25___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
   false,
   null,
   null,
@@ -80686,213 +91969,38 @@ var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_
 
 /* hot reload */
 if (false) { var api; }
-component.options.__file = "resources/js/admin/src/layout/App.vue"
+component.options.__file = "resources/js/admin/src/layout/Main.vue"
 /* harmony default export */ __webpack_exports__["default"] = (component.exports);
 
 /***/ }),
 
-/***/ "./resources/js/admin/src/layout/App.vue?vue&type=script&lang=js&":
-/*!************************************************************************!*\
-  !*** ./resources/js/admin/src/layout/App.vue?vue&type=script&lang=js& ***!
-  \************************************************************************/
+/***/ "./resources/js/admin/src/layout/Main.vue?vue&type=script&lang=js&":
+/*!*************************************************************************!*\
+  !*** ./resources/js/admin/src/layout/Main.vue?vue&type=script&lang=js& ***!
+  \*************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_App_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../node_modules/babel-loader/lib??ref--4-0!../../../../../node_modules/vue-loader/lib??vue-loader-options!./App.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/admin/src/layout/App.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_App_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Main_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../node_modules/babel-loader/lib??ref--4-0!../../../../../node_modules/vue-loader/lib??vue-loader-options!./Main.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/admin/src/layout/Main.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Main_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
 
 /***/ }),
 
-/***/ "./resources/js/admin/src/layout/App.vue?vue&type=template&id=bd5ce136&":
-/*!******************************************************************************!*\
-  !*** ./resources/js/admin/src/layout/App.vue?vue&type=template&id=bd5ce136& ***!
-  \******************************************************************************/
+/***/ "./resources/js/admin/src/layout/Main.vue?vue&type=template&id=45643e25&":
+/*!*******************************************************************************!*\
+  !*** ./resources/js/admin/src/layout/Main.vue?vue&type=template&id=45643e25& ***!
+  \*******************************************************************************/
 /*! exports provided: render, staticRenderFns */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_App_vue_vue_type_template_id_bd5ce136___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../node_modules/vue-loader/lib??vue-loader-options!./App.vue?vue&type=template&id=bd5ce136& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/admin/src/layout/App.vue?vue&type=template&id=bd5ce136&");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_App_vue_vue_type_template_id_bd5ce136___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Main_vue_vue_type_template_id_45643e25___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../node_modules/vue-loader/lib??vue-loader-options!./Main.vue?vue&type=template&id=45643e25& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/admin/src/layout/Main.vue?vue&type=template&id=45643e25&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Main_vue_vue_type_template_id_45643e25___WEBPACK_IMPORTED_MODULE_0__["render"]; });
 
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_App_vue_vue_type_template_id_bd5ce136___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
-
-
-
-/***/ }),
-
-/***/ "./resources/js/admin/src/layout/footer.vue":
-/*!**************************************************!*\
-  !*** ./resources/js/admin/src/layout/footer.vue ***!
-  \**************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _footer_vue_vue_type_template_id_7e660be7___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./footer.vue?vue&type=template&id=7e660be7& */ "./resources/js/admin/src/layout/footer.vue?vue&type=template&id=7e660be7&");
-/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
-
-var script = {}
-
-
-/* normalize component */
-
-var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_1__["default"])(
-  script,
-  _footer_vue_vue_type_template_id_7e660be7___WEBPACK_IMPORTED_MODULE_0__["render"],
-  _footer_vue_vue_type_template_id_7e660be7___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
-  false,
-  null,
-  null,
-  null
-  
-)
-
-/* hot reload */
-if (false) { var api; }
-component.options.__file = "resources/js/admin/src/layout/footer.vue"
-/* harmony default export */ __webpack_exports__["default"] = (component.exports);
-
-/***/ }),
-
-/***/ "./resources/js/admin/src/layout/footer.vue?vue&type=template&id=7e660be7&":
-/*!*********************************************************************************!*\
-  !*** ./resources/js/admin/src/layout/footer.vue?vue&type=template&id=7e660be7& ***!
-  \*********************************************************************************/
-/*! exports provided: render, staticRenderFns */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_footer_vue_vue_type_template_id_7e660be7___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../node_modules/vue-loader/lib??vue-loader-options!./footer.vue?vue&type=template&id=7e660be7& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/admin/src/layout/footer.vue?vue&type=template&id=7e660be7&");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_footer_vue_vue_type_template_id_7e660be7___WEBPACK_IMPORTED_MODULE_0__["render"]; });
-
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_footer_vue_vue_type_template_id_7e660be7___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
-
-
-
-/***/ }),
-
-/***/ "./resources/js/admin/src/layout/header.vue":
-/*!**************************************************!*\
-  !*** ./resources/js/admin/src/layout/header.vue ***!
-  \**************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _header_vue_vue_type_template_id_c0cf204e___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./header.vue?vue&type=template&id=c0cf204e& */ "./resources/js/admin/src/layout/header.vue?vue&type=template&id=c0cf204e&");
-/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
-
-var script = {}
-
-
-/* normalize component */
-
-var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_1__["default"])(
-  script,
-  _header_vue_vue_type_template_id_c0cf204e___WEBPACK_IMPORTED_MODULE_0__["render"],
-  _header_vue_vue_type_template_id_c0cf204e___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
-  false,
-  null,
-  null,
-  null
-  
-)
-
-/* hot reload */
-if (false) { var api; }
-component.options.__file = "resources/js/admin/src/layout/header.vue"
-/* harmony default export */ __webpack_exports__["default"] = (component.exports);
-
-/***/ }),
-
-/***/ "./resources/js/admin/src/layout/header.vue?vue&type=template&id=c0cf204e&":
-/*!*********************************************************************************!*\
-  !*** ./resources/js/admin/src/layout/header.vue?vue&type=template&id=c0cf204e& ***!
-  \*********************************************************************************/
-/*! exports provided: render, staticRenderFns */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_header_vue_vue_type_template_id_c0cf204e___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../node_modules/vue-loader/lib??vue-loader-options!./header.vue?vue&type=template&id=c0cf204e& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/admin/src/layout/header.vue?vue&type=template&id=c0cf204e&");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_header_vue_vue_type_template_id_c0cf204e___WEBPACK_IMPORTED_MODULE_0__["render"]; });
-
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_header_vue_vue_type_template_id_c0cf204e___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
-
-
-
-/***/ }),
-
-/***/ "./resources/js/admin/src/layout/navbar.vue":
-/*!**************************************************!*\
-  !*** ./resources/js/admin/src/layout/navbar.vue ***!
-  \**************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _navbar_vue_vue_type_template_id_1d182fdc___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./navbar.vue?vue&type=template&id=1d182fdc& */ "./resources/js/admin/src/layout/navbar.vue?vue&type=template&id=1d182fdc&");
-/* harmony import */ var _navbar_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./navbar.vue?vue&type=script&lang=js& */ "./resources/js/admin/src/layout/navbar.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
-
-
-
-
-
-/* normalize component */
-
-var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
-  _navbar_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
-  _navbar_vue_vue_type_template_id_1d182fdc___WEBPACK_IMPORTED_MODULE_0__["render"],
-  _navbar_vue_vue_type_template_id_1d182fdc___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
-  false,
-  null,
-  null,
-  null
-  
-)
-
-/* hot reload */
-if (false) { var api; }
-component.options.__file = "resources/js/admin/src/layout/navbar.vue"
-/* harmony default export */ __webpack_exports__["default"] = (component.exports);
-
-/***/ }),
-
-/***/ "./resources/js/admin/src/layout/navbar.vue?vue&type=script&lang=js&":
-/*!***************************************************************************!*\
-  !*** ./resources/js/admin/src/layout/navbar.vue?vue&type=script&lang=js& ***!
-  \***************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_navbar_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../node_modules/babel-loader/lib??ref--4-0!../../../../../node_modules/vue-loader/lib??vue-loader-options!./navbar.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/admin/src/layout/navbar.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_navbar_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
-
-/***/ }),
-
-/***/ "./resources/js/admin/src/layout/navbar.vue?vue&type=template&id=1d182fdc&":
-/*!*********************************************************************************!*\
-  !*** ./resources/js/admin/src/layout/navbar.vue?vue&type=template&id=1d182fdc& ***!
-  \*********************************************************************************/
-/*! exports provided: render, staticRenderFns */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_navbar_vue_vue_type_template_id_1d182fdc___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../node_modules/vue-loader/lib??vue-loader-options!./navbar.vue?vue&type=template&id=1d182fdc& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/admin/src/layout/navbar.vue?vue&type=template&id=1d182fdc&");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_navbar_vue_vue_type_template_id_1d182fdc___WEBPACK_IMPORTED_MODULE_0__["render"]; });
-
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_navbar_vue_vue_type_template_id_1d182fdc___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Main_vue_vue_type_template_id_45643e25___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
 
 
 
@@ -80913,7 +92021,14 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var vuetify__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(vuetify__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var vuetify_dist_vuetify_min_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! vuetify/dist/vuetify.min.css */ "./node_modules/vuetify/dist/vuetify.min.css");
 /* harmony import */ var vuetify_dist_vuetify_min_css__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(vuetify_dist_vuetify_min_css__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var material_design_icons_iconfont_dist_material_design_icons_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! material-design-icons-iconfont/dist/material-design-icons.css */ "./node_modules/material-design-icons-iconfont/dist/material-design-icons.css");
+/* harmony import */ var material_design_icons_iconfont_dist_material_design_icons_css__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(material_design_icons_iconfont_dist_material_design_icons_css__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var _mdi_font_css_materialdesignicons_css__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @mdi/font/css/materialdesignicons.css */ "./node_modules/@mdi/font/css/materialdesignicons.css");
+/* harmony import */ var _mdi_font_css_materialdesignicons_css__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_mdi_font_css_materialdesignicons_css__WEBPACK_IMPORTED_MODULE_4__);
 
+
+
+ // Ensure you are using css-loader
 
 
 vue__WEBPACK_IMPORTED_MODULE_0___default.a.use(vuetify__WEBPACK_IMPORTED_MODULE_1___default.a);
@@ -80931,13 +92046,16 @@ var opts = {};
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.common.js");
-/* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(vue__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var vue_router__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! vue-router */ "./node_modules/vue-router/dist/vue-router.esm.js");
+/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! axios */ "./node_modules/axios/index.js");
+/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(axios__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.common.js");
+/* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(vue__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var vue_router__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! vue-router */ "./node_modules/vue-router/dist/vue-router.esm.js");
 
 
-vue__WEBPACK_IMPORTED_MODULE_0___default.a.use(vue_router__WEBPACK_IMPORTED_MODULE_1__["default"]);
-var router = new vue_router__WEBPACK_IMPORTED_MODULE_1__["default"]({
+
+vue__WEBPACK_IMPORTED_MODULE_1___default.a.use(vue_router__WEBPACK_IMPORTED_MODULE_2__["default"]);
+var router = new vue_router__WEBPACK_IMPORTED_MODULE_2__["default"]({
   mode: 'history',
   base: '/',
   scrollBehavior: function scrollBehavior() {
@@ -80949,9 +92067,61 @@ var router = new vue_router__WEBPACK_IMPORTED_MODULE_1__["default"]({
   routes: [{
     path: '/',
     component: function component() {
-      return __webpack_require__.e(/*! import() */ 0).then(__webpack_require__.bind(null, /*! @admin/pages/dashboard/index.vue */ "./resources/js/admin/src/pages/dashboard/index.vue"));
-    }
+      return __webpack_require__.e(/*! import() */ 0).then(__webpack_require__.bind(null, /*! @admin/layout/App.vue */ "./resources/js/admin/src/layout/App.vue"));
+    },
+    meta: {
+      requiresAuth: true
+    },
+    children: [{
+      path: 'admin/waiting',
+      component: function component() {
+        return __webpack_require__.e(/*! import() */ 1).then(__webpack_require__.bind(null, /*! @admin/pages/appointment/index.vue */ "./resources/js/admin/src/pages/appointment/index.vue"));
+      },
+      name: 'waiting'
+    }, {
+      path: 'admin/approved',
+      component: function component() {
+        return __webpack_require__.e(/*! import() */ 4).then(__webpack_require__.bind(null, /*! @admin/pages/appointment/approve.vue */ "./resources/js/admin/src/pages/appointment/approve.vue"));
+      },
+      name: 'approved'
+    }, {
+      path: 'admin/userlist',
+      component: function component() {
+        return __webpack_require__.e(/*! import() */ 2).then(__webpack_require__.bind(null, /*! @admin/pages/user/index.vue */ "./resources/js/admin/src/pages/user/index.vue"));
+      },
+      name: 'userlist'
+    }]
+  }, {
+    path: '/admin/login',
+    component: function component() {
+      return __webpack_require__.e(/*! import() */ 3).then(__webpack_require__.bind(null, /*! @admin/layout/login.vue */ "./resources/js/admin/src/layout/login.vue"));
+    },
+    name: 'login'
   }]
+});
+router.beforeEach(function (to, from, next) {
+  axios__WEBPACK_IMPORTED_MODULE_0___default.a.get("/admin/api/checkuser").then(function (_ref) {
+    var data = _ref.data;
+
+    if (to.matched.some(function (record) {
+      return record.meta.requiresAuth;
+    })) {
+      // this route requires auth, check if logged in
+      // if not, redirect to login page.
+      if (!data) {
+        next({
+          name: 'login',
+          query: {
+            redirect: to.fullPath
+          }
+        });
+      } else {
+        next();
+      }
+    } else {
+      next(); // make sure to always call next()!
+    }
+  });
 });
 /* harmony default export */ __webpack_exports__["default"] = (router);
 
@@ -80973,6 +92143,7 @@ window._ = __webpack_require__(/*! lodash */ "./node_modules/lodash/lodash.js");
 
 window.axios = __webpack_require__(/*! axios */ "./node_modules/axios/index.js");
 window.axios.defaults.headers.common['X-Requested-With'] = 'XMLHttpRequest';
+window.axios.defaults.withCredentials = true;
 /**
  * Echo exposes an expressive API for subscribing to channels and listening
  * for events that are broadcast by Laravel. Echo and event broadcasting
@@ -80996,7 +92167,7 @@ window.axios.defaults.headers.common['X-Requested-With'] = 'XMLHttpRequest';
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! /var/www/html/resources/js/admin/app.js */"./resources/js/admin/app.js");
+module.exports = __webpack_require__(/*! /home/qonvex/projects/appointment/resources/js/admin/app.js */"./resources/js/admin/app.js");
 
 
 /***/ })
