@@ -1,5 +1,4 @@
 /node_modules
-/public/*
 /public/storage
 /dockerize/mysql/data
 /storage/*.key

@@ -14,6 +14,6 @@
         <div id="app">
             <main-app></main-app>
         </div>
-        <script src="{{ asset('js/admin/app.js')}}"></script>
+        <script src="{{ mix('js/adminjs/app.js')}}"></script>
     </body>
 </html>

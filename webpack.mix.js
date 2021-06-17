@@ -21,7 +21,7 @@ mix.webpackConfig({
  */
 
 mix
-.js('resources/js/admin/app.js', 'js/admin')
+.js('resources/js/admin/app.js', 'js/adminjs')
 // .sass('resources/backoffice/sass/app.scss', 'backoffice/css')
 
 // mix.js('resources/js/app.js', 'public/js')
@@ -29,4 +29,4 @@ mix
    //         //
    //     ]);
 mix
-.js('resources/js/front/app.js', 'js/front')
+.js('resources/js/front/app.js', 'js/frontjs')
