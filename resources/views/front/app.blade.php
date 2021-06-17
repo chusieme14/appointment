@@ -14,6 +14,6 @@
         <div id="front-app">
             <main-app></main-app>
         </div>
-        <script src="{{ mix('js/frontjs/app.js')}}"></script>
+        <script src="{{ asset('js/frontjs/app.js')}}"></script>
     </body>
 </html>
