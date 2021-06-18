@@ -1,4 +1,4 @@
 {
-    "/js/adminjs/app.js": "/js/adminjs/app.js",
-    "/js/frontjs/app.js": "/js/frontjs/app.js"
+    "/js/app.js": "/js/app.js",
+    "/js/front_app.js": "/js/front_app.js"
 }
