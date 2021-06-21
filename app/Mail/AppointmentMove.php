@@ -34,12 +34,12 @@ class AppointmentMove extends Mailable
     public function build()
     {
         if($this->data->isdate)
-            return $this->view('email.movedateappointment')->with('data',$this->data);
+            return $this->from('paul.anderson.b.garcia@gmail.com')->view('email.movedateappointment')->with('data',$this->data);
         if($this->data->isdepartment){
-            return $this->view('email.movedepappointment')->with('data',$this->data ,'department',$this->department);
+            return $this->from('paul.anderson.b.garcia@gmail.com')->view('email.movedepappointment')->with('data',$this->data ,'department',$this->department);
         }
         if($this->data->both){
-            return $this->view('email.movebothappointment')->with('data',$this->data, 'department',$this->department);
+            return $this->from('paul.anderson.b.garcia@gmail.com')->view('email.movebothappointment')->with('data',$this->data, 'department',$this->department);
         }
     }
 }

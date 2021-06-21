@@ -29,6 +29,6 @@ class AppointmentAccept extends Mailable
      */
     public function build()
     {
-        return $this->view('email.acceptappointment')->with('data',$this->data);
+        return $this->from('paul.anderson.b.garcia@gmail.com')->view('email.acceptappointment')->with('data',$this->data);
     }
 }

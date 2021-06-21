@@ -31,6 +31,6 @@ class AppointmentRemove extends Mailable
      */
     public function build()
     {
-        return $this->view('email.removeappointment')->with('data',$this->data ,'department',$this->department);
+        return $this->from('paul.anderson.b.garcia@gmail.com')->view('email.removeappointment')->with('data',$this->data ,'department',$this->department);
     }
 }
